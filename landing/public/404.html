@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>PodDeck — 跳转中...</title>
+  <style>
+    body {
+      font-family: ui-sans-serif, system-ui, sans-serif;
+      background: #fafaf9;
+      color: #44403c;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .box {
+      text-align: center;
+      max-width: 480px;
+      padding: 2rem;
+    }
+    h1 { font-size: 1.5rem; margin: 0 0 0.5rem; }
+    p { color: #78716c; font-size: 0.9rem; line-height: 1.5; }
+    a { color: #2563eb; }
+  </style>
+  <script>
+    // SPA fallback for GitHub Pages.
+    // GH Pages serves this file for any unknown path. We detect if the path
+    // is /episodes/<id>/<rest> and redirect to /episodes/<id>/ which is the
+    // SPA entry. The slide number (if any) becomes a hash so the SPA can
+    // pick it up if it cares. For pure /<unknown> paths, fall through to
+    // the visible "lost" page below.
+    (function () {
+      var path = window.location.pathname
+      var match = path.match(/^(.*\/episodes\/[^\/]+\/)(.*)$/)
+      if (match) {
+        var spaRoot = match[1]
+        var rest = match[2] || ''
+        // Slidev uses /N for slide N — redirect with same shape
+        window.location.replace(spaRoot + (rest ? rest : '') + window.location.search + window.location.hash)
+        return
+      }
+      // Not an episode deep link — just bounce to home after a moment
+      setTimeout(function () {
+        // Allow visible message to show briefly
+      }, 100)
+    })()
+  </script>
+</head>
+<body>
+  <div class="box">
+    <h1>404 · 找不到这个页面</h1>
+    <p>这个 URL 不在 PodDeck 上。<br />如果你点的是某集的深度链接，正在跳转到该集首页。</p>
+    <p><a href="/">← 回到 PodDeck 首页</a></p>
+  </div>
+</body>
+</html>

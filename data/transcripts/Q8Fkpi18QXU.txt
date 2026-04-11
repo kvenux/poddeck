@@ -1,0 +1,2597 @@
+Okay, today I'm chatting with Terrance
+Tao, who needs no introduction.
+Terrance, I want to begin by having you
+retell the story of how Kepler
+discovered the laws of planetary motion,
+because I think this will be a great
+jumping off point to talk about AI for
+math. Okay, yeah. So, I've always had an
+amateur interest in astronomy, and so
+I've I've loved stories of how the early
+astronomers worked out
+the nature of the universe. Um
+So, Kepler was building on the work of
+Copernicus,
+who was himself building on the work of
+Aristarchus.
+So, Copernicus very famously proposed
+the heliocentric model, that instead of
+the planets and sun going around the
+Earth, that the sun was at the center of
+the solar system, and the other planets
+were going around the sun. And
+Copernicus proposed that the orbits of
+the planets were perfect circles. And
+his theory kind of fit the observations
+that
+the the Greeks and the Arabs and the
+Indians had worked out over over
+centuries. Um
+I think
+Kepler got interested
+like he learned about these these
+theories in his in his studies, and he
+made his observation that the ratios of
+the size of the orbits that Copernicus
+predicted seemed to have some geometric
+meaning. I think
+yeah, he he started proposing that you
+know, if you if you take say the orbit
+of
+say the Earth and you enclose it in I
+think maybe a cube, um the the outer
+sphere of that that encloses the cube
+almost match perfectly the orbit of
+Mars, and so forth. Um And there were
+six planets known at the time, five gaps
+between them, and it five perfect
+platonic solids, the cube, the
+tetrahedron, icosahedron, octahedron,
+and dodecahedron. And so, he had this
+this theory which he thought was
+absolutely beautiful, that you could
+inscribe these platonic solids between
+the spheres of the planets, and it
+seemed to fit. And
+it seemed to be to him like you know,
+God's design of the planets was was
+matching this mathematical perfection of
+the platonic solids.
+So, he needed data to confirm this
+theory. And at the time there was only
+one really high-quality data set um
+it come almost into existence, okay,
+which was the So, Tycho Brahe, a Danish
+astronomer, very wealthy, eccentric
+astronomer, had managed to convince the
+Danish government to fund this
+extremely expensive observatory, this in
+fact an entire island, um where he had
+taken decades of observations of all the
+planets, Mars, Jupiter,
+every night at least every night for
+which the weather was clear.
+With the naked eye, actually. This is he
+was last of the of the naked eye
+astronomers.
+And so, he had all this data which
+Kepler could use to confirm his theory.
+And so, Kepler started working with with
+Tycho, but Tycho was very jealous of the
+data. He only gave little bit bits of it
+at a time. Um and I think Kepler
+eventually just stole the data. He He
+copied it and and had to have a fight
+with with
+Brahe's descendants. Um but he did work
+out he took the data and then he worked
+out to kind of his disappointment that
+his beautiful theory didn't quite work.
+Like the data was sort of off from his
+platonic solid theory by you know, about
+10% or something. And he tried all kinds
+of fudges, moving the circles around and
+things, and it it it it didn't quite
+work.
+But he worked on this problem for for
+for years and years, and eventually he
+figured out how to use the data to to
+work out the actual orbits of
+of the planets,
+and that was incredibly clever genius
+amount of data analysis.
+And yeah, and then he eventually worked
+out that the
+the orbits were actually ellipses, not
+circles, which was shocking to him. And
+then he worked out
+so, he worked out the two laws of
+planetary two laws of planetary motion,
+the ellipses also equal areas swept out
+equal times. Um
+And then 10 years later, after
+collecting a lot of data, that the the
+the furthest planets like like Saturn
+and Jupiter were the hardest for him to
+to work out, but then he he finally
+worked out this third law also, that uh
+um
+that the the orbits the the the the time
+it takes for a planet to complete its
+orbit was proportional to some power of
+of the distance to the sun. And these
+are the three famous Kepler's laws of
+motion,
+and he had no explanation for them. It
+it it was just all driven by by
+experiment, and it took Newton a century
+later to give a theory that explained
+all three laws at once.
+The
+take I want to try on you is that Kepler
+was a high-temperature LLM.
+&gt;&gt; [laughter]
+&gt;&gt; Where Newton comes up with this
+explanation of why the three laws of
+planetary motion must be true. And of
+course, the way that Kepler discovers
+the laws of planetary motion or
+figures out the relative orbits of the
+different planets is as you say, a work
+of genius. But then you know, he's
+through his career, he's just trying
+random relationships. And in fact, at
+the in the book in which he writes down
+the third law of planetary motion, it's
+sort of
+on the side on the harmonics of the
+world, which is this book about, you
+know, all these different planets have
+these different harmonies, and the
+reason there's so much famine and misery
+on Earth is because the Earth is
+me-fa-me, that's the note of Earth. And
+so, all this random astrology, but it in
+there is the cube-square law, which
+tells you what relationship the
+the period has to a planet's distance
+from the sun, which is as you were
+detailing,
+if you add that to Newton's F equals MA
+and then the equation for centripetal
+acceleration, you get the inverse square
+law.
+And so, Newton works that out, but the
+reason I um I think this is an
+interesting story
+is I feel like LLMs could do the kind of
+thing of like 20 years, let's try random
+relationships, some of which make no
+sense, as long as there's a verifiable
+data bank like Brahe's data set, where
+okay, I'm going to try out random things
+about like musical notes. I'm going to
+try out random things about platonic
+objects. I'm going to all these
+different geometries. I have this bias
+that there's some important thing about
+the geometry of these orbits, and then
+one thing works. And as long as you can
+verify it, it can then drive these
+empirical regularities can then drive
+actual deep scientific progress.
+Traditionally, when we talk about the
+history of science,
+idea generation has always been kind of
+the prestige part of science. So, I
+mean, a scientific problem comes with
+there's many steps, you know, you you
+have to identify a problem, and then you
+have to identify a good problem to work
+on, a fruitful problem.
+And then you need to to collect data,
+you need to figure out a strategy to
+analyze the data, to make a hypothesis.
+And at this point, you need to propose a
+good hypothesis, and then you need to
+validate. So, yeah, so there's and then
+need to write things up and explain.
+There's this there's there's
+a dozen different components. Um but
+yeah, the the ones we celebrate these
+sort of eureka genius moments of of idea
+generation. Um
+And
+yeah, so so Kepler certainly had to to
+as you say, cycle through many ideas,
+and and several which didn't work, and
+and I I bet many that he didn't even
+publish at all, because yeah, they they
+they just didn't fit. And that's an
+important part of the process,
+trying all kinds of of of random things
+and seeing if they worked. Um But as you
+say, the
+you know, the it had to be matched by an
+equal amount of verification, otherwise
+it's it's slop. I mean, um
+we we celebrate Kepler, but we should
+also celebrate Brahe for for his his his
+assiduous data collection, which was 10
+times more precise than than any
+previous observation. And it
+that extra decimal point of accuracy was
+actually essential for Kepler to get his
+his results. Um And you know, and he was
+using you know, Euclidean geometry and
+and and like like the most advanced
+mathematics he could
+use at the time to to match his
+models to the data. So, like all aspects
+had to be in play, you know, the the the
+data and the theory and the the
+hypothesis generation.
+I'm not sure nowadays that hypothesis
+generation is the bottleneck anymore. Um
+Science has changed in in in the century
+since. So,
+classically, sort of the the two big
+paradigms for for for science were
+theory and experiment.
+Um And then in the 20th century,
+numerical simulation came along. And so,
+we can also do computer simulations of
+of of of to test theories.
+But then finally, in the late 20th
+century, we had big data. Now, we we had
+the the the era of data analysis.
+And so, a lot of new progress is
+actually driven now by analyzing massive
+data sets first, collecting large data
+sets, and then drawing the patterns from
+them to deduce laws, which is a little
+bit different from how science used to
+work, where you you make a few
+observations, or you just have one out
+of the blue idea,
+and then you collect data to test your
+idea. That's the classic scientific
+method.
+Now, it's almost reversed. You collect
+big data first, and then you you try to
+to get hypotheses from it. Um
+I mean, Kepler was maybe one of the
+first early data scientists, but but
+even even he didn't start with Ty-
+Tycho's data set and and analyze it. He
+had He had some preconceived theories
+first.
+But it's it seems like this is less and
+less the way we make progress in in in
+just because
+yeah, the data is is just so much more
+massive, it's just so much more useful.
+Oh, interesting. I I
+actually feel like the more the 20th
+century science that you're describing
+is actually very well describes what
+happened with Kepler, where he did have
+these ideas
+um 1595 and '96 is where he comes up
+with first polygons and then platonic
+objects theory. But they were wrong. And
+then a few years later, he gets Brahe's
+data, and it's only after 20 years of
+just trying random things that he gets
+this empirical regularity. And so, it
+actually feels a closer to Brahe's data
+is analogous to
+some massive data bank of simulations,
+and then we he now he now that you've
+got the data, you can keep trying random
+things. But if it wasn't, Kepler would
+be out there just writing books about
+harmonics and the platonic objects, and
+there would be nothing to actually
+verify against.
+&gt;&gt; Yeah, yeah, yeah. So, the
+the data was extremely important, but
+the distinction I'm trying to make is
+that sort of traditionally, you make a
+hypothesis, and then you test it against
+data. Um But
+now with machine learning and data
+analysis and statistics, and so on, you
+you can you can start with data, and um
+through say statistics, work out,
+laws that
+were not present before. So, and so
+Kepler's so Kepler's third law is a
+little bit like this, except that for
+the third law, instead of having the
+thousand data points that Brahe had,
+Kepler had like six data points to like
+every planet you need the length of the
+orbit and the the distance to the sun
+and there was like five or six data
+points and he did what we would now call
+regression. You know, he he could fit a
+curve to these six data points and he
+got a square cube law, which was
+amazing,
+but actually he was quite lucky. I mean,
+that these six data points gave him the
+right conclusion. Um
+you know, it's that's not enough data to
+be really reliable. Um
+There was a later astronomer, Johannes
+Bode,
+who took the same the same data,
+actually, the the distances to to the
+planets and inspired by Kepler, I think
+he had a prediction that the the the the
+distances to the planets formed
+basically a shifted geometric
+progression. He also fit a curve.
+Except there was there was one there was
+one point missing. So, there was a big
+gap between Mars and Jupiter.
+His law predicted that there was a
+missing planet. It was a kind of a a
+crank theory, except when Uranus was
+discovered by Herschel,
+the the distance to Uranus fit exactly
+this this pattern.
+And then Ceres was discovered, this
+asteroid between
+I think in the asteroid belt and it also
+fit the pattern. So, people got really
+excited that that that that that Bode
+had discovered this this amazing new law
+of nature,
+but then Neptune was discovered and it
+was completely like way off
+and you know, and and basically it was
+just a numerical fluke. You know, there
+was
+six data points.
+Um
+Yeah, so maybe one reason why Kepler
+didn't highlight his third law as much
+as the first two laws is that maybe
+instinctively, even though he didn't
+have modern statistics, he kind of knew
+that with six data points he had to be
+somewhat tentative
+with the conclusions. But maybe to
+ask the
+question about the analogy more
+explicitly.
+Does this analogy make sense to if we
+have you know, in the future we'll have
+smarter and smarter AIs and we'll have
+millions of them.
+And then they can go out and hunt for
+all these empirical regularities.
+It sounds like you don't think the
+bottleneck in science is
+finding more things that are for each
+given field their equivalent of the
+third law of planetary motion so that
+then later on somebody can say, oh, we
+need a way to explain this. Let's work
+out the math. Here here is the inverse
+square law of gravity. Right. So, I
+think AI has basically driven the cost
+of idea generation down to almost zero
+in a very similar way to how the
+internet drove the cost of communication
+down to almost zero,
+which is an amazing thing, but it you
+know, it it it doesn't make it doesn't
+create abundance by itself.
+Yeah, so now the bottleneck is is
+different.
+So, we're now in a situation where
+suddenly people can generate thousands
+of theories for
+a given
+scientific problem. And now we have to
+to verify them, evaluate them and this
+is something which we we have to to
+change our structures of science to
+actually sort this out. So, you know, in
+fact, traditionally we we built walls,
+you know, so in in the past, you know,
+before we had AI slop, you know, we we
+had sort of amateur scientists, you
+know, create you know, have their own
+theories of the universe, many of which
+were basically of very little value.
+And so we built these like, you know,
+peer review publication systems and
+things to kind of filter out and try to
+to isolate the high signal um
+ideas to to test, but but now that we
+can generate these these these these
+possible explanations at massive scale
+and some of them are good and a lot are
+terrible. Um
+I mean, there's human reviewers we just
+it's just
+they're already being overwhelmed,
+actually.
+Many many journals are reporting AI
+generated submissions are just are just
+are just flooding their submissions. So,
+it's great that we can generate all
+kinds of things now with AI, but it it
+means that we have to the rest of the
+rest of the aspects of science have to
+catch up. Yeah, so verification,
+validation
+and and assessing
+what ideas actually move the subject
+forward and and what which ones are dead
+ends or or or red herrings and that's
+that's not something where we've we know
+how to do at scale.
+You know, for each individual paper we
+can discuss it with, you know, have a
+debate among scientists and get to a
+consensus in a few years, but when we're
+generating, you know, a thousand of
+these every day, yeah, this doesn't
+work. So, I think there is this
+incredibly interesting question of we
+have billions of AI scientists.
+Not only how do you gauge which ones are
+real progress, but how do you I mean,
+this is actually a question that human
+scientists had to face and we've solved
+somehow and I'm I actually I'm not sure
+how we solved this, but
+in any given field
+let's say in the 1940s and there's if
+you're at Bell Labs or if you're just
+generally trying to these these new
+technologies coming out
+pulse code modulation, basically how do
+you transfer signals, how do you
+digitize signals, how do you transfer
+them over analog wires? And then but
+there's like all these papers about the
+engineering constraints there and the
+details and then there's one which is
+like comes up with the idea of the bit,
+which has implications across many
+different fields and you need some
+system which can then look at that and
+say, okay, we need to apply this to
+probability, we need to apply this to
+computer science, etc.
+For in the future the AIs are coming up
+with, you know, the next version of this
+kind of unifying concept and how would
+you identify it among millions of papers
+which might actually constitute
+progress, but which have much less
+general unifying ideas. A lot of it is
+the test of time. So, so many great
+ideas didn't actually get a great
+reception at the time that they were
+first proposed. It was only after some
+other scientists
+realized that that that they could take
+it further and apply them to their own.
+Deep learning itself was actually a
+niche area of AI for a long time. The
+idea of of getting answers entirely
+through training on data and and not
+through first principles you know,
+reasoning was was was very controversial
+and they would just took a long time
+before it actually started
+bearing fruit.
+You know, you mentioned the bit, you
+know, I mean, there were there were
+other proposals for computer
+architectures than the zero one that is
+universal today. I think there there
+were there were trits, you know, zero
+one
+three valued logic and
+you know, in an alternate universe maybe
+a different paradigm would have would
+have showed up.
+People have argued that, you know, the
+the transformer, for example, is is the
+foundation of all modern large language
+models and it was the first
+deep learning architecture that really
+was was sophisticated enough to capture
+language, but it didn't have to be that
+way. There there could have been some
+other architecture that um
+was the first to do it and
+once that was adopted it would become
+the standard. Um so, I think
+one reason why it's hard to assess
+whether a given idea is going to be
+fruitful is that it it depends on the
+future. It it depends on and it it
+depends on also on the culture and
+society like like which ones get
+adopted, which ones don't. Um
+You know, the base 10
+numeral system in mathematics extremely
+useful, much better than the Roman
+numeral system, for instance. Um but
+again, there's nothing special about 10.
+It's it's a system that we it's useful
+for us because everyone else uses it
+and we've standardized it and we've
+built all our
+computers and our and our number
+representation systems around it and so
+we're stuck with it now, actually. You
+know, people are some people
+occasionally push for other systems than
+decimal, but um it's there's there's no
+there's no
+there's too much inertia.
+So,
+you you can't look at any given
+scientific achievement purely in
+isolation and give it an objective grade
+without
+being aware of the context both in the
+the past and the future.
+And so it it it may never be something
+that you can just reinforcement learn
+the same way that
+that you can for much sort of more
+localized problems.
+Yeah.
+It seems often in the history of science
+when what when a new theory comes up
+that in retrospect we realize is
+correct, it seems to make implications
+that just either make no sense because
+they're wrong and we realize later on
+why they're wrong or they're correct,
+but seem wildly impossible at the time.
+So, in as you talked about, Aristarchus
+had heliocentrism in the third century
+BC and then um
+the ancient Athenians were like, this
+can't be because it wouldn't if the
+Earth is going around the sun, we should
+see the relative position of the stars
+change as we're going around the sun and
+the only way that wouldn't be the case
+is if they're so far away that
+that you don't notice any parallax,
+which is actually the correct
+implication. But there's times when the
+actually the implication is incorrect
+and we just need to graduate to a better
+level of understanding. So, Leibniz
+would
+you know, chide Newton and disagree with
+Newton's theory of gravity on the basis
+that it implied action at a distance
+and then there's we don't know the
+mechanism and
+Newton himself was sort of stunned that
+inertial mass and gravitational mass
+were the same quantity. So, all these
+things were later to be resolved by
+Einstein.
+&gt;&gt; Yes, yes. But it was still progress. And
+so
+the question for a system of peer review
+for AI would be even if you can falsify
+a theory, how would you notice that it
+still constitutes progress relative to
+things before? Yeah, so it
+often actually the the ultimately
+correct theory initially is is worse in
+many ways. Yeah, so Copernicus's theory
+of of the planets, it was less accurate
+than Ptolemy's theory. Yeah, so so
+geocentrism had been developed for for
+you know,
+a millennium by that point and they had
+they had many many many tweaks and and
+had very increasingly complicated ad hoc
+fixes to to make it more and more
+accurate
+and Copernicus's theory was a lot
+simpler, but but much less accurate. It
+was only Kepler that made it more
+accurate than Ptolemy's theory. I mean,
+science is always a work in progress.
+You know, so yeah, so when you only get
+part of of the solution, it it looks
+worse than than
+theory which is incorrect, but somehow
+if you if has been completed to the
+point where it it it kind of answers all
+the questions.
+As you say,
+you know, Newton's theory had
+had big mysteries,
+the equivalence of mass and action at a
+distance, which were
+only resolved with a very conceptually
+different
+approach
+centuries afterwards.
+progress has been made actually not by
+adding more theories but by deleting
+some assumptions that you you have in in
+in in your mind. So, um,
+you know, one reason why geocentrism
+held on for so long is is we we had this
+idea that that objects, um, naturally
+want to stay at rest. This is the
+Aristotelian notion of physics. And so,
+the idea that the Earth was moving, you
+know, how can we not all sort of all
+falling over?
+You know, once you have Newton's laws of
+motion, you know, object in motion
+remains in motion and so forth, then
+then then it it makes sense. But, um,
+you had to so conceptually, it it's it's
+a very big conceptual leap to to realize
+that that that the Earth is is in
+motion. It doesn't feel like it's in
+motion. Um,
+and like the biggest advances, you know,
+Darwin's uh theory of evolution, you
+know, is um
+the the idea that that species are are
+not static. Um, but you know, it's it's
+not obvious cuz you you you don't see
+evolution in in in your lifetime. Uh
+well, now we can actually can, but um
+but um but um
+you know, it's it's it's it it seems it
+seems permanent uh and static.
+Um,
+you know, right now we're going through
+uh an in um an cognitive version of the
+Copernican revolution where we used to
+think that human intelligence is the
+center of the universe. And now we're
+actually seeing that there's there's
+very different types of intelligence um
+that that that are out there uh with
+very different strengths and weaknesses.
+Um, and so,
+um our assess- assessment of which tasks
+require intelligence and which ones
+don't, um, has to be um re- re-evaluated
+um and so, you know, it's it's trying to
+fit AI into sort of our theories of
+scientific progress and and and and what
+is hard and what is easy. Um, we're
+struggling quite a lot. Uh we have to
+ask questions that we've never really
+had to ask before. Or or maybe the
+philosophers had, but now we all have to
+deal with it. That this actually
+brings up a topic I've I've been very
+curious about. So, you mentioned
+Darwin's theory of evolution.
+There's this book The Clockwork Universe
+by Edward Dolnick which covers a lot of
+this era of history we're talking about.
+And he [clears throat] has this
+interesting observation in there that um
+Origin of Species is published in 1859.
+The Principia Mathematica is published
+in 1687.
+So, The Origin of Species comes out
+basically two centuries after the
+Principia. And conceptually it seems
+like Darwin's theory is simpler. Um,
+there's a contemporaneous biologist to
+Darwin who reads The Origin of Species,
+Thomas Huxley, and he says,
+"How stupid not to have thought of
+that?" And nobody ever says that about
+Principia. They're chiding themselves
+for not having beaten Newton to
+um to gravity. And so, there's a
+question of, "Well, why did it take
+longer?" It seems like a a big part of
+the reason is that the evidence for
+natural selection is cumulative and
+retrospective, whereas Newton can just
+like
+here's here's my equations. Let me see
+the moon's orbital period and its uh
+distance.
+If it lines up, then we've made
+progress. And so, Lucretius actually had
+the idea this idea that species adapt to
+their environment in the 1st century BC,
+but nobody ever like really talks about
+it until Darwin because there's
+Lucretius can't run some experiment and
+people are like forced to pay attention.
+And so, I wonder if we'll in retrospect
+end up seeing much more progress in
+domains which are
+have this kind of tight data loop where
+you can verify them quite uh easily even
+though they're conceptually much more
+difficult. I think one one aspect of
+science is it's it's not just it
+creating new theory and validating it,
+um, but communicating it to others. Uh
+so, so Darwin was actually an amazing
+science communicator. Um, he he uh he
+wrote in English in natural uh natural
+language. I'm speaking like
+&gt;&gt; in um
+uh in no lean.
+Okay, my my yeah, okay. Um, I have to
+have to sort of
+get out of my my technical mindset.
+Yeah, okay. He spoke in plain English.
+you know, didn't use equations.
+And he he synthesized a lot of um you
+know, disparate facts. Yeah, so, you
+know, little pieces of evolution had
+been worked out in the past, but he had
+this very compelling um
+vision. And and again, still missing
+things like he didn't know the mechanism
+for for for for hereditary.
+Uh he didn't know DNA. Okay, and um
+yeah, but uh his writing style was
+persuasive and that that helped a lot.
+Um, Newton wrote in Latin. Um, yeah, he
+he he he had to do it invented, you
+know, entire new areas of mathematics
+just to explain what he was doing. Um,
+he was also from an era which was where
+scientists were much more secretive and
+competitive. Um, so, you know, academia
+is still competitive, but it was even
+worse
+back in Newton's day. Um, so, he he held
+back some of his best insights because
+he didn't want his rivals to get any
+advantage. Um,
+he was also like a somewhat unpleasant
+person from what I what I what I
+gathered actually. Um,
+so, um it was actually only a couple
+decades after Newton where other
+scientists explained his work in much
+simpler terms that they became um
+widespread.
+so, um yeah, the the the the art of
+exposition and making a case and
+creating a narrative, um,
+is uh is also a very important part of
+science. Um, and um
+if you have the data and the it helps,
+but but people need to be convinced.
+Otherwise, they will not push it further
+or they will not take initial investment
+to uh to to learn your theory and really
+and really explore it.
+and that's another thing which is really
+hard to reinforce on learning. Uh yeah,
+how how can you score how persuasive you
+are? Okay, well, okay, there's the
+entire marketing departments who are
+trying to do this. So, maybe it's good
+that AI are not yet optimized to be
+uh persuasive.
+So, yeah, there's there's there's
+there's there's a social aspect to
+science.
+You
+even though we pride ourselves on having
+an objective um side to it where there's
+data and there's experiment and
+validation. Um, we we still have to tell
+stories and convince our fellow
+scientists. Um,
+and that's a
+a soft squishy thing like it it's, you
+know, it's it's a combination of data
+and
+yeah, and
+uh painting a narrative and and it's
+been out of the gaps, you know, I mean,
+as you know, so
+so even Darwin said there were there
+were pieces of his theory he could not
+explain.
+But, he could still make a case that,
+you know, in the future people would uh
+would would would find transitional
+forms, that they would find the
+mechanism of inheritance, and they did.
+Yeah, um I don't know how you can
+quantify that in such a precise way that
+that you can start to reinforce on
+learning.
+Um, maybe that will be forever the human
+side of science.
+One
+takeaway I had from uh reading and
+watching yourself on the Cosmic Distance
+Ladder. By the way, I I highly highly
+highly recommend people watch your
+series with Through the Wormhole on the
+Cosmic Distance Ladder. But, um
+one takeaway was that the deductive
+overhang
+in many fields could be so much bigger
+than people realize where if if you
+[snorts] just had the right insight
+about how to study a problem,
+you might be surprised at how much more
+you could learn about the world. And I
+wonder if you think that's sort of a
+product of astronomy at the particular
+times in history that you're studying or
+is this that based on the data that is
+incident on the Earth right now, we
+could actually divine a lot more than we
+happen to know? All right. So, astronomy
+was one of the first sciences to really
+embrace data analysis and and and
+squeezing every last possible drop of
+information out of information that I
+had because because data was the
+bottleneck. Um, I mean, it still is a
+bottleneck. I mean, it's it's really
+hard to to collect astronomical data.
+So, astronomers are the best or you
+know,
+almost
+world-class in in extracting, you know,
+almost like Sherlock, you know, so they
+like extracting all kinds of conclusions
+from little traces of data.
+Um, I hear that that a lot of quant
+hedge funds they they they preferred
+hires in astronomy PhD.
+That they also are very interested for
+other reasons in extracting signals from
+from from various random bits of data.
+Okay, speaking of clever ideas, one of
+my listeners, Shawn, solved the puzzle
+that Jane Street made for my audience
+and posted a great walk-through on X.
+For context, Jane Street trained a
+ResNet and then shuffled all 96 layers
+and then challenged people to put them
+back in the right order using only the
+model's outputs and training data. You
+can't brute force this. There's more
+possible orderings than atoms in the
+universe. So, Shawn broke the problem
+into two different parts. First, pair
+the layers into 48 different blocks. And
+second, put those blocks in the right
+order. For pairing, Shawn realized that
+in a well-trained ResNet, the product of
+two weight matrices in a residual block
+should have a distinctive negative
+diagonal pattern. And this arises as a
+way for the model to keep the residual
+stream from growing out of control. From
+this insight, he was able to recover the
+right pairings. For ordering, Shawn
+noticed that the model seemed to improve
+if he sorted the blocks by the size of
+their residual contributions. Starting
+with a rough approximation, he combined
+a clever ranking heuristic with local
+swaps to recover the exact right order.
+His full walk-through is linked in the
+description. Don't worry if you didn't
+get to this puzzle in time, though.
+There's still one up about backdoor DLLs
+that even Jane Street doesn't know how
+to solve. You can find it at
+janestreet.com/twarkash.
+All right, back to Terrence.
+We we we do under explore sort of um how
+to extract extra information from from
+various signals. Um,
+like um
+um I would I just to put to to pick one
+random study. I I remember reading once
+that that people had discovered or
+trying to to measure how often um
+scientists actually read the citations
+um that the papers that they cite. Uh
+so, how how do you measure this? Okay,
+you you um you you could try to survey
+different scientists, but they they they
+had some clever um
+trick. So, so
+um so, many citations have little typos
+like like a like, you know, the a number
+is wrong or or punctuation is almost
+wrong. And they they measured how often
+a a typo got copied from one reference
+to to the next and and they could infer
+whether an author was actually just
+copying it cutting and pasting a
+reference without actually checking it.
+Um, and so, from that they they were
+able to infer some some measure of of
+how much attention people were paying.
+Uh so,
+there are also clever tricks to extract
+you know, so these questions you posed
+earlier of you know, how can we assess
+whether um
+a scientific development is fruitful or
+uh or interesting or or represents real
+progress, you know, maybe there are um
+really useful metrics and or or um
+footprints of this of this of this um
+of of this phenomenon in in a data data
+set, you know, we can we can examine
+citations and um and like how often
+something is mentioned in a conference
+or something and and maybe that there
+there's there's there's a lot of uh
+social sociology of science research to
+be to be done and and that could
+actually um detect these things. Um
+yeah, maybe we you should get some
+astronomers on the case actually.
+Okay, so I I think this is really
+interesting uh nicely to
+the progress that from the outside it
+seems like AI for math is making. And I
+think your post recently reported out
+that over the last few months
+AI programs have solved 50 out of the
+1,100 odd Erdos problems, but then I
+think I don't know if it's still
+correct, but as of a month ago you said
+that there had been a pause because the
+low-hanging fruit had been picked.
+First of all, I'm I'm curious if
+actually that is still the case that
+we have picked the low-hanging fruit and
+now we're at now we're at this plateau
+currently. It it does seem so. I mean,
+there's still activity at the Yeah, so
+so 50 odd problems have been solved with
+AI assistance, which is great, but
+there's like 600 to go. Um
+and people are still chipping away at
+one or two of these right now.
+we are seeing a lot fewer sort of pure
+AI solutions now where um they are just
+one shots the problem. Um so so there
+was there was a month where that
+happened and and that has stopped. Um
+not for lack of trying. I know three
+separate uh uh attempts to get frontier
+model AIs to just attack every single
+one of the problems somewhat aimlessly.
+And they pick up some minor observations
+or maybe they they they found that some
+problems are already solved in the
+literature, but there hasn't been any
+further AI purely powered yet. Um people
+are using AI a lot um uh
+currently. Yeah, so someone might use AI
+to generate a a possible um proof
+strategy and then it's another person
+using a separate AI tool to critique it
+uh or rewrite it uh or generate some
+numerical data for it or do a literature
+survey. Um
+And and some problems have been solved
+by a a ongoing conversation between lots
+of humans and lots of AI tools.
+Um but uh it it it does seem like it was
+this this one-off thing.
+So maybe one analogy to to for these
+problems is like um imagine like um this
+this there's all these that you're in
+some sort of mountain range with all
+kinds of of cliffs and walls and and uh
+maybe there's a there's a there's a
+little um uh wall which is maybe like 3
+ft high and one that's 6 ft high and
+then there's 15 ft high and then there's
+there's a there's a mile-high cliffs.
+And you try to climb as many of these
+cliffs as possible. But it's in the
+dark. Uh we don't know which ones are
+are tall which ones are short. And um so
+you know, we try to light some candles
+and make some maps and and slowly we we
+kind of figure out uh some of them are
+are climbable. Some of them we can
+identify some some partial um um crack
+in the wall that you can reach first. Um
+And then these these AI tools, they're
+kind of like these jumping machines that
+can kind of jump, you know, 2 m in the
+air, you know, higher than the any
+human. And sometimes they jump in the
+wrong direction and sometimes they they
+crash, but sometimes they they they can
+reach um um the tops of of of the lowest
+um you know, um
+uh walls that we we couldn't reach
+before.
+And so we just basically sit them loose
+in this mountain range hopping around
+and you know, and then there's this
+exciting period where they they could
+actually find all the um all the low
+ones um and they they could reach them.
+But then uh there's been no
+Yeah, I mean maybe if the next time
+there's a big advance in the models,
+then they will try it again and maybe a
+a few more will be will be uh
+will be breached. Um But it it it's a
+different style of doing mathematics
+than um sort of the you know, so
+normally we would hill climb and you
+know, we would we would make little
+markers and and and and try to identify
+partial things and um you know, these
+tools they either succeed or they fail
+and they they've been really bad at
+creating sort of partial progress or
+identifying intermediate um
+stages that you should you should focus
+on first. Um again, going back to to
+this this previous discussion, you know,
+we don't have a way of evaluating
+partial progress. Um the thing the thing
+where we could we can evaluate a
+one-shot success or failure of solving a
+problem. So there's two different ways
+to um think through what you've just
+said and one of them is more bearish on
+AI progress and one of them is more
+bullish. And bearish on being, oh,
+they're only getting to a certain height
+of wall, which is not as high as humans
+are reaching. Um And the second is that
+well, they have this powerful property
+that once they achieve a certain
+waterline, they can fill every single
+problem that is available at that
+waterline, which we simply can't do with
+humans where we can't make copies of you
+and uh give each of them a million
+dollars of inference compute and have
+you do 100 years of subjective time
+research on um 100 different problems at
+the same time or a million different
+problems at the same time. But once AIs
+reach Terence Tao level, they could do
+that. Um
+And then once they reach intermediate
+levels, they could do they could do the
+intermediate version of that. So
+the same reason that we should be
+bearish now is the reason we should be
+especially bullish, not even when they
+achieve superhuman intelligence, but
+just when they achieve human-level
+intelligence because their human-level
+intelligence is qualitatively wider and
+more powerful than our human-level
+intelligence. I I I agree. Yeah, so they
+excel at breadth and humans excel at
+depth. Um like human experts at least.
+Yeah, so um I think they're very
+complementary. Um
+but our current uh way of doing math and
+science is focused on depth because that
+that's where the human uh expertise cuz
+humans can't do breadth. Um
+But uh
+yeah, so we have we have to redesign uh
+the way we do science to take full
+advantage of of this breadth capability
+that we now have.
+Um so as I said, we do
+we should have a lot more effort in
+creating very broad class of problems to
+work on rather than than one or two
+really um deep important problems. I
+mean, we should still have the deep
+important problems
+um and humans should still be working on
+them.
+Um but but now we now we we have this
+other way of of of of doing um of doing
+science, you know, I mean,
+uh we can explore entire new fields of
+science by by first getting the these
+broad um moderately competent AIs to
+sort of map it out and clear out all the
+the easy make all the easy observations
+and and then identify certain islands of
+difficulty uh which you know, then human
+experts can come and and and work on. So
+I I see I see very much
+a future of very complementary um
+um sides.
+Eventually, you would hope to get both
+breadth and depth, you know, and and
+somehow get the best best of both best
+of both worlds. Um but I think we we
+need practice with the breadth side
+because it's too new. Uh we don't even
+have the paradigms really to to um
+to make full advantage of it. But we
+will um and then science will be
+unrecognizable after that.
+To to this point about complementarity,
+the
+programmers have noticed that they're
+way more productive as a result of these
+AI tools.
+And um I don't know if you as a
+mathematician feel the same way, but it
+does seem like one big difference
+between vibe coding and vibe researching
+is that with software,
+the whole point of the thing is to have
+some effect on the world through your
+work. And if it leads to you better
+understanding a problem or you coming up
+with some clean abstraction to embody in
+your code, that is instrumental to the
+end goal. Whereas maybe with research,
+the reason we care about solving the
+Millennium Prize problems is presumably
+that in the process of solving them, our
+we discover new mathematical objects or
+better
+new techniques and those who understand
+our civilization's understanding of
+mathematics. And so the proof is sort of
+instrumental to the intermediate
+uh work.
+I don't know if you agree with that
+dichotomy or if that in any way will
+explain the relative uplift we'll see in
+software versus research. Right. Um
+yeah, so so certainly in in math the
+process is is often more important than
+the problem itself. Um the problem is
+kind of a proxy for for measuring the
+progress. I think even in software
+there's there's there's different types
+of software tasks. I mean, there you
+know, like if you just kind of create a
+web page that does the same thing that a
+thousand other web pages
+do. Um
+There's there's sort of no skill to be
+learned. Well, um
+um there is there is still some skill
+maybe that the individual programmer
+could pick up. Um but you know, for for
+the kind of boilerplate type code,
+definitely um
+um you know, it's it's it's it's
+something that you could definitely
+offload offload to AI. Um
+But you know, sometimes once you make
+the code, you know, you still have to
+maintain it and and and and and there's
+issues with upgrading it and making
+compatible with other things and and
+that um I think um
+I feel that that programmers are
+reporting, you know, that even if if if
+an AI can create the first prototype of
+of a
+um of a tool, making it mesh with
+everything else and and making it
+interact with the real world in the way
+they want, I mean, it's that's an
+ongoing process. And if you didn't have
+the [clears throat] um the skills of
+that you pick up from from um from
+writing the code, um that may that may
+impact uh your ability to maintain it
+down the road.
+So certainly um
+mathematicians, you know, we've we've
+used problems to
+build intuition and and to to train
+people to to have a good idea as as
+what's true, what what to expect, what
+is what is provable, what is what is
+difficult.
+Um and so yeah, just getting the answers
+right away may actually yeah, inhibit
+that process. Um
+I mean, so
+as um
+I made distinction between theory and
+experiment before. Um so um
+In most sciences, there's an equal
+division between there's a theoretical
+side and experimental side. Um
+But in math has been almost unique is
+that it's almost entirely theoretical.
+Uh we we we uh
+um we place a premium on sort of trying
+to to to have coherent clean theories of
+of of why things are true and and and
+false.
+And we haven't done much experiments as
+to the like you know, maybe we have two
+different ways to solve a problem, which
+one is is more effective. Um we have we
+have some intuition, but we haven't done
+large-scale studies where we take a
+thousand problems and we and we we just
+test them. Um
+but we can do that now. So, I think
+AI-type tools we really will will
+actually revolutionize the ex- the
+experimental side of math where where um
+you don't care so much about uh
+individual problems and and the process
+of solving them, but you you want to
+gather just large-scale data about about
+what things work, what things don't. Um
+You know, same way that if if you want
+to to if you're a software company and
+and you want to to roll out a thousand
+pieces of software, you know, you don't
+really want to handcraft each one and
+learn lessons from each. You just want
+to find what what are the workflows that
+let you scale.
+Um so, we we don't yet we we the the
+idea of doing mathematics at scale is at
+its infancy. Um but that's where AI is
+really going to revolutionize the
+subject. Interesting.
+I feel like a big crux in these
+conversations about how much how good AI
+will be for science is
+I think you said this is like oh they
+they're using existing techniques and
+modifying them.
+it would be interesting to understand
+how much progress one can make simply
+from using existing techniques. Like how
+much of if I looked at the top math
+journals, how many of them are how many
+of the papers are coming up with
+whatever coming up with a new technique
+means, doing that versus using existing
+techniques in
+um in new problems and what the overhang
+is where if you just applied every known
+technique to every open problem, would
+that just constitute a humongous uplift
+in our civilization's knowledge or would
+that not be that impressive and useful?
+It's it's this is a great question uh
+and I um
+we don't have the data to fully answer
+it yet.
+certainly a lot of work that human
+mathematicians do, you know, when you
+when you take a new problem, one of the
+first things we do is actually we just
+find we we look at all the standard
+things that have worked on similar
+problems in the past and we try them one
+by one.
+Um and sometimes that works um and
+that's still worth publishing sometimes
+because the the question was important.
+Um sometimes they almost work and you
+have to add one more wrinkle um to it
+and that's also um
+interesting. Um
+but then, you know, the papers that go
+into the top journals are usually ones
+where you you know, the existing methods
+can kind of solve you know,
+80% of the problem, but then there's
+this is 20% which is resistant and and a
+new technique has to be invented to to
+fill in the gaps. Um
+it's it's very very rare now that a
+problem gets solved with sort of no
+reliance on past solutions where where
+all the ideas come out of of of um
+of nowhere. Um
+you know, that was more common in the
+past, but but
+math is so mature now that it's it's it
+would be it's just so much of a handicap
+to to uh to uh to not use the literature
+yeah, AI tools are really good at
+at getting really good at the first part
+of that, just trying all the standard
+techniques on a problem. Um often now
+actually making fewer mistakes in in
+finding them than than than humans. So,
+they they they still make mistakes, but
+but um
+um I've I've tested these tools, you
+know, on on
+on on um like little tasks that I can do
+and and sometimes they pick up errors I
+make, sometimes I pick up errors that
+they make. It's it's about a tie right
+now.
+Uh um
+yeah, I I I haven't yet seen them take
+the next step, you know, so so what when
+there are holes in in in the argument
+where none of the techniques are
+working,
+to to how then what do you do? Um and
+then they can kind of suggest random
+things and it it but it it it um
+often I find that trying to chase them
+down and make them work and find they
+don't work, it wastes more time than it
+saves. So,
+now so I
+I think some fraction of problems that
+we currently think are hard will will
+fall from this this method. Um I mean,
+especially the ones that haven't
+received enough attention. Um
+So, like with the Erdős problems, you
+know, like
+almost all of the 50 problems that were
+solved by AIs were ones for which
+basically there was no literature. I
+mean, Erdős posed the problem once or
+twice. Um
+I think maybe some people tried it
+casually and they they couldn't do it,
+but they never wrote up anything. Um
+Uh but it turned out that there was a
+solution and it was a you know, maybe
+combining with this one obscure
+technique that that not many people know
+about with some other without literature
+and that's the kind of love the the
+median level of what AIs can accomplish.
+And that that's really great. It clears
+out 50 of these problems.
+So, I think you'll see some isolated
+successes.
+Um but the six but what we found So,
+people have to have done large-scale
+sweeps of these Erdős problems. And like
+they um
+if you only focus on the success
+stories, the ones that they get
+broadcast on social media, it looks
+amazing. You know, like they they
+all these problems that haven't been
+solved before for decades, now that now
+they're falling. Uh but whenever we do a
+systematic study, um any given problem,
+an AI tool has a success rate of maybe 1
+or 2%. Uh it's just that it's just that
+they can apply at scale and and you just
+pick the winners, it looks great. So, I
+think it'll be a similar thing happening
+with um
+you know, there there are hundreds of of
+of really prestigious difficult math
+problems out there.
+A couple may may um you know, some AI
+may get lucky and actually solve them
+and there was there was some some back
+door to solve the problem that that
+everyone else missed. Um and that will
+get a lot of publicity. Um But then
+people will try these fancy tools on
+their own favorite problem and they will
+again experience the 1 to 2% success
+rate.
+&gt;&gt; Right. So, um
+there'll be a lot of noise um
+amongst the signal of sort of
+when they're working, when they're not.
+Um we have to do it's it's it's
+increasingly increasingly important to
+to collect these really standardized
+data sets. You know, there are efforts
+now to create a standard set of
+challenge problems for uh for AIs to
+solve. Um and not just rely on the AI
+companies to only publish their wins and
+and and and not disclose their their
+negative results. Um so, that will put
+maybe give more clarity as to
+where where we're actually at. Also, I
+think it's worth emphasizing how much
+progress in AI constitutes already to
+have models that are capable of
+applying some technique that nobody
+Yeah. had written down as applicable to
+this particular problem. The progress is
+simultaneously amazing and
+disappointing. It it is it is a very
+strange feeling to to to see these tools
+in action and and that you know, um but
+it also people acclimatize really
+quickly. Um
+you know, I remember when when when
+Google's web search came out 20 years
+ago and it just blew all the other all
+the searches out of the water. Like you
+you just getting relevant hits on the
+front page like perfectly almost you
+know, exactly what you wanted and it was
+amazing and then after a few years you
+just took for granted that that you
+could just you could just Google
+anything.
+And yeah, so a a lot of yeah, I mean,
+2026-level AI would be stunning in 2021
+and a lot of it, you know, face
+recognition, natural speech, uh yeah,
+doing you know,
+doing college-level math problems we
+just take for granted now.
+&gt;&gt; Yeah. Okay, so speaking of 2026, yeah,
+you made a prediction in 2023 that I
+think by 2026, what was it that it it
+would be like like a colleague in
+mathematics or Yeah, a a trustworthy
+co-author if used correctly.
+Which is looking pretty good in
+retrospect. Yeah, I'm I'm I'm pretty
+pleased.
+&gt;&gt; Yeah.
+So, you know, let's let's see if you can
+continue this streak.
+Um you personally are 2x more productive
+as a result of AI.
+What year would you say that?
+Um yeah, so productivity I think is not
+quite a one-dimensional um quantity. Um
+like I'm definitely noticing that the
+style in which I do mathematics is
+changing quite a bit and the type of
+things I do.
+So, for example, my papers now have a
+lot more code, a lot more pictures um
+um uh
+I because it's so easy to to generate
+these things now. So, some plot which
+would have taken me hours to do now I
+can I can do in minutes.
+But in the past I just wouldn't have put
+the plot in my paper in the first place.
+I would I would just talk about it in
+words.
+Um so, it's hard to much measure what 2x
+means. Um
+yeah, on the one hand, you know, I I
+think the type of papers that I would
+write today if I had to do them without
+AI assistance, they would definitely
+take five times longer, but
+but I would not write my papers that
+way. 5x? So, Yeah.
+But but it's it's because
+these are sort of uh auxiliary I mean,
+you know, the yeah, so so things that
+yeah, things like like um like doing a
+much deeper literature search, um
+supplying a lot more numerics. Yeah. Um
+I mean, they they they they they enrich
+the paper. Um
+yeah, the the the um the core of what I
+do, like actually solving um the most
+difficult part of of a math problem,
+that hasn't changed too much. I still
+use pen and paper for that.
+But um you know, um there's also there's
+also lots of silly things. I I I use um
+an AI agent now to to reformat like
+sometimes all my parentheses are not
+quite the right size. You know, I used
+to manually change them by hand and I
+can get an AI agent to do all that quite
+nicely now in the background.
+so, yeah, they they they really sped up
+lots of secondary tasks. Uh they haven't
+yet sort of uh um sped up the the the
+core thing that I do, but it it's
+allowed me to sort of add more things to
+to to my papers. Um
+Yeah, but um by the same token, like if
+I were to write a paper I wrote in 2020
+again and not add all these extra
+features, but just have something of the
+same sort of level functionality, yeah,
+then that that he doesn't hasn't saved
+that that much
+uh to be honest.
+Uh yeah, so it's it's made papers sort
+of richer and broader, but not
+necessarily deeper. Mhm.
+You made this distinction between
+artificial
+cleverness and artificial intelligence.
+Mhm. And I would like to better
+understand those concepts. What is an
+example of um
+uh
+intelligence that is not just
+cleverness? Yeah, so um
+it's intelligence is famously hard to
+define. It's one of these things that
+you you kind of know it when you see it.
+but
+when I
+when I when I talk to someone, um, and
+we're trying to collaboratively solve a
+math problem together, um,
+there's this conversation where, you
+know, we neither of us knows how to
+solve the problem, um, initially, but,
+um,
+one of us has some idea and and it looks
+promising and and so then then we have
+some sort of prototype strategy and then
+we test it and then it doesn't work, but
+then we we we modify it and there's some
+adaptivity and and, um,
+and and, uh, continuing improvement of
+of of the idea over time.
+And eventually, um,
+you know, we we sort of we've we've
+systematically mapped out what doesn't
+work, what does work and and and we can
+kind of see a path forward, but it's
+evolving with our discussion.
+and this isn't not quite what the AI is
+the AI can kind of mimic this a little
+bit.
+So, to go back to this analogy of of
+these jumping robots, you know, so, um,
+you know, they can jump and fail and
+jump and fail and and jump and fail, but
+but what they can't do is that they kind
+of they jump a little bit and they they
+they reach some handhold with and then,
+um, but then they sort of stay there and
+then they pull other people up and then,
+uh, they try to jump from there. Right.
+There isn't this cumulative
+process which is, uh, sort of built up
+interactively. Um,
+it it it seems to be a lot more trial
+and error and just repetition, brute
+force, um,
+you know, which can see it scales and it
+can work amazingly well in in certain
+contexts, um, but
+yeah, this this idea this this sort of
+building up cumulatively from, um, from
+partial progress is kind of is what's
+still not quite there yet. Interesting
+you're saying like if Gemini 3 or Claude
+4.5 whatever solves the problem Yeah. it
+is not the case that its own
+understanding of math has progressed or
+even if it works on a problem without
+solving it, it's not that its own
+understanding of
+&gt;&gt; Yeah. math has [clears throat]
+progressed. Yeah, you you you're on a
+new session it's forgotten what what it
+just did. Um, it it has you know, it has
+no new skills to to attach to to to
+build on on on related problems. Um,
+maybe what you just did is part of 1
+0.001% of the training data for the next
+generation, so maybe eventually some of
+it gets absorbed, but yeah.
+So, Terence talks about the importance
+of decomposing particularly gnarly
+problems into a series of easier chunks,
+even if this doesn't result in the full
+solution. Approaching problems in this
+way helps you build up the intuitions
+and practice the techniques that you'll
+need to keep making progress. But models
+today tend to struggle with these kinds
+of problem-solving techniques. That's
+where Labelbox comes in. Labelbox helps
+you train models, not just to get the
+right answer, but to think the right
+way. They've operationalized these
+reasoning behaviors into rubrics, giving
+you the ability to evaluate every
+important dimension of a model's output.
+These rubrics go beyond simple
+correctness. Did the model reach for the
+right tools? Did it check its own work
+and explore alternative paths? How clear
+was its response? These skills are
+useful across domains, math, physics,
+finance, psychology, and more. And
+they're becoming increasingly important
+as models take on harder open-ended
+problems, some of which have multiple
+solutions and some of which we don't
+even know the solutions to. Labelbox can
+give you rubrics tailored to your
+domain, helping you systematically
+measure and shape how your models think.
+Learn more at labelbox.com/turingcast.
+One big question I have is how plausible
+is it that if we just keep training AIs
+to get better and better at,
+you know, solving problems in Lean, that
+they will continue to solve more and
+more impressive problems and then we
+will in retrospect be surprised at how
+little insight
+we got from some Lean solution to
+proving the Riemann hypothesis or
+something. Or do you think it is a
+necessary condition of solving the
+Riemann hypothesis is even by an AI that
+is like totally doing it in Lean that
+the constructions which are made, the
+definitions which are created, even in
+the the Lean program,
+have to advance our understanding of
+mathematics or do you think it could
+just be assembly code gobbledygook? Oh,
+yeah, we don't know. I mean, some
+problems have been basically solved by
+pure brute force. The four color theorem
+is is a famous example. Um, we have
+still not found a conceptually elegant
+proof of this theorem. Um, it it
+basically
+and and maybe we never will. I mean,
+some problems may only be solvable by
+just splitting into some enormous number
+of cases and and doing brute force
+unintelligible computer analysis on on
+each case.
+I mean, part of the reason
+we we prize problems like the Riemann
+hypothesis is that we're pretty sure
+that something amazing has to
+a new type of mathematics has to be
+created or a new connection between two
+previously unconnected areas of
+mathematics has to be
+discovered to to make this work. We we
+don't even know what the shape of the
+solution
+is, but
+it doesn't feel like a problem that will
+be solved just by exhaustively checking
+cases or something. Um, I mean, it could
+be false actually. Actually, so
+we could actually uh, okay, there is an
+unlikely scenario that that the
+hypothesis is false and that's just this
+this this you just compute oh, here's a
+zero off off the line and a massive
+computer calculation verifies it. That'd
+be very disappointing. Um,
+I don't know. I I I I do feel that, you
+know, fully autonomous one-shot
+approaches are
+not the right approach for these
+problems. I mean, I I think you you'll
+get a lot more mileage out of the
+interplay between between humans
+collaborating with these tools. Um,
+and, uh,
+I can see one of these problems being
+solved by by
+some, uh,
+smart humans as assisted by some
+extremely
+powerful AI tools, but the exact dynamic
+may be very different from what we
+envision right now. I mean, it it it
+could be a collaborative collaboration
+of a type that we just doesn't exist
+yet. Um,
+yeah, I mean, we there may be a way to
+to generate, you know, a million
+variants of the Riemann zeta function
+and do some data analysis AI assisted
+data analysis and we we we discover some
+pattern between connecting them which
+which we didn't know about before and we
+then this lets you transform the problem
+into into a different area of
+mathematics. I mean, there could be all
+kinds of
+of scenarios. So, suppose
+the AI figures it out and latent in the
+Lean Mhm. is some
+brand new construction which, you know,
+if we realize its significance would
+Mhm. we would be able to apply it in all
+these different situations.
+How How do you even recognize it, right?
+Like if,
+you know, you just
+again, I have a very naive question, but
+you if you if you come up with the
+equivalent of like Descartes comes with
+this idea, oh, you can have this
+coordinate system where you can unify
+algebra and geometry, but in Lean code
+it would just look like R to R and it
+wouldn't look that significant or
+something or similarly I'm sure there's
+other constructions which have this kind
+of property. Well, the beauty of
+formalizing a proof in something like
+Lean is that you can take any piece of
+it and study it atomically. Um, so,
+you know, so, when I read a paper with
+my humans, uh, with which solves some
+some difficult problem, you know,
+there's often some big sequence of
+lemmas and theorems and things and and
+ideally the author would talk us talk
+their way through, you know, what's
+important, what's not, but but sometimes
+they don't reveal what what, um, what
+steps were the important ones and which
+ones were just kind of boilerplate, um,
+standard, um, steps. But you can study
+each lemma in isolation and some of them
+I can see, oh, this looks very standard.
+This this this resembles something I'm
+I'm familiar with. I'm pretty sure, um,
+there's nothing interesting going on
+here. But this lemma, oh, that's that's
+something I haven't seen before and I
+could see why if you could if you had
+this result, that would really help
+prove the main result. Like you could
+you know, you can assess whether
+something's up, uh, um,
+are really sort of key to your, um,
+uh, to to your argument or not. And Lean
+really facilitates that, you know, you
+can you can you can you can do you know,
+the individual steps are I don't know,
+really precisely. Um, I think in the
+future there'll be, um, you know,
+there'll there'll be entire professions
+of of mathematicians who might take a
+giant, um,
+Lean generated proof and maybe, you
+know, do some ablation on it or
+something and try to remove steps of
+parts of it and,
+um, and should try to find it find more
+elegant ways, you know, maybe some other
+AIs just sort of do some reinforcement
+learning. How can you make the proof
+more elegant and and and, uh, um, maybe
+other AIs will grade whether this is
+this proof looks better or not. Um,
+one thing that will change quite a bit,
+uh, in the near future is is that until
+recently writing papers was the most
+time-consuming and expensive part, um,
+of, uh, of the job. I mean, so you you
+you did it very rarely, you know,
+you you only wrote up your results once
+everything was all the other parts of
+your argument were, um, were checked out
+and things cuz it just rewriting it
+again, refactoring was just a total
+pain. But that's one thing that's become
+a lot easier now with modern AI tools,
+so, you know, you don't have to have
+just one version of of your paper. You
+you know, you can once you have one, you
+know, people can generate hundreds more.
+Um, so, yeah, one giant messy Lean proof
+may not be very, um, uh, meaningful or,
+um, understandable on its own, but but
+other people can can can refactor it and
+do all kinds of of of of of of of things
+with them. Um,
+we have seen it with the Erdős problem
+website, you know, that people will will
+an AI will generate a proof and then
+here was 3,000 lines of code that that
+verified the proof, but then we people
+got other AIs to summarize the proof and
+and and they will write their own
+proofs. Um, there's actually, um,
+um, post-processing once you actually
+have one proof, um, we actually have a
+lot of tools now to to deconstruct it
+and and interpret it. It's a very
+nascent area of of of
+of science or or mathematics, but, um,
+I'm not as worried about, um, yeah, so
+so so some people are concerned, you
+know, what if the Riemann hypothesis is
+proved with a completely
+incomprehensible proof? I I think once
+you have the artifact of a proof, we can
+do a lot of of of of of analysis on it.
+Mhm.
+posted recently that it would be helpful
+to have a formal or semi-formal language
+for mathematical strategies as opposed
+to just mathematical proofs, which is
+what Lean specializes in. I would love
+to learn more about what that would
+involve or look like. Um we don't really
+know. Um I mean we've been very lucky in
+mathematics that that we have worked out
+the laws of of logic and mathematics,
+but this is actually fairly recent
+accomplishment. I mean it was started by
+Euclid um you know
+millennia ago, but but only in like the
+early 20th century did we finally this
+talk here the actions of of mathematics
+or what the standard actions of what we
+call ZFC and actions of first order
+logic and this is what a proof is and
+and and this we've managed to automate
+and and have a formal language for.
+Um but there could be some way to assess
+plausibility of certain
+um you know so you have a conjecture
+that something is true.
+Um you you you test a few examples uh
+and it works out. Like how does this
+increase your your your confidence that
+the conjecture is true?
+We have a few sort of mathematical ways
+to to to model this Bayesian probability
+for example um
+but they're not
+but they often they're often you have to
+set certain base assumptions and and and
+it's it's it's there's a lot of
+subjectivity still
+in in in um in these tasks. So it it is
+it's it's not clear um
+I I mean it's this is more of a wish
+than um than a than than a plan to to
+develop these languages, but
+just seeing how successful having a
+formal framework in place like Lean has
+made deductive proofs so much
+easier to automate and and train AI on.
+If there was some similar framework and
+so the the bottom neck for using AI to
+to to create strategies and and and make
+conjectures is we have to rely on human
+experts to
+and the test of time to to validate
+whether something's plausible or not. If
+there was some semi-formal framework
+where this could be done
+semi-automatically in a way that that uh
+um isn't sort of easily hackable um to
+you know so of course the the uh it's
+really important with these formal proof
+assistants that that that there are just
+no um
+uh there there's no backdoors or
+exploits that that you can do to somehow
+get your your certified proof without
+actually proving it because
+reinforcement learning is so so good at
+finding these these
+these backdoors.
+yeah if if it's some framework that sort
+of mimics how
+scientists talk to each other in a
+semi-formal way to you know using data
+and argument but also um
+you know constructing narratives and and
+and and
+there's some
+there's some subjective aspect of
+science
+that we don't know how to capture in a
+way that that that we can insert AI into
+them in any useful way.
+Interesting.
+So yeah this is a this is a future
+problem.
+I mean there are research efforts to you
+know to try to create automated
+conjectures and and and and
+and maybe there are ways to benchmark
+these and and get some
+some way to simulate this, but this is
+it's all very very new science. Can can
+you help me get some intuition for
+I have two sub questions.
+One, it would be very helpful to have a
+tangible sense of
+It would be helpful to have a specific
+example of
+what
+something like this would look like that
+the way scientists communicate that we
+can't formalize yet. And two, it seems
+almost definitionally paradoxical to say
+here
+building up some narrative or building
+up some natural language explanation and
+then also having something which you
+could have formalized and I'm sure
+there's some intuition behind
+where that overlap is and I'd love to
+understand that better.
+All right so so an example of of a
+conjecture. So um Gauss um was
+interested in the prime numbers and he
+computed he created one of the first
+mathematical data sets. He just computed
+the first 100,000 prime numbers or so um
+hoping to find patterns.
+and he did find a pattern, but maybe not
+not the pattern he was expecting. He he
+found a statistical pattern in the
+primes that if you count how many primes
+there are up to 100, 1,000 um
+1 million and so forth they get sparser
+and sparser, but the the the the drop
+off in in in the density was inversely
+proportional to the natural logarithm of
+of of of of of of the range of numbers.
+So he conjectured what we now call the
+prime number theorem. Um the number of
+primes up to X is like X divided by the
+natural log of X.
+Um and he had no way to prove this. Um
+It was it was data-driven. Um
+So this this was a a conjecture. Um
+It was revolutionary for its time
+because um it was maybe the first
+really important conjecture of of
+mathematics statistical nature. You know
+so normally you you talk about pattern
+like maybe the spacing between the
+primes has a certain regularity or
+something, but um yeah but this was
+really something which it didn't tell
+you exactly how many primes there were
+in any given range. It just gave you an
+approximate approximation that got
+better and better as you um uh went
+further and further out.
+But it um
+it it helped or so it it it it started
+the field of what we call analytic
+number theory.
+but it was the first in many conjectures
+like this many of which got proved which
+sort of started um
+um consolidating the idea that the prime
+numbers actually didn't really have a
+pattern that they behave like random um
+random sets of numbers with a certain
+density.
+Um I mean they had some patterns like
+like they they almost all odd. Okay so
+there's there's
+um and then they're not actually random.
+They're what's called pseudo random. I
+mean there
+um there's no random number generation
+involved in creating the prime numbers.
+But um
+over time it became more and more
+productive to think of the primes as as
+if they were just generated by some some
+some god rolling dice all the time and
+just creating this this random set. Um
+and this allowed us to make all these
+other predictions. Um so there's a still
+open conjecture in in in number theory
+called the the twin prime conjecture
+that there should be infinitely many
+pairs of primes that are twins distance
+two apart like 11 and 13.
+We can't prove that and there's actually
+good reasons why we can't prove it, but
+uh but because of this statistical
+random model of the primes we are
+absolutely convinced this is true. Uh
+we know that if if the primes were sort
+of generated by flipping coins or
+something that we would just by random
+chance just like infinite monkeys at a
+typewriter we would see um twin primes
+appear over and over again.
+and we have over time developed this
+very accurate conceptual model of what
+the primes should behave like based on
+statistics and probability
+um but it's all mostly heuristic and
+non-rigorous um but extremely accurate.
+so the few times where we actually can
+prove things about the primes that has
+matched up with the predictions of this
+what we call the random model of the
+primes. So we we we have this
+conjectural concept framework for
+understanding the primes that we
+we everyone believes in and you know
+it's the same reason why we we believe
+the Riemann hypothesis is true why we
+believe that cryptography based on the
+primes is basically is mathematically
+secure and stuff like that. It's
+it's all part of this this this this
+belief.
+In fact one reason why we care about the
+Riemann hypothesis is that if the
+Riemann hypothesis failed um we we knew
+it was false it means it would it would
+be a serious blow to this model that
+that this it would mean there's a secret
+pattern to the primes that we were not
+aware of.
+Um and uh I think we would very rapidly
+abandon any cryptography based on the
+primes because if there was a one
+pattern that we didn't know about
+there's probably more. And these
+patterns can lead to exploits in in
+crypto and yeah it's it's going to be
+uh it would be a big big shock. Um so we
+really want to make sure that doesn't
+happen.
+so yeah it's it's um
+so we've been convinced of of things
+like the Riemann hypothesis and things
+over time, but uh
+some of it is experimental evidence some
+is the few times we've been able to make
+theoretical results that always aligned.
+Um you know it is possible that the
+consensus is wrong and and or just
+missed something very basic. Um you know
+there have been paradigm shifts in the
+past in scientific history.
+yeah but we we don't really have a way
+of measuring this. Um
+I think partly because we don't have
+enough data on on on how math or science
+develops. We we have one timeline of
+history and you know we we have like you
+know 100 stories of turning points in
+history. If if if we had access to a
+million alien civilizations that each of
+the the different development of of
+history and and science in different
+orders then maybe we would actually have
+a have a have a decent shot shot at that
+at a
+at understanding of how do we measure
+what is
+progress and and and what is a good
+strategy and we could maybe start
+formalizing it and and actually having a
+framework.
+Maybe if
+what we need to do is actually start
+creating lots of mini universes or
+simulations of of AI solving very basic
+problems you know in arithmetic or
+whatever, but but um um but coming up
+with their own strategies for doing
+these things and and and having these
+little laboratories to test. I mean
+there are people who
+who investigate like trying to what's
+the smallest
+you know neural network that can do
+tentative application and stuff like
+that. I think I think we could actually
+learn a lot just from
+from evolving um
+small AIs on on on on simple problems.
+We could learn a lot.
+I was super excited when Mercury reached
+out about sponsoring the podcast because
+I've been banking with them for years. I
+think I opened my first account with
+them in 2023. Something I've come to
+appreciate over the last few years is
+that Mercury is constantly updating
+things and adding new features. Take
+their newest feature Insights. Insights
+summarizes your money in and out showing
+you your biggest transactions and
+calling out anything that deserves extra
+attention. Like maybe your revenue from
+a particular partner has gone down or
+you've got a big uncategorized purchase
+that needs to be investigated. It's a
+super low friction way for me to keep
+tabs on my business and make quick
+decisions. For example, I try to invest
+any cash that I don't need on hand to
+keep running the business. With Insights
+with just a couple of clicks I was able
+to see exactly how much money I spent in
+each month of 2025. And that lets me
+know exactly how much cash I'll need for
+the next year or so of operations. And
+then I can go invest the rest. Mercury
+just keeps adding new features like
+this. Go to mercury.com to check it out.
+Mercury is a fintech company, not an
+FDIC-insured bank. Banking services
+provided through Choice Financial Group
+and Column N.A. members FDIC.
+You have to learn about new fields, not
+only very rapidly, but deeply enough to
+contribute to the frontier.
+So, in some sense, you're
+also one of the world's
+greatest autodidacts. What How does What
+is your process of learning about a new
+subfield in math? What does that look
+like? Yeah. So,
+I certainly identify with kind of the
+Yeah, as we talked about depth and
+breadth before. And it's it's not purely
+human AI distinction. I mean, humans
+also
+um split So, it's I think it was Irving
+split them into hedgehogs and foxes. And
+the hedgehog knows one thing very very
+well, and a fox knows a
+little bit about everything. Uh so, I
+definitely I don't you know, I I I think
+of myself as a fox. Um
+You know, I mean, I I I work with
+hedgehogs a lot, and sometimes I can be
+a hedgehog if need be, but um
+Yeah, so um
+I I've always had a little bit of an
+obsessive streak. If if there's
+something which
+I read about which I feel like I should
+understand I I I I have the capability
+to understand this, but I don't
+understand why it works as there's some
+magic in it that um you know, so someone
+was able to use a a type of mathematics
+I'm not I'm not familiar with and get
+that which I would like to prove, and I
+can't do it by myself, but they could do
+it by by their method, then I want to
+find out what was their trick. Um
+It bugs me that they someone else can
+can do something which I think I I can
+do, but but I can't. Um so, I've always
+had that kind of obsessive completionist
+type type streak. Um
+I've had to wean myself off computer
+games because um
+I
+I I'm I start a game, I want to play it
+to completion, solve all the levels, and
+yeah.
+So, um
+that's one one way in which I I learn
+new fields. Um
+I collaborate with a lot of people who
+have taught me other types of
+mathematics. Um I just make friends with
+I love a mathematician who's working on
+another area of mathematics, and I find
+their problems interesting, but I need
+to but they have to teach me
+um some of the basic tricks and and
+what's known and what's not known, and I
+learn a lot from that.
+I found that that writing about my
+what I've learned in I have a blog where
+I sometimes um
+uh record things that I've learned cuz
+in the past, when I was younger, I would
+learn something and do a score trick and
+say, "Okay, I'm going to remember this."
+And then 6 months later, I
+I've forgotten. I I remember remembering
+it, but I don't
+but I can't reconstruct my arguments.
+And it The first few times it was so
+frustrating to
+have understood something and then lost
+it. Um I sort of resolved I should
+always write down
+anything cool that I've learned. Um
+And that's this is part of why how this
+blog came about. Um How long does it
+take you to write a blog post? Um
+It's something I often do when I don't
+want to do other work. You know, like
+like there's some referee report or
+something. There's there's there's
+there's there's something that that
+feels slightly unpleasant for me to do
+at the time. And so,
+writing a blog it feels creative and
+fun. Like it's something that I I do for
+myself. Um
+So, maybe depending on on the topic, it
+could be a quick, you know, half an hour
+or several hours, but I
+um It doesn't
+because it's something that I do sort of
+voluntarily, it doesn't feel like it it
+it it doesn't feel
+the time flies when I when I write these
+things as as opposed to sort of doing
+something which I have to do for
+administrative reasons, but it's just
+that it's it's it's drudgery. Okay,
+those are tasks where the AI is really
+helping with nowadays, actually.
+&gt;&gt; Is it um if if like civilization could
+could from first principles decide how
+to use Terry Tao's time?
+&gt;&gt; You know, it's like a limited resource.
+Uh
+how how how What What is the biggest
+diff between
+in a if the veil of ignorance got to
+decide how to use Terry Tao's time
+versus what it does now? Um
+Okay, so
+&gt;&gt; This podcast wouldn't be happening.
+Yeah, so the
+as much as I complain about certain
+tasks that I don't want to do, but I
+have to do. So,
+as you get more senior in in academia,
+you get more more responsibilities. Like
+it's more committees and and and
+whatever.
+But
+I have also found that
+um a lot of events that I kind of
+reluctantly went to because I was
+obliged to for one reason or another. Um
+Because this is outside of my comfort
+zone, I often
+find interactions with people who I
+wouldn't normally talk to. Like you, for
+instance. Um
+And I would I would learn interesting
+things and have interesting experiences.
+Um and
+I would I would have opportunities to to
+to to then network with other people
+that I would never
+have have done before. Um
+So, I do believe a lot in serendipity.
+Um I mean, I I do optimize my time
+in in in when I
+So, there's some portions of of my of a
+day where I do schedule very carefully.
+Um but I I have been willing to sort of
+leave some some portions just, "Okay,
+I'm going to do something which is which
+is not my usual thing, and then maybe
+it'll be a waste of my time, but maybe
+I'll I'll learn something."
+And and more often than not, it it's
+I've I've
+I feel like I've I've gotten a positive
+experience, which is not something I
+would have planned for. Um
+And yeah, so I believe a lot in
+serendipity. Um
+And maybe there's a danger actually that
+you know, in the mo- modern society,
+it's not just AI, but we've become
+really good at optimizing everything. Um
+And and and maybe we are optimizing
+we're not optimizing out of
+optimization.
+Um that uh
+you know, with with with COVID, for
+example,
+we we switched like we we switched a lot
+to remote meetings. Um and so,
+everything was scheduled now. And so,
+we kept busy at least
+in academia, you know, we we met almost
+the same number of people that we met
+in person, but everything had to be
+planned. Um You had to schedule things
+in advance. And what we lost out on was
+sort of the the casual like, you know,
+knocking on a hallway, just meeting
+someone for you know, walking getting
+coffee. Um And there's the the the
+there's the the the there's um
+yeah, serendipitous interactions that uh
+you might think are not optimal, but
+actually are really important.
+You know, when I was a grad student, um
+I would go down to the library um to
+look I had to look for a journal
+article. You had to physically go to the
+library, check out the the journal, and
+read your article. And sometimes the
+next article, you know, you can just
+browse through, and then the next
+article is also interesting. Um
+sometimes it wasn't, but but you could
+accidentally find interesting things. Um
+Which is something which has basically
+been lost now because you can just type
+in if you if you want to access an
+article now, you just type it into to a
+search engine or even an AI, and you can
+get instantly what you want, but you
+don't get so the accidental things that
+you you might have have um gotten if
+you'd done it more inefficiently. Um
+Yeah, there've been times when I mean,
+I I spent a year once at the Institute
+for Advanced Study, which is uh a great
+place to uh you know, there's no
+distractions. You you you're there to
+just do research. And like the first few
+weeks you're there, like it's great.
+You're getting all these papers written
+up that you've been wanting to do for a
+long time. You've been thinking about
+problems for blocks of hours of a time.
+Um but I find if I stay there for more
+than a
+several months, like I
+I run out of of inspiration somehow.
+Like I get bored. I just, you know, surf
+the internet a lot more. Um You actually
+do need a certain level of distraction
+in your life. It it somehow
+adds enough randomness
+um and and that
+and temperature high temperature you
+need. Yeah, um
+So, yeah, I don't know the the optimal
+way to schedule my life. Uh it just
+seems to work.
+I'm very curious when you expect AIs
+that can like actually do
+frontier math better than the at least
+as good as well as the the best human
+mathematicians.
+&gt;&gt; I mean, in in some ways they're already
+they're already doing frontier math that
+is super intelligent that humans can't
+do, but it's a different frontier from
+what we're used to.
+Um I mean, you could argue that
+calculate is already doing frontier math
+that that humans
+could not accomplish, but it was but it
+wasn't you know, number crunching.
+But um But but replacing Terry Tao
+completely.
+Yeah, I mean,
+what What do you want me for? I um
+You'll just go on another podcast after.
+&gt;&gt; I'm not sure we've
+It might not be the right question to
+ask. Um
+I think with within a decade, a lot of
+things that mathematicians currently do
+we we spend a lot of the bulk of our
+time doing and a lot of stuff we put in
+our papers today can be done by AI.
+but we will find that that actually
+wasn't the most important part of what
+we do. Um
+You know, um 100 years ago, um
+a lot of mathematicians were just
+solving differential equations. Like
+people needed
+physicists needed some exact solution to
+to to to to to some system. And they
+would just
+they hired a mathematician to
+laboriously go through the calculus and
+and work out the solution to this fluid
+equation or whatever. Um a lot of what
+19th century mathematician would do, um
+you could make a call to Mathematica or
+Wolfram Alpha or a computer algebra
+package or now more recently an AI, and
+it would just solve the problem in a few
+minutes.
+Um but we we moved on. We
+we we worked on different types of
+problems after that. Um
+You know, once computers came along, you
+know, the
+computers used to be human. Like people
+used to laboriously create log tables
+and and and and and work out primes as
+Gauss did. And that has all been
+outsourced to computers. Um but but we
+we moved on. Um
+In genetics, you know, to to to sequence
+at the the genome of a single organism,
+that was an entire PhD of a geneticist.
+You know, it's so carefully, you know,
+separating all the chromosomes and and
+and whatever. Um and now you can just
+spend $1,000 and send it to a sequencer
+and and and get it done. But genetics is
+not dead as a subject. Uh you you move
+to different scale. You know, maybe you
+study whole ecosystems rather than
+individuals.
+I I I take your point, but on the
+question of well, when is most
+mathematical progress or almost all
+mathematical progress happening by AI?
+So, if you find out oh, this year a
+millennium prize problem has been
+solved, you'd put, you know, a 95% odds
+that an AI did it autonomously.
+Surely there will be such a year.
+I guess. I mean, I I I I do believe that
+that hybrid um
+human plus AIs will will dominate
+mathematics for a lot longer. It it's It
+will depend It will require some
+additional breakthroughs
+uh beyond what we already have. Um so,
+it's it's going to be stochastic. Um you
+know, I think, you know, AIs currently
+are very good at certain things, but
+they're really terrible at others. Um
+and and while you can sort of add more
+and more frameworks on top to kind of
+reduce the error rates and and and and
+make them uh
+work with each other a bit more and so
+forth. Um I I
+um it feels like we are we don't have
+all the uh the ingredients to like
+really have a
+truly satisfactory sort of uh
+replacement for all intellectual tasks.
+Um it's it is complementary currently.
+Um it's not not uh
+um it it is is not a replacement. Um
+But maybe the uh
+I mean,
+because currently what AIs will
+accelerate science in so many ways,
+uh hopefully, you know, I mean, it new
+discoveries, new breakthroughs will
+happen um more
+uh more quickly. I mean, um it's
+possible that also by somehow destroying
+serendipity, we we actually inhibit
+certain types of progress. Um
+Anything is possible really at this
+point. I think uh this uh this the world
+is very very unpredictable at this this
+point in time. What is your advice to
+somebody who would consider a career in
+math or is early in a career in math,
+g-
+especially in light of AI progress. How
+should they be thinking about their
+career differently if at all as a result
+of the AI progress? Yeah, so uh we live
+in a time of change. Um it is as I said,
+uh it it we live in a particularly
+unpredictable era. Um
+and uh
+I think in time like
+things that we've taken for granted for
+centuries may not hold anymore. Um so,
+um yeah, the way we
+do everything, and not just mathematics,
+will change. And um
+you know, so I I think uh which is, you
+know, I mean, in many ways I would
+prefer the much more boring quiet era
+where things are much the same as they
+were 10 years ago, 20 years ago.
+so, I think one just has to
+embrace this that there's we're there's
+going to be a lot of change. Um
+and that um
+you know, the things that you study,
+some of them may become obsolete or
+revolutionized.
+But but some things will be retained. Um
+um so, you you you somehow always have
+to keep an eye on you know, like you um
+there'll be a lot of
+opportunities for for things that you
+you wouldn't be able to do before. Um
+So, you
+I mean, in in math, you know, you
+previously had to basically go through
+years and years of education in math PhD
+before you could contribute to the
+frontier of of math research.
+Um but now it's quite possible at the
+high school level or or whatever that
+that you could get involved in math
+project and actually make a real
+contribution because of all these AI
+tools and and and Lean and everything
+else.
+so, there'll be a lot of non-traditional
+opportunities to to learn.
+Um so, you need a very adaptable
+um mindset. Um
+There'll be there'll be pursuing things
+just for curiosity and for playing
+playing around and uh I mean, you still
+need to get your credentials for I mean,
+for that I would think that for a while
+it's still be important to to sort of
+still go through traditional education
+and and uh and and learn
+math and science and so forth the
+old-fashioned way for a while. But um
+yeah, um but you should also be open to
+to very very different ways of of of
+doing science, some of which don't exist
+yet. Um
+Yeah, so it's it's it's a scary time,
+but also very exciting. Yeah.
+Awesome. That's a great note to close
+on. Terence, thanks so much. Yeah,
+thanks. My pleasure.

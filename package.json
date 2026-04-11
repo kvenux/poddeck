@@ -1,0 +1,22 @@
+{
+  "name": "poddeck",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Claude Code driven podcast → Slidev presentation aggregator",
+  "scripts": {
+    "discover": "tsx scripts/discover.ts",
+    "download": "tsx scripts/download-subs.ts",
+    "generate": "tsx scripts/generate-slides.ts",
+    "sync": "echo 'TODO: P4'",
+    "build": "tsx scripts/build-all.ts",
+    "preview": "npx serve dist -p 4173",
+    "dev:landing": "echo 'TODO: P4'",
+    "dev:episode": "bash -c 'cd episodes/$0 && npx slidev --port 3031'"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "playwright-chromium": "^1.59.1",
+    "tsx": "^4.19.0",
+    "yaml": "^2.5.0"
+  }
+}

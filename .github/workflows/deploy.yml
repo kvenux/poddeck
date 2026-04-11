@@ -1,0 +1,69 @@
+name: Deploy to GitHub Pages
+
+# 手动触发: GitHub UI 上点 "Run workflow"
+# 不会因为 push 自动触发——避免每次小修改都重 build 部署
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '部署原因 (可选, 仅作记录)'
+        required: false
+        default: 'manual deploy'
+
+# 同一时间只允许一个 deploy
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install playwright-chromium browser binaries
+        run: pnpm exec playwright install --with-deps chromium
+
+      - name: Build all (slidev episodes + Astro landing)
+        run: pnpm run build
+
+      - name: Inject 404.html into root dist (SPA fallback)
+        run: |
+          if [ -f landing/public/404.html ]; then
+            cp landing/public/404.html dist/404.html
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

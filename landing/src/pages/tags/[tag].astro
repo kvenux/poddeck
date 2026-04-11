@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro'
+import EpisodeCard from '../../components/EpisodeCard.astro'
+import { loadEpisodes, collectTags } from '../../lib/data'
+
+export async function getStaticPaths() {
+  const episodes = loadEpisodes()
+  const tags = collectTags(episodes)
+  return tags.map(({ tag }) => ({ params: { tag }, props: { tag } }))
+}
+
+const { tag } = Astro.props
+const episodes = loadEpisodes().filter(e => (e.tags || []).includes(tag))
+const generated = episodes.filter(e => e.status === 'generated')
+const pending = episodes.filter(e => e.status !== 'generated')
+---
+
+<Base title={`#${tag} · PodDeck`}>
+  <a href="/" class="text-xs text-stone-500 hover:text-stone-900">← 全部标签</a>
+
+  <header class="mt-4 mb-10">
+    <div class="text-sm text-stone-500">标签</div>
+    <h1 class="font-serif text-3xl md:text-4xl font-bold mt-1">
+      #<span class="text-blue-600">{tag}</span>
+    </h1>
+    <div class="text-xs text-stone-400 mt-2">
+      {episodes.length} 集相关 · {generated.length} 集已生成
+    </div>
+  </header>
+
+  {generated.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">已生成</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {generated.map(ep => <EpisodeCard episode={ep} />)}
+      </div>
+    </section>
+  )}
+
+  {pending.length > 0 && (
+    <section>
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">待处理</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pending.map(ep => <EpisodeCard episode={ep} />)}
+      </div>
+    </section>
+  )}
+</Base>

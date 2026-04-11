@@ -1,0 +1,119 @@
+---
+import Base from '../layouts/Base.astro'
+import EpisodeCard from '../components/EpisodeCard.astro'
+import SearchBox from '../components/SearchBox.astro'
+import { loadEpisodes, loadSources, collectTags } from '../lib/data'
+
+const episodes = loadEpisodes()
+const sources = loadSources()
+const tags = collectTags(episodes)
+
+const generated = episodes.filter(e => e.status === 'generated')
+const pending = episodes.filter(e => e.status !== 'generated')
+---
+
+<Base title="PodDeck">
+  <!-- Hero -->
+  <section class="mb-10 max-w-3xl">
+    <h1 class="font-serif text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">
+      把你看的播客<br />变成可翻的 slides
+    </h1>
+    <p class="text-stone-600 text-lg leading-relaxed">
+      PodDeck 把 YouTube 上的深度访谈下载字幕、分析内容、自动生成成结构化的 Slidev 演示文稿。
+      每次你点开一个节目，看到的是 15 分钟读完、有手绘图和核心论点的幻灯片。
+    </p>
+  </section>
+
+  <!-- Search -->
+  <SearchBox episodes={episodes} />
+
+  <!-- Stats strip -->
+  <section class="grid grid-cols-3 gap-4 mb-10 max-w-2xl">
+    <div class="p-3 bg-white rounded border border-stone-200">
+      <div class="text-2xl font-bold text-stone-900">{sources.length}</div>
+      <div class="text-xs text-stone-500 mt-1">订阅源头</div>
+    </div>
+    <div class="p-3 bg-white rounded border border-stone-200">
+      <div class="text-2xl font-bold text-stone-900">{episodes.length}</div>
+      <div class="text-xs text-stone-500 mt-1">收录节目</div>
+    </div>
+    <div class="p-3 bg-white rounded border border-stone-200">
+      <div class="text-2xl font-bold text-stone-900">{generated.length}</div>
+      <div class="text-xs text-stone-500 mt-1">已生成 slides</div>
+    </div>
+  </section>
+
+  <!-- Generated episodes -->
+  {generated.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">
+        精选 · 已生成
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {generated.map(ep => <EpisodeCard episode={ep} />)}
+      </div>
+    </section>
+  )}
+
+  <!-- Pending episodes -->
+  {pending.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">
+        待处理 · 字幕已下载
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pending.map(ep => <EpisodeCard episode={ep} />)}
+      </div>
+    </section>
+  )}
+
+  <!-- Top tags -->
+  {tags.length > 0 && (
+    <section class="mb-12">
+      <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">
+        热门标签
+      </h2>
+      <div class="flex flex-wrap gap-2">
+        {tags.map(({ tag, count }) => (
+          <a
+            href={`/tags/${tag}/`}
+            class="text-sm px-3 py-1 bg-white border border-stone-200 hover:border-blue-400 hover:bg-blue-50 rounded-full text-stone-700 hover:text-blue-700 transition-colors"
+          >
+            #{tag}
+            <span class="ml-1 text-stone-400 text-xs">{count}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Sources -->
+  <section>
+    <h2 class="text-sm font-semibold uppercase tracking-wider text-stone-500 mb-4">
+      订阅源头
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {sources.map(source => {
+        const count = episodes.filter(e => e.source === source.id).length
+        return (
+          <a
+            href={`/sources/${source.id}/`}
+            class="p-4 bg-white border border-stone-200 hover:border-stone-400 hover:shadow-sm rounded-lg flex items-start gap-3 transition-all"
+          >
+            <div
+              class="w-3 h-3 rounded-full mt-1.5 flex-shrink-0"
+              style={`background-color: ${source.color || '#525252'}`}
+            />
+            <div class="flex-1">
+              <div class="font-semibold">{source.name}</div>
+              {source.description && (
+                <div class="text-xs text-stone-500 mt-0.5">{source.description}</div>
+              )}
+              <div class="text-xs text-stone-400 mt-1">{count} 集</div>
+            </div>
+          </a>
+        )
+      })}
+    </div>
+  </section>
+</Base>

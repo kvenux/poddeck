@@ -1,0 +1,38 @@
+# PodDeck 标签词表
+# LLM 在打标签时只能从这个词表里选，避免标签爆炸
+# 建议保持总数 < 40，每个类别不超过 10
+
+categories:
+  topic:
+    - ai-safety
+    - ai-products
+    - ai-research
+    - interpretability
+    - hardware
+    - chips
+    - robotics
+    - startup
+    - productivity
+    - coding-agents
+    - product-management
+    - design
+
+  format:
+    - interview
+    - monologue
+    - panel
+    - walkthrough
+
+  guest-role:
+    - ceo
+    - founder
+    - researcher
+    - engineer
+    - product-lead
+    - investor
+
+  vibe:
+    - deep-dive       # 2+ 小时的深度访谈
+    - quick-take      # < 1 小时的简短对谈
+    - technical       # 有实际技术细节
+    - strategic       # 偏战略层面

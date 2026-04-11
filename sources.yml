@@ -1,0 +1,52 @@
+# PodDeck 订阅源配置
+# 每个 source 是一个播客频道/节目主体
+# filter_keywords: 过滤标题时使用，命中任一关键词则保留（word-boundary 匹配）
+# episode_limit: 每次 discover 最多保留多少条该源头的结果（默认 2）
+# auto_tag: 是否让 Claude 自动打标签
+# color: 用于 landing page 中区分视觉
+
+sources:
+  - id: lex-fridman
+    name: Lex Fridman Podcast
+    channel: https://youtube.com/@lexfridman
+    filter_keywords: [AI, Anthropic, NVIDIA, OpenAI, AGI, scaling]
+    episode_limit: 2
+    auto_tag: true
+    color: "#1e40af"
+    description: 深度技术访谈，2-5 小时长对谈，几乎不打断嘉宾
+
+  - id: dwarkesh
+    name: Dwarkesh Podcast
+    channel: https://youtube.com/@DwarkeshPatel
+    filter_keywords: [AI, scaling, LLM, intelligence, AGI, compute]
+    episode_limit: 2
+    auto_tag: true
+    color: "#9333ea"
+    description: AI 研究者深度访谈，问题尖锐有准备
+
+  - id: lennys-podcast
+    name: Lenny's Podcast
+    channel: https://youtube.com/@LennysPodcast
+    filter_keywords: [AI, product, Claude, Cursor, agent]
+    episode_limit: 2
+    auto_tag: true
+    color: "#ea580c"
+    description: 产品经理成长与 AI 产品工具实战
+
+  - id: huberman
+    name: Huberman Lab
+    channel: https://youtube.com/@hubermanlab
+    filter_keywords: [sleep, focus, dopamine, cognition, learning]
+    episode_limit: 2
+    auto_tag: true
+    color: "#059669"
+    description: 神经科学与行为心理学长对谈
+
+  - id: toe
+    name: Theories of Everything
+    channel: https://youtube.com/@TheoriesofEverything
+    filter_keywords: [physics, consciousness, quantum, theory, mathematics]
+    episode_limit: 2
+    auto_tag: true
+    color: "#dc2626"
+    description: 理论物理 / 意识 / 万物理论的沉浸式对话

@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+**/dist/
+.astro/
+
+# Slidev intermediate
+**/.slidev/
+**/audit/
+**/screenshots/
+**/boris-audit/
+**/jensen-audit/
+**/audit-jensen/
+
+# Per-episode failure markers
+episodes/*/.failed
+
+# Vite caches
+**/.vite/
+**/.cache/
+
+# Local generated logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Temporary VTT files (we keep .txt transcripts but not raw VTT)
+data/temp-vtt/
+data/queue.yml

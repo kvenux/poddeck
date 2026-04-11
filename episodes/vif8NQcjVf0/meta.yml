@@ -1,0 +1,32 @@
+id: vif8NQcjVf0
+source: lex-fridman
+title: "Jensen Huang: NVIDIA — The $4 Trillion Company & the Future of AI"
+guest: "Jensen Huang"
+guest_role: "NVIDIA CEO"
+published: 2025-11
+duration: "~2h"
+url: https://youtube.com/watch?v=vif8NQcjVf0
+thumbnail: https://img.youtube.com/vi/vif8NQcjVf0/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - ai-products
+  - interview
+  - ceo
+  - deep-dive
+  - strategic
+summary: |
+  Jensen Huang 把 NVIDIA 的打法讲成一条推理链：从 extreme co-design
+  到四条 scaling law，从 CUDA 在 GeForce 上的存在主义赌博到
+  agentic 时代的 "iPhone of tokens"。他也谈到 TSMC、中国、
+  供应链、能源瓶颈，以及"intelligence is a commodity"的人生哲学。
+core_ideas:
+  - Extreme co-design 是 NVIDIA 的方法论 —— 从 chip 到 rack 到数据中心同时优化
+  - 四条 scaling law（pre-train / post-train / test-time / agentic）组成闭环
+  - install base is everything —— CUDA 押 GeForce 曾让市值跌到 ~$1.5B
+  - 计算机从 warehouse 变成 factory，经济学彻底翻转
+  - agents = "the iPhone of tokens"，推理 workload 将压倒训练
+  - 真正的瓶颈是能源 —— 但 Jensen 想榨的是已经 idle 的电网容量
+  - intelligence is a commodity，值得被推崇的词是 humanity / character
+base: /episodes/vif8NQcjVf0/

@@ -1,0 +1,30 @@
+id: We7BZVKbCVw
+source: lennys-podcast
+title: "Head of Claude Code: What happens after coding is solved | Boris Cherny"
+guest: "Boris Cherny"
+guest_role: "Head of Claude Code, Anthropic"
+published: 2026-02
+duration: ~70 min
+url: https://youtube.com/watch?v=We7BZVKbCVw
+thumbnail: https://img.youtube.com/vi/We7BZVKbCVw/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - product-management
+  - ai-products
+  - interview
+  - product-lead
+  - technical
+summary: |
+  Claude Code 一周岁。它的负责人 Boris Cherny 复盘从"内部 demo 只收到 2 个赞"
+  到"GitHub 4% 公开 commits、Anthropic 内部人均生产力 +200%"是怎么发生的，
+  并解释为什么他认为 coding 已经被解决、下一站是让模型自己想做什么、
+  以及怎么"为 6 个月后的模型"造产品。
+core_ideas:
+  - "Coding is largely solved. 下一站不是写代码而是 Claude 自己提 ideas、agent 跨进非技术工作"
+  - "Latent demand：用户在硬撑做的事 = 你的下一个产品；新版是看模型在硬撑做什么"
+  - "The product is the model：少 scaffold，多放手；bitter lesson 在产品端的应用"
+  - "Build for the model six months from now：前 6 个月 PMF 会很差，然后突然 click"
+  - "Underfund everything：少派人 + 多发 token，会得到更多创新而不是更少"
+  - "印刷术类比：识字率从 < 1% 到 ~70% 用了 200 年——这次也会很慢但不可逆"
+base: /episodes/We7BZVKbCVw/

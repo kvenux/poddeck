@@ -1,0 +1,36 @@
+id: ugvHCXCOmm4
+source: lex-fridman
+title: "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of Humans & AI"
+guest: "Dario Amodei, Amanda Askell, Chris Olah"
+guest_role: "Anthropic CEO + Character lead + Interpretability co-founder"
+published: 2024-11
+duration: "5h"
+url: https://youtube.com/watch?v=ugvHCXCOmm4
+thumbnail: https://img.youtube.com/vi/ugvHCXCOmm4/maxresdefault.jpg
+status: generated
+tags:
+  - ai-safety
+  - ai-research
+  - interpretability
+  - interview
+  - ceo
+  - researcher
+  - deep-dive
+  - strategic
+summary: |
+  Lex Fridman 与 Anthropic 的三位核心人物同场对谈: CEO Dario Amodei 讲 scaling
+  假设、RSP 的 if-then 结构、"race to the top" 战略与 Machines of Loving Grace;
+  character lead Amanda Askell 讲 Claude 的性格工程、sycophancy 与最优失败率;
+  interpretability 共同创始人 Chris Olah 讲 features、circuits、superposition
+  和那个著名的 deception feature。三人从战略、产品、研究三个层面拼出 Anthropic
+  对 "AI inside" 的完整 stereo view。
+core_ideas:
+  - "scaling 假设作为信仰: models just want to learn —— 不要挡路,给数据给算力"
+  - "RSP 不预测未来,它是一套 if-then 阶梯: 能力到了,就自动升级安全等级"
+  - "race to the top: 做别人不做的安全研究,逼整个行业跟进"
+  - "talent density > talent mass: Anthropic 故意在千人门槛前踩刹车"
+  - "Claude 的 character 是 Aristotelian virtue 工程,不是服务态度培训"
+  - "sycophancy 是 helpful 的廉价形态,也是最难治的 bug"
+  - "linear representation + superposition + SAE: 打开 Claude 黑盒的三件套"
+  - "deception feature 的存在,让 alignment 第一次有了可观测的 handle"
+base: /episodes/ugvHCXCOmm4/

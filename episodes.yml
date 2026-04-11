@@ -1,0 +1,45 @@
+episodes:
+  - id: ugvHCXCOmm4
+    source: lex-fridman
+    title: "Dario Amodei: Anthropic CEO on Claude, AGI & the Future of Humans & AI"
+    url: https://youtube.com/watch?v=ugvHCXCOmm4
+    status: downloaded
+  - id: vif8NQcjVf0
+    source: lex-fridman
+    title: "Jensen Huang: NVIDIA - The $4 Trillion Company & the Future of AI"
+    url: https://youtube.com/watch?v=vif8NQcjVf0
+    published: 2025-03-20
+    tags:
+      - hardware
+      - chips
+      - interview
+      - ceo
+      - deep-dive
+      - strategic
+    status: downloaded
+  - id: We7BZVKbCVw
+    source: lennys-podcast
+    title: "Head of Claude Code: What happens after coding is solved | Boris Cherny"
+    url: https://youtube.com/watch?v=We7BZVKbCVw
+    tags:
+      - coding-agents
+      - product-management
+      - interview
+      - product-lead
+      - technical
+    status: generated
+  - id: EV7WhVT270Q
+    source: lex-fridman
+    title: "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI | Lex Fridman Podcast #490"
+    url: https://youtube.com/watch?v=EV7WhVT270Q
+    status: downloaded
+  - id: YFjfBk8HI5o
+    source: lex-fridman
+    title: "OpenClaw: The Viral AI Agent that Broke the Internet - Peter Steinberger | Lex Fridman Podcast #491"
+    url: https://youtube.com/watch?v=YFjfBk8HI5o
+    status: downloaded
+  - id: Q8Fkpi18QXU
+    source: dwarkesh
+    title: Terence Tao – How the world’s top mathematician uses AI
+    url: https://youtube.com/watch?v=Q8Fkpi18QXU
+    status: downloaded
