@@ -1,0 +1,36 @@
+source: lex-fridman
+refreshed_at: 2026-04-12T00:23:04.526Z
+min_duration: 3600
+min_date: "20260101"
+total_candidates: 4
+done: 1
+pending: 3
+episodes:
+  - id: iKx3gAODybU
+    title: "Vikings, Ragnar, Berserkers, Valhalla & the Warriors of the Viking Age | Lex Fridman Podcast #495"
+    duration: 7403
+    upload_date: "20260409"
+    url: https://youtube.com/watch?v=iKx3gAODybU
+    status: generated
+    priority: 1
+  - id: H9rF1CSSh-w
+    title: "Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493"
+    duration: 18612
+    upload_date: "20260311"
+    url: https://youtube.com/watch?v=H9rF1CSSh-w
+    status: pending
+    priority: 1
+  - id: 1SJiTwbSI58
+    title: "Rick Beato: Greatest Guitarists of All Time, History & Future of Music | Lex Fridman Podcast #492"
+    duration: 9228
+    upload_date: "20260301"
+    url: https://youtube.com/watch?v=1SJiTwbSI58
+    status: pending
+    priority: 1
+  - id: Z-FRe5AKmCU
+    title: "Paul Rosolie: Uncontacted Tribes in the Amazon Jungle | Lex Fridman Podcast #489"
+    duration: 11179
+    upload_date: "20260113"
+    url: https://youtube.com/watch?v=Z-FRe5AKmCU
+    status: pending
+    priority: 1

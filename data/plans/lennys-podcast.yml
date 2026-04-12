@@ -1,0 +1,148 @@
+source: lennys-podcast
+refreshed_at: 2026-04-12T00:23:04.991Z
+min_duration: 3600
+min_date: "20260101"
+total_candidates: 20
+done: 0
+pending: 20
+episodes:
+  - id: k-H4nsOTuxU
+    title: Head of Growth (Anthropic):  “Claude is growing itself at this point”
+    duration: 6769
+    upload_date: "20260405"
+    url: https://youtube.com/watch?v=k-H4nsOTuxU
+    status: pending
+    priority: 1
+  - id: wc8FBhQtdsA
+    title: "An AI state of the union: We’ve passed the inflection point & dark factories are coming"
+    duration: 5991
+    upload_date: "20260402"
+    url: https://youtube.com/watch?v=wc8FBhQtdsA
+    status: pending
+    priority: 1
+  - id: DIa0MYJzM5I
+    title: "From skeptic to true believer: How OpenClaw changed my life | Claire Vo"
+    duration: 6395
+    upload_date: "20260329"
+    url: https://youtube.com/watch?v=DIa0MYJzM5I
+    status: pending
+    priority: 1
+  - id: RP4vJeIb7WU
+    title: "The art of influence: The single most important skill left that AI can’t replace | Jessica Fain"
+    duration: 5613
+    upload_date: "20260322"
+    url: https://youtube.com/watch?v=RP4vJeIb7WU
+    status: pending
+    priority: 1
+  - id: pEis2CBomVA
+    title: "Negotiation Expert: How to stop leaving 40% of your comp on the table | Jacob Warwick"
+    duration: 6894
+    upload_date: "20260315"
+    url: https://youtube.com/watch?v=pEis2CBomVA
+    status: pending
+    priority: 1
+  - id: HEqrvF7ztBE
+    title: A behind-the-scenes interview with Lenny Rachitsky on building his newsletter and podcast
+    duration: 4013
+    upload_date: "20260312"
+    url: https://youtube.com/watch?v=HEqrvF7ztBE
+    status: pending
+    priority: 1
+  - id: _rcniEb9bLw
+    title: The real AI revolution isn’t software. It’s farms, mines, and trucks. | Qasar Younis
+    duration: 5064
+    upload_date: "20260308"
+    url: https://youtube.com/watch?v=_rcniEb9bLw
+    status: pending
+    priority: 1
+  - id: eh8bcBIAAFo
+    title: The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)
+    duration: 4645
+    upload_date: "20260301"
+    url: https://youtube.com/watch?v=eh8bcBIAAFo
+    status: pending
+    priority: 1
+  - id: ylNKlBlkFas
+    title: "AI is critical for humanity’s survival: Cisco President on the AI revolution | Jeetu Patel"
+    duration: 5243
+    upload_date: "20260226"
+    url: https://youtube.com/watch?v=ylNKlBlkFas
+    status: pending
+    priority: 1
+  - id: 3UyitfSbY6c
+    title: How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan
+    duration: 4477
+    upload_date: "20260215"
+    url: https://youtube.com/watch?v=3UyitfSbY6c
+    status: pending
+    priority: 1
+  - id: B26CwKm5C1k
+    title: OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu
+    duration: 4779
+    upload_date: "20260212"
+    url: https://youtube.com/watch?v=B26CwKm5C1k
+    status: pending
+    priority: 1
+  - id: 0XNkUdzxiZI
+    title: The rise of the professional vibe coder (a new AI-era job)
+    duration: 6150
+    upload_date: "20260208"
+    url: https://youtube.com/watch?v=0XNkUdzxiZI
+    status: pending
+    priority: 1
+  - id: Auxs8ZsHRI4
+    title: A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy
+    duration: 5516
+    upload_date: "20260201"
+    url: https://youtube.com/watch?v=Auxs8ZsHRI4
+    status: pending
+    priority: 1
+  - id: 87Pm0SGTtN8
+    title: "Marc Andreessen: The real AI boom hasn’t even started yet"
+    duration: 6275
+    upload_date: "20260129"
+    url: https://youtube.com/watch?v=87Pm0SGTtN8
+    status: pending
+    priority: 1
+  - id: 8xLquwfx6p0
+    title: The surprising advice from a founder who built 2 unicorns | Jason Cohen (WP Engine)
+    duration: 6364
+    upload_date: "20260125"
+    url: https://youtube.com/watch?v=8xLquwfx6p0
+    status: pending
+    priority: 1
+  - id: 1em64iUFt3U
+    title: How a Meta PM ships products without ever writing code | Zevi Arnovitz
+    duration: 4512
+    upload_date: "20260118"
+    url: https://youtube.com/watch?v=1em64iUFt3U
+    status: pending
+    priority: 1
+  - id: KtKJ3A6DWTs
+    title: "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook"
+    duration: 5195
+    upload_date: "20260115"
+    url: https://youtube.com/watch?v=KtKJ3A6DWTs
+    status: pending
+    priority: 1
+  - id: z7T1pCxgvlA
+    title: "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon"
+    duration: 5182
+    upload_date: "20260111"
+    url: https://youtube.com/watch?v=z7T1pCxgvlA
+    status: pending
+    priority: 1
+  - id: twzLDx9iers
+    title: "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham"
+    duration: 5516
+    upload_date: "20260104"
+    url: https://youtube.com/watch?v=twzLDx9iers
+    status: pending
+    priority: 1
+  - id: I-R1bc1rlFs
+    title: We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin (SaaStr)
+    duration: 6131
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=I-R1bc1rlFs
+    status: pending
+    priority: 1

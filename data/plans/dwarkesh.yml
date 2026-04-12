@@ -1,0 +1,43 @@
+source: dwarkesh
+refreshed_at: 2026-04-12T00:23:04.812Z
+min_duration: 3600
+min_date: "20260101"
+total_candidates: 5
+done: 0
+pending: 5
+episodes:
+  - id: myP8UjAM1pk
+    title: Michael Nielsen – Why aliens will have a different tech stack than us
+    duration: 7383
+    upload_date: "20260407"
+    url: https://youtube.com/watch?v=myP8UjAM1pk
+    status: pending
+    priority: 1
+  - id: mDG_Hx3BSUE
+    title: Dylan Patel — The single biggest bottleneck to scaling AI compute
+    duration: 9044
+    upload_date: "20260313"
+    url: https://youtube.com/watch?v=mDG_Hx3BSUE
+    status: pending
+    priority: 1
+  - id: PAIhVfGbREA
+    title: Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird – Ada Palmer
+    duration: 7339
+    upload_date: "20260306"
+    url: https://youtube.com/watch?v=PAIhVfGbREA
+    status: pending
+    priority: 1
+  - id: n1E9IZfvGMA
+    title: Dario Amodei — “We are near the end of the exponential”
+    duration: 8540
+    upload_date: "20260213"
+    url: https://youtube.com/watch?v=n1E9IZfvGMA
+    status: pending
+    priority: 1
+  - id: BYXbuik3dgA
+    title: Elon Musk – "In 36 months, the cheapest place to put AI will be space”
+    duration: 10185
+    upload_date: "20260205"
+    url: https://youtube.com/watch?v=BYXbuik3dgA
+    status: pending
+    priority: 1

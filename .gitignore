@@ -26,6 +26,12 @@ episodes/*/.failed
 logs/
 *.log
 
+# Ad-hoc verify scripts & their output inside episodes
+episodes/*/verify-*.mjs
+episodes/*/live-*.png
+episodes/*/shots/
+episodes/*/audit/
+
 # OS
 .DS_Store
 Thumbs.db
@@ -46,3 +52,7 @@ desktop.ini
 # Temporary VTT files (we keep .txt transcripts but not raw VTT)
 data/temp-vtt/
 data/queue.yml
+
+# Scan cache is too large for git (60 MB+ per file from yt-dlp --dump-json)
+# Refresh with `pnpm run cache:refresh` on demand
+data/scan-cache/

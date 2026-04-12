@@ -1,0 +1,21 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":180,"y":20,"width":340,"height":36,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":100,"version":1,"versionNonce":100,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":24,"fontFamily":1,"text":"miles per day","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"miles per day","lineHeight":1.25,"baseline":22},
+
+    {"id":"r1","type":"rectangle","x":80,"y":110,"width":80,"height":40,"angle":0,"strokeColor":"#495057","backgroundColor":"#dee2e6","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.6,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r1t","type":"text","x":175,"y":118,"width":260,"height":24,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"English foot army  10–15","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"English foot army  10–15","lineHeight":1.25,"baseline":22},
+
+    {"id":"r2","type":"rectangle","x":80,"y":190,"width":140,"height":40,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.6,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r2t","type":"text","x":235,"y":198,"width":260,"height":24,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"cavalry  ~20","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"cavalry  ~20","lineHeight":1.25,"baseline":22},
+
+    {"id":"r3","type":"rectangle","x":80,"y":280,"width":480,"height":60,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"#ffa8a8","fillStyle":"hachure","strokeWidth":3,"strokeStyle":"solid","roughness":1.8,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r3t","type":"text","x":120,"y":295,"width":420,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"Viking longships  70–120","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"Viking longships  70–120","lineHeight":1.25,"baseline":22},
+
+    {"id":"note","type":"text","x":80,"y":380,"width":520,"height":24,"angle":0,"strokeColor":"#868e96","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"speed was the most frightening thing about the Vikings","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"speed was the most frightening thing about the Vikings","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

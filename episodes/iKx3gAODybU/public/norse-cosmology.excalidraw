@@ -1,0 +1,21 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":180,"y":10,"width":340,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":100,"version":1,"versionNonce":100,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"order vs chaos — concentric","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"order vs chaos — concentric","lineHeight":1.25,"baseline":22},
+
+    {"id":"c1","type":"ellipse","x":50,"y":60,"width":540,"height":420,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"#ffe3e3","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.8,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"c1t","type":"text","x":210,"y":80,"width":260,"height":24,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"Utgard — frost giants, chaos","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Utgard — frost giants, chaos","lineHeight":1.25,"baseline":22},
+
+    {"id":"c2","type":"ellipse","x":130,"y":130,"width":380,"height":280,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffe8cc","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.8,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"c2t","type":"text","x":230,"y":150,"width":200,"height":24,"angle":0,"strokeColor":"#e8590c","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"Midgard — humans","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Midgard — humans","lineHeight":1.25,"baseline":22},
+
+    {"id":"c3","type":"ellipse","x":210,"y":200,"width":220,"height":160,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.8,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"c3t","type":"text","x":250,"y":260,"width":140,"height":40,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":20,"fontFamily":1,"text":"Asgard\nthe gods","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Asgard\nthe gods","lineHeight":1.25,"baseline":22},
+
+    {"id":"foot","type":"text","x":80,"y":510,"width":480,"height":24,"angle":0,"strokeColor":"#868e96","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"\"chaos will eventually win\" — and Ragnarok comes","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"\"chaos will eventually win\" — and Ragnarok comes","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

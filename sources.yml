@@ -1,8 +1,10 @@
 # PodDeck 订阅源配置
 # 每个 source 是一个播客频道/节目主体
-# filter_keywords: 过滤标题时使用，命中任一关键词则保留（word-boundary 匹配）
-# episode_limit: 每次 discover 最多保留多少条该源头的结果（默认 2）
-# auto_tag: 是否让 Claude 自动打标签
+# filter_keywords: 可选。plan.ts 不启用 use_keywords_in_plan 时仅用于 discover 不做过滤
+# min_duration: 最小时长秒数（plan.ts 用这个过滤）。默认 3600 = 60 分钟
+# min_date: 最早发布日期 YYYYMMDD。默认 20260101
+# cache_limit: refresh-cache.ts 扫描的最大视频数。默认 350
+# use_keywords_in_plan: plan.ts 是否同时用 filter_keywords 做二次过滤。默认 false（只按时长/日期过滤）
 # color: 用于 landing page 中区分视觉
 
 sources:
@@ -10,8 +12,9 @@ sources:
     name: Lex Fridman Podcast
     channel: https://youtube.com/@lexfridman
     filter_keywords: [AI, Anthropic, NVIDIA, OpenAI, AGI, scaling]
-    episode_limit: 2
-    auto_tag: true
+    min_duration: 3600
+    min_date: "20260101"
+    cache_limit: 100
     color: "#1e40af"
     description: 深度技术访谈，2-5 小时长对谈，几乎不打断嘉宾
 
@@ -19,8 +22,9 @@ sources:
     name: Dwarkesh Podcast
     channel: https://youtube.com/@DwarkeshPatel
     filter_keywords: [AI, scaling, LLM, intelligence, AGI, compute]
-    episode_limit: 2
-    auto_tag: true
+    min_duration: 3600
+    min_date: "20260101"
+    cache_limit: 350
     color: "#9333ea"
     description: AI 研究者深度访谈，问题尖锐有准备
 
@@ -28,8 +32,9 @@ sources:
     name: Lenny's Podcast
     channel: https://youtube.com/@LennysPodcast
     filter_keywords: [AI, product, Claude, Cursor, agent]
-    episode_limit: 2
-    auto_tag: true
+    min_duration: 3600
+    min_date: "20260101"
+    cache_limit: 350
     color: "#ea580c"
     description: 产品经理成长与 AI 产品工具实战
 
@@ -37,8 +42,9 @@ sources:
     name: Huberman Lab
     channel: https://youtube.com/@hubermanlab
     filter_keywords: [sleep, focus, dopamine, cognition, learning]
-    episode_limit: 2
-    auto_tag: true
+    min_duration: 5400   # 90 min — Huberman 大多 1.5-3.5h，稍严一点
+    min_date: "20260101"
+    cache_limit: 200
     color: "#059669"
     description: 神经科学与行为心理学长对谈
 
@@ -46,7 +52,8 @@ sources:
     name: Theories of Everything
     channel: https://youtube.com/@TheoriesofEverything
     filter_keywords: [physics, consciousness, quantum, theory, mathematics]
-    episode_limit: 2
-    auto_tag: true
+    min_duration: 3600
+    min_date: "20260101"
+    cache_limit: 500    # TOE shorts 多，多扫一些
     color: "#dc2626"
     description: 理论物理 / 意识 / 万物理论的沉浸式对话

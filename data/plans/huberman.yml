@@ -1,0 +1,106 @@
+source: huberman
+refreshed_at: 2026-04-12T00:23:05.099Z
+min_duration: 5400
+min_date: "20260101"
+total_candidates: 14
+done: 0
+pending: 14
+episodes:
+  - id: Tmw2dW0a9DY
+    title: Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner
+    duration: 8419
+    upload_date: "20260406"
+    url: https://youtube.com/watch?v=Tmw2dW0a9DY
+    status: pending
+    priority: 1
+  - id: 6-mEiwe2NhE
+    title: How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove
+    duration: 7878
+    upload_date: "20260330"
+    url: https://youtube.com/watch?v=6-mEiwe2NhE
+    status: pending
+    priority: 1
+  - id: C0DMdUqF73Q
+    title: The Best Vitality & Health Protocols | Dr. Rhonda Patrick
+    duration: 12667
+    upload_date: "20260323"
+    url: https://youtube.com/watch?v=C0DMdUqF73Q
+    status: pending
+    priority: 1
+  - id: hlOA8ObQJXo
+    title: Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson
+    duration: 9825
+    upload_date: "20260316"
+    url: https://youtube.com/watch?v=hlOA8ObQJXo
+    status: pending
+    priority: 1
+  - id: u4VTFb4awrQ
+    title: Avoiding, Treating & Curing Cancer | Dr. Alex Marson
+    duration: 8833
+    upload_date: "20260309"
+    url: https://youtube.com/watch?v=u4VTFb4awrQ
+    status: pending
+    priority: 1
+  - id: 9G2MRFs4vac
+    title: Unlearn Negative Thoughts & Behaviors Patterns | Dr. Alok Kanojia (Healthy Gamer)
+    duration: 11323
+    upload_date: "20260302"
+    url: https://youtube.com/watch?v=9G2MRFs4vac
+    status: pending
+    priority: 1
+  - id: Ew0-Lg_Evj0
+    title: Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray
+    duration: 7153
+    upload_date: "20260223"
+    url: https://youtube.com/watch?v=Ew0-Lg_Evj0
+    status: pending
+    priority: 1
+  - id: _Q4XT82yd-Q
+    title: The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple
+    duration: 9118
+    upload_date: "20260216"
+    url: https://youtube.com/watch?v=_Q4XT82yd-Q
+    status: pending
+    priority: 1
+  - id: rAbJC-Qaw7Q
+    title: How Genes Shape Your Risk Taking & Morals | Dr. Kathryn Paige Harden
+    duration: 9722
+    upload_date: "20260209"
+    url: https://youtube.com/watch?v=rAbJC-Qaw7Q
+    status: pending
+    priority: 1
+  - id: VPi_eWiaqdg
+    title: How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague
+    duration: 9685
+    upload_date: "20260202"
+    url: https://youtube.com/watch?v=VPi_eWiaqdg
+    status: pending
+    priority: 1
+  - id: lEULFeUVYf0
+    title: Science & Tools of Learning & Memory | Dr. David Eagleman
+    duration: 8652
+    upload_date: "20260126"
+    url: https://youtube.com/watch?v=lEULFeUVYf0
+    status: pending
+    priority: 1
+  - id: qzXU390N3vs
+    title: Build Muscle & Strength & Forge Your Life Path | Dorian Yates
+    duration: 10044
+    upload_date: "20260119"
+    url: https://youtube.com/watch?v=qzXU390N3vs
+    status: pending
+    priority: 1
+  - id: t6RCTP4fc9Q
+    title: How to Overcome Addiction to Substances or Behaviors | Dr. Keith Humphreys
+    duration: 12421
+    upload_date: "20260112"
+    url: https://youtube.com/watch?v=t6RCTP4fc9Q
+    status: pending
+    priority: 1
+  - id: bdsc3Spm6Sw
+    title: Best Ways to Build Better Habits & Break Bad Ones | James Clear
+    duration: 9319
+    upload_date: "20260105"
+    url: https://youtube.com/watch?v=bdsc3Spm6Sw
+    status: pending
+    priority: 1
