@@ -1,5 +1,6 @@
 ---
 import type { EpisodeWithSource } from '../lib/data'
+import { url } from '../lib/url'
 
 interface Props {
   episode: EpisodeWithSource
@@ -21,7 +22,7 @@ const thumbnail = episode.thumbnail || `https://img.youtube.com/vi/${episode.id}
       </div>
     )}
     <a
-      href={`/sources/${episode.sourceRef.id}/`}
+      href={url(`/sources/${episode.sourceRef.id}/`)}
       class="absolute top-2 left-2 text-xs text-white px-2 py-0.5 rounded-full font-medium hover:opacity-90 transition-opacity"
       style={`background-color: ${episode.sourceRef.color || '#525252'}`}
       onclick="event.stopPropagation()"
@@ -56,7 +57,7 @@ const thumbnail = episode.thumbnail || `https://img.youtube.com/vi/${episode.id}
       <div class="flex flex-wrap gap-1 mb-3">
         {episode.tags.slice(0, 4).map(tag => (
           <a
-            href={`/tags/${tag}/`}
+            href={url(`/tags/${tag}/`)}
             class="text-[10px] px-2 py-0.5 bg-stone-100 hover:bg-blue-100 text-stone-600 hover:text-blue-700 rounded-full transition-colors"
           >
             #{tag}
@@ -68,7 +69,7 @@ const thumbnail = episode.thumbnail || `https://img.youtube.com/vi/${episode.id}
     <div class="mt-auto pt-2 flex items-center justify-between">
       {isGenerated ? (
         <a
-          href={episode.base}
+          href={url(episode.base || `/episodes/${episode.id}/`)}
           class="text-sm font-medium text-blue-600 hover:text-blue-800"
         >
           查看 slides →

@@ -1,0 +1,40 @@
+id: EV7WhVT270Q
+source: lex-fridman
+title: "State of AI in 2026: LLMs, Coding, Scaling Laws, China, Agents, GPUs, AGI | Lex Fridman Podcast #490"
+guest: "Sebastian Raschka, Nathan Lambert"
+guest_role: "《Build a Large Language Model (From Scratch)》作者 + AI2 研究员 / RLHF 书作者"
+published: 2026-01
+duration: "5h"
+url: https://youtube.com/watch?v=EV7WhVT270Q
+thumbnail: https://img.youtube.com/vi/EV7WhVT270Q/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - coding-agents
+  - hardware
+  - chips
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  Lex Fridman 请来两位"一线做过模型、也写过书"的研究者做 2026 年初的 AI
+  state-of-the-art 盘点: Sebastian Raschka 从 GPT-2 一路手撕到 Qwen3 / Gemma 3,
+  最擅长从架构里读故事;Nathan Lambert 是 AI2 研究员、RLHF 书作者、atom 项目
+  发起人,frontier 与 open-source 两边都站过。两人聊了 DeepSeek 时刻、Opus 4.5
+  神话、RLVR 的"假 aha"、scaling 的三个轴、AI 2027 的时间线推后、Anthropic
+  $1.5B 和解、CUDA 的真护城河、atom project,一直到 100 年后世界的样子。
+core_ideas:
+  - "2026 没有 winner takes all —— ideas flow freely,差异靠预算 + 硬件 + 文化"
+  - "DeepSeek 真正赢的是 open weight 研究者的心,技术报告级别的开放度是异常值"
+  - "GPT-2 → 2026 的 LLM 其实是同一个 decoder-only 骨架 + 几个 tweak 的 lineage"
+  - "Scaling 三轴: pre-training 吸收知识、mid-training 聚焦、post-training 解锁技能"
+  - "RLVR 的 aha moments 是 amplify,不是 learn —— 知识早在 pre-training 里"
+  - "RLHF 在数学上不可能完全解决: 多维偏好不能压成一个标量"
+  - "Anthropic 的 $1.5B torrent 和解,是 2025 年被低估的 civilizational milestone"
+  - "Nvidia 的 moat 是 CUDA,不是 GPU —— 二十年 ecosystem 叠加"
+  - "atom project: 美国需要一个 ~$100M 的开源 frontier 模型,否则研究生态被中国吃掉"
+  - "AGI 的两个 proxy: Nathan 的 remote worker / Sebastian 的 superhuman coder"
+  - "Jagged intelligence 是反 AI-2027 派的核心论点: gap 永远存在"
+  - "100 年后会留下的词: deep learning / transformer,但架构一定会被演化掉"
+base: /episodes/EV7WhVT270Q/

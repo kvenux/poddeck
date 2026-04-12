@@ -1,5 +1,6 @@
 ---
 import type { EpisodeWithSource } from '../lib/data'
+import { url } from '../lib/url'
 
 interface Props {
   episodes: EpisodeWithSource[]
@@ -10,7 +11,7 @@ const { episodes } = Astro.props
 // Build a minimal search index — title + guest + summary + tags + source name
 const index = episodes.map(e => ({
   id: e.id,
-  base: e.base,
+  base: url(e.base || `/episodes/${e.id}/`),
   title: e.title,
   guest: e.guest || '',
   guest_role: e.guest_role || '',

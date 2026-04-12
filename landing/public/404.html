@@ -32,19 +32,18 @@
     // pick it up if it cares. For pure /<unknown> paths, fall through to
     // the visible "lost" page below.
     (function () {
+      // Pattern matches both /episodes/<id>/<rest> (local) and /poddeck/episodes/<id>/<rest> (GH Pages)
       var path = window.location.pathname
       var match = path.match(/^(.*\/episodes\/[^\/]+\/)(.*)$/)
       if (match) {
         var spaRoot = match[1]
         var rest = match[2] || ''
-        // Slidev uses /N for slide N — redirect with same shape
-        window.location.replace(spaRoot + (rest ? rest : '') + window.location.search + window.location.hash)
+        // Slidev SPA handles the rest — just redirect to the episode root
+        // and preserve hash/search for in-SPA deep linking
+        window.location.replace(spaRoot + window.location.search + window.location.hash)
         return
       }
-      // Not an episode deep link — just bounce to home after a moment
-      setTimeout(function () {
-        // Allow visible message to show briefly
-      }, 100)
+      // Unknown non-episode path — will show the fallback UI below
     })()
   </script>
 </head>
@@ -52,7 +51,7 @@
   <div class="box">
     <h1>404 · 找不到这个页面</h1>
     <p>这个 URL 不在 PodDeck 上。<br />如果你点的是某集的深度链接，正在跳转到该集首页。</p>
-    <p><a href="/">← 回到 PodDeck 首页</a></p>
+    <p><a href="./">← 回到 PodDeck 首页</a></p>
   </div>
 </body>
 </html>

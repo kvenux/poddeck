@@ -1,5 +1,5 @@
 <template>
-  <a href="/" class="poddeck-back" title="返回 PodDeck">
+  <a href="../../" class="poddeck-back" title="返回 PodDeck">
     ← PodDeck
   </a>
 </template>

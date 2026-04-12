@@ -3,7 +3,7 @@ theme: academic
 colorSchema: light
 addons:
   - slidev-addon-excalidraw
-title: 'Terence Tao – How the world's top mathematician uses AI'
+title: 'Terence Tao – How the world''s top mathematician uses AI'
 info: |
   Terence Tao 与 Dwarkesh Patel 的对谈：当世最强数学家如何使用 AI、
   Erdős 问题被一波 AI 攻克后为何陷入瓶颈、以及"breadth vs depth"
@@ -560,7 +560,7 @@ Tao 用素数做例子说明"非正式信念"是怎么运作的：
   - 有没有其它领域被它启发
 
 <div class="mt-4 p-3 bg-blue-50 border-l-4 border-blue-500 rounded text-xs">
-所以"客观打分"很难做到——它本质上就**不是**一个静态的可度量量。
+所以"客观打分"很难做到——它本质上就<strong>不是</strong>一个静态的可度量量。
 </div>
 
 </div>
@@ -673,38 +673,38 @@ Tao 用素数做例子说明"非正式信念"是怎么运作的：
 
 # 核心金句
 
-<div class="text-sm opacity-60 mb-4">这期对谈里最值得记住的几句（全部经 transcript 验证）：</div>
+<div class="text-xs opacity-60 mb-2">这期对谈里最值得记住的几句（全部经 transcript 验证）：</div>
 
-<div class="space-y-2">
+<div class="space-y-1.5 text-xs">
 
-<div class="p-3 bg-blue-50 border-l-4 border-blue-500 rounded italic text-sm">
+<div class="p-2 bg-blue-50 border-l-4 border-blue-500 rounded italic">
 "AI has basically driven the cost of idea generation down to almost zero ... it doesn't create abundance by itself."
-<div class="text-xs opacity-60 mt-1 not-italic">— 关于瓶颈的迁移</div>
+<div class="opacity-60 mt-0.5 not-italic">— 关于瓶颈的迁移</div>
 </div>
 
-<div class="p-3 bg-green-50 border-l-4 border-green-500 rounded italic text-sm">
+<div class="p-2 bg-green-50 border-l-4 border-green-500 rounded italic">
 "it had to be matched by an equal amount of verification, otherwise it's slop."
-<div class="text-xs opacity-60 mt-1 not-italic">— 谈 Kepler / Brahe，以及今天的 AI</div>
+<div class="opacity-60 mt-0.5 not-italic">— 谈 Kepler / Brahe，以及今天的 AI</div>
 </div>
 
-<div class="p-3 bg-orange-50 border-l-4 border-orange-500 rounded italic text-sm">
+<div class="p-2 bg-orange-50 border-l-4 border-orange-500 rounded italic">
 "they excel at breadth and humans excel at depth ... they're very complementary."
-<div class="text-xs opacity-60 mt-1 not-italic">— Tao 的 AI vs human 总结</div>
+<div class="opacity-60 mt-0.5 not-italic">— Tao 的 AI vs human 总结</div>
 </div>
 
-<div class="p-3 bg-purple-50 border-l-4 border-purple-500 rounded italic text-sm">
+<div class="p-2 bg-purple-50 border-l-4 border-purple-500 rounded italic">
 "progress has been made actually not by adding more theories but by deleting some assumptions that you have in your mind."
-<div class="text-xs opacity-60 mt-1 not-italic">— 论科学史的进步机制</div>
+<div class="opacity-60 mt-0.5 not-italic">— 论科学史的进步机制</div>
 </div>
 
-<div class="p-3 bg-red-50 border-l-4 border-red-500 rounded italic text-sm">
+<div class="p-2 bg-red-50 border-l-4 border-red-500 rounded italic">
 "the progress is simultaneously amazing and disappointing."
-<div class="text-xs opacity-60 mt-1 not-italic">— 关于今天 AI 的最诚实评价</div>
+<div class="opacity-60 mt-0.5 not-italic">— 关于今天 AI 的最诚实评价</div>
 </div>
 
-<div class="p-3 bg-yellow-50 border-l-4 border-yellow-500 rounded italic text-sm">
+<div class="p-2 bg-yellow-50 border-l-4 border-yellow-500 rounded italic">
 "made papers sort of richer and broader, but not necessarily deeper."
-<div class="text-xs opacity-60 mt-1 not-italic">— Tao 自己使用 AI 后的诚实自评</div>
+<div class="opacity-60 mt-0.5 not-italic">— Tao 自己使用 AI 后的诚实自评</div>
 </div>
 
 </div>

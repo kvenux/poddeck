@@ -65,6 +65,11 @@ async function buildLanding(): Promise<string> {
 async function main() {
   log.step('Build all — assembling dist/')
 
+  // Site base path — matches landing/astro.config.mjs `base`.
+  // Local:    PODDECK_BASE unset → /
+  // CI/prod:  PODDECK_BASE=/poddeck/ → https://kvenux.github.io/poddeck/
+  const SITE_BASE = process.env.PODDECK_BASE || '/'
+
   // Collect all generated episodes
   const episodes: { id: string; base: string }[] = []
   for (const entry of readdirSync(EPISODES_DIR)) {
@@ -72,10 +77,10 @@ async function main() {
     if (!existsSync(metaPath)) continue
     const meta = readYaml<EpisodeMeta>(metaPath)
     if (meta.status === 'generated') {
-      episodes.push({ id: entry, base: `/episodes/${entry}/` })
+      episodes.push({ id: entry, base: `${SITE_BASE}episodes/${entry}/` })
     }
   }
-  log.info(`found ${episodes.length} generated episodes`)
+  log.info(`found ${episodes.length} generated episodes (base=${SITE_BASE})`)
 
   // Clean dist
   if (existsSync(DIST_DIR)) rmSync(DIST_DIR, { recursive: true, force: true })
@@ -108,6 +113,7 @@ async function main() {
 
   // Write serve.json so `serve` does SPA fallback for each episode
   // Each /episodes/<id>/<anything> → /episodes/<id>/index.html
+  // Note: `serve` doesn't apply the site base, so these paths are relative to dist/ root.
   const rewrites = episodeDists.map(ep => ({
     source: `/episodes/${ep.id}/**`,
     destination: `/episodes/${ep.id}/index.html`,

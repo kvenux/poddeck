@@ -1,7 +1,7 @@
 name: Deploy to GitHub Pages
 
-# 手动触发: GitHub UI 上点 "Run workflow"
-# 不会因为 push 自动触发——避免每次小修改都重 build 部署
+# 手动触发（workflow_dispatch）+ 初始 push 自动触发一次
+# 之后的更新建议手动触发，避免每次小改动都 rebuild
 on:
   workflow_dispatch:
     inputs:
@@ -9,6 +9,12 @@ on:
         description: '部署原因 (可选, 仅作记录)'
         required: false
         default: 'manual deploy'
+  push:
+    branches: [main]
+
+env:
+  PODDECK_BASE: /poddeck/
+  PODDECK_SITE: https://kvenux.github.io
 
 # 同一时间只允许一个 deploy
 concurrency:

@@ -1,0 +1,29 @@
+id: Q8Fkpi18QXU
+source: dwarkesh
+title: "Terence Tao – How the world's top mathematician uses AI"
+guest: "Terence Tao"
+guest_role: "UCLA mathematician, Fields Medalist"
+published: 2025-11
+duration: 75
+url: https://youtube.com/watch?v=Q8Fkpi18QXU
+thumbnail: https://img.youtube.com/vi/Q8Fkpi18QXU/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  当世最强的数学家谈他亲手用过 AI 之后的判断：想法生成的成本几乎归零，
+  但瓶颈搬到了 verification 这一侧；50 道 Erdős 问题被 AI 攻克之后随即陷入瓶颈；
+  AI 像在黑暗中乱跳的机器人，能跨过低墙、爬不上悬崖；breadth × depth 才是
+  数学的下一步——但要先重设整个学术工作流。
+core_ideas:
+  - "Kepler 是高温采样的 LLM，Brahe 是 verifier，科学 = sampler + verifier"
+  - "AI 把想法生成成本驱到接近零，瓶颈搬到 verification / curation 这一侧"
+  - "50 个 Erdős 问题被 AI 解掉，然后停了——低垂果实摘完了"
+  - "AI 像在黑暗里乱跳的机器人：能跨过 3 ft 墙，跨不过悬崖；不会 cumulatively 攀岩"
+  - "AI excels at breadth, humans at depth；当前的科学全建立在 depth 之上，需要重设"
+  - "Tao 自己写论文'快了 5 倍'，但只是更宽更厚，深度没变"
+base: /episodes/Q8Fkpi18QXU/

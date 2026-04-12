@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro'
 import EpisodeCard from '../../components/EpisodeCard.astro'
 import { loadEpisodes, collectTags } from '../../lib/data'
+import { url } from '../../lib/url'
 
 export async function getStaticPaths() {
   const episodes = loadEpisodes()
@@ -16,7 +17,7 @@ const pending = episodes.filter(e => e.status !== 'generated')
 ---
 
 <Base title={`#${tag} · PodDeck`}>
-  <a href="/" class="text-xs text-stone-500 hover:text-stone-900">← 全部标签</a>
+  <a href={url('/')} class="text-xs text-stone-500 hover:text-stone-900">← 全部标签</a>
 
   <header class="mt-4 mb-10">
     <div class="text-sm text-stone-500">标签</div>
