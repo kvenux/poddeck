@@ -8,6 +8,7 @@ duration: "~2h"
 url: https://youtube.com/watch?v=vif8NQcjVf0
 thumbnail: https://img.youtube.com/vi/vif8NQcjVf0/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags:
   - hardware
   - chips

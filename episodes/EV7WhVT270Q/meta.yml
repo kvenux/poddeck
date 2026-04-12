@@ -8,6 +8,7 @@ duration: "5h"
 url: https://youtube.com/watch?v=EV7WhVT270Q
 thumbnail: https://img.youtube.com/vi/EV7WhVT270Q/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags:
   - ai-research
   - coding-agents
