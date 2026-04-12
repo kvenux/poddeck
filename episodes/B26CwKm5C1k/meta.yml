@@ -1,0 +1,30 @@
+id: B26CwKm5C1k
+source: lennys-podcast
+title: "OpenAI's head of platform engineering on the next 12-24 months of AI | Sherwin Wu"
+guest: Sherwin Wu
+guest_role: Head of Platform Engineering, OpenAI
+published: 2025-06
+duration: ~60 min
+url: https://youtube.com/watch?v=B26CwKm5C1k
+thumbnail: https://img.youtube.com/vi/B26CwKm5C1k/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-products
+  - coding-agents
+  - startup
+  - productivity
+  - interview
+  - engineer
+  - strategic
+base: /episodes/B26CwKm5C1k/
+summary: |
+  OpenAI API 与开发者平台工程负责人 Sherwin Wu 分享了 AI 如何重塑软件工程、管理哲学、
+  创业生态，以及未来 12-24 个月模型能力和平台方向的展望。
+core_ideas:
+  - 95% 的 OpenAI 工程师日常使用 Codex，100% 的 PR 由 AI 审查，重度用户产出高 70%
+  - 工程师角色正从写代码转变为管理 agent 舰队——SICP 巫师隐喻在 AI 时代成为现实
+  - 一人十亿美元公司的真正意义在于二阶效应：创业门槛降低催生 B2B SaaS 黄金时代
+  - 很多企业 AI 部署是负 ROI，因为缺少自下而上的 tiger team 推动真正的落地
+  - 模型会吃掉你的脚手架——要为模型的未来能力构建，而非当下
+  - 未来 12-18 个月关注点：multi-hour 任务连贯执行 + 音频/语音模型突破

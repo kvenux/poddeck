@@ -1,0 +1,33 @@
+id: n1E9IZfvGMA
+source: dwarkesh
+title: 'Dario Amodei — "We are near the end of the exponential"'
+guest: Dario Amodei
+guest_role: Anthropic CEO
+published: 2025-03
+duration: ~2h
+url: https://youtube.com/watch?v=n1E9IZfvGMA
+thumbnail: https://img.youtube.com/vi/n1E9IZfvGMA/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - ai-safety
+  - ai-products
+  - startup
+  - deep-dive
+  - strategic
+  - ceo
+  - interview
+summary: |
+  Anthropic CEO Dario Amodei 三年后再度做客 Dwarkesh Podcast，深度解析他为何认为
+  我们正接近 AI 指数增长的终点。从 2017 年的 Big Blob of Compute 假说到 country of
+  geniuses in a data center 的 1-3 年预测，从 Anthropic 10x 年增长到算力采购的
+  生死赌局，从 AI 宪法的三层治理到独裁体制道德过时论。
+core_ideas:
+  - 我们接近 AI 能力指数增长的终点——公众却浑然不知
+  - Country of geniuses in a data center 90% 确定 10 年内实现，50/50 在 1-2 年内
+  - SWE 自动化是一个漫长光谱——90% 的代码由 AI 写 ≠ 替代 90% 的工程师
+  - 经济扩散快但非无限快——两条指数曲线之间存在 gap
+  - AI 行业将形成 3-4 家公司的 Cournot 均衡，模型差异化超过云计算
+  - 独裁体制在 AI 时代可能变得道德上不可持续
+base: /episodes/n1E9IZfvGMA/

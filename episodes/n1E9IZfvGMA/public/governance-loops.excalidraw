@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":200,"y":10,"width":320,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":20,"fontFamily":1,"text":"Three Governance Loops","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Three Governance Loops","lineHeight":1.25,"baseline":22},
+
+    {"id":"r1","type":"ellipse","x":140,"y":100,"width":440,"height":380,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":30,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r1t","type":"text","x":260,"y":440,"width":200,"height":25,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"Loop 3: Society\n(democratic input)","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Loop 3: Society\n(democratic input)","lineHeight":1.25,"baseline":18},
+
+    {"id":"r2","type":"ellipse","x":200,"y":150,"width":320,"height":260,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":40,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r2t","type":"text","x":260,"y":370,"width":200,"height":25,"angle":0,"strokeColor":"#1971c2","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"Loop 2: Cross-company\n(competing constitutions)","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Loop 2: Cross-company\n(competing constitutions)","lineHeight":1.25,"baseline":18},
+
+    {"id":"r3","type":"ellipse","x":270,"y":200,"width":180,"height":140,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":50,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"r3t","type":"text","x":300,"y":255,"width":120,"height":25,"angle":0,"strokeColor":"#e8590c","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"Loop 1:\nInternal\niteration","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Loop 1:\nInternal\niteration","lineHeight":1.25,"baseline":18}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

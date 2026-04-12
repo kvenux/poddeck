@@ -1,0 +1,33 @@
+id: BYXbuik3dgA
+source: dwarkesh
+title: 'Elon Musk – "In 36 months, the cheapest place to put AI will be space"'
+guest: Elon Musk
+guest_role: CEO of Tesla, SpaceX, xAI
+published: 2025-04
+duration: ~3h
+url: https://youtube.com/watch?v=BYXbuik3dgA
+thumbnail: https://img.youtube.com/vi/BYXbuik3dgA/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - robotics
+  - ai-research
+  - ai-safety
+  - deep-dive
+  - interview
+  - ceo
+  - strategic
+category: ai-tech
+base: /episodes/BYXbuik3dgA/
+summary: |
+  Elon Musk 与 Dwarkesh Patel 长达 3 小时的深度对谈，涵盖太空 AI 数据中心（36 个月内最经济）、
+  Starship 每小时一次发射、月球质量驱动器、Terafab 自建芯片厂、Optimus 机器人的递归指数增长、
+  中美制造业竞争，以及 xAI "understand the universe" 使命与 AI 安全。
+core_ideas:
+  - 太空太阳能效率是地面的 5-10 倍，36 个月内将成为 AI 算力最便宜的部署地
+  - 能源是当前的限制因素（芯片即将超过可用电力），随后是芯片产能，最终只有太空能扩展
+  - Optimus 是三个指数的乘积——数字智能 × 芯片能力 × 机械灵巧度，加上递归自我制造
+  - 中国电力产出即将达到美国的 3 倍，美国无法在人力上竞争，必须靠机器人
+  - Starship 从碳纤维切换到不锈钢——在低温下强度重量比相当，但成本低 50 倍
+  - xAI 使命是理解宇宙，AI 必须真实求真而非政治正确

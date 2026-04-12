@@ -1,0 +1,31 @@
+id: eh8bcBIAAFo
+source: lennys-podcast
+title: "The design process is dead. Here's what's replacing it. | Jenny Wen (head of design at Claude)"
+guest: Jenny Wen
+guest_role: Head of Design, Claude (Anthropic)
+published: 2025-06
+duration: ~60 min
+url: https://youtube.com/watch?v=eh8bcBIAAFo
+thumbnail: https://img.youtube.com/vi/eh8bcBIAAFo/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - design
+  - ai-products
+  - product-management
+  - interview
+  - strategic
+base: /episodes/eh8bcBIAAFo/
+summary: |
+  Jenny Wen, head of design for Claude at Anthropic (previously director of design at Figma),
+  discusses how AI is fundamentally transforming the design profession. She argues the traditional
+  design process is dead, replaced by two modes: execution support (pairing with engineers) and
+  short-horizon vision-setting. Topics include building trust through speed, three hiring archetypes
+  for the AI era, the legibility framework, and why design managers need IC rotations.
+core_ideas:
+  - The double-diamond design process is dead — engineering speed forced the change, not a design manifesto
+  - Designer time allocation shifted from 60-70% mocking to 30-40%, with new slices for engineer pairing and implementation
+  - Building trust through speed — ship early as research preview, iterate publicly, respond to feedback
+  - Three hiring archetypes — strong generalist (block-shaped), deep specialist (deep T), craft new grad (blank slate)
+  - Designers should act like internal VCs — spot illegible ideas with energy, then make them legible
+  - AI will get better at taste and judgment, but humans remain accountable for decisions

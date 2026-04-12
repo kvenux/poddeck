@@ -1,0 +1,32 @@
+id: I-R1bc1rlFs
+source: lennys-podcast
+title: "We replaced our sales team with 20 AI agents — here's what happened next | Jason Lemkin (SaaStr)"
+guest: Jason Lemkin
+guest_role: "SaaStr Founder & CEO"
+published: 2025-01
+duration: ~60 min
+url: https://youtube.com/watch?v=I-R1bc1rlFs
+thumbnail: https://img.youtube.com/vi/I-R1bc1rlFs/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-products
+  - startup
+  - productivity
+  - interview
+  - founder
+  - ceo
+  - strategic
+summary: |
+  Jason Lemkin shares how SaaStr went from a 10-person sales team to 1.2 humans and
+  20 AI agents with the same revenue output. He covers which sales roles will go
+  extinct, how to train agents in 30 days, and why the future belongs to $250K SDRs
+  managing 10 agents instead of 10 people.
+core_ideas:
+  - SaaStr replaced 10 GTM humans with 1.2 humans + 20 AI agents at equal productivity
+  - Email-based SDRs and inbound BDRs will be mostly extinct within 12 months
+  - Train agents on your best person's email copy, not generic templates — 30 days of daily iteration
+  - Don't build GTM agents internally unless you're Vercel — buy from vendors who provide forward deployed engineers
+  - The Chief AI Officer role is critical — a nerdy internal person orchestrating all agents
+  - AI is displacing the midpack but the best humans are more valuable than ever
+base: /episodes/I-R1bc1rlFs/

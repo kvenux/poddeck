@@ -1,0 +1,34 @@
+id: 87Pm0SGTtN8
+source: lennys-podcast
+title: "Marc Andreessen: The real AI boom hasn't even started yet"
+guest: Marc Andreessen
+guest_role: Co-founder of Andreessen Horowitz (a16z)
+published: 2025-04
+duration: ~60 min
+url: https://youtube.com/watch?v=87Pm0SGTtN8
+thumbnail: https://img.youtube.com/vi/87Pm0SGTtN8/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-products
+  - startup
+  - productivity
+  - product-management
+  - coding-agents
+  - interview
+  - investor
+  - strategic
+  - deep-dive
+summary: |
+  Marc Andreessen argues AI arrives at a miraculously well-timed moment — just as
+  productivity growth has stagnated for 50 years and global population is declining.
+  He unpacks the "Mexican standoff" between PMs, engineers, and designers, explains
+  why task loss matters more than job loss, and makes the case for indeterminate optimism.
+core_ideas:
+  - AI is the philosopher's stone — transforming sand (silicon) into thought
+  - 50 years of slow productivity growth means AI enters a world that desperately needs it
+  - Demographic decline + AI timing = human workers at a premium, not a discount
+  - The PM/engineer/designer Mexican standoff — all three roles are converging via AI
+  - Being good at 2-3 things has super-additive returns (Scott Adams principle)
+  - AI moats are unknowable — the industry is a complex adaptive system still in discovery
+base: /episodes/87Pm0SGTtN8/

@@ -1,0 +1,31 @@
+id: ylNKlBlkFas
+source: lennys-podcast
+title: "AI is critical for humanity's survival: Cisco President on the AI revolution | Jeetu Patel"
+guest: Jeetu Patel
+guest_role: Cisco CPO & President
+published: 2025-05
+duration: ~45 min
+url: https://youtube.com/watch?v=ylNKlBlkFas
+thumbnail: https://img.youtube.com/vi/ylNKlBlkFas/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-products
+  - hardware
+  - product-management
+  - interview
+  - product-lead
+  - strategic
+  - deep-dive
+summary: |
+  Cisco CPO/President Jeetu Patel discusses why AI is essential for humanity's survival
+  given declining birth rates, how Cisco connects GPU clusters across data centers as
+  critical AI infrastructure, and shares his six-part framework for building great companies.
+core_ideas:
+  - AI is not just a productivity tool — it is essential for humanity's survival as birth rates decline
+  - Cisco is the networking glue that connects GPU clusters across data centers hundreds of kilometers apart
+  - Large companies fail not because they don't experiment, but because they don't go all-in when experiments succeed
+  - Permission to Play framework — only invest where your company has a natural right to win
+  - Stamina and hunger trump intellect — you can train intelligence but not drive
+  - Don't be stingy with words — express appreciation authentically and explicitly
+base: /episodes/ylNKlBlkFas/
