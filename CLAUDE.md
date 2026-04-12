@@ -1,37 +1,137 @@
-# Slidev 最佳实践与操作流程
+# PodDeck — Slidev 最佳实践与操作流程
 
-这是一个用 Slidev 把长播客/访谈/文章转成结构化演示文稿的工作流记录。
+一个自动把 YouTube 长播客访谈转成结构化 Slidev 演示文稿的 pipeline。这个文件是给 Claude Code 看的项目级规范。**强制性硬规则（事实准确性、长度要求等）在 `scripts/prompts/slides-system-rules.md`**，那份会通过 `--append-system-prompt` 直接注入到 generate-slides subprocess 的系统提示词，绕不开。本文件是补充的"项目便利"和"已知陷阱"。
 
 ## 技术栈
 
-- **Slidev** — 基于 Markdown 的开发者演示框架
-- **Theme**: `slidev-theme-academic`（学术/深度内容最合适），`colorSchema: light`
-- **Addon**: `slidev-addon-excalidraw`（手绘风格示意图）
-- **Skill**: 官方 Slidev Skill 已全局安装到 `~/.agents/skills/slidev/`，通过 `npx skills add slidevjs/slidev -y -g` 安装
+- **Slidev** `slidev-theme-academic` + `colorSchema: light` + `slidev-addon-excalidraw`
+- **Landing**: Astro + Tailwind（env-driven base path）
+- **自动化**: `claude -p --model opus --append-system-prompt` 跑无人值守 subprocess
+- **部署**: GitHub Actions → GitHub Pages（手动 workflow_dispatch / 首次 push 自动触发）
 
 ## 项目结构
 
 ```
-dario-slides/
-├── slides.md                  # 主 Markdown 源文件
-├── public/                    # 静态资源
-│   ├── *.excalidraw          # 手绘图源文件（JSON）
-│   └── *.png / *.svg         # 其它图片
-├── screenshots/              # 导出的 PNG（用于视觉验证）
-├── dist/                     # 静态 HTML 构建产物
-└── package.json
+poddeck/
+├── sources.yml              # 订阅的频道 + 每个 source 的 min_duration / min_date / cache_limit
+├── tags.yml                 # 标签词表（约束 LLM 不瞎发明标签）
+├── episodes.yml             # 早期 discover/download 用的目录（逐步被 plan 替代）
+├── CLAUDE.md                # ← 这份文件：项目级规范
+├── plan.md                  # 项目整体规划
+│
+├── data/
+│   ├── transcripts/         # 清洗过的字幕 .txt（git 提交，grep 验证引言用）
+│   ├── scan-cache/          # yt-dlp --dump-json 的 raw JSONL（.gitignore，50+ MB）
+│   └── plans/               # 按 source 的执行计划 yml（git 提交，状态追踪）
+│
+├── episodes/
+│   ├── _templates/          # 新 episode scaffold: package.json, global-bottom.vue, public/ 6 张通用 excalidraw
+│   └── <videoId>/           # 每集一个独立 Slidev 项目
+│       ├── slides.md        # ← CC 生成
+│       ├── meta.yml         # ← CC 生成
+│       ├── global-bottom.vue  # 返回按钮（相对路径 ../../）
+│       ├── package.json
+│       └── public/*.excalidraw
+│
+├── landing/                 # Astro 主站
+│   ├── astro.config.mjs     # base = process.env.PODDECK_BASE || '/'
+│   ├── public/404.html      # GH Pages SPA fallback
+│   └── src/{pages,components,layouts,lib}/
+│
+├── scripts/
+│   ├── prompts/
+│   │   ├── slides-system-rules.md  ★ 硬规则，注入系统提示词
+│   │   └── slides-task.md          任务模板（{{ID}} / {{SOURCE}} / {{TITLE}}）
+│   ├── refresh-cache.ts     # yt-dlp --dump-json → data/scan-cache/*.jsonl
+│   ├── plan.ts              # cache → 过滤 → data/plans/*.yml
+│   ├── run-plan.ts          # 执行 pending（download + claude -p）
+│   ├── generate-slides.ts   # 单集生成（不推荐直接用，prefer plan:run）
+│   ├── analyze-scan.ts      # 时长阈值统计表
+│   ├── build-all.ts         # slidev build × N + astro build + 组装 dist/
+│   └── lib/                 # yaml-io / spawn / yt / log / types
+│
+└── .github/workflows/
+    └── deploy.yml           # workflow_dispatch + push:main 自动部署 gh-pages
 ```
 
-## 命令速查
+## 自动化 pipeline（当前实际在用的方式）
+
+```
+┌───────────────┐  yt-dlp --dump-json
+│ sources.yml   │───────────────┐
+└───────────────┘               │
+                                ▼
+                ┌──────────────────────────┐
+                │ data/scan-cache/*.jsonl  │  full metadata (gitignored, 50MB+)
+                └────────┬─────────────────┘
+                         │ plan.ts (date + duration filter + dedup)
+                         ▼
+                ┌──────────────────────────┐
+                │ data/plans/<source>.yml  │  git-tracked state
+                └────────┬─────────────────┘
+                         │ run-plan.ts
+                         ▼
+                ┌──────────────────────────┐
+                │ episodes/<id>/           │  slides.md + meta.yml
+                └────────┬─────────────────┘
+                         │ build-all.ts
+                         ▼
+                    dist/ → GH Pages
+```
+
+**常用命令**：
 
 ```bash
-npm run dev                              # 启动 dev server (3030)
-npx slidev build --base /                # 构建为静态 SPA
-npx slidev export --format png --output screenshots   # 导出 PNG 逐页检查
-npx slidev export                        # 导出 PDF（需要 playwright-chromium）
+# 扫频道拉全 metadata（有新集时跑）
+pnpm run cache:refresh                         # 所有 source 并行
+pnpm run cache:refresh -- --id=lex-fridman     # 单源
+
+# 从 cache 生成/更新 plan 文件
+pnpm run plan                                  # 所有 source
+pnpm run plan -- --min-duration=5400           # 临时改阈值
+
+# 执行 plan 里 pending 的条目
+pnpm run plan:run                              # 全部
+pnpm run plan:run -- --limit=3                 # 限制数量
+pnpm run plan:run -- --concurrency=2           # 并行
+pnpm run plan:run -- --id=lex-fridman          # 只跑某源
+pnpm run plan:run -- --dry-run                 # 预览
+
+# 构建 + 预览
+pnpm run build                                 # 所有 generated episode + landing → dist/
+pnpm run preview                               # serve dist/ on :4173
+
+# 快速访问单集
+pnpm run dev:episode <videoId>                 # slidev dev 热重载
+
+# 分析（无 API 调用，纯本地 jsonl）
+pnpm run analyze                               # 默认 30/60/90 min 阈值
+pnpm run analyze -- --thresholds=45,60,120
 ```
 
-导出 PDF/PNG 前需要先 `npm install -D playwright-chromium`。
+**一键从头到尾**：`cache:refresh → plan → plan:run → build → git commit → git push`。push 自动触发 GH Actions 部署。
+
+## Base Path 环境变量
+
+```js
+// landing/astro.config.mjs
+const base = process.env.PODDECK_BASE || '/'       // 本地 '/' / 生产 '/poddeck/'
+const site = process.env.PODDECK_SITE || 'http://localhost:4173'
+```
+
+- 本地 `pnpm run build` → base=`/` → serve dist 直接访问
+- CI `.github/workflows/deploy.yml` 里设 `PODDECK_BASE=/poddeck/` → GH Pages
+- **绝对路径链接必须走 `landing/src/lib/url.ts` 的 `url()` helper**，手写 `href="/..."` 会断裂
+- Slidev 每集 build 传 `--base ${SITE_BASE}episodes/<id>/`（由 build-all.ts 处理）
+- 返回按钮用 `<a href="../../">`（相对路径，base 无关）
+
+## 导出验证（playwright-chromium）
+
+```bash
+npm install -D playwright-chromium              # 一次性
+npx slidev export --format png --output audit   # 逐页 PNG
+# 然后 Read 每张 PNG 看效果
+```
 
 ---
 
@@ -274,6 +374,42 @@ drawings:
 - 手写 JSON 的话用 `fillStyle: "hachure"` + `roughness: 1.5` 才像手绘
 - 最简方案：去 https://excalidraw.com 画好后导出 `.excalidraw` 到 `public/`
 - 图片在 two-cols 右侧时推荐宽度 `w-[460px]` 或 `w-[480px]`
+
+---
+
+## 已知陷阱（build-all.ts / landing 实际踩过）
+
+### 1. meta.yml list item 内嵌引号后跟文字 → YAML 解析错
+
+❌ `- "install base is everything" —— CUDA 押 GeForce 曾让市值跌到 15 亿`
+
+解析器以为 `"install base is everything"` 是完整 scalar，后面的 `——...` 报错。
+
+修法：
+- ✅ 整行不加引号：`- install base is everything —— CUDA 押 ...`
+- ✅ 或整行加单引号：`- '"install base is everything" — CUDA 押 ...'`
+
+System rules 里有提示，subprocess 也可能踩。发现就直接手改，顺便 grep 整个 repo 看有没有类似。
+
+### 2. YouTube 自动字幕识别错误 → 写到 slides 里是脏词
+
+常见错误：`quad code` → **Claude Code**、`cloud code`（AI 语境）→ **Claude Code**、`Lex Friman` → **Lex Fridman**、`O Pus` → **Opus**。
+
+system rules 的 RULE 2.5 列了完整修正表。生成时 subprocess 会自己正规化，但 transcript 文件本身**不要改**（grep 验证需要原始 caption）。
+
+### 3. Slidev SPA 部署到 GH Pages 深度 URL 404
+
+GH Pages 不支持 SPA 客户端路由。解决方案：`landing/public/404.html` 里 JS 检测 `/episodes/<id>/<rest>` 并 redirect 回 `/episodes/<id>/`。已实装。
+
+### 4. Windows 下 pnpm 子进程僵尸化
+
+并行跑 `pnpm run generate --id=A` + `pnpm run generate --id=B` 时偶尔 pnpm shim 无法检测到 child 退出，父 bash 悬挂。症状：任务显示 running 但 `ps` 里只有 pnpm 没有 node cli.js。
+
+修法：`kill <pnpm-pid>` 强制终结即可。`data/plans/*.yml` 的状态已经写回过，不会丢数据。
+
+### 5. `generate-slides.ts` 父进程不要 mutate `episodes.yml`
+
+多个并行 subprocess 同时读写 `episodes.yml` 会最后写覆盖前写。真实状态存在 `episodes/<id>/meta.yml`，父进程只读不写共享 yaml。`data/plans/<source>.yml` 每个 source 一个文件，同 source 无并发，可以安全写回。
 
 ---
 
