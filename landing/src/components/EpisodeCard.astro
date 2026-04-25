@@ -13,7 +13,14 @@ const thumbnail = episode.thumbnail || `https://img.youtube.com/vi/${episode.id}
 
 <article class="bg-white rounded-lg border border-stone-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
   <div class="relative aspect-video bg-stone-100">
-    <img src={thumbnail} alt={episode.title} class="w-full h-full object-cover" loading="lazy" />
+    <img
+      src={thumbnail}
+      alt={episode.title}
+      class="w-full h-full object-cover"
+      loading="lazy"
+      data-fallback={`https://img.youtube.com/vi/${episode.id}/hqdefault.jpg`}
+      onerror="if(this.dataset.fallback && this.src!==this.dataset.fallback){this.src=this.dataset.fallback}"
+    />
     {!isGenerated && (
       <div class="absolute inset-0 bg-stone-900/60 flex items-center justify-center">
         <span class="text-white text-xs bg-stone-800 px-3 py-1 rounded-full">

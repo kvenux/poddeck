@@ -74,7 +74,7 @@ const index = episodes.map(e => ({
       results.innerHTML = matches.slice(0, 8).map(m => `
         <a href="${m.status === 'generated' ? m.base : '#'}"
            class="flex items-start gap-3 px-3 py-2 hover:bg-stone-50 border-b border-stone-100 last:border-0 ${m.status !== 'generated' ? 'opacity-60' : ''}">
-          <img src="${m.thumbnail}" class="w-16 h-9 object-cover rounded flex-shrink-0" loading="lazy" />
+          <img src="${m.thumbnail}" data-fallback="https://img.youtube.com/vi/${m.id}/hqdefault.jpg" onerror="if(this.dataset.fallback&&this.src!==this.dataset.fallback){this.src=this.dataset.fallback}" class="w-16 h-9 object-cover rounded flex-shrink-0" loading="lazy" />
           <div class="flex-1 min-w-0">
             <div class="text-sm font-medium text-stone-900 truncate">${escape(m.title)}</div>
             <div class="text-xs text-stone-500 truncate">
