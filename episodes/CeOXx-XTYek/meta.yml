@@ -1,0 +1,34 @@
+id: CeOXx-XTYek
+source: latent-space
+title: "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or review"
+guest: "Ryan Lopopolo"
+guest_role: "OpenAI Frontier Product Exploration · engineer"
+published: 2026-01
+duration: "≈ 1h 12 min"
+url: https://youtube.com/watch?v=CeOXx-XTYek
+thumbnail: https://img.youtube.com/vi/CeOXx-XTYek/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - engineer
+  - interview
+  - technical
+summary: |
+  Ryan Lopopolo 在 OpenAI Frontier 用一个 "out there" 的约束做了 5 个月的实验:
+  3 个工程师, 1M LOC, 1500 PRs, 他自己一行代码都不写. 这一小时他把这套打法所有的 ratchets
+  全摊开: 一分钟构建、$land 自动合并、Ghost Libraries、Symphony 用 Elixir、end of bullshit plugins、
+  对 MCP 的 bearish 判断, 以及一句话哲学: "you can just codex things".
+core_ideas:
+  - "零代码约束: 不写代码逼自己变成 group tech lead of a 500-person org, 焦点从 PR 拉到 SDLC"
+  - "synchronous human attention 是唯一稀缺资源; model trivially paralyzable, tokens are cheap"
+  - "Post-merge review 是常态, 'post-post-merge' 干脆不看 — 只是让自己心安"
+  - "一分钟构建是 agent 的耐心阈值; make → Bazel → Turbo → Nx 是 ratchet 的副产品"
+  - "Models fundamentally crave text — 整个工程问题被翻译成 text routing"
+  - "PR 自动合并 (\\$land skill): push → wait CI → fix flakes → merge queue → main, 全 agent 干"
+  - "Ghost Libraries: 把软件作为 spec 分发, Symphony 用 Elixir 因为模型选了它"
+  - 'End of bullshit plugins: 几千行的依赖都能 in-house, "code is free, tokens are cheap"'
+  - "MCP 让 harness 强行注入 token、扰乱 auto-compaction — 不如本地 shim CLI"
+  - "On-policy harness: guardrails 要本身就是 good engineering (跑 tests), 否则下一代模型来了就被丢"
+base: /episodes/CeOXx-XTYek/

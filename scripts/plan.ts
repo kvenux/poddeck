@@ -37,6 +37,7 @@ interface PlanEntry {
   upload_date: string
   url: string
   status: 'pending' | 'downloaded' | 'generated' | 'failed'
+  category?: string
   priority: number
 }
 
@@ -130,6 +131,7 @@ function planOneSource(source: Source, existingGenerated: Set<string>): PlanFile
       url: `https://youtube.com/watch?v=${v.id}`,
       status: existing?.status ?? 'pending',
       priority: existing?.priority ?? 1,
+      category: existing?.category,
     })
   }
 

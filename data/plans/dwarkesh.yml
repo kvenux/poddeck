@@ -2,10 +2,18 @@ source: dwarkesh
 refreshed_at: 2026-04-24T00:42:02.330Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 2
-done: 2
+total_candidates: 3
+done: 3
 pending: 0
 episodes:
+  - id: xmkSf5IS-zw
+    title: How GPT, Claude, and Gemini are actually trained and served – Reiner Pope
+    duration: 8021
+    upload_date: "20260512"
+    url: https://youtube.com/watch?v=xmkSf5IS-zw
+    status: generated
+    priority: 1
+    category: manual-update
   - id: Hrbq66XqtCo
     title: Jensen Huang – Will Nvidia’s moat persist?
     duration: 6192

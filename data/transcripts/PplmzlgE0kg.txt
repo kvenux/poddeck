@@ -1,0 +1,1086 @@
+How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)
+
+            
+            
+
+            
+            
+        
+
+        
+
+        
+
+        
+        
+
+        
+        
+        
+        
+
+        
+
+        
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+        
+            
+        
+            
+        
+
+        
+
+        
+            
+
+        
+
+        
+        
+          
+        
+        
+        
+
+        
+
+        
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+        
+    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            
+
+Subscribe
+
+Sign in
+
+Lenny's Podcast: Product | Career | Growth
+
+How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)
+
+173
+
+2
+
+20
+
+1×
+
+Preview
+
+0:00
+
+Current time: 0:00 / Total time: -1:25:34
+
+-1:25:34
+
+Audio playback is not supported on your browser. Please upgrade.
+
+How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)
+
+Claude Code’s Head of Product on how AI is changing the PM role, building products before the model is ready, inside Claude Code’s launch room process, and why speed matters more than strategy now
+
+Lenny Rachitsky
+
+Apr 23, 2026
+
+∙ Paid
+
+173
+
+2
+
+20
+
+Share
+
+Transcript
+
+Cat Wu
+
+ is Head of Product for Claude Code and Cowork at Anthropic, building one of the most important AI products of this generation. Before joining Anthropic, Cat spent years as an engineer and briefly worked in VC. Today, she’s interviewing hundreds of product managers who are trying to break into AI—and seeing firsthand what separates those who thrive from those who fall behind.
+
+Listen on 
+
+YouTube
+
+, 
+
+Spotify
+
+, and 
+
+Apple Podcasts
+
+We discuss:
+
+How Anthropic’s shipping cadence went from months to weeks to days
+
+The emerging skills PMs need to develop right now
+
+Why you need to build products that don’t yet fully work, so you’re ready when the next model closes the gap
+
+Cat’s most underrated AI skill: asking the model to introspect on its own mistakes
+
+Why Claude’s personality is core to its success
+
+Why Anthropic’s mission alignment eliminates the friction that slows most large organizations
+
+Why “just do things” is the most important principle for working at AI-native companies
+
+Brought to you by:
+
+WorkOS
+
+—Modern identity platform for B2B SaaS, free up to 1 million MAUs
+
+Vanta
+
+—Automate compliance, manage risk, and accelerate trust with AI
+
+Where to find Cat Wu:
+
+• X: 
+
+https://x.com/_catwu
+
+• LinkedIn: 
+
+linkedin.com/in/cat-wu
+
+• Newsletter: 
+
+https://catwu.substack.com
+
+Referenced:
+
+• Head of Claude Code: What happens after coding is solved | Boris Cherny: 
+
+https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens
+
+• Anthropic: 
+
+https://www.anthropic.com
+
+• Assessing Claude Mythos Preview’s cybersecurity capabilities: 
+
+https://red.anthropic.com/2026/mythos-preview
+
+• OpenClaw: 
+
+https://openclaw.ai
+
+• OpenClaw: The complete guide to building, training, and living with your personal AI agent: 
+
+https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building
+
+• Listen: OpenClaw: A power user’s guide to the most powerful personal AI tool since ChatGPT: 
+
+https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide
+
+• Dianne Na Penn on LinkedIn: 
+
+https://www.linkedin.com/in/dianne-na-penn
+
+• Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare: 
+
+https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
+
+• Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann: 
+
+https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann
+
+• GIF from 
+
+Pirates of the Caribbean
+
+: 
+
+https://tenor.com/view/pirate-of-pirate-of-the-carribean-jack-sparrow-pirati-dei-caraibi-sad-gif-14519798
+
+• What’s New post with Claude powerup feature: 
+
+https://code.claude.com/docs/en/whats-new/2026-w14
+
+• Claude Code: 
+
+https://claude.com/product/claude-code
+
+• Terminal guide for new users: 
+
+https://code.claude.com/docs/en/terminal-guide
+
+• Claude Cowork: 
+
+https://www.anthropic.com/product/claude-cowork
+
+• Anthropic’s developer conference: 
+
+https://claude.com/code-with-claude/san-francisco
+
+• Figma MCP: 
+
+https://www.figma.com/mcp-catalog
+
+• Salesforce: 
+
+https://www.salesforce.com
+
+• Gong: 
+
+https://www.gong.io
+
+• Slack founder: Mental models for building products people love ft. Stewart Butterfield: 
+
+https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield
+
+• Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course): 
+
+https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill
+
+• Beyond vibe checks: A PM’s complete guide to evals: 
+
+https://www.lennysnewsletter.com/p/beyond-vibe-checks-a-pms-complete
+
+• Building eval systems that improve your AI product: 
+
+https://www.lennysnewsletter.com/p/building-eval-systems-that-improve
+
+• Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor): 
+
+https://www.lennysnewsletter.com/p/experts-writing-ai-evals-brendan-foody
+
+• Judging by my tl there is a growing gap in understanding of AI capability: 
+
+https://x.com/karpathy/status/2042334451611693415
+
+• 
+
+Formula 1: Drive to Survive
+
+ on Netflix: 
+
+https://www.netflix.com/title/80204890
+
+• 
+
+Free Solo
+
+ on National Geographic: 
+
+https://films.nationalgeographic.com/free-solo
+
+• Alex Honnold: 
+
+https://en.wikipedia.org/wiki/Alex_Honnold
+
+• Waymo: 
+
+https://waymo.com
+
+Recommended books:
+
+• 
+
+How Asia Works
+
+: 
+
+https://www.amazon.com/How-Asia-Works-Joe-Studwell/dp/0802121322
+
+• 
+
+The Technology Trap: Capital, Labor, and Power in the Age of Automation
+
+: 
+
+https://www.amazon.com/Technology-Trap-Capital-Labor-Automation/dp/0691210799
+
+• 
+
+The Paper Menagerie and Other Stories
+
+: 
+
+https://www.amazon.com/Paper-Menagerie-Other-Stories/dp/148142436X
+
+Production and marketing by 
+
+https://penname.co/
+
+. For inquiries about sponsoring the podcast, email 
+
+[email&#160;protected]
+
+.
+
+Lenny may be an investor in the companies discussed.
+
+My biggest takeaways from this conversation:
+
+This post is for paid subscribers
+
+Subscribe
+
+Already a paid subscriber? 
+Sign in
+
+Lenny's Podcast: Product | Career | Growth
+
+Interviews with world-class product leaders and growth experts to uncover concrete, actionable, and tactical advice to help you build, launch, and grow your own product.
+
+Interviews with world-class product leaders and growth experts to uncover concrete, actionable, and tactical advice to help you build, launch, and grow your own product.
+
+Subscribe
+
+Listen on
+
+Substack App
+
+Apple Podcasts
+
+Spotify
+
+YouTube
+
+Pocket Casts
+
+RSS Feed
+
+Appears in episode
+
+Lenny Rachitsky
+
+Recent Episodes
+
+How to build a company that withstands any era | Eric Ries, Lean Startup author
+
+May 10
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)
+
+May 3
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel
+
+Apr 26
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)
+
+Apr 19
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)
+
+Apr 12
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare
+
+Apr 5
+ 
+•
+ 
+
+Lenny Rachitsky
+
+An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison
+
+Apr 2
+ 
+•
+ 
+
+Lenny Rachitsky
+
+© 2026 Substack Inc
+
+ · 
+
+Privacy
+
+ ∙ 
+
+Terms
+
+ ∙ 
+
+Collection notice
+
+ Start your Substack
+
+Get the app
+
+Substack
+ is the home for great culture
+
+        
+
+        
+            
+            
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+        
+
+        
+            
+
+            
+            
+
+            
+
+            
+            
+
+        
+
+        
+
+        
+
+        
+        
+
+            
+
+            
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+
+        This site requires JavaScript to run correctly. Please 
+turn on JavaScript
+ or unblock scripts

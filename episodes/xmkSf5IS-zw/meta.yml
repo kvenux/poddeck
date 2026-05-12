@@ -1,0 +1,31 @@
+id: xmkSf5IS-zw
+source: dwarkesh
+title: "How GPT, Claude, and Gemini are actually trained and served – Reiner Pope"
+guest: "Reiner Pope"
+guest_role: "MatX CEO, ex-Google TPU"
+published: 2026-04
+duration: 7800
+url: https://youtube.com/watch?v=xmkSf5IS-zw
+thumbnail: https://img.youtube.com/vi/xmkSf5IS-zw/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - hardware
+  - chips
+  - interview
+  - ceo
+  - deep-dive
+  - technical
+summary: |
+  Reiner Pope（MatX CEO）在 Dwarkesh 的黑板课式访谈里，从几条 roofline 方程一路推到：
+  最优 batch size = 300 × sparsity、20ms 的"火车"调度、MoE 必须挤进一个 rack、
+  Ilya 为什么说 pipelining 不智、RL 时代模型被过度训练 100 倍、Gemini API 价格如何
+  泄露 ~2KB/token 的 KV cache 大小，以及神经网络和密码学之间的对偶关系。
+core_ideas:
+  - "B ≥ 300 × sparsity：最优 batch size 只跟模型 sparsity 走，跟硬件代际几乎无关"
+  - "HBM 容量 / 带宽 ≈ 20 ms：所有 inference latency 都围着这个数字打转"
+  - "Pipelining 解决 capacity 但解不了 KV cache，所以 inference 应该死磕单 scale-up domain"
+  - "Cost(pre-train) ≈ Cost(RL) ≈ Cost(inference) → 旗舰模型被过度训练 ~100×"
+  - "Gemini 200K 折点 + 输出贵 5× 联立 → 反推 ~2KB/token KV、decode 是 memory-bound"
+  - "Neural net 和 cryptographic cipher 是同一种'搅拌'但目标相反；Feistel → RevNets"
+base: /episodes/xmkSf5IS-zw/

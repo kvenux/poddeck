@@ -1,0 +1,1134 @@
+Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)
+
+            
+            
+
+            
+            
+        
+
+        
+
+        
+
+        
+        
+
+        
+        
+        
+        
+
+        
+
+        
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+                
+
+            
+        
+
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+                
+
+            
+        
+            
+        
+            
+        
+            
+        
+
+        
+
+        
+            
+
+        
+
+        
+        
+          
+        
+        
+        
+
+        
+
+        
+            
+
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+            
+        
+    
+
+    
+
+        
+
+        
+
+        
+
+        
+
+        
+
+            
+
+Subscribe
+
+Sign in
+
+Lenny's Podcast: Product | Career | Growth
+
+Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)
+
+108
+
+8
+
+1×
+
+Preview
+
+0:00
+
+Current time: 0:00 / Total time: -1:27:22
+
+-1:27:22
+
+Audio playback is not supported on your browser. Please upgrade.
+
+Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)
+
+Notion’s design and product lead on why agency beats skills in the AI era, why vibe coding made more software but not better software, and how Notion ships with “drive it like it’s stolen”
+
+Lenny Rachitsky
+
+May 03, 2026
+
+∙ Paid
+
+108
+
+8
+
+Share
+
+Transcript
+
+Max Schoening 
+
+is head of product at Notion, where he’s been especially effective at getting designers and PMs to ship code, prototype in the terminal, and launch extremely successful AI products. He was previously a PM at Google, ran design at Heroku, was VP of Design (and a part-time engineer) at GitHub, and is a two-time founder. He’s one of the most AI-forward product leaders out there and one of the deepest thinkers on how AI changes how we build and use software.
+
+Listen on 
+
+YouTube
+
+, 
+
+Spotify
+
+, and 
+
+Apple Podcasts
+
+We discuss:
+
+What’s most worked in getting designers and PMs to embrace AI
+
+Why agency—not skills—is the thing that separates people who thrive from those who fall behind
+
+How the first 10% of every project is now “free,” and what that means for product development
+
+Max’s “tiny core” theory of great products: iPhone multitouch, the GitHub pull request, Notion blocks, Dropbox’s menu bar icon
+
+Why the SaaSpocalypse is overstated
+
+Why the amount of software has exploded but the quality hasn’t, and why that gap creates opportunity
+
+Brought to you by:
+
+WorkOS
+
+—Make your app Enterprise Ready, with SSO, SCIM, RBAC, and more
+
+Vanta
+
+—Automate compliance, manage risk, and accelerate trust with AI
+
+Where to find Max Schoening:
+
+• X: 
+
+https://x.com/mschoening
+
+• LinkedIn: 
+
+https://www.linkedin.com/in/max-schoening
+
+• Website: 
+
+https://max.dev
+
+Referenced:
+
+• Esther 4:14: 
+
+https://www.biblegateway.com/passage/?search=Esther%204%3A14&version=NIV
+
+• Notion: 
+
+https://www.notion.com
+
+• Figma: 
+
+https://www.figma.com
+
+• Bret Victor—Stop Drawing Dead Fish: 
+
+https://www.youtube.com/watch?v=ZfytHvgHybA
+
+• GitHub: 
+
+https://github.com
+
+• Notion’s Brian Lovin on building a shared prototype playground, using Claude Code to transform Figma designs into working code, and why AI is changing how designers work: 
+
+https://www.lennysnewsletter.com/p/i-havent-written-a-single-line-of
+
+• Eric Liu on LinkedIn: 
+
+https://www.linkedin.com/in/erictliu
+
+• Steve Jobs’s quote: 
+
+https://quotefancy.com/quote/911503/Steve-Jobs-Everything-around-you-that-you-call-life-was-made-up-by-people-that-were-no
+
+• Brian Chesky’s new playbook: 
+
+https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach
+
+• The Dieter Rams video pinned to Max’s X profile: 
+
+https://x.com/mschoening/status/1725199919739519299
+
+• Frank Gehry: 
+
+https://en.wikipedia.org/wiki/Frank_Gehry
+
+• He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more: 
+
+https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor
+
+• Joanna Stern’s post on X: 
+
+https://x.com/JoannaStern/status/2023529964185022898
+
+• How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code): 
+
+https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves
+
+• This is the flowchart of how Slack decides to send a notification: 
+
+https://blog.bytebytego.com/p/flowchart-of-how-slack-decides-to
+
+• Tyler Cowen’s blog: 
+
+https://marginalrevolution.com
+
+• Simon Last on X: 
+
+https://x.com/simonlast
+
+• Jevons paradox: 
+
+https://en.wikipedia.org/wiki/Jevons_paradox
+
+• Why Software Is Eating the World: 
+
+https://a16z.com/why-software-is-eating-the-world
+
+• Why humans are AI’s biggest bottleneck (and what’s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead): 
+
+https://www.lennysnewsletter.com/p/why-humans-are-ais-biggest-bottleneck
+
+• Heroku: 
+
+https://www.heroku.com
+
+• Kubernetes: 
+
+https://kubernetes.io
+
+• Kathy Sierra: Badass—Making Users Awesome, at Mind the Product San Francisco: 
+
+https://www.youtube.com/watch?v=LNnv2GrlnZw
+
+ 
+
+• Ivan Zhao on LinkedIn: 
+
+https://www.linkedin.com/in/ivanhzhao
+
+• Dropbox: 
+
+https://www.dropbox.com
+
+• Dario Amodei on X: 
+
+https://x.com/DarioAmodei
+
+• Clayton Christensen: 
+
+https://en.wikipedia.org/wiki/Clayton_Christensen
+
+• The ultimate guide to JTBD | Bob Moesta (co-creator of the framework): 
+
+https://www.lennysnewsletter.com/p/the-ultimate-guide-to-jtbd-bob-moesta
+
+• Lee Sedol: 
+
+https://en.wikipedia.org/wiki/Lee_Sedol
+
+• AlphaGo: 
+
+https://deepmind.google/research/alphago
+
+• 
+
+TBPN
+
+: 
+
+https://www.tbpn.com
+
+• Chris Rock: 
+
+https://en.wikipedia.org/wiki/Chris_Rock
+
+• Stack Overflow: 
+
+https://stackoverflow.com
+
+• 
+
+Project Hail Mary
+
+: 
+
+https://www.imdb.com/title/tt12042730
+
+• 
+
+The Handmaid’s Tale
+
+: 
+
+https://www.imdb.com/title/tt5834204
+
+• Ghostty: 
+
+https://ghostty.org
+
+• Mitchell Hashimoto on X: 
+
+https://x.com/mitchellh
+
+• Moshi: 
+
+https://getmoshi.app
+
+• YMDK Split Keyboard Corne V4.1 46 Keys Ergonomic Hotswappable 40% Layout 3D PLA RGB QMK Vial All Key Programmable Mini Independent Gaming Keyboard Kit: 
+
+https://www.amazon.com/YMDK-Ergonomic-Hotswappable-Programmable-Independent/dp/B0DWSKP3ZT
+
+• Civivi pocket knives: 
+
+https://www.civivi.com/collections/folding-pocket-knives
+
+• Marcus Aurelius’s quote: 
+
+https://www.goodreads.com/quotes/762780-the-whole-universe-is-change-and-life-itself-is-but
+
+Recommended books:
+
+• 
+
+Code: The Hidden Language of Computer Hardware and Software
+
+: 
+
+https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0137909101
+
+• 
+
+Tools for Conviviality
+
+: 
+
+https://www.amazon.com/Tools-Conviviality-Ivan-Illich/dp/1842300113
+
+• 
+
+Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed
+
+: 
+
+https://www.amazon.com/Seeing-Like-State-Condition-Paperbacks/dp/0300246757
+
+Production and marketing by 
+
+https://penname.co/
+
+. For inquiries about sponsoring the podcast, email 
+
+[email&#160;protected]
+
+.
+
+Lenny may be an investor in the companies discussed.
+
+My biggest takeaways from this conversation:
+
+This post is for paid subscribers
+
+Subscribe
+
+Already a paid subscriber? 
+Sign in
+
+Lenny's Podcast: Product | Career | Growth
+
+Interviews with world-class product leaders and growth experts to uncover concrete, actionable, and tactical advice to help you build, launch, and grow your own product.
+
+Interviews with world-class product leaders and growth experts to uncover concrete, actionable, and tactical advice to help you build, launch, and grow your own product.
+
+Subscribe
+
+Listen on
+
+Substack App
+
+Apple Podcasts
+
+Spotify
+
+YouTube
+
+Pocket Casts
+
+RSS Feed
+
+Appears in episode
+
+Lenny Rachitsky
+
+Recent Episodes
+
+How to build a company that withstands any era | Eric Ries, Lean Startup author
+
+May 10
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel
+
+Apr 26
+ 
+•
+ 
+
+Lenny Rachitsky
+
+How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)
+
+Apr 23
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)
+
+Apr 19
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)
+
+Apr 12
+ 
+•
+ 
+
+Lenny Rachitsky
+
+Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare
+
+Apr 5
+ 
+•
+ 
+
+Lenny Rachitsky
+
+An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison
+
+Apr 2
+ 
+•
+ 
+
+Lenny Rachitsky
+
+© 2026 Substack Inc
+
+ · 
+
+Privacy
+
+ ∙ 
+
+Terms
+
+ ∙ 
+
+Collection notice
+
+ Start your Substack
+
+Get the app
+
+Substack
+ is the home for great culture
+
+        
+
+        
+            
+            
+        
+
+        
+        
+        
+        
+        
+        
+        
+
+        
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+        
+        
+
+        
+            
+
+            
+            
+
+            
+
+            
+            
+
+        
+
+        
+
+        
+
+        
+        
+
+            
+
+            
+
+        
+
+        
+        
+
+        
+
+    
+
+    
+
+        This site requires JavaScript to run correctly. Please 
+turn on JavaScript
+ or unblock scripts

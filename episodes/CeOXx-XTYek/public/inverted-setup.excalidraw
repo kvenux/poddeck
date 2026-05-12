@@ -1,0 +1,149 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "old-label",
+      "type": "text",
+      "x": 40, "y": 20, "width": 200, "height": 25,
+      "angle": 0, "strokeColor": "#868e96", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 101, "version": 1, "versionNonce": 101,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1,
+      "text": "OLD WAY", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "OLD WAY",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "env",
+      "type": "rectangle",
+      "x": 30, "y": 55, "width": 280, "height": 110,
+      "angle": 0, "strokeColor": "#868e96", "backgroundColor": "#f1f3f5",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 102, "version": 1, "versionNonce": 102,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "env-label",
+      "type": "text",
+      "x": 50, "y": 65, "width": 240, "height": 22,
+      "angle": 0, "strokeColor": "#212529", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 103, "version": 1, "versionNonce": 103,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "1. Set up environment", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "1. Set up environment",
+      "lineHeight": 1.25, "baseline": 16
+    },
+    {
+      "id": "agent-in-box",
+      "type": "rectangle",
+      "x": 90, "y": 100, "width": 160, "height": 50,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "#dee2e6",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 104, "version": 1, "versionNonce": 104,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "agent-in-box-label",
+      "type": "text",
+      "x": 100, "y": 113, "width": 140, "height": 24,
+      "angle": 0, "strokeColor": "#212529", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 105, "version": 1, "versionNonce": 105,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "2. Spawn agent", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "2. Spawn agent",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "new-label",
+      "type": "text",
+      "x": 40, "y": 200, "width": 240, "height": 25,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 106, "version": 1, "versionNonce": 106,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1,
+      "text": "NEW WAY (inverted)", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "NEW WAY (inverted)",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "agent-entry",
+      "type": "ellipse",
+      "x": 70, "y": 230, "width": 200, "height": 65,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 107, "version": 1, "versionNonce": 107,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "agent-entry-label",
+      "type": "text",
+      "x": 90, "y": 243, "width": 160, "height": 40,
+      "angle": 0, "strokeColor": "#212529", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 108, "version": 1, "versionNonce": 108,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "Codex\n(entry point)", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "Codex\n(entry point)",
+      "lineHeight": 1.25, "baseline": 32
+    },
+    {
+      "id": "arrow-down",
+      "type": "arrow",
+      "x": 170, "y": 300, "width": 0, "height": 30,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 109, "version": 1, "versionNonce": 109,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow",
+      "points": [[0, 0], [0, 30]]
+    },
+    {
+      "id": "agent-boots-stack",
+      "type": "rectangle",
+      "x": 30, "y": 340, "width": 280, "height": 60,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 110, "version": 1, "versionNonce": 110,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "agent-boots-label",
+      "type": "text",
+      "x": 40, "y": 350, "width": 260, "height": 40,
+      "angle": 0, "strokeColor": "#212529", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 111, "version": 1, "versionNonce": 111,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "Agent boots its own stack\n(skills + scripts decide)", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "Agent boots its own stack\n(skills + scripts decide)",
+      "lineHeight": 1.25, "baseline": 32
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

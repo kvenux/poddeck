@@ -2,10 +2,26 @@ source: xiaojun
 refreshed_at: 2026-04-25T00:49:22.170Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 17
+total_candidates: 19
 done: 5
-pending: 0
+pending: 2
 episodes:
+  - id: Gk_KUg3qED0
+    title: 140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去
+    duration: 13836
+    upload_date: "20260512"
+    url: https://youtube.com/watch?v=Gk_KUg3qED0
+    status: pending
+    priority: 1
+    category: manual-update
+  - id: Xxz5uh0L1mE
+    title: 139. 【Agent的综述】和苏煜聊Agent技术史、OpenClaw Moment、边界的消弭和社会的辐射
+    duration: 8269
+    upload_date: "20260512"
+    url: https://youtube.com/watch?v=Xxz5uh0L1mE
+    status: pending
+    priority: 1
+    category: manual-update
   - id: vG1RBqn1sG4
     title: 138. 对罗福莉3.5小时访谈：AI范式已然巨变！OpenClaw、Agent范式很吃后训练、卡的分配、组织平权
     duration: 12996

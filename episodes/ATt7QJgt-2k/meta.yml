@@ -1,0 +1,39 @@
+id: ATt7QJgt-2k
+source: latent-space
+title: "Notion's Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future of Work"
+guest: "Sarah Sachs · Simon Last"
+guest_role: "Notion — engineering manager (core AI capabilities & infra) · co-founder"
+published: 2026-04
+duration: "≈ 84 min"
+url: https://youtube.com/watch?v=ATt7QJgt-2k
+thumbnail: https://img.youtube.com/vi/ATt7QJgt-2k/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - product-management
+  - product-lead
+  - engineer
+  - interview
+  - deep-dive
+  - technical
+summary: |
+  Notion 把 agent 重写了 5 次,从 2022 年末 GPT-4 时代试图后台跑 assistant 一直撞到今天的
+  100+ tools custom agent. Sarah (engineering manager) 和 Simon (co-founder) 用 84 分钟
+  把"为什么这么慢"和"现在为什么终于行了"都摊开讲: progressive disclosure、SQL-light queries、
+  notion's last exam(主动留 30% 通过率)、为什么是 credits 而不是 tokens、为什么 manager agent 是
+  对 70 条通知的解、以及为什么"replacing processes"比"replacing people"更准确.
+core_ideas:
+  - "Sarah 的两条直觉: 别 swimming upstream(分清模型限制 vs 自己没喂对) + 看河流方向(能力到了你已经在那儿等)"
+  - "5 次 harness 重写: coding agent → 自创 XML → notion-flavored markdown + SQL-light → goal-driven tools → 100+ tools 的 progressive disclosure"
+  - "Give the models what they want — markdown 而不是 lossless XML, SQL-light 而不是复杂 JSON; models are super good at that"
+  - "Notion's last exam: 三层 evals 中最高那层主动留 30% 通过率, 3 名全职员工只盯着这一层"
+  - "Model Behavior Engineer 是独立 career path; linguistics PhD dropout / Stanford 应届都欢迎; 不需要工程背景"
+  - "Distributed tool ownership 是 v4 之后的最大 velocity 提升 — 同一团队 owns 产品功能 + agent 怎么调用它"
+  - "100+ tools 的解法是 progressive disclosure — 不让模型一开始就看见全部"
+  - "MCP 和 CLI 不打架 — 不同抽象层、不同成本结构; deterministic 任务用 LLM 太浪费"
+  - "Credits ≠ tokens — token / GPU / web search / sandbox 价格不同, priority/async tier 也不同"
+  - "Composability 用 primitive: pages 当 memory, database 当消息总线, manager agent 处理 30 个 sub-agent 的 70 条通知"
+  - "It's not replacing people, it's replacing processes — bug triaging / pre-read / follow-up 全是流程替换"
+  - "Simon 的核心建议: 99% of the time it's a bug in one of the tools — 别陷在训练里, 修工具就好"
+base: /episodes/ATt7QJgt-2k/

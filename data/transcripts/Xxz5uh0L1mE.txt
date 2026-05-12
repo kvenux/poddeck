@@ -1,0 +1,408 @@
+139. 【Agent的综述】和苏煜聊Agent技术史、OpenClaw Moment、边界的消弭和社会的辐射 | 张小珺Jùn｜商业访谈录 | traeai
+
+T
+
+T
+
+traeai
+
+搜索内容、来源、标签
+
+⌘K
+
+🌐 
+English
+
+登录
+
+广场
+
+知识库
+
+早报
+
+我的
+
+返回首页
+
+张小珺Jùn｜商业访谈录
+
+播客
+
+·
+
+2026年5月1日
+
+·
+
+2:17:48
+
+139. 【Agent的综述】和苏煜聊Agent技术史、OpenClaw Moment、边界的消弭和社会的辐射
+
+8.0
+
+Score
+
+保存到知识库
+
+保存为笔记
+
+播客收听
+
+时长 2:17:48
+
+原播客页面
+
+问这期播客
+
+会先在本集摘要、章节、转录和笔记里找答案。
+
+提问
+
+概览
+
+章节
+
+转录
+
+笔记
+
+提问
+
+本集要点
+
+Agent技术从Logical Agent演进至Neural Agent和Language Agent，反映了AI处理能力的飞跃。
+
+过去三年Language Agent的发展速度超越了以往数十年，展现了该领域研究的加速趋势。
+
+OpenClaw Moment与ChatGPT Moment相似，预示着Agent技术可能迎来重大突破。
+
+节目简介
+
+访谈深入探讨了Agent技术史，特别是Language Agent的快速进化，由俄亥俄州立大学教授、NeoCognition创始人苏煜分享，涉及逻辑代理到神经代理的转变，以及语言在AI发展中的关键作用。
+
+结构提纲
+
+按章节快速跳转。
+
+§
+
+引言
+
+介绍AI进化至Agent阶段，预告对Agent技术原理的深入探讨。
+
+·
+
+苏煜简介
+
+俄亥俄州立大学教授，NeoCognition创始人，斯隆研究奖得主。
+
+·
+
+Agent技术演进史
+
+概述从Logical到Neural再到Language Agent的演变过程。
+
+›
+
+语言的重要性
+
+强调语言在人类文明及AI发展中的指数级推动作用。
+
+›
+
+近期进展复盘
+
+回顾过去三年Language Agent的关键进展。
+
+·
+
+行业观察与未来预期
+
+中美科技辐射差异，对Agent瓶颈与未来发展的讨论。
+
+思维导图
+
+用一张图看清主题之间的关系。
+
+查看大纲文本（无障碍 / 无 JS 友好）
+
+Agent技术综述
+
+嘉宾介绍
+
+苏煜
+
+技术演进
+
+Logical Agent
+
+Neural Agent
+
+Language Agent
+
+发展趋势
+
+边界消弭与社会辐射
+
+金句 / Highlights
+
+值得收藏与分享的关键句。
+
+Agent是2026年的高频词，深入技术原理层，清晰了解技术脉络。
+
+⬇︎ 下载 PNG
+
+𝕏 分享到 X
+
+🔗 复制图片链接
+
+过去三年Language Agent的发展速度比过去几十年都要快。
+
+⬇︎ 下载 PNG
+
+𝕏 分享到 X
+
+🔗 复制图片链接
+
+OpenClaw Moment与ChatGPT Moment有非常多相似的地方。
+
+⬇︎ 下载 PNG
+
+𝕏 分享到 X
+
+🔗 复制图片链接
+
+章节
+
+02:00
+
+苏煜是谁
+
+苏煜是谁
+
+03:30
+
+Agent的技术演进史：从Logical Agent（1960-90s） → Neural Agent（2000年以后，神经代理） → Semantic Par
+
+Agent的技术演进史：从Logical Agent（1960-90s） → Neural Agent（2000年以后，神经代理） → Semantic Parsing（另一边的故事，语义解析） → Language Agent（语言代理）
+
+27:21
+
+人类的进化史来说，语言非常晚发生，但对人类文明有了指数型发展
+
+人类的进化史来说，语言非常晚发生，但对人类文明有了指数型发展
+
+29:28
+
+过去三年发展速度比过去几十年都要快，复盘Language Agent上的关键工作
+
+过去三年发展速度比过去几十年都要快，复盘Language Agent上的关键工作
+
+40:56
+
+At the end of the day，大家想要的就是universal digital agent；边界的消弭和coding有关
+
+At the end of the day，大家想要的就是universal digital agent；边界的消弭和coding有关
+
+45:18
+
+我是最早从Semantic Parsing转型做Language Agent的学者之一
+
+我是最早从Semantic Parsing转型做Language Agent的学者之一
+
+48:56
+
+OpenClaw Moment和ChatGPT Moment有非常多相似的地方
+
+OpenClaw Moment和ChatGPT Moment有非常多相似的地方
+
+55:10
+
+中美科技辐射的pattern不同，中国更全民化，在应用层的动作更快
+
+中美科技辐射的pattern不同，中国更全民化，在应用层的动作更快
+
+1:02:05
+
+创业新公司NeoCognition，最近融完了一轮$40M的seed round
+
+创业新公司NeoCognition，最近融完了一轮$40M的seed round
+
+1:20:30
+
+聊聊Continual Learning、世界模型、交互（GUI vs. CLI）
+
+聊聊Continual Learning、世界模型、交互（GUI vs. CLI）
+
+1:44:34
+
+Agent现在最大的瓶颈是什么？对2026年Agent进展的预期？
+
+Agent现在最大的瓶颈是什么？对2026年Agent进展的预期？
+
+1:47:09
+
+各个大厂都在Agent上bet什么，有什么有意思的bets？
+
+各个大厂都在Agent上bet什么，有什么有意思的bets？
+
+转录
+
+02:00
+
+苏煜是谁
+
+03:30
+
+Agent的技术演进史
+从Logical Agent（1960-90s） → Neural Agent（2000年以后，神经代理） → Semantic Parsing（另一边的故事，语义解析） → Language Agent（语言代理）
+
+27:21
+
+人类的进化史来说，语言非常晚发生，但对人类文明有了指数型发展
+
+29:28
+
+过去三年发展速度比过去几十年都要快，复盘Language Agent上的关键工作
+
+40:56
+
+At the end of the day，大家想要的就是universal digital agent；边界的消弭和coding有关
+
+45:18
+
+我是最早从Semantic Parsing转型做Language Agent的学者之一
+
+48:56
+
+OpenClaw Moment和ChatGPT Moment有非常多相似的地方
+
+55:10
+
+中美科技辐射的pattern不同，中国更全民化，在应用层的动作更快
+
+1:02:05
+
+创业新公司NeoCognition，最近融完了一轮$40M的seed round
+
+1:20:30
+
+聊聊Continual Learning、世界模型、交互（GUI vs. CLI）
+
+1:44:34
+
+Agent现在最大的瓶颈是什么？对2026年Agent进展的预期？
+
+1:47:09
+
+各个大厂都在Agent上bet什么，有什么有意思的bets？
+
+1:52:47
+
+我们这一代人经历了Agent的完整周期，我喜欢搭建conceptional framework
+
+2:10:13
+
+最后的快问快答
+
+#
+Agent
+
+#
+Language Agent
+
+#
+AI进化
+
+#
+Semantic Parsing
+
+#
+NeoCognition
+
+节目笔记
+
+前面在福莉和广密的节目中，我们深入揭示了AI的进化从第一幕Chat走向第二幕Agent。可以说，Agent是2026年的高频词。
+
+关于Agent，我一直非常希望深入技术原理层，给大家做一次技术讲解，能够让我们一起非常清晰地了解技术的脉络。
+
+今天我邀请的是俄亥俄州立大学计算机系教授、也是创业公司NeoCognition创始人，苏煜。苏煜是少数见证过Agent演化史的学者，研究方向是Language Agent。
+我们从更长周期复盘了Agent的技术演进史，尤其是最近三年Language Agent的快速进化。
+此外，苏煜也是2025年“斯隆研究奖”得主。
+
+接下来，是我们对Agent的技术综述。
+
+祝大家五一假期学习快乐啦^。^
+
+OUTLINE:
+
+00:02:00
+ 苏煜是谁
+
+00:03:30
+ Agent的技术演进史：从Logical Agent（1960-90s） → Neural Agent（2000年以后，神经代理） → Semantic Parsing（另一边的故事，语义解析） → Language Agent（语言代理）
+
+00:27:21
+ 人类的进化史来说，语言非常晚发生，但对人类文明有了指数型发展
+
+00:29:28
+ 过去三年发展速度比过去几十年都要快，复盘Language Agent上的关键工作
+
+00:40:56
+ At the end of the day，大家想要的就是universal digital agent；边界的消弭和coding有关
+
+00:45:18
+ 我是最早从Semantic Parsing转型做Language Agent的学者之一
+
+00:48:56
+ OpenClaw Moment和ChatGPT Moment有非常多相似的地方
+
+00:55:10
+ 中美科技辐射的pattern不同，中国更全民化，在应用层的动作更快
+
+01:02:05
+ 创业新公司NeoCognition，最近融完了一轮$40M的seed round
+
+01:20:30
+ 聊聊Continual Learning、世界模型、交互（GUI vs. CLI）
+
+01:44:34
+ Agent现在最大的瓶颈是什么？对2026年Agent进展的预期？
+
+01:47:09
+ 各个大厂都在Agent上bet什么，有什么有意思的bets？
+
+01:52:47
+ 我们这一代人经历了Agent的完整周期，我喜欢搭建conceptional framework
+
+02:10:13
+ 最后的快问快答
+
+LINKS：
+
+我们的播客在
+小宇宙
+、
+Apple Podcast
+、Spotify等全音频平台播出；
+
+我们的视频播客在
+Bilibili
+、
+小红书
+、视频号、抖音等全视频平台播出；
+
+如果你想服用文字版，请搜索我们工作室的公众号：语言即世界language is world。
+
+DISCLAIMER:
+本内容不作为投资建议。
+
+CONTACT:
+
+[email&#160;protected]
+
+Jump into the new world-and explore with us!
+😉
+
+AI 伴读

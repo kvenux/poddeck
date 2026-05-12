@@ -3,8 +3,8 @@ refreshed_at: 2026-05-10T08:57:04.237Z
 min_duration: 1800
 min_date: "20260101"
 total_candidates: 14
-done: 5
-pending: 5
+done: 8
+pending: 3
 episodes:
   - id: 9d899Ram9Bs
     title: 🔬How GPT‑5 derived new results in theoretical physics and quantum gravity — Alex Lupsasca, OpenAI
@@ -59,9 +59,9 @@ episodes:
     duration: 5137
     upload_date: "20260415"
     url: https://youtube.com/watch?v=ATt7QJgt-2k
-    status: pending
+    status: generated
     priority: 1
-    category: ai-tech
+    category: manual-update
   - id: 5KnCKadxSPY
     title: ⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy
     duration: 3450
@@ -75,9 +75,9 @@ episodes:
     duration: 4674
     upload_date: "20260407"
     url: https://youtube.com/watch?v=CeOXx-XTYek
-    status: pending
+    status: generated
     priority: 1
-    category: ai-tech
+    category: manual-update
   - id: knx2wrILP1M
     title: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"
     duration: 4580

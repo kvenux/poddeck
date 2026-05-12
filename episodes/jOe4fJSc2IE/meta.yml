@@ -1,0 +1,33 @@
+id: jOe4fJSc2IE
+source: mlops-community
+title: "The Modern Software Engineer"
+guest: "Mihail Eric"
+guest_role: "ML / AI infrastructure practitioner & instructor"
+published: 2026-04
+duration: "≈ 54 min"
+url: https://youtube.com/watch?v=jOe4fJSc2IE
+thumbnail: https://img.youtube.com/vi/jOe4fJSc2IE/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - engineer
+  - interview
+  - technical
+summary: |
+  Mihail Eric 和 Demetrios 在 SF 录音棚里把 AI coding agent 的真实工程问题挨个摊开:
+  junior 被 cursor 截断的训练链, Eno @ Factory 强调的 validation harness, token 计费迟早被 task 计费取代,
+  Twitter 上 "15 个 tiled Claude Code instances" 的并行神话, 团队该变小、PM 该会提 PR, 以及
+  下一个 superpower 是 articulation. 全程没有 framework, 全是 day-to-day 判断, 最后一句是 "just breathe".
+core_ideas:
+  - "Junior 的训练链断了: 没人招 junior, senior 没事, 中间一代被 cursor 替代——agent 必须填这一格"
+  - "Validation harness 是当前人类最强的 leverage: 浏览器自己点点 + backend 测试, 任何会喊救命的机制都好过没有"
+  - "Where are the long-running tasks? Demetrios 找不到——meaty 任务的入口在 brownfield 的 verification-takes-hours 那里"
+  - "Token 是 implementation detail, tokens are a proxy for the trajectory——未来按 task completion 计费 (TaskRabbit 模型)"
+  - "Mihail 的 prescription: pick one of the top three and stick with it; downtime 时再 fallback 换工具"
+  - '"15 tessellated claw code instances" 是 Twitter meme, 不是生产力. 真实工作流是 2 meaty + N 轻活'
+  - "AI-native team: PM 提 PR, GTM 用 Claude 查 source of truth, 团队该变小 (N² 通信问题没了, context 浓度提升)"
+  - "Planning + delegation = 下一代 manager 技能, junior 一上手就在管 agent. Articulation 是下一代 superpower"
+  - 'Just breathe: 不是每条 tweet 都得跟. "you are cooked" 只是 a technical term'
+base: /episodes/jOe4fJSc2IE/

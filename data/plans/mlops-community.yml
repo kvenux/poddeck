@@ -3,8 +3,8 @@ refreshed_at: 2026-05-10T08:57:05.227Z
 min_duration: 1800
 min_date: "20260101"
 total_candidates: 11
-done: 6
-pending: 2
+done: 7
+pending: 1
 episodes:
   - id: wtzzWyrEY_A
     title: "The Creator of Superpowers: Why Real Agentic Engineering Beats Vibe Coding"
@@ -51,9 +51,9 @@ episodes:
     duration: 3218
     upload_date: "20260420"
     url: https://youtube.com/watch?v=jOe4fJSc2IE
-    status: pending
+    status: generated
     priority: 1
-    category: ai-tech
+    category: manual-update
   - id: q9e2e5Y8Q0k
     title: A New Kind of Marketplace
     duration: 3087
