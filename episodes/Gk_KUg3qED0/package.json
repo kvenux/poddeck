@@ -1,0 +1,25 @@
+{
+  "name": "episode-Gk_KUg3qED0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@slidev/cli": "^52.14.2",
+    "@slidev/theme-default": "^0.25.0",
+    "@slidev/theme-seriph": "^0.25.0",
+    "slidev-addon-excalidraw": "^1.1.0",
+    "slidev-theme-academic": "^2.1.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.59.1"
+  }
+}

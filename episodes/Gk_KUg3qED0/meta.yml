@@ -1,0 +1,36 @@
+id: Gk_KUg3qED0
+source: xiaojun
+title: "140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去"
+guest: "姚顺宇"
+guest_role: "研究科学家 · 前 Anthropic · 现 Google DeepMind (Gemini)"
+published: 2026-05
+duration: "3h50m"
+url: https://youtube.com/watch?v=Gk_KUg3qED0
+thumbnail: https://img.youtube.com/vi/Gk_KUg3qED0/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - coding-agents
+  - ai-safety
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  张小珺·语言即世界 EP.140，对姚顺宇的 4 小时访谈节选。姚顺宇博士毕业于斯坦福
+  理论高能物理，2024 年半道出家加入 Anthropic 参与 Claude 3.7、4.5 的强化学习训练；
+  2025 年 10 月跳槽到 Google DeepMind 做 Gemini 的 ML coding / long horizon。
+  这期把两家 lab 的打法、coding bet 的内部信号、AI safety 的"幼稚"自我说服、
+  以及"个人英雄主义时代已经过去了"等小疯言论摊开讲清楚。
+core_ideas:
+  - "AI ≈ 18 世纪物理学 —— 理论实验不分家, Scaling Law 是这代的热力学定律"
+  - "coding bet 的内部信号: 看到 Twitter 上有人说 Claude 3 比 GPT-4 强 + 内部团队某个事"
+  - "Anthropic 能 top-down 是因为技术 1 号位 = cofounder; OpenAI 干不了, Gemini 是另一套打法"
+  - "AI safety 的自我解释 (要有最前沿模型才有话语权) '非常幼稚'; 真正的解法是 Multiparty Control"
+  - "AI 本质是简单的, 因为它能做实验 —— 预测未来 6-12 个月 AI 会自己做实验"
+  - "OpenAI 救了 Google 一命: 把搜索吃掉的反事实里, Google 才真难受"
+  - "Gemini 起势 = Nano Banana (把人拉进 APP) + Gemini 3 (把人留下来) 两拳连着"
+  - "下一个 bet 是 long horizon —— train with finite, but use as infinite"
+  - "AI 个人英雄主义时代已过去, 现在是浪而不是冲浪的人; 关键特质是'靠谱+做事细'"
+base: /episodes/Gk_KUg3qED0/

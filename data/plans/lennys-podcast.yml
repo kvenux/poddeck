@@ -3,15 +3,15 @@ refreshed_at: 2026-04-24T00:42:07.684Z
 min_duration: 3600
 min_date: "20260101"
 total_candidates: 10
-done: 8
-pending: 2
+done: 10
+pending: 0
 episodes:
   - id: PplmzlgE0kg
     title: How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)
     duration: 5135
     upload_date: "20260512"
     url: https://youtube.com/watch?v=PplmzlgE0kg
-    status: pending
+    status: generated
     priority: 1
     category: manual-update
   - id: mCO-D3pkviM
@@ -19,7 +19,7 @@ episodes:
     duration: 5243
     upload_date: "20260512"
     url: https://youtube.com/watch?v=mCO-D3pkviM
-    status: pending
+    status: blocked
     priority: 1
     category: manual-update
   - id: yUohoaC8_Hs

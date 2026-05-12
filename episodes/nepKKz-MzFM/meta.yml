@@ -1,0 +1,38 @@
+id: nepKKz-MzFM
+source: lex-fridman
+title: "FFmpeg: The Incredible Technology Behind Video on the Internet | Lex Fridman Podcast #496"
+guest: "Jean-Baptiste Kempf & Kieran Kunhya"
+guest_role: "President of VideoLAN (VLC) & FFmpeg core contributor"
+published: 2026-05
+duration: 252
+url: https://youtube.com/watch?v=nepKKz-MzFM
+thumbnail: https://img.youtube.com/vi/nepKKz-MzFM/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - panel
+  - technical
+  - deep-dive
+  - engineer
+  - founder
+summary: |
+  Jean-Baptiste Kempf (VLC) and Kieran Kunhya (FFmpeg) take Lex through the invisible plumbing of
+  internet video — what happens between "press play" and "see pixels," why every video codec generation
+  is roughly 30% better and 10–100× more expensive, and why dav1d ships 240,000 hand-written lines of
+  assembly. The conversation also covers the École Centrale origin story of VLC, the Google AI security
+  debacle and Microsoft Teams SLA episode, two intelligence-agency backdoor requests JB refused, a death
+  threat over dropping the PowerPC port, the CIA's Vault 7 fake-VLC build, the codec patent minefield,
+  and JB's new ultra-low-latency project Kyber (4 ms glass-to-glass for remote robotics).
+core_ideas:
+  - FFmpeg + VLC are a binary star system — same people, same culture, ~5–15 maintainers running
+    infrastructure used by billions
+  - Each codec generation is ~30% better at the same quality, but 10–100× more CPU-expensive to encode
+  - Handwritten SIMD assembly beats compiler auto-vectorization by orders of magnitude — dav1d is
+    79.9% assembly because every cycle matters across 3 billion decoding devices
+  - Open source's hardest problems aren't technical — they are maintainer burnout, AI-generated bug
+    report slop, trillion-dollar corporations treating volunteers as a free SLA, and patent pools
+  - JB refused tens of millions to keep VLC ad-free and refused two intelligence-agency backdoor
+    requests; VLC has no telemetry and no platform, so the state has limited leverage
+  - The future of multimedia extends past audio/video into spatial audio, haptics, point clouds, XR,
+    "VLC for Neuralink," and ultra-low-latency teleop for robots
+base: /episodes/nepKKz-MzFM/

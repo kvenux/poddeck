@@ -1,0 +1,35 @@
+id: PplmzlgE0kg
+source: lennys-podcast
+title: "How Anthropic's product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)"
+guest: "Cat Wu"
+guest_role: "Head of Product, Claude Code & Cowork · Anthropic"
+published: 2026-04
+duration: "1h25m"
+url: https://youtube.com/watch?v=PplmzlgE0kg
+thumbnail: https://img.youtube.com/vi/PplmzlgE0kg/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - product-management
+  - ai-products
+  - coding-agents
+  - productivity
+  - interview
+  - product-lead
+  - strategic
+  - quick-take
+summary: |
+  Cat Wu 是 Anthropic 的 Claude Code 与 Cowork 产品负责人。show notes 把这一期框成
+  "AI is changing the PM role" 的近距离观察：Anthropic 的 shipping cadence 从 months
+  压到 weeks 再到 days, PM 要在模型还没准备好的时候就开始建产品, Cat 最看重的一项
+  被低估技能是 "asking the model to introspect on its own mistakes", 而 "just do
+  things" 是她总结的 AI-native 公司第一原则。
+core_ideas:
+  - "节奏: shipping cadence 从 months → weeks → days, 每一格压缩都要求删掉以前必须做的环节"
+  - "时序: build products that don't yet fully work —— 等下一代模型 close the gap, 而不是等模型再开始"
+  - "Cat 最被低估的 AI 技能: ask the model to introspect on its own mistakes"
+  - "Claude 的 personality 是核心成功因素 —— 不是 benchmark, 是性格落点"
+  - "Mission alignment 消除大公司的 ownership / 排期摩擦"
+  - "'Just do things' 是 AI-native 公司最重要的工作原则"
+  - "PM 角色被重新分布: 直接面对模型, 而不是中间产物 (PRD / Roadmap)"
+base: /episodes/PplmzlgE0kg/
