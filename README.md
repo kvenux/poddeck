@@ -182,6 +182,31 @@ push 到 `main` branch 就会触发 `.github/workflows/deploy.yml`：
 
 耗时 1-3 分钟。
 
+## 自动更新
+
+本地端到端更新入口：
+
+```bash
+pnpm run auto:update -- --limit=2 --concurrency=1
+```
+
+流程是：刷新 `data/scan-cache/` → 更新 `data/plans/` → 对 pending 条目运行 `claude -p` 生成 deck → `pnpm install` → `pnpm run build` → commit → push。push 到 `main` 后由 GitHub Pages workflow 构建部署。
+
+常用参数：
+
+- `--id=latent-space`：只更新一个 source。
+- `--category=ai-tech`：只跑某个 category 的 pending 条目。
+- `--cache-limit=50`：覆盖 `sources.yml` 里的扫描数量，适合定时快扫。
+- `--after=20260501`：只扫描某个日期之后的视频。
+- `--no-push`：只本地 commit，不触发 Pages。
+- `--dry-run`：刷新 cache/plan 并展示将要生成的条目。
+
+Windows Task Scheduler 可以直接调用 wrapper：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File C:\Users\kvenu\playground\sub-wiki\poddeck\scripts\auto-update.ps1 -Limit 2
+```
+
 ### 手动部署
 
 GitHub → Actions → "Deploy to GitHub Pages" → Run workflow。

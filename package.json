@@ -10,6 +10,7 @@
     "cache:refresh": "tsx scripts/refresh-cache.ts",
     "plan": "tsx scripts/plan.ts",
     "plan:run": "tsx scripts/run-plan.ts",
+    "auto:update": "tsx scripts/auto-update.ts",
     "analyze": "tsx scripts/analyze-scan.ts",
     "sync": "echo 'TODO: P4'",
     "build": "tsx scripts/build-all.ts",

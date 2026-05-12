@@ -21,8 +21,9 @@ const SOURCES_PATH = resolve(ROOT, 'sources.yml')
 const CACHE_DIR = resolve(ROOT, 'data/scan-cache')
 
 const onlyId = process.argv.find(a => a.startsWith('--id='))?.split('=')[1]
+const limitArg = process.argv.find(a => a.startsWith('--limit='))?.split('=')[1]
 const defaultLimit = Number(
-  process.argv.find(a => a.startsWith('--limit='))?.split('=')[1] ?? 350,
+  limitArg ?? 350,
 )
 const dateAfter = process.argv.find(a => a.startsWith('--after='))?.split('=')[1] ?? '20260101'
 
@@ -84,7 +85,7 @@ async function main() {
 
   // Run all in parallel — each writes to its own file, no race
   await Promise.all(targets.map(s => {
-    const limit = (s as any).cache_limit ?? defaultLimit
+    const limit = limitArg ? defaultLimit : ((s as any).cache_limit ?? defaultLimit)
     return fetchOne(s, limit).catch(err => {
       log.err(`${s.id} failed: ${err.message}`)
     })
