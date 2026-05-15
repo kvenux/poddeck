@@ -54,7 +54,9 @@ episodes:
       - monologue
       - researcher
       - technical
+      - karpathy
     status: generated
+    category: ai-tech
   - id: lXUZvyajciY
     source: karpathy
     title: "Andrej Karpathy — “We’re summoning ghosts, not building animals”"
@@ -67,7 +69,9 @@ episodes:
       - researcher
       - deep-dive
       - technical
+      - karpathy
     status: generated
+    category: ai-tech
   - id: kwSVtQ7dziU
     source: karpathy
     title: "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI"
@@ -79,7 +83,9 @@ episodes:
       - interview
       - researcher
       - technical
+      - karpathy
     status: generated
+    category: ai-tech
   - id: 96jN2OCOfLs
     source: karpathy
     title: "Andrej Karpathy: From Vibe Coding to Agentic Engineering"
@@ -92,4 +98,6 @@ episodes:
       - researcher
       - quick-take
       - technical
+      - karpathy
     status: generated
+    category: ai-tech
