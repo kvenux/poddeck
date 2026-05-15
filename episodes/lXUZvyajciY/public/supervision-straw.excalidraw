@@ -1,0 +1,90 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "traj", "type": "rectangle", "x": 30, "y": 80, "width": 240, "height": 200,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 51, "version": 1, "versionNonce": 51,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "traj-t", "type": "text", "x": 50, "y": 150, "width": 200, "height": 60,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 52, "version": 1, "versionNonce": 52,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "long trajectory\nhundreds of rollouts\nminutes of work", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "long trajectory\nhundreds of rollouts\nminutes of work",
+      "lineHeight": 1.25, "baseline": 50
+    },
+    {
+      "id": "straw1", "type": "line", "x": 270, "y": 130, "width": 200, "height": 50,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 2}, "seed": 53, "version": 1, "versionNonce": 53,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": null, "points": [[0, 0], [200, 50]]
+    },
+    {
+      "id": "straw2", "type": "line", "x": 270, "y": 230, "width": 200, "height": 50,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 2}, "seed": 54, "version": 1, "versionNonce": 54,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": null, "points": [[0, 0], [200, -50]]
+    },
+    {
+      "id": "straw-t", "type": "text", "x": 300, "y": 285, "width": 140, "height": 25,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 55, "version": 1, "versionNonce": 55,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "the straw", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "the straw",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "reward", "type": "ellipse", "x": 490, "y": 155, "width": 90, "height": 90,
+      "angle": 0, "strokeColor": "#e03131", "backgroundColor": "#ffc9c9", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 56, "version": 1, "versionNonce": 56,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "reward-t", "type": "text", "x": 500, "y": 188, "width": 70, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 57, "version": 1, "versionNonce": 57,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "1 bit", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "1 bit",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "back", "type": "arrow", "x": 485, "y": 290, "width": 340, "height": 0,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 2}, "seed": 58, "version": 1, "versionNonce": 58,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [-340, 0]]
+    },
+    {
+      "id": "back-t", "type": "text", "x": 300, "y": 305, "width": 240, "height": 25,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 59, "version": 1, "versionNonce": 59,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "broadcast to every token", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "broadcast to every token",
+      "lineHeight": 1.25, "baseline": 18
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

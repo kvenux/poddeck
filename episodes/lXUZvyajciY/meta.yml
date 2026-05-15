@@ -1,0 +1,32 @@
+id: lXUZvyajciY
+source: karpathy
+title: "Andrej Karpathy — \"We're summoning ghosts, not building animals\""
+guest: "Andrej Karpathy"
+guest_role: "AI 研究者，曾领导 Tesla 自动驾驶、OpenAI 创始成员"
+published: 2025-10
+duration: "~2h"
+url: https://youtube.com/watch?v=lXUZvyajciY
+thumbnail: https://img.youtube.com/vi/lXUZvyajciY/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - coding-agents
+  - ai-safety
+  - interview
+  - researcher
+  - strategic
+  - deep-dive
+summary: |
+  Andrej Karpathy 在 Dwarkesh Podcast 的长访谈。他给出一份冷静的"祛魅"：这是
+  智能体的十年而非元年；我们造的不是动物而是"幽灵"——通过模仿互联网而来的数字
+  实体。他剖析了 RL 的根本缺陷（"用吸管吸取监督信号"）、模型坍缩、自动驾驶式的
+  "九分进军"，以及他为何离开前沿实验室转去做教育。
+core_ideas:
+  - 智能体的"十年"而非"元年"——问题可解但困难，平均下来感觉是一个十年
+  - 我们不在造动物，而在"召唤幽灵"；预训练是"蹩脚的进化"
+  - 权重是"模糊的回忆"，上下文是"工作记忆"，两者信息密度差约 3500 万倍
+  - RL "用吸管吸取监督信号"——把一个最终分数广播到整条轨迹，"愚蠢而疯狂"
+  - 编码智能体最不擅长"没被写过的代码"——这正是 Karpathy 时间线更长的原因
+  - 自动驾驶的"九分进军"：每多一个 9 都是同样多的工作量
+  - 他怕 WALL-E 式的未来，于是去做教育——Pre-AGI 教育有用，Post-AGI 教育有趣
+base: /episodes/lXUZvyajciY/

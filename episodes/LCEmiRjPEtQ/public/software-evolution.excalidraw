@@ -1,0 +1,75 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "b1", "type": "rectangle", "x": 120, "y": 60, "width": 420, "height": 110,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 11, "version": 1,
+      "versionNonce": 11, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t1", "type": "text", "x": 150, "y": 80, "width": 360, "height": 75,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 12, "version": 1,
+      "versionNonce": 12, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Software 1.0\ncode you write\nPython / C++", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Software 1.0\ncode you write\nPython / C++", "lineHeight": 1.25, "baseline": 65
+    },
+    {
+      "id": "b2", "type": "rectangle", "x": 120, "y": 245, "width": 420, "height": 110,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 13, "version": 1,
+      "versionNonce": 13, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t2", "type": "text", "x": 150, "y": 265, "width": 360, "height": 75,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 14, "version": 1,
+      "versionNonce": 14, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Software 2.0\nneural net weights\ntune data, run optimizer", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Software 2.0\nneural net weights\ntune data, run optimizer", "lineHeight": 1.25, "baseline": 65
+    },
+    {
+      "id": "b3", "type": "rectangle", "x": 120, "y": 430, "width": 420, "height": 110,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 15, "version": 1,
+      "versionNonce": 15, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t3", "type": "text", "x": 150, "y": 450, "width": 360, "height": 75,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 16, "version": 1,
+      "versionNonce": 16, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Software 3.0\nprompts that program LLMs\nwritten in English", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Software 3.0\nprompts that program LLMs\nwritten in English", "lineHeight": 1.25, "baseline": 65
+    },
+    {
+      "id": "a1", "type": "arrow", "x": 330, "y": 175, "width": 0, "height": 65,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 2}, "seed": 17, "version": 1,
+      "versionNonce": 17, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null, "startArrowhead": null,
+      "endArrowhead": "arrow", "points": [[0, 0], [0, 65]]
+    },
+    {
+      "id": "a2", "type": "arrow", "x": 330, "y": 360, "width": 0, "height": 65,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 2}, "seed": 18, "version": 1,
+      "versionNonce": 18, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null, "startArrowhead": null,
+      "endArrowhead": "arrow", "points": [[0, 0], [0, 65]]
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

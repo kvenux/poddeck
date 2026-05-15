@@ -1,0 +1,62 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "w-box", "type": "rectangle", "x": 40, "y": 70, "width": 250, "height": 130,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 41, "version": 1, "versionNonce": 41,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "w-t", "type": "text", "x": 60, "y": 95, "width": 210, "height": 85,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 42, "version": 1, "versionNonce": 42,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "WEIGHTS\n\"hazy recollection\"\n~0.07 bits / token\nread a year ago", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "WEIGHTS\n\"hazy recollection\"\n~0.07 bits / token\nread a year ago",
+      "lineHeight": 1.25, "baseline": 75
+    },
+    {
+      "id": "kv-box", "type": "rectangle", "x": 420, "y": 70, "width": 250, "height": 130,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 43, "version": 1, "versionNonce": 43,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "kv-t", "type": "text", "x": 440, "y": 95, "width": 210, "height": 85,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 44, "version": 1, "versionNonce": 44,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "KV CACHE\n\"working memory\"\n~320 KB / token\ndirectly accessible", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "KV CACHE\n\"working memory\"\n~320 KB / token\ndirectly accessible",
+      "lineHeight": 1.25, "baseline": 75
+    },
+    {
+      "id": "arrow", "type": "arrow", "x": 295, "y": 135, "width": 120, "height": 0,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 3, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 2}, "seed": 45, "version": 1, "versionNonce": 45,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [120, 0]]
+    },
+    {
+      "id": "gap", "type": "text", "x": 270, "y": 220, "width": 170, "height": 60,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 46, "version": 1, "versionNonce": 46,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "35 million-fold\ndifference", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "35 million-fold\ndifference",
+      "lineHeight": 1.25, "baseline": 50
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

@@ -43,3 +43,53 @@ episodes:
     title: Terence Tao – How the world’s top mathematician uses AI
     url: https://youtube.com/watch?v=Q8Fkpi18QXU
     status: downloaded
+  - id: LCEmiRjPEtQ
+    source: karpathy
+    title: "Andrej Karpathy: Software Is Changing (Again)"
+    url: https://youtube.com/watch?v=LCEmiRjPEtQ
+    published: 2025-06-19
+    tags:
+      - ai-research
+      - coding-agents
+      - monologue
+      - researcher
+      - technical
+    status: generated
+  - id: lXUZvyajciY
+    source: karpathy
+    title: "Andrej Karpathy — “We’re summoning ghosts, not building animals”"
+    url: https://youtube.com/watch?v=lXUZvyajciY
+    published: 2025-10-17
+    tags:
+      - ai-research
+      - coding-agents
+      - interview
+      - researcher
+      - deep-dive
+      - technical
+    status: generated
+  - id: kwSVtQ7dziU
+    source: karpathy
+    title: "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI"
+    url: https://youtube.com/watch?v=kwSVtQ7dziU
+    published: 2026-03-20
+    tags:
+      - ai-research
+      - coding-agents
+      - interview
+      - researcher
+      - technical
+    status: generated
+  - id: 96jN2OCOfLs
+    source: karpathy
+    title: "Andrej Karpathy: From Vibe Coding to Agentic Engineering"
+    url: https://youtube.com/watch?v=96jN2OCOfLs
+    published: 2026-04-29
+    tags:
+      - ai-research
+      - coding-agents
+      - interview
+      - researcher
+      - quick-take
+      - technical
+    status: generated

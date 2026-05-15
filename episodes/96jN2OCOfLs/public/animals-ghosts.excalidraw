@@ -1,0 +1,62 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "animals", "type": "rectangle", "x": 40, "y": 100, "width": 300, "height": 280,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 61, "version": 1,
+      "versionNonce": 61, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "animals-label", "type": "text", "x": 60, "y": 125, "width": 260, "height": 230,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 62, "version": 1,
+      "versionNonce": 62, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 17, "fontFamily": 1, "text": "ANIMALS\n(what we are NOT\nbuilding)\n\n- shaped by evolution\n- intrinsic motivation\n- fun, curiosity\n- empowerment", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "ANIMALS\n(what we are NOT\nbuilding)\n\n- shaped by evolution\n- intrinsic motivation\n- fun, curiosity\n- empowerment",
+      "lineHeight": 1.25, "baseline": 220
+    },
+    {
+      "id": "ghosts", "type": "rectangle", "x": 420, "y": 100, "width": 300, "height": 280,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "#eebefa", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 63, "version": 1,
+      "versionNonce": 63, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "ghosts-label", "type": "text", "x": 440, "y": 125, "width": 260, "height": 230,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 64, "version": 1,
+      "versionNonce": 64, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 17, "fontFamily": 1, "text": "GHOSTS\n(what we ARE\nsummoning)\n\n- shaped by data\n- shaped by rewards\n- statistical circuits\n- jagged capability", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "GHOSTS\n(what we ARE\nsummoning)\n\n- shaped by data\n- shaped by rewards\n- statistical circuits\n- jagged capability",
+      "lineHeight": 1.25, "baseline": 220
+    },
+    {
+      "id": "vs", "type": "text", "x": 360, "y": 220, "width": 50, "height": 40,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 65, "version": 1,
+      "versionNonce": 65, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 24, "fontFamily": 1, "text": "vs", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "vs", "lineHeight": 1.25, "baseline": 30
+    },
+    {
+      "id": "note", "type": "text", "x": 180, "y": 410, "width": 400, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 66, "version": 1,
+      "versionNonce": 66, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1, "text": "yell at a ghost -> nothing changes", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "yell at a ghost -> nothing changes",
+      "lineHeight": 1.25, "baseline": 18
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

@@ -1,0 +1,100 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "core", "type": "ellipse", "x": 320, "y": 240, "width": 240, "height": 130,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 101, "version": 1,
+      "versionNonce": 101, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "core-t", "type": "text", "x": 345, "y": 275, "width": 190, "height": 60,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 102, "version": 1,
+      "versionNonce": 102, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Same core\nLLM capability", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Same core\nLLM capability", "lineHeight": 1.25, "baseline": 50
+    },
+    {
+      "id": "aug", "type": "rectangle", "x": 40, "y": 90, "width": 250, "height": 110,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 103, "version": 1,
+      "versionNonce": 103, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "aug-t", "type": "text", "x": 60, "y": 110, "width": 210, "height": 75,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 104, "version": 1,
+      "versionNonce": 104, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Augmentation\nTony Stark drives\nthe suit himself", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Augmentation\nTony Stark drives\nthe suit himself", "lineHeight": 1.25, "baseline": 65
+    },
+    {
+      "id": "agent", "type": "rectangle", "x": 590, "y": 90, "width": 250, "height": 110,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 105, "version": 1,
+      "versionNonce": 105, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "agent-t", "type": "text", "x": 610, "y": 110, "width": 210, "height": 75,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 106, "version": 1,
+      "versionNonce": 106, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Agent\nthe suit flies off\non its own", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Agent\nthe suit flies off\non its own", "lineHeight": 1.25, "baseline": 65
+    },
+    {
+      "id": "now", "type": "rectangle", "x": 280, "y": 450, "width": 320, "height": 90,
+      "angle": 0, "strokeColor": "#e03131", "backgroundColor": "#ffc9c9", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3}, "seed": 107, "version": 1,
+      "versionNonce": 107, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "now-t", "type": "text", "x": 300, "y": 470, "width": 280, "height": 50,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null, "seed": 108, "version": 1,
+      "versionNonce": 108, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Right now: build suits,\nnot robots", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "Right now: build suits,\nnot robots", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "a-aug", "type": "arrow", "x": 165, "y": 200, "width": 175, "height": 60,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 2}, "seed": 109, "version": 1,
+      "versionNonce": 109, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null, "startArrowhead": null,
+      "endArrowhead": "arrow", "points": [[0, 0], [175, 60]]
+    },
+    {
+      "id": "a-agent", "type": "arrow", "x": 715, "y": 200, "width": 175, "height": 60,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 2}, "seed": 110, "version": 1,
+      "versionNonce": 110, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null, "startArrowhead": null,
+      "endArrowhead": "arrow", "points": [[0, 0], [-175, 60]]
+    },
+    {
+      "id": "a-now", "type": "arrow", "x": 440, "y": 375, "width": 0, "height": 70,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 2}, "seed": 111, "version": 1,
+      "versionNonce": 111, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null, "startArrowhead": null,
+      "endArrowhead": "arrow", "points": [[0, 0], [0, 70]]
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

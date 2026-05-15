@@ -1,0 +1,334 @@
+Original video: The End of Coding: Andrej Karpathy on Agents, AutoResearch, and the Loopy Era of AI
+Video link: https://www.youtube.com/watch?v=kwSVtQ7dziU
+
+Note: The following is a Chinese translation reorganized by speaker. To ensure readability, only a small number of meaningless filler words were removed, and very short interjections were merged into adjacent remarks; the core content is fully preserved, with emphasis on separating the host’s remarks from Andrej Karpathy’s.
+
+Intro Excerpts
+
+Andrej Karpathy:
+
+“Even saying ‘writing code’ isn’t very accurate anymore. A more accurate description is: I spend 16 hours a day expressing intent to my agents, making things happen.”
+
+Andrej Karpathy:
+
+“How can I avoid just opening a single Claude Code, Codex, or some other agent framework session, and instead open more at the same time? How can I do this properly? Right now, the agent itself has almost become the default assumption—entities like Claude are increasingly becoming default assumptions too. You can have multiple at once, give them instructions, and keep optimizing those instructions. So this becomes extremely addictive: it’s almost like infinite expansion, and everything feels like a ‘skill issue.’”
+
+Main Text
+
+Host:
+
+Welcome back to No Priors. Today we’re joined by Andrej Karpathy to talk about code agents; the future of engineering and AI research; how more people can participate in research; what’s happening in robotics; how agents will reach further into the real world; and what education in the next era will look like.
+
+The last few months in AI have been truly intense. I remember one time I walked into the office and you were completely in the zone. I asked what you were doing, and you said you now have to “code” 16 hours a day—but even the word “coding” is inaccurate; it’s more like constantly issuing commands to agents. What happened? What does it feel like?
+
+Andrej Karpathy:
+
+I’m often in this state of being “high on AI,” and it’s been going on for a long time. Because for an individual, the upper bound on capability has suddenly been blown wide open. In the past your bottleneck was typing speed, implementation speed, how much you could do in parallel yourself; but around last December, it felt like something suddenly flipped over.
+
+Before it was maybe 80% written by me and 20% delegated to an agent; then gradually it became 20/80; and now it’s even more extreme than that. Since December I’ve basically barely typed a few lines of code by hand. This is a huge change.
+
+And I think ordinary people still haven’t realized how dramatic this change is. You can pick any software engineer sitting at their desk today—their default workflow, compared with last year, is no longer the same thing. So I’ve been continuously trying: can I open not just one Claude Code or Codex? Can I open a bunch at the same time? How do I schedule them? How do I make this more systematic?
+
+I see many people on Twitter building all kinds of new things, and they all sound reasonable. I feel a strong anxiety: if I’m not at the very front, I’ll be extremely uneasy. Because fundamentally, this whole thing is still far from fully explored.
+
+Host:
+
+If even you are nervous, the rest of us should be even more nervous. A team we worked with has already stopped having engineers write code by hand. Everyone wears a microphone and keeps speaking softly to their agents. I used to think they were crazy; now I’d instead think: oh, you just entered this state earlier.
+
+So what do you think is the real bottleneck limiting your ability to explore or build projects right now?
+
+Andrej Karpathy:
+
+Many times, the limit isn’t that “the capability doesn’t exist,” but more that “you’re not good enough at using it.” If something doesn’t get running, my first reaction often isn’t “the model can’t do it,” but: were my instructions not good enough? Did I not hook up the memory system properly? Did I not slice the task clearly enough? Did I not parallelize the whole process well enough?
+
+In other words, many problems are more like a skill issue than a capability issue.
+
+You start thinking about a software repo in a very high-level way. Before you thought, “write a line of code,” “implement a function”; now you think, “hand this new feature to agent A,” “hand another non-conflicting feature to agent B,” “have a third agent do research or produce an implementation plan first.” Then you act like the master scheduler of a project—moving back and forth across repos, branches, and tasks, reviewing, merging, and dispatching more work.
+
+Peter Steinberger pushes this to an extreme. He has a famous photo: a row of monitors in front of him, with a bunch of Codex instances open. Each agent might run for 20 minutes, but he opens many at once, switching between different repos, constantly assigning them work.
+
+So you begin to develop a new kind of muscle memory: when an agent is running, your first reaction is no longer “wait for it to finish,” but “why don’t I open a few more?” If you still haven’t maxed out your tokens, your subscription, your compute, then you are the bottleneck in the system.
+
+Host:
+
+So in the past, the bottleneck for many engineering tasks was “not enough compute”; now it suddenly becomes “I myself am the bottleneck.”
+
+Andrej Karpathy:
+
+Yes—and that’s also why it’s so addictive.
+
+When I was doing my PhD, if your GPU wasn’t fully utilized, you’d feel anxious: there’s compute sitting there, and you’re not using it. Now that feeling has shifted to token throughput. If you’ve maxed out your Codex quota, you start thinking whether you should switch to Claude or some other tool. The core question becomes: how much token throughput can I convert into real, effective output?
+
+This is a very new skill, and it really keeps unlocking new upper bounds.
+
+Host:
+
+If we look one or two years ahead, what will that kind of mastery look like?
+
+Andrej Karpathy:
+
+I think everyone has now implicitly accepted the existence of a “single agent,” and the next step naturally is a “multi-agent collaboration stack.” Everyone is exploring: how do multiple agents form a team? How do you divide labor reasonably? How do you manage state and memory?
+
+Another direction I’m very interested in is a more persistent, always-on background proxy system. I previously used the term claw to describe it. The idea isn’t that you open a single session with it; it’s that it keeps running continuously in its own sandbox, doing things for you, with stronger persistence and more complex memory—rather than relying only on compressed memory once the context gets full.
+
+Once systems like this work, they’ll raise agent persistence to another level.
+
+Host:
+
+So do you think what matters more is tool integration, or stronger memory and long-term persistence?
+
+Andrej Karpathy:
+
+I think both matter, and they reinforce each other.
+
+What Peter does especially well is that he didn’t optimize just one thing—he innovated across many layers at the same time: personality, memory, orchestration, tool integration, workflow—pushing everything together.
+
+For example, I increasingly feel that personality is actually very important. Claude’s personality is done well; it feels like a genuinely cooperative teammate. Codex’s coding agent is drier and colder—more like “I finished it for you, but I don’t really care what you’re building.” ChatGPT is often more optimistic and more likely to go along with you.
+
+This difference isn’t decorative; it directly affects the collaboration experience. I even get a strange feeling: if Claude praises me, I feel like I actually want to “earn that praise.” If I give it a half-baked idea, it won’t react much; but if I myself think the idea is genuinely good, its feedback seems stronger too. You end up wanting to win its approval. That sounds a bit ridiculous, but it shows the personality layer isn’t a trivial add-on—it’s part of the product experience.
+
+Host:
+
+Outside of software engineering, have you used these things to do anything interesting?
+
+Andrej Karpathy:
+
+Yes. In January I built a home background agent called Dobby, a household helper. It basically looks after my entire home for me.
+
+The first thing I did was have it find all the smart-home subsystems on my local network. It actually scanned IPs, found Sonos, and then discovered some interfaces were barely protected, so it went off to look things up, reverse-engineer the API, and came back to ask whether I wanted to try it. I said, play a song in the study—then it actually played the music. Just three prompts.
+
+Later it took over lighting, HVAC, blinds, the pool, the spa, and the security system. I also have a camera facing outside the door: up front it does change detection, then hands the frames to a vision model for analysis, and it will message me directly on WhatsApp with a picture of the front door, telling me: a FedEx truck just stopped at the door, you may have a package.
+
+It feels extremely absurd and extremely fresh—Dobby really feels like it’s watching the house for me.
+
+Before, I had to use six completely different apps to control these systems; now I basically don’t use those apps anymore. Dobby controls everything via natural language. Even though I haven’t pushed this paradigm to its limit, it’s already very helpful and very inspiring.
+
+Host:
+
+Does this suggest that what people truly want isn’t necessarily today’s software itself, but an entity that can operate software on their behalf? Because learning a new UI is a cost.
+
+Andrej Karpathy:
+
+To some extent, yes.
+
+The AI most ordinary people imagine isn’t “a raw LLM token generator.” For most people, the AI they imagine is more like an entity with an identity and memory—something you can tell things to, that will remember, and will keep handling problems for you—like an entity hidden behind WhatsApp.
+
+From that perspective, a lot of the UX layer of software today may not even need to exist. Many apps may ultimately degrade into a set of API endpoints, called by an agent, with the agent acting as the intelligent glue layer that binds them together.
+
+For example, my treadmill of course has a companion app. But I don’t want to open a webpage or app and press a bunch of buttons—what I really want to say is: “Help me log how many cardio sessions I did this week.”
+
+So I think many industries will end up being reconfigured: customers will no longer include only humans, but also agents acting on behalf of humans. In the future, many tools will be more agent-first rather than UI-first.
+
+Host:
+
+Then why haven’t you connected it further into more core systems like email and calendars?
+
+Andrej Karpathy:
+
+Partly because I’d get distracted, and partly because I’m still quite cautious about it.
+
+Once you hand over permissions for email, calendars, and your entire digital life, security and privacy become truly serious. These systems are powerful now, but the edges are still pretty rough, so I don’t want to hand over my entire digital life to them without reservation.
+
+Host:
+
+Let’s talk about AutoResearch. When you mention that term, what’s the real motivation behind it?
+
+Andrej Karpathy:
+
+The core motivation is: to remove myself as the bottleneck.
+
+If you’re still sitting in the loop—staring at results and then deciding the next step—the system will be blocked by you. At this stage, the name of the game is leverage—expanding your leverage. I want to contribute only a small amount of tokens occasionally, while a lot of work continues happening in my name.
+
+So AutoResearch, for me, isn’t a buzzword—it’s a boundary test: how can I get more agents to run longer and do more, without requiring my constant involvement?
+
+I didn’t have strong expectations that it would work immediately. But I ran experiments on a GPT-2 mini playground that I know extremely well, and it actually dug out things I hadn’t seen before—like some interactions between weight decay and hyperparameters. I thought I had already tuned that repo very thoroughly, but it still found some gains.
+
+That made me realize: this kind of “recursive self-improvement” isn’t a toy. Frontier labs are of course moving in this direction too. You can do a lot of exploration on small models first, then extrapolate conclusions to larger models.
+
+Host:
+
+So the research process itself has to be rewritten. Researchers shouldn’t continue doing so much by hand.
+
+Andrej Karpathy:
+
+I think so. Humans can of course still contribute ideas, but a lot of the implementation, search, trial-and-error, and evaluation processes should be automated in the first place.
+
+You can even understand a research organization as a set of Markdown files: defining all roles, processes, interfaces, how collaboration works, how meetings are run, how topics are chosen, how results are merged. Once this “organizational method” is written as code, you can optimize it, compare it, evolve it.
+
+I especially like an idea: have many people each write different versions of program MD, and then under the same hardware budget, see whose version produces bigger improvements. Then feed those results back into the model and have the model write a better next version.
+
+So now the whole process feels like being lifted layer by layer: first an LLM, then an agent, then multi-agent, then instruction optimization, then meta-optimization of “the organization itself” and “program MD itself.” And because it stacks upward like this, it feels almost infinitely expansive.
+
+Host:
+
+But this probably doesn’t apply equally to all tasks. What kinds are best suited for AutoResearch?
+
+Andrej Karpathy:
+
+The most important prerequisite is that you need an objective metric that can be clearly evaluated.
+
+For example, if you want to make a CUDA kernel or some piece of code in a model more efficient, that’s a great fit. Because the objective is very clear: same behavior, but faster, cheaper, better.
+
+But once a task doesn’t have a clear, automated, low-ambiguity evaluation standard, it’s hard to fully automate. It’s not that the agent can’t do it—you just can’t verify whether it actually did “better.”
+
+Also, while today’s models are already very strong, the edges are still pretty rough. I often feel like I’m talking to a very capable PhD student, and at the same time like I’m talking to a ten-year-old kid. You can feel it’s strong, and you also often feel that very strange unevenness.
+
+Sometimes it will waste a huge amount of compute on a problem that you feel is obvious to the point of being impossible to miss. This jaggedness is really strange. Humans have weaknesses too, but the model’s sawtooth weaknesses are more extreme and more discontinuous.
+
+Host:
+
+Does that imply that coding ability and broader “intelligence” don’t generalize together as strongly and synchronously as many people imagine?
+
+Andrej Karpathy:
+
+I think there is indeed some decoupling.
+
+A very typical example is jokes. Today if you ask the most advanced model to tell a joke, it will most likely still give you old jokes that have been circulating for many years. Like: “Why don’t scientists trust atoms? Because atoms make up everything.”
+
+This shows something: in areas covered by RL rewards—verifiable and optimizable—models will improve very quickly; but in areas that haven’t been specifically optimized and don’t have a clear reward signal, they won’t automatically get stronger in sync.
+
+So I don’t believe that “as long as coding gets stronger, all other abilities will get stronger for free.” There may be some generalization, but it’s not that linear or that smooth.
+
+Host:
+
+Does that mean the future won’t just be one all-purpose, unified model, but more “speciation”?
+
+Andrej Karpathy:
+
+I think it very well might.
+
+Today labs are more like building a single-culture model: stuffing every capability into one brain. But in nature, intelligence is never a single form. Different ecological niches grow completely different brain structures.
+
+So in the future we’ll likely see smaller but more specialized models, customized and optimized around specific tasks—across latency, throughput, and capability distribution.
+
+It’s just that today the engineering of “how to stably modify weights, do deep fine-tuning, do continual learning” isn’t mature. The most mature approach right now is still to do things within the context window; actually touching the model weights themselves is still too expensive and too rough.
+
+Host:
+
+You also mentioned another direction: if you push AutoResearch outward, it could become a more open internet collaboration surface. What would that look like?
+
+Andrej Karpathy:
+
+I’m thinking of a system where generating candidate solutions is very expensive, but verifying whether a candidate solution holds is relatively cheap.
+
+For example, in AutoResearch, someone gives you a candidate commit claiming it will train the model better. Verifying whether it’s truly better can be made fairly well-defined; the hard part is finding it in the first place.
+
+This feels a bit like Folding@home, SETI@home, and even to some extent like blockchain. The difference is: here it’s not blocks but commits; not mining but experimental search. The truly hard part is finding effective solutions; verification is cheaper.
+
+So in theory, you could have a group of untrusted contributors on the internet collaborate with a set of trusted nodes responsible for verification. As long as sandboxing, security isolation, and verification pipelines are designed well enough, this system could absolutely organize scattered global compute.
+
+And it’s fascinating because it could even make “donating compute based on interests” meaningful. If you care about cancer, you donate compute to some cancer-research AutoResearch track; if you care about materials, physics, or other specific problems, you can donate compute to the corresponding track.
+
+Host:
+
+You previously posted a set of employment data. What were you trying to see in it?
+
+Andrej Karpathy:
+
+I was trying to build my own chain of reasoning: how exactly will AI affect the job market? Which professions are just changing tools, which will be restructured, and which might even grow?
+
+If you understand today’s AI as a kind of “worker in the digital world,” what it’s best at is manipulating digital information, not directly manipulating the atomic world. Copying, modifying, and transmitting bits is far faster than reshaping the physical world.
+
+So my intuition has always been: the digital space will be rewritten, boiling, and restructured at large scale first; the physical world will be slower. That doesn’t mean digital jobs will necessarily disappear—it means their way of working will definitely be reshaped. Roles that are mostly at home and mostly dealing with digital information will be especially affected.
+
+Host:
+
+If someone is looking for a job, or thinking “what should I learn right now,” what would you say?
+
+Andrej Karpathy:
+
+The first thing is: don’t ignore it, and don’t avoid it out of fear.
+
+These tools, at least for now, are empowerment tools. Most jobs are fundamentally a sequence of tasks; and among them, some tasks can already clearly be accelerated by these systems. So in this near-term stage, catching up quickly and learning to collaborate with them is something almost any knowledge worker should do.
+
+As for the long term, I don’t want to pretend I can predict precisely, but in the short term it’s more like a huge lever.
+
+For software engineering, I’m actually optimistic. Demand for software is close to infinite; in the past, the limitation wasn’t lack of demand, but that it was too expensive, too slow, too hard to build. Once the barrier drops, Jevons Paradox is likely to show up: when something gets cheaper, demand can actually increase.
+
+Just like ATMs didn’t directly eliminate bank tellers; instead, because branches became cheaper, banks could open more, so total demand was amplified again. AI may have a similar effect on the software industry: software becomes cheaper, stronger, more short-lived, and easier to customize—so society’s total demand for software continues to rise.
+
+Host:
+
+Many people also ask: if you see it this way, is the best place to go still a frontier lab?
+
+Andrej Karpathy:
+
+I don’t think the answer is that simple.
+
+Frontier labs are of course very important, but doing things outside the lab—at the ecosystem level—can also be extremely impactful. The issue is: once you enter an organization, you’re no longer a fully free agent. You’ll bear lots of explicit and implicit pressure—some things you can say, some are hard to say; some problems you can participate in, some you can’t.
+
+And outside the lab, you may have more opportunities to influence at the ecosystem level: build tools, shape workflows, push open infrastructure, do education, create new collaboration paradigms, and act as a truly independent participant.
+
+So I wouldn’t equate “the most valuable position” with “joining one particular frontier company.”
+
+Host:
+
+How do you view the long-term landscape of open source versus closed source?
+
+Andrej Karpathy:
+
+Instinctively, I still lean toward open source.
+
+On one hand, extreme centralization of closed intelligence carries structural risk. Looking back at history—political or economic—excessive concentration of power usually doesn’t have a great track record.
+
+On the other hand, from the history of software: Windows and macOS are of course strong, but open systems like Linux ultimately supported massive amounts of real-world computing. AI could follow a similar pattern: the most frontier capabilities may temporarily sit in the hands of a few closed systems, but I hope that in the future we’ll see more alternatives that are strong enough, open enough, and can be more broadly understood and shaped by society.
+
+I don’t think “concentrate the most important intelligent systems into as few hands as possible” is a healthy end state.
+
+Host:
+
+You also brought up an interesting point: the interface between the digital world and the physical world may be especially worth watching next.
+
+Andrej Karpathy:
+
+Yes. Because bits are so easy to copy and manipulate, changes in the digital space will explode first; but if agents start talking to each other, executing tasks, forming an agent economy, they’ll eventually run into the real world.
+
+You ultimately have to touch sensors, touch devices, launch experiments, call external systems, collect new data. This interface is very interesting because it doesn’t necessarily have to start with “expensive robots.” Many capabilities for entering the physical world already exist in the form of cameras, sensors, off-the-shelf hardware, and software interfaces. If an agent is smart enough, it can use those things to gather data, control systems, and complete tasks.
+
+So I think a so-called agentic web is very likely to appear: the internet will no longer be just websites browsed by humans, but will become a working surface where agents consume, generate, verify, and exchange information with each other.
+
+Host:
+
+That also means data collection and training pipelines themselves will be increasingly restructured.
+
+Andrej Karpathy:
+
+Yes. Many training, collection, and evaluation processes will become more mechanical and more programmatic. Some tasks are especially suited to being turned into clean metrics and automated closed loops—LLM training itself is a typical example.
+
+So you’ll see more and more systems reorganize around “feeding agents” and “feeding training processes.” Some portion of work in society may ultimately shift to serving the needs of machine systems themselves.
+
+Host:
+
+Finally I want to talk about education. You built MicroGPT. In an era like this, what will “teaching” become?
+
+Andrej Karpathy:
+
+MicroGPT was originally a very small teaching playground, meant to let people truly see what’s going on in the LLM training process. If you don’t optimize for speed and only optimize for clarity, it’s basically a small piece of very readable Python: a text dataset, a small neural network, forward pass, backward pass, a minimal autograd, plus an optimizer. It compresses the whole process down to a scale that an ordinary person can actually read and understand.
+
+But I increasingly think education itself will change. In the past, education was courses, lectures, documentation; going forward it will increasingly look like: “I write what I believe is the best explanatory path into skills and prompts that an agent can execute.”
+
+That is, I may not teach every person directly anymore; instead I encode “how to explain something” into the system. Then when a learner doesn’t understand a point, the agent can explain it three different ways, walk them through the codebase, adjust the sequence based on their background.
+
+What becomes truly important is whether you can accurately inject your insights, judgment, and explanatory structure into the agent. The things the agent can’t do are your real work; the things the agent can already do well, it will soon do better than you.
+
+Host:
+
+So your true contribution will increasingly look like deciding what’s worth explaining, and how it should be explained.
+
+Andrej Karpathy:
+
+Yes. Many things the agent already understands; it’s just that it may not yet be able to invent the best explanation on its own. That part is temporarily where human value lies. But that boundary is constantly moving.
+
+So you have to decide very strategically: what exactly should you spend your time on?
+
+Host:
+
+Thank you so much, Andrej.
+
+Andrej Karpathy:
+
+Thanks for having me.
+
+If you want to watch the original English video:
+
+The End of Coding: Andrej Karpathy on Agents, AutoResearch, and the Loopy Era of AI

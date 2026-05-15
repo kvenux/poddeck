@@ -1,0 +1,97 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "s1", "type": "rectangle", "x": 40, "y": 280, "width": 130, "height": 60,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 61, "version": 1, "versionNonce": 61,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s1t", "type": "text", "x": 60, "y": 298, "width": 90, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 62, "version": 1, "versionNonce": 62,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "90%", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "90%",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "s2", "type": "rectangle", "x": 170, "y": 220, "width": 130, "height": 120,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 63, "version": 1, "versionNonce": 63,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s2t", "type": "text", "x": 190, "y": 268, "width": 90, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 64, "version": 1, "versionNonce": 64,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "99%", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "99%",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "s3", "type": "rectangle", "x": 300, "y": 160, "width": 130, "height": 180,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 65, "version": 1, "versionNonce": 65,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s3t", "type": "text", "x": 320, "y": 238, "width": 90, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 66, "version": 1, "versionNonce": 66,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "99.9%", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "99.9%",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "s4", "type": "rectangle", "x": 430, "y": 100, "width": 130, "height": 240,
+      "angle": 0, "strokeColor": "#e03131", "backgroundColor": "#ffc9c9", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": {"type": 3}, "seed": 67, "version": 1, "versionNonce": 67,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s4t", "type": "text", "x": 450, "y": 208, "width": 90, "height": 25,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 68, "version": 1, "versionNonce": 68,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "99.99%", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "99.99%",
+      "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "dots", "type": "text", "x": 575, "y": 150, "width": 60, "height": 30,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 69, "version": 1, "versionNonce": 69,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 28, "fontFamily": 1, "text": "...", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "...",
+      "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "title", "type": "text", "x": 130, "y": 50, "width": 380, "height": 30,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "frameId": null, "roundness": null, "seed": 70, "version": 1, "versionNonce": 70,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "each nine = same amount of work", "textAlign": "center",
+      "verticalAlign": "middle", "containerId": null, "originalText": "each nine = same amount of work",
+      "lineHeight": 1.25, "baseline": 20
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

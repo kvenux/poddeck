@@ -1,0 +1,134 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "agent", "type": "rectangle", "x": 280, "y": 40, "width": 320, "height": 90,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "agent-label", "type": "text", "x": 300, "y": 62, "width": 280, "height": 50,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "Agent\nthe intelligent glue layer",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Agent\nthe intelligent glue layer", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "ui", "type": "rectangle", "x": 280, "y": 200, "width": 320, "height": 70,
+      "angle": 0, "strokeColor": "#adb5bd", "backgroundColor": "#f1f3f5",
+      "fillStyle": "hachure", "strokeWidth": 1, "strokeStyle": "dashed", "roughness": 1.5,
+      "opacity": 60, "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "ui-label", "type": "text", "x": 300, "y": 222, "width": 280, "height": 30,
+      "angle": 0, "strokeColor": "#868e96", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "UI layer  —  may not need to exist",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "UI layer  —  may not need to exist", "lineHeight": 1.25, "baseline": 20
+    },
+    {
+      "id": "api1", "type": "rectangle", "x": 60, "y": 360, "width": 200, "height": 80,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "api1-label", "type": "text", "x": 80, "y": 380, "width": 160, "height": 45,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "Sonos\nAPI endpoint",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Sonos\nAPI endpoint", "lineHeight": 1.25, "baseline": 36
+    },
+    {
+      "id": "api2", "type": "rectangle", "x": 340, "y": 360, "width": 200, "height": 80,
+      "angle": 0, "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "api2-label", "type": "text", "x": 360, "y": 380, "width": 160, "height": 45,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "Treadmill\nAPI endpoint",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Treadmill\nAPI endpoint", "lineHeight": 1.25, "baseline": 36
+    },
+    {
+      "id": "api3", "type": "rectangle", "x": 620, "y": 360, "width": 200, "height": 80,
+      "angle": 0, "strokeColor": "#862e9c", "backgroundColor": "#eebefa",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "api3-label", "type": "text", "x": 640, "y": 380, "width": 160, "height": 45,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "HVAC / lights\nAPI endpoint",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "HVAC / lights\nAPI endpoint", "lineHeight": 1.25, "baseline": 36
+    },
+    {
+      "id": "ar1", "type": "arrow", "x": 360, "y": 130, "width": 200, "height": 220,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 2},
+      "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [-200, 230]]
+    },
+    {
+      "id": "ar2", "type": "arrow", "x": 440, "y": 130, "width": 0, "height": 220,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 2},
+      "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [0, 230]]
+    },
+    {
+      "id": "ar3", "type": "arrow", "x": 520, "y": 130, "width": 200, "height": 220,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5,
+      "opacity": 100, "groupIds": [], "frameId": null, "roundness": {"type": 2},
+      "seed": 13, "version": 1, "versionNonce": 13, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [200, 230]]
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}
