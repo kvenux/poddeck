@@ -1,0 +1,2041 @@
+The first and most important thing is
+context is everything as Chai alluded to
+and I also think about how do we go from
+being reactive alerting to really
+proactive intelligence at the point at
+which it matters most. One thing we like
+to say is we want our product to feel
+like air conditioning. It should be in
+the background just making things better
+and maybe if and if there is something
+that has great clinical risk and we're
+acutely aware that intervening now and
+not later is incredibly important and we
+should decide to act.
+Before we get into today's episode, I
+just have a small message for listeners.
+Thank you. We would not be able to bring
+you the AI engineering, science, and
+entertainment content that you so
+clearly want if you didn't choose to
+also click in and tune into our content.
+We've been approached by sponsors on an
+almost daily basis, but fortunately
+enough of you actually subscribe to us
+to keep all this sustainable without ads
+and we want to keep it that way. But I
+just have one favor to ask all of you.
+The single most powerful, completely
+free thing you can do is to click that
+subscribe button. It's the only thing
+I'll ever ask of you and it means
+absolutely everything to me and my team
+that works so hard to bring the In Space
+to you each and every week. If you do
+it, I promise you we'll never stop
+working to make this show even better.
+Now let's get into it.
+Okay, this is a special crossover In
+Space and Supervised Learning pod.
+>> Very very excited to do this.
+You know, once a year at this point we
+get together and
+this is a fun occasion to get to do it
+on. Uh
+we I really wanted to talk to Bridge uh
+but I felt very underqualified because
+it's healthcare is not something we
+cover very intensely and it just so
+happens that we at Point are big big
+investors and supporters of uh Bridge so
+>> Anytime you want to have a portfolio
+company on on your podcast, please by
+all means. So let's introduce our
+guests. Um
+Chai and Jenny, welcome to the pod.
+Thanks for having us. We're excited to
+be here. Thank you. Yeah, so for for
+listeners, uh what do you guys do Just
+to situate you guys in the in the
+company.
+Uh Bridge is a clinical intelligence
+layer for health systems. We really
+started with documentation and building
+for clinicians. And we think that, you
+know, as we think about reducing the
+burden that clinicians have, they're
+spending 10 to 20 hours a week on
+documentation. There's a massive doctor
+shortage in the country. We also think
+that conversations between patients and
+clinicians are probably the most
+important workflow in healthcare. It's
+obviously where care is given and
+received. But if you think about the 20%
+of our GDP that goes towards healthcare,
+almost everything is a derivative of
+that conversation. Whether it's the
+claim, the payment, the actual diagnosis
+given, the treatment. And we've started
+with a conversation to reduce the burden
+for doctors on documentation. But we're
+really excited about the path ahead as
+we become this broader clinical
+intelligence layer.
+I'm Chai. I work on clinical decision
+support at a Bridge. And so I think as
+Jenny said that we had this we're
+uniquely situated where we started off
+with the clinical note. What I'm really
+excited about and where we're expanding
+towards is what are all the things you
+can do before the conversation, during
+the conversation, and after the
+conversation? If you did have access to
+all the context about patients, care
+guidelines, medical literature, and put
+that together into serve, you know, what
+how healthcare could look fundamentally
+different. Yeah, and that's like the
+context engine that you guys have. Is
+that what it's called? Yeah, okay. Uh so
+historically as I understand it, the
+company started in 2018. Uh a lot of
+people would be familiar with like the
+AI voice notes form factor that that
+doctors would be like, "Well, do you
+consent to be being recorded?" It
+replaces
+handwriting and what have you. Uh but I
+it sounds like more recently there's
+been a big transition in the company. Or
+yeah, just tell me about like the the
+broader transition.
+Yeah, so from a transition perspective,
+we really think about our journey as how
+do we, you know, first chapter was first
+act was how do we help save time. and
+that's where a lot of that original
+product was. Which like by the way one
+of the interesting stats on your landing
+page was like people spend doctors spend
+like time after hours. They call it
+pajama time. Okay, why is that pajama
+time? Doctors after work in their
+pajamas at home are just writing and
+catching up on their notes every day and
+you know, we think some of our favorite
+customer love stories. We have a slack
+channel called love stories. We have
+clinicians telling us a bridge has
+helped us you know, from retiring early
+or we're now finally able to go home and
+eat dinner with our kids for the first
+time.
+>> Save the marriage and some of that. One
+of your quotes was like we're not
+divorcing anymore. I'm like why?
+Cuz they're working too much I guess.
+Yeah. But in terms of where we're going
+and where we're expanding, we really
+think about our second and third acts
+around how do we help health systems
+save and make more money. Health systems
+are operating with you know, record low
+operating margins. It's getting harder
+and harder to serve patients and they
+have regulatory tail winds but also a
+lot of headwinds coming their way and we
+think AI is right for helping on the
+saving and make more money piece and
+then ultimately how do we help save
+lives? The fact that our software and
+our product is open millions of times a
+week before during and after a patient
+walks in the room gives us massive
+opportunity with products like clinical
+decision support which I's building but
+so many others to actually improve
+patient outcomes and probably one of the
+most important workflows and and
+problems to be going after right now.
+But I think one thing that's that's
+interesting Chai is obviously you came
+over to Abridge from Glean and I think
+about clinical decision support which is
+you know, for our listeners is basically
+you know, in the context of a visit
+helping a doctor figure out the right
+type of care. It's a really a search
+problem in many ways, right? Of of going
+through lots of different data sources
+very analogous to your previous role as
+as as one of the earliest engineers over
+at Glean.
+Um, I'm sure a lot of our listeners are
+curious what's similar about the
+problems that you're going after now and
+what feels different now that you're in
+healthcare?
+Yeah,
+very similar and I think taking step
+back I think with every wave there's a
+lot of like very similar patterns that
+happen across different products. A lot
+of social networking products with the
+same, a lot of like credit based
+products with the same and I think we're
+seeing that's very similar in the agent
+era with many companies of course in Red
+Point's portfolio and so forth.
+Um and the key insight between both
+companies is that like you have amazing
+models but like context is king. Context
+is what actually puts them to work. Um
+so I see in a lot of ways a lot of
+similarities in like this is a
+healthcare coded version of Glean. But I
+think the differences are really
+interesting. A couple things that come
+to mind. First and foremost
+like the rigor at which in which in the
+setting we are in.
+The downside risk is extremely high here
+in healthcare. It can actually be fatal
+in some cases you prescribe something
+that the patient is allergic to for
+example. Whereas at Glean it's like you
+got the question wrong and it wasn't the
+end of the world in most most cases. And
+so what does that mean? That shapes our
+evaluation strategy both offline
+evaluation, progressive rollout and
+there's a lot more we could kind of go
+into there. Second thing that comes to
+mind is like vertical versus horizontal.
+In both cases there's there's a large
+variance but when Glean is it's a much
+more horizontal company there's a
+variance of personas, companies that
+you're working with. We also have a
+variance of personas, different types of
+specialties, different hospital systems.
+But the variance is a little more narrow
+so from a product perspective you're
+able to focus far more especially when
+you have a maturing technology and
+you're building new products that never
+existed before. It lets you go specific
+go after them much more easily and
+especially in healthcare where so many
+problems have were solved with labor and
+process that's actually extremely ripe
+for AI to keep helping augment and
+enable.
+Um
+and then the The thing that I think
+that's really interesting about Bridge
+specifically compared to many other
+companies in the AI area is the modality
+we started with. We're we're ambient and
+we're always listening in the
+background. And I think many more AI
+products will go that way, but it's
+actually how we started. And and I think
+that's actually the like the greatest
+form of AI we can create. AI that's
+actually seamless. You're not actually
+looking at your screen. It's all it's
+always there. It's always helping you
+out and being proactive. You know, the
+Jarvis vision that like every hackathon
+I went to over the past decade there was
+always a Jarvis competitor, but I
+actually think Bridge very much started
+from the opportunity and continues to go
+that way.
+Yeah. And one thing I think is super
+interesting then from a product
+perspective is you have this always-on,
+seamless in the background. And then you
+have to decide like when do you kind of
+break the wall almost and like say,
+"Hey, you know, clinician, like you
+might not have thought about X or or
+whatever it is that you want to do." Um
+and obviously I think in in healthcare
+traditionally there's been this idea of
+alert fatigue and just like a million
+pop-ups and then a doctor just ignores
+all of them.
+It's probably a pattern that a lot of
+builders are thinking through now. How
+do you think about like the right way to
+uh to intervene or to pop up in in a
+doctor visit? Yeah, it's such a good
+question. I think alerts are notorious
+in healthcare specifically. I think over
+90% of alerts are ignored. I think the
+first and most important thing is
+context is everything as Ty alluded to
+and I also think about how do we go from
+being reactive alerting to really
+proactive intelligence at the point at
+which it matters most. One thing we like
+to say is we want our product to feel
+like air conditioning. It should be in
+the background just making things better
+and maybe if and if there is something
+that has great clinical risk and we're
+acutely aware that intervening now and
+not later is incredibly important, we
+should decide to act. But I think if you
+think about proactive versus reactive,
+instead of alerting a clinician during a
+visit when they're with their patient
+having a pretty serious and sensitive
+conversation, how do we actually prep a
+clinician before they walk into the room
+with that patient? And so, historically,
+clinicians might have to manually go
+through charts with a patient that
+they've had over the course of months or
+years, and they'll try to suss out what
+are the things they should be doing. You
+can imagine a world with a bridge, we'll
+summarize all of the most recent
+contacts for you, tell you based on the
+reason for a visit the patient is coming
+in for, the types of things you should
+be discussing. And so, you're actually
+going into that conversation prepped
+rather than walking in cold to that
+patient visit, and then having this
+product interrupt you five or 10 times
+throughout the the visit. And there
+might actually be times where it's
+really important to interrupt.
+We have a product called uh prior
+authorization. And so, this is when you
+may go into a doctor's office with knee
+pain, they'll prescribe you an MRI, and
+I think so many of us have had this
+experience before where in four weeks
+you'll get a call saying, "Hey Sean,
+that MRI that you were prescribed wasn't
+approved. And why don't you come back
+in? We'll figure it out." In a world
+with a bridge, we might choose to
+actually quietly but um still alert a
+doctor in that visit. And a alert is
+probably not even the word we would want
+to use. Before a patient leaves, we
+would want to tell the doctor, "Hey
+doctor, before Sean leaves, you should
+ask him, has he had physical therapy,
+and has his pain lasted for more than
+six weeks? Because the
+Aetna plan that he's on in California
+requires six things. We've already
+confirmed four of them have been met cuz
+we have all the contacts, but these two
+last criteria, if you can address with
+Sean before he leaves the room, we could
+actually guarantee that your MRI is
+approved before you leave." And so, when
+you think about clinical usefulness, um
+impact to the patient, I think there are
+instances in which if we can catch a
+doctor while the patient is still in the
+room, um you know, as we think about
+save time, save money, save lives, you
+kind of get to check all of those boxes,
+but um when you know, doctors have 15
+minutes between visits, we have to be
+really, really thoughtful about when it
+actually matters. I think there's this
+interesting product opportunity that AI
+can have is reduce latency in the world.
+Um for example, prior authorization is
+an example where care gets delayed. And
+so, great AI can reduce that. And I
+think the problem with alerts before
+partially is a technical problem. Like
+it's the quality of your alerts really
+matters. They're going to get ignored if
+you get alerts that Similarly in
+engineering where there noisy alerts
+that you can't act on. But if you can
+make really high quality alerts with
+with both the context as Jenny said and
+really high quality models, then I think
+you can create a whole another game.
+Yeah. And I really like that experience
+because I think it kind of starts to
+tease apart like what makes this so hard
+and unique. I think like one to make
+that prior authorization example
+possible, think about all the data that
+you need to have. You need to integrate
+within with electronic health record to
+know all of the patient context. We have
+access to your previous labs, previous
+imaging. And then to actually match you
+and to know that you're on Aetna, we
+have to collect all of the different
+payer policies and they vary by state.
+Some of these payer policies live on
+websites, some of them live in
+unstructured 50-page PDF files. I
+thought this episode was to make sure we
+didn't scare people from health care,
+but uh
+But it's I think when you think about
+the things that make it hard, it also
+gives you the moat. And then I think the
+second is the
+uh AI in the model quality we need to be
+able to hang our hat on. And so, the bar
+I think similarly when I worked at
+OpenDoor, I worked on pricing models.
+Like every outlier wiped out the margins
+of 30. And so, similarly here in health
+care, the the bar for accuracy is so
+high. And then I'd say the last is
+workflow is everything. You know, if
+insurance companies deploy AI, it
+typically happens too late. And this is
+when you have the notorious kind of like
+comical examples of AI just fighting
+each other when it's too late, but if we
+can pull forward the use of both the AI,
+but also the ability to solve problems
+when the patient's in the room, you can
+start to collapse what typically takes
+weeks or months after your visit, um
+ideally down to to minutes or real time.
+And I think um it's it's where
+healthcare is both very difficult, but
+also extremely rewarding if you can
+crack it. Just to get some baseline on
+the form factors cuz I've seen some
+videos on on your website and stuff.
+Uh
+you guys talk a lot about ambient um AI.
+Is it primarily on the phone? Is there
+any other form factor that people get a
+Bridge in? Like is there like a Bridge
+room setup where it's just like always
+on? Like I don't know. A Bridge podcast
+studio.
+Primary form factor is mobile and
+desktop. Usually clinicians are walking
+in and out of rooms with mobile, but at
+the end of the day when they're closing
+out their notes or wanting to
+prep for the day ahead, they might use
+desktop. We have been having a lot of um
+really interesting partnership
+conversations with a lot of these
+in-room device companies as you think
+about what is
+you know, the power of multi-modality
+and even more data as you think about
+all of the what is today not captured
+context. Um really, really fascinating
+to think about especially even as we go
+into building and scaling our nursing
+product. It's one where nurses
+constantly you know, as they're walking
+in to check in on a patient for 2
+minutes or maybe even 30 seconds.
+Starting a Bridge experience is probably
+going to take longer than the visit. And
+so what can we do with in-room devices
+that are always on starts to beg really,
+really interesting and and fun I was
+going to say like the way in tech Like
+the way in tech companies we have all
+these Google Meet calendar things, we
+might as well set up entire rooms with
+just a Bridge tech. Very much. And and I
+also think similarly about like actually
+also AR glasses and so forth. I think
+it's also quite relevant where part of
+it is
+how do we bring it in a way without like
+a screen, but like also bring the
+information to the clinician in real
+time, but also let them focus on the
+patient?
+>> Do you think they want that?
+I'm I'm just like very I'm tend to be
+skeptical of AR, but you know, I'm
+curious what you've tried. You know,
+admittedly, it's not a near-term product
+roadmap by any means, and I'm here being
+far-fetched.
+surgeries actually. Like when people are
+trying to visualize like the you know,
+you're about to make an incision, but
+you want to see like what the cut might
+look or what the body might look like
+inside, and they can basically layer in
+imaging.
+Uh Yeah, that's cool. Yeah. Yeah, yeah.
+Some point in the future. But there are
+a lot of our largest customers and and
+at the largest health systems
+integrating already. And so even as we
+think about building into it, I think
+unlocks a lot of product capabilities.
+>> Yeah.
+And just to establish the terminology,
+sorry, and I know I'm like I'm asking
+basic questions somewhat for myself, but
+also for the audience who might be less
+integrated. When you say health systems,
+it's like the Johns Hopkins, the Kaiser
+Permanente.
+These are your customers, right? And the
+outcome that you deliver for them is
+happier doctors,
+uh reduced like whatever costs like I
+guess of like of processing, reduced
+mistakes. I think it's it's it's weird
+in a sense that I feel like there's also
+like a secondary customer, like the
+customer of the customer, and I don't
+know if you do you think about it that
+way? Yeah, we have I think the other
+interesting and complex part of building
+product is we have our buyers who are
+the chief medical information officers,
+the chief financial officers, the CIOs
+of these large health systems. Our users
+today are clinicians, but if you think
+about who downstream is impacted, it's
+patients. And so as we build
+with every product in mind, we think
+about who are we building for, who's the
+secondary user, and what does that mean
+either in terms of experience, security,
+compliance,
+ROI that we have to make tangible? And
+so like you said, like time savings is
+one of them, but for CFOs, they care a
+lot more than just time savings. We have
+to show for every dollar you put into a
+bridge because you have more compliant
+documentation or because you have fewer
+queries coming from your billing team.
+We actually save or add real dollars
+to your bottom line or top line. I think
+are things that we're constantly
+thinking about because of the the
+dynamic across all three sets of users.
+And I think there's a whole another
+access too with the with the payers and
+farmer as well and like connecting all
+these three big stakeholders in
+healthcare is Do the payers ever see
+your data?
+Sorry, the payers mean the insurance,
+right? Mhm, yes. They also see a bridge
+data. Uh
+no,
+they won't see the the raw bridge data,
+but where when you're working together
+on something like prior authorization,
+whatever information they need, we would
+we communicate to them.
+>> All right.
+Yeah. That's cool. I guess you know, I
+would love to dig into just obviously
+you have
+you said you solve a lot of problems on
+the AI side. And so maybe to start at
+the highest level,
+what's one of the hardest problems you
+have to solve in AI at a bridge today?
+To make things simple, let's take like
+building off the prior auth example. So
+one thing Jenny talked about is like
+okay, this data is all over the place
+and there's this combinatorial explosion
+of like
+procedures,
+payer policies, and even sometimes
+different health systems. There can be
+some cross product of all of these
+considerations you have to take into
+account.
+But what's really really really hard
+about this problem is
+actually doing it real time in the
+conversation. So you know, in any AI
+product, usually the three KPIs you care
+about are quality, latency, and cost.
+Now what we're saying is we want you to
+do this real time in the conversation
+guiding the clinician. How do we do it
+in a way that does not break the bank?
+But we're using
+but we also need very intelligent models
+because you're working with this cross
+product of data and this like all this
+context layer as well. So, you need high
+intelligence and high quality because
+you don't want the alert fatigue, but
+you also need to be fast and
+cost-effective. And so, that's where I
+think a lot of clever engineering goes
+actually. It's like, okay, without
+getting into all the details here, can
+you model these policies in a some
+intermediate representation or other
+things that you can do that can actually
+make this problem tractable? Um, and of
+course the product frontier is always
+changing, but we're also trying to do
+this now. Yeah. What implications has
+that had for what you take off the shelf
+and say, you know, what we don't need to
+be world-class at X, we'll just take
+this from the model providers or from
+some infrastructure player, and what
+you're like, no, this is where we spend
+most of our time focused on?
+Yeah.
+Um, this is a the fun challenge in AI,
+right? Of course, with the with the with
+with the shifting landscape, we try to
+be extremely thoughtful on predicting
+the trends of where third-party models
+are going and where we can uniquely go.
+Um, and you know, sometimes I feel like
+when we when you talk about AI models,
+we're like, the models are just going to
+get infinitely better. But I don't think
+it maybe in the grandness of time you
+could say that, but actually within
+every month, every quarter, there's
+specific ways they're getting better.
+You know, they're training on a lot more
+coding data to be better coding agents,
+for example.
+Um, and so,
+we have to think about where the things
+that
+unique data that we're uniquely training
+on. Um, or actually to step back a
+little, like, where is a proprietary
+model bringing an advantage to us? Is if
+it can give higher quality or lower cost
+and latency for similar quality. Very
+similar to many other companies. Um, and
+when we can do that is when we have
+proprietary data. So, for example,
+we have on the order of 80 million or
+hundred it's a millions actually now
+getting close to of medical
+conversations. It's insane.
+>> This is a unique data set. And this data
+set it's it's very interesting because
+this data set is effectively a large
+part of the trace between the patient
+and the provider. That's where the
+chrome code debugging happens in
+healthcare. We actually have these
+traces at scale as in like as our CEO
+has even called it an exhaust that comes
+out of our product. And so when you have
+these traces, that's how you can
+actually train better agents on certain
+use cases,
+whether it's your transcription
+diarization use cases or so on
+or like note generation models and we
+can do that much cheaper and faster. But
+we're always also working with these
+third-party model providers, you know,
+we we closely collaborate with them and
+that's how we kind of predict where the
+trends are going.
+The thing that I think about a lot is
+that
+I know that the model providers are
+going to train much more on like agentic
+workflows and so forth. So that's great
+so that you have a better agentic
+harness. But the other thing that's
+interesting is you know that the model
+providers because a large class of the
+consumer model providers is healthcare
+queries, you know that they actually
+might optimize to train a lot of
+healthcare data to actually encode the
+knowledge in its weights. And I think
+this is just a great thing for us as
+well and where the off-the-shelf models
+can keep getting getting better at
+general healthcare information such that
+what our strategy is we have a
+constellation models, we can use
+something for this that and like
+we only care about at the end of the day
+the best product experience.
+Yeah. And obviously you have like
+overall capabilities improving. I'm
+curious like as these models get better,
+is there something you look at and
+you're like, you know, three months ago
+we really couldn't do that but God like
+the you know, the latest the latest
+models really allow us to do it.
+So here's something interesting that
+I've kind of been toying with.
+So all models are
+this wasn't super super obvious a year
+ago but now it's become clear and clear
+that almost every agent is a coding
+agent underneath the
+underneath the hood, right? So you you
+give it whatever a file system, it can
+write its own code and so forth.
+So when you think about within within
+healthcare and the use case that we
+have, you can think of the EHR
+effectively like a file system. It's
+just it's a storage of all this
+information. There's actually a lot of
+information there that cannot fit into
+the context window, at least of today's
+models. And you want to use that context
+effectively for all these product use
+cases we're talking about. And so, if
+you have better agents that can actually
+like manipulate data, read that data,
+treat it as a file system as we see
+they're going, and we know model
+companies are investing this way,
+um, then that actually very directly
+benefits us.
+Yeah. Yeah. Okay, cool. Again, just
+establishing basic things. But we're
+going back to the model stuff. Um, I I'm
+really interested in double clicking
+more on like the real-time uh element,
+which is pretty important for for both
+of you. Is it Is real-time basically
+just batches of like every 1 minute,
+every 5 minutes? Is that how we actually
+do it? Or is there some more native like
+genuinely real-time in the sense that
+OpenAI has a real-time API or Gemini has
+a real-time API? Yeah, yeah, yeah. So,
+today it is more on the on the batch
+basis, but there's interesting
+prototypes that we have that we're
+still not fully uh
+full-time, you know, voice in, text out
+or
+um in in that sense. But actually, can
+you Can you trigger your models, your
+agents or agentic workflows depending on
+actually the right times in the
+conversation?
+Um, and so, you can imagine, you know,
+different techniques to bring this
+latency down. And like, you know, you
+want to bring the feedback loop down as
+much as you can.
+Um,
+uh and so, a lot of clever engineering
+there without fully Maybe one day we'll
+do full voice in and text out. Train the
+model to do something like that. Do
+people don't want voice in, voice out?
+Right now, we aren't creating
+experiences that are like kind of during
+the conversation, kind of inter- It's
+almost like Might be too disruptive.
+>> Too too disruptive until like
+Who knows? Maybe eventually you could
+have full voice agents once we the
+quality and we improve the comfort of
+the technology.
+Um, but right now, I think That change
+is much more gradual and it's more text
+focused. A text out. I think so much of
+currently what our product is trying to
+do is allow a clinician to focus on
+their patient and I think maybe at some
+point, but I think right now patients
+clinicians don't want a third voice at
+least in a literal voice in that room.
+And so how do we be there with all the
+contacts and information ready at hand
+when there's the right moment? Yeah.
+What I'm curious about is how you think
+about like personalization in the
+product. I imagine
+every doctor is a special snowflake in
+their own way and has their own way they
+like to do things.
+You know, there's probably a bunch of
+different approaches you can take to
+doing that. You know, both within the
+model layer itself but then also just
+with like clever prompting or
+engineering. Like how do you actually
+deliver on that? Yeah, it's such a good
+question. Personalization is massive for
+us. We think about personalization at
+three levels. The first is at the
+individual, the second is at the
+specialty level, and then the third is
+at the health system or the organization
+level. To your point, there are a lot of
+individual preferences.
+When a note is produced, it almost is a
+reflection that is so deeply personal of
+a doctor's work and how they give care.
+And so do they have preferences on
+things like style? They might want
+bullets versus paragraphs, really
+concise versus comprehensive.
+They also might have phrases that they
+really like to use or the templates that
+they want every note to be structured.
+And I think, you know, we see it in our
+feedback all the time. We want two
+spaces in between sentences or I refuse
+to use this tool. And so that's
+something that we've had to build in.
+And I think the tricky part is how do
+you make sure that stylistic preferences
+don't actually interrupt accuracy and
+quality. And that's something that we've
+really had to refine and hone over time.
+Second is at the specialty level. A
+cardiologist note or workflow is going
+to look very very different from a
+dermatologist workflow.
+>> cardiology notes are the highest stakes
+for you guys given your CEO is a
+cardiologist. It's like I'm not a
+doctor. Yeah, sure our CEO is still a
+practicing cardiologist. He rounds once
+a month and so first call when we want
+just quick and easy user feedback, too.
+But
+specialties require a lot of
+personalization both in terms of what
+does the product actually look like and
+so we make sure that as new users
+onboard we catch that and the product
+kind of proportionally reflects that but
+also on the back end like evals at the
+specialty level they are hard earned to
+actually calibrate and get right. What
+does a really great dermatology note
+look like? What actually makes it
+complete, what makes it compliant and
+billable is very different than a
+primary care doctor. And so it's not
+just about what does the product
+experience look like but on the back end
+tuning and really really deepening our
+understanding for the specialist what
+does great output look like and that's
+obviously
+uh
+problem that we need to calibrate
+internally, externally, online, offline
+but takes lots of cycles but is
+necessary in a high stakes environment.
+And then at the health system level for
+products like clinical decision support
+you have health systems who've spent
+years or decades refining their best
+practices and they want to know, "Hey,
+we love your clinical decision support
+product but how do we embed our own
+hospital guidelines into them to
+actually inform clinicians before,
+during, or after a visit what best prac-
+best practices should look like. And I
+think as you think about like deepening
+motes as well when health systems
+trust us with that data, allow us to
+kind of productize it and directly into
+the clinical workflow
+I think makes us a really really great
+partner to health systems who want to
+build something that truly meets their
+needs, their practicing guidelines. And
+I And I want to add on to that the for
+the clinical documentation problem it's
+it's very similar to like AI writing. AI
+writing that doesn't feel like your own
+and then we call that slop. But the way
+I describe one framing of slop is like
+AI without context. But we have all that
+context, you know, and both the
+clinicians can have it and can guide it.
+And so part of the other interesting
+exhaust for us is like memory is like
+actually one of these new systems
+records. Almost. And we also have all
+the edits people make on our product.
+And when you think about a data flywheel
+and how we get better over time becomes
+really really powerful as a mechanism to
+just going deeper in personalization.
+Yeah, it bounds. It's interesting. I
+love this idea of like working with
+systems on, you know, the guidelines
+they built up over a long time. I feel
+like so many of the best AI app
+companies today are, you know, the
+question is how do you take, you know,
+the expertise that a law firm or or a
+bank has built up over many years and
+then add that as context and also a
+special sauce over like a an AI tool.
+And so seems like you all are really
+doing that very effectively. Yeah. We're
+now starting to have our customers ask
+like, "What are other customers doing?"
+And how are they doing it? And I think
+as we think about having visibility
+across such a large set of care being
+delivered right now, really interesting
+place we could also partner. I'm just
+kind of curious. I This This may be a
+nothing question, but how different are
+health system guidelines from each
+other? Like
+don't they all converge to the same
+thing? And if not, where do they differ?
+I think at a really high level, they're
+they're going to talk about very similar
+things. But the the difference is
+probably in some more of the details.
+Like, "Oh, you should refer to
+specialist only when XYZ conditions are
+met or so forth." And maybe different
+organizations have different practices
+and guidelines around that. But high
+level talking about similar things, but
+the details are actually what of course
+that shapes the context and the
+decisions you make. Yeah. And this all
+goes into the context engine and might
+affect the notes, but maybe not. The for
+these local pathways, we're definitely
+thinking about it a little more for our
+clinical decisions for per product. So,
+you
+Yeah, yeah.
+>> Um okay, and then the the memory which
+you you raised, let's just tell us more
+about that. What what have you tried in
+memory? What's the structure of the
+memory?
+Um what works, what doesn't work?
+Yeah, there's like of course many
+different ways you could do memory where
+it's like, okay, can you actually bake
+it into the model weights or can you do
+it in some external store?
+Um I think for us what's interesting is
+of course
+when you think the models are rapidly
+changing, whether it's in-house or
+third-party, baking into the model
+weights sometimes you worry that it
+could be a little throwaway. And so like
+how do you you you need to find a way
+that you decompose the problem, the
+preferences from the underlying models
+and so forth. The thing we're right now
+most ex-
+both that's easiest to start with and
+we're excited about is having like a
+separate store for memory where you
+actually have for example like a memory
+sub-agent that's like working in the
+background figuring out what are the
+important parts of the clinician's
+actions that we want to remember for the
+long term. And then you can also imagine
+uh other things where in the you have
+background jobs that are running that
+are collating these like memories
+similar to like sleep of course and what
+other pattern patterns products do as
+well.
+Learning over all these action all the
+action data we have again like no edits,
+the conversations that they did and the
+actual transcripts.
+What about evals? How in the world do
+you like it's such a complex product
+service area. Um
+we would love to hear you riff on that.
+Also, how has that evolved? Like I'm
+sure you've gotten better at it. So, any
+any kind of learnings along the way?
+From an evals perspective, uh we I think
+from day one when we build any new
+product or feature, we think about like
+what is good look like and there are
+table stakes things like clinical
+safety, but then you start to get deeper
+into what does good quality look like
+and when you go into something like our
+core product, there's stuff like style
+and completeness and there's things like
+this just now actually becomes something
+that can be billable which is obviously
+very, very high stakes for a health
+system. We have a number of ways in
+which we get confidence for this. We
+have internal in-house clinicians who do
+what we call an LFD process to give us
+our very first pass at is this or isn't
+this a good enough output?
+Look at the effing data.
+Effing data?
+>> Yeah.
+That's why I was smiling. I was like, is
+she going to mention what it stands for?
+I don't know. I don't know. It's like a
+million acronyms. How am I supposed to
+know that I don't? So it's like, oh
+yeah, of course, like an LFD.
+I've never heard of LFD.
+It's a bridge to
+the future. I think I got through 3 days
+and then I had to ask someone. I thought
+it was just me that didn't know, but
+it's our our internal process.
+>> I look at the data as a meme in ML cuz
+you you tend to not look at it. You just
+want to look at number go up. Exactly.
+Um but yeah. Yeah, but so we make sure
+we look at the data and then as we think
+about all of the components of good
+output, we one, create all of our judges
+across all of these and we make sure
+with annotated data and either internal
+or external evaluators, we feel like
+these judges are calibrated. And then
+depending on the stakes, we also work
+with in-house and third-party evaluators
+across all of these before we ship any
+big change. And I think the goal is
+in terms of evolution, how do you go
+from this process taking months down to
+weeks down to days? Some of it is like a
+true science and ML problem. A lot of
+it's also just like hard operational
+work. Have you planned ahead in terms of
+what you need? Have you really optimized
+the capacity that you need across all of
+the different specialties you need? Have
+you gotten a really good sense of like
+which third parties are great to work
+with for what use cases? I think this
+takes a lot of domain like expertise and
+like to be frank, lots of mistakes and
+errors in figuring that out. And so I
+think as much of it is an ML problem,
+like so much of it has also been
+operational gains that I think are
+hugely, hugely important where domain
+specific expertise is is everything.
+Yeah, but it's funny to say that like
+people talk about health care like it's
+one giant market and the reality is it's
+like, you know, dozens and dozens of of
+submarkets. And so, it feels like in
+your eval, you obviously have to, you
+know, build that up across the board.
+And is specialization the the primary
+cardinality that
+That's the word that comes to mind.
+Sometimes, depending on the product or
+the use case. And so, if we're making a
+note improvement or feature for a
+particular specialty, definitely. But,
+we have products that are for nurses. We
+have products that
+are really, really aimed at making the
+document or the output a lot more
+billable. And so, we actually want to
+work with coding teams and not
+necessarily clinicians. And so,
+>> Coding meaning health care coding?
+>> Yes. Yes. Yes. Yes. ICD-10.
+Yeah, but is this output proportional to
+the work that was actually delivered? Is
+there sufficient documentation to
+justify the amount that a health system
+may end up charging? And so,
+specialty sometimes, but also domain
+very different across all of the
+different products that we're working
+for. And building out that network is
+not easy and I think is is where a lot
+of our operational investments have gone
+into. And I think
+I view a lot of analogies to
+self-driving cars here where like part
+of it is we actually really want
+progressive rollout of of features to
+actually test in the real world. Is this
+useful? Is this going to work? You know,
+one one big difference compared compared
+to past lives is
+before I'd build a product, maybe I'd
+alpha it, and then I'd like GA it the
+next week cuz I'm like, go, move fast,
+ship, and whatnot. But, the mentality is
+is like you I want to make contact with
+the reality as quick as possible, but I
+want to progressive rollout because as
+much as I get as large of an offline
+eval set, I want the distribution of
+that to actually match real life
+distribution. And over time,
+by rolling out early, I actually think
+similar to Waymo has a tagline the
+world's most experienced driver.
+Actually think another thing that can
+actually like at least linearly increase
+for us is like what the size of our
+evaluation offline and online.
+That and it all feeds back.
+I think some
+thing that's been earned over time,
+speaking of evolution, is just the trust
+we've gotten with customers.
+Historically, a lot of these health
+systems, when they bring on new vendors,
+their release cycles are quarters,
+sometimes twice a year. We've gotten our
+customers onto monthly release cycles,
+which is pretty fast for health systems,
+but I think what is more exciting over
+the last, call it, few quarters has been
+a subset of our customers have said, "We
+actually want to innovate with you. We
+trust you. And we have a pretty like
+decent chunk of our customers who say,
+'We'll actually develop with you outside
+of these monthly release cycles. We have
+a higher tolerance. We know that the
+stakes are very high, but we want to be
+the first ones using these products,
+giving you feedback.' And so, for a
+pretty substantial set of our customers,
+we've been able to convince them to to
+be able to ship, you know, in this
+gradual way, way before GA. I think
+something we talk about a lot internally
+is trust is earned in drops, earned in
+buckets. And so, we still can't do what
+I used to do when I worked at Loom. We
+had 30 million users. I'd just be, you
+know, rolling out experiments left and
+right. Like, the bar is still quite high
+for iterative rollout, but I think like
+because of the the trust we've earned,
+we're able to learn at pretty high
+volume very quickly.
+>> Yeah. I mean, your scale is still pretty
+pretty huge. One thing I want to We were
+going to go into scale right in a sec.
+Uh one thing I wanted to call out follow
+up my eval, which again, just coming
+from a generalist engineer point of
+view, just thinking through what would
+people be scared off in doing this, uh
+the privacy and HIPAA elements of this.
+Uh I have zero experience in that. What
+do you have to do? What is actually
+surprisingly not that bad.
+So, one thing that's really important
+here from a compliance perspective is
+very much that any of the data we use
+needs to be de-identified. Any
+real-world data we use as the basis of
+online eval sets are learning from. And
+so, you have to And there's like
+actually very clear, you know,
+government guidelines like what counts
+as PHI. And so, we've actually even have
+built models that can take, for example,
+clinical transcript and actually remove
+all the key PHI indicators. And so, you
+have a scrub/de-identified version. And
+then once you And so, one thing that's
+important is first you got to get
+confidence in that model in the first
+place, right? And prove that out.
+Because, you know, now you've like
+multiple probabilistic systems on top of
+each other. But once you once you have
+that, then you can actually train on it,
+use it for evaluation, and so forth.
+Provided one of the cool things also
+that you can do from a business side is
+that the right data contracting as well
+with your partners. Is the anonymization
+one way? Like once it's done, you cannot
+undo it? Or is there someone who holds
+the master key that can Yeah, okay. So,
+it's it's one way. It's one way.
+>> one way. Yeah. I guess I mean I guess
+that's how it works. I just wanted to be
+like, you know, there's a lot of these
+like learning from feedback and
+everything that like you would want to
+debug more, but you can't because you
+just physically don't allow yourself to.
+Yeah. Well, some of it's also written in
+our customer contracts in terms of who
+can or can't access PHI data, how long
+do we retain it
+before it gets de-identified. And so, we
+have a pretty high bar for who can
+access that PHI data
+just to make sure that we always respect
+our customer data and privacy. But
+that's something that we partner with
+our customers on too to make sure that
+as we want full as close to precision as
+possible in in that quality. We can
+still use it. Yeah, but it'll be
+fascinating to see how that space
+evolves, right? Because you think about
+I used to work at a company that like
+did a lot of healthcare data in the
+cancer space. And if you ask like the
+average cancer patient like, "Hey, do
+you want people Do you want other
+patients to be able to learn
+>> Take it. Yeah. Learn from your
+experience."
+>> home. And like they're like, "Please.
+Like I would love like nothing more than
+for other people to be able to learn
+from the experience that I had." And so,
+obviously in the past it was a lot
+harder to do that kind of learning, but
+I think with this technology uh that
+actually might really be practical. And
+so, it'll be fascinating to see how that
+uh how that continues to evolve. Yeah.
+There's so much in our data set of 100
+million conversations. You You can
+imagine things like insights that you
+can give to the clinician. How could you
+Oh, how could you have reacted to this
+in coaching or insights around like uh
+which treatments are effective or like
+because you have this again this data
+source that was never captured before,
+but that's like where like intuition or
+experience is created from. Going back
+to this idea that the conversation is
+the agent trace. Yeah. I guess you know
+about the 100 million conversations. I
+mean, I feel like you have this insane
+scale that maybe only a few other AI app
+companies have and everyone else dreams
+of. So, not not everyone has had to
+confront this yet, but maybe just talk
+about some of the like challenges of of
+operating at that scale and what what uh
+our listeners have to look forward to if
+they ever get to uh to this level of
+scale.
+I think a large and larger in scale. So,
+of course, there's a general like
+infrastructure reliability, like when in
+any given startup you're kind of
+building the plane while while while
+it's flying. So, it's so there there's
+some notion of that. Um but I think what
+gets interesting on the AI and ML side
+for sure is this as you get at more and
+more scale. So, when you you have the
+data to first and foremost do this, but
+like you actually start thinking about
+costs or infrastructure in a whole
+different way at scale versus like a
+prototype. You can use the most
+expensive model. You can burn as many
+tokens as you want, but when you're
+doing 100 million conversations
+>> Yeah, token master leaderboards are less
+exciting than that happens. Right. When
+you're doing that, and so that comes for
+we have the data and we also have the
+team that's able to actually like post
+strain based on this, and you can can
+optimize for efficiency, especially in
+areas where you believe that maybe a lot
+of the quality headroom is less so, um
+and you don't expect them other
+off-the-shelf models to go that way,
+such that you want to do, you know,
+efficiency maximization.
+Uh in terms of uh compute in tokens.
+Yeah, I mean, I feel like you guys live
+in the in the future in some way where
+most most use cases today are really
+just in use case discovery mode, where
+it's like, "God, I really hope I can
+find something that can get to scale."
+And so, you're always going to use the
+most powerful model, and then the the
+few things that do get to this level of
+scale, you start to do those kind of
+optimizations. Yeah, it's it's a natural
+trajectory where it's like zero to one,
+we're not talking about any of these
+optimizations, but when when maybe we're
+in the one to 100 or so forth, then
+we're in optimization mode. And like,
+what works out really well is you got
+all this data from zero to one that lets
+you do this. Yeah.
+It's fascinating. But I feel like
+there's there's, you know, one thing
+that's so interesting about the Bridge
+footprint is like you're in the
+doctor-patient visit in real time.
+There's probably I was actually saying
+there's like probably 50 years' worth of
+product you could build on top of that.
+What gets each of you, like, I don't
+know, what are you most excited about
+building, you know, either in the short
+term or medium term or even, you know,
+long down the line?
+I think something that I get really
+excited about is that the same
+conversation can serve so many
+stakeholders.
+Uh if you think about the conversation,
+a doctor needs to know, what is the
+documentation? How do I make sure that
+this fully represent the care I gave? A
+patient needs to know, like, what the
+heck just happened? This was really
+overwhelming. What are my next steps? A
+payer needs to know, was this the proper
+and appropriate care given?
+Um uh pharma company might want to know,
+why isn't this drug being properly used?
+Or is there actually a good candidate
+for this clinical trial that I'm about
+to run? And I think where I get excited
+is that our product and our platform and
+our infrastructure can be the same
+product across all of those things and
+start to what's today like separate,
+very expensive, complex systems that
+serve each one of these stakeholders in
+very different ways, start to kind of
+collapse all of that into a singular
+platform that enables not just more
+efficiency across the board, but also
+better outcomes for for everyone. And I
+think you know, I think all of us
+experience health care in probably very
+painful ways. And I think knowing that
+there is a world in which we can
+simplify a lot is is really exciting to
+me.
+And it all starts at the conversation.
+You know, it's interesting. I think of
+it very similar to going back to the
+KPIs that any AI product cares about,
+how do you increase quality of care, how
+do you reduce latency to care, and how
+do you reduce cost, which is a huge in
+health care.
+>> And they call it the triple aim in
+health care, right?
+Um but but but but very similarly to to
+building AI products. And the thing that
+really excites me is
+when we talk about that latency piece,
+we talked about one example earlier of
+like prior authorization, can you reduce
+the latency to care? But you can imagine
+so much more like, oh, as soon as the
+lab value gets updated, do you have like
+a background agent that like kicks off
+and uses all the context to be like, oh,
+hey, actually the patient should do this
+next, for example.
+Flagging that to the clinician who's
+always in the loop, but reducing that
+latency
+to care. And then you can imagine, this
+is much further down the road, but it's
+like even connecting that to the direct
+patient and the consumer. And so, how
+can you how can you build build a bridge
+to all of these things? Very cool. I
+think it like
+the connections piece is is just an
+ever-growing thing. Um
+And one of the one of the key partners
+is the EHR. And I I wonder what that
+relationship is like. Like, um
+will will they will they you know, look
+at this as like something that is
+valuable enough that they want to own
+someday?
+Yeah, I think our partnerships with the
+EHRs like we know that we have to be
+extremely close partners with all the
+EHRs who we partner with. Um being able
+to not only pull and push all of the
+data into the right places is like not
+only table stakes. If we can't do that,
+health systems don't want to use us. I
+think the second in the reality of today
+is clinicians spend a lot of their days
+in the EHR. So much of what allowed us
+to win in the largest health systems was
+pretty direct and very very close
+partnerships with some of the largest
+electronic health records that allowed
+us to pull and push data with, you know,
+APIs that weren't ready out of the box
+and clinicians want to save clicks.
+Anytime we introduce a new product that,
+you know, adds two clicks for them in
+their day, they're like, we're not going
+to use it.
+Um,
+you know, they have 15-minute
+back-to-back appointments with their
+patients. They're spending, you know,
+hours during pajama time doing
+documentation. Like every second and
+every minute counts. And so, we really
+think about being deeply integrated into
+the EHR as also table stakes to actually
+getting real usage and adoption. And I
+think anything that we build or
+introduce, we really talk about earn the
+right internally a lot, which is we have
+to provide so much value or save so much
+time that people will use us.
+Um, but I think those are the two things
+that are close to us is we know that the
+product won't be used unless it is
+deeply interoperable.
+And and strategically to your to your
+point, it's like what does EHR want to
+own versus versus us? You know, EHRs are
+really focused on the clinical workflows
+and so forth. But some of the things
+that we're talking about here
+um and these are traditionally are
+outside of the domain where it's like,
+oh, connecting payers and providers
+together with like uh provider policies
+or the clinical trial matching as Janey
+brought up. And so, these are like
+entirely we position ourselves as
+building this entirely new intelligence,
+clinical intelligence layer across again
+providers, pharma, and um payers. And
+so, that's a it's a whole different
+ballgame that we try to play. Yeah, but
+it's like It's layer of scope. Yeah. I'm
+curious you obviously
+are are both relatively newcomers to
+healthcare.
+People have these like, you know,
+there's lots of futuristic healthcare AI
+takes of everything will look different.
+You know, now that you've been in
+healthcare for a bit, you obviously live
+at the edge of AI. What have you like
+changed your mind on around this, you
+know, as you think about what healthcare
+looks like in 10, 20 years? I mean any
+any updates to your mental model from
+from the time actually being close to
+the problems?
+One thing that I
+was hesitant about before and actually
+it's a common thing when I'm trying to
+recruit engineers that people ask me
+around is definitely like, "Oh,
+healthcare heavily regulated space." And
+and it is rightfully so. You want to
+keep the patients at the end of the day
+safe.
+But one of the interesting things that I
+actually think is a
+that surprised me how much it is coming
+to the company. Actually, there's a lot
+of really favorable regulatory tailwinds
+as well. Where you think about like
+government actually really wants
+interoperability between all these
+systems that we talked about and so
+agents can access this information.
+The government actually just in January
+the FDA released updated guidance on
+clinical decision support what I work on
+in such a way that they used to have
+guidance from like 2022 that required
+you to have like mention all these
+options and do all these other things,
+but actually it's a very forward and
+forward-looking way. And so I think
+for me what's been really cool to work
+on is I think this there's this very
+special moment both in
+AI in general. We all know that, but
+there's a special moment also regulatory
+in healthcare as well.
+I think one thing I would call out is I
+think for the very reasons things are
+higher stakes or you know, potentially
+considered more difficult in healthcare.
+I think it's where some of the hardest
+AI problems will get solved first just
+because the bar is so high. I think when
+I first joined I was like, "Oh, this is
+where we'll be on the tail end of where
+like all of the AI innovation will
+actually be able to be applied." But
+when you think about like zero error
+e-vals or multi-step workflows that have
+really, really low tolerance. I actually
+think a lot of the innovation will will
+happen here just because we have to or
+else we can't ship. Yeah, cuz like
+another thing that means you'd much
+rather just solve the 80% is good enough
+>> Yeah, 80/20 doesn't work here. And to to
+building off that, I think traditionally
+I think there was a bit of stigma that
+oh, healthcare companies are not that
+interesting from a technical perspective
+or I've seen that or faced that myself.
+But these are actually really, really
+hard and fun problems from a pure
+technical perspective beyond just the
+impact. Like how do you bring latency of
+this thing down
+and make it really high quality?
+Yeah.
+How do you bring the latency of these
+things down?
+Yeah, yeah, yeah. Um
+So, okay, let's answer the latency
+question.
+Um
+And and maybe hopefully not too
+redundant with some of the things I've
+said earlier, but some part of it is
+with any latency you have to like what
+is actually what is really your
+bottleneck? In a lot of workflows, it's
+sometimes it's the model itself. And so
+that's where like our data flywheel, our
+post-training team and so forth come in
+so that can you make the models far more
+efficient. So that's one aspect of
+latency. But there's whole another
+aspects of latency where it's like,
+okay,
+on top of that, if you use a
+constellation of different models, can
+you use can you first use like a So I'm
+kind of thinking fast and slow, can you
+use a
+cheap, fast model that triages and hands
+it off to a larger model that where you
+get more intelligence and so forth. And
+so all these
+clever tricks to to make it work. Um and
+by the way, we are totally we also
+realize
+that the product frontier is changing.
+And so these tricks will
+may not get us to where we want to be in
+5 years,
+but we need to if we want to build a
+useful product right now. Should we do
+the quick fire or you want to ask more
+about it? Or we can stuff everything
+that's not a virgin to the into the
+quick fire, but I don't mind. I mean, I
+I was just I think I feel like Jamie was
+on the topic of more long-tail stuff
+which isn't the 80/20 thing. And that
+really matters. And I would, you know,
+if you have any tips or cool stories or
+just general approaches that have worked
+for you that's interesting to dig into.
+Yeah, I mean I think one of them is even
+just how we staff our teams looks
+different than a traditional software
+engineering team I'd say. Let's go. Uh
+we have
+a bunch of folks with different roles
+who are clinicians. And so we have this
+role called the clinician scientist. And
+I think I heard one of our leaders refer
+to them as mutants recently, but they
+are people who have had clinical so MDs
+typically who are also deeply technical
+somewhere um on the spectrum of like
+basically a full stack engineer all the
+way to like extremely extremely scrappy
+prompter, but having each of these
+people embedded within our teams
+instantly raises the bar for everything
+that we build because not only are they
+determining like is this product
+clinically useful, but they're deeply
+deeply embedded in our whole eval's
+process. And so when we talk about LFDs,
+when we talk about what is our actual
+evaluation criteria, like you don't want
+Shai or me creating what those are
+because we don't have clinical
+background. But I think that is probably
+unique to Abridge, but has been
+game-changing. And when you think about
+where the puck is going, you have people
+build with clinical backgrounds who are
+technical and where AI tools are going,
+they just become
+more and more critical and like the
+killers of the team. And so I think
+that's one. And then I think the second
+is just the scale at which we do evals
+to catch that long tail up front before
+anything ever gets into production is
+something that we've pretty much like
+really really started to fine-tune both
+from a scale, but when do we know we
+need to get
+several hundred versus several thousand
+offline responses? What helps us make
+that quick decision and make this less
+of an art and as much of a science as
+possible, but I think that's also been
+something we've had to tune over time.
+And you have partners who basically
+opted in to give you those evals. Yeah,
+so we work either internally or with
+third party for offline evals, and then
+we have customers who also agreed to
+give us whether it's like thumbs up,
+thumbs down to like choose this or that
+a lot of data to get us to what is as
+close to to fully confident as possible.
+Yeah. The The term that comes to mind is
+kind of like active learning on things
+where you know you're weak.
+I feel like it's it's kind of a lost
+art, but is a lot of the polish that
+comes into doing something like this.
+Totally. Yeah. 100%.
+I mean maybe on a totally unrelated
+note, like Chad, I think you obviously
+had a very
+storied running Glean before heading
+over to Abrasion. So, you know, I'm
+curious like that's it's obviously was
+one of the early AI app success stories.
+It's reflecting back on that experience
+like what do you think Glean got most
+right, maybe most wrong?
+Um, yeah, curious for your reflections.
+I think the I attribute Glean's success
+really to
+very very strong technical foundations
+that have really stood the test of time.
+And so, it started with with it started
+with a known problem and like finding
+information where work is hard. The best
+technology at the time was to build
+really really high quality search. I
+think a lot of times enterprise search
+startups failed because
+the quality wasn't great enough. But the
+learning that people took away from that
+is oh, enterprise search is not good
+enough. And so, like quality I think
+really changes the game of like if
+something can be useful or not. It's
+like similarly like people may have
+taken it that way like oh, Alexa or
+voice assistants are not that useful.
+But when you have quality, things can
+change the game. And so, I think Glean's
+early foundations by bringing people who
+had built search at Google, the best
+place to have ever built search,
+and being really creative and having a
+very concrete problem to solve, but with
+the right technical backgrounds laid the
+foundation for all of its success for
+the many many many years to come.
+And I think what's interesting is always
+figuring out like, "Hey, how does the
+company adapt in this as we all know and
+we've talked many times in this changing
+landscape?" And so for Glean, like how
+do you put this context layer to the use
+um has been the thing that we we've
+really last few years has been the fun
+from the challenge that we're like
+you could say
+like that's been the opportunity for the
+company as well as the challenge as
+well.
+>> Yeah, definitely I I I can better the
+market feels like one at at the at the
+epicenter of the foundation models and
+you know uh the hyperscalers. So it'll
+be interesting to see how it all all
+plays out.
+When you think about can you build
+something that helps everyone at
+knowledge work as well is is is an is a
+massive opportunity. Yeah, I always my
+mental model is like there's a few
+markets that are like the foundation
+model companies have to win or like big
+enough to to go after and it's probably
+like consumer code in that. Yeah. Um and
+so it'll definitely be be interesting to
+see how it plays out. I guess one thing
+we often think about on the investing
+side is you know the pace of progress in
+models changes so fast and so the
+building patterns adjust so fast and
+it's always hard to figure out like what
+pieces of the way people are building
+today, the infrastructure tools they use
+are going to prove persistent versus
+okay, 6 months later we're doing
+something completely different because
+you know models have have improved. I'm
+curious of the stuff you use today like
+how how do you think about the pieces of
+AI infrastructure software that feel a
+little bit more persistent?
+Okay, so generally if you take the
+thesis that the models are going to be
+more and more agentic, I think before we
+had to build a lot of scaffolding around
+that. Like in like previous case like
+I've we've effectively we made our own
+DSL effectively and you can view the
+like
+because models were not capable enough
+so you needed to simplify things and you
+can view it similar to like other agent
+frameworks. But over time if the models
+become more and more agentic and can use
+the similar tools that we already have
+or it's like
+computer use, writing code itself in
+sandbox, I think much more around I
+think far more about like what are the
+right context layers and the tools to
+give agents and then I think the other
+things that I think about are actually
+how do you really build truly
+event-driven real-time systems and
+especially at a bridge again where you
+are doing something real-time in the
+conversation. And so I think there's a
+lot of event-driven technology and by
+the way stuff that we've always used in
+the past whether it's Kafka, temporal,
+sockets and so forth. How do you bring
+that together is I think actually also
+durable
+um or thinking about patterns in which
+humans collaborate with each other on
+Google Docs. How do you think about like
+CRDT and so forth when you have
+conflicts when you have multi-agent
+systems. So all these things that we've
+built for I actually think the things
+we've built for humans are actually the
+things that are can going to be continue
+to be durable. Right. Just with like a
+thousand times more of the scale of
+agents running at them instead.
+>> Yeah. So make sure that they scale of
+course and fast and whatnot without a
+doubt. Yes. Does a bridge become more
+agentic over time than you know what
+what is the the next more agentic
+version of that look like? Um
+>> Cuz you're already pretty proactive it's
+with like the notifications I guess.
+Yeah. And so I view that as like a piece
+of being agentic but I also view it
+maybe some of the things we mentioned
+before like oh reacting to labs or like
+you know doing work in the background or
+doing even more capabilities on behalf
+of the clinician who we believe has a
+super important role to play as in terms
+of
+um patient connection and so forth.
+Yeah.
+I'm curious for both of you like what's
+one thing you've changed your mind on in
+AI in the past year?
+I think the one I flip-flopped on and
+this is much more product specific is uh
+probably the hotter take is that
+prototypes are the end-all be-all and
+that PRDs are dead. I think we've tried
+switching and kind of we continue to
+evolve the way product is developed and
+uh
+the products that we're building are
+extremely complicated and nuanced and it
+is very very difficult for a prototype
+to capture the full complexity of what
+can we or can't we do with this data? Um
+what and who is this the actual right
+problem to be solving for in a world
+where software has become so cheap? Like
+yes, this is a cool-looking prototype,
+but should we be spending any of our
+precious hours here? If so, why? And
+like how does this deepen our moat in a
+world of decreasing moats? Um
+does this require custom implementation
+from our customer to actually use? None
+of that gets captured in a prototype.
+And so, I think
+uh we've We're continuously evolving the
+way that we develop product here, but
+even if not written in the same
+traditional ways as it was 2 years ago,
+I think as a team, we've gotten pretty,
+I think,
+high conviction that in a world of so
+much noise, like crisp written clarity
+is more important than ever. It might
+now live in a markdown file that more
+teams and systems can use as context,
+but that's probably one that is much
+more
+functions specific to me, but
+>> you're disagreeing with the consensus.
+>> that pure docs are dead and that
+prototypes are like
+>> like like
+>> We should partner with AI to create
+great documentation, but I think first,
+probably most important is strategically
+answering like why is this problem the
+one our company and our product should
+solve? What happens if the next 20
+competitors build this? Like why what is
+our right to win? And does this help us
+differentiate in any way? Are we just
+adding noise? I think it's important
+>> I don't know if I could answer that
+because a lot of the times the answer is
+just let's do it first. And I think when
+the cost of doing it first is so
+expensive, we just talked through the
+the process of getting something out to
+customers, I think you need to have a
+higher bar for like
+as a business, should we invest here?
+And I think
+as all of our roles evolve, like one of
+product or like all of our jobs become,
+like, should we do this thing? And I
+think that's something that is worth the
+time spending up front on. And then, um,
+as you think about prototypes, it's
+still really valuable to quickly show,
+here are the 20 ways we could do it.
+Clinician, like, I would love your
+feedback, like, which one resonates
+more? Or as you get into deeper
+fidelity, you can also make the
+prototypes deeper fidelity and like get
+it as close to production-ready as as
+possible. But, um, beyond that, to
+actually get it out to customers,
+there's a lot of implementation details,
+security compliance, edge cases, um,
+things that never get caught in a
+prototype that I think need to be
+written out somewhere. And so, they look
+different, but I think still more
+important than than ever. Yeah, it's
+interesting. I imagine a lot of that
+also is is, like, given the con- this
+context of the stage that it bridges at.
+And I feel like for so many early stage
+companies, it's just a desperate race to
+you throw like 30 things at the wall.
+You're like, please, something just like
+resonate with my end buyer. Um, and you
+know, you find something and and that's,
+you know, why the prototype-first
+approach is so powerful. But, for you
+all, it's like, anything you're going to
+do is across 200 systems. There's like a
+whole, you know, implementation change
+management side of things. And you get a
+few big bullets to fire at, like, you
+know,
+uh, at at what you want those systems to
+do. I think being really thoughtful
+about that, uh, makes a ton of sense.
+And maybe the, uh, the the
+prototype-first takes will all grow into
+to your view of the world when they're
+when they're a bit more scale. I think
+the weekend demo versus it works at the
+largest health systems is like a
+massive, massive gap. I don't think it
+means we can't go fast. Like, I think
+this is the fastest I've built in my
+career,
+um, right now. And I think the virtual
+loom Yeah. I think from, uh, like,
+the complexity and the scale of the
+products we're trying to build and the
+problems we're trying to solve, I'd say,
+yes, maybe I like updated a flow or like
+shipped a new feature pretty quickly,
+but if you think about some of the
+products we're building,
+we're trying to collapse prior
+authorization, like things that used to
+take 45 days across maybe 20 different
+touch points into to one.
+Um I think I'm building faster than I
+ever have, and so I think the
+thoughtfulness actually allows us just
+to go fast at the right things. Um
+It sounds contradictory, but I think
+Yeah.
+Go slow to go fast. Yeah, exactly. Yeah.
+I You know, it's it's interesting. I
+think in the when a lot of things are
+changing and in the AI discourse, like I
+think sometimes we lose sight of things
+that always sort of stood the test of
+time time, like judgment and clarity
+always matters. Like as an engineer,
+sometimes I don't want to prototype.
+Actually, I would like to see like I
+want the written the clarity that comes
+from writing, and then we build that.
+And again, for some things, of course,
+where it's a small thing, like yeah,
+just ship the prototype. That's what
+like don't sweat the details. So I think
+the interesting thing, the nuance that
+gets lost sometimes in discussion, is
+like sometimes
+we need to recalibrate our judgment for
+sure, because the costs and gains have
+changed, but that doesn't mean we go all
+the way on one spectrum or the other.
+Yeah.
+Outside of your specific tool, I always
+like to ask this question. Any other AI
+tools that you guys are enjoying?
+Claude code. But but like that that
+feels like too too basic of an answer.
+>> all of Ridge Engineering very pill on
+Claude code? Yes, very much so. You
+know, I I well no cursor.
+Oh, we also have cursor as well. I I I
+mean I'm just checking the boxes here.
+Many many of the tools are available,
+but it's like you look at just earlier
+today, you you see an engineer's screen,
+you see like six different, you know,
+Claude's running at it. Sometimes the
+same person I've seen them on the sofa
+now with the remote control as well on
+the mobile, but like
+very much so like one of the interesting
+things for me is like as a relatively
+new person to the company, it's like
+Claude code actually helped me onboard
+much faster or any of these AI and like
+I feel like I learned so much
+>> I do love the memes of like you know
+Claude's going to do this so like I'd
+like to see Claude you know the venture
+capitalist like I'd like to see Claude
+go do a company at a billion dollars
+pre-revenue like
+Um well we always like to leave the last
+word in these conversations to to you
+both and so
+uh any place you want to point folks
+where they can go learn more about a
+bridge the work you're doing any of the
+research guys have done whatever the the
+floor is yours.
+A couple places if you
+on our bridge website we have a lot of
+our white papers where we've done a lot
+of interesting work such as like
+reducing hallucination Very well
+presented by the way I liked it yeah.
+Thank you
+you know our science team rigorously
+defined what actually actually is a
+problem and one of the interesting
+things by the way at a bridge is we
+actually have multiple
+stats professors on staff as well so in
+that in that specific white paper
+Michael Luby who's a professor at JHU
+and so we have multiple and from that
+comes like very high rigor and then also
+our taste for design comes from really
+good presentation but but setting that
+aside and we're going to have many more
+technical topics there please follow our
+Twitter account as well
+our bridge HQ and then the other thing I
+I'll plug a little is we have a open
+house of deep diving deep into AI and
+health care coming up with Indu Aurora
+where it's Amazing
+well thanks so much this is super fun.
+All right thank you.

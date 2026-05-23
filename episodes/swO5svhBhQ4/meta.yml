@@ -1,0 +1,31 @@
+id: swO5svhBhQ4
+source: mlops-community
+title: "Building AI Agents That Survive Production"
+guest: "Haytham Abuelfutuh"
+guest_role: "CTO, Union AI; co-author of Flyte"
+published: 2026-05
+duration: "≈ 32 min"
+url: https://youtube.com/watch?v=swO5svhBhQ4
+thumbnail: https://img.youtube.com/vi/swO5svhBhQ4/maxresdefault.jpg
+status: generated
+tags:
+  - ai-agents
+  - production
+  - infrastructure
+  - mlops
+  - reliability
+  - platform
+summary: |
+  Haytham Abuelfutuh argues that the hard part of production agents is not only prompts
+  and tools, but the operational substrate around long-running, failure-prone sessions.
+  The talk frames production readiness around dynamic execution, durable recovery, and
+  defended sandboxes, using the example of human travel agents to show why interruption,
+  state, and recovery matter more than a clean demo loop.
+core_ideas:
+  - Production agents need to tolerate failure rather than pretend failures can be eliminated.
+  - Long-running sessions make agent reliability different from ordinary stateless services.
+  - Durable state and cheap recovery are core platform requirements, not afterthoughts.
+  - Dynamic execution lets agents branch, loop, call tools, and adapt without forcing every path into a rigid DSL.
+  - Defended sandboxes matter because useful agents may need to write and run code safely.
+  - Shifting infrastructure ownership left can unlock faster iteration for researchers and application teams.
+base: /episodes/swO5svhBhQ4/

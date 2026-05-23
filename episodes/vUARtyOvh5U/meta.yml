@@ -1,0 +1,33 @@
+id: vUARtyOvh5U
+source: latent-space
+title: "Inside Abridge: The AI Listening to 100 Million Doctor Visits — Abridge's Janie Lee & Chai Asawa"
+guest: "Janie Lee & Chai Asawa"
+guest_role: "Abridge — Head of Product / Clinical Decision Support"
+published: 2026-04
+duration: 70
+url: https://youtube.com/watch?v=vUARtyOvh5U
+thumbnail: https://img.youtube.com/vi/vUARtyOvh5U/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - product-lead
+  - product-management
+  - engineer
+  - interview
+  - technical
+summary: |
+  Latent Space × Supervised Learning crossover with Janie Lee and Chai Asawa from Abridge,
+  the AI clinical-intelligence layer with a dataset on the order of 100M medical conversations.
+  Deep on the "air conditioning" design philosophy, the constellation-of-models architecture
+  behind real-time in-visit guidance, why HIPAA-grade de-identification is one-way, and the
+  hot take that PRDs are very much not dead.
+core_ideas:
+  - Three acts — save time, save money, save lives — stacked on the same ambient surface
+  - Air conditioning UX — proactive prep beats reactive alerts; 90% of healthcare alerts are ignored
+  - Prior-auth in-visit nudge as the killer use case for collapsing weeks of latency into minutes
+  - Constellation of models — cheap fast triage hands off to large model only when stakes are high
+  - 100M conversations as exhaust — proprietary post-training plus "the conversation is the agent trace"
+  - The EHR as a file system — Abridge rides the foundation-model agentic-tool-use curve
+  - Counter-take — healthcare ships the hardest AI first because 80/20 simply does not work
+  - Janie's hot take — PRDs are not dead; in a world of noise, crisp written clarity matters more
+base: /episodes/vUARtyOvh5U/

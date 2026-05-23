@@ -1,0 +1,834 @@
+[music]
+[music]
+>> Hey,
+good morning Seattle. How we feeling
+today?
+That's a lot better. That's a lot
+better. Awesome. Some housekeeping items
+before we dive in and I introduce
+Demetrius and bring him up on stage.
+My name is David. I'm the chief strategy
+officer with community. We're delighted
+to have you all join us today.
+If you need one of us, if you have a
+question, we're wearing a purple
+lanyard. You can find us.
+Feel free to just grab one of us if you
+have a question, need something. A
+purple phone
+purely coincidental. Purple phone has
+been found and is at the registration
+desk. Wi-Fi, if you want to be on the
+Wi-Fi, AI agents 2026, no capital
+letters. And without further ado, let's
+get things going. Please welcome to the
+stage the founder and creative energy
+for the community, Demetrius Brickman.
+All right. So,
+I'm super excited to be here. I was
+going to give a whole talk
+about and try and make a parallel
+between how software wants to be free
+and software wants to be expensive and
+how agents also have some kind of
+parallel. But last night at the team
+dinner, I was talking to the team and I
+said, you know, I'm going to make this
+parallel and people were like, I've
+never heard that quote. What are you
+talking about? So, basically took my
+notes, shredded them up and thought,
+well, let's just get right into the
+content today. I have three things that
+I want to say before I bring on our
+first guest and presenter.
+And those three things are right here.
+Of course, this would not be possible
+without
+our friends and sponsors. So, feel free
+to go and check out the booths.
+Hopefully, you get to know the lay of
+the land while you're here. We got the
+whole day. You can go and walk around. I
+actually just saw there is a whole area
+for the lunar and spaceships.
+Try and find that. Very cool. I imagine
+a lot of you have been here before. If
+you're Seattle native, then this isn't
+something so new or as fascinating as it
+is for me coming in the first time, but
+it's incredible. Speaking of incredible,
+we've got this happening. There are
+three workshops and I believe that some
+of them still have space.
+Worst case scenario, go to the workshop,
+try and get in. You should be all right
+for most of them. Uh I think there's
+like one or two spots available now.
+Just um go where you think it is and
+then see if there's space if you didn't
+already register. If you're already
+registered, you should be good.
+And
+I will also call out that I have a uh
+hot take session after lunch. And if
+you're wondering, what is the hot take
+session? That is where we're going to
+get together and we're going to share
+what our best skills are, what our best
+agent tricks are. It's much more
+interactive. And so, I encourage you to
+come to that. I'm also also plugging my
+own session already. Yes. Uh that is
+mainly because since it is interactive,
+it works better if you participate and
+you're there and you come and you tell
+us like, "Hey, I learned that this skill
+is really useful." Or I have this hot
+take. So, we're going to be asking about
+both of those. Start thinking about it
+now.
+And without further ado, I'm going to
+bring on our first speaker, Haytham. He
+is the CTO of Union AI, and he's
+actually been a long-time supporter of
+the ML Ops community. They came and they
+were one of our first sponsors in 2020,
+back when we first started, and we've
+been able to grow together, and up until
+this point, we actually grew so that now
+we're here in their hometown, your
+hometown, having this conference on AI
+agents. Things have morphed and changed
+a bit, but that's the fun of it. So,
+please welcome to the stage Haytham.
+There you go, sir. Thank you. Give me
+that.
+Is the mic working? I hope so.
+Uh all right. Hi everyone. Uh my name is
+Haytham, and yeah, as uh Demetris said,
+we are long, long uh time partners with
+ML Ops. We love the community. We have
+uh essentially grown with the community.
+Um and uh we would love to support any
+any any way we can.
+Um I am one of the co-founders and CTO
+of Union, and co-founder uh co-author of
+Flyte open-source project. We have a
+booth out there. Come check it out. Uh
+more on that at the end. Uh but uh you
+know, to kick things off, let me just
+give you a quick uh story. Uh many, many
+many moons ago, about 18 years ago
+actually, this past weekend, uh where I
+was getting married, and we wanted to
+plan our honeymoon.
+Um and I called up a travel agent. Uh
+that was maybe my first interaction with
+an agent. Um we, you know, over the
+course of many weeks after that, we had
+many email exchanges, phone calls,
+dropped phone calls. Never once did the
+agent ask me to, you know, repeat
+everything I said [laughter] or we
+communicated about over the past uh
+weeks.
+Um it was a great experience, but uh it
+also, I you know, I keep reflecting back
+on this whenever we, you know, agents
+come up these days. So, I want that. I
+want a, you know, very long-running
+sessions. I want an agent that doesn't
+forget what I said, or doesn't complain
+about the contest getting too big,
+and is able to recover from, you know,
+dropped phone calls, and can call me
+back, and continue right where where we
+left off. Just a great experience with a
+human on the other side. I would love to
+have that same experience with, you
+know, the agents we build these days.
+Um
+we
+Um maybe to to get us
+started, I will ask really quickly, show
+of hands, who has experimented with
+building agents? Maybe
+open claw, you're curious about agents,
+and great, many many of you. And keep
+your hands up if you have shipped that
+agent to production. If it's running
+>> [laughter]
+>> Yeah, I know. I know, very very few of
+you. Thank you.
+And that's really the whole point. If
+you have built one, you know it's it
+takes very time-consuming to get, you
+know, the right context and the right
+prompts to get LLMs to do what you want,
+and the guardrails around them, and the
+API calls, and the tools, this and that.
+And you do all of this probably on your
+laptop to like get the thing doing the
+right thing, and then you try to throw
+it out to a production deployment, and
+all whole whole set of new issues come
+up, right? The agents crash, you know,
+you run out of memory, the tools are not
+scaling to the number of users you're
+trying to hit it with.
+You get, you know, API limits and
+throttling, and just all kinds of
+production issues that you don't really
+see. And they're not really related to
+like the quality of your responses
+you're getting for from the LLMs or from
+you what the agent is trying to do.
+Um
+and this is to be expected, right? Like
+agents do fail and they will fail uh in
+production. Uh and I I I think instead
+of trying to really prevent that, you
+know, or like trying to design the
+perfect agent that will never fail when
+you put it in production, you should be
+building agents that tolerate that, that
+that know how to react when failure is
+happening cuz they will happen. Um and
+we try to like
+categorize the types of issues that you
+will see while an agent. Uh in the top
+here you will see probably what you
+spend most of your time
+um doing. These are the semantic and
+logical
+uh errors, you know, trying to get the
+agent to do the thing you are designing
+it to do. Uh maybe it is a travel agent
+or maybe uh trying to build some cool
+agent that develop or build apps for
+you. Uh that thing is your IP. This is
+your idea. This is the thing you're
+innovating in. Uh and rightfully so, you
+spend most of the time doing or
+iterating on that uh to get the right
+output that you want. And mostly again
+uh on your laptop. But then
+bunch of other issues happen, right? Uh
+so we from infrastructure, network
+issues, the tools you think you can
+depend on start like barfing at you or
+just failing randomly or throttling you.
+You hit API limits
+um or and and they they manifest as
+well, maybe corrupt context. You're
+uh you have to restart sessions and it's
+like terrible experience for your users
+uh once, you know, things uh run in
+production.
+Yeah.
+Um
+in in building
+an agent, um building a platform that
+can run agents, um we think of them
+uh uh as like from sort of first
+principles. We think there are three
+main things you should really consider
+or um
+require from a platform that will run
+your agents.
+Uh and they inform how you build the
+agents too, but how the platform run
+them and give you
+uh these guarantees from the get-go.
+Uh the first of those is dynamic.
+You don't want, you know, a constrained
+You have to build the agent this way and
+it has to be a DSL and you have to tell
+me if you're trying two branches or
+you're trying to do a loop. Um that is
+very constraining and I don't think
+leads to good agent development
+experience or really
+um
+uh the the the dynamism you want from
+your agent. I think the platform you're
+building on should allow you to write
+the code the way you think about it. The
+should be intuitive. Uh you should uh
+be able to build the agent to to
+interact with the user the way you think
+it should interact as natural as it gets
+with no constraints about how you do so.
+The second is durability.
+When you're building an agent, you want
+you you the last thing you want from
+that agent is uh uh
+when a failure happens, and it will
+happen, that you have to restart or
+start all over again. It's bad for you.
+You're wasting probably, you know, very
+precious
+uh uh tokens that have been wasted so
+far. But it's also bad for your
+customers because they will get a
+terrible experience if like, you know,
+halfway through in a two-hour session,
+they have to start all over because the
+agent crashed and you lost the machine
+um and you have to, you know, re-prompt
+and redo everything again.
+Uh and then the last uh
+requirement is you want to be able to
+build defensible or defended agents. And
+what we mean by that is um sometimes
+your agents will want to do wild stuff.
+Maybe it wants to write uh code because
+none of the tools you provided or gave
+it can do the thing it's trying to do
+right now. Um where will you run that
+code? How do you run that code securely?
+Um,
+uh, or maybe it gave up. You know, you
+you put guardrails around it. You're
+like, you know, give it your best shot.
+Try five times to build this tool. Uh,
+you know, iterate with the LLM to fix
+issues. But then what happens after the
+fifth time fails? What should happen?
+Um,
+probably prompt the user. Maybe ask the
+user, what should I do? Uh, maybe it is,
+uh, just not a doable task, or maybe it
+needs more input from the user to
+proceed and try the next, uh, attempt,
+or try the next, uh, experiment.
+And I will go through each one of these.
+Um, we'll see how our take, uh,
+hopefully not a hot take. We'll save
+those for later.
+Uh, on how should you think of building
+them, how natural that should be, and
+what should the platform just give you
+out of the box. Um,
+the back behind me here is just
+hopefully what should uh, resonate with
+everyone as normal Python code.
+Uh, you write functions, you write your
+code with, you know, loops and try
+catches and try except in Python.
+Um, and uh,
+uh, and you
+uh, sort of execute it in a natural way.
+It's async. Yeah. Okay, put to the next.
+I'm highlighting a couple of pieces here
+where we think your code, one of the
+ways it can tolerate infrastructure
+failures, say you run on a spot machines
+because they're cheaper, you get a
+cheaper GPU, or you're running on a new
+cloud, so you can get actual GPUs
+because you can't find them otherwise.
+Um, infrastructure failures happen. If
+your code is not aware of the
+infrastructure it's running on, it will
+not be able to react to failures there.
+So, if it doesn't know that, oh, I
+allocated uh, a 32 GB RAM for this task,
+or for this job, or for this code
+execution, when that happened when it
+fails, when you get an out of memory
+error, it will have no idea what to do
+with it because it didn't even know that
+it was running on a 32 GB, you know,
+machine in the first place. Uh so, we
+think one of the ways you
+um
+work around that uh is that you are you
+declare the infrastructure that you need
+right in your code.
+So, in the top here, you build this
+environment and you say, you know, I
+need this much memory and this many
+CPUs. Um and you can iterate all dynamic
+code. There is no DSL
+uh uh required. You're just running your
+code
+uh on that infrastructure. And
+uh the second piece about we talked
+about uh um
+uh
+durability and and handling failures
+when they happen. What happens if this
+function fails?
+Right? You can maybe put try catch
+around it. Maybe you can catch most of
+the errors that happen in this function.
+Um but there will be errors that happen
+that you can't catch that are external
+to you. Again, if the spot machine is
+taken away from you, it's not a thing
+you can handle in your function, right?
+Because the entire process will just go.
+Uh if you run out of memory, it's not a
+thing you can handle.
+Uh so, you want to be able to tell the
+system that I want this job to be
+retried or to be
+um
+rerun on a maybe a different piece of
+hardware or maybe just in the same
+hardware, try it again
+uh because there's some, you know,
+uncertainty about the code it's running
+and maybe a second uh attempt will
+succeed. So, you want to be able to
+creatively say that. Uh and then lastly,
+when you launch other pieces, right?
+When you're like, I want to
+run this external code or want to call
+this tool or want to do something uh
+outside of your process, you want to
+monitor that and know and react to
+failures that will happen in that piece
+of code.
+Uh it again could be infrastructure
+failures on the other side. could be
+um bad allocation of resources, right?
+You assumed that running this piece of
+code doesn't require that much memory,
+so you would launch it somewhere else,
+but while it's running, it runs out of
+memory. You need to know that, and if
+you know that, you can uh
+uh change the code, right? Because
+again, the infrastructure is declared
+here. You can change the uh memory
+allocation and then retry the same code,
+right? Because now your code is is
+controlling both the infrastructure, the
+compute, and the logic that's running on
+it.
+Um the second
+requirement about durability, talk about
+a bit about this because I think it's
+very important. Um the there are there
+are a few aspects when you think about
+durability.
+There is I'm running a session, right?
+So, there's one ongoing session with a
+user, and while this is happening,
+something bad happens in between, right?
+Um and you want to recover. You want to
+do crash recovery. And this is a very
+uh
+I think well-understood problem in
+normal services. If you're running a
+service, service crash all the time,
+people even deploy what they call chaos
+monkeys in their infrastructure to like
+kill services intentionally and make
+sure the entire system uh continue to
+behave reliably. Uh that's just this
+will happen. The problem with agents is
+they're long-running, right? You can
+have a session open with a user for
+weeks uh at end, right? So, something
+bad is going to happen uh while this uh
+session is going. So, how do you recover
+from this?
+Uh we think the system should be able to
+tell you that. It should be able to
+record every action this uh agent has
+taken, um and on, you know,
+with your permission as the developer of
+the agent, uh you should be able to
+recover from those actions and not have
+to run them again.
+Uh this is particularly important if
+some of these actions are not
+deterministic. So, if you're calling an
+LLM, you know, 2 days ago, if I call it
+again today with the same prompt, it's
+probably not going to give you the same
+response. So, caching that and making
+sure we don't do it again. So, it's a my
+code my agent as it's recovering from a
+crash can behave deterministically. But
+also, if you prompt the user, as if I
+ask a user for something in the
+beginning of the session, right? And the
+session crashes and recovers, you don't
+want to ask the user the same question
+again, right? That would be annoying. Um
+imagine if that my travel agent forgets
+and then, you know, 2 weeks later asks
+me, "Where were you going to travel
+again?" Or "What's your budget again?"
+Um that would have been annoying.
+Oh, yeah.
+Next. Uh and then the second piece for
+durability, once you zoom out of this
+one session,
+um the
+you have to account for having, you
+know, in parallel multiple executions,
+right? There are multiple users using
+your system. They are in a lot of cases
+doing the same or similar things. So,
+there may be calls within the agent that
+you want to cache because they don't
+change that often. If I'm doing a a web
+search probably on the same term on the
+same day,
+uh it's probably okay to cache the
+response. But if I'm calling, you know,
+uh the an LLM to generate a report,
+maybe I don't want to cache that. Uh so,
+having the ability and the power from
+the platform to decide that for certain
+things I'm okay
+caching and getting a shared cache
+across different agent runs is very
+powerful. It will save you again tokens,
+but will also make the agent run a lot
+faster for those subsequent runs.
+Um
+the
+I think last piece in durability uh is
+making failures cheap.
+Again, I want to I keep repeating this.
+I want to make sure we we walk out of
+here probably if there's one thing I
+would love everyone to uh
+um agree with is that failures will
+happen and it's not about making agents
+sort of
+like making failures never happen or
+preventing failures. It's about how we
+deal with these failures when they do
+happen
+and you want them to be cheap. You want
+the recovery from failures to be cheap.
+You want to be able to record and inform
+the platform which failures you're
+willing to tolerate and how to behave
+when these failures happen.
+Yep. So we
+the platform in in this case flight to
+and union, right? You you would record
+because of the platform awareness of all
+the external actions and agent took.
+All of this metadata is stored in the
+system, right? So you know which tools
+it called, which services it invoked or
+what
+code it ran elsewhere or custom code it
+ran elsewhere and all of this
+information is available for you to
+train and you know build even better
+agents in the future. It's like metadata
+about metadata really. Yeah, next.
+All right. And then the last
+design principle is defended
+and this is about
+scoping the execution, protecting your
+agent and your sessions from
+potentially spiraling out of control or
+in this case executing code that
+is untrusted.
+And it will happen, right? You will get
+to a point where the agent will look at
+100 tool you gave it and says none of
+these really do the job. I want to run
+this custom, you know,
+travel flight lookup that I can't do
+with any of the tools you give me. I
+want to write code and you want that.
+You want this sort of escape hatch in a
+lot of cases. But when that happens,
+um want to be able to run this in a
+secure environment that is, you know,
+network isolated, um that is isolated
+from the host, so it doesn't, you know,
+affect the running processes,
+um and uh and be able to react to
+failures when that when when you execute
+this code.
+Right? So, in this
+uh example, we run some, you know,
+generated code, uh and then we can wait
+for this to happen elsewhere and shout
+out to uh Pydantic
+for the Monty project. It's a uh if you
+haven't checked it out, please do. It's
+low-level Python environment that is uh
+sandboxed, uh and we leveraged it here.
+Um and you can you want to react to
+failures when, you know, when executing
+this code.
+Uh that uh maybe in this example, right?
+In the naive example, you can just take
+the error, take the code, call back the
+LLM and say, "Well, I tried to run this
+thing. I got this error.
+Iterate, right? Give me a better code."
+And then you try this a few times.
+Usually, the the LLMs got a lot better
+at, you know,
+building code that runs uh and compiling
+it beforehand and so on. So, eventually,
+you will get code that does the thing
+you want it to do.
+Uh and then lastly, if that doesn't
+happen,
+you can
+bail out and ask the user, right? So,
+you want a human in the loop
+capability. You want to be able to say,
+"Hey, I tried to build this tool or
+tried to do this thing and I can't. Tell
+me what to do next." Um or maybe it give
+you a few options, and you want to ask
+the user, "Which one would you prefer?"
+You get that input and then proceed with
+the next steps, whatever that is, maybe
+actually booking the flight or whatever
+the the the agent is trying to do.
+Um all right. Let's go next. Yeah. Keep
+going. Okay. All right.
+So, three design design principles will
+rehearse them uh at the end. Uh uh But
+when you put all of this together, you
+get a platform that is aware of your
+infrastructure, that can trace every
+action your agent took. So if you look
+on the left side here, every attempt the
+agent took or tried to do with the
+generated code is logged. You get the
+errors that it hit, and you see the new
+attempts, you see the code that
+eventually succeeded. Um and
+and you can inspect, you know, real-time
+logs. You can see the agent as it's
+running, what is it trying to do, and
+maybe what it is struggling with. As you
+can react and build maybe better agents
+and improve um
+the experience for users.
+Take maybe a couple of minutes just
+really quickly
+as a real-world example. We recently
+published this
+case study. I would encourage you to
+check it out. There is this company
+called Dragonfly, and what they do is
+they
+um they're trying to solve the problem
+of the of choice, right? You want to add
+one more tool to your company, right?
+You want to add an HR tool or an issue
+tracker, or you want to add some piece
+to your company, but you don't know.
+There's a ton of those out there. Um you
+can go to Dragonfly and prompt them,
+tell them like "Hey, my stack looks like
+this. I have these tools for these
+things.
+How do I How do I pick the issue
+tracker? Or I want to pick an issue
+tracker."
+And they have a catalog. They're
+constantly crawling and cataloging,
+indexing the software products out
+there. They have a catalog of more than
+250,000
+products. Um and they will give you, you
+know, some recommendations, comparisons
+between products, and so on.
+And they came to us with this problem
+and they wanted to a way to build that
+catalog such that they can, you know,
+query it at real time for the users. Um
+they wanted to build an agent.
+If you go next, this is the architecture
+that um I will give credits to my
+colleague Niels. He's worked with them
+uh to um architect this agent uh not
+just for it to correctly deliver the the
+uh
+the job but the thing it's trying to do
+but to do so reliably in production at
+that scale.
+Um and they created this four-tiered
+system where at the uh the top here you
+have constantly running these four
+agents that are calling coordinators uh
+and the coordinators are invoking
+researchers to research certain products
+um and have a bunch of tools, you know,
+either querying a thing on a web search
+for that product or checking the index
+the docs and, you know, various ways of
+collecting data about the product um
+and they even built some smartness in
+the coordinator layer that can look at
+multiple researchers and say, "Oh, you
+look like you're doing the same things.
+Let me stop one of you and let you do
+something else."
+Uh and all of that is coordinated, all
+of that is traced, all of that is
+auditable for them to look at and learn
+from and build again improve their
+agents. Um and the impressive thing is
+that they took this from a sort of a
+prototype they were building on their
+laptop to do the thing they're trying to
+do to a running thing in production in
+one session sitting with him. It's like
+a couple of hours and it was running
+already on the system that can scale and
+can run in production and to research
+all the tools they have or the the
+products they want to research.
+Okay, I'll leave you with this and I'll
+maybe I'll I'll
+a quick quiz see who how who fell
+asleep.
+>> [laughter]
+>> Um what was the first D? These are the
+three D's we talked about. Anybody
+remember the first one?
+Dynamic, yes. Thank you. Uh second?
+Yes.
+Great job. Uh and third?
+Intended. Oh, yeah. Awesome.
+Thank you.
+Well, happy to talk about them a lot
+more. Yeah,
+we we have a booth out there.
+I I love how cozy the place is. So, you
+get to actually have one-to-one
+conversations with everyone here, which
+is amazing.
+We uh so, come check us out. We are
+hiring. We
+would love to
+work with you all on, you know, how do
+we build agents? I would love to hear
+your hot takes on agents or building
+agents or your experiences.
+We have a bunch of us. We are Seattle
+local and uh
+bunch of our team is out there in the in
+the booth. We'd love to come
+for you to come talk to us. Thank you.
+All right. Not so fast, Haytham. Not so
+fast.
+>> Okay.
+We do have time for a couple of
+questions. If anybody would like to ask
+a question, and if not, you can catch up
+with Haytham.
+Some conversation starters for him. He's
+into scuba diving. His whole family is
+doing fencing as a family sport right
+now.
+And he is also into woodworking. So, if
+you have looking for some conversation
+starters with Haytham [laughter] after
+this session. Do we have any questions?
+Any questions?
+>> one here. Yeah.
+Are you guys using any Erlang under the
+hood or is this all Python?
+Uh that's a great great question. So,
+the the we use Python for the our SDK.
+This is the user-facing how you develop
+the agents.
+Um the system in the back is all built
+on Go and Rust services. So, even the
+Python SDK has a Rust component that is
+running the coordination is super fast.
+But, we're not using Erlang, no.
+Yeah, thank you. I know.
+Okay, we have one more question back
+here in the back.
+So, I work at a more traditional based
+company that is a little bit more on the
+side of let the developers do their
+thing. So, when it dealing with
+infrastructure and calling that into the
+code.
+How do you deal with companies that are
+a little bit more on the side of not
+wanting to change that and get the
+developers
+wanting to start thinking about those
+things? Essentially shifting left that
+piece of component there.
+That's an awesome question.
+We we do work
+not to us surprise anyone. We do work
+with a lot of companies in the same boat
+where you have a platform team that
+traditionally sort of was the sole owner
+of any piece that runs in the cloud,
+right? Like any service goes through
+them, any deployment goes through them,
+right? And we are seeing the same shift
+from their desire to empower the
+developers or the the researchers, the
+MLEs to build the
+the tools themselves.
+And also from the researchers because
+they see the iteration and the velocity
+to to build once they get the control
+skyrocket, right? Because they I think
+this is the
+depends on where you're seeing the
+friction, I would say. But, if you want
+to um
+sell that this promise or the
+the capability to your end developers,
+I would
+I would really show them how fast it is
+for them to iterate.
+They cannot get the same speed if there
+is another hop, which is, you know, I
+need to get my code sort of packaged in
+a certain way and build a Helm chart
+around it and a deployment and so on by
+somebody else. Uh once they start
+experimenting this and being able to
+build a thing that runs locally, but get
+packaged and run remotely on a cluster
+and scale,
+get the cycle going really quickly, they
+will be all in. Uh we have seen this
+happen in real time. Like I could see it
+in people's eyes once they experiment uh
+with the platform.
+Where are you seeing the friction, if I
+may ask?
+A follow-up question, I guess.
+They have traditionally not
+thought about the infrastructure bits.
+And so, we're I I'm part of the
+infrastructure team. So, having to
+educate the developers and then go,
+"Hey,
+these are the tools and things that
+could make your life easier." But, it's
+just training uh a dog, essentially, and
+just trying to get them excited about
+the new potentials. Yeah. Yeah.
+Uh would love to work with you, I think,
+on uh yeah,
+on showing them the benefits. That's
+great. Yeah. Thank you.
+All right. One more time, let's show
+some love. All right. Thank you,
+everyone. Good evening.
+>> [applause]

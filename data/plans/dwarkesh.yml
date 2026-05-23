@@ -1,11 +1,19 @@
 source: dwarkesh
-refreshed_at: 2026-04-24T00:42:02.330Z
+refreshed_at: 2026-05-19T09:08:18.543Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 3
-done: 3
+total_candidates: 4
+done: 4
 pending: 0
 episodes:
+  - id: X_ZVSPcZhtw
+    title: What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs - Eric Jang
+    duration: 9438
+    upload_date: "20260515"
+    url: https://youtube.com/watch?v=X_ZVSPcZhtw
+    status: generated
+    priority: 1
+    category: update-2026-05-19
   - id: xmkSf5IS-zw
     title: How GPT, Claude, and Gemini are actually trained and served – Reiner Pope
     duration: 8021

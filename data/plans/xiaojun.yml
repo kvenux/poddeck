@@ -1,11 +1,19 @@
 source: xiaojun
-refreshed_at: 2026-04-25T00:49:22.170Z
+refreshed_at: 2026-05-19T09:08:18.558Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 19
+total_candidates: 20
 done: 7
-pending: 0
+pending: 1
 episodes:
+  - id: MjTfhm5N8x8
+    title: 141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接
+    duration: 5034
+    upload_date: "20260518"
+    url: https://youtube.com/watch?v=MjTfhm5N8x8
+    status: pending
+    priority: 1
+    category: update-2026-05-19-missing-transcript
   - id: Gk_KUg3qED0
     title: 140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去
     duration: 13836
@@ -107,7 +115,8 @@ episodes:
     status: skipped
     priority: 1
   - id: gWmyu3x5rXY
-    title: "Yin Qi: On Chairing StepFun, the Seduction of Intelligence, and a Brutal Long-Horizon Game"
+    title: "Yin Qi: On Chairing StepFun, the Seduction of Intelligence, and a Brutal
+      Long-Horizon Game"
     duration: 7204
     upload_date: "20260127"
     url: https://youtube.com/watch?v=gWmyu3x5rXY
@@ -128,7 +137,8 @@ episodes:
     status: skipped
     priority: 1
   - id: toy8RLeFZ08
-    title: "Zhipu CEO Zhang Peng: Inside the IPO of China's First Publicly Listed LLM Company"
+    title: "Zhipu CEO Zhang Peng: Inside the IPO of China's First Publicly Listed
+      LLM Company"
     duration: 8675
     upload_date: "20260108"
     url: https://youtube.com/watch?v=toy8RLeFZ08

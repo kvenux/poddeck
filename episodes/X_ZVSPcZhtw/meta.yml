@@ -1,0 +1,33 @@
+id: X_ZVSPcZhtw
+source: dwarkesh
+title: "What rebuilding AlphaGo teaches us about self-play, RL, and future of LLMs - Eric Jang"
+guest: "Eric Jang"
+guest_role: "ex-VP AI @ 1X · ex-Google DeepMind Robotics"
+published: 2026-05
+duration: 100
+url: https://youtube.com/watch?v=X_ZVSPcZhtw
+thumbnail: https://img.youtube.com/vi/X_ZVSPcZhtw/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - robotics
+  - researcher
+  - interview
+  - deep-dive
+  - technical
+summary: |
+  Eric Jang 在 sabbatical 期间用大约 10K 美元 + Claude Code 重新实现了 AlphaGo，
+  在和 Dwarkesh 的对谈里把 MCTS 拆到底——为什么它不是 credit assignment、
+  为什么它比当下 LLM RL 优雅得多、以及 10 层网络居然能把一个看似 intractable
+  的搜索问题塞进一次 forward pass。后半段是用 Opus 4.6/4.7 做自动化研究的体感：
+  超参搜索很强，但还不会"换条路想想看"。
+core_ideas:
+  - 围棋的搜索空间是 361^300，比宇宙原子还多——MCTS + value/policy 网络把 breadth 和 depth 同时砍掉
+  - MCTS 不做 credit assignment——它给每一步重新打一个更好的 label，policy net 再去蒸馏这个分布
+  - AlphaGo 之所以优雅是因为永远不需要从 0% 成功率起步——always supervised learning on improved labels
+  - LLM RL 是 sucking supervision through a straw；MCTS 每一步都有 dense supervision
+  - 一个 10 层网络能 amortize 一个 nearly intractable 的搜索问题——也许我们对 P vs NP 的直觉是不完整的
+  - test-time scaling 的祖师爷是 Andy Jones 2021 的 board-games scaling laws，比 LLM 推理时间扩展早好几年
+  - 用 10K 美元复刻 AlphaGo——first compute 和 catch-up compute 差几个数量级
+  - 自动化研究：Opus 现在能做 grad-student 级超参 grind；不会 lateral thinking，不会从死路里跳出来
+base: /episodes/X_ZVSPcZhtw/

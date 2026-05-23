@@ -1,0 +1,42 @@
+id: UmCZBwsibgs
+source: latent-space
+title: "From Consumer Toys for Pets to War Drone — Yaroslav Azhnyuk, The Fourth Law & Noah Smith, Noahpinion"
+guest: "Yaroslav Azhnyuk · Noah Smith"
+guest_role: "The Fourth Law / Odd Systems — founder · Noahpinion — writer"
+published: 2026-04
+duration: "≈ 90 min"
+url: https://youtube.com/watch?v=UmCZBwsibgs
+thumbnail: https://img.youtube.com/vi/UmCZBwsibgs/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - robotics
+  - startup
+  - founder
+  - interview
+  - deep-dive
+  - strategic
+  - technical
+summary: |
+  Yaroslav Azhnyuk built Pet Cube in San Francisco — "cameras that fling treats to pets" — and then,
+  after Russia's invasion landed on the last flight into Kyiv on Feb 23, 2022, pivoted to building
+  drone autonomy, thermal cameras, and FPV strike drones for the Ukrainian armed forces. With Noah
+  Smith and Latent Space's Brandon, he walks through five levels of drone autonomy, eight dimensions
+  of the autonomous battlefield, why FPVs replaced artillery as "the god of war" (~80% of frontline
+  casualties), and the disquieting arithmetic of China's drone manufacturing scale (4M Ukrainian
+  FPVs/year vs ~4B Chinese capacity).
+core_ideas:
+  - Software-defined warfare — a fleet of drones can inherit new behaviors overnight via OTA, a first in military history ("push a software update and get all of your Roman legionnaire's a new helmet")
+  - Five levels of drone autonomy — terminal guidance → bombing → target detection → navigation → takeoff/landing; inspired by SAE self-driving levels
+  - Eight dimensions of the autonomous battlefield — level, platform, domain, swarming, environment, C2, infrastructure, distribution
+  - L1 alone (terminal guidance) took one Ukrainian pilot's mission-success rate from 20% to 71% and his kill zone from 3 km to 10 km
+  - FPV drones are the god of war — 70–80% of frontline casualties now caused by FPVs; artillery is dethroned but not obsolete
+  - Cost asymmetry — a $500 FPV vs a $5M tank; Vyriy Drone's Alexei Babenko quote about destroying a year of Rheinmetall tanks in a day
+  - Optic-fiber prices jumped from $4/km to $32/km in months — because AI data centers consume the same fiber
+  - 5 to 10 years from now it will be immoral to use weapons without AI — the precision argument
+  - The China overhang — 4M Ukrainian FPVs/year vs 4B Chinese capacity; container-ship long-range drone delivery as a strategic scenario
+  - Four layers of Western lag — autonomy technology, mass manufacturing, components, rare-earth refining
+  - Drone-time differential — Ukraine/Russia advanced ~1 year of drone tech in a year; Europe moved "from winter 2022 to spring 2022"
+  - Kyiv as Defense Valley — Arthur C. Clarke's "the future is already here, just not evenly distributed" applied to military tech
+  - Si vis pacem, para bellum — the closing message: invest in defense if you want peace
+base: /episodes/UmCZBwsibgs/

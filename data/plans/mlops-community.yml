@@ -1,13 +1,22 @@
 source: mlops-community
-refreshed_at: 2026-05-10T08:57:05.227Z
+refreshed_at: 2026-05-19T09:08:18.573Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 11
-done: 7
+total_candidates: 12
+done: 8
 pending: 1
 episodes:
+  - id: swO5svhBhQ4
+    title: Building AI Agents That Survive Production
+    duration: 1919
+    upload_date: "20260514"
+    url: https://youtube.com/watch?v=swO5svhBhQ4
+    status: generated
+    priority: 1
+    category: update-2026-05-19
   - id: wtzzWyrEY_A
-    title: "The Creator of Superpowers: Why Real Agentic Engineering Beats Vibe Coding"
+    title: "The Creator of Superpowers: Why Real Agentic Engineering Beats Vibe
+      Coding"
     duration: 4016
     upload_date: "20260505"
     url: https://youtube.com/watch?v=wtzzWyrEY_A

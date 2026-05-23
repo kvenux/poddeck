@@ -1,0 +1,4455 @@
+Today I'm here with Eric Jen who was
+most recently vice president of AI at 1x
+Technologies. Before that, senior
+research scientist at what is now Google
+DeepMind Robotics. And you've been on
+sobatical for the last few months. One
+of the things you've been doing is
+rebuilding and improving and hacking on
+AlphaGo. And so we're today what we're
+going to do is you're going to explain
+building AlphaGo from scratch and what
+it tells us about the future of BI
+research and development. But uh before
+we get to that, why is AlphaGo
+interesting? Why is this why is this the
+project you decided to do on sobatical
+rather than just hang out at the beach?
+>> Sure. Yeah. Um I like making things and
+Alph Go and Go AI is one of those things
+that really got me into the field. Uh
+when I saw the kind of early
+breakthroughs um on AlphaGo in 2014,
+2015, 2016 and so forth. It was just
+profound to see, you know, how smart AI
+systems could become and the the kind of
+computational complexity class that they
+could tackle with deep learning. Um this
+is a problem that has you know long been
+understood to be kind of intractable for
+search and yet um it was solved um
+through through deep learning and so so
+that was quite mysterious to me and I've
+always wanted to understand that
+phenomena a little bit better. My
+training is often in deep neural nets
+for robotics where it's uh the the
+decisions made by the neural networks
+are a bit more intuitive. But Alph Go is
+a sort of problem where the the
+decisions are actually the result of a
+very very deep search. And it's always
+been very mysterious to me how like a 10
+layer network can sort of amortize the
+simulation of something so so uh so deep
+in the in the game tree.
+>> Yeah. Interesting. So if you plot out
+how much compute it took to build
+various iterations of strong gobots over
+the years, you can see that in 2020
+there was a open- source project called
+Kadigo um by David Woo from Jane Street
+who who basically achieved a 40x
+reduction in compute needed to train a
+really strong goat tablea. Um I'm not
+certain if it's stronger than alpha go
+zero or alpha zero or mu0ero u but it's
+very very strong and this is what most
+go practitioners today train against
+when they're when they're playing an AI
+and thanks to LM coding what took a
+whole team of research scientists at de
+mind and you know millions of dollars of
+research and compute can now be done for
+you know a few thousand dollars of of
+rented compute.
+>> Okay I guess we should first discuss how
+go works.
+>> Great.
+>> So yeah how does the game work? Um, so
+the game of code is a very simple one
+that can be implemented uh quickly and
+easily in a computer. The the objective
+of the game is basically to put down
+black and white stones and try to occupy
+as much territory in the game as
+possible. So I might start by putting
+down a black stone. Uh, black always
+goes first. Let's go ahead. And so the
+way you capture an opponent's stones is
+that for every um intersection if you
+can surround all four of its neighbors
+with um with your stones then um then
+this one is sort of cut off from oxygen
+if you will and then it uh and it is a
+dead dead stone. So so then now I
+control these four stones as well as
+this empty intersection here.
+>> So there's like slight variations
+between Chinese, Japanese and uh what is
+called Trump Taylor rules. Um, trump
+Taylor rules are designed to be
+completely unambiguous for go. So this
+is what all go AIs train against and
+resolve against. So in typical Go like
+the humans play, you're actually not
+allowed to put this whitest stone down
+here. It would be instant suicide. Um,
+in Trump Taylor, it's actually fine. You
+put it down and then it immediately
+resolves to death. So the outcome is
+sort of the same.
+>> Let's go ahead and start over and and
+play play a few stones and then I'll
+explain some more. So
+>> I'll just start there.
+All
+right. I'm like basically playing
+randomly here, but I'm trying to get
+around your stones and see if I can
+close them.
+>> Yeah.
+>> So, this move um basically exposes one
+empty neighbor for your white stone. And
+it's very akin to a check in chess where
+if you don't respond immediately by
+putting one here, then I can immediately
+capture this.
+>> I see. Okay. cuz it is it is sort of the
+diagonals that determine whether you're
+guarded in
+>> the cross-section, not the diagonals.
+>> So So this one is surrounded on three
+sides.
+>> Yeah.
+>> And so um you're at threat of losing
+that stone if you don't play one
+immediately there.
+>> Now you can see that I'm starting to
+pressure you because by putting a stone
+uh here now you are forced to um put one
+here.
+>> Otherwise you would have this two block.
+>> Yes.
+>> To yourself. And then if you think think
+through like what happens if you were to
+respond here, you can probably, you
+know, search into the future and deduce
+what I'll do in response. Uh once you
+once you do that,
+>> you have a lot of confidence in my
+abilities. But I'm guessing you'd put
+the black here.
+>> That's right. And then I would capture
+all three of these stones.
+>> So I should just assume that this is
+gone. This little block is gone.
+>> Yes. So in go it's actually okay to let
+opponent capture um some stones if for
+example it allows you to position u to
+capture more stones in somewhere else on
+the board. And and this is what makes Go
+a very beautiful game is that um you can
+kind of uh lose the battle but win the
+war, right? And and as the board size
+increases, the complexity of these kind
+of like micro versus macro dynamics uh
+gets gets more interesting.
+>> But presumably you'd put one here.
+>> Mhm.
+>> And so now I would capture this entire
+group. Okay.
+>> And this this would be my
+>> Okay. There's one more um uh case that I
+want to demonstrate which uh actually I
+had a bug in my code uh recently which
+is the following situation. So let's
+consider a formation like this, right?
+And then you know we have other pieces
+on the board in play or whatever. Um
+and so
+um let's talk a little bit about how the
+game ends, right? Um in this territory,
+who controls these these areas? Is it
+white or is it black?
+>> White.
+>> It's actually black because I have
+actually surrounded this whole area.
+Yeah.
+>> And it's um very assuming I have like
+other black stones here. It's actually
+very hard for you to break this out of
+the control of these stones.
+>> So when the final score is tallied,
+would would these ones also count as
+being in um
+>> Yeah, great question. So, so um this is
+where different rule sets have different
+ways of scoring. And so we should talk a
+little bit about how like uh you resolve
+scores between humans and how you
+resolve scores between uh computer code
+>> u because there's actually some
+ambiguity in how humans evaluate this.
+So most humans would look at this board
+configuration and conclude that like
+black has kind of totally surrounded
+white and so white has no chance of
+life. We could play out more here but
+then at the end I would capture
+everything.
+>> Um however if you have a way of breaking
+this formation and connecting white to
+something outside of it then it can flip
+right and so this is where it's you know
+a little bit hard for a computer to
+decide these kind of things. Right? So
+how do humans do it? Right? Like it's
+it's worth thinking a little bit about
+how humans resolve this because this
+will actually map later to how we think
+about the deep neural network. Um humans
+basically say uh I think the game is
+done and then you you have to also say I
+think the game is done and then we'll
+say like I think these are these are
+milestones and then you have to agree.
+If you don't agree then we keep playing.
+>> Yeah.
+>> So um essentially once two humans their
+uh so-called value function um agree on
+a consensus then the then the Chinese
+rules uh result that.
+>> Yeah. Interesting.
+>> So in Trump Taylor scoring um it's
+perfectly unambiguous. So it can be
+decided you know algorithmically by a
+computer. So if if let's say you you
+have this at the end end game the way
+you score this is that you first count
+how many stones you control and that's
+unamiguous.
+>> Then you count how many empty
+intersections that are not touched by
+your opponent's stones.
+>> So these intersections would not count
+for either player because both of all of
+these intersections are connected to
+both white stones and black stones.
+Right? If um this were like this, then
+white would get three points. Now, this
+is uh a little odd because a human would
+know that white is actually losing these
+points. But um Trump Taylor's scoring
+would consider white to have all of
+these points as well as these points.
+>> Got it. Okay.
+>> Right.
+>> So, so that is a very big difference in
+um how computer go scores things and how
+humans score things.
+>> How does the game end? The game ends
+when either a player chooses to resign
+or both players pass consecutively.
+>> Cool.
+>> Yep. So, that's the rules.
+>> Nice. All right. Now, help me correct
+this with AI.
+>> Great. Okay. [laughter]
+>> Let's understand how um Alph Go actually
+works and how somebody in the audience
+might be able to implement it.
+>> Great. Yeah. Let's start with um kind of
+an intuition about the underlying um you
+know search process used to make moves
+and we'll layer on uh ideas from deep
+learning to make it much more efficient
+and tractable. So go is a game where
+there's just two players. We're going to
+draw a person here and we're going to
+draw an AI here.
+And um let's say this person is playing
+black so they go first. So we're going
+to draw
+go here. And then now the AI um is going
+to make a move based on what it sees
+here. So there's a question of like how
+you encode these inputs into the AI.
+Maybe you could use ones and zeros, but
+you want to represent um you know,
+black, white, and empty. So So you would
+need at least three different values
+here, right? So maybe you could use
+zero, ones, and twos or something. So,
+so the AI might see something like, you
+know, 0 0 0
+uh one.
+Great. So, so this is the input to the
+AI uh on its turn. Yeah.
+>> So, so the AI can choose. Let's just
+pick three possible random moves that
+can go. And I just drew these at random.
+And so, which which move is best here,
+right? Well, we don't know until the
+game ends. Um, there's no Go does not
+have any kind of local reward of which
+move here is good. And this is what
+makes Go a very difficult game is that
+you don't actually know who won until
+you really get to the end of the game.
+So, how deep is this tree, right? Well,
+in a 19 by19 um Go board, there are uh
+you know roughly to the order of 361
+moves on any given uh move. And of
+course, as it fills up, you have less
+moves. Um and and the the number of
+steps in the game can be somewhere from
+250 to 300 moves. And maybe experts
+might uh decide to end the game um well
+before that. But uh you know under Trump
+Taylor scoring you actually have to play
+things all the way to the end. So this
+could be like 300 moves or something,
+right? So like 300
+um like depth of the tree.
+>> Yeah. So if you keep on expanding
+possible moves here. So in in this move
+the AI is going and then you know here
+the human would go
+and then you know there's there's some
+and so forth
+you can find that like essentially what
+you end up with is an enormous explosion
+in the possible game outcomes
+originating from just this one state. So
+this is something to the order of like
+you know 361 to 300 power of 300 which
+is far more than the number of atoms in
+the universe right like it's it's just
+uh it's just and of course actually
+there are redundancies and symmetries so
+it's not actually 300 but but that's
+sort of the if you were to do a naive
+tree where there were no merging of
+children then actually you end up with a
+tree about this big.
+>> What do you mean by merging of children?
+>> Right. Let me uh use this board here. So
+if we start here and then you play here
+and then um I play here and then you
+play here that is equivalent to I start
+here you play here I play here
+>> and then you play here right so so both
+of them arrived at the same spot but
+through different paths so this child
+node can be thought about as a shared
+ancestor
+>> and I guess it's not 36 it starts at 361
+but it decreases by one each time
+>> and the branching factor decreases by
+one each time yes but in any case this
+is a very very very large tree. And uh
+this is also why you know computer
+scientists for many years thought that
+go was not a tractable problem this
+century because the amount of compute
+you would need to exhaustively search
+every possible possibility um is just
+too large.
+>> Um if you could go is actually
+deterministic game. So um on any given
+state you can actually compute what the
+uh best possible strategy you can uh you
+can make is in order to win the game.
+can search all the possible futures
+where you win and then just make sure
+you always stay in in in that you know
+set of futures.
+>> Mhm.
+>> Um so Alph Go's kind of core conceptual
+breakthrough was using neural nets to
+make this search problem tractable. So
+before we get into you know how neural
+networks are involved let's talk a
+little bit about how we can you know
+assuming we have a powerful enough
+computer um search this uh this tree to
+find the best move. Right? So in the
+beginning um you're not going to build
+out the whole tree uh because storing
+that tree would be very expensive.
+Instead you might do something like
+interactively figure out which um which
+leaves of this tree are worthy of
+exploring and expanding into the future
+to see you know what else is there. So
+um there are some early algorithms in uh
+bandit literature like you know UCB uh
+one which is not exactly appropriate for
+a you know sequential game like go but
+very much inspired the action selection
+um algorithm used in uh in Alph Go. So,
+so UCB1 looks like on on every move
+we're going to take the best action or
+you know the arg max over a that
+maximizes um um you know the
+Q of A and I'll explain what Q of A is
+in a moment plus some sort of
+exploration bonus.
+So on every node we're going to track a
+few quantities. So, so let's you know
+consider each of these a node. This is
+this is the the root node um where
+you're making decisions from these are
+the children of the root node and um
+we're going to say each node is
+basically a data structure
+that is um it stores a visit count
+of this um this node this this child
+node
+>> is how often the parent visited this
+node.
+>> Yes. And we'll call this an action. So,
+so one thing that is easy to trip on is
+like if you come from uh you know
+robotics or um other kinds of
+reinforcement learning is like where are
+the actions right I'm only talking about
+nodes um nodes here represent states and
+because this is a perfectly
+deterministic game with no randomness
+you can actually just infer the action
+based on the child
+>> so so if I go here that implies an
+action and this is the state that we
+resolve in right so so the LLMs if you
+ask to uh you know vibe code a uh MCTS
+implementation it'll will most likely
+design the right data structure here.
+But um you know it's up it's sort of a
+chef's choice. You can actually rewrite
+the the tree structure however you like.
+This was what um Claude 4.6 wrote for me
+when I when I asked it and it was a very
+reasonable choice.
+>> So um
+>> so then you know Q represents the um
+mean
+action
+value of this action.
+And I'll use a subscript a to denote
+that this kind of corresponds to taking
+a specific action to to get here right
+from from the from the root node. Um so
+so like uh if if we have root basically
+taking a gets us to this this note here.
+>> Um and then we're going to also store
+the probability of taking this action
+[snorts]
+>> again from the parent.
+>> From the parent. Yes. Like like what are
+the odds that we sample this one? Yeah.
+>> And and this will become relevant later.
+you know like uh we we've talked about a
+deterministic tree for now. So I I'll
+bring probabilities into this later. And
+then finally we have a sort of uh
+dictionary of children
+which is just like you know more of
+these notes in a in a sort of classic
+link list style reference tree. So um
+this is the basic data structure to
+implement a tree and um in Alph Go um
+they use a slightly different action
+selection criteria called um pucked and
+it's short for predicted upper
+confidence with trees and uh this is
+basically um when you when you select
+which which child to take you do arg Max
+A of
+Q of S A
+plus
+uh constant.
+So the equation forms are actually
+pretty similar. Um these are both
+scoring criteria, right? like you want
+to argax this quantity and you want to
+arg this quantity to determine which
+action to take. So let's break down the
+intuition of like how you select actions
+here. This is the mean action value. So
+how good is a given child on average? Um
+and and and if you actually you know
+knew the whole tree then uh this is all
+you need, right, to select the best
+action. You don't really need to do more
+than that. But if you're interactively
+building this tree as you're um figuring
+out what the Q values should be, then
+what you have have to do is occasionally
+try some other actions, you know, as a
+sort of explore versus exploit
+trade-off. So um in both UCB and uh
+puck, there is this term here that
+basically rewards um taking actions that
+you haven't taken before. So as we
+mentioned before, each node stores the
+visit count of taking that specific
+action, right? So everything is
+initialized to zero. And so for a given
+action, let's just say like call it n
+like action a um initially it's zero and
+and so as n is increasing if if let's
+say we've already made 10 um 10 uh
+action selections from that root node u
+but we haven't picked a yet then this
+term actually starts to become quite
+large for a.
+>> Yeah.
+>> Right. And conversely if we have chosen
+a 10 times out of 10 then now this term
+is quite small. It it diminishes very
+quickly. And the same thing is actually
+true here.
+Just make sure I'm understanding it.
+Maybe I can uh
+put it in my own words.
+>> Let's just focus on UCB. What we're
+saying here,
+you can think of it conceptually as two
+different things. The Q and then this
+exploration term.
+>> Mhm.
+>> Let's just be clear about what Q is. Q
+is basically saying, hey, once we do
+these rollouts. So, you're actually
+running all these simulations. You go
+down the tree and then you figure out,
+okay, if I end up at the terminal value
+of this tree, do I win this game or not?
+And then you do this, you average
+whether I win this game or not across
+all the, you know, the leaves of this
+tree from starting from this node. That
+average you put in Q.
+>> Correct.
+>> And so you're saying the Q is basically
+representing will I win this game or
+not? Uh what is the probability that
+I'll win this game starting at this
+node? That's your sort of um that is
+your sort of exploit. That is like
+saying I've run these simulations. I
+think this is a good move or not. And
+then this other term is saying um have I
+explored this branch enough yet relative
+to the other actions I could be
+exploring or I have already explored uh
+if I haven't explored this branch yet
+you know maybe I think it has a low
+score but I just haven't explored that
+many branch uh leaves of this uh down
+this uh leaves down this uh down this
+node in this tree. So I should maybe
+like try this even though the Q the sort
+of exploit is telling me that this is
+not that valuable and because ln of n
+grows slower than n. Uh basically as
+over time you will move from the arg max
+being dominated by this exploration term
+which is the second term here to the
+argmax being dominated by the q term
+which is like okay I've done enough
+simulations I'm quite confident that
+like this is the branch to go down.
+>> Yes that's right. So um the motivation
+for UCB was to come up with an algorithm
+where if you don't know the payoff of
+the arms uh the the different actions
+you can select to begin with this uh
+strategy basically with given some
+exploration term here bounds your regret
+>> uh in terms of how wrong you can
+possibly be.
+>> Um I don't know the proof. I don't also
+know if this one is proved to have a
+logarithmically or or like uh you know
+square root bounded regret or anything
+but I think the algorithm was just
+derived to look something like this. And
+you can tell that these terms are they
+grow a little bit differently. And this
+is actually just to account for the fact
+that go has many more actions in every
+given move compared to your standard
+bandit problem.
+>> Um so uh one small clarification to make
+is that you talked a little bit about
+simulations on improbability and so
+forth. Um we should remember that go
+fundamentally is a deterministic game.
+So the notion of pro like where does the
+notion of probability come from here,
+right? Um
+>> uh if you had a very powerful computer,
+there is no probabilities. you just you
+can just compute the true average of
+what the the mean action value is. So
+where does the probability come in?
+Well, it turns out that um uh as in you
+know computer go before uh alpho we've
+always done some sort of Monte Carlo
+method where we have some we we take the
+um expected Q value averaged over a
+randomly selected tree um and that
+randomly selected tree is where
+probabilities come in. So the
+interpretation of Q is um what is the
+expected action value under the um under
+the random distribution induced by some
+random search process.
+>> Makes sense.
+>> And so where does the random search
+process come in? That's where uh you
+know p of action comes in here. So if we
+assume a very naive algorithm where you
+have a uniform probability of taking any
+valid action then this would just be one
+over you know the number of valid moves
+in uh in in this uh setup and you would
+be kind of taking this average over this
+very diffuse tree right and and this is
+uh this is a valid um integral you can
+take but it's very slow because you're
+going to consider a lot of trees that
+have very low value and uh it's
+essentially almost like a important
+sampling problem where you want to
+there's only a few actions and and sort
+of uh paths that can contribute you know
+high value and almost everything else is
+low value. So so this is sort of a
+tricky um problem here. Okay. Um so this
+is the action selection criteria for how
+you decide which moves to move down. Now
+as you move down um in in tree search,
+you will eventually run into a node
+where um it's quite clear you've won or
+lost right at the at the very very end
+of the game when when there are no valid
+moves to play left under under Trump
+Taylor scoring. you can decide whether
+you like you know won or lost, right? So
+you either win or you lost.
+And so this is basically um you know the
+the final return of the whole game,
+right?
+>> Um and so the the question here is like
+we we can assign a um a value u to a a
+terminal leaf node of the tree, but how
+do we assign the values for nodes prior
+to that? the parents. And it turns out
+um you know what you simply do is you
+just take the um your mean action value
+is essentially your average. So let's
+suppose these were leaf nodes. Um sorry
+these were all leaf nodes. The the mean
+action value of this node. You know this
+action here is just the average of
+whether you won or lost at the leaf
+nodes. And uh correspondingly you can
+kind of walk up the chain and say like
+well the mean action value of this node
+let's call this like QB and this is
+action B is just the average of a
+weighted average of these swamps here.
+Yeah.
+>> Right. And and the weighted average is
+um it could be dependent on if you have
+a different sampling distribution or
+not. But the that the basic intuition is
+that you want to resolve the game where
+you have a deterministic win or lose and
+then you can kind of go backwards. uh
+this is called the backup step and
+assign values to these uh these these
+these nodes or actions um uh
+corresponding to the averaged over over
+the final terminal leaf. Yeah. Okay. So
+um if you were to do this without neural
+networks, it would still be intractable.
+Um you would you would have a trouble
+finding, you know, which um actions to
+sample. A lot of the actions would
+contribute very low value, especially if
+you're like, you know, trying to fight
+your way out of a losing position and
+only a few actions give you high value.
+So the search in practice is still very
+very expensive. Um but but the the idea
+is that like if you can because go
+follows a tree structure you can
+actually you know inform a very good
+estimate of the value of this node based
+on the uh values of uh you know
+downstream assuming they're all correct
+and assuming you've searched deep
+enough. Mhm.
+>> Your explanation earlier about the um
+the sorts of states where it's obvious
+to a human who's going to win, but it's
+not obvious to
+>> or like you deterministically you still
+had to play it out
+>> actually drove home the intuition of why
+the value function both is trainable and
+two why it's necessary in order to
+actually h be able to learn this game
+effectively. And maybe it's worth
+defining value in the first place but
+>> sounds good. Yeah.
+>> Yeah. So we we talked about uh you know
+this U value being you know your final
+resolution of whether you won or lost
+and this is the terminal leaf node
+condition. Um now humans don't play all
+the way to the sort of edges of the the
+tree the leaves of the tree right they
+kind of stop you know some dozens of
+moves before maybe maybe even hundred
+moves before in in sort of high level
+play. So how do they know right? Like
+you can think about humans as implicitly
+having a neural network called a value
+function that basically um you know
+takes in uh a board state and then it
+kind of evaluates um you know
+he went win
+and so the human glances at the board
+and they know like I'm probably going to
+lose, right? and and they're essentially
+running a neural network that looks at a
+board and implicitly they are
+amvertising a huge number of possible
+game playouts and and taking that
+average and then deciding whether the
+board is winnable or not and then
+whether they should concede or or you
+know keep playing or not. And uh this is
+remarkable if you think about like the
+um the beauty of something like this.
+It's like a a neural network in a in a
+human can somehow do all of this
+simulation at a glance and then just
+know like within a few seconds without
+actually playing every single game
+logically based on just kind of like
+crystallized knowledge and experience
+that like they can do this. And so this
+gives us a hint that like in games like
+Go um there are ways to basically
+radically speed up the search process.
+And this is one of the fundamental
+intuitions behind why AlphaGo works is
+that you can train a value function to
+look at a board and quickly resolve the
+game without playing out all of these
+trees into the you know into a very deep
+search depth.
+>> Yep. Makes sense. I will say for the
+audience um I sort of found uh
+for previous episodes when I was
+prepping and it would seem somewhat
+relevant to understand how alpha go
+works I would find it very very
+confusing and but it's the kind of thing
+where once you understand the problem in
+this way and then you'll build the next
+few pieces it is actually much more
+understandable and it will make a lot of
+sense and it's okay to be confused right
+now uh but it's it's probably simpler to
+understand by the end of this lecture
+than you anticipate so I'll just make
+that note for the audience Uh yeah, the
+important intuition at a high level just
+to you know step back about where we're
+going with all this is that um
+>> classically for games like Go you could
+build a tree but we don't have computers
+powerful enough for that.
+>> Yeah.
+>> And um estimating the value of every
+action that you could possibly take is
+also hard because you don't know until
+the end of the game.
+>> You could take averages uh by playing
+them to the end, but that's also hard
+because you don't know which actions to
+take to sample these averages. So
+conceptually there's kind of two
+problems there. There's the breadth of
+the tree and then there's the depth of
+the tree. And AlphaGo gives us a way to
+basically u shrink both of those to be
+very tractable.
+>> Yeah,
+>> that's that's essentially the kind of
+core idea behind it.
+>> Okay. So we uh we take this idea that
+like you know humans can glance at a
+board and instantly predict whether we
+win and maybe that gives us the
+opportunity to really truncate the how
+deep we we search. And then you know we
+also know that humans can look at a
+board and um
+and uh decide you know
+um what what boards you know
+like intuitively at a glance what moves
+might be good on a go board right so so
+these are kind of two things that we can
+use deep neural networks for to
+accelerate this search process um let's
+go back before we talked about neural
+nets let's just go back to how this
+playout works and we've only talked
+about making one move right so so the AI
+looks at this encoded goboard. It has a
+tree. Um, it searches for, you know,
+deeply into the tree to find out which
+of its actions might be the best and
+then it takes that action. And then now,
+you know, it goes back to the human. So
+maybe now the human sees a go board that
+looks like, you know, like this. And um
+and then they um they make their move.
+So maybe they put um they put their
+stone here.
+And then now we
+um we go back to the AI
+which now looks at a new encoded board.
+So I've used two to denote the AI's
+playing as white and one to denote the
+human playing as black and zero as
+empty. And then now on the AI's turn, it
+does the MCTS tree search all over again
+from scratch. Right? So, so it throws
+away this old tree that it searched last
+round and now there's a new root node
+and it begins to search a new
+and then so forth. So, MCTS is basically
+a you can think about it like a search
+algorithm that is um deciding what moves
+to play best aided by neural networks um
+and and it's it's done on every every
+move.
+>> Okay, great. So, let's talk about the
+neural network part of this. And while
+you're racing, another sort of thing
+that was important for me to understand
+was this MCTS data structure with nodes
+and childrens of nodes and whatever. Um,
+this is done per move and reinstantiated
+once a move is made. So a human makes a
+move then the AI looks at this and is
+trying to basically run a bunch of
+simulations uh to figure out okay what
+should move should I make next and those
+simulations just a simulation is
+basically like exploring one more node
+in this MCTS3 and at the end um once all
+these once all this you know you run a
+thousand simulations that informs then
+this um I guess as you'll explain this
+probability of what move to make next
+that's what you store you You sort of
+choose the best move given those
+probabilities. You discard all of that.
+Then the next player makes a move and
+you restart this process at the
+beginning of every move.
+>> Correct. One small addendum. You don't
+discard all of that. You keep one thing
+behind that we'll use later.
+>> Yeah.
+>> Yeah.
+>> Just like I did for Reiner, I wanted to
+make flash cards for this episode so
+that people could retain these concepts.
+And ideally, an LLM could generate some
+candidates for me to then refine. But to
+actually get high quality suggestions, I
+needed to design a whole pipeline where
+the AI could take and ingest screenshots
+of [music] the blackboard at the right
+time stamps and then make SVG diagrams
+in case visuals were helpful and then
+run their writing and drawing through a
+critic and then revise the card in
+response to this feedback. It's very
+hard to accomplish this just by stacking
+LLM calls. This sort of step-by-step
+recipe works much better if you have a
+durable agent that's been engaging with
+the task across all the previous stages.
+So, I use the cursor SDK to spin up an
+agent for each card. The cursor hardness
+saved me a bunch of work in designing
+some custom context scaffold or figuring
+out how to design tool calls for taking
+screenshots or making animations. These
+agents all run in the cloud, so I don't
+have to worry about leaving my laptop
+open. I just get an email when I have
+candidates to review. You can check out
+my cards at flashcards.warcash.com.
+You can start building with the agents
+SDK at cursor.com/sworth.
+Okay, so now we have a basic intuition
+of how moves are made with search. We're
+going to talk about how neural networks
+can speed this up uh by providing an
+analog to like the human intuition.
+>> So there's two networks. There is the
+value network
+which takes in a state and it predicts
+you know am I going to win or lose? It's
+a binary classification problem.
+Then we're going to have a policy
+network which uh induces a distribution
+over good actions to take.
+>> So um I'm going to draw a
+one-dimensional flattened move
+distribution, but this is really like
+you know a a square kind of grid, right?
+So um so maybe like it thinks actions
+are like these are the kind of
+probability distribution over good
+actions. And both of these are uh
+categorical classification problems,
+right? So you can train this like any
+classifier in uh with deep learning um
+uh you know cross entropy loss that kind
+of stuff.
+>> So the um the specific architecture does
+not actually matter too much. I I tried
+a few different architectures.
+Transformers work, ResNets work for
+small data regimes. Uh my experience is
+that ResNets still kind of outperform
+transformers and um and it kind of gave
+you more bang for the buck at at lower
+budgets. But this may not be true.
+>> Why is that? um they they provide the
+inductive bias of like local
+convolutions and generally transformers
+start to outperform uh residual
+convolutional networks when you want
+more global context.
+>> I see.
+>> So, so one um interesting finding from
+the Kadiggo paper was that they found it
+actually quite useful to pull together
+global features together um and
+aggregate global features like uh
+throughout the network um to kind of
+give the network a global sense of how
+to like connect value from one side of
+the board to another side of the board.
+But what does it mean to aggregate
+global features?
+>> Yeah. So if you have a um go a very
+large 19 by9 goboard
+>> and you you know you've got some some
+sort of battles going on here and you
+got some battles going on here.
+>> Um when you pass this through a
+convolutional neural network,
+>> the receptive fields of the
+convolutional network are going to be
+good at computing local things and
+making that invariant.
+But um they won't be able to kind of
+connect these two features easily,
+right? They need to sort of be pulled
+together and attend to each other
+somehow. So the argument about you know
+why transformers are good for computer
+vision tasks like with uh you know
+vision transformers and so forth is that
+because they have a sort of global
+attention across the whole thing, they
+can more easily draw these connect
+predictions. But you do need more data
+there so that you can kind of uh learn
+through data the the sort of invariant
+local local features.
+>> Um I've tried very hard to make
+transformers work for this problem
+because I was kind of curious if
+transformers would present some sort of
+breakthrough in go and just remove a lot
+of those tricks. But try as I might I
+actually haven't figured out a way to
+make transformers better than resonance
+for for now.
+>> So one uh sorry one more tangential
+question.
+It it makes sense why transports with
+their like global pooling of information
+would be better if you need to consider
+information that is not just spatially
+um
+uh yeah CNN's give you a sort of bias
+that the things that are next to you are
+especially irrelevant
+>> and then they're sort of aggregated up.
+Yes.
+>> But suppose okay so for games where it
+it isn't that relevant what is happening
+locally you just kind of have to
+consider the whole thing
+>> you're saying transformers would work
+better. How about games where so talking
+about the spatial dimension? How about
+the temporal dimension where right now
+we're only considering the previous move
+because it is a deterministic full
+information game where um uh but what if
+it was something like poker or diplomacy
+where
+really a bluff they made a while back is
+sort of relevant to understanding now
+and isolating to decide to make your
+next movements you need to consider all
+those previous states. Would that then
+change into the consideration of what
+inductive bias is most relevant and what
+architecture is most relevant?
+>> Right. Great question. So, Go is a
+perfect information game. Yeah. And in
+perfect information games, um there does
+exist a Nash equilibrium strategy for
+which you can do no worse than any other
+strategy. M so um if you know that your
+opponent has a particular bias like they
+they love to play aggressively, you can
+actually in principle counter that
+specific strategy better than a Nash
+equilibrium policy. But um to counter
+any given strategy um there does exist a
+single um Nash equilibrium that can be
+decided solely using the current state.
+So um that that is a design choice that
+most Go agents AlphaG go chose to do
+which in hindsight turned out to work
+very well because the uh Nash
+equilibrium seems to be superhuman like
+like no human strategy seems to be able
+to beat it.
+>> Now there are variations of this where
+you would actually need to consider
+temporal history. So, and and this is a
+very exciting research area that I I
+would encourage people to kind of fork
+my repo and try these things out, which
+is um if you were to play, let's say,
+2v2 go, then you actually need to model
+your partner's uh behavior and you like
+you may not have information on how they
+play. So, you need to aggregate some
+information on like how they play so
+that you can respond accordingly. Yeah.
+Right. Like these are uh situations
+where it's no longer a perfect
+information game. And then in those
+cases in in games of imperfect
+information or partial observability
+then you do need some context to build a
+model.
+>> Yeah.
+>> Yeah. And and and I think that's a place
+where things get very very exciting in
+terms of like selfplay or you know
+diplomacy style.
+>> Yeah. Interesting.
+>> Okay. So uh returning back to the neural
+network the architecture again is not
+super important. You can get it to work
+with transformers. You can get it to
+work with resets. I found that for
+lowbudget experiments uh resets work a
+little better. Um, you can also use kind
+of a Carpathy style auto research
+hyperparameter tuning to make make your
+architecture pretty good. And so, so you
+don't have to worry too much about that.
+You just need to sort of set up the
+problem so that you have a sort of
+target optimization.
+>> Yeah.
+>> Okay. So, we're going to pick just a
+somewhat arbitrary architecture that
+worked for for you know what I did. But
+again, this part is not super important.
+um you have your encoded board state and
+uh we're going to just choose to let's
+say do three uh three like you know
+similar to an RGB we're going to have
+three kind of channels uh one channel to
+encode black, one channel to encode
+white and then um and then uh one
+channel maybe to encode like um uh
+empties or um maybe like a masked region
+if you want to train on multiple board
+sizes. I'm actually not going to talk
+about multiple board sizes for now.
+That's a little bit too complicated. So
+we'll just say like you know we've got
+this two or three channel uh RGB like
+image and then we go into a you know a
+ResNet
+and then we have two branching heads. Um
+one head predicts the the value function
+and this is like a single loget. So this
+is like R1 and then we have the policy
+which is you know R 361.
+So
+um this is the architecture and uh we're
+going to basically train this to predict
+the outcomes of games given the board
+state and we're also going to train this
+to predict what are good moves. Yeah.
+>> Right. So the OG AlphaGo paper uh or
+called AlphaGo Lee um initialized this
+network with a supervised learning data
+set of expert human play. Um later they
+remove this restriction by having the
+model teach itself how to play well. But
+I find it actually from a matter of like
+implementation for your audience. Super
+super nice to always kind of initialize
+your your experiments to something
+that's easy and then like you know get
+the problem working before you know
+trying to bite off the whole thing and
+learn a tablet resin. you you generally
+want to kind of initialize just as in
+deep learning init in initialization is
+everything right. Um you always want to
+initialize your research project to
+something as close to success as
+possible. Um especially if you're you
+know doing something new that you
+haven't done before. Like always pick
+something that works and then get it to
+do something better rather than start
+from something that doesn't work at all
+and then you know um try to make it
+work. So um under that philosophy it's a
+great idea to start from something that
+like you know has a good initialization.
+So we're going to take human expert
+plays um and train this model to predict
+um you know good actions right so we're
+going to take all of the winning games
+all all the moves in which a a human won
+and um sorry an expert won and then
+predict those actions and then uh
+regardless of board state like you know
+whether you won or lost you're going to
+predict the outcome. Yeah. So, you might
+be wondering like, okay, well, some of
+the early boards, you know, where
+basically only one stone has been put
+down, how could you possibly know
+whether who who the winner of this game
+is, right? Well, if you have uh, you
+know, hundreds of thousands of games,
+then in on average, you'll probably see
+that boards that start like this have a
+sort of half of the games that branch
+off from this will win and half of the
+games that branch off of this will lose.
+So, that'll actually be fine. When you
+train this model to predict those, the
+loget will sort of converge to uh, you
+know, 0.5. Um and and so so for these
+for these things it's sort of expected
+that once you train the model a starting
+board state will look like 0.5 and then
+as you progress towards the end of the
+game it'll actually look something like
+you know if this is 0.5 the the win
+probability will sort of either go like
+this or it'll it'll go like this right
+and um and this is sort of your move
+number.
+>> Yeah. And so as you, you know, get
+hundreds of steps into the game, it
+becomes much more clear like who's more
+likely to win or who's more likely to
+lose under your expert data
+distribution.
+>> I I didn't understand the significance
+of why the this way of thinking about
+value is especially relevant to the
+expert data.
+>> It is not relevant to the expert data.
+It's true for any data that you train
+on. Yeah. So if you were to learn a
+tablet Raza, you would also expect this
+to fall out. Yeah. So um if you just do
+this like so imagine you know you're
+vibe coding Alph Go and you um you you
+gather some expert data sets from like
+how to go online um or you you know you
+have a data set of human players and you
+train this model actually it turns out
+this model is already a pretty good go
+player. it'll most likely beat most
+human players, right? So, so like if you
+just take this policy recommendation and
+take the ARG max over, you know, it's uh
+if this is the, you know, probabilities,
+if you take the ARG max and you just
+take this action as your go play, um
+it'll be a very very fast go player that
+doesn't think in terms of like reasoning
+steps. it just kind of shoots from the
+hip and it'll be a very strong go player
+which is already quite miraculous if you
+think about like you know 10 neural
+network layers maybe under like 3
+million parameters can already do
+something that impressive
+>> um
+>> um and so you can start this way and
+it's important when implementing this to
+kind of just verify that this is
+probably true. It's good to verify that
+your Go rules are implemented correctly,
+that like you know you can run these
+simulations relatively quickly. Uh and
+and just as almost like a a sort of a um
+a checkpoint that like you want to make
+sure that you can actually do this basic
+step before you try to layer on more
+complex uh things like search.
+>> Yeah.
+>> Um so but yeah, we can do a lot better
+than taking the raw neural network and
+playing the moves. And uh this is how we
+can apply it to Monte Carlo research. So
+let's uh apply the neural network to um
+to improve Monte Carlo research. So we
+start with our root node
+and we now have a four-step uh iterative
+process to do MCTS. So this tripped me
+up when I was first reading the paper
+and trying to understand it. But um uh
+essentially what we're going to do is
+we're going to choose a number of
+simulations. So like you know numbum
+simulations
+and this number varies. This can be you
+know somewhere between 200 to uh 2048. I
+believe in um in the AlphaGo Lee match
+they use tens of thousands of
+simulations per move because they really
+wanted to boost the strength of the
+model as much as possible.
+>> Yeah.
+>> Um but in training you don't actually
+need too many. And Katigo I think uses
+something on this order as well.
+>> Do you know if they used uh if you watch
+the documentary they had a laptop out
+during the game. They didn't use a
+laptop itself. It was like on some
+>> It was on some TPU pod, I think. Yeah.
+Um but now
+>> honestly kind of unfair.
+>> Well, uh
+>> like Lee is not using like one E22 flops
+to do a move, you know.
+>> Fair enough. Um interestingly enough,
+modern Go bots don't need that much
+compute at test time. And what we'll
+actually find out uh as we talk about
+how the um MCTS policy improvement works
+is that over time the raw network
+actually takes all of the burden of that
+big TPU pod and just push pushes it into
+the network and and you can do all of
+that work with one you know neural
+network pass.
+>> Um but but the TPU pod will always add
+the extra oomph on top. And so that's
+what they wanted for the match.
+>> So so we're gonna pick this kind of like
+numbum simulations thing. And uh for
+every simulation, we're going to
+basically do several things
+simultaneously. We're going to see which
+which moves are the best in the current
+tree. We're going to add extra leaves to
+the tree if we get to a point where we
+need to add a leaf. And we're going to
+update the action values for for the
+tree. So that's that's what every every
+simulation involves these kind of like
+four-step process. So, so the four-step
+process is basically selection
+um expansion,
+evaluation
+and backup.
+So, so at the beginning of our um Monte
+Carlo tree search, our tree is very uh
+basic. It only has the the root node or
+our current board that our um AI wants
+to play at. And so we're going to
+basically select the best action for
+this. So when this root node is created,
+we're also we also know that we can
+evaluate this under our neural network
+and get the quantities um you know v
+theta as well as our um probability over
+uh actions
+and I'm going to say root.
+So for all of the actions here we can
+create a bunch of children, right?
+So, so this one has um well in this case
+I'm drawing a 3x3 board with one one
+board missing. So basically there are um
+you know eight possible children uh
+associated with this root node.
+So like
+and each of these has an associated
+probability of taking that action.
+Right? So so there's P8,
+P1, P2, etc. Okay. So at the beginning
+of our Monte Carlo tree search, we have
+our root node and we can initialize it
+with some children, right? because we
+know it's uh the the policy network
+evaluated on the root node gives us on a
+3x3 board with one existing uh stone
+placed eight possible children that this
+uh AI could take. Um so with each of the
+children their policy network also gives
+us the probability of selecting that
+child. So the um first step is to do the
+selection of the tree and again this is
+a very shallow tree. All we have so far
+is a tree of depth one essentially
+right. So our our first move is to
+select by maximizing or arg maxing the
+pucked criteria which is basically you
+know q um qs a plus um you know c pucked
+* p of a divided by n over 1 + n a.
+So for each of these we're going to uh
+you know na is zero for for all the
+actions initially n is zero and um and
+so we're going to basically just you
+know pick according to this um
+initially
+uh what is going to be the you know
+chosen action here is most likely going
+to be biased towards um you know the
+highest likelihood action here right
+because these are sort of uniform for
+every So
+um let's suppose P1 was the highest
+probability node. So you you you
+selected this one here. Now you got to
+this node and you realize that it's not
+a leaf node, right? There are more g
+it's not a terminal game. So you cannot
+resolve the the final resolution. So the
+next step that you do is um expansion.
+>> So you um you will then run this node
+this board state through the policy
+network. Note that this is the AI's
+move, right? like a AI is making this
+move. And so when we expand this tree,
+we're now thinking about what the human
+might do or any opponent might do,
+right? So so this is like you know your
+your your opponent.
+>> Um
+the tree expansion process actually is
+completely uh so so so when we evaluate
+the um the node here, we're going to now
+evaluate the the node from the
+perspective of this player.
+>> Yeah. Right.
+Um so then this one has possible actions
+that we could take and uh we we expand
+basically the the the leaf nodes here.
+So for each of these nodes um that we
+could you know arrive at we're going to
+now check how good those nodes are
+right. So, so maybe um
+from here like the human could play
+here, the human could play here or human
+could play here. And we're going to um
+store essentially the v theta for each
+of these things. So v theta of you know
+node one
+or like node one um prime v theta node
+one
+um and so we're basically using our
+neural network to make an intuitive
+guess of how good is this um board from
+the perspective of this player. And uh
+fortunately because the u it's a zero
+sum game it's easy to deduce that you
+know the value for this player at this
+this step is just one minus the value
+for you know from this perspective. So
+it's easy to flip the search process uh
+depending on which player you're at. Um
+and so so this is the expansion step.
+You've taken a non-leaf node and
+expanded it and evaluated the value. And
+this is essentially a quick guess as to
+like if I were to play to the end am I
+going to win or not? Right? So you can
+almost think about the v theta as a
+shortcut for uh searching to the end of
+the tree for for any given simulation.
+Um and then we're go and this is this is
+essentially the evaluation step. We're
+we're evaluating the quality of each of
+these boards. In original alpha they
+actually did something uh kind of
+interesting which is that they took this
+value and they averaged it with the
+value of a real go playout. So they
+actually played a real game from here
+all the way to the end. So So like I'm
+just going to draw this squiggly line to
+indicate some path. And uh they kind of
+like play this all the way to res Trump
+tailor resolution
+of a full board. And so this is like a
+zero or one, right?
+And so they took this value and they
+just averaged it with with this one
+here. So the the the formula they did
+was like uh you know alpha * v theta of
+of like you know some some node um plus
+uh sort of like 1 minus alpha of a of a
+true randomly sampled playout.
+And you might be wondering like okay
+well how do they play this out right
+like it would be very very costly to do
+another search on on this playout like
+almost like a tree within a tree. So
+they don't do this. Instead they just uh
+take the policy network and play it
+against itself. So they just take this
+as both players and they just play it
+all the way to the end. And and um this
+is something that helps ground the um
+the estimates here in in reality because
+you can get a single sample estimate of
+like whether you win or not. You can
+think about in the end game where the
+board is almost resolved that this one
+actually becomes quite useful because
+the random the the play according to the
+policy will most likely decide a pretty
+reasonable guess of the game and so
+you're not you know facing a problem
+where this one kind of becomes
+untethered from from reality. It turns
+out this is totally unnecessary. So in
+all subsequent papers after Alph Go Lee
+they just got rid of this. Yeah. And so
+in my implementation I also did the same
+and it speeds things up a lot because
+you don't have to roll these games out
+on every single
+>> simulation. Yeah. Okay. So uh again just
+to uh reinforce my own understanding and
+just to reexlain it for the items by the
+way in case it's not obvious the P there
+in the select that is the probability
+coming from the network in this case
+>> correct the policy network here
+>> yeah okay so fundamentally
+a simulation just think of it as like
+rolling out one more node in the search
+process
+>> um almost so a simulation is easy to
+Think about when the whole tree already
+exists, right? You just walk down the
+tree um using the puck selection
+criteria and you you uh and then and
+then you keep going.
+>> Yeah.
+>> Now, uh in Alph Go the data structure is
+such that we begin with a tree that has
+no like basically only depth one which
+is its only children and you want to
+iteratively build out the tree as you're
+also selecting actions down the tree. So
+that's the kind of core thing here is
+that because Go is such a combinatorily
+complex game, you cannot afford to build
+the tree in advance and then search it.
+You must search while building the tree,
+>> right? Okay.
+>> So um let me just finish up with
+actually the last step which is the
+backup. Right. So once you've scored
+these things, you basically take the
+mean the the value the Q value assigned
+to the node here for taking this action
+is now just the average across your
+evaluated values. It's you take a
+running mean over over uh all of the um
+the the simulations that you've taken
+and they average the values of the
+children nodes.
+>> So so that's what is known as the backup
+step and once you evaluate this you can
+actually kind of recursively go back. So
+if you know the you know the action
+value of this node you can then take the
+average on its parent and so on and so
+forth. So so you have this kind of
+four-step process where you are choosing
+the best action that you know of so far.
+Then you may run into a node where you
+uh you you haven't been to before. So
+you need to grow the tree a bit. And
+then you run it through the network to
+guess whether you're going to win or
+not. And then you walk all the way back
+up to the to the root node to update
+your values on what the best moves are.
+So as you do this iteratively, this
+selection criteria will cause you to
+visit the because you're always
+selecting according to this criteria,
+you're always going to be selecting the
+best action you think at any given
+branch. Right? So, so the final um visit
+counts of like how often you chose these
+things will reflect your correct policy
+distribution as induced through this
+search process. Um and so so the visit
+count that we store in the node earlier
+actually becomes the sort of vote for
+like which way we should finally select
+an action here.
+>> Yep.
+>> So um you know as a sort of test of
+understanding it's worth thinking a
+little bit about whether we could make
+this even simpler, right? like could we
+actually maybe even get rid of this one
+and still make the thing work? Um so
+recall that you know when you do an
+expansion and then an evaluation at
+let's say this node you you are checking
+the sort of win probability of each of
+the child nodes right and so if this one
+is you know like one and these are zero
+um you do kind of know something about
+which action might be better to take and
+so why would you need still need this
+right like why not just uh normalize
+this one into some distribution and call
+that your your policy distribution Um
+this is fine. You can do this and um
+this probably does work. But in practice
+having a single forward pass that gives
+you a pretty good guess is um is how the
+uh the breath is is uh is pruned out. Um
+the there is a sort of duality here.
+Like it would be weird if let's say the
+policy recommended an action that
+disagreed with the value, right? If if
+let's say policy said this was very high
+probability but this one said it was you
+know low value then there's actually
+something kind of fundamentally wrong
+between uh between your policy head and
+your value head. So, so they are linked
+and uh you probably could get rid of
+this if you came up with a different way
+to recover this from just the value
+evaluations,
+>> right? But, but just to make sure I
+understand the reason you don't do that
+is so that you don't have to do 360
+independent
+uh forward passes to like hey here's the
+value of everything. Let's arg max over
+instead you can just do one forward pass
+and get like the probabilities of all of
+them.
+>> Um you can usually batch these somewhat
+efficiently. Uh so it probably is not a
+huge computational burden in practice
+but yes you would have to pass 361 board
+like up to 361 boards into a single mini
+batch update to evaluate all the values
+here then normalize them.
+>> Um now there's actually a more uh
+important reason why we still do this
+which is how Monte Carlo tree search is
+used to feed back on itself
+>> um and and sort of recursively improve
+its own predictions and search
+capabilities. And that's where this this
+one having this as an explicit entity
+you're modeling rather than an implicit
+normal normalization over your value is
+is a is a good idea.
+>> Makes sense. Okay.
+>> Okay. So um so we talked about the
+simulations and basically you know what
+you end up with as you roll out the
+number of simulations is a tree that
+kind of looks like
+I'm I'm I'm drawing a very
+lowdimensional version of this. Of
+course, it's in in in the real game,
+it's it's much more high dimensional,
+but like you'll end up with basically a
+tree structure that like has um
+a lot of leaves that kind of terminate
+and are not visited again because their
+value is deemed to be too low. But then,
+you know, along one path there will be a
+set of actions with very very high visit
+counts that kind of gravitate towards
+that one set of decisions as you
+increase uh n here. So, so this is kind
+of like the mental picture of what the
+tree in Monte Carlo research looks like.
+And you should contrast this with like
+an exhaustive tree like in tic-tac-toe
+where you could say like, you know,
+there's there's nine actions and then
+eight and then seven and six and so it's
+a sort of like nine factorial sized um
+tree. Um the Monte Carlo tree search in
+Go is very very sparse, right? It only
+considers the paths that you've expanded
+ch children nodes on. Okay. So, um now
+that we have the search algorithm that
+applies the value function as well as
+the policy function, um we can now talk
+about how the Monte Carlo tree search
+algorithm can actually act as a
+improvement operator on top of these
+guys here.
+>> 20 years ago, Jane Street's data center
+fit in the corner of an office. Ron
+Minsky, who co-leads the tech group
+there, told me about how it all got
+started. One of our comput clusters we
+called the Hive. And I remember the
+first mission of the hive was literally
+like six Dell boxes stacked on top of
+each other at the end of the row. And
+the trading systems themselves we also
+had there because we actually wanted the
+ability to make sure we could turn the
+damn thing off. I mean there were ups
+and downs like literally at some point
+you know one of the people who was
+cleaning the office unplugged one of the
+trading systems in the middle of the day
+as they were vacuuming. So you know in
+the end it is in fact better to have it
+all in a data center. Jane Street's data
+centers have come a long way since those
+six cells and I got to tour one of them
+in Texas with Ron and Dan Pontto Cororvo
+who leads Jane Street's physical
+engineering team.
+>> You know these cabinets, these GB300
+cabinets consume at peak about 140 kW.
+Compare that to tra traditional air
+cooled you're talking about 10 to 40 KW.
+So a lot more.
+>> We got deep into the details of running
+one of these data centers. Things that I
+had never considered before.
+>> It's filled with a liquid uh a mix of
+distilled or deionized water and uh
+propyline glycol. 25% of propyline
+glycol. Um, that's to inhibit any
+bacteria or algae growth.
+>> I don't love the world where we have to
+worry about bacteria growing in our
+servers.
+>> I got to see way more of what actually
+happens in a data center than I've ever
+seen before. Jane Street was willing to
+literally pull up the floorboards and
+take out the racks and take me to the
+back where all the chillers are. You can
+check all of this out at
+janestreet.com/wcash
+where we posted the full tour. Okay. So,
+um we now talk about the RL part of like
+how this thing gets stronger by playing
+itself, right? Um let's say we play a
+game where
+the AI so you make a move
+AI AI um will will kind of compute the
+search and then this is this sort of
+visit count distribution. Um let's say
+this is your policy your policy initial
+policy recommendation at the at the at
+this node
+>> and then after MCTS
+it uh gets more confident about one of
+these actions right and and so maybe the
+the distribution looks a bit more peaky
+like this based on the the search. Now
+of course you can tune the search
+process so that it ends up more diffuse
+but that's probably not a good idea.
+MCTS should get more confident about
+specific actions um than others, but it
+of course might place a lot of weight on
+you know other actions initially and
+then as you increase the number of sims
+it should converge to a very peaky
+distribution. Um so so this is your new
+uh let's call this like pi
+let's wrap this in like a MCTS operator
+of you know a given s right so after
+applying mcts process your your policy
+recommended distribution looks like this
+it's it's a bit more peaky than than the
+previous one um and so then you take the
+arcmax or maybe you just sample from
+this uh it doesn't have to be the arm
+max and then you you make your
+And then um and then you throw away the
+tree and then you you begin a new on the
+next move, right? So
+again like you um you know you compute a
+new distribution.
+So initially maybe your guess looks like
+this and then you refine it through
+MCTS.
+>> There should be one more X on the board,
+right?
+>> I'm sorry. That's correct. Yes.
+Um to something that looks like
+right. So so on every move you have your
+initial guess from your policy network.
+Um and then the search process that
+combines your policy network and your
+value network arrives at a more
+confident action that you take
+>> and and then so and so forth and then
+the game ends and one person wins and
+one person loses. So a um the way that
+uh the beauty of of how AlphaGo trains
+itself is that it actually can take this
+final search process the outcome of the
+search process and tell the policy
+network hey like you know instead of
+having MCTS do all this you know leg
+work to arrive here why don't you just
+predict that from the get-go right like
+why don't you like you know not use this
+guess and just predict this to begin
+with and if you have this guess to begin
+with in your policy network then MCTS
+has to do a lot less work to to get
+things to work. And so if we draw like a
+sort of test time scaling plot um so so
+let's say like this is like number of
+simulations.
+um let's say you know at at zero
+simulations your your sort of implicit
+win rate is like um is like I don't know
+here and then and then um without any
+simul if you just take this raw action
+this is your what your win rate is and
+let's say as we increase the number of
+sims um maybe maybe you kind of have a
+win rate that looks like this right so
+um when you search for let's say a
+thousand simulation steps that gets you
+to a um a policy here that gets you to
+here, which is great. But if you were to
+distill this MCTS policy network back
+into your sort of uh shoot from the hip
+policy network, then you could actually
+um uh you know, start here. Like if
+let's say this was, you know, zero um
+for uh by by distillation, then if you
+spend another 1,000 sim steps, then you
+actually kind of get to here. It's
+almost like if you could just, you know,
+am um amvertise the the first 10,00
+steps actually into the policy network
+instead of the search process, then you
+could begin at a much better starting
+point and then get a much better result
+for for your uh for the number of sims
+that you put.
+>> The sigmoid type nature of test time
+scaling as the number of simulations
+increases the the increase in win rate
+is uh smaller. Is that true even for the
+distilled network? That is to say, is
+there some gain of like, okay, we start
+from the distilled, we get these early
+gains again, or is that just inherent to
+like the nature of
+>> yeah,
+>> MCTS?
+>> To be honest, I actually don't know the
+test time scaling behavior of MCTS
+simulations. And I I believe it might
+actually be quite sensitive to how
+strong this one is in practice. I'm just
+drawing a monotonically increasing
+function that gets to one. So yeah, so
+so don't pay too much attention to the
+shape of the curve. Just know that it's
+monotonic with respect to um Okay. So um
+so so the idea of MCTS is very brilliant
+which is like we're gonna we got
+something better by applying search.
+>> Yeah.
+>> And um we're going to now on our next
+iteration of updating this network just
+train this to approximate the outcome of
+a thousand steps of search. Y
+>> and so instead of starting here we get
+to now have a neural network start here
+and then and then you know the play gets
+stronger once we then apply another
+thousand steps on top of it and you can
+keep going. Right. So the training
+algorithm for Alph Go is to basically
+take the games where you've applied the
+search on every move that the policy
+encountered uh whether you won or lost
+and that's quite important um and you're
+just going to train the model to imitate
+the search process.
+>> So um there's an analogy to robotics
+actually which is the dagger algorithm.
+>> Um uh f first I'm going to draw like a
+uh schematic of like let's say you know
+the states right? So S0, S1, S2, S3. So
+let's say, you know, we we took a series
+of actions in an MDP to
+to get uh a trajectory.
+And these actions may be sub-optimal,
+right? Maybe we lost at the end of this
+game.
+So um there is a family of algorithms
+that basically take trajectories uh and
+relabel the actions to better
+trajectories. So maybe a better action
+here would have been to take you know a
+z prime. A better action here would have
+been to take a1 prime and yet another
+one like a2 prime
+a3 prime. So um
+what MCTS is doing is basically saying
+like you play this game where you
+eventually lost but on every single
+action I'm going to give you a strictly
+better action that you should take
+instead. It does not guarantee that you
+are going to win but it does guarantee
+that you know if you take these tpples
+as training data so that you retrain
+your uh your your policy network to
+predict these ones instead of these ones
+you're going to do better. And uh this
+is very related to dagger in u robotics
+and in imitation learning where you want
+to collect a intervention here and even
+if you're in a in a not great state for
+example like a self-driving car that you
+know veers off the side of the road
+there is still a valid action that kind
+of corrects you and brings you back.
+>> Yeah. Okay. So um pedantic question but
+is there a guarantee that MCTS must be
+better than the policy? For example, you
+could imagine early on in training
+because MCTS is informed by the value
+network. Yeah. early on in training uh
+when the value network hasn't been well
+trained on finished uh games um that
+like MCTS is worse than sort of randomly
+initialized policy. So is it just like a
+heristic that MCTS is better than policy
+or is that like is there some guarantee
+>> right in in practice it is a heristic um
+and it does work in also in practice but
+let me illustrate a example where MCTS
+can give you a worse distribution than
+your policy network. So um and this can
+often happen if your self-play algorithm
+um has trained to a good point but then
+somehow it's uh it collapses because
+it's um it's not trained on diverse data
+or something right so um let's say we
+have a board state where um the policy
+recommendations here are very good so so
+like you know pi of as is like great but
+um somehow because maybe we're playing
+on a lot of games where the the bots
+just resign instead of playing all the
+way to the Trump Taylor resolution, they
+kind of forget um how to evaluate those
+kind of late stage plants, right? Like
+in the in the case that we showed with
+the corner play, maybe like 100% of our
+training data in our replay buffer has
+lost examples of how to evaluate the
+value function at those states. So you
+might end up in a scenario where your
+terminal value um is like very bad. And
+if the terminal values of the leaves are
+not good, then this will actually
+propagate all the way up and cause your
+um your your puck selection criteria and
+your backups to be off and then you'll
+end up visiting a very very different
+distribution than what your policy
+initially recommended.
+>> Um also if your number of sims is low
+then you might also have a variance
+issue where you just don't explore
+enough, right? Like like a it's only
+guaranteed to converge when you kind of
+take n to infinity. Um so so variance in
+you know your search process as well as
+inaccuracies in your evaluation can
+definitely screw with the quality of
+your policy validation and so that's why
+it's not a guarantee to improve but and
+that is why I think I I suspect why
+AlphaGo Lee had the uh playouts to the
+end in their training algorithm so they
+could ground this thing in real plays.
+>> Yeah. Um, in practice, what you could
+also do is just like for 10% of the
+games, you you prevent the bots from
+resigning and you just say like resolve
+it to the end. So, you get some training
+data in your replay buffer to really
+resolve those kind of like latest stage
+playouts that normal human players would
+would kind of uh not play to.
+>> Yeah. Yeah.
+>> So, um, so this is why MCTS kind of if
+you assume that the value functions are
+correct, uh, why it gives you a better
+policy is because yeah, assume and it's
+a very critical, you know, chain of
+assumptions. Assuming that this is
+accurate, then uh your search process
+should give you a better recommendation
+than your initial guess,
+>> right? Okay. So, if you have a cold
+started policy, uh you have an alpha
+zero type thing, really what's happening
+for the first few epochs is the policy
+is kind of useless. And what you're
+really just doing is hey, let's play
+full games. And uh once we have a played
+full games for the preceding moves,
+we'll have labeled
+who won, who didn't win, and the loss
+for Alpha Zero has two components, which
+is like how good is the policy relative
+to MCTS and how good is the value
+prediction relative to who actually won
+the game from this move. And this is
+this sort of like you can think of this
+being applied to every single action or
+every single move.
+>> Correct? And really what's happening at
+the beginning of alpha zero training is
+just like we're trying to get the value
+function to actually predict who will
+win the game if you're if you find
+yourself in this state and you're this
+player uh and functionally that's all
+that's happening and later on once
+that's well trained now the policy is
+also improving
+>> correct
+>> okay
+>> one trick I did find to be pretty useful
+and this is not a peer-reviewed claim so
+just like take this with a grain of salt
+is like I I found it useful in my own
+imple implementation to do do the
+following um you want to first make sure
+that this is good before you invest a
+lot of cycles doing MC tests, right?
+Like like it it doesn't really make a
+lot of sense to do search on garbage
+value predictions. Um so so you want to
+kind of start at a good place where this
+works. Alph does a very good thing where
+it just takes human games and then you
+you like uh trade on it and it just
+works, right?
+>> Totally works. Um you could also take an
+open source go play against itself um
+generate data also works. Uh so so if
+you have some like offline data set that
+um that uh has realistic good play you
+can easily learn the latest stage um
+value functions pretty well and that's
+the that's what you kind of need to
+start the search process.
+>> Sorry can you just read this sentence
+one more time?
+>> Sure. So so um it it's quite easy to
+evaluate a late stage go game like when
+almost all the pieces are on the board
+>> like it's almost like a decidable
+problem right because it's the lower and
+lower uncertainty as to like the depth
+of the tree. So um most games played to
+the end by reasonable people um will be
+good training data to train a good value
+function at terminal parts of the tree.
+>> Got it. Okay.
+>> Then as you play more games the um the
+the search will back up good values into
+the the sort of intermediate nodes of
+the tree. And then like as you increase
+the amount of data your your value head
+gets a good intuition of like what is a
+healthy board state versus a not healthy
+board state. Yeah. That that those are
+much more subtle to judge in the midame
+than the beginning or the end. So, so
+the most difficult part to score is like
+not the beginning or the because the
+beginning is just like obviously 0.5 and
+then at the end it's like pretty obvious
+who's winning. So, so the hard part that
+you want to learn in the value function
+is like who is winning in the middle
+>> and so this is this is actually very
+analogous to TD learning.
+>> Yes. And there's a a beautiful
+connection to TD learning that we can
+you know talk about in a bit uh as
+opposed to you know contrasting with
+Monte Carlo research. So um so you first
+want to get good value functions and
+expert data can kind of give you a quick
+shortcut. I recommend for you know
+practitioners just do that first just to
+you know initialize to a good starting
+point and then if you want to do the
+alpha zero thing or um or kadigo kind of
+tab raza learning um then what you can
+try to do is on a small board play
+random games just take a random agent
+and if you play like uh you know 50,000
+games you'll actually learn a pretty
+good value function as well because on a
+9 by9 board there's actually um you can
+see enough of the common patterns with
+random play and then if you train a
+model that kind of can train on both 9
+by9 in 19 by9 data um and Katago was a
+was a proposed one of these
+architectures then um there's some
+pretty good transfer learning from the
+value uh value head evaluated at 9 by9
+to the 19 by9
+>> right because this this unlike other
+games has much like a very much a sense
+of like there's not like a new kind of
+piece that is introduced when you
+increase the size or something
+>> if if we take it to its limit and
+consider like a very tiny like 4x4
+goboard like if you play 50,000 games
+you're going to have a lot of end states
+that look like human play right like
+it's just like tic-tac-toe at that point
+So, so if you like broaden this a little
+bit to like 9 by 5 x 5 or 9 by 9, it's
+not unrealistic to imagine that like
+purely random play will actually
+generate pretty reasonable looking
+boards. Um, and then so you can score
+those pretty easily. And so that is what
+gives you the bootstrapping to be able
+to then improve your policy with search.
+>> But it's very very critical that MCTS
+has accurate value uh estimates and you
+need to ground the value. Ultimately
+MCTS will fall apart if you don't have a
+grounding uh function for um for the
+value. I I'd be curious how much compute
+you save by training the value and
+policy on the same network that because
+they share the same representations, how
+much more efficient learning is because
+that would be interesting if um they're
+basically kind of we've just talked
+about how they're kind of making similar
+predictions or they should be in line
+with each other. Yeah.
+>> And so I'd be curious if like actually
+yeah you just you're you're like having
+the amount of compute you had to do by
+keeping the same network.
+>> Right. AlphaGo Lee, the original AlphaGo
+paper had two separate networks and then
+um in all subsequent papers um they they
+merged them into two heads and
+presumably this saves compute. But
+answering that question in a very
+rigorous scientific way is actually uh
+it's it's a simple question but but in
+practice actually takes like if you
+really want to chase that question down
+to its its limit. It's uh it takes quite
+a bit of work to you know really solve
+that.
+>> Um but intuitively yes they share a lot
+of representations. So, so and you know
+as we mentioned there is there is a sort
+of like your your policy network and
+your value network when doing evaluation
+should kind of agree right so there
+there really should be this sort of
+consistency between them.
+>> Yeah. Tell me if this is the wrong way
+to think about it. I feel like when I
+learn how an LLM works and how simple
+RLVR is, at least
+as an algorithm, how simple it is, I'm
+sort of stunned by the kinds of things
+it can do. Uh that it can learn how to
+build very complicated code repositories
+and whatever simply from getting like a
+yes no. And here I feel like the if you
+understand it more deeply of like just
+predicting MCTS and
+it actually seems AlphaGo seems less
+impressive in retrospect the more you
+understand it because you're like oh
+you're putting in a lot of bias by just
+saying how much you you're like telling
+it how we should titrate exploration as
+things go on you're building this very
+explicit uh tree search for it and so I
+don't know if you show that intuition
+where it actually the more you
+understand it the less impressive the
+accomplishment in 2017 seems themes.
+>> I uh I personally disagree. I I think
+they're profound for different reasons
+and I don't understand the LM RL like
+enough to like kind of comment on your
+podcast about it. Um but um
+>> I think AlphaGo so so yeah, why is it a
+profound accomplishment? I think maybe
+it's worth stepping back a little bit
+and just like
+>> uh it is different than modern RL and we
+can talk a little bit about like some of
+the algorithmic choices there but um I
+think the most profound thing here is
+that a um a 10 layer neural network pass
+so basically uh 10 steps of 10 steps of
+reasoning.
+>> Yeah.
+>> And of course the reasoning is not just
+one trail of thought. It could be like
+the distributed representations and a
+lot of thoughts going on at the same
+time. But uh by construction, let's say
+a 10- layer neural network can only do
+10 sequential steps of thinking, right?
+>> Um 10 steps of neural network paralyzed
+distributed representation thinking is
+able to amortize and approximate to a
+very very high fidelity a nearly
+intractable search problem. Yeah.
+>> So, so this was a breakthrough that I
+think most people don't even understand
+today like fully comprehend like how
+profound that accomplishment is. And
+then this is what also girds like um
+alpha fold for example, right? Like um
+uh where you have a very very difficult
+physical simulation process that you
+would need to roll out so many
+microscale simulations and yet like 10
+steps of a somewhat small neural network
+can somehow capture what feels like a
+you know MPL class uh problem into a
+single um problem. And and so I I it it
+actually makes me wonder if you know our
+understanding of problems like P equals
+NP or you know these very fundamental
+like computational hardness problems are
+>> incomplete right like like it's not like
+you know obviously this is not a proof
+of like P= MP or anything but but
+there's something to it that like kind
+of is very disturbing where like what
+felt like a very hard problem can fall
+to a very very simple macroscopic
+simulation.
+That is a very interesting insight that
+a lot of problems which are proven to be
+np hard like I don't know if go is
+proven to be np hard but okay protein
+folding etc have been like neural
+networks can solve them because they're
+np hard in the worst case but we're not
+dealing with the worst we're usually not
+concerned about the worst case we're you
+know these problems have a lot of
+structure to them usually
+>> yeah I I think that the the the kind of
+question we should be asking ourselves
+is like we've been formulating you know
+solutions to MP hard problems as in like
+kind of worst case complexity
+>> and I wouldn't say you know this solves
+go right it doesn't give us a exact
+solution of the optimum
+>> but in practice like it is extremely
+useful
+>> and the same thing has been shown in
+like alpha tensor alpha fold where like
+>> yes there is a very hard problem that in
+the worst case seems intractable and yet
+we're able to make like almost arbitrary
+amounts of progress so so here's a sort
+of like uh you know in the limit what is
+what what what might this look like
+right well um if you want to simulate
+you know something very complex like
+weather or um predict the future like
+you know do we live in a simulation or
+not. Um the computing resources you need
+to build a very complex simulation might
+be much smaller than you think based on
+you know our ability to amortize a lot
+of that computation into the forward
+pass of a single network.
+>> Interesting. So to me, yeah, Alpha Gold
+was the first paper that kind of like
+really showed this like profound level
+of, you know, simulation being
+compressed into a small amount of
+>> um I feel totally not at all qualified
+on the computational complexity of the
+math to comment on this, but I wonder if
+um there's an important role of chaos
+here where
+if under what is the problem with
+weather and why does it take 10x the
+amount of resources to predict weather a
+day out? uh and continually so for every
+more day out is because it's a chaotic
+system and so small perturbations can
+totally change the final estimate as as
+time goes on and um I guess it's
+interesting well I guess you would
+expect that for go and protein folding
+as well
+>> so here's an analogy to weather that
+that might be relevant in go so um the
+problem of like you know here's our
+current board state
+>> um
+given what we know about both players
+what is the board state in the future?
+>> Yeah.
+>> What is the exact board state in the
+future? Right? This is
+>> uh this is extremely sensitive to
+initial conditions like a single stone
+place here can kind of disrupt the
+entire prediction. Yeah. Right.
+>> So this is hard. This is kind of
+intuitively the chaotic problem. Um
+>> and yet somehow
+so this is this is hard. Somehow we can
+predict who's going to win.
+>> Yeah.
+>> Like and this captures a lot of
+possibilities here. M
+>> and so there's this more macroscopic
+quantity that we really care about which
+is the average or expectation or some
+sort of global macro structure over a
+lot of like you know possible futures.
+>> Interesting way to think about it.
+>> And so so in in weather it could be the
+same thing right like we don't exactly
+care like what the you know velocity of
+wind 6,000 uh feet above a specific
+latitude longitude is. We kind of care
+like where's the hurricane or you know
+you know things like that. And and I
+would say like in chaos, you know,
+there's a classic like Lorenza tractor
+which kind of looks like this, right? Um
+yes, you you don't if you start anywhere
+on the Lorenza tractor, you don't know
+where you're going to end up,
+>> but you you do know that the thing looks
+like this.
+>> Yeah. Yeah.
+>> Right. And and so there's this kind of
+beauty of like sometimes we don't
+necessarily care about the microscale
+things. We actually care about the
+macroscopic structure.
+>> Interesting.
+>> And and these things can be predictable.
+>> And contrast that say to something like
+a hash function which is also incredibly
+dependent on initial conditions. but
+doesn't have a macro structure at least
+hopefully if like the work. Yes.
+>> Um and so there's like no equivalent of
+a value function or like broadly how's
+the weather going to be that is
+interesting there. It's really just
+about what is the move what is a board
+going to look like 100 moves from now.
+Exactly.
+>> Uh yes intuitively that seems correct. I
+I uh and then again this is also out of
+my my area of expertise but I um I find
+it interesting that like cryptography
+has not been able to like um the tools
+of cryptography and uh you know um
+hashing have also not been able to prove
+that like uh you cannot come up with
+fast approximation like you cannot come
+up with fast approximations right if
+that if they were able to do that then
+you could prove p is not equal to m
+>> yeah yeah in fact we know that there's
+structure in many cryptographic
+protocols obviously like uh uh rsa
+cryptography there is structure and that
+structure is what quantum computers
+exploit to to break them. Right.
+>> I see.
+>> Um Reiner has a very interesting blog
+post which we talked about in the
+episode where he uh talks about how if
+you look at at a high level what
+cryptographic protocols look like and
+what neural networks look like. It's
+extremely similar
+>> where you have sequential layers of
+jumbling information together. And it's
+because there's been this convergent
+devolution in the algorithms where in
+cryptography you want the final state to
+be incredibly sensitive to initial
+conditions so that it can come out sort
+of looking jumbled based on if you
+change anything and then neural networks
+you similarly want everything to be
+dependent on all the information because
+you want to process all the information
+and consider how it relates to itself.
+>> Yeah, you have the maximum power of a
+neural network at the edge of chaos. Um
+I think there's some like research
+papers from uh Joshua Schlick's team on
+on on this.
+>> Yeah.
+>> Yeah. Like like there's something kind
+of quite fundamental about like chaos
+that is it's not just like hopeless
+noise. It's like there's something kind
+of useful, right, in in um in chaotic
+systems at least at that boundary. Um
+>> but yeah, this is just my like think
+about as a philosophy. I don't I don't
+actually know the math uh well enough to
+comment on it. Anyway, if we um go back
+to um we'll talk about LMRL in a little
+bit because there's some connections
+there, but let's just go back to like
+the MCTS like what is it doing? It is
+not um crucially it is not saying we're
+going to uh increase the probability of
+winning directly. It's not going to say
+like we're going to um upweight all
+actions that won and downweight all
+actions that didn't win. Yeah. Um,
+importantly, what it is doing is saying
+for every action we took, we did a
+pretty exhaustive search uh on MCTS to
+see if we could do better and we're just
+going to make every action that we took
+better by predict like having the policy
+network predict that outcome instead.
+And and so this is um a very very nice
+idea because you have one supervision
+target for every single action.
+>> Yeah.
+>> So the the variance of your your
+learning signal is very low compared to
+the alternative naive RL thing. So, so
+let's actually consider what let's
+consider a very naive algorithm uh uh
+that looks a lot more like you know
+modern LM RL today where where we do
+something like um let's take the winner
+of a self-play game and encourage it to
+do more of that. Okay. So, uh it's worth
+kind of thinking a a little bit about
+like, okay, what are some alternatives
+that we could do to train self-play
+agents instead of MCTS, right? Like, you
+know, we use a lot of uh LM style RL
+these days. Like, is that relevant?
+Could we do that instead? Um so, so
+let's think through this a little bit.
+Let's suppose we have a very naive
+algorithm where we take a league of
+agents of different checkpoints and we
+play them against each other. And um for
+for the games where a single player
+wins, uh we're going to reinforce those
+actions up and then and then uh and and
+train retrain the policy network to
+imitate those those guys instead of uh
+instead of the MCTS objective. Um so
+what ends up happening is let's say you
+have a chain of actions that led to a
+win and you're you're you have a matchup
+between two agents that are basically
+the same. So in fact, let's just assume
+that like uh you know policy A and
+policy B are like evenly matched, right?
+So they're true their true win rate is
+is like 50%.
+Um so let's say you play a 100 games
+and then uh each game let's say lasts
+you know 300 um moves
+and um you're doing some sort of like
+evolution strategy or some way to
+perturb these things to get them get
+them to do different things or maybe you
+don't and you just play them against
+each other and you see like occasionally
+this one might actually have a better
+strategy than this one, right? And so so
+let's say um you know 51 games um policy
+A wins
+and then 49 games policy B wins. And
+this is just due to random luck or maybe
+you perturbed policy A in some way that
+let it do this. And just to have a very
+very simple model let's pretend that for
+u for like uh 49 of the games they
+played exactly equally. Um, I'm sorry.
+For for 50 of the games, they they
+played exactly equally, right? Um, and
+on that one game where this one won, it
+it played slightly differently. It made
+like one critical move that like, you
+know, normally it would have done
+differently, but due to some exploration
+or some random noise, it just happened
+to make a smarter move than it did
+previously.
+>> So, you have one supervision signal,
+like one true supervision signal for
+your policy network. Um,
+and then you have uh 99 games times 300
+moves for which uh imitating those
+actions gives you exactly the same
+policy you had before.
+>> And so the um the scale of your variance
+is actually very bad because it's like
+you only have one label out of this
+enormous data set of of actions of
+supervision actions where you want
+actually sorry let me let me let me
+clarify a little bit. Okay, so we were
+just talking about how the good move,
+the out of distribution move is a small
+fraction of all the moves that are
+played across all the games on which
+you'd want to train. And um this of
+course reminds me of how LLMs are
+trained with policy gradient methods. Uh
+Karpathi was when he was on the podcast
+called it like sucking supervision
+through a straw. Um and uh and so yeah
+it's interesting that this like this
+thing you're saying which would be
+intractable and prevents you from
+actually getting beyond a certain level
+in go is just by default how LM are
+trained question mark
+>> right so um in this case this is not to
+say it doesn't work right like if you
+imagine increasing the number of games
+to like you know millions of samples you
+actually can get some meaningful
+supervision like samples so long as you
+find a way to sort of mask out the
+supervision from these guys and then
+this is where things start to get pretty
+related to RL in terms of advantage and
+baselines and so forth. So, so let's um
+let's look at the, you know, the
+gradient variance of a very naive
+approach like this where um I'm just
+going to call it like gradient RL and
+it's basically the you know sum of
+rewards.
+Okay, I see what you're saying.
+So, so the sum of rewards is the return,
+right? So, so like uh in in our naive
+setup here, we only have a indicator
+variable for the return where either you
+won or lost. So
+um so in the case where you lost well
+you just don't train on your gradient is
+zero you don't train on those examples
+and when you won you try to predict
+those those things right so so you can
+think about this setup as a as a special
+case of this general formula here
+>> um the um the trouble here is that this
+is very high variance because when you
+multiply these terms out when you take
+when you try to compute the variance of
+this and so so variance of the gradient
+is equal to expectation of
+squared minus
+and just for simplicity we can pretend
+this is like you know on average zero or
+something if if you're centering it at
+at you know no signal. Um and uh the
+variance here basically means that
+you're you know taking the square of
+this product term and so you end up with
+uh a term that kind of grows
+quadratically with the with t. So so
+variance um when you have a setup like
+this this thing acts as a coupling
+effect on top of of these terms here.
+So, um
+um let's actually map this to an LM case
+and we can answer like why do LLMs only
+do onestep RL instead of a multi-step RL
+scenario.
+Um in LM you have a decoder that might
+you know predict some words like hello
+world.
+And so in current LMRL they treat this
+entire sequence as a single action just
+a t and big t is just one right. And so
+yes it is true that you know the uh
+because of how you know transformers are
+formulated uh through the sort of
+product of conditional probabilities. Um
+we do have uh you know probability of
+this sequence is equal to the sort of
+sum of log probability of the whole
+sequence is equal to the sum of the
+probabilities of like you know uh
+individual tokens right so so in this
+case I would um
+I would say something like you know log
+hell plus log
+low
+plus log world. So um this is true
+and if this term were one then they
+would be the same thing. However, um in
+sampling things, if you have a reward
+term assigned to every specific token,
+now you have these interaction effects
+between the cross multiplication of
+these terms and these terms,
+>> right?
+>> And so the problem becomes how do you
+ascribe the credit associated with every
+episode to all these different terms
+here?
+>> I guess the thing I'm confused on is
+what would that even look like to do it
+that way in um
+>> in LMS? in LLMs because you do you only
+do get a reward at the end of the
+episode. So
+>> you could imagine a reward that says
+like I'm gonna give you some process
+supervision. Yeah.
+>> Uh where you get a reward for each of
+these actions on every step.
+>> Okay. So you're saying if instead of
+doing it that way where you um well I
+guess the way you've written it, it
+would be a sum at the end anyways. So it
+would they wouldn't have to be
+multiplied. But you're saying instead of
+doing it that way, you would just add up
+this process rewards at the end and then
+treat that as one single reward signal.
+>> Correct. For one single log action.
+>> But um isn't that how it's written to
+begin with anyways? Like the sum of the
+uh rewards.
+>> So So the the thing that's a little bit
+hidden here in the math is that we're
+assuming that when you decompose the
+problem to a multi-step problem that
+you're now introducing kind of
+correlations between your actions
+through the computation of this guy. And
+uh so if you separate these things out
+then there will be um this this will
+magnify the variance of of this one
+>> right
+>> so in in the case where you don't
+separate it out if you just have t=
+equals 1 you just have a single estimate
+of log prop and a single estimate of
+reward.
+>> Now um there are this this term still
+shows up in L. So in LM it looks a
+little bit more like the naive
+reinforced estimator looks a bit like
+return of the single action plus uh
+times you know
+it looks kind of like this. This is sort
+of the very uh basic form here but this
+is still a contributor to variance. Um,
+so you want to make sure that like you
+don't uh similar to how in this case we
+were training on a lot of neutral
+labels. You want to make sure that
+you're subtract you're sort of
+penalizing the labels that don't help
+and only rewarding the ones that
+actually make you better. Right?
+>> Right. So intuitively the analogy here
+is like can we find a a term in our
+training objective such that it's
+actually kind of discouraged from doing
+this or you know these don't have any
+effect on the gradient and this has an
+effect on the gradient.
+>> Right? I I guess if you applied that
+there, the only thing you could do is
+eliminate
+49 of the games. So at least the way you
+have earned there, you would be um 51
+times actually the optimal case is to
+pull out discard all of these moves and
+only get a gradient on that single move
+that you got better.
+>> Yeah. H but how would you do that?
+>> Right. So this is a a pretty tricky
+problem in practice. Um and so this is
+where advantage estimation happens in
+reinforcement learning. So you want to
+subtract
+um you know a term from
+from um
+from your your multiplier instead of an
+indicator function of like one and zero.
+You want something that kind of behaves
+like a zero for all of these guys
+>> and then a one for all these ones.
+>> Yeah. But you so you could do that if
+they're um if you can say, "Hey, I won
+in this game, so this is slightly above
+baseline performance."
+>> Well, you won on a lot of games. Uh
+>> exactly.
+>> But but you don't know which ones let
+you win because they were truly better
+versus winning on access.
+>> How would you design a baseline where
+it's truly better?
+>> Yeah. So this is where in RL people use
+things like TDarning to better
+approximate the quality function, the Q
+that we mentioned earlier. So you can
+try to subtract that from your um your
+your your return. So so ideally what you
+really want to do is in RL you want to
+um push up the actions that make you
+better than the average and um push down
+the actions that make you worse than the
+average. And they call this advantage.
+There are multiple ways to compute it. I
+highly recommend John Schulman's general
+advantage estimation paper as like a
+good, you know, treatment on how to um
+how to like think about various ways to
+compute it. But the at the end of the
+day you know um you you want to reduce
+variance by trying to make this smaller
+and so it doesn't magnify the variance.
+>> So but um this requires you to have a
+very good estimate of what average
+performance from a state would look
+like. And this is this gets gets us back
+to the value function thing we're
+talking about earlier,
+>> right? And and so this uh keep in mind
+that in this case this model free RL
+setting uh is trying to solve a credit
+assignment problem where you don't know
+which actions were actually good and
+which ones were bad.
+>> Monte Carlo research is doing something
+very fundamentally different which is
+it's not trying to do credit assignment
+on wins. It's trying to improve the uh
+the label for any given action you took.
+And so we can actually think about a
+completely different algorithm called
+neural fictitious selfplay which was
+used uh to great effect in uh systems
+like Alphaar and um and OpenAI's Dota.
+>> Um so so let me talk a little bit about
+how um how you can kind of unify some of
+these RL ideas in the model free setting
+as well as the selfplay setting.
+>> Okay. So what happens if you don't have
+the ability to easily search a tree,
+right? Like in go it's a perfectly
+observable game. you can easily
+construct a pretty deep tree that
+completely captures the game state in a
+game like Starcraft where you don't have
+really complete control over the binary.
+It's it's a little bit hard to do this
+and I'm not even sure if it's a it's a
+deterministic game, right? So So that
+makes this uh kind of difficult from a
+data structures perspective. So um what
+is done instead is that the basic idea
+of supervising your actions with a
+better teacher is still there, right?
+So, so if in a given neural fictitious,
+so we're going to talk a little bit
+about how neural fictitious selfplay
+works.
+Same idea. We're going to like come up
+with better labels for each of the
+actions we took just like in MCTS. But
+how do we derive the better labels?
+In MCTS, we uh perform search to and
+assuming we have a good value function,
+the search will kind of give us a better
+result than our initial guess. In um in
+a game where you can't easily simulate a
+search process, what they do instead is
+train what is known as a best response
+policy.
+So you fix your opponent. So let's say
+you you're you're currently training pi
+A against
+um a strong opponent pi B. Uh in
+Starcraft maybe like you know the are
+the zergs and you're playing protos or
+something. Um
+so you fix your opponent and you treat
+this as a classic model free RL
+algorithm where your goal is just to
+beat this guy. And so here you use your
+standard TD learning style tricks or use
+PO or any actually like you know model
+free RL algorithm to try to hill climb
+against winning this player. And so um
+you train you train uh basically you you
+have a reward function that's like you
+know return is like you know
+one if wins
+against
+IB. So this is no longer a self-play
+kind of problem, right? This is just
+like a fixed opponent and you're just um
+solving trying to maximize um a score
+against against that and then you know
+zero otherwise. And so you're you have a
+sort of fixed environment where all you
+care about is just beating this guy. And
+um once you have a good policy that you
+trained with uh you know pick your
+favorite model free R algorithm PO or
+SAC or you know any kind of mixture of
+the or you know uh VMPO or whatever um
+you now have a good policy that gives
+you a good label for what this one
+should do when playing against that
+player. And when you train multiple best
+response policies you can basically then
+distill the RL algorithms into the
+labels for a given opponent. So you
+might have let's say a best response
+policy against pi B and then maybe you
+have a colleague of you know um of
+opponents like pi B pi C pi D and you're
+going to take the best response policy
+that you train against each of these
+fixed opponents and for this one you're
+going to uh supervise them with the
+label that this one would provide. So it
+is kind of like this is almost like a
+proxy for your M MCTS teacher, right?
+Instead of MCS teacher, you use a model
+free RL algorithm to find the best
+search action that you could do to uh to
+to kind of beat your opponent. And then
+you're finally you're distilling the um
+the policy here into what is known as
+like a a mix strategy where it's trying
+to basically average across all possible
+opponents you could play against. And
+this is what gives you something that
+can do no worse than like you know an
+averagely average selected opponent from
+the league. And and so this gets around
+the problem of having to derive a
+teaching signal from MCTS, but it still
+fundamentally is about relabeling your
+your your states with better actions so
+that they improve your policy.
+>> And just make sure you understand this
+is like if you win against win a game
+against this other policy, you sort of
+reinforce all the actions.
+>> Yes.
+>> On that trajectory.
+>> Yeah. So here you can use a number of
+algorithms like PO VMPO
+um you know Q-learning even if you want
+like
+>> uh the specific algorithm here um can be
+you know it's usually a model free thing
+because you don't have search but
+there's an interesting connection from
+MCTS and Q-learning that I I want to you
+know bring up so in MCTS you do
+something where you have a tree
+and through the resolution of your your
+value function at the at the leaves of
+the tree or you know your approximate
+leaves of the tree, you can kind of back
+up through through the you know the the
+sequence of many sequences and then
+obtain some sort of mean value estimate
+right your Q is kind of derived from the
+average of a bunch of simulations. Um in
+model free algorithms
+there is often a component uh of
+estimating a Q value and so um and Q Q
+values are often learned through TD
+learning although in PO the the way that
+they do advantage estimation is not
+necessarily through a Bellman backup but
+um but in Q-learning there's this kind
+of very cool trick where um you do
+you know QSA is backed up as R plus you
+know some discount factor times the max
+a Q of your next step. So intuitively
+how this works is like if you have a MDP
+and then this is like you know terminal.
+What this is sort of saying is that like
+the best action you can take at this uh
+state is equal to the reward you take
+for you know taking this action plus the
+best that you can do at the next state.
+So there's a sort of recursive and
+dynamic programming property of of MDPs
+and you can train neural networks to
+basically try to enforce this this con
+this uh consistency right so you can say
+like well once I know the Q value of
+this action I can then use that to kind
+of compute something about the Q value
+>> so when earlier I was like hey why are
+we training a policy why don't we just
+train the value alone that that is what
+this is
+>> um this is a algorithm for recovering
+value estimates of intermediate steps
+when you don't have the ability to do
+forward search.
+>> So you must collect a trajectory first
+of like n steps before you're able to do
+this trick.
+>> Um but the intuition is kind of the same
+which is that like knowing something
+about the Q value here
+>> can tell you something about the Q value
+here and indeed you can recover a policy
+from a Q value right. So so the um you
+don't need to explicitly model the
+policy distribution you can actually
+recover the policy distribution by doing
+argmax over your um your Q values. Yeah.
+So, so Q uh Q-learning or um you know
+this kind of like uh approximate dynamic
+programming kind of propagates what you
+know about the future cues backward like
+this, right? And you can see that
+there's a sort of similar structure that
+goes on here where uh in in this case
+you're planning over trajectories your
+agent hasn't actually been to yet.
+Whereas in this case you're planning
+over trajectories your your agent has
+visited.
+>> Um so so importantly why does Q-learning
+you know why was Q-learning a big deal?
+Right? like it's because historically we
+just haven't had the ability to do
+search on fairly high dimensional
+problems like robotics or whatever. So
+for a long time we kind of make the
+assumption that like okay well if we
+can't model the dynamics with like a
+world model or something we're going to
+instead just collect trajectories
+>> and then plan with respect to the only
+number that really matters which is
+reward.
+>> Okay so this is very interesting and
+then to unify this with our discussion
+of LLMs. So with LLMs you're doing
+something you don't have Q values but
+you're doing this sort of backwards
+learning where hey let's find the
+trajectories which pass some unit test
+in some coding environment and then
+let's reinforce those trajectories
+>> and then there's a huge difference
+between that and this forward approach
+with MCTS and the reason you can do MCTS
+and it's much more preferable to do MCTS
+because you can do it per move uh and
+make each move better rather than having
+to learn per trajectory um and hope you
+know as Karpathi hope to learn this like
+straw.
+>> Yeah. To get the supervision through a
+straw. Uh basically just upgrade all the
+tokens in a trajectory that might or
+might not have been relevant to getting
+the answer right. The reason you can do
+this much more sort of sample efficient
+uh much more favorable thing with go is
+that because MCTS works in go you
+basically know that hey if I just do
+search locally here and this search is
+sort of truncated at the end by this
+value function that uh works even even
+if I haven't unfolded my whole
+trajectory I can just say this is my new
+policy um and I can improve in a more
+iterative like local way rather than
+having to
+h having to unfold all these
+trajectories.
+>> So there was some research I think from
+Google in 2030 2023 2024 where they did
+try to apply tree structures to
+reasoning.
+>> Yeah.
+>> And I think it's you know the jury is
+still out as to whether this can ever
+work. So I I would say like uh it we
+probably will see like you know
+revisiting of this idea of forward
+search um in in the future. But there's
+two things that make MCTS very simple
+for go which is that value estimation is
+kind of concrete and you can determine
+it for real and then you can kind of uh
+uh sort of use it to truncate depth as
+you said and then the uh breath is also
+uh determined
+>> and what's kind of critical is that the
+action selection algorithm where you
+iteratively visit and grow the tree is
+um well suited for the size of problem
+that go is and the depth of the problem
+but for something like LLM reasoning um
+you know puck might not be a good enough
+heristic. It might be too greedy with
+local tokens and it might do something
+like oh only give you, you know, uh sort
+of obvious thoughts that are correct but
+not really solve your final problem.
+>> So I I would say the jury is probably
+still out on how like what the final
+instantiation of reasoning for LM would
+look like. And I wouldn't rule out that
+like this stuff could, you know, come
+back, but it's a bit hard.
+>> Don't LM sort of natively learn to do
+MCTS where they'll try an approach and
+be like, "Oh, that doesn't work. let's
+back up, let's try this other thing and
+then go in the direction that proves to
+be more fruitful.
+>> Uh yeah, c certainly I think the LLM's
+managed to do something that looks like
+real human reasoning without having to
+do an explicit tree structure.
+>> Um
+>> that being said, I think the idea of
+doing forward search and simulation to
+get a better sense of what is valuable
+might make a comeback. um even though
+not exactly in the same instantiation as
+as uh Alfa
+>> but u just to make sure I understand the
+crux of it like the the breadth from the
+number of legal actions being wider and
+the depth from being able to not being
+able to train a value function as easily
+because
+>> so here's an example where LM's break
+down the cuck rule involves you know
+square root of n over 1 + n a
+>> in an LLM like you're most likely never
+going to sample the same uh child more
+than once, right? So, if you have, let's
+say, multi-steps of thinking, um because
+language is so broad and open-ended,
+it's uh a sort of uh discrete set of
+actions is not really an appropriate
+choice for an LLM. Uh even though
+they're discrete tokens, um it's just
+such a large number that this type of
+exploration heristic is probably not the
+right thing to do to guide how to search
+down a tree,
+>> right? But I I guess the crux comes down
+to the fact that in go you know that the
+MCTS is almost certainly better than
+your current policy even though you
+haven't gotten even though you haven't
+explored the end of any trajectory.
+>> Correct.
+>> And then in u in normal reasoning for
+LLMs or robotics there's no way to just
+locally evaluate and improve your next
+move in a way that doesn't result in in
+a way that's independent of actually
+like solving the problem.
+>> Uh no way is a strong word. I think lots
+of people have thought about how to try
+to apply MCTS or its kind of successors
+like new zero to continuous control
+spaces and I'm sure you know very cool
+research work is still ongoing to try to
+crack that problem. Um but yes, the the
+seeming challenge right now is that like
+most problems in much higher uh
+dimensional um you know action spaces or
+something that's combinatorally much
+bigger like language they they don't
+seem as amendable to the kind of
+discrete action selection heristics as
+well as uh kind of game evaluation type
+stuff that uh go does. Um but that's not
+to say the idea of like you know
+thinking into the future along multiple
+parallel tracks might not give you some
+information about like which way to
+search right like if you think about
+mathematics I think mathematics often
+occupies a little bit more of like a
+logical search kind of procedure where
+you kind of can back up you can kind of
+see like which paths seem good or not
+there's a more of a rigid structure
+there whereas maybe like in a uh you
+know business negotiation or something
+um it's less of a tree and maybe you
+know something a bit
+Okay, so we're now seated so I can ask
+you some more questions about AlphaGo
+and about AI research more generally.
+Um, in 2021, Andy Jones had a paper
+called scaling scaling loss reward
+games. And um, he basically anticipated
+inference compute or inference scaling
+by showing that you can trade off test
+time compute and uh, training compute.
+That is to say that you can spend more
+compute on the forward the searching
+through the MCTS. Um and if you do that
+you can get the equivalent performance
+as having spent more time training the
+model. Um and so if you you know if you
+see this pattern you might think okay
+well with LLMs you might do something
+like that in the future and in fact
+that's what had ended up happening. Okay
+so what is a kind of fun exploration one
+could do now to explore other axes of
+scaling in toy settings which will be
+important to understanding what AI
+development might be like in a few
+years.
+>> Sure. Yeah. Um I think that indeed test
+time scaling and uh reasoning and how it
+interacts with model size are quite
+profound when it comes to like how much
+uh needs to be actually done as explicit
+search versus how much can be packed
+into the forward pass of a neural
+network right and and um how does a
+forward pass of a neural network sort of
+learn how to do something that should be
+a sort of sequential and you know
+recursive step that's quite interesting
+um so the yeah the Andy Jones scaling
+laws for board games paper is quite
+Cool. There's another really nice result
+from that paper where they where he
+showed that um not only can you predict
+scaling loss of like you know the sort
+of LM variety where um as you increase
+parameters you can decrease the amount
+of compute for search or vice versa. Um
+>> he also showed that you can actually
+predict uh how much compute is needed to
+solve a uh larger version of the board
+game. uh for example and and so with go
+you know which can scale from you know
+uh 3x3 to infinitely sized you know uh
+go board you might actually be able to
+sort of revisit this question and try to
+reproduce uh whether this shows up u you
+know I actually started this project
+with this sort of a motivation that like
+does the bitter lesson or does our
+knowledge of scaling laws allow us to
+kind of execute a lot better on a sort
+of compute optimal gobot and can we can
+we kind of build a strong gobot without
+all the katago tricks right just just by
+really focusing on the bitter lesson and
+scaling laws um I have not been
+successful so far, but I think it's it's
+sort of a a fact that like usually when
+you want scaling laws to work, you want
+to be in the regime where um the the
+recipe already works and the data sets
+are good rather than trying to kind of
+figure out how to do scaling while also
+trying to figure out what the the right
+data set are. Okay. So, so this is like
+the scientific understanding component
+in research often follows a step where
+you get something to work first and then
+you use that um system to collect data
+that then helps you build a mental model
+of how things work such as scaling laws,
+right? And and so usually actually if
+you want to build a strong gobot using
+scaling laws, you you actually have to
+make a strong go first and then use the
+scaling laws to kind of extrapolate a
+bit farther into the future.
+>> Say more just so I understand. First of
+all, you're saying scaling laws did not
+work or you could not there was no
+scaling loss pattern that you could see
+in your robot.
+>> Yeah. So, um a mistake I made initially
+when I had some bugs around how MCTS
+labeling was working was I would um I
+would collect a bunch of data with an
+expert policy and then treat it as a
+supervised learning problem and try to
+identify scaling laws with uh expert
+data sets. um you can indeed plot things
+that look kind of like this. But if
+you're in a regime where you know your
+policy is not working well, you might be
+just studying scaling laws on like bad
+data, right? So so just like one
+important implementation detail is that
+if you want to study a scaling laws
+problem, you kind of have to have a
+problem for which like the data is good,
+the architecture is good and there's no
+bugs and then like you you you solve it
+there. um x anti I wasn't able to like
+apply scaling laws to direct what what
+to look on look look at um until you
+know I had the rest of the system
+working and and this sounds obvious like
+to to researchers of course you want to
+have like a working bug-free system
+before you study scaling but uh just as
+a sort of advice for practitioners on
+like where I actually tripped up when I
+started this project was you don't
+necessarily want to kind of jump into
+the science of studying your man-made
+artifact before your man-made artifact
+is like interesting enough to be studied
+>> speaking of compute so if You can look
+at these charts of compute used to train
+the best AI model in the world over time
+going back 10 years and it's a very
+smooth line in log space uh that is
+exponentially growing year-over-year uh
+except there's this huge aberration and
+that aberration is off like a zero uh
+which is trained on way more compute
+than any other AI model at the time. It
+was like uh three E23 flops and they're
+sort of comparable to like a Frontier
+LLM. I mean, orders of magnitude off,
+but still. Um and so yeah, the question
+is especially with you being able to get
+something off in your own
+>> uh I got a donation from Prime
+Intellect. Okay.
+>> For like about 10K and then I spent um I
+spent maybe the first 4K doing um kind
+of exploratory research and then uh
+about 3K on the kind of final run. Yeah.
+Um and then uh some some of it remaining
+for serving the model for
+>> cool.
+>> Yeah. Is your sense that they were just
+did a badge up train for it if you can
+do it in 10k now?
+>> Uh the compute required to be the first
+to do something is always like much
+larger than the compute it takes to
+catch up. And it's the same story
+playing out in LMS, right? Like once
+someone else has done it, um you could
+use tricks like distillation. You could
+use um uh all sorts of like kind of
+crutches to kind of bootstrap your way
+to success. So with my own bot that I'm
+I'veo hosted online um I actually used
+uh sort of best response training
+against the Kadigo models to kind of get
+a strong level performance and um you
+know as a time of recording I'm I'm
+validating whether this can be uh I can
+kind of do that first step which is to
+do the tabular raza play um but
+importantly for research you often want
+to start from a good init right so so
+the kind of simple thing I did first was
+train best response agents against
+kadago
+>> um alpha zero team uh they did not have
+any policy that they could train against
+right because they were trying to do
+So um and being the first to do it means
+that you're prioritizing the thing
+rather than like let's say the most
+compute efficient uh possible
+implementation. So this actually plays
+out in robotics as well. Like if you
+look at the kind of frontier of large
+models trained for robotics um there the
+scatter plot is all over the place and
+there isn't a very clean line the way
+that there is for frontier LMS. And and
+that is because the folks training these
+models often are not, you know, at the
+scale where every flop counts and they
+need to like kind of squeeze out the
+performance of every single flop as the
+dominating decision deciding factor in
+pre-training, right? Instead, their
+focus is more like we want a certain
+capability to to show up. So we optimize
+the uh training setup to kind of make it
+easy to derive that capability. And once
+you have that capability, well um
+invariably if you scale up the compute,
+you are forced to kind of make it
+compute efficient because this is like
+hundreds of millions of dollars we're
+talking about. But um but in the past
+when when compute for experiments was
+kind of more plentiful or you know not
+not uh not um accounted in a way that
+the researcher was really responsible
+for then you kind of end up with people
+optimizing for things besides kind of
+being on the compute optimal prio
+frontier.
+>> I see like speed or something.
+>> Yeah. Like time to result or just
+getting it to work. I think the first
+AlphaGo like probably they had lots of
+compute and they didn't need to be um
+they didn't need to worry too much about
+making it the most comput optimal thing.
+>> And how much of the improvements to
+compute efficiency are methods that did
+not exist as of 2017 versus things which
+you they could have done in 2017 but um
+>> yeah great question. So, so going into
+this project, I kind of knew in the back
+of my mind that like things always get
+easier to do over time and I wanted to
+see like where where is go at given that
+like it didn't seem like there has been
+any major open- source you know uh
+strong bot after Katago in 2020.
+>> Uh and then you know reading the Katigo
+paper there's a lot of clever ideas. I
+was kind of wondering like okay uh let's
+look let's see if the bitter lesson has
+happened where like a lot of these kind
+of tricks just sort of go away because
+the Nvidia made faster GPUs right and
+and so uh roughly where are we on that?
+So um again this is not a peer-reviewed
+claim. So this is just my preliminary um
+you know vibe guess on like what I've
+seen based on my own experiments. But it
+seems like um you know architecture
+choices don't matter that much. You know
+transformer versus ResNet.
+>> We're we're at the sort of speed of GPU
+where the size of the model is not so
+big that this really matters. Um
+um you can actually simplify the setup
+quite a lot. So instead of doing a
+distributed asynchronous RL setup with
+replay buffers and pushers and
+collectors, you can kind of do a a dumb
+synchronous thing where you like collect
+you just train a supervised learning
+model and then you collect again and and
+so that there's like opportunities to
+simplify infrastructure.
+>> Um NVIDIA GPUs have indeed got faster.
+So whereas Kadigo was trained on V100s,
+you can train on like half the number of
+you know desktop Blackwell GPUs and it
+still works. Um and um some of the kind
+of auxiliary supervision objectives that
+Katiggo developed aren't really
+necessary if you have a strong
+initialization,
+>> right? So so if you're initializing
+against you know best uh response
+training against Kadigo itself, then
+your own model actually needs none of
+the tricks that Katiggo needs.
+>> So so then the core thing is like how
+can you get as quickly as possible to
+some strong opponents and um that
+matters a lot more than the specific
+architectural innovations but there are
+still some nice comput multipliers. So I
+found that training on 9x9 boards was
+very nice for resolving endgame value
+functions and then like if you can code
+train that on a architecture that can
+transfer between 9 by9 and 19 by9 then
+you can really cut down the warm start
+time to learn that from scratch. I think
+uh Alph Go Zero their plot was um first
+30 hours or so are spent basically
+catching up to the supervised learning
+baseline. Um and you can cut down that
+time a lot by kind of pre-training on a
+small board and then and then like you
+know warm starting that into your you
+know 19 by9 board play. Uh there were
+some other stuff like you know varying
+the number of sims between episodes.
+this turns out to be not that sensitive
+actually like you can kind of you know
+fix it or increase it doesn't matter too
+much um but so anyways it's kind of just
+nice from a scientific perspective just
+revisiting like an old paper and seeing
+like what really matters
+>> this is sort of a tangential question
+but why is it okay to have a buffer in
+alpha go because every time I talk to
+any researcher they're telling me about
+how bad it is to be off policy
+>> but then the way a naive implementation
+of alpha go zero would work is that most
+of the moves in a given backward step or
+in a batch of backward steps um would be
+not not among the ones that were made by
+the most recently trained model. So why
+is that? Okay,
+>> great question. Yeah, and this this gets
+into the sort of fundamental off policy
+versus on policy uh reinforcement
+learning kind of questions. So uh as you
+recall in MCTS you take actions that you
+took and you reabel them to uh to take
+different actions on the same states,
+right? So, so the off policy part here
+comes where um what if you're relabeling
+states that your new policy would never
+visit, right? Like what's the point?
+You're kind of wasting capacity. And in
+the extreme limit, imagine your
+distribution of states in your training
+buffer are all states that you would
+never visit. Then you're basically
+supervising them uh to uh take good
+actions on states you would never
+achieve and therefore your policy can
+get really bad. Right? So this is where
+off policy can really hurt um uh
+AlphaGo. Um, however, if you interpret
+this sort of from like the dagger
+perspective, which is basically saying
+like a way to kind of correct yourself
+back to the optimal trajectory, uh,
+given some some data, what what you kind
+of want in an algorithm like this is to
+have mostly states that you would visit,
+but then you have a small percentage or
+maybe a reasonable percentage of states
+in this kind of highdimensional tube
+around your optimal,
+>> you know, trajectories. And any of those
+states are given a supervision target to
+kind of uh sort of funnel you back into
+your optimal trajectory. Uh so maybe I
+can just draw quickly here.
+>> Great. So in
+um sort of a Dagger style setup, what
+your kind of optimal training data
+distribution is is that here is your
+optimal states and actions. So this is
+like you know you want to be in this
+state, you want to be in this state, you
+want to be in this state and then you
+win here. Um and then these are your
+optimal policy actions. So these are the
+these are the things that you definitely
+want to train on. But to make it robust
+to disturbances, um you want to make
+sure that if you happen to drift off
+into some other states,
+>> you can kind of funnel yourself back
+into
+>> But why isn't this a fully general
+argument for off policy training?
+>> This is actually why you want to do off
+policy training sometimes is that like
+you you don't want to have a compounding
+error where if you make a mistake, you
+don't have the data of how to return
+back to your optimal distribution.
+>> Yeah. And so, um, optimal control does
+not really say too much about like, uh,
+you know, how to, uh, you know, not
+accidentally get here because it's sort
+of making the assumption that like once
+you learn the policy, you're going to
+get here. But in applications like
+robotics, right, like like I don't know,
+uh, a gust of wind blows you slightly
+off and then now you need to like
+correct, right? Um, or the friction on
+one of your tires is kind of a little
+bit like lower than the other wheel and
+then now your car is drifting and you
+got to got to like correct it. So, so
+these kind of things in in like more
+real environments often happen where
+like um actually there's a funny uh
+quote about chess and also go is like
+the problem with uh the problem with go
+and chess is that the other player is
+always trying to do some right?
+Like uh so so like you know things can
+kind of drift off. Yeah.
+>> And you always want to be able to
+correct uh back to your back to your
+winning condition. So, so your replay
+buffer really should have like your, you
+know, the states that your policy would
+visit plus some distribution of states
+that you might drift to and then how to
+return back to your optimal states.
+>> Yeah. Now, if you take this to the
+extreme and you say like, well, let's uh
+we don't have any of this data
+and we're going to just like be labeling
+with MCTS
+um you know, states that are so far away
+from our optimal behavior like this this
+bag of states over here. Well, like now,
+yeah, I mean, like each of them gets a
+MCTS label
+>> and your policy learns how to do take
+sort of the best possible action here,
+but you never get here. So, like you're
+training your model on states you would
+never reach. Uh like like this is this
+is not there. So then this is a problem,
+right? And and this is where off policy
+can really hurt.
+>> Yeah. Um so actually as as part of this
+project I did try an experiment where I
+took a bunch of trajectories and to try
+to saturate the GPU as much as possible
+what I did was I took uh you know random
+states from the data set
+>> and uh reran MCTS on just those states.
+Right? So instead of playing a whole
+game where I'm doing MCTS on every move,
+I just ignore the sort of causality of
+moves and just pick random board states
+and I just label those with my current
+network. and uh and I might revisit old
+states that I've labeled before and
+reabel them again with my current
+network. Right? And so in practice, this
+actually does work. You can actually say
+like let's take some states that are
+reasonable and constantly be relabeling
+them um in uh in um while we're
+training. and and so this actually
+starts to converge on a very robotics-l
+like setup which is very common which is
+you have your your data set of
+trajectories. Um and then you have
+something like a replay buffer pusher
+and these are off policy offline
+trajectories, right? Your replay buffer
+pusher pushes transition tpples
+to to to the replay buffer
+and then you have some job that's kind
+of continuously
+um replplanning
+what the best action you should have
+done instead of taking this action is
+right and so in robotics it's actually
+very common to use a a uh the sort of
+minimized TD error so like your bellman
+updater
+um constantly is pulling things from
+here and trying to satisfy, you know,
+the QSA.
+So, so um and then and then from here
+you have your trainer which is trying to
+fit the S to A or or or uh um fit the
+you know Q to the Q target. So, so here
+you can think about this as a sort of
+planner, right? You vi revisit old um
+states that you've been to and you take
+your current model and you rethink like
+what could I have done better if I
+visited this and um and so this is
+actually how like kind of off policy
+robotic learning systems are usually
+trained. Um these days there's a sort of
+simpler recipe but but like you know in
+the Google QT op days we kind of did did
+things like this.
+>> So what is the trainer? Oh yeah, the
+trainer is uh you try to you try to
+minimize
+uh QSA
+and Q target.
+>> So can you explain the whole setup again
+like at a high level?
+>> Yeah. So you have your off policy data
+that came from various policies.
+>> You're constantly pushing uh transitions
+that you saw before to a replay buffer.
+Yeah. And then you've got this thing
+called a a Bellman updater which
+basically replans instead of this action
+what action should I have taken at S to
+have a better you know value and and the
+way you enforce that is you try to
+minimize the TD error. So, so actually
+you given this you have S prime, right?
+You you compute Q of S prime and you
+find the action that should go with S
+prime that makes this Q value as high as
+possible
+>> and then you add that to the reward here
+and that gives you your actual target.
+Right? So for this current SNA your Q
+target is this.
+So now you have a now now you send back
+the Q target to to this this transition.
+So, so with this tpple, you pair with
+that a uh a Q target
+and then here on the trainer you simply
+just use supervised learning and you
+minimize your current network's QSA with
+its target.
+>> Got it. Okay. So, in the background,
+you're just like, hey, let me let me
+basically think through how valuable
+were all these actions actually.
+>> Yeah. In a in a more optimal policy
+where you're trying to maximize this,
+what is the Q target of this transition?
+>> It's sort of like basically daydreaming.
+>> Exactly. Yeah. You can think about it's
+like you're kind of going back in
+hindsight and being like like given what
+I've seen in the historical buffer um
+like was there a better action I could
+have taken? Now the connection to go
+here that I I tried and it was you know
+moderately successful but too complex to
+kind of like open source was um you
+replace this with like a MCTS reabler
+where um instead of doing this kind of
+target network computation you uh run
+MCTS on your transition right so in in
+this case you have uh your state your
+action and then whether you won or not
+at the game um and actually you can just
+toss these two you don't you don't care
+about these ones you just take your
+state and you just plan MCTS
+>> to get your best policy, you know, pi
+>> uh on your current network, right? Not
+not the network that took this action,
+but your current best policy network,
+you just rerun your search offline on
+these transitions. And um if these are
+transitions that your policy can get to,
+then this actually acts as a very nice
+stabilizing effect. And also the one
+other benefit is that you can like kind
+of fully saturate your GPU better
+because you're not like blocking on the
+go game to kind of like give you board
+states. You just simply search across
+all board states at any depth in
+parallel.
+>> Yeah.
+>> So u and then here the trainer would be
+just you know predict the MCTS label as
+possible. So, so again like this kind of
+works and this is quite relevant in
+robotics where you're really you just
+have have a lot of offline data and you
+can't simulate things like MCTS but um
+in practice like it does run into the
+problem where you know like if the
+current model is looking at states that
+it would never reach then it's kind of
+wasting capacity and so you have to be a
+little bit careful here so um the on
+policy thing and also much of RL has
+kind of converged to a much more on
+policy setup where they don't really try
+to like directly train on off policy
+data at best they use off policy data as
+a way to reduce variance but not
+directly influence the objective.
+>> Oh sorry why have they convert to that?
+>> It's just more stable.
+>> Yeah.
+>> Yeah. So so like you you might use the
+off policy Q as a way to do like you
+know advantage computation um like uh
+you know Q minus like sum of Q. Yeah,
+>> that's kind of like your your or sorry
+like you know sum of uh like if there's
+n actions and then yeah so so like uh
+>> so so like this is your value and then
+this is your your kind of current q
+value. So your advantage for that action
+is like the average value minus your
+current one. So so like people can try
+to estimate Q in an off policy way and
+then like just use advantage here and
+then and then the the sort of if there's
+a problem in these dynamics the it
+doesn't like blow up your loss as much.
+Um, and so in robotics, there's a kind
+of convergence towards more like a using
+off policy data to just shape your
+rewards, but not actually be directly
+your
+>> I'm reminded now of our earlier
+conversation of why MCTS is so favorable
+as compared to the kind of, you know,
+reinforce a policy gradient kind of
+thing LLM do. And this might be totally
+wrong, but I wrote a blog post a few
+months ago about um how RL at least
+policy gradient RL is even more uh
+inefficient than you might think. And so
+the inefficiency one thinks about
+naively is the fact that you have to
+roll out a whole trajectory in order to
+get any learning signal at all. And so
+as these trajectories become longer and
+longer as an agent has to instead of
+just
+previously like complete the next word
+in the sentence, it has to go instead to
+hey do two days worth of work to figure
+out even if you even did this project
+correctly. the amount of information per
+uh flop has been decreasing as you had
+to unroll two days worth of thinking in
+order to see if you even did something
+correctly to like did I implement this
+feature. The amount of samples per flop
+has been decreasing. But so you can
+think of um uh you're trying to maximize
+as you're learning bits per flop, right?
+Um
+and this is you can think of bits of per
+flop as
+um samples
+per flop
+times um uh bits per sample.
+And what I just mentioned uh a second
+ago is that the samples per flop go down
+as RL becomes more and more long
+horizon.
+But um at least this kind of naive RL is
+also terrible from a bits per sample
+perspective. And here's what I mean. At
+least compare it to supervised learning.
+So early on in training, let's say you
+have a
+uh vocabulary size for an LLM that is
+100k long. So there's 100k possible, you
+know, tokens that one could answer. And
+you have a totally untrained model. and
+you have a prompt like
+the sky
+is
+um with supervised learning you what
+would happen is that the model would
+have some probability distribution over
+all the things it could say um there's a
+label that says actually the term here
+is blue and it would figure it would
+learn basically for cross entropy loss
+exactly how far its distribution is from
+correctly saying blue now if you were
+doing this through RL um you would say
+the model would Try the sky is alacon.
+Nope, that's wrong. The sky is told.
+Nope, that's wrong. This is a totally
+untrained model, right? And so you would
+have to do this on the order of 100,000
+times in order to just stumble on blue,
+then get some learning signal off of
+that. So if you're in the supervised
+learning regime and you just get you
+have your distribution of probabilities,
+you get told uh that it's blue and you
+figure out how far off you are, the
+amount you learn is um is a function of
+your pass rate. So like the further away
+you are from blue, the more you've
+learned to go towards blue uh using
+cross entropy loss. And so you can think
+of it as like your pass rate, your like
+prior probability of having said blue.
+And um as a function of that like in
+supervised learning uh through cross
+entropy loss you would you would learn
+negative log p being pass rate
+>> uh bits
+>> once you get this label
+>> whereas in RL
+if you're just randomly guessing
+and seeing if it works or not that's um
+that's just basically going to be the
+entropy of a binary random variable
+which is
+And what's also tough here is that
+actually the distribution that you're
+sampling under is your policies
+distribution.
+>> Right. So so it's like if your policy
+has no chance of sampling blue, then you
+will never get a signal. Exactly. Right.
+Right. So that's that's being modeled by
+the fact that your probability of
+sampling blue is extremely low. If you
+do sample it, you do learn as much as
+you would have learned in a supervised
+learning. In all other cases like you
+know 99.999% of in an untrained model
+you're um you're just learning
+incredibly little from like seeing how
+is not the correct word or told is not
+the correct word. Um and that's what
+happens most of the time. So you're just
+like um learn very little. So if you try
+to graph um if you put on the x-axis
+your pass rate
+um
+and uh here you put the like sort of the
+bits you bits you're learning from a
+sample
+if you have like 0% here 50% here and
+100% here. So the end of trading you're
+here. Um if you have um
+supervised learning negative log pass
+rate would look something like this. And
+then the uh entropy binary random
+variable would look like this.
+Um and this is uh depending on whether
+you're doing knots or bits.
+>> Yeah. If you do bits, it's like one
+right here at the at the peak. Um this
+is like a coin flip. You learn the most
+from a coin flip.
+>> Mhm.
+uh this is supervised learning this is
+RL
+however
+the problem is you spend most of
+training in this regime right like in
+the in the low pass rate regime and um
+in fact of how fast you're learning is a
+function of how many bits per sample
+you're getting uh and you're getting
+very little signal here if you chart the
+pass rate on a log scale so you put the
+x axis on a log scale where like at the
+beginning of training with a vocap size
+of 100k the pass rate is 100 one over
+100,000 then one over 10,000
+one over 1,000
+uh one over 100 and then um okay what
+this graph looks like here where
+supervised learning would look like this
+and
+and then RL if you just basically crunch
+Right. I just showed there it would look
+like that.
+>> Yeah. And arguably you spend all your
+time here
+>> potentially never even getting a single
+success, right? Like uh so so it's it's
+a sort of depressing plot in the sense
+that like once you're here it's not at
+all obvious how you get to here.
+>> Yeah.
+>> Um you know once you're here you have
+something but like you actually in many
+RL problems spend all the time here.
+Yeah. Uh so so there's a sort of
+question of like how do you initialize
+so you're at least not at zero but like
+at a nonzero pass rate. Yeah.
+>> Um one more thing I'd like to add about
+bits per sample that's very relevant to
+um uh you know you know any kind of
+machine learning problem is that um
+>> and there's a connection to soft targets
+and distillation where if you have
+access to the logets right not just the
+one hot like this this is a sort of one
+hot uh token answer.
+>> Yeah. um if you have access to the soft
+targets um the entropy of this
+distribution is far far higher than than
+the oneh hot. So there's actually way
+more uh there's way more information in
+bit and bits per sample um in a soft
+label.
+>> So that's why distillation is so
+effective per sample is that it's
+actually giving you way more information
+per sample.
+>> Ah yeah well I wonder what the equation
+would be but obviously
+>> it would just be the entropy of this
+distribution like so the entropy of this
+is zero. Yeah. Um the entropy of this is
+like you know the the entropy equation
+and this is also why like you know
+AlphaGo go is quite beautiful in AlphaGo
+you don't train the policy network to
+imitate the MCTS action you train it to
+imitate the MCTS distribution
+>> interesting
+>> but both of these are actually valid and
+if you wanted to do a scientific
+experiment of like how important are
+this kind of soft label dark knowledge
+distillation you can run an experiment
+where you you uh retrain the policy
+network on the action MCTS selected
+rather than the software
+>> interesting
+Earlier I was sort of stumbling around
+this intuitively. Why is this ability to
+do um
+iterative search where you don't
+necessarily need to be able to win the
+game in the beginning? You just need to
+be able to improve your current policy.
+Why is that so powerful a capability in
+learning as compared to how LLM's
+currently run learn RL? And um and yeah,
+it's exactly this thing of uh this is
+considering your pass rate of the entire
+trajectory. I actually don't know a
+formal way to think about this. Maybe
+you should help me out here.
+>> Why is AlphaGo an elegant RL algorithm?
+Like so um uh the major reason is that
+you never have to initialize at a 0%
+success rate and solve the exploration
+problem of how to get a non-zero success
+rate. And and this is what allows you to
+hill climb this beautiful supervised
+learning signal where and if you look at
+the actual implementation of AlphaGo um
+every step of the way there's no uh
+there's actually no um you know TD error
+learning or dynamic programming uh at
+least explicitly um it's just supervised
+learning on a value classification as
+well as a policy uh you know KL
+minimization. So it's just a super
+supervised learning problem on improved
+labels. And so the training is very
+stable, right? You can train like as big
+of a network as you want. You can kind
+of retrain this on the data set.
+Everything will just go stably. The
+infrastructure is very simple to
+implement as well. Um you don't need a
+complex distributed system to kind of
+keep everything on policy. Um at the end
+of the day, you're just saying like I
+have some improved labels. Let's retrain
+my supervised model on these targets.
+Yeah.
+>> And and so you're always in this
+beautiful regime where you're just
+trying to improve the policy
+>> rather than uh escape this kind of like
+uh sort of local minima where every
+every signal is flat all around you. Um
+so so one way to draw the the curve is
+like if you draw the sort of win rate of
+an MCTS policy versus the raw network.
+Um let's say this dotted line is the raw
+network. The MCTS policy kind of looks
+like like this. And so every step of the
+way this supervision signal is very
+clean,
+>> right? You're never in a situation
+where, you know, the MCTS is kind of
+like giving you no signal. Yeah. Unless
+your MCTS distribution converges to
+exactly what your policy network
+predicts.
+>> Yeah. Yeah. Yeah.
+>> Okay. That that that's that's a great
+way to explain it.
+>> Um,
+cool. Okay. Maybe we sit down and I ask
+some questions about automated research.
+>> Sounds good. One thing I really wanted
+to talk to you about is that you did a
+bunch of the research for this project
+through this kind of automated uh LLM
+coding assistant loop. And um there's an
+idea that if you fully automated AI
+research, you could have some sort of
+singularity. Uh obviously we're not
+there yet, but to the extent that we
+have early indications of what this
+process might look like, I am curious
+what your observations about um what the
+AI is good at, what it's not good at,
+what you think about this scenario, it's
+likelihood eventually,
+what thoughts you have about this in
+general.
+>> For sure. Yeah, I think automated
+scientific research is one of the most
+exciting um uh skills that you know the
+Frontier Labs are developing right now
+and I think it's important for everyone
+who's doing any kind of research to get
+a good intuition of like what it can do
+now and what it can't and how might the
+sort of science process work in the
+future once we're having AI automating a
+lot of this this investigation. Um so uh
+in brief I mostly use Opus 4.6 6 and 4.7
+throughout the working on this and um
+what works is that the models can do a
+very good job of doing hyperparameter
+optimization. So in the past people
+would kind of come up with a search base
+of hyperparameters like learning rate
+and you know weight decay and maybe how
+many layers are in your network and um
+they would just kind of do a grid search
+or a sort of basian hyperparameter
+optimization uh approach and then it
+would find some tuned parameters. Um the
+kind of really cool thing that automated
+uh you know uh coding can do now is that
+it can search a much more open-ended set
+of problems right it can say like well
+um I've identified that like the
+gradients are kind of small on this
+layer so let me change it up here let me
+rewrite the code so the data later data
+loader has a new augmentation I came up
+with let's uh let's uh sort of try to
+find the the best way to kind of fit the
+constraints of the optimization problem
+and and you end up with this much more
+flexible and kind of highlevel almost
+like grad studentlike uh ability ility
+to just you know grind a performance
+metric and and so this can squeeze out
+quite a lot of performance. you can you
+know on a fixed data set with a fixed
+time budget um improve perplexity by
+quite a lot on on a sort of
+classification problem like LMS or um or
+go um and uh it is also fantastic now at
+basically executing any experiment right
+so I have a a clawed skill that I wrote
+called experiment where um I give it a
+description of what I wanted to plot and
+like I just describe here's the x-axis I
+want here's the y- axis answer this
+question for me and it'll go run off and
+do all the experiments compile the plot
+make a report and suggest like you know
+what might have caused it or or so
+forth. Um so so that's what works quite
+well today and I think we can expect
+that these abilities get better in the
+future but it's also kind of useful to
+know you know what what is it not doing
+so well today. Um so on my uh blog
+version of this tutorial I have a a plot
+of basically all the kind of experiments
+I did grouped in a sort of tree where um
+you know every node kind of represents a
+failed successful or sort of mixed
+experimental result and then from there
+it branches off into a child where it's
+like the follow-on experiment. Um,
+occasionally I'll kind of rabbit hole
+down a track like this off policy MCTS
+reabeling, do a few experiments, and
+then realize it's probably not worth it.
+So then I'll kind of jump to a
+completely different track, right? And I
+call these kind of things like rows,
+right? So So what what I find is that
+current uh, you know, closed models that
+we can access, the public can access
+today, um, they don't seem to be that
+great at selecting what the next
+experiment should be in a given track.
+and they don't seem to be able to kind
+of step back and do the lateral thinking
+of like wait a minute this track doesn't
+really make sense like let's go back to
+sort of first principles and and think
+about you know what the bottleneck might
+be or like what are we trying to achieve
+right and and so often I had to catch
+infra bugs myself by prompting the right
+question to cloud to like investigate
+you know why why what what is causing
+this discrepancy and then it'll answer
+the question um I think with like you
+know mythos class models or mythos++
+models coming online um maybe this just
+completely changes and these these
+problems just fall to to just improve
+scaling. Um but at the same time I think
+there's a lot of like rich opportunity
+to um develop RL environments that might
+incentivize this kind of lateral
+thinking and and so one of the
+motivations for setting up this Go
+environment was that I think that you
+know Go captures a lot of very
+interesting research problems often
+overlapping with you know LLMs or
+robotics and yet it's like very quick to
+verify. Um the outer loop is ultimately
+like does the agent do what I think it
+does in and you can kind of check the
+outcome of a go game quite easily. Um
+and then the inner loop involves all
+this kind of like you know research
+engineering around distributed systems
+uh predicting whether an idea is going
+to work or not. um predicting the you
+know the difference a particular
+modification to your training algorithm
+might make um and I think there's a rich
+library of subtasks and sub environments
+that you can kind of train an automated
+scientist to work on uh with go as a
+sort of outer verification loop that
+then once you acquire these skills maybe
+you can apply them to like other domains
+like uh you know um biosciences or
+robotics
+>> or automating AI research
+>> or automating II research
+>> which is which is the real crux or the
+um scary slash uh incredible thing for
+just making AI making future versions of
+AIS and you're suggesting the outer loop
+here could just be your win rate against
+Katago basically.
+>> Um that's one of them. Um I think
+there's a lot of deeper questions that
+one could tackle, right? So for example
+um let's say you have an idea on um how
+to improve a scaling law compute
+multiplier. Yeah.
+>> Um the outcome isn't necessarily like I
+I uh achieve the best gobot ever. The
+outcome might just be like can I predict
+what the win rate of my gobot will be?
+Yeah.
+>> Or can I predict the scaling law plots
+that emerge from my idea? But then you
+can verify that you haven't kind of
+reward hacked anything by using a very
+verifiable game like go on the outer
+loop.
+>> I I think there's a couple of
+interesting follow- on questions.
+There's questions on the inner loop and
+the outer loop. On the inner loop,
+there's a question of how locally
+verifiable any modification you might
+make is. That is to say, could would you
+know whether something is actually an
+improvement or a degradation, some idea
+you try out? Would you know that if
+something isn't working as a result of
+um a bug or is it the result of the idea
+itself being wrong? Um Ilia was talking
+about why having one of the reasons he
+he thinks he's a good researcher is he
+is a good researcher. One of the things
+he thinks makes him a good researcher is
+that um he has intuition about he has
+strong belief in what the correct idea
+is and he is able to persevere through
+bugs and know which things are bugs
+versus mistakes in the fundamental idea
+based on his high level belief about
+this idea should work so therefore it's
+this there has to be bug versus the
+other way around. Why don't we start
+with that question actually? Yeah. How
+locally verifiable are things which are
+good ideas? Yeah, I think as in the case
+of the success story for deep learning,
+you can think about this as like a
+decadesl long idea that took like took a
+lot of faith to get it to work.
+>> Um, and so this presents a very
+challenging long horizon, you know, RL
+problem where you know, every every step
+of the way you have like a committee
+telling you that this is a bad idea and
+then ultimately you break it through,
+right? And so like how do you design RL
+environments that maybe give you some
+feedback uh uh earlier? Um and and I
+think this is a very tough open question
+that I don't have an answer to, but um
+but you know ultimately to play a very
+strong gobot you probably did need to
+discover deep learning.
+>> Yeah.
+>> Right. And so um um I think that like
+having a challenging game that cannot be
+you know cheated easily on the outer
+loop could be used as a sort of outer
+loop signal for something like
+discovering the principles of deep
+learning. Now of course like to make it
+tractable and this is where research
+taste really matters um like you have to
+come up with ways to initialize your
+problem so that you don't solve a sort
+of very intractable problem right like
+like maybe you can leverage LLMs as as a
+sort of a universal grammar in the
+middle to kind of give give you some
+sort of local feedback um um the fact
+that LM are universal grammar means that
+they can kind of move at almost any
+level of the stack right they can think
+very locally as well as step back and
+think like in very broad steps and I
+think that's where a lot of u um the the
+lateral thinking ability of humans kind
+of come from like like how to know if
+the track that you're pursuing or the
+objective that you're pursuing is not
+right and you should be asking a
+different question.
+>> The uh the other question is how
+stackable local improvements are in the
+attempt to get to a better result on the
+outer loop. Um I've heard rumors that at
+some AI labs the thing that has gone
+wrong is that people will individually
+pursue good ideas. um but those don't
+end up stacking well and so the training
+run falls because of some weird uh
+interaction between two seemingly good
+ideas and having a single top down
+vision of how things should work is very
+important. Um having worked at uh
+different AI labs and also playing
+around with I guess parallel agents
+trying different ideas what is your
+sense of how parallelizable um AI
+innovation is?
+>> Yeah, great question. Um
+I think the research taste for executing
+well on you know the bitter lesson is
+that you need to know how much the
+bitter lesson can buy you and uh how
+much is too much to ask for at any given
+moment right like of course in the
+fullness of time compute kind of is the
+single most important determinant on
+like how things work and uh and and uh
+it's almost like inevitable that as you
+scale up energy and compute uh and
+parameters intelligence will just fall
+out of that and that's super super
+beautiful, super profound. No
+algorithmic detail really matters beyond
+that. But um in present day we don't
+have infinite compute and parameters and
+and in arbitrarily good initialization.
+So we have to come up with like
+heristics that kind of give us that but
+these heristics are probably somewhat
+redundant. So that's probably why you
+see this effect where like a lot of
+these compute multipliers don't
+necessarily stack is that like they
+might have some correlated benefit. Um
+and then and then you know three years
+down the line when the Nvidia GPUs have
+gotten even stronger maybe maybe they
+stack even less well right like maybe
+like at any given point in time the the
+the sort of benefit of any given compute
+multiplier is transitory which is what I
+sort of suspected with the Kadiggo paper
+like there was many
+>> algorithmic ideas kind of applied and
+then you can see that like with you know
+modern blackwell GPUs and ADA class GPUs
+that are much better than the sort of
+V100 uh grade GPUs that that paper used
+um you can see that like some of these
+algor algorithmic tricks to speed up
+convergence just don't matter so much
+compared to something else and I think
+that's a matter of taste in a in the
+present time
+>> yeah interesting how about the outer
+loop how verifiable for making AI
+smarter with go you do have this outer
+loop of um win rate against the best
+open source model out there and even
+there as you were saying there are other
+outer loops of did you discover a new
+phenomenon which is actually very hard
+to if you didn't know scaling laws were
+important if you're back in when was
+chinchilla or Kaplan scaling laws
+released like 2019
+>> yeah so if you're back in 2015 would you
+there's not an automated procedure one
+can easily imagine of uh knowing which
+paper is the scaling loss paper versus
+which is just like another random plot
+and so that even in the go case is a
+hard to verify outer loop and the whole
+the whole idea of an outer loop is to
+have like some backs stop on um on
+improvement. Uh but let alone for
+general AGI where of course we have a
+bunch of these benchmarks but there's a
+problem that like we know the things we
+can measure and we improve on the things
+we can measure but we're we care about
+this broader ability to do economically
+useful work which is um at least until
+you automate everything easy and not not
+super easy to measure. Um so yeah
+there's a there's a question of okay how
+how good is the outer verification loop
+for uh for AI self-improvement and does
+that matter?
+>> Yeah. Um I'm going to give a
+non-rigorous argument but one that I
+kind of intuitively believe which is
+that you know um DeepMind the AI
+research lab um they started as a sort
+of focus on games right like they they
+kind of use games as their outer loop
+and then the researchers learned uh from
+experience of solving games and then
+like now they're working on LMS and
+presumably there was some positive
+transfer from their time working on
+games and like Atari and Go and and uh
+you know Starcraft that like now helps
+them make good LMS like I assume that
+there's like positive transfer in some
+regard whether it's coding or general
+research ability or project management
+right like all these things kind of like
+probably help them do well um and so if
+that's the case why wouldn't it also be
+true for automated AI researchers like
+they should be able to positively
+transfer experience tackling quick to
+verify uh quick to iterate on
+environments to something more ambitious
+and economically useful like uh you know
+automating drug discovery or so forth
+>> I mean I don't know isn't the hasn't the
+issue with historically until Gemini 3
+or whatever been a couple years ago
+people were saying look Google hasn't uh
+isn't catching up in LLMs because
+they're too tight to the old approach
+and yeah there's gains but there's also
+um there's ways in which actively
+hinders you um so it's actually not
+obvious to me that there's like
+>> the jury is still out right like I I
+think like who knows if the you know
+let's say currently Hey, Google's doing
+quite well. Who knows if the uh
+initialization on training on games is
+ultimately going to hobble their ability
+to be the winner in the long term,
+right? Like like uh it's it's hard to
+say for sure. Um
+>> and uh you know, likewise, who knows if
+the late seeming late start was really
+just them kind of pre-training for
+longer on how how to like scale up TPUs,
+right? they invested all their tech tree
+in like uh getting TPUs to be good which
+seemed not that useful in the short term
+but then in the long term it becomes
+maybe like a uh so it's it's even hard
+for humans to reason about what the
+optimal research strategy should be
+right even with the the data we have
+today.
+>> Yeah. Yeah. Cool. Um okay we should let
+people know how they can find out more
+about this project whether to fork it
+themselves whether to check out your
+blog where you do an excellent job
+explaining many of these ideas. Um uh
+where do people go next?
+>> Great. Yeah. So my my website is
+evjang.com. The there's a blog post that
+kind of links to a interactive version
+of this tutorial. Um and on my GitHub uh
+which is the username is just eric Jang.
+Uh there's a there's a autogo repo that
+people can fork and reproduce the uh
+training results. And I also highly
+recommend people check out this blog
+post as rocks may think which we touch
+on some of the ideas in this
+conversation but it's this grander
+you know um thesis of what happens when
+you have uh thinking as a primitive in
+>> computer science.
+>> Exactly right. Uh and so I highly
+recommend people check out that blog
+list as well.
+>> Yeah. And I encourage to the you know
+the audience to you know think about the
+relationship between thinking and go you
+know via MCTS and search and how it
+relates to LMS. I think there's
+something quite like profound there. um
+and probably underexplored just because
+Go has been relatively underexplored
+compared to you know the boom in LMS. Um
+it's not to say that I think we should
+have trees in our in our LMS but um but
+but there is some very interesting
+duality between them and you can
+actually do a lot of research on go um
+MCTS and and reasoning with you know
+very small budgets. So that's very
+exciting.
+>> Cool. Awesome. Eric, thanks for doing
+this. It's it's an honor to be on the

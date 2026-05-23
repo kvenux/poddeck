@@ -1,11 +1,19 @@
 source: toe
-refreshed_at: 2026-04-12T00:23:05.287Z
+refreshed_at: 2026-05-19T09:08:18.577Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 11
-done: 3
+total_candidates: 12
+done: 4
 pending: 0
 episodes:
+  - id: gx3uKT1qJvY
+    title: The Genius Who Invented Reverse Mathematics
+    duration: 5734
+    upload_date: "20260518"
+    url: https://youtube.com/watch?v=gx3uKT1qJvY
+    status: generated
+    priority: 1
+    category: update-2026-05-19
   - id: 6PJ8NI3v5Ss
     title: Quantum Mechanics Contradicts Itself (and He Proved It)
     duration: 11953
