@@ -7,23 +7,26 @@ done: 10
 pending: 3
 episodes:
   - id: UmCZBwsibgs
-    title: From Consumer Toys for Pets to War Drone — Yaroslav Azhnyuk, The Fourth Law & Noah Smith, Noahpinion
+    title: From Consumer Toys for Pets to War Drone — Yaroslav Azhnyuk, The Fourth
+      Law & Noah Smith, Noahpinion
     duration: 7169
     upload_date: "20260518"
     url: https://youtube.com/watch?v=UmCZBwsibgs
     status: generated
     priority: 1
-    category: update-2026-05-19
+    category: ai-tech
   - id: vUARtyOvh5U
-    title: "Inside Abridge: The AI Listening to 100 Million Doctor Visits — Abridge's Janie Lee & Chai Asawa"
+    title: "Inside Abridge: The AI Listening to 100 Million Doctor Visits —
+      Abridge's Janie Lee & Chai Asawa"
     duration: 3998
     upload_date: "20260514"
     url: https://youtube.com/watch?v=vUARtyOvh5U
     status: generated
     priority: 1
-    category: update-2026-05-19
+    category: ai-tech
   - id: 9d899Ram9Bs
-    title: 🔬How GPT‑5 derived new results in theoretical physics and quantum gravity — Alex Lupsasca, OpenAI
+    title: 🔬How GPT‑5 derived new results in theoretical physics and quantum
+      gravity — Alex Lupsasca, OpenAI
     duration: 5511
     upload_date: "20260505"
     url: https://youtube.com/watch?v=9d899Ram9Bs
@@ -31,7 +34,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: CSYWbbP_OkY
-    title: ⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company — Yasser Elsaid, Founder, Chatbase
+    title: ⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company
+      — Yasser Elsaid, Founder, Chatbase
     duration: 3626
     upload_date: "20260502"
     url: https://youtube.com/watch?v=CSYWbbP_OkY
@@ -39,7 +43,8 @@ episodes:
     priority: 1
     category: ai-tech
   - id: rv23_KcHt4s
-    title: "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, & 1K Engineers—Applied Intuition"
+    title: "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, & 1K
+      Engineers—Applied Intuition"
     duration: 4447
     upload_date: "20260427"
     url: https://youtube.com/watch?v=rv23_KcHt4s
@@ -47,7 +52,8 @@ episodes:
     priority: 1
     category: ai-tech
   - id: RrkGoX3Cw7o
-    title: "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited tokens — Mikhail Parakhin"
+    title: "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited
+      tokens — Mikhail Parakhin"
     duration: 4470
     upload_date: "20260422"
     url: https://youtube.com/watch?v=RrkGoX3Cw7o
@@ -55,7 +61,8 @@ episodes:
     priority: 1
     category: ai-tech
   - id: uqM8qjbLRHA
-    title: 🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik
+    title: 🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron
+      Alfa & Daniel Bear, Noetik
     duration: 5122
     upload_date: "20260420"
     url: https://youtube.com/watch?v=uqM8qjbLRHA
@@ -63,7 +70,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: yyuVR-ML9X8
-    title: "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil Eifrem, CEO Neo4J"
+    title: "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil
+      Eifrem, CEO Neo4J"
     duration: 2933
     upload_date: "20260418"
     url: https://youtube.com/watch?v=yyuVR-ML9X8
@@ -71,7 +79,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: ATt7QJgt-2k
-    title: Notion’s Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future of Work
+    title: Notion’s Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future
+      of Work
     duration: 5137
     upload_date: "20260415"
     url: https://youtube.com/watch?v=ATt7QJgt-2k
@@ -79,7 +88,8 @@ episodes:
     priority: 1
     category: manual-update
   - id: 5KnCKadxSPY
-    title: ⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy
+    title: ⚡️ The best engineers don't write the most code. They delete the most
+      code. — Stay Sassy
     duration: 3450
     upload_date: "20260413"
     url: https://youtube.com/watch?v=5KnCKadxSPY
@@ -87,7 +97,8 @@ episodes:
     priority: 1
     category: ai-tech
   - id: CeOXx-XTYek
-    title: "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or review — Ryan Lopopolo, OpenAI"
+    title: "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or
+      review — Ryan Lopopolo, OpenAI"
     duration: 4674
     upload_date: "20260407"
     url: https://youtube.com/watch?v=CeOXx-XTYek
@@ -95,7 +106,8 @@ episodes:
     priority: 1
     category: manual-update
   - id: knx2wrILP1M
-    title: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"
+    title: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and
+      Why "This Time Is Different"
     duration: 4580
     upload_date: "20260403"
     url: https://youtube.com/watch?v=knx2wrILP1M
@@ -103,7 +115,8 @@ episodes:
     priority: 1
     category: ai-tech
   - id: oBWRHnggscM
-    title: "Moonlake: Interactive, Multimodal World Models — with Chris Manning and Fan-yun Sun"
+    title: "Moonlake: Interactive, Multimodal World Models — with Chris Manning and
+      Fan-yun Sun"
     duration: 4008
     upload_date: "20260402"
     url: https://youtube.com/watch?v=oBWRHnggscM
@@ -111,7 +124,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: obEWFoLfWD4
-    title: "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's Most Powerful Stove at Impulse"
+    title: "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's
+      Most Powerful Stove at Impulse"
     duration: 2223
     upload_date: "20260331"
     url: https://youtube.com/watch?v=obEWFoLfWD4
@@ -119,7 +133,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: SUjA25ijcNs
-    title: "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample"
+    title: "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar
+      Reddy & Guillaume Lample"
     duration: 3242
     upload_date: "20260330"
     url: https://youtube.com/watch?v=SUjA25ijcNs
@@ -127,7 +142,8 @@ episodes:
     priority: 1
     category: ai-tech-rest
   - id: KSCCKCz2x04
-    title: 🔬There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik
+    title: 🔬There Is No AlphaFold for Materials — AI for Materials Discovery with
+      Heather Kulik
     duration: 2115
     upload_date: "20260324"
     url: https://youtube.com/watch?v=KSCCKCz2x04
