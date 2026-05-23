@@ -12,8 +12,21 @@ const tags = collectTags(episodes)
 const generated = episodes.filter(e => e.status === 'generated')
 const pending = episodes.filter(e => e.status !== 'generated')
 
-// Group generated episodes by category (in priority order)
-const generatedByCategory = CATEGORIES.map(cat => ({
+const knownCategoryIds = new Set(CATEGORIES.map(cat => cat.id))
+const extraCategories = [...new Set(
+  generated
+    .map(e => e.category)
+    .filter((category): category is string => Boolean(category) && !knownCategoryIds.has(category)),
+)].map(category => ({
+  id: category,
+  label: category.startsWith('update-')
+    ? `最新更新 · ${category.replace(/^update-/, '')}`
+    : category,
+}))
+
+// Group generated episodes by category. Ad-hoc update categories go first so
+// newly generated decks are visible even before they are reclassified.
+const generatedByCategory = [...extraCategories, ...CATEGORIES].map(cat => ({
   ...cat,
   episodes: generated.filter(e => e.category === cat.id),
 })).filter(g => g.episodes.length > 0)
