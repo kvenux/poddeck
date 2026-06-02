@@ -3,7 +3,7 @@ theme: academic
 colorSchema: light
 addons:
   - slidev-addon-excalidraw
-title: 'Architecting Modern AI Systems: Platforms, Agents, and Integration'
+title: '架构现代 AI 系统：平台、Agent 与集成'
 class: text-center
 transition: slide-left
 mdc: true
@@ -652,7 +652,7 @@ Allan 补充：AI 研究 peer review 里，LLM-as-judge 早就被 "show me real 
 
 <div class="p-3 rounded bg-purple-50 border-l-4 border-purple-500">
 
-### World Models
+### 世界模型
 视频模型生成"**popcorn world**"、月球表面这类合成世界，让 agent 在里面尝试动作——10 亿级合成 example 跑 robustness。
 
 </div>
@@ -1115,6 +1115,6 @@ layout: end
 </div>
 
 <div class="mt-12 text-xs opacity-40">
-MLOps.community · Architecting Modern AI Systems<br/>
+MLOps.community · 架构现代 AI 系统<br/>
 Frederique · Shao · Allan
 </div>

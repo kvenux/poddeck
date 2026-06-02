@@ -3,7 +3,7 @@ theme: academic
 colorSchema: light
 addons:
   - slidev-addon-excalidraw
-title: 'Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents — Ethan He'
+title: 'xAI 内部：3 个月做出 Grok Imagine、视频生成、世界模型与视频 Agent'
 info: |
   Latent Space 与 Ethan He 的访谈。在 xAI 从零搭建 Grok Imagine 视频/图像生成团队的内幕：
   视频模型训练的真实成本、World Model 的三根支柱、为什么"视觉的智能其实来自语言"。
@@ -14,9 +14,9 @@ drawings:
   persist: false
 ---
 
-# Inside xAI: Building Grok Imagine
+# xAI 内部：Grok Imagine 是怎么做出来的
 
-<div class="text-2xl opacity-80 mt-4">3 个月从 0 到 0.9 · Videogen vs World Models · Video Agents</div>
+<div class="text-2xl opacity-80 mt-4">3 个月从 0 到 0.9 · 视频生成 vs 世界模型 · 视频 Agent</div>
 
 <div class="mt-12 text-lg opacity-70">
 Ethan He （何易东） · 前 xAI / Nvidia Cosmos
@@ -75,7 +75,7 @@ real time + interactive + long horizon — 三根支柱缺一不可。
 
 <div class="p-4 rounded bg-red-50 border-l-4 border-red-500">
 
-### Video Agents
+### 视频 Agent
 LLM + diffusion + ffmpeg + 图像编辑器，像 Claude Code 一样调工具拼视频。
 
 </div>
@@ -959,7 +959,7 @@ caption 是"尽可能详细"——多段、多对象、有动作、有对白。�
 layout: two-cols
 ---
 
-# Video Agents：Claude Code 模式来到视频
+# 视频 Agent：Claude Code 模式来到视频
 
 <div class="text-sm opacity-70 mb-3">
 如果视频的大部分智能其实来自 LLM，那就别再把所有能力都塞回 diffusion——
@@ -1271,5 +1271,5 @@ layout: end
 </div>
 
 <div class="mt-12 text-xs opacity-40">
-Latent Space · Inside xAI: Building Grok Imagine in 3 Months
+Latent Space · xAI 内部：3 个月做出 Grok Imagine
 </div>
