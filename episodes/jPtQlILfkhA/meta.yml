@@ -1,0 +1,34 @@
+id: jPtQlILfkhA
+source: latent-space
+title: "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He"
+guest: "Ethan He"
+guest_role: "ex-xAI Grok Imagine / ex-Nvidia Cosmos researcher"
+published: 2026-01
+duration: "2h 5min"
+url: https://youtube.com/watch?v=jPtQlILfkhA
+thumbnail: https://img.youtube.com/vi/jPtQlILfkhA/maxresdefault.jpg
+status: generated
+category: ai-research
+tags:
+  - interview
+  - ai-research
+  - researcher
+  - technical
+  - deep-dive
+summary: |
+  Ethan He 在 xAI 从 0 infra / 0 data / 0 model 起步，3 个月内带几个工程师交付了
+  Grok Imagine 0.9（首个大规模部署的 audio-video joint generation 模型）。这期访谈把
+  视频模型的全链路拆开讲: synthetic text-video pair、VAE tokenizer、temporal vs
+  frame-by-frame 压缩、step distillation、长视频的 context 管理。他给 world model 下了一个
+  三支柱定义 (real time + interactive + long horizon)，并提出一个"big claim" ——
+  现在视觉模型的进步主要来自语言模型，而不是视频模型本身——这也是他刚离开 xAI 想回到
+  语言模型 / context-aware agent 方向的原因。
+core_ideas:
+  - "3 个月发 Grok Imagine 0.9 的关键不是新算法, 是 talent + 极低沟通带宽 + 强 infra; 模型质量最大跃迁来自抓 data/training pipeline 里的小 bug"
+  - "真正的工程指标是 iteration speed (一天能跑几次端到端环), 不是 throughput; coding model 变好之后 compute 重新成为瓶颈"
+  - "视频模型 4 stage pipeline: synthetic text-video pair → VAE tokenizer → 先训 image diffusion → 用 image bootstrap video; 训练成本 ≈ medium-size LLM, 但存储 (5 PB / 几百万美元每月) 是隐藏开销"
+  - "World model = real time + interactive + long horizon, 三者同时要; frame-by-frame 给交互性, temporal compression 给长视频, 不能两全"
+  - "Big claim: 视觉模型的智能大部分来自前置 prompt rewriter (LLM); video diffusion 本身 kind of dumb, 它字面执行训练 caption 那种详细描述"
+  - "Video agents (LLM + diffusion + ffmpeg + 图像编辑) 是下一阶段, 同构于 Claude Code; robotics 可能根本不需要进实体, 强 video LM 把 robot 当 tool"
+  - "xAI 文化三句: move fast / build / no goal is too ambitious; 加 first principle thinking 反推训练时间表"
+base: /episodes/jPtQlILfkhA/

@@ -1,0 +1,1240 @@
+Recommending something that I know about
+the user is relatively easy. Mhm. But
+how do I recommend something
+that I don't know if the user will like
+or not?
+So, who are we here with today, fellas?
+What are you guys doing?
+I'm Rafael. I'm head of innovation at
+iFood. Daniel Robert, Brazilian, 37
+years, born and raised in Belo
+Horizonte. I have two kids, Davi and
+Isabela. I I will I am a husband of
+Maria Elisa.
+Uh I'm a data science manager at iFood
+and I've been with iFood since 2025,
+right? And I have a background of data
+science even when data science or AI was
+not called like that, right? So, I
+started with my career as a data as a
+developer and then I had the opportunity
+to go all over through the history, the
+recent history of data science like
+analytics, data science, machine
+learning, optimization, so and now I'm
+currently working at the intelligence
+part of the ILO, which is our uh our
+hyper-personalization for requests of
+the users.
+&gt;&gt; Yeah, tell me more about ILO. Well, ILO
+is is an experience where it's a
+different than than when you go for the
+iFood app, right? So, it's a
+conversational agent where you can
+request for anything that is even
+something very simple like a pizza or if
+you want some romantic dinner with two
+people, but my wife, she doesn't eat
+onions, for example. So, ILO is a
+solution that gets your uh your request,
+understands who you are, what are your
+preference, what are your desires, and
+gives you the best options at the
+moment.
+&gt;&gt; Is it doing it proactively already or is
+it still that I am actively asking ILO
+things like question answer? Right now,
+we are doing this reactively, right?
+Uh but we are doing the plans so in the
+future there is one specific part of of
+the of the process that we are trying to
+we are using which is the undecided user
+slope. Some of the users they already
+use it that's right. So, you are on the
+app you are working on that right and
+you receive
+some suggestions and recommendations for
+that based on this same intelligence.
+So, we are we are starting to think
+about how to proactively recommend
+things for the users. But these are like
+digging under the hood. I'm always
+fascinated especially with recommender
+systems how
+different this is from a traditional
+recommender system.
+Well, when we talk about recommender
+systems is a whole world right? I mean
+everybody every single company is trying
+to see
+how can I understand you how I know who
+you are and what is the best product for
+you
+at that moment, right? Uh
+it's not that different. I mean
+recommendation systems is something that
+we've been trying I mean there's a lot
+of people
+around the world trying to do that,
+right? So, we are getting like all the
+the knowledge that we have previously
+from our data and we are experiment
+different things on that, right? So, we
+have a model which we call LCM that is a
+kind of a summarization and
+a joint of lots of different ways of
+that we can recommend and I'll
+we use the base of LCM which is
+which has the the full characteristics
+of the user to understand what is the
+best
+request what is the best dish for you at
+that time, Yeah.
+So,
+it's not that
+not that there of course there is the
+innovation part which we are trying
+different things that people have never
+tried before and we are we are
+constantly evolving and thinking how we
+can make recommendations of things for
+the user, right?
+&gt;&gt; it Is it like you're using a traditional
+machine learning model and then you're
+adding a little LLM on top with
+sprinkling some flavor on it? Not
+necessarily, right? You see the the
+technology we are using we are using
+everything that it's available right now
+plus the innovation part. So, what is
+the innovation part? AI AI itself,
+right? I mean, by AI I mean if we talk
+about AI people that have never know
+about what AI they think that AI is only
+LLMs, is only this generative AI, right?
+But AI is beyond that. There's a lot of
+techniques, there are a lot of things
+that
+GenAI is just one part of this whole
+world of the AI. And the we we use a set
+of different techniques to understand
+how can we do a recommendation, right?
+But that's not that that's tricky,
+right? That's depends.
+Uh for example, if you're a guy that
+have only ordered Japanese food in your
+life, right?
+What would you
+&gt;&gt; that sushi. Yeah. Yes. What what would
+What would you expect to recommend to
+you?
+Sushi all day, miso soup, and maybe a
+little bit of ramen.
+All right, but does that mean that you
+are the guy that only eats sushi 24
+hours per day? That that's the challenge
+of recommendation because You need the
+California roll with that cream cheese
+for breakfast.
+&gt;&gt; In Brazil we put cream cheese, we put
+like this next on the top of sushi, we
+put some sweets, some cheese.
+Granola. You put some granola on top
+with a little yogurt with your sushi.
+Well,
+we put like guava, which is the the
+guava thing and I tried it's really
+good.
+&gt;&gt; I've heard about Brazilians
+disrespecting all kinds of traditional
+cuisine with the pizza.
+&gt;&gt; [laughter]
+&gt;&gt; We have strawberry on pizza which is
+good, very good.
+&gt;&gt; You are Yeah, like the Nutella and
+banana pizza. I've heard about that. We
+got there a pizza is like
+&gt;&gt; It's famous there, right?
+&gt;&gt; Yeah, for sure. But that's the thing. I
+we got one case where the user really
+liked Nutella and banana. Like they were
+I mean most of the orders from the user
+that were related to to sweet things,
+right?
+And
+the recommendation that that we provided
+was the pizza that was a sweet pizza,
+right? They didn't like it, of course.
+But the thing is how can you do a
+challenge that is beyond your own
+knowledge for the user? How can you
+extrapolate that? Step out, right? And
+this is what you we are doing. This is
+what we are we are constantly testing,
+&gt;&gt; Ah, I see. And you've built a profile
+about someone.
+Because that's what that's all you know
+about them when they interact on your
+app. But you want to know if we were to
+offer them something new,
+how can we do that in a way that it's
+going to be a little bit more successful
+or at least we're not just firing blind?
+&gt;&gt; Correct. Recommending something that I
+know about the user is relatively easy.
+Mhm. But
+or not? And that's the difference that
+we are working on. It's a bunch of
+different techniques, different tools,
+trials and errors. How do we do the
+market fit? How do we make sure that for
+the person that likes only sushi, you
+are going to like that? How for the
+person that for example likes gourmet
+gourmet
+dishes, it will differentiate? It's a
+trial and error, right? It's always a
+trial and error in in at the end.
+But are you creating new clusters? In
+the recommendation world, right? Your
+challenge is to make sure how close and
+I am as a person
+to a group of persons, Yeah. right? And
+not only that, how close I am to the
+person that that is close to a
+restaurant that is close to another
+dish. Yeah. So, how do I get the
+shortest path between me
+iFood
+and a burger close to my city or here in
+Amsterdam, right? And there is no there
+is no rocket
+rocket science. There is no easy way. A
+silver bullet. Yeah.
+&gt;&gt; There's no silver bullet for that. It's
+trial and error, right? You see, the
+thing about iFood is that
+uh
+how can we serve? How can we do the
+product
+for thousands
+uh of million of people that have so
+many different food tastes, so many
+different characteristics, what he or
+she likes, what she's going to order,
+that is some people are more price
+sensitive or not. Mhm. You cannot build
+just one product for that that fits all.
+You must make sure that
+parts of your products will be adjusted
+depending on the profile of the user,
+right? I cannot recommend a So, if I'm a
+guy that doesn't like sushi or that like
+pizza, for example,
+but
+um I can only have 10 reais to spend
+today,
+I cannot recommend a pizza that is worth
+like 200 reais because I'm not going to
+going to buy it.
+I need to understand not only your
+characteristics of what your tastes are,
+but your economic profile, what you were
+aiming to to buy, what is your
+historical purchases, how do you compare
+yourself to the to your other users in
+order to get you the best
+recommendation. So, okay, I also want to
+talk about
+the idea of
+the Jet Skis that you were mentioning
+before and how you've got these Jet Skis
+that are in a way
+the experimentation and innovation arm
+of iFood. Break down what it what this
+concept is
+for me and then also like what has come
+out of it. Jet skis it is part of our
+culture, you know, it's it's a big thing
+for iFood. So,
+the concept uh regards the ambidextrous
+organization. I know you have like iFood
+doing hundreds of millions of orders per
+month. So, it's a big ship and a big
+ship is very hard to maneuver. Mhm. So,
+the jet skis it's about
+um
+testing testing things very fast. And if
+it doesn't work out, that's fine. You go
+to another thesis and try it again.
+So, the thing is
+you need to do it fast,
+cheap,
+uh a lot, but once you find something
+you invest big. Mhm. Always dream big,
+start small, but start right now and
+very fast. So, we created big revenue
+streams for the company the past years
+by doing this.
+Uh whole business units such as the
+fintech business, uh grocery business,
+iFood clip, they all were jet skis in
+the past.
+it's part of the way we do things. Yeah.
+The core business uh sustain the whole
+thing, of course, but you need to invest
+part of the resources and expect big
+term uh returns on the on the, you know,
+on the long term. So, that's the whole
+thing. Yeah, it's a little bit like the
+power law, like VC investing where
+they'll invest in a hundred different
+companies and one or two of them hit,
+but they hit big. And there's not really
+a cap on how big it can go.
+And so, you were able to create the
+whole fintech unit. And now iFood is one
+of these big bets that you're making?
+Yeah, exactly. We are shifting from
+using iFood to search for an item
+to be
+uh suggested an item for you. We try it
+uh with
+half a million users right now. Mhm.
+&gt;&gt; And
+we started finding some interesting
+things like it's 6 16% faster to
+complete an order from a search to a
+checkout with Ailo than iFood uh product
+search when we benchmark. Because you
+can send an audio saying, "Okay, I want
+a pizza."
+And he knows what pizza you like.
+And you can pay by Pix
+in WhatsApp like very fast and the pizza
+appears in your house. So,
+it's faster and it's as we benchmark
+it's 35% higher the probability that a
+search became a cart addition as well.
+So, we are finding some uh interesting
+results. We still uh have some things
+that we are struggling like scalability,
+uh some costs and I think everybody
+that's working with AI are facing some
+you know, challenges. And
+of course, there's the product market
+fit that we still need to shape behavior
+because people use uh Ailo as they use
+iFood and they're not extracting the you
+know, the whole potential that this
+thing could be like complex queries such
+as, "I want a pizza that could be
+delivered in 40 minutes, should cost
+less than 50 reais, and I want actually
+a order for two people. One is
+vegetarian, the other wants meat." Yeah.
+So, if you want to query these within
+the apps, it's impossible. Yeah, that's
+more just like filters, right? Don't you
+think that could be done with some kind
+of traditional filtering UI?
+Maybe, but you know the graphic
+interface, I think
+does not
+bring the same value as conversational
+in this particular case because you can
+send an audio saying whatever you want.
+And in a
+4 seconds,
+this will come back as
+a four images of exactly what you want.
+Yeah.
+And that is the other part which is
+the concept of what is important to me
+depends on what the the user, right? So,
+if you're just saying I want a cheap
+burger, for example, if you just use the
+traditional filters, well, I'm just
+going to sort by and get like the lowest
+burger that we have.
+But that's that's not kind of case for
+most of the users. The concept of what
+is cheap to me is different and then
+then what is cheap to you.
+&gt;&gt; Yeah. And there is always a boundary
+between what is cheap and what is a good
+quality, right? So, if I want, for
+example, a cheapest snack, for example,
+if you just sort by, I will receive this
+like very $1, 1 euro thing with like
+this is really a snack. The user will
+say this is not what I like. This is not
+what I want.
+&gt;&gt; No, I like those 200 reais pizzas.
+Depending on where you are, that's not
+so expensive, right? But there is this
+boundary between quality and price and
+everyone has this different
+different Yeah, that's
+let's just say boundary, right? So, if
+you just use the traditional filters to
+sort by, the user will take a long time
+to Well, I want filter by 30 reais, but
+I don't like don't like this. But look,
+well, I don't want something that is far
+from my home. So, when we use Ilo,
+every single aspect of what is good to
+the user is already combined and
+analyzed it to give you the best
+solution, right? So, some people they
+like some things that are close to your
+house. Mhm. Some people don't. Some
+people they are very rating oriented for
+the mission. So, iFood can have the
+capability to understand every single
+parameter of your decision
+and combine that to give you the best
+best solution. You mentioned that you
+don't have those complex search queries
+or people don't understand that they can
+ask all of those things of it.
+So, you almost have to do that on your
+side.
+&gt;&gt; We have a a very substantial quantities
+of users who ask for simple things,
+right? So, we can we do analysis of our
+data all the time. So, yes, this is
+correct. Like if the users still are not
+able to understand the full capability
+of what what iFood can provide because
+they're they are used to a different
+interface. So, most of the users, for
+example, when they're asking for a
+pizza, they just just say pizza.
+What do we do in the background? We take
+the pizza, we understand your weights of
+different types of parameters, we get to
+your profile, we get to your history, we
+understand how how how are you are
+positioned in the relationship between
+restaurants, items, and personas, and we
+say, "Well, this guy is price sensitive.
+This guy doesn't like something that is
+far from your home, but he doesn't like
+this type of pizza, and these are the
+possibilities for you." Mhm. And then,
+when the user choose something, we learn
+from that to say, "Well, this is
+this is what the user asked for, whether
+like it like it or not. If we made a
+mistake, we will correct and we will fix
+it until we get the perfect solution for
+you." And you know one thing that is is
+kind of funny. The first PR launch we
+did with iFood
+there's like a query that you can type,
+"Tell me
+Tell about me."
+And iFood will answer who is you inside
+iFood based on your preference and so
+on.
+So, it's kind of creepy when you do this
+on WhatsApp because you don't need to do
+anything. You just add the number and
+say, "Tell me about me." We got this
+number, we have the the whole structure
+authenticator, we know who is you, and
+by the LCM profile we answer this.
+And people got more
+I mean, like uh
+the wow moment, you know, super ended
+like uh excited
+&gt;&gt; Yeah. when they saw their profile more
+than the recommendation itself of this
+thing that really knows who I am. It
+knows my dirty secrets that I've ordered
+&gt;&gt; Something like that. chocolate at 12:00
+at night when I'm really hungry. Yeah.
+&gt;&gt; Yeah.
+&gt;&gt; feel like the consumer behavior
+is going to change? Like are you making
+a bet on the fact that in a year, in 2
+years, after we've been experiencing
+chatbots
+across all of our app usage,
+we're going to start asking more of it?
+Because I notice with myself that I'm
+constantly trying to push the limits of
+what I can get out of my chat
+experience. So, do you think that folks
+are now going to start saying, "I want a
+pizza, but I want it delivered in the
+next 30 minutes. I want to make sure
+that it's a you know, Neapolitan pizza,
+and
+that search filter or that like deep
+query understanding is going to be put
+onto the user? Or you feel you also
+are like we always are going to have
+that work of having to figure it out and
+make it quick? You know, that's the $1
+question, I guess, like
+I I actually doesn't know if the cons
+the the consumer behavior is going to
+shape in that way. I bet some part of
+it, yes,
+some part we will just, you know, be on
+a Friday night
+in your home and start scrolling the app
+and doesn't know what to eat. They do
+this in a bunch of platforms, Netflix,
+iFood. Totally. TikTok.
+&gt;&gt; That's too many options, you know.
+So, Ilo is about facilitating this in
+the end, like
+I don't know what to eat. That's okay,
+just open this and type anything or just
+say, I don't know what to eat. And we
+also something and you're going to find
+something out, you know. Oh, you're the
+perfect person to talk to about this.
+I asked Nishi I was so excited cuz when
+he was working on
+I can't remember what he was maybe Ilo.
+I was like, Nishi, dude, you know what I
+would love
+is a Tinder food
+experience. Like if I could just swipe
+right or swipe left for food. You give
+me a picture and I say yes, no and then
+at the end Uh-huh. I get to say like,
+all right, I've swiped yes on all this
+stuff. Which one do I actually want to
+add to my cart? And you're giving me all
+kinds of options. Maybe there's Thai
+food, there's sushi, there's this or
+that and I'm there doing it.
+&gt;&gt; We actually built this, you know.
+&gt;&gt; No. And did it work?
+Yeah. It was a complete failure.
+&gt;&gt; No, no, we are getting like very
+promising results with this. Like uh
+I cannot disclosure because we are
+testing like very small right now, but
+it's very cool because we're combining
+the recommendation and interface, the
+graphic interface, the both in
+experience. And
+you know, when you say recommend me
+something to lunch, it's very open. You
+can do like a bunch of things, right?
+And people will start like swiping
+and in the end there's like a kind of a
+battle, like uh
+uh price comp
+Oh, nice.
+&gt;&gt; You can see the price range, you can see
+like how long it takes. You can taste.
+Yeah. How long's going to take and in
+the end you selected one the the
+favorite one and you can go to to check
+out. Yeah.
+And when you think about that, let's go
+back to the
+the this hypothetical Japanese guy who
+always Japanese food, right?
+The guy's not Japanese. He only eats
+Japanese food, for example. But the
+Tinder mode experience, let's call it
+that, right?
+I can have the benefit of showing some
+things that are different than Japanese
+food and secondly, if they use a lot of
+nuts or imagine the the the the richness
+of information that we have. So we can
+like break this barrier of the user
+always orders Japanese food. So now we
+know that there are other types of food
+that he the user might like.
+&gt;&gt; Mhm. So we also enrich and learn from
+this experience to give better
+recommendations in the next time. Yeah.
+I also want to talk for a minute about
+this idea of latency that you were
+mentioning yesterday cuz I think it's
+fascinating how
+there's almost like a Goldilocks zone
+now when we work with LLMs that
+if it's too fast
+we think that we didn't get the best LLM
+and so we don't trust the response.
+Correct. But if it's too slow you get
+bored or you just think like oh this it
+got stuck in a loop and maybe it can't
+actually do it depending on the task I
+guess because now we [clears throat] let
+Ralph do things for weeks. Yeah, you see
+the thing is that
+since AI is very general today and
+people are using that in their everyday
+life.
+It's the same thing as you if you were
+talking to someone and you you
+say a question and the person
+immediately reacts to your to your
+question. So if you do a complex
+question for example,
+what what disease I have for example, it
+just say well we have a flu. I would
+look at you and say well, are you really
+sure about that? You didn't hear what I
+am when you do hear my my my my symptoms
+and so on, right? On the other hand, if
+I say, "Well, what type type of disease
+do I have?" And you keep looking at me
+and say,
+"Let me think about that."
+&gt;&gt; a week.
+Give me a week. And I say, "Well, does
+this guy really know what is about,
+right?" So, that's that's the same
+analogy as AI, right? So, if you're
+really really incredibly fast, um you
+might I think the general perception is
+you did not think enough to bring me the
+answer, right? But, if you you're if
+you're stuck on that on thinking thing
+thinking and thinking and the
+the question is not that complex, you
+think, "Well, I cannot trust you because
+you might bring me some bad bad results,
+right?" Of course, the latency is
+latency thing is latency is is the
+things that who works on with AI uh like
+sleeps and wake up think, "Well, I
+should improve my latency. I should
+improve my latency because the user
+Every engineer is trying to get faster.
+But, there's a boundary, right? So,
+there is a study from um
+computer-supported cooperative
+work. It's something like that that it
+was on 2022 that was on the first
+surveys that said that, "Well, what is
+the perception of the user?" So, from
+kind of zero to something like four,
+it's like a little bit robotic. From
+four to 16 is something that I can
+accept because seconds 4 seconds seconds
+Yeah. I mean, well, 4 seconds is okay
+depending on your that depends on your
+question, right? So, say, "What is my
+name?" And if you if you take 8 seconds
+to reply to your name, you say, "Well,
+that's a not a good AI." But, if you we
+are talking about complex questions, if
+it takes a little bit time like
+8 seconds, it's it's very acceptable,
+right? Of course, as I said, there is
+the latency and there is the perception
+of latency. Yeah. So, when you look at
+your any type of generalities
+AI platform, right? So, we have the
+streaming part where they like this is
+being constructed. So, you that's that's
+not that takes more, but you are going
+to see the the results being coming on
+your screen. If there are some tools
+even the AI's they do that already. So,
+when you are looking for something there
+is something well well
+showing that well, I'm looking that for
+you. I'm collecting information. I'm
+collecting the data. So, the problem is
+if you do not show anything to the user,
+like even like an icon, the user will
+see well that stuck, that was a bug,
+there was a problem on that. But, if you
+show something that's it's to going on,
+the perception will change completely,
+right? And also that depends on the
+channel that you were working working
+if. For example, WhatsApp, right?
+WhatsApp is used to be a very
+asynchronous channel. Well, I just type
+someone and then I just scroll down and
+they just do something. Oh, I got a
+message. I'm going to reply. Yeah. So,
+if you were working on WhatsApp, you can
+take a little bit more because you're
+expecting this to be more like a
+sequence.
+However, if you are on a voice mode, for
+example, where you are calling and
+you're calling the AI, that should be
+very fast. Yeah. But,
+the cha- challenge is how can you be
+very fast, but
+the with the same intelligence as if you
+were working on WhatsApp. Yeah, you have
+to construct those systems differently.
+Correct. The
+thing that you talk about with perceived
+latency is so true. I actually have two
+data points on that. One is back in
+2022, we had a product manager from
+you.com on the podcast and he was saying
+that for them they saw
+user engagement or they stuck around
+much more if you would ask the user a
+trivia question while the site was
+loading.
+And cuz you.com, I I never actually used
+it, but I think it was kind of like
+perplexity.
+Sorry, you.com for
+&gt;&gt; that one. But the whole idea was that
+it's going to take a while for us to
+populate this page. While we're doing
+that, so that you just don't see a
+scrolling wheel and then you get bored
+after 2 seconds. If we ask you some
+trivia questions or we ask you uh or we
+write a poem for you about your query,
+then you have something to do while
+you're waiting and it distracts you.
+Yeah. And that's so true that like a lot
+of
+uh AI squads, they're divided into
+teams, intelligence and and experience.
+Mhm. But they work within the same goal.
+For example, we use a retention or
+order taken and etc.
+So, when you're seeing like about user
+retention, then you'll say, "Okay, I can
+get so far or 5 seconds of latency."
+And the experience is going to will say,
+"Okay, how can I retain people while
+they're waiting?" Yeah. And
+they will create an experience for doing
+so. For example, on WhatsApp, I can say,
+"Hey, thanks for coming back. I'll know
+that you like etc. etc. I'm thinking
+about it just 1 second. I'll answer it."
+Or for example, in our graphic interface
+within the app, I can do this with the
+load bar like going very fast and people
+say, "Oh, that's fast." And they're
+taking a little bit more time while I
+can image of a
+AI Louis cooking something, you know,
+and then the food appears. So,
+Yeah, for me I really like that. The
+experience side because you got to get
+creative. And you got to think about how
+can I retain folks? What can I serve
+them to keep them engaged? That's very
+tricky because, you know, you can think
+about a bunch of things like, for
+example, voice tone. Mhm.
+Like an agent voice tone. Voice is a
+whole different beast. It can be like
+adapted to different scenarios,
+different, you know,
+uh kind of needs, kind of perceptions.
+Right. Yeah, you almost have to have two
+different systems because what you were
+saying with the latency requirements and
+the experience of a voice agent versus
+the GUI or versus WhatsApp,
+you can't
+serve them in the same way.
+&gt;&gt; For the voice, you cannot take too much
+to answer for something, right? So, you
+must find the boundary between
+what can I
+leave away? What What can I What can I
+say?
+What can I simplify
+in terms of my whole intelligence
+to make sure that the user will have a
+very good experience, but not the
+perfect one, right? But still, the the
+experience that the user will like,
+right? You see, the when you look about
+the AI I mean, think about the AI,
+right? So, you have your idea, you build
+your agent, but when you try to
+prototype it, so you have much more than
+the AI agent. You have the back end that
+you you consume your data. We have the
+front end that will show your data. You
+have the all the interfaces, have the
+whole infrastructure, right?
+So, one of the things that
+if I'm serving in an app,
+I don't require that too much data
+processing to send it like to the to the
+upper layers than if I do in a voice,
+for example, right? I can simply say,
+"Well, this is the best item. This is
+the the the description of the
+information.
+Talk about it, right?" But if I want to
+render something in the front end layer
+for example, I need to get the data to
+retrieve to put in on a format that
+someone will consume that.
+This is one of the strategies between
+those channels, right? On the other
+hand, if I I need to calibrate between
+well, be very meticulous about the best
+recommendations for you, take more time
+than you need in the for example, in the
+WhatsApp. But when you look at the
+voice, you have to flexibilize a little
+thing, right? So, instead of giving like
+the best review burger that has all the
+ingredients that you need that takes 5
+seconds, I can flexibilize and say,
+well, this is the pseudo burger that
+there is a like that that have these
+characteristics, but there is only one
+item. Just recommend that because of for
+a voice for example,
+that's the same analogy as the text,
+right? But I want to talk about that
+eventually. But for a voice, I say,
+well, I want a burger. What do you
+expect? Well, I found a good burger for
+you. It has these characteristics, but
+if I read the entire description of the
+burger, you say, well, this is really
+boring. I don't like it. So, for the
+voice, it's a challenge because you have
+to be assertive, of course with not the
+the the amount of details because of the
+latency,
+but also you need to have a this is a
+good burger for you because it has a
+good price and it's something that you
+like. Would like to try it? And you say,
+yes. And then you go over the the flow,
+right? Yeah. I find that fascinating
+especially with voice cuz you only have
+one channel.
+And with an
+interface, you have many different data
+points that can pop up. But like what
+you're saying with voice, you only have
+one channel to be able to
+add the most important things
+right there. Yeah. And what happens if
+you give you on your voice experience to
+six product six items that you describe
+I mean, you you will be you're hearing
+for 10 seconds. You you won't like it.
+So, you need to to find the clear
+calibrate that well, this is something
+that you talk about after you receive
+the results that will attract the user
+to buy something, right? It's as if it
+was a concierge in that in that case.
+But for the text, for example, and that
+depends on what the user expects. I
+mean, the user wants convenience. They
+was user wants to see things that are
+really fast, right? So, if you buy if
+if you just build like a whole text to a
+interface just to return text and the
+user can read this whole poem, the user
+won't do that. That's why experience is
+important. That's why you have to get
+[clears throat] those results and have
+to show them
+on a very visual way that they can use
+it can understand and can proceed with
+the the the the choice, right? But as I
+said, that depends on the channel.
+Does that make sense? Yeah. That you
+guys probably saw I
+yesterday when I was showing the
+playground and there's like a way to
+style the calendar card that would come
+up in my chat. That was inspired from
+some of the work that you got you all
+did with the carousels. Mhm. And
+I think there's a whole world out there
+uh rendering different components and
+now it came out. You probably saw too
+like MCP apps or
+I think Claude has apps now.
+Uh OpenAI has been doing it for a while.
+But just bringing a different experience
+to chat so it's not always text like
+you're saying because there's so many
+things that you can't really get across
+with only text. Yeah.
+It's a combination between you know
+image, text
+and you know
+kind of explain the reasoning but
+in a
+in a way that
+it shows to the user why you are doing
+but not talking so much at the same
+time, you know.
+Saying, "Okay, that's what you want."
+Image and say, "That's why this is good
+for you, you know." Yeah, and you you
+have to pique someone's interest and
+then you can go deeper. Like you're
+saying, you just got to especially if it
+was the phone, you got to just get on
+the call, tell them, "Okay, I got a
+burger 10 minutes away. I got another
+burger, this one you haven't tried, and
+then there's uh whatever this
+different kind of option over here. Any
+of these sound interesting?"
+And then you let the person go deeper
+because if you're trying to list off
+everything from the beginning, it would
+be a [clears throat] disaster. Correct.
+Yeah. As I said, that depends on the
+channel, right? On the voice tone, for
+example, if you are talking to to your
+AI agent, you can have the benefit of
+asking some questions first. So, I would
+like a burger. Which type of burger
+would you like? A chicken or a or a or a
+a a beef burger, right? A vegetarian, so
+on. Well, I want a vegetarian. Okay, I
+will going to find some options for you.
+If you do that on the text, like three,
+four message, probably the user won't
+like it. It's the that's the same the
+the same idea, same logic.
+&gt;&gt; That's right. But the channel is is
+totally different. That's why on Isla,
+for example, we have this this balance
+between
+asking things before refining, showing
+the results, or if I know enough
+depending on your intention, I can
+already show you this one to the user.
+&gt;&gt; yeah, that goes back to my question.
+Like in my head, I see it as different
+systems completely. You have the app
+experience, you have the concierge,
+maybe it's via WhatsApp, and then you
+have the phone. And are you not building
+three different
+kind of pillars?
+I wouldn't say that because the way as
+we as Isla's structured, Isla's ready to
+it's a multi-channel
+solution. So, it's not uh based on only
+if I want to be more verbose or less
+verbose. So, everything every aspect of
+the I look can be configured as a remote
+config, for example, and can be
+experimented.
+So, think about that. So, when I'm
+building any type of system, I try to
+make sure that uh I do not do anything
+that is hard-coded and I can easily
+flexibilize the characteristics, for
+example, of the of what my agent does,
+what the number of the items, what is
+the the weight that I'm doing between
+exploration versus versus exploitation,
+right? So,
+I lose a very robust solution that we
+can get a whole subset of parameters. I
+say that, well, for this channel, I'm
+going to I will should perform like this
+either in the AI in the in the
+intelligence part. For the other
+channel, it should perform like that.
+So, we can calibrate that like remotely
+and even test them. So, Yeah, it's all
+foundational pieces.
+&gt;&gt; That's all about foundational pieces.
+Exactly, right?
+But at some point it branches out. At
+some point you have to make it very
+channel specific.
+It's more on this experience part. As I
+said, the rendering and how I'm going to
+how can I say how I'm I'm going to show
+the results to the user.
+Yes, we have pillars that have been had
+to be processed differently, but when
+you think about intelligence, I can say
+that, well, for the voice, you can have
+to be very fast on your response and you
+have to not
+talk too much, but for the WhatsApp, you
+might have
+uh more results, have have have more
+text. Yeah. So, The intelligence like
+overall is almost the same, but the way
+we translate each into a user experience
+change very much from channel to
+channel, you know.
+But with voice like you have to use
+different models, right? You And so,
+maybe you have the foundational pieces
+of the the LCM that you have, but then
+later
+you can't, or maybe I'm mistaken, the
+LCM doesn't have a voice mode, does it?
+Well, that depends on the capability of
+your
+of your model that you're working on.
+So, if you have a model that can
+uh unders- understand your voice and can
+have the reasoning to do all the
+intelligence behind in the same time,
+then you don't need to do these two
+layers.
+You can do that at once.
+Uh-huh. Right? Uh I see.
+&gt;&gt; So, we've tried we tried to to to That's
+that's another another hint, right? If
+you are working on a voice to voice
+message, please do not use one model to
+just to translate through your voice and
+then go to another model to interpret
+from voice to text. Try to do this
+directly, because otherwise you'll get
+problems with that. So, uh the
+the the generalistics models, they have
+evolved it, so they can get different
+types of inputs, text, image, and voice
+as well. Yeah. So, and uh our strategy,
+depending on the channel, can be relied
+on using different types of models
+to do the the intelligence part. You had
+some moments, like learnings of what you
+could have done better?
+can you share, like, what are some
+things that, knowing now,
+you would do differently? The first
+thing on the technical perspective,
+we're always going back to latency, is
+that it's always data at the end, right?
+So, your agent itself, if you think
+about your agent, it's more like a way
+of taking your corporate data and
+process it somehow and use some uh
+output of that. But then, think about
+that, most of the data that you are
+using
+it's not
+e- up to the agent to generate. So,
+most of the agents that are corporate
+that will be used they they consume data
+from other types of sources, from other
+types of
+uh areas like finances and anything like
+but they have their own data, they have
+their own structure. So, one good thing
+that it's it's it's a hint is that
+before you build your agents, try to
+make sure that when you're going to
+escalate your agent, you are aligned
+with with your data the other data
+owners, right? Because
+this is going to be your problem but
+this is going to be the others problem
+to solve that. So, escalation
+when you do about talk about
+scalability, right?
+You probably you're going to take this
+data from the others, you're going to go
+from other APIs and they must be aware
+you should you need to do that. So, it's
+more like it's something between the
+technology part but like the agreements
+between other types of areas that you're
+going to consume. Before you really
+scale, understand your
+understand the way that the data models
+are.
+Not only the data models but what is the
+relationship between your agent and
+other parts of the companies.
+So, for example, if you're building an
+agent that you need to get the finance
+report from another area but the finance
+report is not ready to receive your data
+your your information or it takes too
+long or there is a there is a bottleneck
+on that.
+What would be the problem? You're going
+to have a light high latency on your
+agent
+but because of an external party and you
+cannot say I cannot blame them and say,
+"Well, this is your fault." because this
+is a this is a whole solution. So, if
+have a data from that the final finance
+report that takes a long time to to
+retrieve, just make sure that you to
+some asynchronous process, some
+some workflows that can run in the
+background before you get to the So, the
+agent works fine, but then when we need
+to pull in different sources of data or
+when we need to pull in different
+intelligence, that doesn't bottleneck
+the agent.
+Correct. And you have to have a good a
+very good high-quality agreement on
+that. So, I'm going to consume your
+data, I'm going to consume your API, I'm
+going to do this information. Are you
+ready to receive that? No, then I'm
+going to try to let's try to see how can
+we do the scalability without affecting
+the overall ecosystem. Mhm.
+I like that.
+One thing that is we found very
+difficult is
+the way you measure
+how the customers are interacting with
+your product.
+I mean
+for example, you can use channel as a
+score to find product market fit.
+But if you are targeting a specific kind
+of user in Brazil, if you ask uh how you
+going to feel if this this product
+doesn't exist anymore.
+People do not understand this kind of
+question and they just answer wrong and
+you get the wrong feelings about your
+product.
+&gt;&gt; Cuz they answer like, oh, it's going to
+be devastating to my life?
+They think it's going to be too much or
+they think it's going to be less. So,
+there's a bunch of people saying they
+like, but they do not like and people
+saying that they do not like, but they
+actually like.
+&gt;&gt; Mhm.
+the first thing you use a lot of magic
+as a judge. Then you need to deep dive
+the conversation itself because people
+say, I hate this recommendation. But
+why?
+Yeah. How the agents actually work with
+For you hate this.
+Or even worse, people
+uh you know, they have a problem
+with
+I don't know, iFood because every
+company has a problem with a customer.
+And they report this problem by using
+ilo.
+Oh. So, it's like a customer support bot
+all of a sudden. Yeah. Yeah. And that's
+tricky also, because
+what are you going to do with this? If
+you answer nothing,
+Yeah. probably the client will think you
+are dumb. Did you learn how to create
+that handoff really quick to customer
+support or
+&gt;&gt; We are We are right now thinking about
+this, but
+uh you know, the main point is
+when you are uh building conversational
+agents,
+it's
+uh it's not
+uh easy as you might think to understand
+like truly understand
+how your customer really feels about
+your product, how like for real, like
+what necessity you are, you know, truly
+uh addressing. Mhm. You need to like
+interview, ask questions, seek
+conversations like on the detail.
+Yeah. Yeah. Yeah. We found this in the
+hard way.
+&gt;&gt; And I could see from the customer's
+perspective why they would want to
+use ilo to report
+different problems that they're having
+with the app, because it's like the chat
+experience for me as a user,
+I think chat's chat, and when I interact
+with different chatbots, usually I ask
+it anything, and it will
+generally be able to handle what I'm
+asking it, right? I don't think of, oh,
+there's a customer support chatbot that
+I have to go to, there's a food chatbot
+that I have to go to. I don't
+verticalize it like that as a user. I
+just think, oh, I'm going to chat and
+tell them that this is messed up. And
+and that's like a great thing for us to
+think about.
+Which is
+for the user, it's like one thing iFood,
+right? He doesn't care if he's talking
+to a agent or any names, all right? So,
+in the end, in a agent-to-agent world
+that everybody's talking about, it's
+going to be like, "Okay, I'm I'm here to
+take your order. If you want If you have
+a customer problem, talk with my other
+friend here that's going to help you."
+All right. So, they're going to
+introduce to a bunch of friends. Yeah.
+&gt;&gt; There is a bunch of agents that's going
+to solve a bunch of problems. Or
+that's one option. Or you're going to
+arc straight everything. Yeah, that's
+what I was thinking. In one experience,
+one voice tone, one kind of messaging,
+and say, "Tell me whatever you want,
+I'll solve it for you."
+There's both options.
+I mean, I don't know which one's better.
+Maybe you can, you know, have like a
+friendly approach saying, "Okay, let me
+introduce you to
+this agent that's that can help you."
+[clears throat]
+Or you can just address everything like
+iFood does it all, but behind the scenes
+and it's just the gateway to whatever
+you need for iFood. Is it
+how I would
+feel like it it would play out, but also
+it doesn't really matter if it's just
+agents
+that are doing it. If I have my agent
+that's doing my bidding, I don't really
+care how
+they get it done as long as it gets
+done. Exactly. Like the customer, he
+really cares. Like
+&gt;&gt; Yeah. No.
+So, you know, he he cares enough for you
+to standardize everything, or just
+connect really quick and just solve the
+problem, you know?
+&gt;&gt; Yeah, right now we're in this period
+where they do care.
+Because it is me as a human using my
+time
+to interact with it. But later on, if I
+get an agent that can do it for me, then
+it's a different story. Yeah. Yeah.

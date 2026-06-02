@@ -1,0 +1,1507 @@
+I'm back with Reiner Pope, CEO&nbsp;
+of MatX, a new AI chip company.&nbsp;
+Last time we were talking about&nbsp;
+what happens inside a data center.&nbsp;
+Now I want to understand what&nbsp;
+happens inside an AI chip.&nbsp;
+How does a chip actually work?
+Full disclosure, by the way:&nbsp;&nbsp;
+I am an angel investor in MatX.
+So hopefully you have designed a good chip.&nbsp;
+Hope so. I'll start with the smallest&nbsp;
+fundamental unit of chip design, and we'll&nbsp;&nbsp;
+build up to what an actual production&nbsp;
+chip is and what its components are.&nbsp;
+At the very bottom level of a chip, the&nbsp;
+primitives we work with are logic gates,&nbsp;&nbsp;
+very simple things like AND, OR, and NOT.
+These are connected together by wires that have to&nbsp;&nbsp;
+be laid out physically as metal traces on a chip.
+The main function that AI chips want to compute&nbsp;&nbsp;
+is the multiplication of matrices.
+Inside that, the fundamental primitive&nbsp;&nbsp;
+is a multiply-accumulate of pairs of numbers.
+We're going to demonstrate what that calculation&nbsp;&nbsp;
+looks like by hand, and then infer what&nbsp;
+a circuit would look like for that.&nbsp;
+It'll be easiest if I do a multiply-accumulate of&nbsp;
+a four-bit number with another four-bit number.&nbsp;
+The clearest primitive is&nbsp;
+actually multiply-accumulate.&nbsp;
+So there's a multiply of these two terms, and&nbsp;
+then we're going to add in an eight-bit number.&nbsp;
+Can I ask a clarifying question?
+Why is this the natural primitive for&nbsp;&nbsp;
+whatever computation happens inside a computer?
+There are a few reasons.&nbsp;
+It's a little bit more efficient, but the&nbsp;
+reason it's natural for AI chips is that if&nbsp;&nbsp;
+you look at what's happening during a matrix&nbsp;
+multiply… What is a matrix multiply in short?&nbsp;
+There's a for-loop over i, over&nbsp;
+j, and over k, of output [i,&nbsp;&nbsp;
+k] += input [i, j] x other input [j, k].
+A multiply-accumulate happens at every&nbsp;&nbsp;
+single step of a matrix multiply.
+The other observation is that the&nbsp;&nbsp;
+precision will almost always be higher in the&nbsp;
+accumulation step than in the multiplication step.&nbsp;
+This is specific to AI chips.
+You're multiplying low-precision numbers,&nbsp;&nbsp;
+and then when you accumulate, errors accumulate&nbsp;
+quickly, so you need more precision there.&nbsp;
+This is why we've chosen to do a four-bit&nbsp;
+multiplication and an eight-bit addition.&nbsp;
+Let me make sure I understood that.
+There are two ways to understand that.&nbsp;
+One is that the value will&nbsp;
+be larger than the inputs.&nbsp;
+The other is that if it was a&nbsp;
+floating-point number it would be…&nbsp;&nbsp;
+Maybe that part is less intuitive to me.
+But maybe it's the same principle?&nbsp;
+It really is the same principle.
+The separate principle is that as&nbsp;&nbsp;
+you're summing up this number, you're summing&nbsp;
+up a whole bunch of numbers, so you've got a&nbsp;&nbsp;
+lot of rounding errors accumulating.
+Whereas in this case, there's only&nbsp;&nbsp;
+one multiplication in the chain,&nbsp;
+so there aren't a lot of rounding&nbsp;&nbsp;
+errors accumulating in the multiplication.
+Why are you summing up a whole bunch of numbers?&nbsp;
+There’s just two numbers there.
+This summation is repeated j many times.&nbsp;
+Any errors accumulate. I see.
+So how would we perform this calculation by hand?&nbsp;
+As a human, we would probably&nbsp;
+separate it into two, but we can do&nbsp;&nbsp;
+it all in one using long multiplication.
+For the multiplication term first, we're&nbsp;&nbsp;
+going to multiply this four-bit number by every&nbsp;
+single bit position in the other four-bit number.&nbsp;
+We write that out. First, 1001&nbsp;
+multiplied by this bit position.&nbsp;
+That is the number itself.
+Then shifted across by one,&nbsp;&nbsp;
+we're multiplying by 0.
+That gives us an all-0 number.&nbsp;
+Shifted across one more to&nbsp;
+multiply by this one, we get 1001.&nbsp;
+Finally, for this last bit position,&nbsp;
+we get an all-0 number again.&nbsp;
+This gives us a bunch of terms that&nbsp;
+we have to add for the multiplication.&nbsp;
+While we're doing that summation, we might as&nbsp;
+well add in the actual accumulator term as well.&nbsp;
+So we just copy that directly across.
+So this is the sum.&nbsp;
+It's a five-way sum that we want to compute.&nbsp;
+What logic gates did it take us&nbsp;
+to get to this intermediate step?&nbsp;
+We needed to produce all 16&nbsp;
+of these partial products.&nbsp;
+How do I produce one of these partial products?
+Let's take this number 1, for example here.&nbsp;
+We produce it by multiplying this&nbsp;
+number by this one over here.&nbsp;
+We can produce that with an AND gate.
+This number is 1 if both this bit&nbsp;&nbsp;
+is 1 and this bit is 1.
+If either of them is 0,&nbsp;&nbsp;
+then the multiplication of 0 times anything is 0.
+To produce all of this, we ended up&nbsp;&nbsp;
+consuming 16 AND gates.
+In the general case,&nbsp;&nbsp;
+if I were doing a p bit multiply times a q bit&nbsp;
+multiply, this will be p times q many ANDs.&nbsp;
+Finally, I sum them. Most of the work&nbsp;
+is going to happen in the summing.&nbsp;
+Let me describe the other&nbsp;
+logic gate that we use here.&nbsp;
+AND is almost the simplest logic&nbsp;
+gate that exists on a chip.&nbsp;
+It's almost the smallest. At the other extreme,&nbsp;
+the very largest logic gate you'll typically use&nbsp;&nbsp;
+is something called a full adder.
+Coming from software, you might think&nbsp;&nbsp;
+that a full adder adds 32-bit numbers together.
+In this case, it just adds three single-bit&nbsp;&nbsp;
+numbers together, so you can think&nbsp;
+of it as adding 0, 1, and 1 together.&nbsp;
+When I add these together, the result can&nbsp;
+be 0, 1, 2, or 3, so I can express that&nbsp;&nbsp;
+in binary using just two bits.
+As input, it has three bits.&nbsp;
+As output, it has two bits.
+The number 2 in binary is 10.&nbsp;
+This is also known as a 3→2 compressor&nbsp;
+because it takes three bits of input&nbsp;&nbsp;
+and produces two bits of output.
+Just to make sure I understood: the&nbsp;&nbsp;
+two inputs are an X and a Y value&nbsp;
+and then some carry that came in…&nbsp;
+The three inputs are all bits in the same bit&nbsp;
+position, like three bits in a column here.&nbsp;
+The two outputs, I've drawn them vertically&nbsp;
+here and horizontally here to match this&nbsp;&nbsp;
+vertical versus horizontal layout.
+This expresses that things in the same&nbsp;&nbsp;
+column are in the same bit position, whereas&nbsp;
+things in adjacent columns are different.&nbsp;
+This is a carry out, whereas this was the sum.
+So if the inputs in the full adder were, say,&nbsp;&nbsp;
+101, then the output would be 10.
+If it were 111, it'd be 11.&nbsp;
+If it were 000, it'd be 00.
+If it were 010, it'd still be 01.&nbsp;
+Got it.
+Yeah. It's essentially just counting the&nbsp;&nbsp;
+number of things and expressing that in binary.
+This circuit captures what we as humans naturally&nbsp;&nbsp;
+do when we're summing along a column.
+I'll show one iteration of using&nbsp;&nbsp;
+the full adder to sum.
+The way I sum here is going&nbsp;&nbsp;
+to be a little unnatural for humans.
+We would sum along the column and then&nbsp;&nbsp;
+remember the carry, but instead of remembering&nbsp;
+the carry, we'll explicitly write it out.&nbsp;
+We proceed from the rightmost&nbsp;
+column toward the left.&nbsp;
+On the rightmost column, we sum the 1 and the 1,&nbsp;
+and that produces a zero here and a carry of one.&nbsp;
+We've used this full adder circuit on this pair&nbsp;
+of bits and produced a pair of bits as output.&nbsp;
+Now we can do the same thing with this column.
+We have a column of four numbers, so we'll take&nbsp;&nbsp;
+the first three of them, run a full adder on&nbsp;
+them, and that gives us a 0 and a 0 as output.&nbsp;
+The sum of these is 00.
+That's the full adder applied to all these bits.&nbsp;
+As I've used up bits, I'll cross them&nbsp;
+out to indicate that I've handled them.&nbsp;
+Let's keep going a little bit more.
+I take these three numbers, I add&nbsp;&nbsp;
+them, and that gives me a 1 and a 0.
+I've dealt with these three numbers.&nbsp;
+Now I take these three numbers and add&nbsp;
+them, and that gives me a 1 and a 0,&nbsp;&nbsp;
+and I've dealt with these numbers.
+The way to view this is that I have&nbsp;&nbsp;
+this whole grid of numbers that need to be added.
+I'm going to keep applying full adders to all the&nbsp;&nbsp;
+bits here, constantly removing three numbers from&nbsp;
+a column and writing out two numbers as output.&nbsp;
+Keep going over and over again until I&nbsp;
+eventually get just one single number coming out.&nbsp;
+This approach is called a Dadda multiplier.
+This is the standard for how you do&nbsp;&nbsp;
+area-efficient multipliers using full adders.
+Let's try to quantify the circuit size of&nbsp;&nbsp;
+this so we have a sense of how big&nbsp;
+things are and can compare them later.&nbsp;
+How many full adders did I use?
+How many numbers did I start with?&nbsp;
+I have the 16 partial products, which is a product&nbsp;
+of all of these terms with all of these terms,&nbsp;&nbsp;
+plus the eight terms that I'm adding here.
+I started off with 24 bits.&nbsp;
+Eventually I produced eight bits on the output.
+In every step, I was crossing off three numbers&nbsp;&nbsp;
+and writing two numbers out as a result.
+Every single use of a full adder eliminates&nbsp;&nbsp;
+one of the bits here.
+So how many full adders?&nbsp;
+It must be 24 minus 8, so there&nbsp;
+were 16 full adders in this circuit.&nbsp;
+This is true in the general case as well.
+There will be p times q many&nbsp;&nbsp;
+full adders in this circuit.
+Let me make sure I understand the logic of that.&nbsp;
+The input bits, 24, is p x q, plus p + q.
+The output bits are just p + q.&nbsp;
+So p x q plus p + q, minus p + q equals p x q.
+That's right. I think this explains,&nbsp;&nbsp;
+or at least hints at, the second reason&nbsp;
+we chose to do a multiply-accumulate.&nbsp;
+The first reason is that it's what&nbsp;
+shows up in matrix multiplication.&nbsp;
+The second is that it gave us this very&nbsp;
+slick, simple p x q, very simple algebra.&nbsp;
+We've described this whole procedure.
+Every single atomic step that I took&nbsp;&nbsp;
+here becomes a logic gate, and then&nbsp;
+the wires are connected together.&nbsp;
+When I had these three inputs that I used to&nbsp;
+produce these two outputs, if I think of mapping&nbsp;&nbsp;
+this to a physical device, there would be a wire&nbsp;
+connecting all three of these things together&nbsp;&nbsp;
+into a logic gate that produced this output.
+This is the main primitive, at different bit&nbsp;&nbsp;
+widths, that's inside an AI chip.
+We're going to build up from here&nbsp;&nbsp;
+to how you would use it to run all&nbsp;
+the other operations you might want.&nbsp;
+This might be the wrong time to ask, but&nbsp;
+whenever Nvidia reports that this chip&nbsp;&nbsp;
+can do X many FP4 or half as many FP8, it&nbsp;
+seems to imply those circuits are fungible,&nbsp;&nbsp;
+that there's not a dedicated FP4 versus FP8.
+But the way you're mapping it out here, it seems&nbsp;&nbsp;
+like if it has to be mapped out in the logic, you&nbsp;
+would need a dedicated FP4 multiply-accumulate and&nbsp;&nbsp;
+then a dedicated FP8 accumulate.
+Can you "funge" them?&nbsp;
+As drawn, they're not particularly fungible.
+This is actually one of the main choices you&nbsp;&nbsp;
+have to make when designing a chip: how&nbsp;
+much of FP4 and how much of FP8 do I have?&nbsp;
+Sometimes I'll make that consideration from&nbsp;
+the point of view of the customer requirement.&nbsp;
+Another angle is to equalize the&nbsp;
+power budget between FP4 and FP8.&nbsp;
+When they report those numbers and it just happens&nbsp;
+to be the case that it does 2x as many FP4 as FP8,&nbsp;&nbsp;
+they're just choosing to give equivalent&nbsp;
+die areas to all the floating points,&nbsp;&nbsp;
+and as a result it ends up being…?
+Why is the ratio exactly 2x?&nbsp;
+Part of it is that surely it won't&nbsp;
+be exactly equivalent to die area.&nbsp;
+There's a data movement reason.
+We'll maybe come back to this when we&nbsp;&nbsp;
+look at how it goes into and out of memories.
+There's something really nice from a software&nbsp;&nbsp;
+level about the fact that I can pack&nbsp;
+two four-bit numbers into the same&nbsp;&nbsp;
+storage as an eight-bit number.
+When I store that to memory,&nbsp;&nbsp;
+the sizing of the buses that I wire out within&nbsp;
+the chip makes that work out really nicely.&nbsp;
+Come to think of it, it's not just 2x.
+The amount of area it takes sounds like&nbsp;&nbsp;
+it's quadratic with the bit length.
+That's why smaller precision is even&nbsp;&nbsp;
+more favorable than you might think.
+This is a really big reason.&nbsp;
+In fact, Nvidia made a change.
+Historically, up until B100 or&nbsp;&nbsp;
+B200, every time you halved the bit&nbsp;
+precision, you doubled the FLOP count.&nbsp;
+For the reason you said, because of this quadratic&nbsp;
+scaling, that ratio is actually slightly wrong.&nbsp;
+You should get an even bigger speedup&nbsp;
+than you might otherwise think.&nbsp;
+Nvidia’s product specs have started acknowledging&nbsp;
+that in B300 and beyond, where the FP4 is three&nbsp;&nbsp;
+times faster than the FP8.
+Though it should be 4x.&nbsp;
+Yeah. What I've shown here is the&nbsp;
+simplest case of integer multiply.&nbsp;
+When you're dealing with floating point, as&nbsp;
+you do in FP4 and FP8, there's this other term,&nbsp;&nbsp;
+the exponent, that complicates the calculation.
+What can we see already from this?&nbsp;
+I think the big observation you've made is that&nbsp;
+there's this quadratic scaling with bit width,&nbsp;&nbsp;
+which is very effective and is&nbsp;
+the single reason low-precision&nbsp;&nbsp;
+arithmetic has worked so well for neural nets.
+The other thing we're going to do now is compare&nbsp;&nbsp;
+the area spent on the multiplication&nbsp;
+itself with all the circuitry around it.&nbsp;
+We'll walk back in time a little bit and&nbsp;
+see how GPUs prior to Tensor Cores worked,&nbsp;&nbsp;
+which is in fact the same way CPUs worked.
+Where do we stick this multiply-accumulate unit?&nbsp;
+Generically, I'll describe a CUDA core or a CPU.
+You'll have some register file which stores some&nbsp;&nbsp;
+number of entries, maybe eight entries of, in this&nbsp;
+case, 4-bit numbers, but typically 32-bit numbers.&nbsp;
+Inside the CUDA core, I'll have&nbsp;
+some register file of some depth,&nbsp;&nbsp;
+and then I'll have my multiply-accumulate circuit.
+What it's going to do is take three arbitrary&nbsp;&nbsp;
+registers from this register file,&nbsp;
+perform the multiply-accumulate,&nbsp;&nbsp;
+and then write back to the register file.
+It's going to write to this one,&nbsp;&nbsp;
+but it was able to read from this&nbsp;
+one, this one, and another random one.&nbsp;
+It will take three inputs like this.
+This is the core data path of many processors.&nbsp;
+Most processors look like this.
+You've got some set of registers, and&nbsp;&nbsp;
+then you've got some set of logic units, or ALUs.
+We want to analyze the cost of the data movement&nbsp;&nbsp;
+from the register file to the ALU and back.
+Ultimately, there's going to be some&nbsp;&nbsp;
+circuit that says, "Well, I don't&nbsp;
+always have to select this guy.&nbsp;
+I might select any of the&nbsp;
+registers at any point in time."&nbsp;
+The first question is: how can I build a circuit?
+The circuit I'm going to look for is a mux.&nbsp;
+In this case, it's going to have eight inputs,&nbsp;
+one from each entry of the register file,&nbsp;&nbsp;
+and it's going to have one output,&nbsp;
+which is actually producing this output.&nbsp;
+What is the cost of this thing?
+All we have to build it out of is AND and OR.&nbsp;
+How do we build it?
+We do the dumbest thing possible.&nbsp;
+We form a mask. When we want to read the&nbsp;
+third entry, we're going to AND every&nbsp;&nbsp;
+single entry with either 1 or 0 based&nbsp;
+on whether that's what we want to read,&nbsp;&nbsp;
+and then we're going to OR all of them together.
+Just to make sure I understand the basics.&nbsp;
+What the mux is doing is just selecting an input?
+Just selecting, invisible to software.&nbsp;
+You say "I want input number three,"&nbsp;
+and that means there's a mux here.&nbsp;
+So what is the cost of this mux?
+An n-input&nbsp;&nbsp;
+mux operating on p bits.
+I have n rows. That's just eight&nbsp;&nbsp;
+rows, and each row is p bits wide.
+I have to AND every single bit,&nbsp;&nbsp;
+so I get n x p many AND gates.
+For every single input I have to decide&nbsp;&nbsp;
+whether I'm going to mask it out or not.
+Then I'm going to OR them all together.&nbsp;
+There's going to be n – 1 times p many OR gates.
+I've got all of these different things,&nbsp;&nbsp;
+almost all of them are 0s, but I need to collapse&nbsp;
+them from my eight options down into one option.&nbsp;
+Every step, I need to OR one&nbsp;
+row into an existing row.&nbsp;
+It's actually funny that you don't&nbsp;
+think at the level of hardware.&nbsp;
+You just think, "Oh, I'll just select element&nbsp;
+three," and something as simple as that is&nbsp;&nbsp;
+in and of itself quite a complicated circuit.
+This is the first step of all of the hidden&nbsp;&nbsp;
+data movement costs that show up.
+We're just going to compare.&nbsp;
+I have to pay this cost.
+I've got one mux here, and in fact&nbsp;&nbsp;
+I have two more copies of that for each of the&nbsp;
+three inputs to my multiply-accumulate operation.&nbsp;
+I have this cost, which is 3 x n x p AND gates&nbsp;
+over here, compared to p x q gates in the actual&nbsp;&nbsp;
+circuit that is doing the thing I care about.
+If we plug in actual numbers, with n being&nbsp;&nbsp;
+eight, I get 24 x p gates just in the data&nbsp;
+movement, compared to—if q is four—4 x p&nbsp;&nbsp;
+gates just in the multiply-adder.
+Where is the three coming from?&nbsp;
+Three different inputs here. What I'm&nbsp;
+hinting at is that all of this work,&nbsp;&nbsp;
+which scales as the size of the register&nbsp;
+file—and this is a very small register&nbsp;&nbsp;
+file—all of this work just moving the data from&nbsp;
+the register file to the logic unit is many,&nbsp;&nbsp;
+many times more expensive than the logic unit.
+In the most recent ClusterMAX report, SemiAnalysis&nbsp;&nbsp;
+ranked almost 100 different GPU clouds. Crusoe&nbsp;
+was one of only five that made the gold tier.&nbsp;
+SemiAnalysis found that gold-tier providers&nbsp;
+like Crusoe had a total cost of ownership that&nbsp;&nbsp;
+was 5% to 15% lower than silver-tier ones,&nbsp;
+even when they had identical GPU pricing.&nbsp;
+This makes sense because total cost of ownership&nbsp;
+is downstream of a bunch of different things that&nbsp;&nbsp;
+don't necessarily show up in the sticker&nbsp;
+price, but that Crusoe has optimized.&nbsp;
+Things like how well you detect faults&nbsp;
+and how quickly you replace failed nodes.&nbsp;
+For example, Crusoe was one of the first clouds&nbsp;
+to adopt NVSentinel, NVIDIA's own GPU monitoring&nbsp;&nbsp;
+and self-healing software for enhanced&nbsp;
+GPU uptime, utilization, and reliability.&nbsp;
+This lets Crusoe make use of everything that&nbsp;
+NVIDIA has learned about why chips fail across all&nbsp;&nbsp;
+their different fleets and deployments, so that&nbsp;
+Crusoe can catch faults earlier in the process.&nbsp;
+And once they identify a failure, Crusoe can&nbsp;
+swap in a healthy node in less than 10 minutes.&nbsp;
+Because they’re not running bare metal, Crusoe&nbsp;
+doesn't have to spend time installing an&nbsp;&nbsp;
+operating system or configuring drivers.
+They can just spin up a new VM on an&nbsp;&nbsp;
+already running and pre-qualified host.
+If you want to learn more about this or&nbsp;&nbsp;
+the other reasons that Crusoe made&nbsp;
+gold tier, go to crusoe.ai/dwarkesh.&nbsp;
+It may be helpful to just&nbsp;
+see what a mux looks like,&nbsp;&nbsp;
+maybe a two-bit or a four-bit mux.
+We’ll do a two-way mux.&nbsp;
+We've got two different numbers,&nbsp;
+we’ve got these two inputs.&nbsp;
+These are the inputs that are being selected&nbsp;
+between, and the selector can either be "I want&nbsp;&nbsp;
+this one" or "I want the other one."
+This is a one-hot encoding.&nbsp;
+This is what we start with.
+Let's focus on this case.&nbsp;
+This is the actual input we got, and we&nbsp;
+want to produce this guy as the result.&nbsp;
+Very laboriously, we AND&nbsp;
+this bit with all of these.&nbsp;
+That produces ANDing this bit with this row.
+Likewise, we AND this bit with this row.&nbsp;
+That produces all 0s. There are four ANDs here.
+Finally,&nbsp;&nbsp;
+we OR these two together, and this gives a 1.
+We OR these two together, this gives a 1.&nbsp;
+We OR these two together, it gives a 0.
+We OR these two together and it gives a 1.&nbsp;
+Those are the four ORs.
+This actually ends up&nbsp;&nbsp;
+looking a little bit like addition.
+We did exactly the same set of ANDs.&nbsp;
+We've ANDed all of these things together,&nbsp;
+but then instead of collapsing it by using&nbsp;&nbsp;
+full adder circuits, we just get a&nbsp;
+very simple collapsing with OR gates.&nbsp;
+But that doesn't look like n times p.
+This was with n=2 inputs.&nbsp;
+In the general case, we will have n&nbsp;
+rows, and we'll have p bits per row.&nbsp;
+That gives us the n times p many AND gates.
+In this circuit I've described, almost all of&nbsp;&nbsp;
+the cost, seven-eighths of the cost, is in reading&nbsp;
+and writing the register file, and only a tiny&nbsp;&nbsp;
+fraction of the cost is in the logic unit itself.
+This is the problem to solve.&nbsp;
+This essentially was the state of play prior&nbsp;
+to the Volta generation of Nvidia GPUs.&nbsp;
+This kind of thing is what&nbsp;
+was inside the CUDA cores.&nbsp;
+This problem statement is what motivated&nbsp;
+the introduction of Tensor Cores,&nbsp;&nbsp;
+which are more generically called systolic arrays.
+Think about how we're going to solve this problem.&nbsp;
+We're spending almost all of our&nbsp;
+circuit area on something that we&nbsp;&nbsp;
+really don't care about and is hidden to the&nbsp;
+software programmer, and the thing that we&nbsp;&nbsp;
+actually care about is not much of the area.
+Make this one bigger somehow while keeping&nbsp;&nbsp;
+this at the same size.
+That's the goal.&nbsp;
+The evolution was that we had baked&nbsp;
+this much into hardware at this stage.&nbsp;
+This single line is a multiply-accumulate,&nbsp;
+and this single thing was baked into hardware.&nbsp;
+The idea of a systolic array is to go&nbsp;
+two levels of loops up and bake this&nbsp;&nbsp;
+entire loop out here into hardware.
+The idea is that if we have a much&nbsp;&nbsp;
+bigger granularity fixed-function&nbsp;
+piece of logic, maybe the taxes we&nbsp;&nbsp;
+pay on the input and output are much smaller.
+Interesting. It sounds like you're suggesting&nbsp;&nbsp;
+that if you go up one step in the matrix&nbsp;
+multiply loop, you can tilt the balance&nbsp;&nbsp;
+more towards compute than communication.
+That's right. There are two effects we're&nbsp;&nbsp;
+going to take advantage of here.
+One is that we can do more stuff&nbsp;&nbsp;
+per every trip through our register file.
+The other is that in some of this loop, we can&nbsp;&nbsp;
+take advantage of certain things staying fixed.
+Visually, we're going to look at this&nbsp;&nbsp;
+matrix multiplication.
+This portion of the loop&nbsp;&nbsp;
+corresponds to a matrix-vector multiplication.
+We'll take a matrix and multiply it by a vector.&nbsp;
+How do we do this?
+Every column gets&nbsp;&nbsp;
+multiplied by the vector and then summed.
+We're going to sum along columns.&nbsp;
+This 0 and 3 gets multiplied by the 3 and&nbsp;
+7 and gets summed, and then the 1 and 2&nbsp;&nbsp;
+gets multiplied by the 3 and 7 and gets summed.
+There is a multiply-accumulate associated with&nbsp;&nbsp;
+every single one of these entries in the matrix.
+We'll draw out these four multiply-accumulates.&nbsp;
+Just to make sure I understand why there are&nbsp;
+four multiply-accumulates: each entry in the&nbsp;&nbsp;
+column that corresponds to the output&nbsp;
+vector is a dot product, and in this&nbsp;&nbsp;
+case it will be two multiplications and then&nbsp;
+the addition of those two multiplications.&nbsp;
+You're accumulating...
+Really there's only one addition per&nbsp;&nbsp;
+dot product, but we like to start with zero.
+But it includes the initialization of zero.&nbsp;
+Yeah. We want to have quadratically more compute.&nbsp;
+We have x times y as much&nbsp;
+compute as we had before.&nbsp;
+But we want to aim for having only&nbsp;
+x times as much communication.&nbsp;
+The intention is to get this&nbsp;
+advantage term going as y.&nbsp;
+We've laid down the multiplications.
+We want to bring in a vector of size two, and&nbsp;&nbsp;
+that is already in line with our columns target.
+That's fine. However, we need to manage the&nbsp;&nbsp;
+communication of this matrix,&nbsp;
+which exceeds our budget of x.&nbsp;
+The idea is that in an AI context, this matrix&nbsp;
+is going to stay fixed for a long period of time.&nbsp;
+We've got some register files sitting over here.
+The amount of stuff coming out of this register&nbsp;&nbsp;
+file… this is the term that we&nbsp;
+want to go as x, in some sense.&nbsp;
+We don't want to bring this full matrix&nbsp;
+in from the register file every cycle,&nbsp;&nbsp;
+because that would cost too much in&nbsp;
+terms of wiring from the register file.&nbsp;
+Our key trick is that this matrix can&nbsp;
+be stored locally to the systolic array.&nbsp;
+We'll store these numbers 0, 1, 2, and 3&nbsp;
+in a gate called a register that physically&nbsp;&nbsp;
+stores these numbers, and we're going to&nbsp;
+reuse these numbers over and over again&nbsp;&nbsp;
+for a large number of different vectors.
+The optimization here is that the nature of&nbsp;&nbsp;
+matrix multiplication is that you can store this&nbsp;
+square quadratic thing directly where the logic is&nbsp;&nbsp;
+happening, which has an extra dimension compared&nbsp;
+to the inputs that you keep swapping in and out.&nbsp;
+That’s right.
+This is the nature of&nbsp;&nbsp;
+what a matrix multiplication is.
+You do a lot of multiplication&nbsp;&nbsp;
+to get one value out.
+A dot product is the&nbsp;&nbsp;
+result of a lot of multiplications.
+So that optimization means you can&nbsp;&nbsp;
+stuff a lot of multiplication in&nbsp;
+before you get some value out of it.&nbsp;
+That's right. Just to complete the&nbsp;
+picture of concretely how that looks:&nbsp;&nbsp;
+I swapped the 3 and the 2 here.
+Just like this 0 and 3 is going&nbsp;&nbsp;
+to multiply by the 3 and the 7, we're going&nbsp;
+to form a dot product along columns here.&nbsp;
+We're going to feed a 3 and a 7 in here.
+This feeds into this multiplication and also&nbsp;&nbsp;
+feeds into this multiplication.
+Likewise, the 3 feeds&nbsp;&nbsp;
+into here and also into here.
+Then we're going to sum along here.&nbsp;
+Starting at the top of a column, we feed in 0s,&nbsp;
+and then coming out the bottom we get results.&nbsp;
+Visually, there's a dot product performed along&nbsp;
+columns in a matrix, and that maps exactly to&nbsp;&nbsp;
+what is done spatially in the systolic array.
+This is one dot product summed vertically,&nbsp;&nbsp;
+and this is a second dot&nbsp;
+product also summed vertically.&nbsp;
+What is the data that needs to go&nbsp;
+into and out of the register file?&nbsp;
+We have x amount of data coming&nbsp;
+out on the output, and we also&nbsp;&nbsp;
+have x amount of data coming from the input.
+With respect to the input and output vectors&nbsp;&nbsp;
+at least, we've met our goal of having only x as&nbsp;
+much data going in and out of the register file.&nbsp;
+This leaves open the question: I said the&nbsp;
+weight matrix is stored locally in the systolic&nbsp;&nbsp;
+array, so how did it get there in the first place?
+At some point, you need to boot your chip and&nbsp;&nbsp;
+populate this data, so where did that come from?
+The trick is that we just do it very slowly.&nbsp;
+We very slowly trickle-feed&nbsp;
+it into the systolic array.&nbsp;
+The simplest strategy is that we run&nbsp;
+this daisy chain: feed a number in here,&nbsp;&nbsp;
+and on the next clock cycle it will move&nbsp;
+down to the next entry of the systolic array.&nbsp;
+We can do that in every column in parallel,&nbsp;
+this is also going to come from here,&nbsp;&nbsp;
+and that gives us another factor of&nbsp;
+approximately x units of bandwidth coming in.&nbsp;
+Would you mind repeating&nbsp;
+that sentence one more time?&nbsp;
+We know that we're going to be bringing&nbsp;
+numbers only rarely into the matrix.&nbsp;
+We just want to come up with any construction&nbsp;
+at all such that the amount of wiring that&nbsp;&nbsp;
+crosses the boundary of the systolic&nbsp;
+array is bounded to x and not go as xy.&nbsp;
+A particularly simple strategy is that&nbsp;
+we bring a number into the top row of&nbsp;&nbsp;
+the systolic array in one clock cycle.
+Then, for y consecutive clock cycles,&nbsp;&nbsp;
+we bring in the top row every time and&nbsp;
+shift all the other rows down by one.&nbsp;
+This keeps the wiring that needs to&nbsp;
+come from this expensive register file&nbsp;&nbsp;
+only down to a factor of x rather than xy.
+I see. There are two questions in terms&nbsp;&nbsp;
+of communication: communication&nbsp;
+time and communication bandwidth.&nbsp;
+You're saying that since we're only going to be&nbsp;
+loading this in once, let's minimize bandwidth,&nbsp;&nbsp;
+because bandwidth equals die area.
+We load it in slowly over smaller&nbsp;&nbsp;
+lanes because we're just going to&nbsp;
+keep this value in there for a while.&nbsp;
+Exactly.
+It's interesting to me that when we were talking&nbsp;&nbsp;
+last time about inference across many chips, the&nbsp;
+big high-level thing we're trying to optimize for&nbsp;&nbsp;
+is increasing the amount of compute per memory&nbsp;
+bandwidth, that is to say, per communication.&nbsp;
+Here also, we're trying to increase&nbsp;
+the amount of actual multiplies&nbsp;&nbsp;
+or additions relative to transporting&nbsp;
+information from registers to the logic.&nbsp;
+In both cases, you're trying to maximize&nbsp;
+compute relative to communication.&nbsp;
+This shows up all the way up and down the stack.
+This is close to the bottom, to the gates.&nbsp;
+There's a version that's maybe even closer&nbsp;
+to the gates in the precision of the number&nbsp;&nbsp;
+format that you choose to use.
+We saw that same effect.&nbsp;
+There's a squared versus linear term going&nbsp;
+on both purely in the precision of the ALU,&nbsp;&nbsp;
+but also in the size of the matrix.
+This unit is the next bigger unit.&nbsp;
+We had the multiplication circuit, and on top&nbsp;
+of that we have a pretty large systolic array.&nbsp;
+I drew it as 2x2, but older TPUs were described&nbsp;
+as 128x128 of this circuit shown here.&nbsp;
+This ends up being the most efficient known&nbsp;
+circuit for implementing a matrix multiply.&nbsp;
+We've talked about how it seems&nbsp;
+obvious that you should try to&nbsp;&nbsp;
+maximize compute relative to communication.
+What are non-obvious trade-offs that&nbsp;&nbsp;
+keep you up at night, about whether you should do&nbsp;
+X or Y and it's not obvious what the answer is?&nbsp;
+Most of the decisions in chip&nbsp;
+design are sizing decisions.&nbsp;
+Already in what we've drawn so far… AI&nbsp;
+chips all have this circuit in them.&nbsp;
+They have a systolic array, and somewhere near&nbsp;
+it a register file providing inputs and outputs.&nbsp;
+Even within this scope, the sizing questions you&nbsp;
+have are: how big should I make my systolic array,&nbsp;&nbsp;
+and how big should I make the register file?
+These two questions are coupled.&nbsp;
+One way to think of it is to set a&nbsp;
+budget for what percentage of chip&nbsp;&nbsp;
+area you want to spend on data movement.
+Maybe I say that I want this to be 10%&nbsp;&nbsp;
+and the systolic array to be 90%.
+Then I can size my register file.&nbsp;
+Bigger register files are more flexible.
+They allow me to get more application-level&nbsp;&nbsp;
+performance out, but they take away from&nbsp;
+the area spent on the systolic array.&nbsp;
+I recently ran an essay contest where I asked&nbsp;
+people to write about what I consider to be some&nbsp;&nbsp;
+of the biggest open questions about AI.
+The submission window closed last week,&nbsp;&nbsp;
+so I used Cursor to create a couple of different&nbsp;
+interfaces to help me review the entries.&nbsp;
+One interface anonymizes submissions&nbsp;
+and hides the necessary information.&nbsp;
+It lets me group responses by question,&nbsp;
+add notes, and record my scores.&nbsp;
+The other interface helps me review&nbsp;
+entrants who also want to be considered&nbsp;&nbsp;
+for the researcher role that I'm hiring for.
+The UI puts the applicant's essay right next&nbsp;&nbsp;
+to their resume and their personal website&nbsp;
+so that I can see everything at once.&nbsp;
+Cursor's harness is really good at helping&nbsp;
+these models see and improve their UIs.&nbsp;
+I watched it render these interfaces in&nbsp;
+the built-in browser, take screenshots,&nbsp;&nbsp;
+click through sections, and keep iterating.
+At this point,&nbsp;&nbsp;
+Cursor is where I do most of my work.
+Whether I'm reading and visualizing a bunch&nbsp;&nbsp;
+of research papers, or coding up an interface to&nbsp;
+review applications, or making flashcards for my&nbsp;&nbsp;
+blackboard lectures, Cursor just makes it very&nbsp;
+easy for an AI to look at whatever I'm looking at&nbsp;&nbsp;
+and help me understand it and work with me on it.
+So whatever you're working on,&nbsp;&nbsp;
+you should do it in Cursor.
+Go to cursor.com/dwarkesh.&nbsp;
+Where does the clock cycle of a chip come in?
+What determines what that is?&nbsp;
+And what is a clock cycle of a chip?
+At baseline, it's worth observing&nbsp;&nbsp;
+that chips are incredibly parallel.
+You've got 100 billion transistors in a chip.&nbsp;
+A key thing you need to do whenever you&nbsp;
+have massive parallelism is synchronize&nbsp;&nbsp;
+between the different parallel units.
+In software, typically you have these very&nbsp;&nbsp;
+expensive synchronization methods like a mutex.
+One thread will finish what it's doing,&nbsp;&nbsp;
+grab a lock stored somewhere in memory,&nbsp;
+and notify the other thread that it's done.&nbsp;
+On chips, we take a very different approach.
+Every nanosecond or so, all circuitry in the chip&nbsp;&nbsp;
+will pause for a moment and synchronize.
+That is the clock cycle.&nbsp;
+The entire chip typically goes in lockstep&nbsp;
+to the next operation in one fell swoop.&nbsp;
+What this looks like in circuitry is that&nbsp;
+the clock is mediated by registers, which&nbsp;&nbsp;
+are these storage devices we've drawn elsewhere.
+The way to think of it is: I have some storage&nbsp;&nbsp;
+holding a bit, which might be 0 or 1.
+Then I have some cloud of logic,&nbsp;&nbsp;
+which maybe is this systolic array or multiplier.
+I have a bunch of inputs feeding into this cloud&nbsp;&nbsp;
+of logic, and eventually there's going to&nbsp;
+be some output register that it writes to.&nbsp;
+There is a global clock signal&nbsp;
+driving all these registers.&nbsp;
+At a certain instance in time, when the clock&nbsp;
+strikes, whatever value happens to be on that&nbsp;&nbsp;
+wire at that instant is what gets stored.
+The challenge is that I would like to have&nbsp;&nbsp;
+my clock speed run as fast as possible.
+If I run at two gigahertz, I get twice as&nbsp;&nbsp;
+many operations done per second&nbsp;
+as if I run at one gigahertz.&nbsp;
+But what that ends up meaning is that I'm very&nbsp;
+sensitive to the delay through this cloud of&nbsp;&nbsp;
+logic, because any computation happening in there&nbsp;
+needs to finish before the next clock cycle hits.&nbsp;
+A major point of optimization on any chip&nbsp;
+is to make this delay as short as possible.&nbsp;
+Interesting. The constraint here seems&nbsp;
+to be that if you add too much logic,&nbsp;&nbsp;
+you might risk missing the clock cycle.
+But if you don't add enough, you're&nbsp;&nbsp;
+leaving potential compute on the table.
+Is there ever a situation where you take&nbsp;&nbsp;
+a probabilistic chance that a computation&nbsp;
+finishes, or is it strictly that it either&nbsp;&nbsp;
+finishes by the clock cycle or it doesn't?
+In standard chip design, you margin it such&nbsp;&nbsp;
+that there is a probability, but&nbsp;
+it's many standard deviations out.&nbsp;
+For all intents and purposes, it is a&nbsp;
+reliable part and will always meet the clock.&nbsp;
+There are some weird exceptions, like clock domain&nbsp;
+crossings where you go from one clock to another.&nbsp;
+Then you actually do have to&nbsp;
+reason about this probability.&nbsp;
+But in the main path, you margin it such that&nbsp;
+you'll get there 25% of the clock cycle in&nbsp;&nbsp;
+advance, making it very unlikely that it misses.
+Where the clocks synchronize, where the&nbsp;&nbsp;
+registers are, is this something&nbsp;
+you determine as a chip designer?&nbsp;
+Or is it an artifact where you want a certain&nbsp;
+sequence of logic, and the software you use to&nbsp;&nbsp;
+convert your Verilog into what you send to&nbsp;
+TSMC just determines that to make it work,&nbsp;&nbsp;
+you have to put a register here, here, and&nbsp;
+here, making sure no single step makes the&nbsp;&nbsp;
+whole chip's clock cycle longer than it has to be?
+Inserting them is actually a huge part of the&nbsp;&nbsp;
+work of designing a chip.
+It's done by a combination&nbsp;&nbsp;
+of manual and automatic methods.
+To show the very dumb version of&nbsp;&nbsp;
+what you can do here, you can take&nbsp;
+this logic and split it in half.&nbsp;
+Instead of just one cloud of logic, I can have two&nbsp;
+smaller clouds of logic that do the same thing,&nbsp;&nbsp;
+but split them up by a register.
+If you split it in the middle,&nbsp;&nbsp;
+you can hit twice the clock frequency.
+That's great, you get twice the performance,&nbsp;&nbsp;
+but at the cost of an extra&nbsp;
+register, which means more storage.&nbsp;
+Stepping back, why do we need&nbsp;
+to synchronize the whole chip?&nbsp;
+If you imagine playing Factorio or&nbsp;
+something, there's no global clock cycle.&nbsp;
+Things are just done when they're done.
+There's iron on the plate, and you can&nbsp;&nbsp;
+take it if you want.
+Taking that analogy,&nbsp;&nbsp;
+the thing you need to be mindful of is if I&nbsp;
+have two different paths through some logic.&nbsp;
+Say I have to do computation&nbsp;
+f here and computation g here,&nbsp;&nbsp;
+and they're going to meet for computation h.
+There's going to be manufacturing variance.&nbsp;
+In some chips f will take a little longer;&nbsp;
+in some chips g will take a little longer.&nbsp;
+If I have a signal propagating through, and&nbsp;
+the results from f and g have to meet up at h,&nbsp;&nbsp;
+what can go wrong is that f gets&nbsp;
+there early and it meets the previous&nbsp;&nbsp;
+value of g, or the next value of g.
+Ah. And h needs to know when to start,&nbsp;&nbsp;
+when the next iteration has…
+Exactly.&nbsp;
+This explains why different chips made&nbsp;
+at the same process node, the same TSMC&nbsp;&nbsp;
+technology, can have different clock cycles.
+Two chips made at 3 nm might have different clock&nbsp;&nbsp;
+cycles based on whether they were able to optimize&nbsp;
+to ensure no single critical path is so long that&nbsp;&nbsp;
+it slows down the whole chip's clock cycle.
+That's right. This optimization I showed here&nbsp;&nbsp;
+is called pipeline register insertion.
+We've inserted a register in the&nbsp;&nbsp;
+middle of the pipeline.
+This is a pure trade-off&nbsp;&nbsp;
+between clock speed and area.
+That is the easy case.&nbsp;
+There is a harder case too.
+I drew out a pipeline of logic,&nbsp;&nbsp;
+but in other cases you may have some calculation&nbsp;
+which actually feeds back in on itself.&nbsp;
+It runs some function f and&nbsp;
+then writes back to itself.&nbsp;
+For example, this might be an addition where&nbsp;
+you're adding a number every clock cycle.&nbsp;
+This little circuit essentially sums all the&nbsp;
+numbers presented on different clock cycles.&nbsp;
+The challenge is, if this plus&nbsp;
+takes too long, what can I do?&nbsp;
+If I try to put a pipeline register&nbsp;
+right in the middle of it, it&nbsp;&nbsp;
+changes the computation that's done.
+Instead of forming a running sum&nbsp;&nbsp;
+of everything that comes in, I will&nbsp;
+actually have two different running sums.&nbsp;
+I'll end up with a running sum of the even&nbsp;
+numbers and a running sum of the odd numbers.&nbsp;
+This constraint—where I have a loop in my logic,&nbsp;
+which all chips have somewhere—is the hardest&nbsp;&nbsp;
+thing to address and sets the clock cycle.
+I don't understand why it would be&nbsp;&nbsp;
+a problem to have that.
+I'm not even sure what it&nbsp;&nbsp;
+would mean to have a register there.
+Is it a sort of atomic operation?&nbsp;
+Well, plus is not really atomic.
+As you just demonstrated.&nbsp;
+It took a whole lot of work to do a summation.
+You can take the early parts of that work,&nbsp;&nbsp;
+stick a register in the middle, and&nbsp;
+then take the late parts of that work.&nbsp;
+Okay. TSMC offers a PDK which&nbsp;
+specifies the primitives of&nbsp;&nbsp;
+logic they can grant you in the chip.
+It's up to them to determine that no&nbsp;&nbsp;
+primitive is bigger than the clock cycle&nbsp;
+they're hoping a process node targets.&nbsp;
+But other than that, can't you just take&nbsp;
+all the primitives from TSMC and keep adding&nbsp;&nbsp;
+registers between them as much as needed&nbsp;
+until you get to your desired clock cycle?&nbsp;
+As a logic designer, the chip&nbsp;
+architect sets the clock cycle.&nbsp;
+For example, the primitives you get from TSMC&nbsp;
+are on the order of AND gates or full adders.&nbsp;
+It depends a lot on voltage and which library you&nbsp;
+choose, but generally you can have about 10, 20,&nbsp;&nbsp;
+or 30 of these sequentially in a clock cycle.
+These primitives are very fast,&nbsp;&nbsp;
+maybe 10 picoseconds.
+As a logic designer, in principle,&nbsp;&nbsp;
+if you just had a register and an AND gate in a&nbsp;
+loop, you could get an insanely fast clock speed,&nbsp;&nbsp;
+more than four, five, or six gigahertz.
+But if you take this really simple circuit&nbsp;&nbsp;
+and look at the area you're spending&nbsp;
+here… This is called one gate equivalent&nbsp;&nbsp;
+in size, so unit of one in area.
+This thing is maybe a unit of eight in area.&nbsp;
+Again, almost all your cost&nbsp;
+becomes synchronization or&nbsp;&nbsp;
+communication cost compared to the actual logic.
+This would be a case where you've gone too far.&nbsp;
+You've made your clock speed really&nbsp;
+fast at the cost of spending almost&nbsp;&nbsp;
+all of your area on pipeline registers.
+Interesting. So you're hinting at a dynamic&nbsp;&nbsp;
+where you can have a really fast clock speed&nbsp;
+but you're not getting that much work done.&nbsp;
+You can have low latency but low throughput.
+It hurts your throughput, in fact, because&nbsp;&nbsp;
+the throughput of your chip is the product of&nbsp;
+how much you get done per clock cycle—which&nbsp;&nbsp;
+is based on area efficiency—times&nbsp;
+how many clocks you get per second.&nbsp;
+This is actually so similar to the thing we&nbsp;
+were discussing last time about batch size,&nbsp;&nbsp;
+where if you have a low batch size, any one&nbsp;
+user can receive their next token really fast,&nbsp;&nbsp;
+but the total number of tokens processed in, say,&nbsp;
+an hour will be lower than it could otherwise be.&nbsp;
+Exactly. You get less parallelism out if&nbsp;
+you drive your clock speed up really high.&nbsp;
+Language models are starting to compete&nbsp;
+against the best human forecasters.&nbsp;
+I sat down with two senior Jane Streeters, Ron&nbsp;
+Minsky and Dan Pontecorvo, and asked: at some&nbsp;&nbsp;
+point, does AI just do what Jane Street does?
+There's a world that we should take seriously&nbsp;&nbsp;
+where, you know, we're going to build large&nbsp;
+language models or some other AI systems that&nbsp;&nbsp;
+are like strictly smarter than all humans on the&nbsp;
+planet and more capable at all cognitive tasks.&nbsp;
+Trading in particular feels to me as like kind&nbsp;
+of AGI complete, sort of like NP complete,&nbsp;&nbsp;
+because at the end of the day trading involves&nbsp;
+figuring out what things are worth, which means&nbsp;&nbsp;
+making predictions about the future.
+Jane Street isn't betting against AI.&nbsp;
+They just signed a six&nbsp;
+billion dollar compute deal.&nbsp;
+But Ron's view is that the edge keeps moving.
+I have never been more desperate to hire more&nbsp;&nbsp;
+engineers and more traders than I am today.
+You know, you have the usual thing of like&nbsp;&nbsp;
+the other hard parts that we&nbsp;
+don't yet know how to automate.&nbsp;
+Well, that ends up being where&nbsp;
+the competitive edge lies.&nbsp;
+You can find these open positions and watch&nbsp;
+the full interview at janestreet.com/dwarkesh.&nbsp;
+I remember talking to an FPGA engineer at&nbsp;
+Jane Street, Clark, who helped me prep for&nbsp;&nbsp;
+the previous interview we did together.
+He was explaining why they use FPGAs.&nbsp;
+I imagine that for high-frequency trading,&nbsp;
+throughput is less important than latency,&nbsp;&nbsp;
+so having very specific control over the clock&nbsp;&nbsp;
+cycle in a deterministic way&nbsp;
+is the most important thing.&nbsp;
+Maybe it'd be interesting to talk about why&nbsp;
+you can't just achieve that with an ASIC,&nbsp;&nbsp;
+or why you might use an FPGA to have deterministic&nbsp;
+clock cycles for high-frequency trading.&nbsp;
+Let's consider the business&nbsp;
+case for an FPGA versus an ASIC.&nbsp;
+FPGAs and ASICs use largely&nbsp;
+the same conceptual model.&nbsp;
+You have a series of gates built from small&nbsp;
+primitives—ANDs, ORs, XORs—connected together&nbsp;&nbsp;
+with wires running in a fixed clock cycle.
+Anything you can express in an FPGA you&nbsp;&nbsp;
+can express in an ASIC too.
+It will be about an order of&nbsp;&nbsp;
+magnitude cheaper and have better energy&nbsp;
+efficiency on an ASIC than an FPGA.&nbsp;
+The trade-off is that the first FPGA costs you&nbsp;
+$10,000, whereas the first ASIC you make costs $30&nbsp;&nbsp;
+million because it requires an entire tape-out.
+The business use case for an FPGA is when you want&nbsp;&nbsp;
+something that has very deterministic&nbsp;
+latency, fast runtime, and high parallelism,&nbsp;&nbsp;
+but you are going to change the&nbsp;
+workload frequently, maybe every month.&nbsp;
+You don't want to pay that&nbsp;
+tape-out cost every time.&nbsp;
+How does an FPGA actually emulate the ASIC&nbsp;
+programming model in a fixed piece of hardware?&nbsp;
+At its core, it has the two&nbsp;
+components we just talked about.&nbsp;
+It has registers as storage&nbsp;
+devices, and it has lookup tables&nbsp;&nbsp;
+(LUTs) which provide all of the gates.
+Then there's a third component.&nbsp;
+We have a swarm of these registers and LUTs,&nbsp;
+and they are connected by a big set of muxes.&nbsp;
+In front of every single one of these, we have a&nbsp;
+mux which selects an input from everywhere else.&nbsp;
+We have a whole bunch of different&nbsp;
+options feeding into all of these things.&nbsp;
+What this allows is essentially that when&nbsp;
+I program my FPGA, I can take all of these&nbsp;&nbsp;
+components and superimpose a particular wiring&nbsp;
+which goes through this LUT, feed it into another&nbsp;&nbsp;
+LUT, send it to this register, and then feed&nbsp;
+it into another LUT, or something like that.&nbsp;
+What I've drawn in orange is how you…&nbsp;
+FPGA means Field-Programmable Gate Array.&nbsp;
+The orange is what has been programmed in&nbsp;
+the field, whereas the white is all the&nbsp;&nbsp;
+wires that must exist in the FPGA in order to&nbsp;
+actually make the device in the first place.&nbsp;
+What does it mean to be programmed in the field?
+Programmed in the field means the device is&nbsp;&nbsp;
+being deployed in a data center.
+It's sitting out in the world,&nbsp;&nbsp;
+and then you can come and program it.
+Ah, not field as in like electric field.&nbsp;
+Field as in like out there in the world, ok.
+If I look at how the field programming comes&nbsp;&nbsp;
+out of the first lookup table and goes&nbsp;
+into a second one, how does that work?&nbsp;
+Where are the wires that make that happen?
+I got a little bit lazy in drawing all of these.&nbsp;
+Every single device here has a mux sitting in&nbsp;
+front of it, which can select from all of the&nbsp;&nbsp;
+nearby circuits that are available.
+The actual configuration of the&nbsp;&nbsp;
+FPGA amounts to the mux control.
+In this mux, we have the data inputs,&nbsp;&nbsp;
+and we have the control that selects.
+There's a little storage device sitting next&nbsp;&nbsp;
+to every single one of these muxes saying, "This&nbsp;
+is where you're going to source your input from."&nbsp;
+Programming it consists of configuring&nbsp;
+every single one of these muxes.&nbsp;
+That makes sense. What is happening&nbsp;
+inside of the lookup table?&nbsp;
+The lookup table is also going to have a&nbsp;
+little bit of control telling it what to do.&nbsp;
+Its purpose is to configurably&nbsp;
+take the role of an AND gate,&nbsp;&nbsp;
+OR gate, XOR, or any of those different things.
+There are many ways you could consider doing that.&nbsp;
+The way it's done in traditional&nbsp;
+FPGAs… A lookup table has four bits&nbsp;&nbsp;
+of input and one bit of output.
+How many different functions are&nbsp;&nbsp;
+there from four bits to one bit?
+There are 16 different functions.&nbsp;
+You can tabulate this as 16 different numbers.
+You've got a table of 0111001, 16 entries.&nbsp;
+This table is stored in&nbsp;
+this blue configuration bit.&nbsp;
+It views these four bits as binary, looks up the&nbsp;
+relevant row of the table, and emits that bit.&nbsp;
+This is essentially a truth-table&nbsp;
+view of lookup tables.&nbsp;
+Okay, so if you think about an AND gate, OR gate,&nbsp;
+NOR gate, XOR gate, these all take as input…&nbsp;
+Those are two-input functions. Sometimes we have&nbsp;
+a three-input function, like a three-way XOR,&nbsp;&nbsp;
+or a four-way XOR.
+In this case,&nbsp;&nbsp;
+does it just depend on how big it is?
+The typical size for LUTs is four inputs.&nbsp;
+It's sort of just a sweet spot.
+There’s another compute vs. communication&nbsp;&nbsp;
+trade-off here.
+If it has too&nbsp;&nbsp;
+few inputs, you need to use more LUTs.
+Basically the lookup table is a truth table.&nbsp;
+With a truth table, you can&nbsp;
+program in any gate you want.&nbsp;
+So instead of a lookup table, you can&nbsp;
+just think of it as a programmable gate.&nbsp;
+That's right. One of the things you can do&nbsp;
+here is you can see where the rule of thumb&nbsp;&nbsp;
+that an FPGA is an order of magnitude&nbsp;
+more expensive than an ASIC comes from.&nbsp;
+You count how many gates would&nbsp;
+be inside this lookup table.&nbsp;
+We can view this lookup table&nbsp;
+essentially as one of these muxes.&nbsp;
+It has to select between 16 different values,&nbsp;&nbsp;
+so it's a mux with n=16 options and p=1 bits.
+As we saw earlier, this circuit&nbsp;&nbsp;
+costs n times p many gates.
+So it costs np, which is 16,&nbsp;&nbsp;
+AND gates, and also 16 ORs.
+This circuit being the mux?&nbsp;
+Exactly, the mux.
+The mux that goes into the lookup table?&nbsp;
+The lookup table itself you can think of&nbsp;
+as being a big mux that selects from all 16&nbsp;&nbsp;
+rows down to one output.
+That's the lookup table.&nbsp;
+But the way you've drawn it here,&nbsp;
+there's a mux and then a lookup table.&nbsp;
+It's muxes all the way down.
+There is a second mux that is inside here.&nbsp;
+This mux is this mux.
+And the other mux is just saying…&nbsp;
+where it came from in this mess of gates.
+Right, and the second mux is, "Okay,&nbsp;&nbsp;
+now you have one value, but that&nbsp;
+value is still a four-bit value."&nbsp;
+Yeah, I've selected four bits from the soup.
+Then I use those four bits to select which&nbsp;&nbsp;
+entry in the lookup table I'm going to use.
+Suppose in the first mux you're pulling&nbsp;&nbsp;
+from eight nearby registers as input.
+That's a total of 32 bits going in.&nbsp;
+Out of that, four bits come out.
+Those four bits go into the second mux,&nbsp;&nbsp;
+which is inside the lookup table.
+In this case, these registers&nbsp;&nbsp;
+are single-bit registers.
+If there are eight nearby&nbsp;&nbsp;
+registers and lookup tables, then I&nbsp;
+have eight bits total coming in nearby.&nbsp;
+I select from eight down to four different values.
+There are actually four different muxes, a little&nbsp;&nbsp;
+mux associated with each of these input bits.
+Each of them is selecting one out of eight.&nbsp;
+Where are those eight coming from?
+Nearby registers and other LUTs.&nbsp;
+Each register is one bit.
+Yes.&nbsp;
+I guess AMD or whoever makes these FPGAs&nbsp;
+still has to be opinionated about which&nbsp;&nbsp;
+registers are connected to which registers.
+You can program in the actual gates,&nbsp;&nbsp;
+but they add a wire in the connect…&nbsp;
+the communication topology, right?&nbsp;
+You get flexibility at a local grain.
+There's a nearby neighborhood you can select from,&nbsp;&nbsp;
+but for more coarse, long-distance&nbsp;
+connections, they form an opinion on that.&nbsp;
+And the reason it's 10x slower is why?
+If you look at the cost of building this&nbsp;&nbsp;
+lookup table, it's 32 gates.
+It can give me the equivalent&nbsp;&nbsp;
+of—what’s an interesting thing I&nbsp;
+can do here—a four-way AND gate.&nbsp;
+A four-way AND means AND, AND,&nbsp;
+and then an AND of an AND.&nbsp;
+This is a circuit I could implement in&nbsp;
+an ASIC directly using three AND gates.&nbsp;
+Using a LUT, I can also implement it, but&nbsp;
+it's going to take 32 gates instead of three.&nbsp;
+So the overhead is really coming from&nbsp;
+the fact that there's a more concise&nbsp;&nbsp;
+way to describe a truth table than listing out&nbsp;
+every single possible combination of inputs,&nbsp;&nbsp;
+which is just to write out the gate.
+Yes, to place down the polysilicon&nbsp;&nbsp;
+and the wires and so on.
+Interesting. One important point you&nbsp;&nbsp;
+made to me is that the reason they prefer FPGAs to&nbsp;
+CPUs is that they get deterministic clock cycles.&nbsp;
+They know when a packet will come in and go out.
+Why isn't that a guarantee in CPUs?&nbsp;
+You can actually design a CPU that&nbsp;
+has deterministic latency as well.&nbsp;
+In fact, the processors inside a lot of&nbsp;
+AI chips also have deterministic latency.&nbsp;
+Groq has advertised this. TPUs&nbsp;
+have that in the core as well.&nbsp;
+The challenge is getting deterministic&nbsp;
+latency and high speed at the same time.&nbsp;
+Non-deterministic latency comes from&nbsp;
+specific design choices in a CPU.&nbsp;
+It's actually possible to remove those design&nbsp;
+choices and make a CPU with deterministic latency,&nbsp;&nbsp;
+but those are not very attractive in the&nbsp;
+market, so people don't make those CPUs anymore.&nbsp;
+In some sense, deterministic latency is a simpler&nbsp;
+starting point, and some chip designers have&nbsp;&nbsp;
+added things in to make it non-deterministic.
+To take a concrete example, probably the most&nbsp;&nbsp;
+important source of non-determinism&nbsp;
+on a CPU is the CPU cache itself.&nbsp;
+In a CPU, you have the CPU die itself,&nbsp;
+and then DDR memory off on the side.&nbsp;
+You have a cache system inside that remembers&nbsp;
+recent accesses to DDR and stores them.&nbsp;
+When I'm running through my&nbsp;
+CPU instructions, every time&nbsp;&nbsp;
+I have an instruction that accesses memory, it&nbsp;
+first checks if the data was stored in the cache.&nbsp;
+If not, it fetches it from DDR.
+This is a huge optimization.&nbsp;
+The cache is two orders of&nbsp;
+magnitude faster than the DDR.&nbsp;
+If you never used the cache, basically all&nbsp;
+programs would run a hundred times slower.&nbsp;
+The presence of a cache is absolutely necessary&nbsp;
+for a CPU to run at a reasonable speed.&nbsp;
+But whether or not you get a cache hit&nbsp;
+depends on the ambient environment of the CPU:&nbsp;&nbsp;
+what other programs are running, what has&nbsp;
+run recently, and what the random number&nbsp;&nbsp;
+generator inside the cache system is doing.
+That is a big source of non-determinism&nbsp;&nbsp;
+in the runtime of a CPU.
+That is the memory system for a CPU.&nbsp;
+The big thing you can do differently&nbsp;
+is, instead of having the hardware say,&nbsp;&nbsp;
+"I’m going to read memory" and then the&nbsp;
+hardware decides whether or not it comes&nbsp;&nbsp;
+from the cache, you can bake this decision&nbsp;
+into software, a different design philosophy.&nbsp;
+You see this in TPUs, for example.
+I'll draw the same diagram,&nbsp;&nbsp;
+but I'll call it a scratchpad.
+The main difference is… This would be a TPU,&nbsp;&nbsp;
+and you have HBM in this case rather than&nbsp;
+DDR, but it's still an off-chip memory.&nbsp;
+Instead of the software saying "first access&nbsp;
+memory" and letting the hardware decide,&nbsp;&nbsp;
+you have one kind of instruction that goes to&nbsp;
+the scratchpad and a totally different kind&nbsp;&nbsp;
+of instruction that goes to HBM.
+This style is generically known&nbsp;&nbsp;
+as scratchpad instead of cache.
+The key distinction is that you have&nbsp;&nbsp;
+one kind of instruction that says "read or write&nbsp;
+scratchpad," and a totally different instruction&nbsp;&nbsp;
+that says "read or write HBM."
+So scratchpad being the cache.&nbsp;
+Yeah, this thing here is the scratchpad.
+Stepping way back: people say computers have the&nbsp;&nbsp;
+"von Neumann architecture", where there's&nbsp;
+this serial processing of information.&nbsp;
+Maybe it's just because we've&nbsp;
+been talking about parallel&nbsp;&nbsp;
+accelerators, but the FPGA is super parallel.
+The AI accelerators, the TPUs, are super parallel.&nbsp;
+Even CPUs are super parallel if you&nbsp;
+think about all the cores they have.&nbsp;
+In what sense is modern hardware&nbsp;
+actually the von Neumann architecture?&nbsp;
+Is that actually a fair way&nbsp;
+to describe modern hardware?&nbsp;
+I think it's a fair way to describe CPUs.
+The amount of parallelism you get on a CPU is&nbsp;&nbsp;
+about 100 cores times maybe 16-way vector&nbsp;
+units, so about 1,000-way parallelism on a CPU.&nbsp;
+One question: there is a die being used for&nbsp;
+the CPU, and if there are fewer threads,&nbsp;&nbsp;
+just as a matter of transistor voltages&nbsp;
+switching on and off, is it that there's&nbsp;&nbsp;
+literally one control flow—a small part of the&nbsp;
+die—where voltages are switching on and off?&nbsp;
+How do you actually occupy the die area of a CPU…
+If there are so few cores, what are&nbsp;&nbsp;
+you spending all of the die on?
+Yeah, what is happening there?&nbsp;
+The cores are just much&nbsp;
+bigger and more complicated.&nbsp;
+We should compare a CPU core, which takes&nbsp;
+up one one-hundredth of the die, to a LUT.&nbsp;
+A LUT is only 16 gates.
+It's clear why there are so many&nbsp;&nbsp;
+more LUTs in an FPGA than cores in a CPU.
+But why are there more CUDA cores,&nbsp;&nbsp;
+for example, than CPU cores?
+What's the difference between a CPU and a GPU?&nbsp;
+Inside the CPU, one big use&nbsp;
+of the area is the cache.&nbsp;
+Very little is actually the ALUs.
+Mostly it's these register&nbsp;&nbsp;
+files rather than the logic units.
+Both of those have equivalents in a GPU,&nbsp;&nbsp;
+so that's not a big difference.
+But the thing that does not have&nbsp;&nbsp;
+an equivalent in a GPU is the branch predictor.
+There is a whole big area in the CPU which is&nbsp;&nbsp;
+just a bunch of predictors saying when the next&nbsp;
+branch will be and where the branch target is.&nbsp;
+Stripping a lot of that out, as well&nbsp;
+as making these register files tighter,&nbsp;&nbsp;
+drives a lot of the GPU gains over the CPU.
+What is the purpose of the branch predictor?&nbsp;
+To execute both branches at&nbsp;
+once, or what does it do?&nbsp;
+The issue is that when I've got a series&nbsp;
+of instructions, if I have a branch,&nbsp;&nbsp;
+the actual step of processing an&nbsp;
+instruction takes a really long time.&nbsp;
+It takes maybe five nanoseconds.
+The time to notice that I've got a branch,&nbsp;&nbsp;
+evaluate whether the Boolean is true, update&nbsp;
+the program counter to the new target,&nbsp;&nbsp;
+and then read from the instruction memory&nbsp;
+could take five nanoseconds to finish.&nbsp;
+So in reality, this may&nbsp;
+finish somewhere down here.&nbsp;
+I want to run a clock speed that is much&nbsp;
+faster than what five nanoseconds allows.&nbsp;
+Five nanoseconds is a 200 MHz clock speed.
+I would like to run at one or two gigahertz.&nbsp;
+So I need to run other instructions&nbsp;
+while the branch is being evaluated.&nbsp;
+I just want to keep running the&nbsp;
+instructions that happen after me.&nbsp;
+But that might have been wrong.
+If the branch ended up being taken, then&nbsp;&nbsp;
+I need to know that instead of evaluating these&nbsp;
+instructions, I actually need to jump to wherever&nbsp;&nbsp;
+the target is and run those instructions instead.
+The purpose of the branch predictor is to predict,&nbsp;&nbsp;
+five cycles earlier, that a branch is going to&nbsp;
+happen, before you even get to that instruction.&nbsp;
+If I think about how the brain works&nbsp;
+versus what you're describing here,&nbsp;&nbsp;
+at a high level the differences might be that&nbsp;
+while you can do structured sparsity in these&nbsp;&nbsp;
+accelerators and save yourself some area that you&nbsp;
+would have otherwise had to dedicate to gates,&nbsp;&nbsp;
+in the brain there's unstructured sparsity.
+Any neuron can connect to any other neuron, and&nbsp;&nbsp;
+not in ways where they have the column aligned.
+Then there's the fact that memory&nbsp;&nbsp;
+and compute are co-located.
+Although I guess you could say in a way the memory&nbsp;&nbsp;
+and compute are co-located on these dies too.
+This is exactly the co-location,&nbsp;&nbsp;
+in some sense, of the memory and compute.
+So maybe that isn't a big difference.&nbsp;
+Another big difference is that the clock cycle&nbsp;
+on the brain is much slower than on computers.&nbsp;
+Partly that's to preserve energy, because the&nbsp;
+faster the clock cycle, the bigger the voltage&nbsp;&nbsp;
+needs to be in order for the signal to settle&nbsp;
+and to identify what state a transistor is in.&nbsp;
+I don't know if&nbsp;&nbsp;
+you have any commentary on what the brain&nbsp;
+might be doing versus how these chips work.&nbsp;
+Let's take the clock speed one first.
+The clock speed is quite high on a&nbsp;&nbsp;
+chip because that drives higher throughput.
+When we compare a GPU running some workload,&nbsp;&nbsp;
+it's running batch size 1,000.
+Whereas the brain is not running&nbsp;&nbsp;
+batch size 1,000, there's only one of me.
+You could imagine saying, "Take a GPU and&nbsp;&nbsp;
+instead of running at a gigahertz, run&nbsp;
+it at a megahertz," and that would start&nbsp;&nbsp;
+to look a little more like the equivalent&nbsp;
+things you're talking about in the brain.&nbsp;
+But in the way silicon works, that does not give&nbsp;
+you a 1,000x advantage in energy efficiency.&nbsp;
+What it ends up looking like is you just&nbsp;
+run this circuit once to stabilization,&nbsp;&nbsp;
+and then it will sit idle&nbsp;
+for a long period of time.&nbsp;
+It doesn't consume a lot of&nbsp;
+energy while it's sitting&nbsp;&nbsp;
+idle because most of the energy is consumed&nbsp;
+in toggling bits from zero to one and back.&nbsp;
+Let's talk about the energy&nbsp;
+consumption of a circuit like this.&nbsp;
+The way to think of a bit being stored is that&nbsp;
+you've deposited some charge in a capacitor&nbsp;&nbsp;
+sitting somewhere in the chip implicitly.
+It becomes charged when the bit becomes a one,&nbsp;&nbsp;
+and then it becomes discharged&nbsp;
+when it next goes to a zero.&nbsp;
+That cycle of charging the capacitor&nbsp;
+and then dumping that charge out&nbsp;&nbsp;
+to ground is where the energy is consumed.
+This is called the dynamic or switching power,&nbsp;&nbsp;
+and it's most of the energy consumption of a chip.
+There is some other energy consumption just&nbsp;&nbsp;
+coming from the fact that insulators&nbsp;
+aren't perfect, but we'll discard that.&nbsp;
+Most of the energy consumption comes from&nbsp;
+toggling from zero to one and back to zero.&nbsp;
+If you run a chip much slower and you only&nbsp;
+clock it once every thousand clock cycles,&nbsp;&nbsp;
+you will have 1,000 times fewer transitions.
+It will be about 1,000 times&nbsp;&nbsp;
+less energy consumption.
+But it's not a substantial&nbsp;&nbsp;
+advantage in energy efficiency.
+Okay, so you described how a TPU&nbsp;&nbsp;
+works at a high level.
+What is the difference&nbsp;&nbsp;
+at a high level between how a GPU and a TPU work?
+There is a high-level organization principle that&nbsp;&nbsp;
+is different, and then inside&nbsp;
+the cores things are different.&nbsp;
+Looking at the high level, we'll&nbsp;
+take a GPU and a TPU and see what&nbsp;&nbsp;
+the top-level block structure looks like.
+If you think of this as the whole chip&nbsp;&nbsp;
+in each case, the organization&nbsp;
+of the GPU is mostly a bunch of&nbsp;&nbsp;
+almost-identical units, which are the SMs.
+They've got an L2 memory in the middle,&nbsp;&nbsp;
+and then a bunch more of these SMs on the bottom.
+So there is a fairly regular grid of cores.&nbsp;
+If we look at a TPU in comparison, you end&nbsp;
+up with much coarser-grained units of logic.&nbsp;
+You end up with just a few matrix units,&nbsp;
+which are the big systolic arrays.&nbsp;
+In the middle you've got some vector unit, and&nbsp;
+then you've got your matrix units at the bottom.&nbsp;
+These matrix units with a vector unit in&nbsp;
+the middle make up the whole TPU chip.&nbsp;
+You can think of scaling this thing&nbsp;
+down into a really tiny unit with a&nbsp;&nbsp;
+smaller matrix unit and a smaller vector&nbsp;
+unit, and that is sort of what an SM is.&nbsp;
+From a very high-level point of view, the GPU has&nbsp;
+a lot of tiny TPUs tiled across the whole chip.&nbsp;
+Oh, interesting. You're suggesting the tensor&nbsp;
+core within a streaming SM is analogous to an MXU?&nbsp;
+Yeah, it's all very similar.
+I see. If you had more lack of structure,&nbsp;&nbsp;
+having a bunch of tiny TPUs makes a lot of sense.
+Whereas if you just have huge matrix&nbsp;&nbsp;
+multiplications, you might want to avoid the&nbsp;
+cost of having individual SMs with their own&nbsp;&nbsp;
+registers and warp schedulers.
+Why not just make a huge thing&nbsp;&nbsp;
+and amortize those costs across the whole thing?
+This shows up in how large you can grow things.&nbsp;
+We've seen this theme, especially with the&nbsp;
+systolic array, where a larger systolic&nbsp;&nbsp;
+array amortizes the register file costs better.
+This design allows you to have larger systolic&nbsp;&nbsp;
+arrays, whereas the GPU design constrains&nbsp;
+you to having small units of everything.&nbsp;
+There is a trade-off, however.
+Because of this coarse-grained&nbsp;&nbsp;
+separation of things, you need to move a lot of&nbsp;
+data from the vector unit to the matrix units,&nbsp;&nbsp;
+through just two lines of perimeter here.
+If you look at the equivalent thing&nbsp;&nbsp;
+in a GPU, you've got vector units everywhere, and&nbsp;
+you can move data through many different lines.&nbsp;
+The amount of data you can move between a&nbsp;
+vector unit and a matrix unit is actually&nbsp;&nbsp;
+much higher in a GPU than in a TPU.
+Instead of having to move all the data&nbsp;&nbsp;
+through just two lines, you're moving&nbsp;
+it through 16 lines of wiring in a GPU.&nbsp;
+Right. But also you might&nbsp;
+have to move across less area.&nbsp;
+Which is an energy saving as well.
+So if you can operate entirely within&nbsp;&nbsp;
+an SM, the data movement is much smaller.
+But the moment you want to operate across SMs,&nbsp;&nbsp;
+it becomes more complicated and expensive.
+So you don’t have to comment, but one might&nbsp;&nbsp;
+expect that a thing MatX might try to do&nbsp;
+is get the GPU-like smaller structure of&nbsp;&nbsp;
+systolic arrays surrounded by SRAM, but at the&nbsp;
+same time make it so that the things you need in&nbsp;&nbsp;
+an SM to support the CUDA architecture—which&nbsp;
+take a bunch of space—you might discard.&nbsp;
+We've talked publicly about something we&nbsp;
+call a splittable systolic array, which&nbsp;&nbsp;
+in some sense you can think of as big systolic&nbsp;
+arrays that can be small systolic arrays too.&nbsp;
+Cool. Okay, I think that's&nbsp;
+a good note to close on.&nbsp;
+Reiner, thank you so much.
+Thanks, Dwarkesh.

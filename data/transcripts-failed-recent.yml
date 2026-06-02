@@ -1,0 +1,50 @@
+cutoff: "20260502"
+failed:
+  - id: m1liAnhhLfU
+    source: xiaojun
+    date: "20260528"
+    title: 143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪
+    url: https://youtube.com/watch?v=m1liAnhhLfU
+    error: "WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies |  | WARNING: [youtube] No
+      supported JavaScript runtime could be found. Only deno is enabled by
+      default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your
+      command/config. YouTube extraction without a JS runtime has been
+      deprecated, and some formats may be missing.
+      See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing
+      one | WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies"
+  - id: XEhf371Aeso
+    source: xiaojun
+    date: "20260527"
+    title: 142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller
+    url: https://youtube.com/watch?v=XEhf371Aeso
+    error: "WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies |  | WARNING: [youtube] No
+      supported JavaScript runtime could be found. Only deno is enabled by
+      default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your
+      command/config. YouTube extraction without a JS runtime has been
+      deprecated, and some formats may be missing.
+      See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing
+      one | WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies"
+  - id: MjTfhm5N8x8
+    source: xiaojun
+    date: "20260518"
+    title: 141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接
+    url: https://youtube.com/watch?v=MjTfhm5N8x8
+    error: "WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies |  | WARNING: [youtube] No
+      supported JavaScript runtime could be found. Only deno is enabled by
+      default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your
+      command/config. YouTube extraction without a JS runtime has been
+      deprecated, and some formats may be missing.
+      See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing
+      one | WARNING: ffmpeg not found. The downloaded format may not be the best
+      available. Installing ffmpeg is strongly recommended:
+      https://github.com/yt-dlp/yt-dlp#dependencies"

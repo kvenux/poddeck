@@ -1,35 +1,42 @@
 source: mlops-community
-refreshed_at: 2026-05-19T09:08:18.573Z
+refreshed_at: 2026-06-02T00:38:30.196Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 12
-done: 8
-pending: 1
+total_candidates: 30
+done: 1
+pending: 27
 episodes:
-  - id: swO5svhBhQ4
-    title: Building AI Agents That Survive Production
-    duration: 1919
-    upload_date: "20260514"
-    url: https://youtube.com/watch?v=swO5svhBhQ4
+  - id: kDAlW3vRQzI
+    title: "Architecting Modern AI Systems: Platforms, Agents, and Integration"
+    duration: 3419
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=kDAlW3vRQzI
     status: generated
-    priority: 1
+    priority: 0
     category: ai-tech
-  - id: wtzzWyrEY_A
-    title: "The Creator of Superpowers: Why Real Agentic Engineering Beats Vibe
-      Coding"
-    duration: 4016
-    upload_date: "20260505"
-    url: https://youtube.com/watch?v=wtzzWyrEY_A
-    status: generated
-    priority: 1
+  - id: hWYhSF6kYEs
+    title: Architecting Modern AI Systems
+    duration: 3417
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=hWYhSF6kYEs
+    status: pending
+    priority: 0
     category: ai-tech
-  - id: ie1M8p-SVfM
-    title: "Getting Humans Out of the Way: How to Work with Teams of Agents"
-    duration: 3031
-    upload_date: "20260501"
-    url: https://youtube.com/watch?v=ie1M8p-SVfM
-    status: generated
-    priority: 1
+  - id: dH-1INvvELo
+    title: The Latency Goldilocks Zone Explained
+    duration: 2893
+    upload_date: "20260520"
+    url: https://youtube.com/watch?v=dH-1INvvELo
+    status: pending
+    priority: 0
+    category: ai-tech
+  - id: bowPBo0SNPQ
+    title: "Building MCP Before MCP Existed: Inside Despegar's Sofia Agent"
+    duration: 2473
+    upload_date: "20260520"
+    url: https://youtube.com/watch?v=bowPBo0SNPQ
+    status: pending
+    priority: 0
     category: ai-tech
   - id: YInxWv_4N7w
     title: OpenXData Conference
@@ -37,38 +44,6 @@ episodes:
     upload_date: "20260429"
     url: https://youtube.com/watch?v=YInxWv_4N7w
     status: failed
-    priority: 1
-    category: ai-tech-rest
-  - id: 9EjWR3QpJYk
-    title: It's 2026, and We're Still Talking Evals
-    duration: 2457
-    upload_date: "20260427"
-    url: https://youtube.com/watch?v=9EjWR3QpJYk
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: uT-jEi9Ledw
-    title: Why Agents are Driving Software Development to the Cloud
-    duration: 3068
-    upload_date: "20260427"
-    url: https://youtube.com/watch?v=uT-jEi9Ledw
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: jOe4fJSc2IE
-    title: The Modern Software Engineer
-    duration: 3218
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=jOe4fJSc2IE
-    status: generated
-    priority: 1
-    category: manual-update
-  - id: q9e2e5Y8Q0k
-    title: A New Kind of Marketplace
-    duration: 3087
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=q9e2e5Y8Q0k
-    status: generated
     priority: 1
     category: ai-tech-rest
   - id: wTrv1hMQbVg
@@ -79,27 +54,172 @@ episodes:
     status: pending
     priority: 1
     category: ai-tech
-  - id: bha7cnTh534
-    title: AI Agents Summit Seattle
-    duration: 27880
-    upload_date: "20260415"
-    url: https://youtube.com/watch?v=bha7cnTh534
-    status: failed
-    priority: 1
-    category: ai-tech-rest
   - id: nKDKhbPcFcs
     title: Ship Agents  A Virtual Conference Track 2
-    duration: 5906
+    duration: 5905
     upload_date: "20260410"
     url: https://youtube.com/watch?v=nKDKhbPcFcs
     status: failed
     priority: 1
     category: ai-tech-rest
-  - id: 1WFffCGhm7U
-    title: Fixing GPU Starvation in Large-Scale Distributed Training
-    duration: 3169
-    upload_date: "20260410"
-    url: https://youtube.com/watch?v=1WFffCGhm7U
-    status: generated
+  - id: 7UVZnJ9iHdU
+    title: MCP Dev Summit [Day 2] ft AWS, Docker, & Datadog
+    duration: 32295
+    upload_date: "20260403"
+    url: https://youtube.com/watch?v=7UVZnJ9iHdU
+    status: pending
     priority: 1
-    category: ai-tech-rest
+  - id: jfd1UBEYJs0
+    title: MCP Dev Summit [Day 1] ft. Anthropic, Hugging Face, Open AI & Microsoft
+    duration: 26086
+    upload_date: "20260402"
+    url: https://youtube.com/watch?v=jfd1UBEYJs0
+    status: pending
+    priority: 1
+  - id: OYK1-vCbSMU
+    title: How to Make a Coding Agent a General Purpose Agent - Harrison Chase
+    duration: 2214
+    upload_date: "20260331"
+    url: https://youtube.com/watch?v=OYK1-vCbSMU
+    status: pending
+    priority: 1
+  - id: H9fsxdK-NeQ
+    title: "Decomposing the Agent Orchestration System: Lessons Learned"
+    duration: 1812
+    upload_date: "20260331"
+    url: https://youtube.com/watch?v=H9fsxdK-NeQ
+    status: pending
+    priority: 1
+  - id: KfgkK27n4ec
+    title: Performance Optimization and Software/Hardware Co-design across PyTorch, CUDA, and NVIDIA GPUs
+    duration: 5150
+    upload_date: "20260323"
+    url: https://youtube.com/watch?v=KfgkK27n4ec
+    status: pending
+    priority: 1
+  - id: umdiwQbkwlY
+    title: Write Reliable Software with Temporal
+    duration: 3636
+    upload_date: "20260317"
+    url: https://youtube.com/watch?v=umdiwQbkwlY
+    status: pending
+    priority: 1
+  - id: 7c4OdqpJXWU
+    title: From Chat Fatigue to Instant Action // Donné Stevenson
+    duration: 1901
+    upload_date: "20260228"
+    url: https://youtube.com/watch?v=7c4OdqpJXWU
+    status: pending
+    priority: 1
+  - id: TTAwep2uwto
+    title: Open vs Closed Source Agent Infra?
+    duration: 1845
+    upload_date: "20260228"
+    url: https://youtube.com/watch?v=TTAwep2uwto
+    status: pending
+    priority: 1
+  - id: 9x6h_HRZG7s
+    title: A Playground for AI Engineers
+    duration: 3281
+    upload_date: "20260227"
+    url: https://youtube.com/watch?v=9x6h_HRZG7s
+    status: pending
+    priority: 1
+  - id: z3oMm7CwXJc
+    title: "Cracking the Black Box: Real-Time Neuron Monitoring & Causality Traces"
+    duration: 2846
+    upload_date: "20260224"
+    url: https://youtube.com/watch?v=z3oMm7CwXJc
+    status: pending
+    priority: 1
+  - id: NUuZ2n_ZkqI
+    title: MLflow Leading Open Source
+    duration: 3504
+    upload_date: "20260224"
+    url: https://youtube.com/watch?v=NUuZ2n_ZkqI
+    status: pending
+    priority: 1
+  - id: xa47e9hc4RM
+    title: How AI covered a human’s paternity leave // Quinten Rosseel
+    duration: 3119
+    upload_date: "20260222"
+    url: https://youtube.com/watch?v=xa47e9hc4RM
+    status: pending
+    priority: 1
+  - id: q9wq1znpa4w
+    title: "Fast & Asynchronous: Drift Your AI, Not Your GPU Bill // Artem Yushkovskiy"
+    duration: 2009
+    upload_date: "20260219"
+    url: https://youtube.com/watch?v=q9wq1znpa4w
+    status: pending
+    priority: 1
+  - id: mxD2Eeb_Bp0
+    title: Tool Calling
+    duration: 2421
+    upload_date: "20260216"
+    url: https://youtube.com/watch?v=mxD2Eeb_Bp0
+    status: pending
+    priority: 1
+  - id: WYBX6fqQyFo
+    title: The Shadow AI Problem Nobody's Talking About
+    duration: 2845
+    upload_date: "20260212"
+    url: https://youtube.com/watch?v=WYBX6fqQyFo
+    status: pending
+    priority: 1
+  - id: KF15E_F4viw
+    title: "Speed and Scale: How Today's AI Datacenters Are Operating Through Hypergrowth"
+    duration: 4037
+    upload_date: "20260210"
+    url: https://youtube.com/watch?v=KF15E_F4viw
+    status: pending
+    priority: 1
+  - id: c-i3yfaoh6k
+    title: "The Semantic Layer and AI Agents // David Jayatillake // MLOps Podcast #343"
+    duration: 3037
+    upload_date: "20260126"
+    url: https://youtube.com/watch?v=c-i3yfaoh6k
+    status: pending
+    priority: 1
+  - id: xY1FcjIbErQ
+    title: Coding with AI // Chip Huyen
+    duration: 2668
+    upload_date: "20260119"
+    url: https://youtube.com/watch?v=xY1FcjIbErQ
+    status: pending
+    priority: 1
+  - id: Tq613N0dyI0
+    title: Graph Neural Networks Just Solved Enterprise AI?
+    duration: 2941
+    upload_date: "20260116"
+    url: https://youtube.com/watch?v=Tq613N0dyI0
+    status: pending
+    priority: 1
+  - id: Zs8onmsPJgw
+    title: Real-Time Voice Agents in Production
+    duration: 2536
+    upload_date: "20260112"
+    url: https://youtube.com/watch?v=Zs8onmsPJgw
+    status: pending
+    priority: 1
+  - id: rMhvSkXbv4A
+    title: Tool definitions are the new Prompt Engineering
+    duration: 3431
+    upload_date: "20260109"
+    url: https://youtube.com/watch?v=rMhvSkXbv4A
+    status: pending
+    priority: 1
+  - id: jTmV_jlob5I
+    title: "Enterprise AI Operations: The Missing Piece"
+    duration: 2488
+    upload_date: "20260108"
+    url: https://youtube.com/watch?v=jTmV_jlob5I
+    status: pending
+    priority: 1
+  - id: Wgfi3qWnPgE
+    title: AI REWIND 2025 - MLOps Reading Group Year-end Special
+    duration: 7568
+    upload_date: "20260105"
+    url: https://youtube.com/watch?v=Wgfi3qWnPgE
+    status: pending
+    priority: 1

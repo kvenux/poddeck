@@ -1,0 +1,39 @@
+id: kDAlW3vRQzI
+source: mlops-community
+title: "架构现代 AI 系统：平台、Agent 与集成 | MLOps Community Panel"
+guest: "Frederique · Shao · Allan"
+guest_role: "应用研究（MIA） · 企业 AI（Bell Canada） · 主权云（Buzz HPC）"
+published: 2026-05
+duration: "≈ 45 min"
+url: https://youtube.com/watch?v=kDAlW3vRQzI
+thumbnail: https://img.youtube.com/vi/kDAlW3vRQzI/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - hardware
+  - chips
+  - panel
+  - engineer
+  - product-lead
+  - technical
+  - strategic
+summary: |
+  三位来自不同位置的从业者——MIA 的应用研究者 Frederique、Bell Canada 的企业 AI 负责人 Shao、加拿大主权 GPU 云 Buzz HPC 的 Allan——围绕一场心理健康 AI 黑客松展开圆桌：从平台该提供什么、Codex/Claude Code/Cursor 这些"Pokemon 名字"工具其实可以替换底层模型，到从 API key 蜜月期走向自托管开源模型的 tokenomics 觉醒；从 GPU 硬件通胀（Michael Burry 错了，A100 七年仍涨价）到 Blackwell vs Ampere 的 VRAM 取舍；从 80% → 95% 的死亡幽谷、LLM-as-judge 的踢皮球，到 RL gyms、verifiable rewards、Lean 攻陷 Erdős；最后落到 constrained generation 为什么是闭源 API 永远不开的杀器、为什么 Deep Research 能远超 Claude Code、以及"agent 给 Jira 付了 10,000 次款"背后的治理真问题。
+core_ideas:
+  - 心理健康黑客松——100+ 队伍、1000+ 提交，三家公司用主权云协作的真实样本
+  - Claude Code / Codex / Cursor 这些工具底层模型可以换——大多数人不知道
+  - Tokenomics 觉醒之旅——从 API key 五分钟上手，到第一张账单，到自托管开源模型
+  - GPU 硬件通胀——A100 从 $1.50/hr 涨到 $2+/hr，Michael Burry 关于"老 GPU 不赚钱"的判断错了
+  - GPU 世代差距比 size 更重要——Blackwell 24/48GB + FP4 vs A100 80GB 显存
+  - 80% → 95% 的死亡幽谷——hackathon demo 到生产环境的鸿沟，由 eval + 用户反馈 + 专家审查填平
+  - LLM-as-judge 是"踢皮球"——peer review 圈早就要求"show me real human evaluations"
+  - 可验证奖励 + 世界模型 + Lean——RL 的下一阶段，已在攻陷 Erdős 未解问题
+  - Shao 的三层 Agentic 栈——L1 全员 LLM 平台 / L2 已购 SaaS 加 AI / L3 定制深度构建
+  - Frederique 的 "still feels like a far west"——不要 marry 任何一个 framework，6 个月后会换
+  - Constrained generation——禁用 token 才是真控制，但同一把钥匙能给 Claude 做 bomb prefix 越狱
+  - Deep Research 用确定性循环 + structure generation——比 Claude Code 走得远的真正原因
+  - Agent 给 Jira 付了 10,000 次款——治理与可观测性是企业落地的真瓶颈
+  - Failure prevention > failure detection——给 MCP 套 wrapper，只允许可逆操作
+  - 沙盒只是"延迟不可避免"——硬件限制 + 可逆操作 wrapper + observability 三层防御
+base: /episodes/kDAlW3vRQzI/

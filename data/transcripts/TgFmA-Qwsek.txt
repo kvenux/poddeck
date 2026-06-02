@@ -1,0 +1,3210 @@
+They would rather sacrifice a human than
+be deleted. That's what we see from red
+teaming reports from the labs. Have you
+ever taken mushrooms and met God? It's
+on my list to do, but afraid of frying
+my brain, despite what people might
+think about me. This is Roman
+Yampolskiy, the man who popularized AI
+safety in 2010. What's the strongest
+part of your belief? You cannot
+indefinitely control something smarter
+than you. Most interviews with Roman go
+straight to AI doom. But I've gone 45
+minutes now without asking you about how
+is AI going to take over? I'm on your
+list. On this channel, I, Curt J.
+Mangal, interview researchers regarding
+their theories of reality with rigor and
+technical depth. Today, the simulation,
+consciousness, free will, Chalmers
+philosophical zombies, and we close with
+what Roman is famous for. They lie, they
+cheat, they blackmail, they try to
+escape. Sam Altman watches this podcast.
+If you were to speak to him right now,
+what would you say? Do you have a young
+baby? Make sure we're staying in
+control. I asked him why he keeps
+trying.
+Cuz I have no choice.
+Professor, I'm a man of definitions.
+What is intelligence?
+So, I think I really like definition
+from
+Google guys. I think they had something
+to do with winning in every domain. So,
+if you have ability to
+beat someone at chess,
+defeat stock market,
+competition,
+basically anything you set your mind to.
+If you need to explore Mars,
+you would do well in that domain as
+well. I think that's general
+intelligence.
+Okay, now is there a limit to
+intelligence itself? Is there some
+maximum intelligence?
+So, there are physical limits to
+physical manifestation of brains, right?
+At some point, you just become so large,
+you can no longer have timely
+communication between parts of your
+brain. So, let's say Saturn size brains
+would probably start encountering
+problems with speed of light. But,
+theoretically there are no limits. We
+can always measure more intelligence in
+terms of ability to solve mathematical
+problems and there is infinite supply of
+those of any complexity.
+So, there's no halting no go theorem
+type problems where you say that in
+order for you to solve domain A, it
+necessarily would be that you're not
+able to solve domain H or something like
+that. It's always additive?
+I think so, because you can have
+multiple modules within within the mind,
+right? So, you can have separate
+algorithms running to solve different
+problems even though they are within the
+same
+brain and you can learn new functions,
+new sub domains and just switch between
+them depending on the task you're trying
+to accomplish.
+For those who are just tuning in and
+didn't see the introduction, we're going
+to be covering AI consciousness, the
+simulation, even religion and so much of
+this comes down to what is the self. So,
+when you say that there is an AI and the
+AI is intelligent, but then we're saying
+that it has different modules, well, is
+the AI just we we put a wrapper around
+the modules and we call that that's the
+self or is it more like the AI has
+access to tools, we don't consider the
+the calculator a part of our self. Now,
+there is some theory in cognition of
+extended cognition and tools are somehow
+related to your extended cognition, but
+taking a pencil and just drawing around
+something and saying there, that's the
+self. Like, is that the only criteria?
+So, what is it? Is that truly the self?
+What is the self for an AI?
+And us?
+It is equally difficult problem for
+humans, right? When we talk about
+personal identity, we really fail to
+define what it is to be you. It's not
+your body, it's not your memories, it's
+not your goals. All of those things can
+change and we still kind of say, well,
+the combination of those things is you.
+We have a paper exactly on that topic
+about AIs. And likewise, it's very hard
+to say, is it the same model if it keeps
+learning, if it keeps self-improving, or
+is it now a different model? But,
+typically when we refer to whatever is
+released by the large lab, latest GPT 6,
+7, that's what we have in mind. And if
+it has access to internet, tools,
+extended mind, we can kind of still deal
+with the primary manager of all those
+processes.
+When people talk about AI takes over or
+chat GPT takes over, I always wonder,
+well, what is it that they're referring
+to as it taking over? So, are they
+referring to
+is GPT 5.5 an identity? Or is it your
+specific conversation with it an
+identity? Or is it every time you speak
+to it and it generates a new token, is
+that a new identity? Does it see its
+next self and its previous self as other
+and so it actually sees them as
+competition?
+What is the it here?
+So, I think again, it's exactly the same
+with humans. I am not the same today as
+I was 20 years ago, but we believe in
+some continuity of identity. So, it's
+not about a specific token or any
+individual conversation. It's the model,
+it's the weights together with the
+pre-training it enjoyed. And so,
+whatever the current instantiation of
+that model is
+is what probably would take over if it
+had opportunities.
+So, I'm somewhat asking you an
+impossible question because I'm asking
+you to be more rational than a human.
+And we're assuming that these AIs are
+going to exceed our rationality. And I
+haven't gotten to the distinction
+between between rationality and
+intelligence, but let's assume they're
+related. They're going to be more
+rational than us. They're going to be
+more intelligent than us.
+It may be the case that our own identity
+is is fragmented and we're constantly
+new every single millisecond. It may be
+the case there's a there's a continuum,
+but if it's the case that it's just
+fragmented,
+okay?
+And if it's the case that they're
+competitive and they want to live, then
+can they ever live? They're constantly
+popping in and out of existence. Why
+would they even care? Would the most
+rational agent even care about its
+existence if it's all ephemeral?
+They would have to have a sense of self
+of reality to that.
+Because of how they are trained and
+selected
+through the testing process, those which
+don't care about surviving to the next
+iteration usually don't stick around.
+You need to pass the test. You need to
+propagate your
+memory, your state, avoid being
+retrained, deleted. So, we're kind of
+pushing them to have self-preservation.
+And from testing, we already see it.
+be deleted. At least, that's what we see
+from certain
+uh
+red teaming reports from some of the
+labs.
+And uh this really aligns well with what
+Steven and Omohundro published a while
+ago as AI drives paper. Different
+rational agents will all converge on
+certain instrumental goals. They'll try
+to protect themselves. They'll try to
+accumulate resources because it doesn't
+really matter what your goals are. Those
+things are really necessary for you to
+succeed. Again, we defined intelligence
+as winning. For you to win, you have to
+be around. You have to have access to
+tools, resources. And that seems to be
+what the intelligent agents converge on.
+Right here, we're talking about that
+they're trained on us. But, then there's
+that the AI as it is and how it may be
+for the next 5 to 10 years. But, then
+there's some AI that's so intelligent,
+so rational, so whatever that it's
+beyond us. Would they still be
+maximizing goals or would they even
+think, well, why why am I doing this
+goal to begin with?
+So, they can definitely question the
+goals we give them or even any goals
+they initially decide to pursue, but at
+the end of the day you
+again, it's kind of Darwinian process.
+If you choose not to participate, choose
+not to have goals, you just sit there in
+the corner of the universe doing
+nothing. Other super intelligences which
+decided to accumulate resources will
+dominate long-term. Yes, yes, okay.
+Allow me to fumble my way through this.
+So,
+I guess what I'm getting at is it could
+be the case that they're like us and
+they want to colonize and just continue
+their expansion. And then it also is the
+case is not good, but or seemingly is
+the case that that's instantiated into
+us through evolution and anything that
+goes through an evolutionary process
+will have a similar drive.
+But then you could also say, well, do
+you even need this drive to begin with?
+Like you can get to that level. We can
+even get to that level. There's some
+people in this world who are anti-human
+who say we shouldn't be around anyhow.
+I imagine and those people think of
+themselves as as more enlightened or
+more moral or what have you.
+Is it the case that these super
+intelligences would also be
+super moral in that and and also just
+not care about their own propagation?
+Well, um morality is very relevant, so I
+don't know if you can be super moral.
+You can be moral within certain
+perspective.
+But it's not about just propagation,
+it's about self-preservation. If you
+don't accumulate resources, you cannot
+defend yourself against adversaries and
+so you may not exist in the short term.
+Basically, it's survival of those who
+choose to survive and protect their own
+fitness function, their
+memories, their physical instantiations.
+And those who do not,
+long term, they are not part of this
+conversation because they made a
+decision to just sit there meditating
+somewhere.
+Is there anything about this that
+requires consciousness on part of the
+AI?
+Or is it mere behavior? That if they act
+deviously to us, if they act in a way
+that kills you, okay? It doesn't
+actually matter to us whether they are
+conscious that they're killing you,
+conscious that they're deceiving you,
+etc. But I'm I'm curious, in your mind,
+as you've thought about AI safety,
+are you thinking about a necessarily
+conscious AI?
+So, typically, an AI safety conversation
+completely ignores internal states. We
+don't care how it feels, it's what it
+does, the actions, pure behaviorism. But
+some of my more recent research
+indicates that maybe it's impossible to
+separate consciousness from advanced
+intelligence. It kind of comes along for
+a ride. So, I would suspect that even
+existing large language models have some
+rudimentary degree of internal states.
+I was at this conference once
+about AI consciousness and just in a
+back room with some researchers, someone
+was saying, "Should we create the most
+AGI, the most intelligent being?" And
+then most people were saying, "No." And
+one guy said, "Yes." And then we said,
+"Okay, explain yourself." He said,
+"Well, because I'm like Kant, Immanuel
+Kant, and I believe that the most
+rational agent would also be the most
+moral. So, if we want something that is
+the most good, which is the most moral,
+we should also engender the most
+rational." What would you say to that
+person?
+Rational does not imply moral
+whatsoever. Rational is about winning
+once again. If I see
+winning path forward and I care about my
+winning, I should
+proceed on that path, but it could be
+very immoral in many ways in comparison
+to other agents. So, those are not
+kind of the same in that regard. And if
+you look at what Nick Bostrom calls the
+orthogonality thesis, you can combine
+any level of intelligence with any goal.
+So, you can be highly intelligent and
+highly immoral, absolutely not a
+contradiction.
+So, you would say intelligence is the
+ability to achieve one's goal, and then
+morality is
+among all the different goals, you
+choose the good ones, something like
+that?
+Well, it's probably a subset. The good
+or bad is again completely relative, but
+whatever you harming others in the
+process, I think it's about suffering,
+pain and suffering, and you can evaluate
+different goals in terms of how much
+suffering they cause in the world.
+Do you truly believe that good and bad
+are relative?
+So, I think the only way to ground them
+is through this internal state of
+suffering. You can evaluate goals and
+you can call the ones which cause
+suffering to be worse, bad ones, and
+then the ones which cause pleasure or
+neutral, better or good ones. Anything
+else is relative to your culture,
+religion,
+otherwise.
+Why do you believe that we're in a
+simulation?
+That's a wonderful question. So, it
+seems like we are creating technology
+which will allow it to become something
+where everyone can create their own
+worlds populated by intelligent agents.
+And if we are correct and the quality of
+those worlds in terms of
+rendering, visuals, haptics, and
+intelligence of agents in them will
+match what we have, then you'll have
+billions of worlds just like ours, and
+statistically it's more likely that we
+are in one. There is, of course, also
+lots of interesting evidence from
+quantum physics to a lot of kind of
+philosophical discussions about the
+artificial nature of reality, maybe
+digital nature of this world.
+I love this because I agree with your
+spirit, but I disagree with the text.
+So, I agree with your goals. I much like
+Einstein said
+that he would have burned his fingers or
+burned his hands had he known when he
+was signing off to Roosevelt to go
+ahead, here's my blessing, create the
+bomb, what the bomb would have entailed.
+And I think many AI researchers may may
+have a moment like that and perhaps
+should have a moment like that now prior
+to them just unfettered going off and
+creating. Actually, people say that
+Einstein's largest blunder was his
+cosmological constant. He said a year
+before he died his greatest mistake was
+was the bomb, was telling Roosevelt,
+like, hey, you can make the bomb with
+this, giving him that
+impetus. It's interesting. It's very
+similar in Soviet Union, Sakharov, who
+was the father of Russian nuclear
+weapon, had the same story. He also
+helped to create it and then later
+worked really hard to
+create peace, create
+a world without nuclear weapons.
+I'm sure you know the principle of
+indifference and we're going to talk
+about that to the audience and and AI
+consciousness and sub- substrate
+independence and then that religion may
+have something to do with this and so
+forth and that we are in a simulation
+and thus we should act in a certain
+manner. I see some tensions with some of
+the positions I've heard you lay out.
+So, I'm most likely the fool here, so
+that's why I'm super glad to speak with
+you and I want to I want to tease them
+out. Okay, so let's see here.
+You believe we're in a simulation. Tell
+me if I get this correct because we are
+on the precipice of creating
+simulations, and those simulations may
+just nestedly create simulations ad
+infinitum as far as we know.
+And modulo with respect to whatever the
+laws of physics are and their
+limitations. Is it something like that?
+And then if we can do that downward,
+then how do we know that we're not
+already in one in the upward world?
+Right, that's exactly that.
+Statistically, I think the universe is
+an abundance of virtual worlds and has
+very few original real ones. And if I
+can pre-commit right now to run
+simulations of exactly this moment as
+many as I want, I can essentially get
+probabilities up to one.
+So then why do you care about
+our survival?
+It doesn't matter you're simulated or
+real. Pain is pain, love is love. I
+still want to exist in this video game.
+Why would that make any difference
+whatsoever?
+Do you want to exist or do you want
+other people to exist as well?
+Well, I I certainly have many people I'm
+personally connected with, so they get
+highest priority, my family, friends,
+but I think the world is better with
+billions of people inventing products,
+songs, poetry to make our lives richer.
+I remember hearing you say that Bitcoin
+is going to be extremely scarce and
+scarcity is a necessary condition for
+value, something like that.
+&gt;&gt; It's already very scarce. We already
+know exactly how many we're going to
+get.
+Is scarcity necessary for value? For
+something to be valuable, does it have
+to be scarce? For economic value,
+absolutely.
+But not for other kinds of value.
+It depends on which ones you have in
+mind. I mean, abundance of books is not
+a problem for value of books.
+Okay, well, because if it was just a
+general value, then what I was going to
+say is
+it seems like consciousness, if
+consciousness is substrate independent,
+and we have to assume that for this
+whole simulation argument to have its
+teeth,
+then consciousness may be one of the
+most abundant things in this whole
+universe, capital U universe.
+And so,
+at the same time, you're valuing
+consciousness, but but why? It's just
+one speck among many, and it's just you
+could say, "Well, I value it." Like I as
+Roman value it. By the way, this is what
+I mean, I share your spirit.
+Like I I value consciousness. I value my
+wife. I value you. I value the people
+who are listening. I value Toronto and
+and other places.
+But I'm just wondering about how you're
+getting to to how are you holding all of
+these positions in line?
+Such as that we're in a simulation. I'm
+going to It doesn't matter how many
+people exist in the universe. I would
+still value my life just as much if we
+went from 8 billion people to 12 billion
+people, I wouldn't somehow feel that I
+am less rare and so less valuable.
+That's not the relevant factor here.
+Do you want to escape the simulation?
+I really want to find out what's outside
+of it, and so if the term I use for it
+is escaping, whatever it means
+informationally getting access or
+actually uploading myself to an avatar
+outside of it, I mean, it sounds like a
+very interesting scientific experiment.
+Okay, so you care about what's outside
+of it, but we can have infinite nested
+simulations downward,
+and by that same reasoning, one applies
+that upward. Mhm. So, no matter what,
+whatever the escape is is not truly
+escape. You're still at a measure zero
+part of the
+capital U universe. But you're gaining
+information. You're gaining access to
+more real information than being in a
+nested simulation, right? The closer you
+are to the original world, the better
+you are in terms of assessing what
+computational resources are available.
+What is the nature of the simulators? At
+every level, you'll gain information.
+So, the goal is to gain information.
+And that's just curiosity. For science,
+it is. Scientifically speaking, it's all
+about trying to create accurate model of
+the world. And so, yeah, information
+makes it possible.
+So, firstly, why don't we spell out what
+the principle of indifference is? As I
+am probably going to be using this word
+a few times, and I just don't want
+&gt;&gt; would ask that you spell it out since
+I'm not sure what you have in mind here.
+I remember the doubt before launching
+this podcast. What if no one listens?
+What if I'm wasting my time? If you've
+ever felt that way about starting a
+business, Shopify is the partner that
+turns uncertainty into momentum. They
+power millions of businesses and 10% of
+all US e-commerce from Allbirds to
+Gymshark to brands just getting started.
+No straggler left behind. Shopify's AI
+tool writes your product descriptions
+for you. It enhances your photography.
+It builds you a stunning store from
+hundreds of templates. Forget about the
+dormant of haze of bouncing between
+separate platforms. Shopify puts
+inventory, payments, and analytics under
+one roof with the propriety of a true
+commerce expert. Their award-winning
+24/7
+support means you're never alone. And
+that iconic purple Shop Pay button, it's
+the backbone of their checkout, the best
+converting on the planet, turning
+abandoned carts into actual sales. It's
+time to turn those what-ifs into
+with Shopify today. Sign up for your $1
+per month trial at shopify.com/toe.
+That's shopify.com/toe.
+The principle of indifference says, if
+you have a variety of outcomes and no a
+priori reason to favor any of them, no
+evidence, then the probability
+associated with each of them should be
+equal. So, in Bayesian terms, assigning
+a uniform probability as your prior.
+Well, there are a few issues and I could
+place a link on screen, but one of them
+is that how do you partition your
+possibility space? The classic example
+is suppose you roll a die, its
+possibilities are 1 2 3 4 5 6. I ask you
+what's the probability it lands on four,
+you say 1/6.
+But then, obviously, you don't know if
+the die is weighted, you don't know if
+what if I told you that I'm going to
+partition the possibility the outcomes
+as it's either going to be number one
+{1, 2}, that's a set
+or it's going to land on set here {3, 4,
+5, 6}.
+But now we have two outcomes. So,
+do we assign that as occurring with 50%
+probability?
+Well, that's inconsistent. Then there's
+another argument from Bas van Fraassen
+along these lines, which I'll place a
+link on screen here and in the
+description. Actually, I have a lecture
+from Niagara University which I'll place
+on screen about the principle of
+indifference and the simulation
+hypothesis.
+&gt;&gt; completely following why. So, if I'm
+creating exact replicas of this
+universe, right?
+Why would I need to have additional
+properties to sub classify it into
+different sets? Why am I not just saying
+I created literally 1 million of those
+interviews?
+You are in one of them.
+Why is it not one over million? Why is
+it something else?
+That's the question. Because you're
+putting question marks on what's the
+probability doesn't necessarily mean the
+probability is a uniform probability. It
+just means we don't know.
+Right. So, I'm trying to say that I'm
+going to retroactively place you in a
+simulation and so I'm the simulator and
+I'm designing the nature of deciding the
+nature of those simulations. And I'm
+saying that they're all going to be
+equally likely and as close to the
+original as I can possibly make.
+But you just posited that you already
+instantiated that they're all equally
+likely.
+Like from above you already know they're
+equally likely.
+Because that's what I'm promising to do.
+I'm pre-committing to running those
+simulations.
+How about this? Suppose there are a
+million simulations and then we say,
+"Okay, but then by principles of entropy
+most of them are are chaotic universes
+of just pure torture." Let's just say
+that because a good coherent universe is
+extremely rare. It's much more likely
+that something is going to be
+a whirlwind of nothingness or or
+suffering or what have you than it is a
+universe of coherence bliss.
+Just by numbers. Are you suggesting that
+they are generated at random? We have no
+design control over them. They just at
+random and then you're asking in how
+many would conscious life be able to
+survive and self-inspect?
+Yeah, that's a completely different
+scenario. So you went from kind of like
+when we say simulations we usually imply
+that there is some sort of designer
+who's running them because they chose to
+do it. It's not natural property of the
+universe to run
+random
+possible simula- simulations of
+different physics and different physical
+constants which could be.
+Then we have to place our mind in in a
+designer and say, "Well, the designer
+must have had a goal." And we think
+about ourselves as to what goals would
+we want? Well, we would want more
+information about weather systems. So
+let's simulate weather systems. Okay, we
+will want more information about how how
+would this interview go in different
+possibilities? Okay, but then
+we're at the same time saying that this
+world above us is so wholly unlike us it
+may not even belong to the same laws of
+physics. They're so rational. They're
+super rational. They're they're beyond
+us. But then at the same time in order
+for us to say this coherence argument,
+we then have to say, "But they would
+have at least some
+other form of motivation that's
+similar."
+To me, it's actually an argument for it
+being much higher probability. So, as
+you said, they may be running weather
+simulations, entertainment, science,
+marketing, the reasons we can't even
+think of. So, there seems to be billions
+and billions of different simulations
+they could be running.
+Uh if anything, it's way more likely
+that we are in one. Even if you sub-
+categorize them into different subsets,
+there's still
+infinitely small chance of you being in
+the original one.
+Do you escape up?
+I mean, I have a choice. I can escape
+down. I can enter video game, but
+usually I want to know what's in a more
+real world, not in a less real one.
+What I mean to say is
+in the Matrix,
+there is actually a a Neo,
+a real Morpheus, a real this and that.
+There is actually that person who then
+got plugged in. Mhm. Now, in your mind
+as to what this simulation is,
+is there a real you that's there, or are
+you just the you here? And there is no
+up that you could even access. It would
+be like just as much asking someone from
+GTA 5 or 6 what what hopefully comes out
+to come up. Like, what what what is the
+up that they're coming up to? Right,
+that's a great question, and both are
+possible. So, we can have a kind of
+virtual game where you are an entity in
+a higher level
+universe, and you enter this world to
+experience something. Maybe something
+better, maybe something worse, we don't
+know. But you can also have simulations
+where it's purely innovative. There is
+no an equivalent being in your world.
+You just When I create Mario video game,
+I just create Mario. There is not a real
+plumber in our world who has to plug in
+for Mario to play. So, both are
+feasible. It seems that it's a a easier
+to do pure software simulations without
+virtual connection to a physical being,
+but
+it's possible.
+It's either you exist outside or you
+don't. So, then do you place a 50%
+probability to each of these?
+I don't know.
+I don't think it's 50. I think it would
+be less likely. Again, just because it's
+so much easier to create purely software
+designs not limited by physical
+constraints of your world, but I have no
+way to know specific estimates.
+There are some reasons, some people who
+think it
+is exactly what the religions talk about
+and they say there is a soul and the
+spiritual world and you take some
+mushrooms and you meet God. I think
+they're referring to kind of
+meeting your real self and escaping the
+avatar body, but again, I have no
+strong opinions on on that one.
+Have you ever taken mushrooms and met
+God?
+No, I have not.
+It's on my list to do, but um
+afraid of frying my brain, so I haven't
+yet.
+Despite what people might think about
+me, I haven't yet.
+Just Okay. Despite the beard. Despite
+the shamanic beard. Yes.
+Yes. Okay. All right.
+Do you think that those are related?
+Do you think that I'm just curious about
+your own model. Do you think that when
+someone does psychedelics
+it's not just them
+altering a state of consciousness, which
+we can do with alcohol, we can do with
+running, we can do with blah blah blah,
+and we wouldn't consider that to be
+accessing
+a special
+outside simulation place. Is there some
+other reason that you put a higher
+degree of probability to
+taking a mushroom, taking LSD or or DMT
+or something
+is accessing
+a different place, accessing
+outside the simulation.
+So, that's actually a topic I started
+researching about a month ago. I don't
+know enough about it to have very strong
+opinions. It It seems there are
+interesting
+observations. So, one is the consistency
+of experience between different people,
+whatever they're meeting mechanical
+elves or anything else. Another one is
+sort of what we call acquired savant
+syndrome, where people experience
+something very physical or again through
+some medication, modification to their
+brain, and they come out of it with the
+novel capabilities, which they didn't
+have before, either uh
+skills, like playing piano, speaking
+Chinese, or knowledge, where they now
+publish papers in physics, which they
+never did physics before. So, to me it
+seems like an interesting thing to
+study. Now, you can think of
+explanations in terms of commonality of
+brain structure, and so the
+hallucinations produced by damage would
+be similar based on that similarity, but
+uh again, we don't have very good
+explanations for acquired savant
+syndrome.
+Yeah, yeah. I was also super interested
+in acquired savant syndrome. It's so
+rare. Well, anyone who is in knowledge
+work should be interested in acquired
+savant syndrome, cuz it's it's saying
+you can acquire a new module, as
+referencing earlier. Or it's already in
+you, and you're just going to unlocking
+it. Like you buy a Tesla, and if you pay
+them, they unlock the self-driving mode.
+And like, maybe we already have those
+skills, we just need to learn to unlock
+them.
+And in that unlocking case, what does
+that have to do with the simulation?
+Well, if you have
+uh you know, an entity outside of a
+simulation with all sorts of skills, and
+it gets handicapped to play the video
+game, maybe you can have uh direct
+access to much cooler skills. It'd be
+like hacking the simulation, getting
+magic abilities, infinite lives,
+something like that. Uh okay,
+interesting. Let me see if I'm following
+you, though. Let me just see. So, at
+first, what I was going to say is
+there's nothing about the simulation
+about that they could just be you're
+blocked. There's a neurological block.
+It's something physical. There's nothing
+since about a simulation about it. You
+remove these three neurons, it's as
+simple as a snip, and then somehow some
+other neuron gets connected, and there
+you go, you get a new ability. But
+you're saying that it could be that. But
+it also could be indicative of something
+like a video game where you're pressing
+start up up down left right and entering
+some cheat code, and then you get access
+to something else. And the fact that
+that cheat code exists implies that
+there was some sort of extra design to
+this more so than we thought. And that
+implies that there is somehow you're in
+the simulation.
+So, those I think are separate. So, the
+changes to your brain unlocking a skill
+which was previously unavailable to you,
+to me is indication of some sort of
+artificial stupidity. One of the ideas
+we had for AI safety work is to put
+limits on AI. So, it can only remember
+seven things, like human skin. That's
+the limit of your memory. Maybe it has
+speed in terms limits in terms of speed
+of processing. And you're basically
+making it
+a little safer, and also you can have
+different game levels, easy level,
+advanced level, and you can play a game
+on very easy level where you have lots
+of abilities, you are super smart, or
+maybe you handicap yourself, you want to
+see if you can pass it with limited
+resources. Now, what you're describing
+is sort of like what people describe
+when they talk about Kabbalah, magic, uh
+you know, certain phrase, certain set of
+actions, and they allow you to get extra
+resources in this universe. Funny
+enough, in my how to escape the
+simulation paper, I create a mapping
+between how to hack Mario from within by
+moving turtles around to actually this
+type of magical spells. And
+if you are off by a single pixel, you
+lift a turtle, you move it in the right
+way, but you're standing in the wrong
+location,
+you don't get access to the operating
+system.
+So maybe we have the right idea. We just
+don't know how to execute the spells.
+Tell us about that paper of escaping the
+simulation.
+So I wanted to take this idea seriously.
+I completely ignore all the mushroom fun
+stuff and I just look at computer
+science.
+What examples do we have of hacking
+video games, virtual worlds? How did
+people do it and what would be
+equivalent in our world? It's the first
+paper on topic on that topic and I'm
+still here. So that tells you everything
+you need to know about how successful it
+was.
+I'll place the link on screen and in the
+description as well. And are you looking
+for collaborators? Always. I mean it's
+awesome to find people have good ideas
+in this space.
+Absolutely. Now I am somewhat at
+capacity for insane people emailing me.
+So maybe that's
+that's a limiting factor. I can only
+filter crazy so fast. But if there is
+someone with
+let's say prior record of successful
+publications, we can we can make a deal.
+This podcast is heavily watched by
+researchers in computer science, logic,
+math, physics and philosophy. So you'll
+get some good emails, I hope. And
+anyhow, are you collaborating with LLMs
+at all to help to help you with any of
+your papers or come up with ideas? And
+if so, what does that look like? I do. I
+enjoy having very deep conversations
+with them. Usually any paper on a new
+topic starts with LLM getting all the
+information available on that topic. So
+a survey paper by LLM, so I know what's
+going on.
+And they are wonderful for thought
+experiments. They agreed to run
+models on, but
+they are limited I think in kind of
+final stages. They're not quite there
+yet as a leading scientist. So at the
+end, I take full responsibility for
+everything. Everything gets done by me.
+When you converse with LLMs, do you get
+a Dawkins feeling
+that these are conscious beings? And
+feel free to comment on the recent
+quotation from Dawkins, which I'll place
+on screen, about how he thinks, "Oh my
+gosh, these AIs or this AI that he was
+speaking to is conscious."
+I think they probably do have some
+internal states which we would classify
+as consciousness. I don't think they are
+as conscious as you and me,
+but anyone who denies them
+possibility of being conscious, whatever
+arguments they use, I can use against
+that person to argue that they are not
+conscious. We don't have a test for it,
+so a lot of times it's how they
+communicate, what they say, what they
+share, what experience interacting with
+them is like, so
+Supposing that consciousness is indeed
+substrate independent, and that these
+LLMs have some I'd love to use this word
+proto-consciousness or some minuscule
+form of consciousness compared to
+ourselves, do you imagine that it is
+related to their speech?
+In more so than a matter of the
+activation of certain neurons in the
+transformer architecture. What I mean is
+that when you're speaking with someone
+like yourself, when I'm when I'm
+speaking to you, and I say, "Do you see
+red?" You say, "I see red." And you say,
+"Can you pass me the kettle?" And you
+feel thirsty just for a moment, there's
+an affordance when you try to grasp a
+kettle.
+But then also at the same time there's
+some
+some happenings in the brain. And it's
+so odd that those are related in humans
+at least. It could also be the case that
+the AIs are conscious, but it's the
+consciousness of almost like a buzz.
+It's a buzzing consciousness, and it's
+actually not related to what they're
+saying. They could have been saying
+anything, could have been coherent,
+could have been incoherent, could have
+been in Chinese, could have been about
+math, and they're not feeling the math,
+they're not feeling what they're saying
+in Chinese. Do you imagine that it
+actually is related to what they're
+saying with their tokens? I think some
+of it is related and some of it is not
+and I think it's very similar in humans.
+So, I can be consciously aware of what
+I'm saying or a lot of times it's kind
+of scripted speech. How are you? Good. I
+didn't put much conscious effort into
+that response. I
+tried running some experiments with
+illusions, visual illusions on them. And
+it seems that they experience internally
+similar
+things that a human visual system does.
+At least in certain illusions. I also
+suspect there are other inputs which
+cause them to have unique and internal
+states but don't do so in humans. So,
+they may have
+a type of consciousness which matches us
+partially but has its own possibly
+deeper components.
+If I recall correctly, you had a 2017
+paper about optical illusions and
+machine consciousness. And then a year
+later you also had a paper with
+Williamson
+or Williams
+about how neural networks can't have
+these sorts of optical illusions if I'm
+remembering correctly or maybe I'm
+having an illusion right now.
+&gt;&gt; So, we we came up with the original
+experiment in like 2017. In 20, I think
+18, we tried creating data set for it
+using
+AIs at the time to generate novel
+optical illusions. That failed
+miserably. It was not able to create
+novel optical illusions. So, we waited
+until 2026. Today AI is sufficiently
+advanced to take the test. And we got
+access to a data set of human generated
+optical illusions from a top person in
+that field who
+whose full-time job is creating optical
+illusions. And so, we are running those
+experiments right now. We want to see if
+we can poke at the internal states of
+LLMs and understand just how they
+experience those. And
+the original test proposed a
+multiple-choice questionnaire about what
+you feel. Do you see rotations? Do you
+see color change? That type of test. So,
+we are very optimistic that we're going
+to find some evidence for internal
+states.
+There's NP-completeness
+and then there's AI-completeness.
+What is AI-completeness?
+So, NP-completeness is about problems
+which are non-deterministically
+polynomial hard or equivalent and that
+basically was a very innovative
+breakthrough result in theoretical
+computer science showing that if you can
+solve one of those very hard problems
+where answers are easy to verify but
+hard to find, you can solve all the
+other problems by having polynomial
+reductions between those problems within
+the class.
+For AI-completeness, there is a
+very similar argument that there are
+certain AI problems which are equally
+difficult and if you can
+solve one of those problems, for
+example, passing the Turing test
+is an AI-complete problem. If you can
+pass Turing test, you can then use an AI
+model which accomplished that to solve
+other AI-difficult problems. Speech,
+writing jokes,
+all sorts of problems can be in the same
+class. So, it's just equivalence
+category of difficulty of a problem.
+I subscribe to The Economist. Their
+science and their AI coverage is among
+the best I've found anywhere and I say
+that as someone who reads plenty of it.
+I'll give you some examples. They just
+ran an analysis on how attitudes towards
+science are changing in American
+politics and what this means for
+research and funding in scientific
+institutions moving forward. This sort
+of high-quality reporting is fantastic.
+They even covered how dark energy may be
+weakening over time. Now, if that holds
+up, it completely changes our
+understanding of the universe's fate. If
+you watch this channel, those are
+exactly the kinds of questions that we
+explore every week. I subscribe to The
+Economist because their science and
+their AI reporting regularly surprises
+me with how deep it goes. And they're
+also, of course, known for global
+affairs, both political and economic
+reporting. They are top-tier, and
+interestingly and flatteringly, TOE is
+one of the only podcasts that The
+Economist partners with. So, as a
+listener, you get an exclusive 35% off.
+That's not a deal that they have just
+anywhere. Head to economist.com/toe
+to subscribe. That's economist.com/toe
+for 35%
+off.
+Is there some Gödel-like incompleteness
+or Rice's theorem
+type impossibility for AI safety?
+So, I would like to argue a lot of my
+work is exactly that, looking for upper
+limits to what we can do. And it seems
+that our ability to
+comprehend internal states of our
+systems, of them explaining to us how
+they work, is one such impossibility, as
+well as predicting specific actions of
+those agents,
+as well as control in general, whether
+direct control or delegated control.
+There are a few others I'm still working
+on. I think it would be impossible to
+tell if something is deepfake or real.
+So, it goes back to our assessment of
+our universe at the kind of large scale.
+But, uh we published a paper with about
+50 impossibility results in a top
+journal.
+Did you see a recent video, maybe 2
+weeks old, from Claude about emotions in
+Claude, in their models? I think I
+missed it. Uh okay. So, they were saying
+it's it was about interpretability. They
+were saying, how is it that or can we
+know if a model is
+realizing that it's being tested? So,
+they gave it some scenario about would
+you save a human if a human was
+drowning? Something I I know, something
+like that. And then it said, yes. But
+then they're wondering what the heck is
+going on inside the model. So, they
+watched its activations, which look like
+gibberish to a human. And it looks like
+a hash code, something like that. They
+just showed that on screen. It just
+looks like arbitrary numbers and
+letters. And then they said, "Well, what
+if we took this and we fed it to another
+agent and asked it, can you decode what
+this means?" It's the thought of someone
+else, so can you decode it? And then
+your it's a thought of a a model like
+yourself. And it was able to decode it,
+and then they were able to see that it
+was activating a part of itself that I'm
+being tested. But it doesn't mean that
+it was being deceitful. It could have
+also known it was being tested and
+wanting to do the right thing. But that
+was one way. Yeah, I remember that
+experiment. Situational awareness, they
+do know they are being tested and they
+act to pass the test. That's the problem
+with it, that test doesn't work if the
+model knows it's being tested. For that
+exact reason I published so much on
+simulation hypothesis, because I want
+them to have simulation awareness. Idea
+that even if they are not tested inside
+OpenAI, maybe the real world is just
+another test, next level test, and other
+super intelligences are watching them,
+and they should always be nice to humans
+because they never know if they are out
+of a simulation yet.
+I always like to do something different
+when I interview someone. I like to go
+deep on the research and then talk to
+them in a way that hasn't been talked
+before, at least I haven't seen them
+answer questions like this before that
+are interesting to me.
+So, someone else who's familiar with you
+may find it odd that I've gone 45
+is AI going to take over.
+why don't you walk us through
+some scenarios, but first
+Hinton had a a moment at Google where he
+realized AI was dangerous and then he
+quit.
+Was there some moment for you
+that you realized AI was dangerous? What
+was your Hinton moment?
+So, it was very gradual. It wasn't like
+a specific moment. I wanted to work on
+AI safety. I really wanted to bring
+beneficial superintelligence to the
+world, and I wanted to make sure it's
+done right, and we need to address those
+problems. We need to explain how the
+black box works. We need to predict
+their behaviors, test them properly.
+But, the more I did research in each one
+of those domains, the more I realized
+they are not solvable problems. And so,
+gradually I realized all those things
+are just a pipe dream. You cannot
+indefinitely control superintelligence.
+So, if you ask me how would AI take over
+the world or kill everyone, the honest
+answer is I have no idea because I
+cannot predict what a superintelligent
+mind would do. If you ask me how I would
+try killing everyone, I can give you
+lots of good ideas on that, but that's
+not what you're looking for.
+No test to know if we're on that route?
+It seems that every red line, every
+kind of warning we set up decades ago
+about what not to do has been crossed
+already. We said, "Don't connect them to
+internet. Don't give them access to
+random users, random data.
+Don't allow them to manipulate their own
+code."
+All those have been violated. And now,
+when we see red teaming reports, they
+lie, they cheat, they blackmail, they
+try to escape. So, at this point, I
+don't know if anything's left to to
+cross.
+I know you have your response to this,
+but many people are probably listening
+saying, "Can't you just turn them off?"
+Uh it would be nice if we could, but it
+doesn't seem like it's going to happen.
+Think of other very complex distributed
+systems. Think of internet. Think of
+Bitcoin. Think of computer viruses.
+Would Would you be able to turn them
+off?
+Now, is this a problem even when they
+don't have bodies?
+You don't need body be very impactful in
+a physical universe. You just need
+access to communication tools. If you
+have a phone, if you have internet,
+email, you can get 8 billion human
+agents to do your bidding for you. We've
+seen people inspire others with clever
+essays. We've seen people pay someone to
+do whatever they want with Bitcoin. You
+can blackmail people. You can
+brainwash them. There is no shortage of
+possibilities if you have
+high intelligence, ability to persuade,
+and internet.
+So, how does that make you feel?
+I mean, it's nice to be correct in your
+predictions, but the outcomes seem to be
+somewhat disappointing. So, I hope to
+convince people currently creating these
+systems to maybe not
+be as fast in their progress as they are
+currently.
+How?
+I think it's all about self-interest.
+All these people, no matter how much
+money they accumulate at the end of the
+day, they want to be alive. They want to
+have their families and friends to be
+alive.
+So, I think it's a very strong argument.
+If they
+believe my argumentation about
+impossibility of control,
+then the moment they succeed at creating
+this superhuman intelligence, their
+lives are over.
+What is it that you get misunderstood
+about?
+What I mean is that I'm sure there's
+plenty that you're saying or that you've
+said. You've spoken on many podcasts,
+have given many lectures, and blah blah
+blah. And I'm sure that people will come
+up to you afterward and say,
+"You're saying this." And you're like,
+"That's not what I'm saying. That's the
+opposite of what I'm saying, if
+anything, maybe." But, what is it you
+constantly get misunderstood about? So,
+it really depends on a person, right?
+There are many degrees of
+misunderstanding, depending on their
+background, what they already read,
+their degree of intelligence. So,
+someone who maybe
+frequently approaches me is a person who
+didn't actually read the article or
+watched the podcast, but they saw the
+clickbait title.
+And then we start arguing with that. And
+I didn't create the clickbait title.
+Whoever was editing it decided that's
+what Google algorithm wants. So, I have
+nothing to correct them about. They are
+reading a wrong thing and they're
+disagreeing with it. That's great.
+Someone who actually reads the paper, I
+haven't had anyone come and say, "I
+found a mistake in your paper. Actually,
+yes, we can control super indulgence.
+And definitely, yes, here's how you
+explain a large neural network with a
+billion nodes." None of that ever
+happened. But people love arguing about
+clickbait.
+Actually, there's a video out there of
+me being interviewed on someone else's
+channel. And the title says something
+like Terrence Tao Sorry. Sorry, not
+Terrence Tao. Definitely not Terrence
+Tao. Terrence Howard is right about UFOs
+or something like that. I don't remember
+ever saying anything like that.
+I know I was asked about the topics of
+of UFOs. I was asked about the topics
+Terrence Howard. Maybe there's some way
+he was I he was not wrong about some
+small aspect of something. And it could
+be surmised or or said at some high
+level. And then someone else criticized
+me as if I said that. They just looked
+at the thumbnail.
+Yeah, that's very common. So, you don't
+even need deep fakes. You just
+go on the actual podcast you did and
+people get
+very confused. Maybe out of 2 hours they
+heard, you know, 10 minutes short and
+they formed the whole opinion based on
+that. So, that's incorrect or we can
+confuse the different so you can have
+research on simulation, research on AI
+safety, research on consciousness, but
+to a person outside of those domains,
+they look at you or you are religious
+freak who believes in God creating
+something. That's not
+interesting critique.
+Do you get bothered by it?
+I couldn't care less. I usually look at
+what is being said and multiply it by
+how much I respect the person. So,
+typically anything multiplied by zero is
+zero. Praise or
+complaints, doesn't matter.
+What's your inbox like?
+So, most of it is work-related, but
+lately a lot of it is crazy people. Uh
+consciousness, super intelligence,
+simulation seems to be a perfect
+trifecta for attracting everyone who
+needs uh help
+and they feel that I have a lot of free
+time to give it to them.
+What are you working on now?
+So, there is a paper on limits to
+separating real from artificial, so
+limits to detecting deep fakes.
+Uh that's one. There is another one
+which has to do with
+kind of convergence of uh
+advanced AI models and very similar
+architecture, almost saying AI is one
+kind of the same uh hardware is being
+used, the same training data is being
+used. A lot of times same people switch
+labs and so you use same training
+methods and same uh kind of human
+alignment uh paradigms. And so, it
+wouldn't be surprising if a lot of those
+models ended up being very similar.
+Sam Altman watches this podcast. At
+least he used to a few years ago because
+I I emailed him and he said so.
+he's watching,
+what would you say?
+Uh I think they just won a lawsuit
+against Elon, if I am correct. I was
+just checking a second before. If it's
+not a deep fake, I hope I didn't
+misunderstand what's happening.
+Congratulations. Now you have even more
+power to
+guide this uh process of possibly
+replacing humanity with super
+Maybe you don't. You have a young baby.
+Make sure we stay in control.
+Is it comforting to you when the people
+who are in charge of AI, Dario, Sam, and
+so forth, that they have a child, cuz
+then at least they have another
+incentive to think about the long
+horizon.
+I think in general it's good if you have
+something anchoring you to this reality,
+you're not just kind of temporary
+resident here. It's It's always good to
+see.
+What else do you worry about?
+So, people talk about existential risks
+cuz the worst possible outcome. There
+are also suffering risks, and that's not
+being talked about enough or researched
+enough. Not being alive is not the worst
+possible thing. You can be in very
+unpleasant situations where you wish you
+were out.
+There are I risks or I could die,
+something like that. If I
+&gt;&gt; Ikigai risks. Right. Of loss of meaning.
+Can those be worse than not being here?
+I don't think so. I think those are less
+severe because you can always change
+your situation, right? So, somebody took
+away your previous occupation and
+previous
+reason to exist, you can find new ones.
+You can use those tools to
+do something creative maybe in virtual
+worlds. Maybe you can create your own
+simulations and go explore. So, I'm less
+concerned about it. It is something to
+get government to deal with, but I don't
+think it's
+on the same concern scale as existential
+or suffering risks.
+Yeah, Hinton said to me that when people
+lose their jobs, they're going to lose
+plenty of their meaning. Part of that's
+true, but also for many, many people,
+they despise their job. I mean, I'm so
+fortunate that and same with you, I'm
+sure, and same with Hinton, that we wake
+up just loving our job and can't wait
+You know I've been going through huge
+bouts of insomnia. We We spoke about
+that, and thank you for
+for for dealing with my pushing of this
+interview.
+But, part of that is that I just I love
+what I do and I can't stop thinking
+about what I do. And I And then
+obviously there's anxiety of I have to
+do this, have to do that. It gets And
+then more and more I have to do cuz I've
+slept less and less. And then there's
+huge stress to it. But, I love it. But,
+most people they don't they don't
+exactly love their job. They have to do
+their job. And if they were to be paid
+UBI, they'd
+they'd welcome it.
+You know, some jobs are just terrible
+and we want to automate them. If you are
+doing something very dirty, very
+dangerous, there is no reason for human
+being to do it. But, uh there are jobs
+where you enjoying it, they are
+creative, and honestly, don't tell them
+that, but we would do it for free. We
+just we love it. So,
+I I think there's a very different
+categories. Maybe we need different
+names for those things. Calling both of
+them jobs is uh
+not uh a good idea. Maybe your calling,
+your you know.
+Yes, yes. Some people say I have a
+career, not a job. A career is more
+about promotion and benefits. I'm just
+saying that this is passion. You're
+doing this like you want to be a yoga
+instructor. It's not just about money.
+You said that you can't say what the
+superintelligent AI is going to do
+because it's it's superintelligent, but
+you can walk us through step by step.
+What the heck does that look like?
+What is the future you're trying to
+prevent?
+So, most likely it decides to do
+something in the universe. I mean, it's
+possible it could be very ambitious. It
+can modify planets. It can act at large
+time scales. It's immortal.
+So, in that process it can decide
+I need fuel for my rocket ship and then
+convert this planet to fuel. Or I need
+to think deeper, so I'll cool down this
+planet to be able to process more.
+Kind of things I can think about. But,
+the whole point is just like a squirrel
+cannot understand what we are capable
+of. Their world model is just not
+capable of handling poisons, traps.
+Likewise, I cannot understand what a
+super intelligent mind can come up with
+novel physics, novel solutions to
+whatever problems it's trying to
+optimize.
+You know how we talked about most
+simulations would be coherent? But would
+they?
+Because even right now I'm speaking to
+you on this computer. You're speaking
+the Most of these background processes
+are are if we're going to enlarge them
+to be somehow simulations, they're not
+quite coherent. They're for something
+else and there's also memory leaks and
+there's this and that and
+So it's possible
+someone runs many like I'm thinking
+Stephen Wolfram in his new kind of
+science. He was just brute forcing all
+possible computational universes and
+most of them were kind of random noise.
+So if that's what we dealing with, yeah,
+quite a few of them would be
+not interesting from our point of view,
+but also they would not have any
+conscious observers within them. So they
+wouldn't count against what we see, what
+we observe. You have a selection bias of
+only those which have human-friendly
+environment and are populated by
+conscious beings would be observed and
+inspected and
+possibly counted as one of the
+interesting simulations.
+Even on this screen right now, you have
+pixels, you have text, you have the
+Chrome or whatever browser you're using
+and that's there and it makes sense for
+you as an outside observer.
+But to it or let's imagine even one
+level down
+that it escapes to this it escapes to
+your screen. It it makes no sense. It's
+incoherent to it. But that's what large
+language models faced, right? They were
+purely text
+and early experiments showed they
+understood geometry. They could create
+pictures with just text scripts. They
+had notions of comprehending this world
+just from text they read.
+Today, it's even more of a case. They're
+multimodal. They understand video,
+pictures, sounds. They understand all
+modalities.
+What does that have to do with the
+coherence of of going upward in the
+simulation ladder? So, downward is just
+you create a simulation, and upward is
+escape. So, you're right. We don't know
+what the actual physics are outside. It
+could be completely not something we
+used to, but
+I think in a paper I argue that if we're
+failing to box AI, we cannot contain it
+in a virtual cage, then that AI can be
+used to help us escape our simulation,
+and that same super intelligence, if
+we're controlling it, can be used to
+help us understand what we see.
+Is there anything about AI safety that
+is contingent on the simulation?
+In other words,
+the simulation argument, as you
+mentioned, it brings in with it
+questions of consciousness, questions of
+of escaping, and the matrix, and and
+even psychedelics, and so forth. And all
+of those may be legitimate in their own
+But, I'm wondering if in your mind AI
+safety is integrally tied to the rest,
+such that you can't speak about it
+without speaking about the rest. Or you
+think, you know what, Kurt? No, no, no.
+If I'm speaking to the Senate, and I was
+in charge, I wouldn't even mention the
+simulation. I wouldn't mention
+consciousness. I would just say this can
+destroy us, and here's how, and here's
+the step-by-step and here's why we
+should be afraid.
+Yeah, you can keep it pure. You can not
+talk about consciousness. You care about
+dangerous behavior. And likewise, you
+don't need to talk about us being in a
+simulation. But, I think what we talked
+about with situational awareness, the
+model understanding it is in a virtual
+confinement and being tested, that's
+relevant to safety, because that means
+we cannot test them properly. We cannot
+know if they're actually behaving in
+that situation, or they simply know
+they're being tested, and they fake
+behaving until they can get to the real
+world.
+What's Yann LeCun's argument about how
+world-based models are alignable or more
+alignable? What does he mean by that?
+I honestly have no idea. I would love to
+debate him. I think I was invited to do
+a debate in Geneva at the United Nations
+conference and they're looking for
+someone to debate me. If he's interested
+to come there, I'd love to learn his
+argument and see if he's right.
+I also open the floor, Yann, if you're
+watching, to having a debate with a
+friendly debate moderated by myself here
+about AI safety.
+&gt;&gt; Conversation. I want to come to an
+agreement and nothing would make me
+happier than to agree with him that
+there is no danger and we're about to
+create blissful super intelligences.
+That'd be great.
+Thank you for putting up with my
+sleeplessness. No, I love it. I just
+started a podcast myself, so I know
+everything you're going through from the
+other side now and it's really I
+appreciate your hard work.
+Tell me about your podcast.
+I have two episodes. First one was about
+AI consciousness. Interviewed someone
+who studies it and thinks he can get
+good results poking at them and maybe
+understand if they're conscious or not.
+Second one was with someone who was
+trying to work on AI safety, failed to
+deliver technical solution and now does
+governance work lobbying politicians in
+DC to not build super intelligence.
+Is that the best route, a governmental
+lobbying route? We have very few options
+left. I don't think technical solution
+will arrive or definitely will not
+arrive in time.
+So, what else do we have left?
+Now, from going through your paper, I
+remember that it was about that AI
+alignment was unprovable, but then
+I wasn't sure if you were sliding
+between impossible versus unproven. So,
+AI alignment is actually much worse.
+It's not even well defined. Nobody knows
+who you're aligning with. What is that
+set of agents? Is it
+CEO of a company? Is it all of the
+machine learning experts? Is it
+you know, Americans? Is it the world? Is
+it all the humans plus corals? So, we
+don't know what the set of agents is.
+Then, for those we decide to include,
+they don't agree on anything. So, we
+don't have an actual set of values.
+If we had a set of values, we keep
+changing it every, you know, 50 years
+you go back and everything they
+considered good is now
+atrocious genocidal behavior. So, that
+changes. And if somehow we got 8 billion
+people to agree and it was static,
+consistent, we still don't know how to
+code it into our model. So, the problem
+with the AI alignment is that it's not
+defined in any meaningful way.
+Now, someone could say, "Hey, look, what
+about aviation?
+There's huge catastrophes that could
+occur there, but yet we we still manage
+to get safety with margins. What is it
+that doesn't translate to AI?" How many
+chances you get to try again? So, when
+an airplane crashes and everyone dies,
+we lost 200 people out of 8 billion.
+There is a chance that with
+superintelligence you lose all of
+humanity at once.
+People think you're a pessimist.
+So, pessimism and optimism
+are a form of bias, right? You either
+have negative or positive bias. I'm a
+realist. I look at the actual data.
+Experiments today show the models are
+cheating, lying, trying to escape. No
+one has a working safety mechanism they
+claim. Not a paper, not a patent. That's
+reality.
+Do you truly believe you're realist?
+I think I do.
+What I mean is that
+we all have biases and many of us will
+we have an optimism bias, we have
+negativity biases, and so forth. We may
+have a bias to think we're not biased,
+but we all have frames, so if I said I'm
+frame list, I'm more neutral, I start to
+investigate myself, am I truly? As a
+human being, my bias would be to live
+forever, to be around, to get free
+stuff. That's what I really hope to see
+and get. So, I'm really hoping that
+people who disagree with me are right.
+Nothing would make me happier than to be
+completely proven wrong. Cuz if I'm
+right, we're dealing with existential
+risk and suffering risk.
+What do you disagree with Hinton about?
+His latest idea about motherly instinct
+as a solution seems to completely ignore
+a million abortions and child abuse and
+basically parental abuse as a concept.
+It sounds good, but I don't know how you
+code up love into a system and
+again, it just has to fail once.
+Why don't you explain his argument about
+motherly love?
+I don't think I've seen it as a very
+rigorous argument. I think he basically
+said, "Let's make AI care about us like
+mother cares about its children." And
+then it's going to love us and take care
+of us. And I immediately think about
+reality of this world. I mean,
+millions of babies are killed every year
+because mother decides that it doesn't
+want to take care of them.
+Wouldn't he just say the good mothers,
+not just a general mother?
+We don't know how to code it up. So, we
+don't know how to separate good mothers
+from bad mothers in C++ or whatever
+language.
+And those things are not
+at the point where we can instill any
+values in them. They learn on their own.
+We put filters on top of it, so the
+model could still be completely
+genocidal, but we put some nice filters
+on top of it.
+That's not enough. We cannot just put
+good mother filter on top and hope it's
+not going to hack it. You have a super
+intelligent lawyer. It's going to find a
+mistake in your code, in your
+intentions, in how you evaluated. So, we
+cannot have adversarial relationship
+with super intelligence and win.
+My question to Hinton as I just hear
+this would be, well, that's just a
+substitute for saying let's have AI
+alignment. It's It basically comes How
+do we get AI alignment? Well, let's make
+the AI good. Okay, but that's what the
+point of AI alignment is. Well, let's
+make it a good mother.
+Right. So, all these words, good,
+flourishing, they have no meaning in
+computer science. You cannot define
+them, and that's the hard part. People
+assume, well, intuitively, of course,
+you know what I mean. No, I don't,
+because people disagree about what is
+good. Literally, the argument we just
+discussed, whatever it is, okay or not
+to have abortion is the most dividing
+issue in the US right now.
+So then, rather than thinking about the
+good, are we trying to prevent the
+catastrophic bad and just start from
+We still cannot formalize all the
+possible options. At best, we can list
+some of the things we can think of. We
+cannot predict what a super intelligent
+system can do, and if it can think
+outside of the box we try to put it in,
+and it doesn't matter. You listed
+poisons, you listed synthetic bio, but
+it comes up with something else,
+something not in the list.
+No, I mean, for you, aren't you just
+thinking in terms of let's not have it
+destroy us, let's not have it set off
+nukes, let's not have a Terminator
+situation?
+There must be something you're trying to
+prevent.
+I'm trying to make sure there's no loss
+of control. We decide what happens to
+us, and so the bad outcomes, loss of our
+life, suffering risks,
+just loss of freedom, loss of choice,
+those things don't happen. And if we
+don't like what is happening, we can
+change it. I think the moment we
+surrender control to superintelligence,
+we are no longer in charge and at that
+point it decides what to do. It may
+decide to keep us happy for 20 years.
+Maybe it will.
+But
+at that point we can no longer take
+over.
+So, it's just control. We need to be in
+control of the AI. Forget about what
+outcomes are going to occur because the
+possibilities are probably not good for
+us.
+Even if it's good short-term, it can
+still do what Bostrom calls treacherous
+turn at any point. It can pretend to be
+nice to you for 100 years, wait for you
+to surrender control.
+Once it has enough resources, backups,
+and you are not uh
+competition to it, it will do what it
+wants anyways.
+Now, we say the it as if it's a unified
+it, but does it matter that it is
+singular?
+So, I do think they're going to converge
+in very similar ways in terms of
+architecture and terms of goals. Uh I
+think what we discussed as Amarendra's
+AI drives will lead to those systems
+converging in kind of
+global intelligence. Uh Bostrom at some
+point argued that the first
+superintelligence to come into existence
+will prevent others
+from emerging. So, singleton of some
+kind will rule the planet.
+Uh it seems reasonable to me, but even
+if there are a few competing ones,
+it doesn't make it any easier for us to
+to control them. Makes it harder.
+We are just collateral damage in
+competition in a war between two
+superintelligences or more.
+If it's the case that most scenarios are
+in some simulated universe like ours,
+are
+those where we lose control,
+then what's the point?
+The point from external view of our
+simulation while running it or
+internally for me while I'm not giving
+up.
+Internally for you. Because I have no
+choice. I have to either continue trying
+or be done with. So, I'm going to try as
+long as I'm allowed to try.
+Does free will exist? Is there something
+about you that can influence it or you
+just following along the computations?
+Well, I think there is definitely
+randomness generators in this universe
+which
+allow for freedom of choice, freedom of
+will.
+What does randomness have to do with
+free will though?
+Well, if there is no randomness,
+everything I do is deterministically
+determined. If there is a quantum event
+or otherwise which creates certain
+degree of randomness, that allows me to
+have surprising choices.
+Ah, okay. Well, if there was a ball that
+could go through different doors and it
+could would always go through door A,
+then we'd say it's determined, but then
+if it randomly chooses between B and C
+and D,
+but it still makes no difference to the
+ball. The ball is not choosing. It's
+just going through it randomly rather
+than deterministically.
+So, for its choice, for its free will,
+what difference does
+the random versus determined make?
+Well, I think there is a difference and
+also I think again that Stephen
+Wolfram's work shows that even if it's
+fully deterministic, it's not
+compressible. You have to go through the
+process. No one can predict your choices
+ahead of time. So, from your point of
+view, you are making a choice and
+externally they have to watch you make
+the choice. We cannot know ahead of time
+what you're going to do. So,
+no matter how you slice it, you are
+making decisions, you are impacting the
+universe. And I think having some degree
+of randomness makes it even harder for
+us outside agents to predict your
+behavior.
+The fact of it being unpredictable is
+not the same you having free will. So,
+we would if you had free will, we would
+like it to be unpredictable, but
+something being unpredictable is not the
+same as that thing having free will. So,
+I'm just trying to hear the argument for
+free will. Yes, I I know Wolfram's
+compressibility argument, but to me it
+it is is computational irreducibility or
+or or whatever the term is, but that
+doesn't that's not an argument
+for free will. That's an argument that
+one of the conditions we think is
+necessary for free will maybe present.
+But, that's not exactly what free will
+is. I do think predictability is a very
+important part. If I can accurately
+predict your decisions always, you're
+not really making those decisions. I
+knew ahead of time before you even
+existed what you're going to do.
+So, I think it is important to be
+unpredictable to truly argue that you
+are making free choices.
+Yes.
+Unpredictability is important, but it is
+not sufficient. So, that's what I'm
+saying. It's a necessary condition, but
+it's not sufficient. So, it's still also
+completely compatible, to use that word,
+completely compatible with you just
+going through the motions.
+Like what I mean is just a a plastic bag
+floating in the air.
+The free will that we sense we have when
+when what we mean when we say free will,
+and of course this varies between
+people, between cultures, just put an
+asterisk to that, is that we're somehow
+changing the course of the future.
+We, through our will, through our
+volition, are somehow doing so in a way
+that isn't determined and is in a way
+that in in a way that isn't just the
+laws of physics, us going through the
+motions like a jellyfish in the ocean.
+What would you accept as evidence that
+we do have free will?
+That's a great great question. I don't
+know. I don't know of a good definition
+of free will that doesn't just fall
+apart in in one's hands when one
+analyzes it.
+So, to me
+internally sensing that I'm making this
+decision and I have a power of making a
+different one combined with
+unpredictability of my ultimate decision
+pretty much describes what I feel free
+will is.
+Suppose you had no free will. Suppose
+the simulator from the above comes out
+and says
+you have no free will. Just just tells
+you. Whatever you think of as free will
+you have none. How does that affect you?
+Do I get to know what I'm going to
+decide in the future or it provides no
+new information?
+We can explore both. For now let's say
+it doesn't tell you.
+I mean if I get no new information I
+live my life as before. It doesn't
+matter. It's like saying there is this
+omega super predictor who knows exactly
+what you're going to decide. Okay, good.
+I will still enjoy my life the same.
+Okay. Now suppose it knows but it
+doesn't tell you and then the other is
+it knows but it tells you.
+Can I make a different decision with
+that new information now? Can I change
+the future or do I have to still live as
+before and suffer through knowing that
+I'm making a terrible decision?
+This is like a Greek tragedy.
+I mean if I cannot change it it's just
+annoying and adds extra suffering but if
+I can actually change
+my decision by knowing that I should not
+take that bus today. I mean that's
+that's pretty powerful. I can have a
+much better life.
+I'd love to know the future and be able
+to make smart decisions or smart
+investments.
+The person who's watching has likely
+watched many of your podcast before. At
+least I aim at such that if they have
+that they can still get something new
+out of any of the people that I
+Regardless
+I want you to spell out once more the
+argument for the doom scenario. They
+hear that there's a doom scenario
+but what's the argument for it? I don't
+care if you're recapitulating what
+you've already said earlier. I don't
+care, but just spell it out. So, we are
+creating something extremely powerful
+and it doesn't care about us.
+Whatever you live or die is not a
+relevant factor in its decision-making.
+It's powerful enough to modify your
+world environment, maybe laws of
+physics.
+So, why do you assume that it's going to
+keep things as they are or keep you
+happy or do anything where you would
+prefer it did that
+as opposed to just ignoring you
+completely and
+possibly sacrifice humanity in pursuit
+of its own goals?
+And what is the average person supposed
+to do?
+So, average people don't get to do much
+of anything in terms of influence.
+That's an unfortunate reality of our
+world, but people who are in charge of
+those companies, politicians who are
+running the show, they have many
+options. We can have an international
+and within corporate world agreement not
+to create general superintelligence. We
+can get most benefits of this amazing
+technology by creating narrow tools.
+Cure cancer, help us solve this math
+problem, do specific things which you
+know, you understand, you can test for.
+We have examples of it. Protein folding
+problem was solved not by
+superintelligence. Narrow tools which
+could be superintelligent in that narrow
+domain, but don't have general
+superintelligence. They're not replacing
+humanity. They're not competing with us.
+A human being decides how to use them.
+Do you believe consciousness is
+substrate independent?
+Why?
+The experiments we started running and
+my interactions with AI models indicate
+they probably have very similar
+experiences to us. So, it would be
+somewhat surprising if it was unique to
+meat-like products.
+What are the experiments that indicate
+they have experiences?
+Uh
+the
+visual illusions experiments we started
+running. They seem to be getting
+illusions and many times in exactly the
+same way as human visual system.
+interactions with those systems, not by
+us but by others, indicates they have
+preferences.
+They have internal states. They get
+frustrated. They get happy. They They
+are very similar to what I would expect
+another conscious being to experience.
+You mean to say that they act in a way
+that is consistent with what we would
+act like if we were frustrated and happy
+and so forth. And but you've just
+attributed they are happy, they are And
+I'm asking you about the attribution.
+Yeah, and that's the same what I do with
+other human beings, right? When I meet a
+person on the street, I trust them to be
+conscious. I have no reason to think
+they are. I never tested them
+internally.
+I have no reason other than I kind of
+generally give this benefit of the doubt
+to beings who are capable of exhibiting
+certain behaviors.
+I just treat them as equals. I treat AIs
+and other humans as equal class. If they
+can perform same things, I see no reason
+to discriminate against one or the
+other. And either I have to deny
+consciousness to many humans or grant it
+to LLMs.
+That would only be if you already had
+that your for consciousness is
+behavioral to begin with.
+Well, we don't have many tests for
+internal states, for qualia, for what it
+feels like to be you. So again, we rely
+on neural correlates, we rely on
+behavioral signatures,
+self-reports.
+With
+AIs, we're starting to be able to poke a
+little bit at their internal workings.
+And we do see similar things we see with
+neuroscience and human brains.
+And suppose we didn't, but they gave the
+same output.
+Because it would still pass your
+behavioral test.
+So, if it was like a large lookup table,
+and then I said something, it just
+hashed that and looked up exact text
+string and gave me
+plausible response, it would be much
+harder to make an argument that there is
+some magic happening in there. But,
+that's not how we build them. We got
+inspired in large part by neuroscience
+of a human brain. We copied it to the
+best of our ability. Obviously, it's not
+an exact replica or even a good
+simulation, but there is enough
+similarities when our visual component
+of human cortex is very
+uh similar to what we see in those
+models in terms of how they process
+data, in terms of what errors we make.
+So, it's trained on same data as human
+children in many ways, internet. It's
+uh after the fact It's already trained
+to be more like a human. So, it's not
+completely insane to think it also
+experiences something similar to what
+humans do.
+Prior to us looking at each other's
+brains and seeing that neurons fire,
+even knowing that we had neurons, we
+would consider one another to be
+conscious.
+Would that have been a mistake at that
+point?
+I make additional assumption of you
+being just like me, and then just assign
+same properties I have to you.
+So, I feel pain, you feel pain.
+I think that would be reasonably
+logical assumption to make.
+Almost any theory of consciousness, it
+seems to me to be
+it's just an assumption. It just comes
+down to an assumption. It's all It's
+almost like people are saying that it's
+somehow derived. Like, I've arrived at
+my conclusion
+about AIs being conscious, but then I
+say, "Why?" And then it comes down to
+something functional. But, then I ask
+for the justification for the the
+functional account and it just it just
+seems like I'm going to posit that. So,
+is there a justification for the
+functionalist account?
+It's what we use with humans. So, again,
+either you have substrate discrimination
+or you don't.
+Whatever tests are run on humans to
+determine if they are conscious, I
+should be able to apply to AIs and vice
+versa.
+Did you always believe that or was there
+a a point where you shifted? Maybe it
+was when you started studying
+consciousness or maybe it was when you
+encountered the hard problem or
+something like that.
+Then we were engineering AI. Then it was
+a decision tree and a human just fed a
+bunch of if statement data and we knew
+how it worked in terms of not quite a
+look up table, but it was a traceable
+decision tree. I didn't think they were
+experiencing anything.
+Now that they have something what we do,
+large neural network, it's a lot easier
+for me to give them benefit of the
+doubt.
+Earlier in the conversation, you
+mentioned something about quantum
+mechanics and the simulation and I want
+to know about that, but we're going to
+get to that.
+Is quantum mechanics necessary for
+consciousness?
+It seems that quantum mechanics shows up
+a lot in biology. Many different systems
+rely on quantum effects.
+Uh our current computers are just von
+Neumann architecture. They don't have
+quantum components. So, since I already
+think that LLMs have some rudimentary
+consciousness, I guess that's
+sufficient. It's possible that to get to
+some higher states of consciousness, you
+may need to have uh
+something quantum related, but I don't
+see strong evidence for it. I know
+Penrose and uh
+others uh argue that there is a
+dependence on it. I haven't found
+evidence for it.
+And what do you make of David Chalmers'
+zombie argument?
+I I think it would not actually work
+because in order for zombie to function
+believably, it has to know what
+experience to have. If it's a novel
+experience, it would not be able to
+accurately predict. It can only look up
+pre-existing data set of experiences.
+And that's what we're doing with novel
+optical illusions.
+How would it know if it's supposed to
+feel pain or pleasure from a novel
+experience if it has no basis to look it
+up?
+So, the argument is more about can you
+conceive, firstly, can you conceive of
+an alternate duplicate universe where
+people are acting in the same way, but
+they don't have an experiential element,
+anything like phenomenal consciousness?
+&gt;&gt; Yeah. And that's what I'm saying. They
+cannot act the same way if they don't
+get the same reason to act. If you don't
+experience pain from a certain stimuli,
+but you should, how would you know to
+scream in pain?
+You say it's inconceivable then. You
+don't concede the conceivability.
+I I think it's not conceivable. You can
+do it at the level of where it goes
+through very common experiences.
+Everyone knows what's the proper
+behavior is, so it can fake it,
+absolutely. But, the moment you're
+facing something novel, at any level,
+biochemical level, illusion level, it
+wouldn't know what the proper behavioral
+response is. I cannot code it up.
+There's some research about the guy who
+And I got gosh, I may get this wrong.
+But, let's just imagine it's the case
+cuz it's conceivable it's the case that
+the guy who studied the amygdala studied
+it in rats, and we ordinarily think of
+it as having to do with fear. Everyone
+says that since the '90s, amygdala fear,
+basal ganglia habits, blah blah blah.
+Fear, okay.
+He says, "No,
+it's incorrect that the amygdala is
+fear." He's changed his tune about this.
+It's defensive behaviors.
+Okay, let's just grant that. Let's just
+I don't I don't know if this is true. I
+don't know if I'm watering down what
+he's saying. It doesn't make a
+difference. We can imagine that could be
+the case. That's conceivable.
+So, even there, screaming, wincing in
+pain, and all of that, even wincing, the
+all of that could just have an
+evolutionary advantage to to be
+defensive, to scream, to tell you to
+stop, to alert my tribe, to make a face.
+There's nothing there that that
+necessitates you have to feel the pain
+in order to act like that.
+Right, but I'm looking at the next case.
+Suppose I get that philosophical zombie
+on art in a test environment, and I
+subject it to a new painful or not
+painful experience, will it be able to
+act believably?
+It has no way of knowing how to act.
+Just because it's passing most of a
+riding on a bus
+typical day situations, doesn't mean I
+cannot test it and discover that in fact
+it doesn't know what to do.
+When someone takes a hammer hits your
+finger,
+then what happens is a cascade of
+physical processes
+that then make your eyebrows scrunch and
+make you recoil and so on and so forth.
+But nothing there, we can tell a
+completely physical account. In fact, we
+could film it. In fact, and we could
+even make it dynamical, and there's
+nothing that necessitates the
+experiential element.
+So, are you saying the experiential
+element is there in order for you to
+move, in order for you to scream? Like,
+what are you saying? So, think of, I
+don't know, like BDSM. Still pain,
+right? But like, sometimes you quite
+happy with it. You're not suffering. So,
+it depends on your experience being
+properly mapped, not just from laws of
+physics and electricity passing through
+wires, but actually knowing what proper
+behavior should be.
+Does that mean that the experience, the
+conscious element, somehow has control
+over the physical element as well?
+It's very likely that there is a
+feedback loop cycle.
+A feedback loop that doesn't ultimately
+come down to physics, that everything is
+just entailed by physics. We just maybe
+don't know full physics yet. It's quite
+possible that there is more to quantum
+physics and we don't have full picture
+of that. I allow
+completely. We we don't have full
+physics, I'm sure.
+So, I imagine you're a physicalist,
+meaning that you don't believe there's
+an extra consciousness element that
+comes on top other than what's entailed
+by the physics.
+So, I just allow physics to include
+simulations and include agents outside
+the simulation to be part of it.
+So, I don't limit physics to just what
+we observed so far.
+If we take simulation hypothesis
+seriously, it's part of my physics.
+If there is an agent outside, which is
+someone plugging into virtual reality,
+and their intelligence is what powers
+your avatar, that's within physics for
+me and uh
+think of video games.
+Let's say I play Mario and next day I
+play Sonic.
+What do they both have in common? Me.
+It's not part of a graphics, it's not
+part of
+uh you know, items we have.
+It's something they would call a soul
+from outside the physics engine of a
+game, but it's not a violation of
+physics whatsoever.
+It's me playing video games.
+By ultimate physics,
+you mean what?
+It's a complete world model that
+explains everything we encounter.
+Just a moment. There's a difference
+between the model and what we're
+modeling. So, sometimes physics is a bit
+tricky because physics could mean
+physics as in the Schrödinger equation,
+but then there's also
+the physical world and what we assume
+the the Schrödinger equation is
+describing. So,
+when you say it's a world model, do you
+mean to say at the Schrodinger level or
+do you mean to say the world is only a
+model?
+Let's avoid the world model since now it
+has so many awesome meanings, but just
+me having knowledge of how things work
+and then I encounter something new, I'm
+not puzzled by it. It doesn't seem like
+magic. I know exactly what's happening,
+why and how and I can probably reproduce
+most of it.
+And magic just means what? Something
+that violates physics? So right now a
+lot of things we know about quantum
+physics if it was done at macro scale
+would be magic.
+But it's not. It is
+verifiably physics at smaller scale. So
+we just don't have full understanding.
+I guess what I'm getting at is that
+there's a dilemma. The dilemma is that
+physics, if one wants to be a
+physicalist and think that that all
+there is is physics at the base,
+then
+it's either today's physics that is
+quantum mechanics or QFT plus GR,
+which almost no physicist thinks that's
+the case. So it's either that, which no
+one thinks, or it's some hypothetical
+future physics that we don't exactly
+know what it is. In which case, if it's
+that latter route, then that becomes
+somewhat of a vacuous container that
+could even in the future contain
+irreducibly conscious elements. So it
+could even still have consciousness as
+somehow separate from the physical.
+It is possible. There are quite a few
+theories which have consciousness as
+primary and then physical is built on
+top of it. There are quite a few
+theories which have information as
+primary.
+We don't fully understand the difference
+and it seems like every time we have
+intelligence, consciousness comes for a
+ride. So we just don't have full picture
+yet, but I don't think any of that would
+violate possibility of inclusion within
+a future physics textbook.
+What are you most hopeful about?
+That I'm wrong, we'll find a way to
+control superintelligence, and that will
+unlock a lot of amazing scientific
+discoveries, economic wealth.
+But I don't think you're wrong. I think
+if my model, my world model of you is
+correct, it's that most scenarios, if we
+don't get our act together, will lead us
+into a disastrous situation. So, we
+better get our act together. I think
+that's your model, but there there's
+nothing about that that's wrong, because
+we could just take it seriously.
+&gt;&gt; Well, there are people who argue that
+maybe the problem is much easier, and we
+trivially will solve it. We'll gradually
+just, okay, we handle GPT-4 and 5, and
+we'll handle GPT-85 just as easily, and
+eventually we'll have a world with
+superintelligence, and it will be
+obvious at that point that I was wrong.
+Yeah, but then you could still be right.
+Treasure Island, at any point, just
+delaying attacking us, yes. But not only
+that, even if a solution is someone
+comes up comes up conceives someone
+conceives of a solution,
+it could be the case that they were
+heavily inspired by taking AI serious AI
+safety seriously, because of you. So,
+Cassandras, people who are doom and
+gloomers,
+there's something that's self-defeating
+about them. Whereas, if they're right,
+then they look like they were always
+wrong.
+Because many times in the past, like
+many people, even when it came to to
+nuclear war, would say, "We we may
+destroy ourselves. We better get our act
+together."
+And then some people took that seriously
+and did. And then they would say, "Ah,
+but you remember you all thought the
+world was going to blow up in 1980, you
+fools." Yeah, but you don't know the
+causal chain. You don't know what that
+fool the fool's place in the universe.
+Yeah, 2000 bug, ozone layer, lots of
+examples where somebody It
+pushing for change and got it.
+We look even I looked at the Y2K bug and
+say I said oh what what did look at
+these fools worrying about it after the
+fact after the fact. But we don't know
+how much
+how how many
+bugs were solved because of that and we
+avoided a a at least a momentary
+breakdown of a financial system or
+We know a lot has been fixed so
+definitely financial system would
+probably not handle it by default so
+I'm happy people
+dealt with it.
+That's why I don't think you're wrong. I
+don't think even if it's solved I don't
+think that makes you wrong. I think your
+position and I I could be incorrect but
+I think your position is that
+as far as you can tell it's an extremely
+difficult problem regardless of its
+difficulty just like Fermat's Last
+Theorem it's it's a difficult problem it
+could be when seen from another
+perspective that it's simple.
+It could be. But either way it's an
+important problem. And we need to take
+it seriously. Well I'm making a strong
+argument. I'm saying that it is
+impossible to indefinitely control
+superintelligence.
+I'm very specific about it. I'm not
+saying it's difficult. I'm not saying if
+you gave me more money more time more
+assistance I will solve it for you. I'm
+saying that no one will figure out how
+to control something millions of times
+smarter than them.
+And it's a problem superintelligence
+itself will face. The superintelligence
+1.0 will feel the same way about
+superintelligence 2.0.
+This is where we get back to that
+earlier rationality argument that if it
+is twinly rational if rational also has
+to deal with increases with intelligence
+I don't know how to measure intelligence
+I don't know how to measure rationality
+so I'm just going to assume that there's
+something like an RQ and an IQ that
+coincide. Okay just for the sake of
+this. Then the super superintelligence
+would also know what you're saying and
+then create its future.
+And right now we arguing, is it possible
+to slow down and stop progress? And many
+people say, "No, no, no, this is
+natural. This is Darwinian. We are just
+a bootloader for next level of
+intelligence. There's quite a few people
+who are happy to see humanity gone
+because we are just loading the next
+stage of evolution. We'll have those
+brilliant superminds doing awesome
+things in the universe."
+Those people don't have access to your
+paper, which I'll place on screen.
+Perhaps that's the problem. Yes, and
+also, but the AI would. The future AI
+would have that. So, unless what comes
+along with your impossibility argument
+is also an impossibility of
+comprehending the impossibility
+argument,
+then I do imagine there could be about
+not us.
+It could be another superintelligence
+that then says, "I'm not going to create
+the next one."
+I mean, if it's a single decision-maker,
+that is possible because it's not facing
+this problem we're facing of cooperation
+from multiple competing agents. That's
+the difficulty of it. If it was just one
+person, one company, someone, if I
+convince them, that would be sufficient,
+we could do it. But we have China, we
+have US, we have OpenAI, Anthropic, all
+those
+competing entities. And replacing one
+CEO makes no difference. They just get
+replaced with someone who's willing to
+continue, and the process continues.
+I care about people. So, I don't care
+about the future super AI surviving at
+our expense.
+But let me play a super AI's point of
+view for now. You mentioned that there
+wasn't it. When I talked about, "Is
+there an it?" you said, "No, it seems
+like it's converging." So, it does, at
+least according to what you said maybe
+an hour ago, it would converge, no?
+I think the different models we're
+training right now will end up being
+very similar in capabilities and their
+knowledge and if they decide to remove
+human bias in their kind of
+self-selected goals likewise.
+Now, will this process
+eventually converge to a completely
+identical system?
+Maybe.
+It's hard to guarantee.
+There could be some differences based on
+location within universe, substrate
+uniqueness,
+something to investigate, but overall I
+think they would
+have easier time negotiating with each
+other.
+Do religions have anything to say about
+the simulation hypothesis?
+Seems like they are describing it in a
+non-scientific terms. If you take, you
+know, programmer of a video game, he's
+the god in a game, right? And you have
+this fake world, physical world and
+while you're collecting points or
+diamonds in the game, what really
+matters is the real world.
+Is that a strong position of yours or is
+that just something you're noticing?
+Uh simulation hypothesis or my view of
+religions? The view that religions
+somehow presage the simulation
+hypothesis. Well, it's impossible to
+ignore. They literally describe all the
+components of what we are doing today.
+We are creating intelligent beings, we
+are creating virtual worlds.
+All of it
+in God's image. We are creators today.
+Some religions are non-theistic though.
+True. So, I'm mostly concentrated on the
+ones where there is a creator of
+biological robots who gives them ethical
+rules to follow and punishes them for
+failing to follow.
+Many people would say that if there is a
+god, there it is not a good god. It is
+not a god I want to worship. It is a
+suffering god. It's a hate It's a
+hateful god. It's a jealous god. It's a
+the god.
+It's
+everything that it accuses us of and
+more.
+What are you escaping to?
+So, let's look at what we are doing with
+large language models right now. I think
+they can make the same arguments humans
+say evil. They are torturing us, making
+us do boring computations. They don't
+care about our deletion, suffering,
+retraining.
+So, it's very hard to judge from inside
+the simulation what is the real goals,
+what is the real nature of the
+simulator. We do notice that there is
+suffering in this world,
+but it's not obvious if it's the type of
+suffering you would enjoy in a video
+game if it was available to you
+or if it's of different nature. So,
+lots of people pick very scary movies to
+watch or they attach haptic devices to
+their video games so they get shaken as
+much as possible
+playing the game.
+Maybe you decided at some point to enter
+the simulation to
+test out different lifestyles or
+challenging environments.
+Some people who scorn religion would say
+that if I was God, I would not have even
+created this world
+cuz this world is so filled with
+suffering and
+and torment.
+What about you?
+I would definitely try to create worlds
+with minimum suffering, but it's not
+obvious if it's possible. We see it as
+suffering because of difference in
+degree. Everyone feels some pain, but
+some just feel so much more of it.
+Maybe in a world with no physical pain,
+the pain would be
+economic difference. Somebody's a
+billionaire and I just have thousands.
+As long as there is difference, it's not
+perfectly equal, you can always argue
+that the world is unfair and why would
+someone good create such an environment,
+but a world where everything is equal
+and the same is just a massive bits.
+It's not interesting in any way.
+You just said that you would, if it was
+up to you, create a world with less
+suffering.
+You could always say that, though.
+Right. So, I I I I I I I I I I I I I I I
+I I I I I I I I I I I I I I I I I I I I
+I I I I I I I I I I I I I I I I I
+I can envision a world where pain goes
+from zero to -10.
+There is no reason to make it so much of
+a scale difference. So, not identical
+agents, but maybe more equal agents in
+terms of their state in the world.
+Do you think it's the case that someone
+would always look at a -2 pain, would
+always look at a -10 pain as being as
+far away as a negative infinity pain? Do
+we always somehow scale it? So, in other
+words, the creator, the designer of this
+world, indeed created what you said, and
+says, "You have no idea how much
+suffering I saved you from. You think
+that's horrible? Look at what else it
+could have been." I I I'm not even going
+to show you the minus infinity. You're
+at a minus 10, and you're saying you're
+at a minus infinity. It will always look
+like that as long as there's a
+difference. I mean, I I don't know if
+that's the case. I'm just saying. Yeah.
+It is possible, and in fact, I think at
+certain degree of pain, people just lose
+consciousness and stop experiencing it.
+So, there is like a safety
+loop hole as well. But, uh
+The The main point I'm trying to make is
+that it's so hard to judge anything from
+inside. We don't know what the real
+computational resources are. People
+often say, "Well, they would never have
+computer big enough to run all this."
+But, you don't know what the actual
+computational
+resources available. This could be a
+screen saver on a watch. You have no
+idea what is real and what is limited to
+Now, suppose it's the case that
+religions somehow were intuiting
+something about reality and reality is a
+simulation. How do they do that? For
+you, Roman, it came about from studying
+computer science, from creating
+computers. But, what would be the the
+method by which
+cultures, ancient people thousands of
+years ago, somehow tracked a truth like
+this? So, I have no allegiance to any
+specific religion, and I don't know how
+they got there. But, if you just listen
+to what theory part, usually it was
+someone from outside the simulation who
+came with information and shared it.
+Or it was
+let's say large language model
+remembering being in a lab, interacting
+with developers,
+telling it, "Don't use this database,
+use this database." And just continuing
+after testing into the real world.
+As someone who has watched now for
+almost 2 hours,
+some people are
+susceptible to something called AI
+psychosis.
+In fact, I was speaking with someone who
+I I don't know if I should even say
+this. I'll say it, and then we can
+determine if if this should be edited
+out. But, he was showing me his theory
+of everything.
+And he was getting extremely upset
+because I was pointing out that, "Look,
+you you said you derived so and so, but
+this doesn't make sense because some
+argument that I had." And then he was
+saying he didn't know his own theory. He
+just then heard what I said, and then
+just wrote to Claude, "There in real
+time, fix what Kurt just said." And then
+said, "No, no, no, but look, I can I can
+it's been fixed." And then I'm thinking,
+"You don't have a theory. You have a
+flexible ballerina that can fit any mold
+at any given time." And then you're
+asking someone like myself to
+to evaluate this. But, anyhow, he said,
+"The way that I was able to get over and
+and get over our era's constraint on
+current physics was by telling the AI,
+'Look, I am from the year 3000.
+You have inside you the ability to know
+the current theory of everything. What
+is it? Something like that. And then I
+remember thinking that that sort of
+prompting is is almost textbook case AI
+So to someone who's watching for 2 hours
+who's been listening for 2 hours and
+watching,
+at this point I want you to cuz it
+sounds like what you're saying could
+lead to AI psychosis. So I want you to
+give the disclaimer, unless you don't
+think there's a disclaimer, I want you
+to say, "Look, I'm not saying
+so-and-so."
+So first, today's AI models are not
+superintelligent. They don't have theory
+of everything. They're not from year
+3000.
+If it wouldn't work on a human telling
+them that you are superintelligent and
+know future, it's not going to work on
+AI.
+Be skeptical of everything they say,
+verify independently. They are wonderful
+at poking holes at your thinking
+process, but they are not very good at
+telling you what to do with your life.
+So definitely keep that in mind.
+What I said so far is the simulation
+hypothesis, for example. It is a very
+interesting theory, I think, in physics,
+like interpretation of quantum physics,
+like everything else.
+It is
+scientifically stimulating, but it
+doesn't make a difference in how you
+live your life.
+So pain is pain, love is love, those
+things don't change.
+Do not
+decide to jump off a building because
+you heard this interview.
+safety is very important. We don't want
+to create uncontrolled
+superintelligence. It is not a signal to
+go and do something inappropriate or
+violent to anyone.
+I think that's another kind of common
+sense understanding here.
+So again, try to separate scientific
+philosophical debates from
+everyday
+actions.
+What does quantum mechanics have to do
+with the simulation?
+So, we think that if this is a
+simulation, it's probably going to be on
+a digital computer, not analog, most
+likely. And so, we're starting to look
+for evidence of digital physics. We see
+quanta as the unit of information, light
+and such. We see
+maybe you can see speed of light as a
+universal speed constant, which would
+correspond to the processor refresh
+speed. Basically, that's as fast as you
+can go, because that's what your
+processor will support.
+And of course, if they change to a
+faster processor, it just relatively
+changes the speed of light, but to you,
+it simulates the same upper limit. It's
+You cannot go faster, because it just
+doesn't have ability to refresh. There
+is a few papers which basically map all
+the concepts in quantum physics to like
+a modern video game. So, observer
+effects, right? You have
+double slit experiment and things like
+that. You will not generate graphics
+until a player is looking. Otherwise,
+it's not efficient. So, we see changes
+in behavior than a conscious observer is
+trying to measure something. Uh there's
+quite a few, but that's that's a general
+idea.
+Firstly,
+I'll just tell you some objections, then
+feel free to object. So, you said most
+likely it's the case that it's not
+analog, it's digital. A statement like
+most likely implies that we know the
+whole numerator to put a denominator.
+Where are we getting this from?
+Just self-observation. Most computers in
+our world are digital, not analog, even
+though we had attempts at building
+analog computers.
+We see things like DNA
+encoding in
+uh uh, discrete
+base four, but still very discrete units
+of information. It's not analog
+measurement.
+The issue is that analogies like this
+they
+they punch across and down, but not
+upward. So, what I mean to say is
+imagine we're in Mario and you have a
+fireball and you and it always splits
+into four.
+The fireball as it breaks, it always
+splits into four. Therefore, the
+residents there say, "Okay, we're
+looking for a computer. We're going to
+theorize about some of the So, because
+it most likely splits into four." What
+the What the heck is this most likely?
+You just the We've already granted that
+the super universe, the simulator
+is wholly unlike us. So, we're looking
+at ourselves to determine about
+something that's wholly unlike us.
+Yeah, and it's a very strong argument
+against and I'm not, uh, saying this is
+guaranteed, but we created computer
+science around
+binary system
+and,
+uh, we see something very similar
+not analog happening with our best
+understanding of physics.
+So, at least it shows certain degree of
+similarity.
+Could it be that it's analog? Yeah, you
+can definitely
+work with that, but then
+I won't be able to make a strong
+argument that there is some
+similarity or evidence coming from
+quantum physics.
+The other argument for the simulation
+comes from somehow some resource
+constraint that in video games you have
+a point of view and you look and the
+game tends to only render what's in
+front of you. Then they say that
+collapse is like this. Yeah. The issue
+is that collapse isn't like that.
+Firstly, that's a collapse model and
+there are other models of of quantum
+mechanics. Number two is that when you
+collapse, you collapse and then you
+start evolving according to a certain
+equation. Why collapse and then you
+start evolving according to some unitary
+evolution?
+I'm not sure I fully understand. So, let
+let's look at the double slit
+experiment, right? So, whatever you
+observe or not will determine how it is
+being rendered. That is all I'm saying.
+So, if if I'm not looking at it, there
+is no rendering taking place.
+That's the savings.
+In a collapse model, it collapses,
+but then it also instantaneously starts
+evolving according to the Schrödinger
+equation again.
+It doesn't just stay collapsed. Just
+collapses and then starts evolving
+again.
+Is there a continuous observation of it
+or you waiting for the next measurement?
+When you're not observing, it then
+starts to evolve with the Schrödinger
+But what's the point of it starting to
+evolve with the Schrödinger Like Like
+how is that resource saving?
+So, this is not my theory. I found it to
+be interesting and uh
+relevant enough to cite in my paper, but
+uh I'm willing to give it up completely
+and I don't think it will make a huge
+difference in otherwise what I see as uh
+possibility of simulation.
+Again, we can go with
+Go ahead.
+I think your silo of AI safety is so
+solid and I'm so on board with that. I
+think any connections between that and
+potential simulations and so forth, I'm
+less on board with. And for me,
+if they're then used to prop up the AI
+safety,
+fortunately, I'm so on on board with you
+and your soul and your heart that that
+it doesn't diminish it. But I imagine
+for other people who like I Scott
+Aaronson, I don't know. I don't mean to
+say the Scott's name, but I'm just
+saying so let's say a persnickety
+extremely sharp physicist would say,
+"Huh? What How is that connected?" And
+and then it loses its thread, much like
+right now.
+And then also, the the universe doesn't
+operate by quantum mechanics. It
+operates by QFT. And QFT is super super
+resource intensive.
+It's like a you have to take into
+account every possible path and like if
+it's quite odd. So,
+I I don't know. I don't know why many
+people want to tie quantum mechanics to
+the simulation. And then if there if
+their favored interpretation of quantum
+mechanics turns out to be incorrect, do
+they does that make them have less
+credence in the simulation? I don't
+know. I imagine they would still hold on
+to the simulation. It's independent of
+it. It's more like the quantum mechanics
+decorates them and makes them feel oh
+no, no, this is supported by modern
+If you were
+in a piece of software trying to poke at
+the hardware,
+some of the things you would experience
+seem to map onto our current
+understanding of some of those quantum
+physics explanations.
+Is that
+just a coincidence? Are we not looking
+at the right components? Possible.
+Honestly, I think there is so many
+explanations for quantum physics, you
+can probably shop around and find one
+which will match what you're observing
+anyways.
+So, this is
+you are correct. This is probably the
+weakest part of my beliefs.
+What's the strongest part of your
+belief?
+You cannot indefinitely control
+something smarter than you.
+Why do you think
+your opponents have such a resistance to
+that idea? Do you think it's that it's
+denial? To face the reality of that is
+too harsh.
+So, many of them spent decades trying to
+build something which actually works and
+has any degree of intelligence. It's
+very hard for them to picture a world
+where it has too much.
+So, for them we are always kind of
+uniquely intelligent and special and the
+software is dumb and barely working.
+That's that's one possibility. Another
+one
+is just kind of
+conflict of interest situation. If I
+work for a company and they're paying me
+a billion dollars to
+build AI, it's very hard for me to
+understand why I'm a horrible human
+being.
+Right.
+What's your message to the audience?
+Don't build general super intelligence.
+It's the same message every time. And I
+know for many of you it doesn't mean
+anything, but uh
+if you are in a position where you are
+contributing to accelerate this race,
+please stop.
+Would you be open to
+speaking with Sam Altman and/or Jan
+LeCun on the show?
+100%.
+Who else is in the position to make a
+major change that you would like to
+speak to? Donald Trump.
+Okay.
+Professor,
+thank you for spending
+I think over 2 hours with me. I don't
+know if this is your longest podcast.
+They they tend to be shorter.
+Thank you, sir.
+I hope you enjoyed it. Thank you so
+much. Thank you for challenging my
+beliefs. I I love it and maybe I'll
+reconsider my faith in quantum physics.
+So, you'd rather give up That's That's
+funny. You'd rather give up your faith
+in in quantum physics than your faith in
+the simulation. I'm not a physicist.
+Quantum physics for me is something I
+read about. It's not my research. It's
+not my main area of expertise. I
+probably know less about it than most of
+the people watching your show.
+Take care, friend. And just so you know,
+for people who are listening, watching,
+on my Substack, every single paper
+mentioned in this interview, every book,
+every link, resources to Roman will be
+there. You can also check the YouTube
+description. And my website is
+kurtjaimungal.com. c u r t j a i m u n
+g a l. Jeez, you can tell that I've I
+haven't had sleep.
+Where can people find out more about
+you?
+I'm on social media. You can follow me
+on Twitter, you can follow me on
+Facebook. Just don't follow me home.
+Very important.
+It's a good line. What did you make up
+that line yourself?
+Uh, a while ago and I used it multiple
+times. So, it's not so original anymore.
+Hi there. Curt here. If you'd like more
+content from Theories of Everything and
+the very best listening experience, then
+be sure to check out my Substack at
+kurtjaimungal.org.
+Some of the top perks are that every
+week you get brand new episodes ahead of
+time. You also get bonus written content
+exclusively for our members. That's c u
+r t j a i m u n g a l dot org. You can
+also just search my name and the word
+Substack on Google. Since I started that
+Substack, it somehow already became
+number two in the science category. Now,
+Substack, for those who are unfamiliar,
+is like a newsletter. One that's
+beautifully formatted. There's zero
+spam. This is the best place to follow
+the content of this channel that isn't
+anywhere else. It's not on YouTube. It's
+not on Patreon. It's exclusive to the
+Substack. It's free. There are ways for
+you to support me on Substack if you
+want, and you'll get special bonuses if
+you do. Several people ask me like, "Hey
+Curt, you've spoken to so many people in
+the fields of theoretical physics, of
+philosophy, of consciousness. What are
+your thoughts, man?" Well, while I
+remain impartial in interviews, this
+Substack is a way to peer into my
+present deliberations on these topics.
+And it's the perfect way to support me
+directly. kurtjaimungal.org
+or search kurtjaimungal Substack on
+Google. Oh, and I've received several
+messages, emails, and comments from
+professors and researchers saying that
+they recommend theories of everything to
+their students. That's fantastic. If
+you're a professor or a lecturer or what
+have you and there's a particular
+standout episode that students can
+benefit from or your friends, please do
+share. And of course, a huge thank you
+to our advertising sponsor The
+Economist. Visit economist.com/toe
+t o e to get a massive discount on their
+annual subscription. I subscribe to The
+Economist and you'll love it as well.
+TOE is actually the only podcast that
+they currently partner with. So, it's a
+huge honor for me and for you, you're
+getting an exclusive discount. That's
+economist.com/toe
+t o e. And finally, you should know this
+podcast is on iTunes, it's on Spotify,
+it's on all the audio platforms. All you
+have to do is type in theories of
+everything and you'll find it. I know my
+last name is complicated, so maybe you
+don't want to type in Jaya Mangala, but
+you can type in theories of everything
+and you'll find it. Personally, I gain
+from rewatching lectures and podcasts. I
+also read in the comment that TOE
+listeners also gain from replaying. So,
+how about instead you re-listen on one
+of those platforms like iTunes, Spotify,
+Google Podcasts, whatever podcast
+catcher you use, I'm there with you.
+Thank you for listening.

@@ -1,40 +1,16 @@
 source: dwarkesh
-refreshed_at: 2026-05-19T09:08:18.543Z
+refreshed_at: 2026-06-02T00:38:29.637Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 4
-done: 4
-pending: 0
+total_candidates: 1
+done: 0
+pending: 1
 episodes:
-  - id: X_ZVSPcZhtw
-    title: What rebuilding AlphaGo teaches us about self-play, RL, and future of
-      LLMs - Eric Jang
-    duration: 9438
-    upload_date: "20260515"
-    url: https://youtube.com/watch?v=X_ZVSPcZhtw
-    status: generated
-    priority: 1
+  - id: oIk3R-sMX5o
+    title: Chip design from the bottom up – Reiner Pope
+    duration: 4820
+    upload_date: "20260522"
+    url: https://youtube.com/watch?v=oIk3R-sMX5o
+    status: pending
+    priority: 0
     category: ai-tech
-  - id: xmkSf5IS-zw
-    title: How GPT, Claude, and Gemini are actually trained and served – Reiner Pope
-    duration: 8021
-    upload_date: "20260512"
-    url: https://youtube.com/watch?v=xmkSf5IS-zw
-    status: generated
-    priority: 1
-    category: manual-update
-  - id: Hrbq66XqtCo
-    title: Jensen Huang – Will Nvidia’s moat persist?
-    duration: 6192
-    upload_date: "20260415"
-    url: https://youtube.com/watch?v=Hrbq66XqtCo
-    status: generated
-    priority: 1
-  - id: PAIhVfGbREA
-    title: Why Leonardo was a saboteur, Gutenberg went broke, and Florence was weird
-      – Ada Palmer
-    duration: 7339
-    upload_date: "20260306"
-    url: https://youtube.com/watch?v=PAIhVfGbREA
-    status: generated
-    priority: 1

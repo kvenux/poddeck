@@ -1,0 +1,31 @@
+id: 0fgJPhYcbVk
+source: latent-space
+title: "Devin's 80% Moment: Background Agents, 7x PRs, & End of Hand-Held Coding — Walden Yan & Cole Murray"
+guest: "Walden Yan · Cole Murray"
+guest_role: "Cognition co-founder/CPO · OpenInspect creator"
+published: 2026-04
+duration: 5400
+url: https://youtube.com/watch?v=0fgJPhYcbVk
+thumbnail: https://img.youtube.com/vi/0fgJPhYcbVk/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - startup
+  - engineer
+  - founder
+  - interview
+  - technical
+  - deep-dive
+summary: |
+  Latent Space 把 Cognition 的 Walden Yan 和 OpenInspect 作者 Cole Murray 拉到一起聊"背景 agent"这一架构的成熟。
+  Devin 自己 repo 上的 commit 占比 3 个月内从 16% 涨到 80%，merged PR 涨 7×，工程团队只涨 10%。
+  这场对谈把背景 agent 落地需要解决的所有硬件、网络、testing、memory、Slack 集成等具体工程问题摊开。
+core_ideas:
+  - 12 月一波模型（Opus 4.5 / GPT 5.2）让"spec → PR"真的能跑——背景 agent 从 demo 变成主力
+  - in-box vs out-of-box 是当下最关键的架构选择；Walden 押 out-of-box 至上，Cole 准备从 in-box 迁出
+  - 真正难的不是 computer use，而是 testing——orchestration、feature flag、admin、codebase context 都得 reason
+  - Memory 没人解决：generation 和 retrieval 两头难，Cognition 在试"memory as filesystem"的方向
+  - 单 agent + manager sub-agents 仍是日常最佳形态；agent 能 pushback 才是 multi-agent 真正可能的前提
+  - 纯 vibe coding 在 December state-of-the-art 下大约 2 周触顶——必须配 scheduled cleanup 和模块硬合同
+base: /episodes/0fgJPhYcbVk/

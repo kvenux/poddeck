@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"title","type":"text","x":160,"y":15,"width":480,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"Where does the gain come from?","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Where does the gain come from?","lineHeight":1.25,"baseline":22},
+
+    {"id":"box","type":"rectangle","x":60,"y":70,"width":680,"height":380,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+
+    {"id":"lang","type":"rectangle","x":80,"y":90,"width":640,"height":300,"angle":0,"strokeColor":"#862e9c","backgroundColor":"#b197fc","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"langt","type":"text","x":260,"y":130,"width":280,"height":40,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":28,"fontFamily":1,"text":"Language Model","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Language Model","lineHeight":1.25,"baseline":22},
+    {"id":"langd","type":"text","x":120,"y":190,"width":560,"height":160,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"prompt rewriter   ·   thinking   ·   tool calling\n\ntakes \"a cat\"   →   rich multi-paragraph scene description\n\nin Cosmos: prompt rewriter LLM > the video model itself","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"prompt rewriter","lineHeight":1.5,"baseline":22},
+
+    {"id":"vid","type":"rectangle","x":80,"y":405,"width":640,"height":40,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"vidt","type":"text","x":150,"y":410,"width":500,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"Video diffusion model   (\"kind of dumb\" — takes prompt literally)","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Video diffusion","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"viewBackgroundColor": "#ffffff", "gridSize": null},
+  "files": {}
+}

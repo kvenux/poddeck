@@ -1,11 +1,34 @@
 source: xiaojun
-refreshed_at: 2026-05-19T09:08:18.558Z
+refreshed_at: 2026-06-02T00:38:29.819Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 20
-done: 7
-pending: 1
+total_candidates: 17
+done: 0
+pending: 5
 episodes:
+  - id: rUjaLPE3mME
+    title: "He Xiaopeng: Robot IRON's Birth, The Accident, GX, His Big Bet &
+      Swimming in Blood"
+    duration: 5172
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=rUjaLPE3mME
+    status: pending
+    priority: 0
+    category: ai-tech
+  - id: m1liAnhhLfU
+    title: 143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪
+    duration: 5302
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=m1liAnhhLfU
+    status: pending
+    priority: 1
+  - id: XEhf371Aeso
+    title: 142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller
+    duration: 8313
+    upload_date: "20260527"
+    url: https://youtube.com/watch?v=XEhf371Aeso
+    status: pending
+    priority: 1
   - id: MjTfhm5N8x8
     title: 141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接
     duration: 5034
@@ -14,42 +37,21 @@ episodes:
     status: pending
     priority: 1
     category: update-2026-05-19-missing-transcript
-  - id: Gk_KUg3qED0
-    title: 140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去
-    duration: 13836
-    upload_date: "20260512"
-    url: https://youtube.com/watch?v=Gk_KUg3qED0
-    status: generated
-    priority: 1
-    category: manual-update
-  - id: Xxz5uh0L1mE
-    title: 139. 【Agent的综述】和苏煜聊Agent技术史、OpenClaw Moment、边界的消弭和社会的辐射
-    duration: 8269
-    upload_date: "20260512"
-    url: https://youtube.com/watch?v=Xxz5uh0L1mE
-    status: generated
-    priority: 1
-    category: manual-update
+  - id: ttkd0t5qTD4
+    title: "Yao Shunyu: Let Me Go a Little Crazy! Training Models at Anthropic &
+      Gemini, Heroism Is Over"
+    duration: 13681
+    upload_date: "20260511"
+    url: https://youtube.com/watch?v=ttkd0t5qTD4
+    status: pending
+    priority: 0
+    category: ai-tech
   - id: vG1RBqn1sG4
     title: 138. 对罗福莉3.5小时访谈：AI范式已然巨变！OpenClaw、Agent范式很吃后训练、卡的分配、组织平权
     duration: 12996
     upload_date: "20260424"
     url: https://youtube.com/watch?v=vG1RBqn1sG4
     status: skipped
-    priority: 1
-  - id: V9eI-t3TApE
-    title: 138. 对罗福莉3.5小时访谈：AI范式已然巨变！OpenClaw、Agent范式很吃后训练、卡的分配、组织平权
-    duration: 12879
-    upload_date: "20260424"
-    url: https://youtube.com/watch?v=V9eI-t3TApE
-    status: generated
-    priority: 1
-  - id: 78Vyy_dzWXA
-    title: 137. 对洪乐潼的4小时访谈：AI for Math、把数学变成Lean、数学天书中的证明、直觉、被创造与被发现的
-    duration: 15791
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=78Vyy_dzWXA
-    status: generated
     priority: 1
   - id: bv8ghyTFF9w
     title: 137. 对洪乐潼的4小时访谈：AI for Math、把数学变成Lean、数学天书中的证明、直觉、被创造与被发现的
@@ -72,13 +74,6 @@ episodes:
     url: https://youtube.com/watch?v=x8qdqWIVVTA
     status: skipped
     priority: 1
-  - id: KcujArdWR8w
-    title: 134. 【数据的综述】和谢晨聊，新时代的石油、历史、版图、数据金字塔、定价与Recipe
-    duration: 9410
-    upload_date: "20260331"
-    url: https://youtube.com/watch?v=KcujArdWR8w
-    status: generated
-    priority: 1
   - id: owjTOT14bG0
     title: 134. 【数据的综述】和谢晨聊，新时代的石油、历史、版图、数据金字塔、定价与Recipe
     duration: 9503
@@ -92,20 +87,6 @@ episodes:
     upload_date: "20260316"
     url: https://youtube.com/watch?v=iiBY0fqpThI
     status: skipped
-    priority: 1
-  - id: rIwgZWzUKm8
-    title: 133. 对谢赛宁的7小时马拉松访谈：世界模型、逃出硅谷、AMI Labs、两次拒绝Ilya、杨立昆、李飞飞和42
-    duration: 24278
-    upload_date: "20260316"
-    url: https://youtube.com/watch?v=rIwgZWzUKm8
-    status: generated
-    priority: 1
-  - id: c-ZVu-Cr1FQ
-    title: 132. 对星海图创始人高继扬的3小时访谈：鲶鱼、曾国藩、Waymo与Momenta的两面、一只狼与许华哲的离开
-    duration: 11054
-    upload_date: "20260213"
-    url: https://youtube.com/watch?v=c-ZVu-Cr1FQ
-    status: generated
     priority: 1
   - id: n4_c_HsodPg
     title: 132. 对星海图创始人高继扬的3小时访谈：鲶鱼、曾国藩、Waymo与Momenta的两面、一只狼与许华哲的离开
@@ -137,7 +118,7 @@ episodes:
     status: skipped
     priority: 1
   - id: toy8RLeFZ08
-    title: "Zhipu CEO Zhang Peng: Inside the IPO of China's First Publicly Listed
+    title: "Zhipu CEO Zhang Peng: Inside the IPO of China’s First Publicly Listed
       LLM Company"
     duration: 8675
     upload_date: "20260108"

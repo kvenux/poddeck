@@ -1,0 +1,1373 @@
+All right, we are officially live. What
+is going on everyone? I am excited to
+have this conversation with some
+incredible people. Today we're going to
+be talking about architecting modern AI
+systems. Let me get right to the point.
+I want to jump in and chat with them.
+So, first I will bring out Frederique to
+the stage. Where are you at? Hey, there
+he is. How's it going, sir?
+&gt;&gt; Hi. Hi, everybody.
+&gt;&gt; Let's also bring our next guest out
+here. Shall Where are you? Hey, there we
+go.
+&gt;&gt; How's it going?
+&gt;&gt; And then last but not least, our
+final panelist. We've got Allan. And so,
+let me set the stage here and then we'll
+start chewing the fat. We really want to
+talk about modecting.
+I almost said architecting modern AI
+systems. And to do that, what that comes
+along with with the platforms, the
+agents, the integrations.
+So when we explore this specifically, I
+wanted to jump into some of these things
+that are the most important pieces. But
+before we do, maybe it's cool to hear a
+little update. You all just did a
+hackathon, I think. Who was in the
+hackathon? Frederick, I know you were,
+right?
+&gt;&gt; Yes. Along with Sha from Bell and Kids
+Hop.
+So
+&gt;&gt; tell me more about that before we jump
+into the questions and Agillia.
+&gt;&gt; Sure. So it was a hackathon we organized
+with Bell Canada and Kids Health Phone
+around mental health and how can we how
+can we support how how can we build
+guard rails and around
+uh conversational agents and making them
+more secure around mental health. So we
+had over 100 teams participating in a
+hackathon. they were developing their
+own models or building some some LLM
+prompts to decide when to um pass a
+conversation to a human because it it
+became sensitive or there was issues
+around suicide ideiation and things like
+that. Um so it was a a great
+collaboration um and my team
+specifically was um was
+help build the um evaluation pipeline.
+So we had to evaluate the propos the
+submissions from all these teams and we
+wanted to do it quickly. So we built
+this uh infrastructure on top of
+Kubernetes running in the Buzz uh HPC
+environment
+uh where we had access to LLMs that were
+hosted there, GPUs, CPUs
+um and uh we we we ended up building a
+self-service um infrastructure so teams
+could just trigger jobs and see how they
+fared and then we displayed those on a
+leaderboard. Uh and it interestingly it
+was a something we built at the last
+minute but it was super used. We had a
+thousand submissions throughout the
+week. So it ended up being a game of you
+know where where do I fare
+&gt;&gt; uh one team against the other. So that
+was super exciting.
+&gt;&gt; A thousand submissions is quite a lot.
+So congrats on that success. Shiao, you
+got anything else you want to mention
+before we jump in? Yeah, just to sort of
+add on to what Frederick said, I think
+sort of I want to highlight like a small
+interesting elements element to it. Like
+mid hackathon, we actually introduced a
+new data set that almost like sent
+everybody into a scramble because that
+you know previously some teams thought
+they did great and then we have a new
+hidden data set shared and then people
+like oh you know we're not scoring as
+much as we did earlier. Um so I think
+that just generated a lot of excitement
+for for the hackathon. Um I want to just
+take a brief brief uh sort of step back
+because obviously mental health is sort
+of I would say very big these days you
+know just given the the sort of crappy
+economy that we've got uh you know some
+political tensions. So these companies
+got together we all care about mental
+health um and we wanted to make sure
+that you know we have the right
+infrastructure in Canada to support um
+some of these conversations. So like
+like like Fred said like a lot lots of
+participants and then we had to make
+sure that um you you know we we built a
+good support structure um to to support
+our our our developers. Um and I think
+we actually spend quite a bit of time
+you know making sure that when we
+evaluate some of the submissions they're
+all uh we're we're looking at both like
+all the presentations the scores the
+documentation look for innovation all of
+that. Um but but yeah it was a it was a
+great time um you know collaborating
+across these different like companies
+from different diverse background to
+sort of address a common cause um of
+mental health.
+&gt;&gt; Excellent. Yeah it is quite an important
+topic and I think that the idea of
+platforms and what platforms can give
+you. You mentioned Buzz was helping the
+teams along in this journey of the
+hackathon. I also would love to probably
+kick off this conversation with the idea
+of where you draw the line between what
+you expect from a platform versus what
+your team needs to own. And then maybe
+on the next step we can go a little bit
+further and talk potentially about agent
+harnesses and agents where what you need
+to own on the agent side versus what you
+would expect someone else to own. So
+Allan, I saw you shaking your head on
+that one. Maybe I'll kick it over to you
+first.
+&gt;&gt; Yeah. Um, I can definitely talk about
+agent harnesses and why Buzz is is a
+great place for uh running your uh LLM
+uh model inference services to power
+agents where you know you're able to
+avoid having somebody looking over your
+shoulder and you know training on your
+really great ideas. Uh I'll talk about
+that in a moment but I do just want to
+kind of talk a quick moment about Buzz
+and and what we were able to do uh in
+the context of that hackathon. Uh for
+those who don't know, BuzzHpc is
+Canada's largest sovereign AI cloud and
+it's built to give enterprises,
+researchers, governments, uh builders,
+uh secure access to like high
+performance GPU infrastructure without
+uh leaving Canadian juris jurisdiction.
+Uh and they're building Canada's largest
+AI gigafactory to support uh the next
+generation of like training,
+fine-tuning, inference, and production
+AI workloads uh at industrial scale. uh
+because their uh foundation is Canadian
+sovereignty, their reach is global uh
+and and has now you know they're
+operating uh you know obviously Canada
+but also in Sweden as a result of a of a
+cloud partnership uh and they were even
+the first to launch a native AI cloud
+region in South America which means that
+they you know to answer parts of your
+question you know uh Buzz is really
+great because it gives people both local
+control data residency and when they
+need it the trust to Canadian
+infrastructure
+um and uh renewable even powered compute
+because sometimes that these kind of uh
+things are important. Uh so in simple
+terms you know Buzz is building AI
+factories that turn energy GPUs data and
+MLOps into real world intelligence. Now
+in the context of agent harnesses um I
+think that a lot of people don't know
+that codeex cla code cursor all uh open
+code open claw any any of these names
+they sound like Pokemon sometimes you
+can actually change what underlying
+model and what infrastructure is
+powering it so I can go using uh any of
+HPC's uh model inference services or
+even just provisioning the GPUs myself
+and installing VLM I can set up any
+model available on hugging face. So
+basically any local open-source model in
+existence and a lot of them are good now
+for AI agent agentic coding like the
+Quen series the MIAX models mostly
+coming out of China these days but
+there's a few good western ones as well
+from uh like Mistral for example uh and
+even uh you know uh Canada's own cohhere
+right which which is still making models
+and you can power clawed code using any
+of these models uh and it's cheaper you
+know you don't your cash doesn't uh exit
+5 minutes in uh leaving you to to come
+back and pay 10x the token cost that you
+would have just because uh that's the
+cost of zero data you know retention
+policies from somebody like anthropic
+and open AI uh you have a lot more
+control over the diversity and
+creativity of your outputs and you can
+start applying all of these cool
+researchbased techniques like uh low
+rank adapters uh steering vectors uh uh
+advanced sampling algorith algorithms
+which can give you so much more value in
+so many places um uh than than uh uh
+traditional uh uh closed source models.
+And I'll finalize this by giving a a
+slight example of this in a case study.
+Uh recently there was a Twitter uh thing
+where somebody took a painting from the
+famous French painter whose last name is
+Monette. Uh I don't know much about art
+so I'm I'm not really an expert but
+somebody took one of the uh lesserk
+known like water lily paintings that
+they did and they posted it on Twitter
+and said it was created by AI and
+everybody reacted and said oh this was
+horrible this is not a good monet at all
+but it but it was a real one. And so I
+think this illustrates this idea that
+you know people actually like the
+outputs of AI until they know that
+something was written by AI. And if you
+use chat GPT or Claude or Gemini, um,
+uh, you know, your models are going to
+have all these tells like, uh, uh,
+phrases of the form, it's not X, it's Y,
+or overusage of semicolons and EM
+dashes. They make it really obvious you
+used AI to generate something, and
+people tune out and they don't like that
+kind of writing. So Buzz has a lot of
+these really cool AI research
+innovations especially around reducing
+and eliminating slop uh and repetitive
+phraseology from your outputs which
+means that uh we're we're definitely
+like a unique uh differentiator but I
+also just want to quickly and I'm sorry
+I'm I'm meandering but I just want to
+quickly touch on in the context of that
+hackathon buzz provided uh GPUs and then
+the underlying access to uh many
+instances of like Neotron series models
+uh and and I think a few other like
+agentic capable models that we provided
+to the hackathon participants and kept
+up uh and and uh also the the uh Jupyter
+notebook infrastructure basically every
+part of the compute and the user
+interface and user experience that the
+participants needed in order to deliver
+the the really cool uh uh projects that
+that they did.
+&gt;&gt; Yeah. I just want to uh uh thanks Alan
+for for that. What I learned from me was
+I didn't know cloud code can actually
+plug into like an open source model.
+That was really interesting. I'm going
+to talk to my team about that. Um we're
+always running out of credits. Um so I
+just yeah just on the uh the what the AI
+platform provider could provide. I think
+uh you know with our collaboration on
+the hackathon island um you know the
+team was really looking for reliability
+reliability scalability you being able
+to scale out rapidly to support uh your
+number of users having great support um
+when same when things go wrong like
+being able to reach out to you guys and
+and get answers really quickly and then
+lastly um you know we haven't delved too
+much into that I think with you guys but
+generally if there are some built-in um
+you know sort of guard railing
+capabilities of these platforms. Um I
+think of you know model armor from
+Google for example. Um it takes a lot of
+sort of um governance related u
+consideration requirements in the
+enterprise space uh that developers
+would have to worry about.
+&gt;&gt; Yeah.
+&gt;&gt; Awesome. Yeah. There is uh something
+that you both touched on that
+potentially is a nice thread we can pull
+on and that is the rise of the term and
+thoughts. how much more cycles we are
+now having on the tokconomics of AI and
+how we're thinking more about
+do I really want to use the beefiest
+model for this task right now and how we
+really need to be a bit smarter about
+what we're using and when because we get
+rate limited or we just use a lot more
+than we had budgeted for. You've all
+heard that. And and one way of
+combating this is really having a open-
+source model that you own and you
+control. And so potentially we can talk
+with you Frederick about
+the idea of tokconomics and how you're
+seeing it, what you're thinking about
+it.
+Yeah, my my experience uh around Genai
+is uh it's very easy to get an API key
+from an LLM provider and get started and
+and that's that's how most people start.
+You get your open AI key or your
+anthropic key. Um and and this is great,
+but uh there are there are time when you
+when you want to optimize what you're
+what you're building and and you don't
+need the super duper models. if you host
+something that's open source, it can do
+the job for a specific use case. Um, and
+there's also concerns sometimes you
+don't want to send your data to these
+providers. You want to keep it local in
+Canada or whatever country you're in.
+So, so it's a natural next step as you
+get more proficient in this technology
+to want to host your own models. And I
+find that there's there's a difficulty
+in people don't necessarily have these
+skills. So it it requires you to
+research and and understand how to host
+and serve these models, how to manage
+GPUs and that's where having you know a
+local provider like like Buzz to help
+you out and and provide technology to
+host this locally is super useful. So um
+so so I find like you start you don't
+really care about tokens initially but
+eventually when you get your when you
+roll out products and you get your first
+you know your your new invoices this is
+when you
+&gt;&gt; Frederick remember when we worked on the
+hackathon I was talking to your team um
+and they were using I think some of the
+biggest frontier models uh they were
+they're trying to do you know evaluation
+and data synthetic data generation and
+they were selling that they can't do it
+at the scale they wanted because they
+just run out of uh you know token usage.
+Um, and when we had to do it for for the
+hackathon, you know, we work with
+Allan's team to to to to use our, you
+know, buzz platform. All of a sudden, we
+have these open source models. We just
+talk to them any anytime we want,
+however we want, and there's no, you
+know, consideration limitations
+whatsoever other than sort of the
+underlying sort of sort of compute cost
+on burden on your on your team, Alan.
+But, but yeah, I think having that
+freedom of um, being able to, you know,
+work with LM in any ways you want uh,
+you want is is very valuable.
+Now there's this whole idea too on how
+you are taking into account much
+different calculations like potentially
+a larger GPU is going to end up costing
+you less because you only need it for
+say an hour versus if you have a smaller
+GPU and you need it to run for many
+hours. So there's those types of things
+that I hear folks talking about. But
+then the other thing is uh and I wanted
+to ask about this. I want to ask you
+particularly Alan because it's more of a
+a buzz specific question. Do you have
+the ability to scale down to zero?
+&gt;&gt; Yes. Um so so in terms of like uh going
+down to zero and then warm starting or
+cold starting uh backup uh and being
+able to to use other concepts from the
+like function as a service uh and and
+even serverless kind of world of cloud.
+Yeah, we support all of this. Um and
+indeed we can also scale up uh to many
+GPUs and even many instances of the
+model inference um engine such as VLLM
+or SGLang or or in in the case of people
+who want to be uh Nvidia exclusive which
+we also allow uh and support really well
+tensor RTLM. Um, as far as some of these
+other questions about like uh what what
+is the correct choice of GPU and even
+correct choices of models, the first
+thing I want to point out is that
+there's model size and then there's
+model gener or sorry GPU size and then
+there's GPU generation. So what I mean
+by this is that things that are in
+Blackwell generation, they support
+hardware efficiency improvements,
+especially for uh highly quantized
+models down to like FP4 uh and
+supporting like Nvidia exclusive
+variants of the FP4 format or in um and
+and these uh will give you significant
+performance improvements and model
+inference optimization improvements over
+in some cases even larger GPUs back from
+two generations ago, Ampier like the
+A100. But the amount of VRAM you have,
+uh, for example, the A100 has 80 gigs of
+VRAM and I forget the name of the
+Blackwell inference class ones, but the
+like Blackwell is going to have 24 or 48
+gig VRAM GPUs. And there are just models
+that cannot run on those GPUs that can
+run on A100's. And I want to point out
+that uh Michael Barry, who keeps on the
+guy from the big short who keeps on
+claiming that old GPUs don't make money,
+that guy's wrong. uh A100's GPUs, which
+are now almost seven years old, uh they
+were they hit a low price somewhere
+around I think the middle of last year
+of like a$150 an hour on average across
+cloud service providers. Go ask for
+quotes on A100 GPUs right now from
+anybody and uh you're going to have a
+hard time finding them under $2 an hour
+in general. I think I think we might be
+able to do something, but uh uh I I
+don't claim to be an expert on up
+totheminute pricing, but we're seeing
+extreme hardware inflation across the
+industry. So, anything we're talking
+about right now with calculations around
+tokconomics, we have to understand that
+it could change a little bit as uh the
+hardware story gets even more
+constrained. Now, as far as models go,
+I'll point out that in general, I think
+that uh there's this trade-off between
+the kinds of tasks where you can get
+done versus the cost. So, in general, uh
+you do want the very best model for
+tasks where you're not sure if it can be
+completed or not and where it really
+requires the very best version of of
+your outputs. But uh for so-called grunt
+work, I mean the the kinds of things
+where we don't have to spend huge
+amounts of our own brain power in
+general as humans, um smaller uh less
+sophisticated models are often better.
+Now, unfortunately, agent swarms and
+agent agent communication is still
+relatively underexplored. And so uh what
+I would what I would really recommend to
+people is that they in general try to
+run the biggest model possible with
+open- source just because um going down
+to especially the 27 billion to 35
+billion parameter range which is what
+you can run on your MacBook Pro it will
+be very obvious the limitations of local
+models. Whereas when you start getting
+to that 200 billion 300 billion to even
+1 trillion parameter range which starts
+requiring a lot of you know blackwells
+or H100s like high-end GPUs that's when
+you know you really start seeing the
+models be able to handle the much longer
+contexts and feel very competitive and
+off and still a lot cheaper when with a
+lot more flexibility especially around
+diverse generation than sonnet hy or
+opus
+&gt;&gt; you said two things there. I want to
+just kind of like prime you that folks
+in the chat are asking about pricing. So
+potentially you could grab some numbers
+for us. Uh maybe make a few Slack
+messages and see what it's at right now.
+&gt;&gt; And
+&gt;&gt; Oh gosh, I'll try.
+&gt;&gt; Yeah, while you're doing that. Oh, I
+know it's not the easiest thing for you
+because you're also on your phone right
+now. But uh while you're doing that, you
+did mention something else that I've
+been hearing a lot of gripes about,
+which is that these models are behind an
+API like you were mentioning earlier,
+Frederick, and you don't have the
+control over them. And Allan, you were
+saying, "Oh, yeah, well, some GPUs are
+primed for quantization or are primed
+for quantized models."
+The labs know that. And after these
+beefy models are out for a little bit,
+it feels like they get nerfed and then
+we have no say in our model performance
+or the APIs because everything is behind
+the API and we just have to deal with
+lower quality output. And so I I fully
+am on board with this. Like a lot of
+times you want that controllability and
+that steerability. And so I just wanted
+to mention that other point that I've
+heard from a lot of folks.
+&gt;&gt; Um I I just want to quickly sorry we at
+least we if we're going to give you a
+quantized model at Buzz, we're going to
+tell you and we're not going to do any
+of the like quiet nerfing. I just want
+to put that out there. Sorry.
+&gt;&gt; No, I figured I imagined as much and I
+also imagine that it's it's kind of like
+it's my model so I get to decide in a
+way. But
+&gt;&gt; Exactly. Exactly.
+&gt;&gt; Sorry.
+&gt;&gt; Yeah, I was gonna add like
+operationally, you know, as the agency
+LLM models keep it kept better and
+getting better over the last couple of
+years, you know, we operationalally we
+definitely ran into situation where, you
+know, there is an automatic pro model
+upgrade and the prompts that you the the
+prompts that you have, the use cases
+that you had all of a sudden doesn't
+work. All of a sudden, the tests don't
+don't pass. So like I and we don't like
+you said we don't have full control over
+what models are being made available to
+us by some of these uh frontier
+platforms right so I think there there's
+this value for I guess some of the
+things where you want to more
+reliability more predictability on what
+you get back from the model being able
+to talk to a sort of free a frozen
+version of an open source model you know
+through hugging face I think that's an
+really interesting option
+&gt;&gt; so I want to change gears real fast and
+talk for a minute about this idea of you
+all had a hackathon. It's always fun to
+see what people create in hackathons,
+but the gap from like demo at a
+hackathon to actually productionizing
+whatever that is is great and there's a
+large delta there. There's a lot of
+products that have died in that delta.
+What kind of things do you think about
+when you think about what needs to be
+done from hackathon to production?
+Yeah, that's it's a very interesting
+question and I've
+my experience with Gen AI over the last
+three years is uh it's it's very easy to
+get a quick prototype going
+u and it gets you about 80% of of what
+you need. Uh and pe people get excited.
+Wow, that was so quick. I could develop
+that. But what's hard is to go from the
+80% to the 95% which you need if you
+want to deploy this in production and
+that part is tough and that's why a lot
+of products and a lot of early
+prototypes get abandoned. Uh people need
+to put in the work of you know
+evaluating this properly
+um tweaking, iterating, getting user
+feedback, seeing what's the problem,
+what so it's
+it's it's and it's it's different than
+other technology because you get to 80%
+really quick, but then to get to 95,
+this is where you get you get to do the
+the hard work.
+Um and it's um yeah so you you got to do
+it do the hard work and evaluations is
+not easy. Uh we tend to over rely on LLM
+as a judge. So you know we're not sure
+if it's working or not. Let's ship this
+decision to another LLM but then who
+evaluates the LLM judge? Uh so it's just
+kicking the can uh later. So in in
+practice I find that you still need to
+spend often you know manual evaluations
+getting experts to look at the the the
+results look getting user feedback
+um and and being willing to spend the
+effort to get there.
+Yeah, it feels like going back to you
+know building software for building
+solutions in general for your internal
+team like having good connection to the
+business to the operations in the
+business team really truly understand
+their requirements and their needs. Um
+and for us you know you know being sort
+of afforded in a large organization you
+know you have people that are managing
+products and people that are managing
+now um the adoption of uh new solutions.
+So um you know if you're sort of on your
+own then I think with AI you can sort of
+it can help you take on the sort of
+perspective of like a product manager
+you know think about growth think about
+you know um getting that that that
+product market fit I think all those
+traditional sort of software sort of um
+mindset would also apply to you know LLM
+generated demos and PLC's
+&gt;&gt; yeah and and I even want to add that um
+in AI research land uh LLM is judged
+quickly became seen as uh something
+where during peer review they would say
+okay that's great but show me like real
+human evaluations
+and and what what we've also found uh to
+be really cool for for uh using agents
+uh is controlling uh API access even or
+programmatic access to platforms that
+can get you um uh manual data labelers
+and this is something that I I'm pretty
+sure to my knowledge Buzz does not offer
+manual data labeling service. Um but it
+is important for giving true gold
+standard outputs and there are many of
+them you know many more beyond uh
+mechanical turk and a lot of people have
+heard oh you know it's just like asking
+people from the third world to you know
+answer things for a dollar an answer you
+that's I mean obviously that exists but
+there's also people you know doing very
+high-end data labeling for like $200 an
+hour where if you really really need
+like truly gold standard answers in in
+many domains. You can get that and even
+a little bit of that kind of data when
+used effectively with uh reinforcement
+learning with human feedback uh and and
+variants of it on top of uh good
+foundation models can lead to some
+really cool uh outcomes for like
+personalized models that can deliver a
+lot of value cheaply.
+&gt;&gt; Yeah. Have you played around with any of
+these RL gyms, Alan? Have you seen
+those?
+Um, do you mean like offerings from any
+like particular services for example
+like fireworks together? Uh, these kind
+of things.
+&gt;&gt; I was thinking more about how you can
+set up RL RL environments. There's now
+starting to become that's like one of
+the popular things that helps on
+specifically what you were saying like
+if you have these environments that you
+set up so you can train the agents
+properly. It is much more valuable than
+just telling it like don't say that
+don't don't do this.
+&gt;&gt; Yeah. Yeah. And that gets back to the
+concept of verifiable rewards as well
+and even also gets to the uh kind of
+next frontier of AI right now which is
+world models right which is in the case
+of world models they're video models
+where you simulate a particular world
+like popcorn world or being on the moon
+and then you have an agent that can
+control like and move uh in in this
+videoenerated world and the idea is that
+you would synthetically generate 100
+million billion you know examples of
+trying to take a particular action and
+as a form of robustification.
+Um, and I I even, you know, have
+experience with old school RL gyms. uh
+OpenAI actually created some uh simple
+little games about making like uh taking
+a little robot and teaching it how to
+hop where I had actually written some
+code clear back in like 2018 to to kind
+of use uh uh some some uh old school
+reinforcement learning techniques to to
+get my little robot to hop. And that was
+a fun way to kind of learn about neural
+networks back in that era. Um, I have I
+I'm lucky that the current AI research
+I've been doing has not really coincided
+much with reinforcement learning in the
+past year. So, I have not played with
+the most recent ones. But I want to
+emphasize that anything that has some
+notion of verifiability. And that by the
+way includes your code editor and code
+debugger, right? Like uh these things
+when you hook them into, you know, even
+an agent loop. I mean you watch as uh it
+uses effectively what people I I don't
+like the term in context learning
+because there's no learning there but I
+would call it manyot prompting.
+Basically your model trying to do
+something failing reading the uh error
+message and doing something differently.
+That's the inference version of your
+model during that conversation
+learn I I use quotes because it's not a
+weight update right but then uh the the
+RLHF version of that where you actually
+update the weights and do real learning
+that's it's the same thing right so so
+in this case uh it has became a
+reinforcement learning gym and so any
+concept of verifiable reward like if you
+have for example in the math community
+they have uh proof checking assistants
+like lean and they're finding that when
+you combine that with an LLM it's
+leading to like solving erdos problems
+which are like these unsolved math
+problems that you know get a lot of
+attention when a single one gets solved.
+Um so so I I I think that that's a huge
+and important component of it. Uh and
+Buzz does like you can absolutely run
+these like RL gyms on Buzz hardware. Uh
+we probably need to expand support for
+that in terms of managed services to
+give you like a one-click turnkey
+solution for for that. Uh we definitely
+have people like myself and others on
+the team who can pretty quickly
+architect uh some very effective uh
+reinforcement learning loops on Buzz.
+&gt;&gt; Awesome. So Shu, I'm going to ask you
+next. What does your agent stack look
+like and where do you feel like it is
+missing
+or lacking?
+Um I I feel like we're in a reasonable
+space right now for for the sort of
+industry and for the scales that we
+operate. So there are a couple a couple
+of things happening. So at the lowest
+level on the most sort of people can
+relate level or sort of nontechnical
+user level. Um, you know, we've we've
+decided to launch enterprisewide sort of
+platform where everybody would have sort
+of that turnkey solution when it comes
+to being able to interact with like a
+baseline level of large language model.
+um they can sort of build their own
+simple, you know, simple agents uh with
+custom prompts with sort of a rag on the
+fly type of deal um to actually improve
+their own sort of work productivity and
+to sort of uh build the their business
+processes uh with AI embedded and and
+get value from an enterprise um setting.
+Um another sort of stream would be that
+um as you'd imagine for an enterprise
+you do have existing enterprise level
+software and all these companies they
+don't want to be left behind. They don't
+want to be eliminated by by competition
+and and be left behind uh in and this AI
+wave. So all of them have started to
+create you know embedded uh agentic AI
+solutions within their platforms and is
+it is very low cost. It's a it's a
+pretty straightforward ROI for us to be
+able to leverage some of these built-in
+capabilities and and integrate um the
+the AI intelligence into our existing
+workflows. Um you know, low friction,
+low cost, low hurdle. Um and then um on
+the sort of at the highest level, you've
+got um the the sort of the custom build
+um that are um most of the time these
+days leveraging some of the cloud
+providers. Um and we do have those uh
+flexibilities in in terms of um you know
+leveraging um frontier models,
+leveraging open source models of our
+choice um and leveraging our own sort of
+internal AI and ML uh capabilities to
+build production production uhized uh
+software and solutions um that support
+businesses. um what we're I guess doing
+less these days um is um you know for
+our enterprise is to to go out and and
+fish for new SAS because uh we're almost
+like already overwhelmed by existing SAS
+with AI functionality right so we're
+trying to get our most values there
+&gt;&gt; so that's a fascinating piece it's like
+the AI or agentification of SAS that you
+already are paying for is now upgrading
+And you want to make sure that you're
+getting the most out of what you already
+have and that can be an overwhelming
+experience.
+&gt;&gt; Yeah. And so I think we're we're all uh
+in that journey and that's that's sort
+of the the fastest path to value, right?
+And as I mentioned earlier all earlier,
+you know, the economy and all that. So,
+you know, we're trying to get the most
+bang of our buck given that we're
+already paying for them. Um
+&gt;&gt; yeah.
+&gt;&gt; And how about you Frederick? What does
+your Gentic stack look like and where do
+you feel like it's lacking?
+&gt;&gt; Yeah, that's a good um I I it still
+feels like a far west to me um in the
+sense that
+it it the the technology is still
+evolving very fast. the the we started
+where the the main block was the LLM and
+we were focusing on how do we prompt the
+LLM to do what it what we wanted to do
+and then you know we we added rag we
+have agents with tools memory context
+uh MCP servers harness so it's the the
+there's more and more technology around
+the LLM to to build a solution right now
+and uh you know early and And I
+we buil we often build early on early
+versions of applications for different
+partners. Um we're at MIA we're bridging
+the gap between
+applied research AI research and you
+know the real industry um and
+&gt;&gt; and um you know what we're building
+today you know in six months we probably
+would build it differently because
+there's new concepts going new new best
+practices emerging. So um I really don't
+want to be attached to a particular
+stack. Uh so it's really building
+something based on what do we need for
+this particular product but knowing that
+you know it's going to evolve and don't
+get too attached what you build today
+probably will be not used in couple
+years.
+That's an important point on making sure
+that you are very clear on what the exit
+ramp is for whatever you have and are
+using because the only thing that you're
+for sure of is that you're probably not
+going to be using the same thing in a
+year from now.
+&gt;&gt; It need it needs to bring value today
+like because you need to you need to
+ship products today. uh but know that
+you will need to evolve this thing and
+to be comp competitive in the future.
+&gt;&gt; Yeah. So Allan, do you have any things
+where your agentic stack is lacking?
+&gt;&gt; Uh yeah, and and I guess I should go
+even through what I would even call my
+agentic stack. Um I I think there's uh
+uh agent building tools and APIs. For
+example, when I'm trying to build for
+from scratch agents, uh, I would use
+something like Autogen/ Aag2, which are
+originally Microsoft projects. There's
+also HuggingFace has a small one called
+small agents. Crew AI has a framework,
+which I think is pretty nice. Um, and
+then of course there's kind of the more
+applied stack, which is your tooling for
+writing code like Claude Code or Codeex
+or Open Code or Cursor or Windsurf etc.
+right now. Uh though to answer your
+question directly about like where where
+are is it lacking? Um I'm always
+frustrated at the complete lack of
+control I have over uh all of those
+coding tools that I just mentioned. Um
+and and this is where um open source
+tools can be extraordinarily powerful
+because uh the specific functionality
+you have to take control of models is
+called constrained or structure
+generation. An example of this is um I
+could give my model a prompt that says
+rate from 0 to 10 uh something on a
+scale of how boring it is. I don't know
+just random thing and um it it often
+your answers it will spell out do some
+thinking and spell out the word teen or
+ze o or give you outputs in formats that
+are not directly just zero or 10 and you
+can ask in the prompt but as you get
+more complicated uh adherence to the
+prompt especially around the structure
+of an output uh becomes harder and
+harder and you've spent tokens in the
+prompt that if you ran it millions of
+times are themselves expensive. So we
+have this feature where you can just ban
+the model's vocabulary outputs of
+everything that violates a particular
+set of constraints. So we can just
+encode into the model if you're you're
+not the zero through 10 numbers in the
+token in your token vocabulary. You just
+don't don't even generate that. And uh
+that that approach is massively
+powerful. It's used heavily in
+enterprises. Um, but it's also
+problematic for the closed source model
+providers from a safety and alignment
+perspective because you can ask a model
+like Claude, hey, how do you build a
+bomb? And it would normally respond
+with, I'm sorry, Hal, I can't tell you
+how to do that. But then you can prepend
+its output using structure generation to
+to start the output with here's how to
+build a bomb colon and then have the
+model continue kind of unfettered from
+there. And that uh prefix editing uh
+approach actually dramatically raises
+the risk of even aligned and safe models
+becoming unaligned and unsafe. Things
+like this, the fact that these risks
+exist are why closed source model
+providers don't give you any control.
+&gt;&gt; And you know, this is one thing where
+obviously we have stuff in our terms of
+service at Buzz that's going to make it.
+We're like, no, you probably cannot come
+to us to to you know, figure out how to
+make bombs with local models. But in
+terms of not being uh like in terms of
+of us restricting controller access to
+features like that, we don't do anything
+like that because we know that our
+customers are are going to be, you know,
+responsible uh and uh uh uh and and and
+thus that we can give them features that
+can give them, you know, outputs uh
+including in their agent stack uh where
+they get complete control because you
+can use the same techniques to tell a
+model always call a tool.
+or always do something in a particular
+order. And thus I don't have to deal
+with clawed code in in this hypothetical
+world where where everything is all sp
+and span. I don't have to deal with
+claude code forgetting to read one of
+the 10 markdown files I've told it to
+always look at before executing things.
+And so this is where I'd say the biggest
+weakness in my current agentic stack is
+I haven't really gone through and and
+used a whole lot of structures to
+enforce an order of operations in my
+day-to-day yet. Uh but I claim that
+people who do this are able to
+effectively create agent workflows such
+as deep research which is one that I
+think some people know about within
+Google Gemini and OpenAI chat GPT. Those
+workflows because they take advantage of
+a deterministic quasi deterministic
+loop. They go above and beyond what
+cloud code or codeex can do in the
+context of report generation because
+they spend millions and millions of
+tokens and go through hundreds and
+hundreds of uh sources because it just
+uses techniques like this. And so you
+can build deep whatever your domain is
+like deep tax preparation by saying okay
+we're going to uh interweave
+uh deterministic logic enforced with
+constraints and structure with allowing
+the LLM to do its own thing when
+necessary. I wasn't quite clear on why
+you want to do that at the LM level
+versus using something like Pyantic.
+&gt;&gt; So Pyantic uh just to be clear um
+paidantic under the hood generates a
+schema that then gets interpreted by a
+closed source or by sorry not closed
+source by a uh constrained generation
+framework uh such as X grammar outlines
+guidance etc. But Pyantic will be used
+for generating the schemas if you don't
+want to write it out in JSON. So we love
+Pyantic and I use Pyantic all the time.
+Uh so yes, you will use it's just uh
+it's one component of that stack of of
+schema structure generations. I think
+they might have launched their own like
+direct AI stuff beyond the the
+traditional pyantic. Um
+&gt;&gt; yeah, they have pantic.
+&gt;&gt; Yeah. Yeah. Yeah. That that whole thing.
+I mean that's what what their company's
+doing. I'm just referring to like in
+terms of using pyantic for schema
+generation big to you know thumbs up.
+&gt;&gt; Yeah. Awesome. And
+&gt;&gt; I want to add element in the enterprise
+in in the enterprise setting you know as
+as you know bell you know not only does
+does do your internet stuff and and does
+your you know phone plants but we also
+serve enterprise customers. Um so for
+any serious enterprise you know I think
+a critical elements of agentic uh would
+be the governance piece and the
+observability piece. Any serious
+conversation any serious um companies
+would want to make sure that you know
+they do um manage agents properly. They
+have the same level of obser
+observability to agents as to I'd say
+traditionally their employees. Maybe not
+not to the same level but but but you
+get my point. uh you hear about horror
+stories of u you know agent AI devel uh
+deleting databases right so I think the
+risk is real and uh and and companies do
+pay very much attention in this area uh
+which means that not only you know
+you're looking at a particular solution
+that should should do the job but also
+around the processes of of of just doing
+that so uh that's a hot topic um you you
+could pay attention to that
+&gt;&gt; yeah and there's a few different pieces
+of governance too it's Like one is
+making sure that the agent doesn't
+delete databases. The other is just
+making sure that the agent knows when it
+creates a sandbox or when it has access
+to a database or what databases it has
+access to or when it spins up resources
+on AWS, it does it in the way that is in
+tune with the policy of the company. So
+there's all of those things like agents
+need to know the processes on spinning
+up resources as much as they need to
+know don't delete databases or they just
+don't have the access to delete the
+databases.
+&gt;&gt; I heard a story of uh our one of our
+agents sort of paying Jira like 10,000
+times something to to that effect. Um so
+um so yeah there I think operational
+horrors that uh and good learnings that
+we can learn from.
+&gt;&gt; Yeah. Well, I want to I've got a few
+great questions coming through here in
+the chat that I want to make sure we hit
+on. And Rajie is talking about
+verification of agents. And I I actually
+have one for you Rajie on this and I'll
+and then I'll open it up to the panel.
+But um basically he's asking about QA
+agents that test the coding output that
+uh his agents are creating something and
+it's very hard to verify what they're
+creating. And so he wants to know like
+hey how do I test this before I put it
+into production? I've seen a few really
+good ways around this. One is you have
+like a QA agent that will go and take
+screenshots
+of whatever the product is or the PR
+that is happening and it will verify
+that everything in the screenshot is
+correct and then it will click on the
+links and it will click on the buttons
+and then take another screenshot and
+write a whole report as to why
+everything is correct. And so I've seen
+that set up as a skill that you can
+have. And so it's this QA agent skill
+type thing that runs anytime there's a
+PR. That's one to test out, Rajie. And
+then the other one that I was thinking
+about u let me see if I can remember
+what it was in the meantime. I'm not
+sure if either any of you have any
+tricks for deploying that. Oh, and the
+other one that I was going to say, I saw
+a cloud simulation environment tool. So,
+it can simulate environments
+that you can push your code to and see
+if anything breaks um before you push it
+to main or you merge it to main and then
+push it out into production.
+Frederick, I think you you might have
+something, huh? I saw you nodding your
+head.
+&gt;&gt; Yeah, I've So, what I would say is that
+building software with agents is not
+that different than building software in
+the real world. So you know be good good
+software development practices still
+apply. So what are the requirements?
+What are you trying to build? Uh what is
+the architecture you're putting
+together? Uh make sure that it's not
+just big one big function or spaghetti
+code and duplicated code. Um and so you
+can ask your coding agent or another
+agent to to review the code to you know
+validate the architecture
+uh define test cases run test cases. So
+everything that we know about software
+development still applies and I find
+that you know doing these things as you
+do as you use a coding agent really
+helps improve the quality of what you're
+building do it incrementally define
+define what you're going to build really
+clear on the requirements before
+building it um and then ask the LLM to
+or the agent to reflect on what what
+they just built. often just asking the
+question like can you check if
+everything is good uh will have the the
+agent pick up problems and then you can
+you can you can fix those before you
+before you move.
+&gt;&gt; Yeah, I Rajie was saying he was using
+puppeteer and I know playright is a
+really popular skill or MCP server you
+can use. Um so
+&gt;&gt; the one one thing to add is
+&gt;&gt; be be
+you know LLMs are b are trained on text
+and and code is text. So often you know
+their coding agents are good at building
+code because of the way they understand
+text. What they're not so good at is
+um UX and design. Like they they don't
+necessarily make the link between the
+the CSS code that they write and what it
+will look like. So often you have need
+you need to close the loop, you know,
+have the LLM or the agent be able to
+view the the the UI of what it's
+building and be able to,
+&gt;&gt; you know, refine it. Uh,
+&gt;&gt; and if you don't have that loop, you
+know, just take I' I found myself taking
+screen captures and saying, "Look,
+&gt;&gt; it's wrong.
+&gt;&gt; Please fix this."
+&gt;&gt; Yeah. I think that's why sandboxes have
+gotten so popular really like giving an
+agent a sandbox and letting it go around
+and playright uh MCP also same same kind
+of vibe. Uh there's another question
+coming through here that I want to get
+to before we got to jump. It is how much
+of the underlying cloud orchestration so
+like scaling failover or observability
+should a platform abstract away for
+agent developers and where does that
+abstraction become a liability?
+Sounds like a bit of a DevOpsy s sur.
+But also I do like this notion and
+correct me if I'm wrong here
+on the agents might be able to deal with
+those types of orchestration issues.
+&gt;&gt; I I'll really talk about the asset
+piece. I can't comment on the liability.
+I think it's an asset. I think the
+underlying platform
+should be in a good position um to to
+sort of offer that obser observability
+baseline. Like it it may not have the
+best features, may not have all the
+features that you want, but but you want
+to take away as much sort of
+accountability from the developer as
+possible when something can be sort of
+shifted down onto the platform, right?
+So, um but I I imagine that could become
+a liability at some point, but I I I
+can't comment on that.
+Yeah, we're not liable for anything we
+say here either.
+If you do put it into practice, get back
+to us on how it goes. There's another
+one coming through. Lav is asking. Uh,
+when an agent goes off the rails in
+production, what telemetry has actually
+been most useful for figuring out what
+went wrong? Have you all seen anything
+that is useful? I will say from my
+experience it's a lot of the tool use
+telemetry like what tools were called
+what MCP servers were called all of that
+is quite helpful to know because then
+you can see the
+the problems and where it's getting
+potentially stuck into loops or just
+inventing things.
+&gt;&gt; Yeah, I'll just quickly jump in. Uh
+there were two tools that I liked for
+this uh agent ops and arise phoenix
+which both uh implement I think it's
+called open telemetry which is I think
+the way that tries to hook and and
+detect all those tool calls detect
+everything that your agents did. Now, in
+practice, especially, you know, when
+you're getting confused about what
+happened, it's probably over hundreds of
+millions of tokens. And that means that
+it's can be expensive just to even try
+to untangle what's going on if you're
+using LLM based assistance. So, a lot of
+what you're going to want in these um uh
+observability tools is the ability to
+filter out information and quickly flag
+with like horistic based and hopefully
+non AI based strategies what may have
+caused a particular problem as well. So
+uh but but ultimately it it does just
+come down to writing everything down and
+using tools like this make sure
+everything gets written down so you can
+eventually uh triage it
+&gt;&gt; and before failure detection you
+probably want failure prevention. So I I
+think this is also related to an earlier
+uh discussion point around um just um
+validating sort of the the sort of the
+accuracy or the output of the agents. I
+think you just want to start by you know
+having the right controls in the first
+place like maybe have additional rappers
+on the one of the available MCPs to
+really limit the kind of actions the non
+irreversible actions that the agent can
+do right so if it you know it fails like
+sure you know you can get it to try
+again but you know that it's not going
+to make any sort of irreversible damage
+to whatever database that you have or
+whatever decision that you're trying to
+make.
+&gt;&gt; Yeah, great points. There is another
+question in here from Alexander asking
+about easiest way to create a sandbox
+for coding agents. Is there sandbox
+capabilities with Buzz Alan?
+&gt;&gt; Uh my understanding is yes. Um I do want
+to point out though that sandboxes in
+general like uh it's probably impossible
+for anybody to guarantee that an agent
+can't escape for an increasingly
+sophisticated agent. You'll hear this
+all across the industry that sandboxes,
+you know, for codeex 5.5, Opus 4.7, etc.
+are are often brittle. And if you even
+look at like Nvidia's Nemo claw, which
+you can also deploy on Buzz, a lot of
+what Nemo claw was was just trying to be
+open claw with a better sandbox. And if
+you know, I can go find people online
+that have like, hey, why is it that my
+agent yet again broke out of it? So
+sandboxes are really important in a lot
+of ways, but they're they are one level
+of protection. But unfortunately with
+systems that are in certain cases super
+intelligent on uh code generation, uh
+it's more like uh delaying the
+inevitable if if you've got an agent
+that really wants to break out of a
+particular environment. Obviously, there
+are, you know, real hardware limitations
+that can kind of prevent uh serious
+problems, but when when you're talking
+about just like software sandboxing, um,
+and then giving models control over like
+the command line, for example, it's it's
+can get pretty not as sandboxed as you'd
+think.
+&gt;&gt; Well, I don't like to think about that.
+Uh
+&gt;&gt; that is yeah not what I was expecting
+but I appreciate you mentioning it so
+that we are not all happy golucky and
+just throwing a bunch of sandbox at the
+problem. The uh official time has ended.
+I am sure there are people that have to
+drop but I also want to see do you guys
+have like two more minutes to hang out
+or do you also have hard stops right
+now?
+&gt;&gt; I I unfortunately have a very hard stop
+right now. I need to go
+&gt;&gt; very hard. So, you're already late. All
+right. Well, folks, this has been
+awesome. I am very appreciative for you
+coming on here and doing that.
+&gt;&gt; We will send everyone that joined this
+session an email to follow up with some
+of these key ideas. And also, I know
+there was questions about pricing in the
+chat. We're gonna let
+&gt;&gt; Yeah, real quick. I do have an answer on
+that. Yeah, I do have an answer. Uh
+&gt;&gt; uh uh. Yeah. So, um, uh, we don't
+actually have A100s right now, uh, at
+Buzz, but we do have H100s, which is the
+better version, which is, uh, those are
+250 an hour right now. Uh, and I think
+you get volume discounts, uh, for for,
+you know, renting many of them are for
+long-term commitments. H200's are at 350
+an hour. Uh, A40s, uh, which are like
+those cheaper inference GPUs are at, uh,
+uh, 50 cents an hour. Really great for
+small model inference. Uh and then for
+uh Blackwell uh you'll you'll want to
+contact them later and then we can talk
+pricing on Blackwell. Sorry, but I do
+have some numbers.
+&gt;&gt; Yeah, I appreciate that because somebody
+was like, "Oh, I don't want to fill out
+the whole form just to find out that
+it's way out of my league for my little
+private project." So, um yeah, the talk
+to sales one if you want the Blackwell.
+Other than that, I will see you all
+later. Thank you and talk to you. Bye.
+All right. Thanks.

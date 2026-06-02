@@ -1,0 +1,1042 @@
+All right, we've got a special episode
+where I talk with Nicolas and AIPM from
+the company Despegar in Latin America
+all about how they are building their
+concierge agent for travel called Sofia.
+We get into many different things, even
+how they built what is a competitor to
+MCP before MCP was even a standard and
+about some of the key challenges they
+faced while putting this AI agent Sofia
+into production. Let's listen to it now.
+In our multi-agent we have one
+application that's named Chappie and
+it's like the brain of Sofia. Each agent
+it's like kind of a we call it a
+category or a different flow. For
+example, flights, hotels, activities,
+cars, etc. [music]
+It's not like we are like 20, 30 people
+developing Sofia, but anyone in the
+company can create a flow, obviously
+with our okay, let's say, but with our
+supervision, but anyone in the company
+can create their own flow and work on
+it. And because of the know-how, like
+we have some know-how, for example, on
+how to sell hotels, but the the best
+team to do that is the hotels team. So,
+they can take their flow and make the
+changes they think they
+they think they
+that has to be made. Someone who wants
+to build a flow is expected to to be the
+technical. Yeah, okay. Like
+in in in Despegar we are organized as a
+squads and each of us each a squad,
+let's say the hotel to go back to that
+example, has product member, an IT team
+or a developer team, and a
+user experience team as well. So, they
+took their flow and
+uh
+make the changes and improvements that
+they think are the best. Yeah, and it
+makes sense that you would want to
+spread out that work as opposed to one
+centralized team that's trying to
+develop everything
+versus just give the foundational
+building blocks that folks can then
+customize on top of. The most of the
+categories or the the flows agents that
+we build, we start building it, and then
+we pass that to the corresponding team.
+Mhm.
+Uh so, you you think, "Maybe we should
+do something along these lines." And
+then you build like the basics.
+&gt;&gt; Uh
+yes.
+&gt;&gt; they can customize.
+&gt;&gt; Yes. Uh-huh. And the whole idea there is
+it's all based around chat.
+It's all based around chat, also voice.
+Uh like you can call in our after-sales
+team. If you call our Despegar number,
+Sofia will
+will will contact you. And then you can
+you can be routed to an agent, but Sofia
+will be the one that
+that first call first talk to you. Yeah,
+because I remember seeing that demo
+where it was like, "Hey, what's my
+flight number? What's my When do I check
+in?" Simple questions that somebody
+maybe is is calling because they don't
+really know, and it takes a lot of work
+&gt;&gt; It will surprise you like the simple of
+or basic questions that we have in
+after-sales like which is my checking
+number? Where's my voucher?
+Where's my invoice? And
+it was like
+that simple questions are perfect for
+Sofia. And if the person has, I don't
+know, like a
+a reschedule of the flight, probably
+they will we will route you to an agent.
+Uh but the workload of the agents were
+like
+they are they are more optimized to do
+what it's a complete question. Yeah, I
+remember my buddy Elliot who works at
+Voca Health and he does stuff for
+doctors and clinicians.
+And it's more or less the same thing but
+all around voice. And so people will
+call a doctor's office and say things
+like, "How long was I supposed to fast
+before my surgery tomorrow?" or whatever
+it was and he said that like 80% of the
+questions
+&gt;&gt; Questions. were super simple, just basic
+things that you probably got on some
+form or some email. Yeah, and in a
+document but you don't want to look for
+it which I find hilarious. Like, if you
+just Googled it you could probably find
+it but it takes a little bit
+&gt;&gt; that your doctor says that.
+&gt;&gt; Yeah, and it probably takes a little bit
+more effort to go and click through the
+UI and figure out and then I do think
+and you've probably thought about this a
+lot as the product manager,
+you're leaving a little bit of
+effort or money on the table because
+in your use case yesterday where someone
+called and they said, "What's my
+check-in?" or "When can I check in?"
+right? Yeah.
+I want to be able to say, "Okay, go
+check me in."
+Yeah.
+Like in in the after-sales part what we
+are building right now it's like
+going through all the process. For
+example, if you have a
+a change in your flight,
+we are trying to Sophia be able to do
+the task for you. We are not there yet.
+We are starting with that. So we
+complete like we have two like two
+frameworks or two visions. One to to
+grow horizontally and one to grow like
+deeper in in each flow. So we have
+covered horizontally every like almost
+everything and we are now building like
+for each one of the topic deeper
+solutions so you don't have to contact
+or you don't have to do it yourself any
+of that any of that task. Yeah, that's
+very special. It got me thinking as I
+was reflecting on that use case and
+wanting to be able to just say okay now
+go check me in. Then I was like wait a
+minute.
+Why do we even have to check into planes
+anymore?
+&gt;&gt; [laughter]
+&gt;&gt; I don't know. I took a step back
+question. I was like what the [&nbsp;__&nbsp;] is
+this about? The we're getting [snorts]
+side up 100% right now like what is the
+check in even for? I could see what it
+was for back in the day.
+&gt;&gt; Yeah, but now it like it doesn't make
+any sense.
+&gt;&gt; It does it's
+right am I am I crazy here?
+&gt;&gt; No, I'm with you. I'm with you in on
+that. I imagine there's a lot of
+difficulty though
+with
+the identity or being able to vouch for
+like Sophia checking in for me.
+The thing that is difficult is knowing
+that I'm actually telling Sophia yeah.
+&gt;&gt; etc.
+But then again like why would I tell you
+to check in if I would if it wasn't me?
+Like it's just it's a ridiculous thing
+the whole check in.
+I go back to that. I gave a few talks
+about this experience when I was
+traveling to Portugal from Germany and
+my flight was 3 hours delayed and in
+Europe if it's 3 hours delayed you are
+able to get money back and I was going
+back and forth with my LLM of choice
+right and saying like hey my flight's
+delayed this much here's the flight
+number blah blah blah am I entitled to
+any money?
+And I go through that whole thing and
+it's like yeah you can get 250 bucks per
+passenger and I was traveling with my
+wife and two daughters and I'm like [&nbsp;__&nbsp;]
+I am rich. This flight [laughter]
+like the
+just yeah just paid for my vacation and
+what do you think I tried to do that had
+me cut the conversation? What was it
+that made me realize like, "Ah, [&nbsp;__&nbsp;]
+I'm not actually going to get the
+money."
+I don't know. Uh
+I tried to say, "Okay, go and make the
+claim for me."
+&gt;&gt; Okay. And it didn't
+&gt;&gt; It was like, "I'm an AI assistant. I
+can't do that." I'm like, "Well, you're
+not assisting much, are you?"
+You're basically just giving some random
+information and
+&gt;&gt; you giving you tasks to do yourself.
+&gt;&gt; You're my imaginary friend who now is
+increasing my workload.
+&gt;&gt; Yeah.
+And so, that is a perfect use case.
+Like, I would love it if I could just
+get file claims through a chatbot.
+&gt;&gt; chatbot.
+&gt;&gt; But not And this is where I Like, in my
+talk, I was saying there is this really
+weird paradigm that's happening because
+all of There's a lot of Google
+services or if you Google "file my claim
+for me", you can find pages and pages of
+websites that will file your claim.
+&gt;&gt; Yeah. But it's not inside of the native
+chatbot that I want to have. Maybe they
+have their own chatbot, but it's not
+&gt;&gt; the one that you use. Yeah.
+&gt;&gt; Yeah, and it's not like I can just say,
+"Oh, hey Gemini or ChatGPT or Claude,
+like, use this
+&gt;&gt; Yeah, use this tool and file it for me."
+&gt;&gt; Yeah. And so, that was where me as a
+customer, I had so much friction.
+And if
+I was already on Sophia, I'm already
+interacting with my all of my travel
+itinerary through you and desktop, it
+would make so much sense that
+&gt;&gt; have all covered there. Yeah.
+&gt;&gt; Yeah, just file that claim. They did
+this. And if it was easy,
+I would probably be making a lot more
+money cuz there's so many times that my
+flight's been late and I'm just like,
+"Nah. Like, I don't care that much."
+&gt;&gt; Yeah. The airplane services
+do anything they can to like get out of
+filing it or get out of like plaintiff
+it. And so, you know there's going to be
+a back and forth, and you know it's
+going to take up a lot of time when you
+do it. But, that seems like a perfect
+use case for an agent.
+&gt;&gt; for any for Sofia for any use.
+&gt;&gt; Yes. Yeah, so I'm giving you all kinds
+of ideas here. What [laughter] I'm going
+to take it. I'm going to take the ideas.
+What are you actually working on? Cuz
+I'm just giving you these utopian
+scenarios.
+&gt;&gt; Like we have like
+one main focus in Sofia right now. It's
+make our users
+more awareness of Sofia. Like we have
+two KPIs that we follow a lot.
+The first one is how many of our clients
+interact with Sofia.
+And of course then we double click on
+how many times or how useful Sofia was,
+but we have 30 30% of our clients
+interacting with Sofia in any part of
+the journey.
+And we also like uh
+follow a lot the KPI of Sofia's first
+booking. That's like says like saying
+that Sofia sales like in how many sales
+Sofia uh
+was a a very important part of the
+customer journey. How are you
+interacting with Sofia?
+&gt;&gt; Exactly. We have like we have two
+channels in in the sales part.
+The first one is or yeah, the first one
+is WhatsApp. Like if you talk for to
+WhatsApp
+to the speaker through WhatsApp, Sofia
+will text you. Then it can route you to
+an agent, but but Sofia can offers you
+flights, hotels, it's itineraries, uh
+activities, any product that you think,
+and also can help you with uh
+destinations, with what to do in each in
+each
+in each uh
+part of your travel. The the value
+proposition of Sofia is that
+Sofia can offer you like real time
+offers. Like it's not a cache that we
+found some we found in our documents or
+in our history but Sophia make the
+actual search for you and give you the
+detail of the product that you click and
+you buy at the moment. So I think that
+that's one of the of our main value
+propositions. So you can through
+WhatsApp you can
+explore all the let's say the shopping
+flow of flights, hotels, etc.
+So that's one of our channels. And the
+other channel is in our app or in our
+website where Sophia has different
+placements around
+around the the platform but
+since July August we are like trying to
+present Sophia to more and more
+customers like
+like we want to our customers to be more
+aware of Sophia in the sales part
+and two main or one of the things that
+we do it was in the search box where you
+complete your destiny your your dates,
+your distribution like how many are
+people are traveling.
+We like added switch or a toggle down
+that down there and it says like use AI
+with my search and when you click it you
+go directly to Sophia and you go through
+all the shopping flow in Sophia and you
+only have to pay in our let's say
+traditional flow. So that's one of the
+things that we are doing and we are also
+adding I don't know if anyone have seen
+the speaker but we have like in the in
+the top of our platform like the buttons
+of each products that we have we are
+like adding now a new button that's it's
+a mode AI like AI mode
+where you have an open search box and
+you can search wherever you want and
+Sophia will answer. So you don't have to
+be like a very aesthetic way of
+searching like
+it's the way that you used to search in
+travel like
+Buenos Aires to Madrid from this day to
+day, for two people. But you can say,
+"Hey Sofia, give me the cheapest flight
+between these days." And Sofia will help
+you with that request. Or, "Sofia, give
+me the offers." Or, "How are the prices
+now to go to Madrid?" So, we are like
+enabling a new way
+so to the users to search
+for our products and for our for their
+trips.
+Oh, man.
+It
+is so cool to think about the idea of
+just like
+"I have this block of time free, where
+should I go?" Yeah, that's what Sofia is
+going to help you with, let's say, like
+And I know Airbnb did that, and I wonder
+how successful it was, because I haven't
+heard anything since, but it was it was
+kind of like
+show me just unique places to go to, and
+&gt;&gt; It's
+before AI, it wasn't easy for us, like
+an OTA, to be part of the dreaming part
+the dreaming section of your trip, like,
+"Where do I go? I have this time free.
+How do I plan this?" Because we were
+very transactional. So, Sofia it's
+also covering data
+data that we didn't in in the Despegar
+platform in most of the OTAs, we didn't
+have cover. So, it's like a very new use
+case for our platform, and we are
+improving it like every day, let's say,
+like, how we recommend you the the
+destinations for you, how many budget do
+you have, uh
+what are your preferences, what to do in
+each in each destination. So, that's
+like a new part for our platform, and
+Sofia it's
+it's the best place to do the best place
+to do it.
+&gt;&gt; see the different user segments, cuz I
+imagine a subset of your users only use
+it for flights, and then a subset only
+use it for hotels, and then there's some
+people that use it for the full
+end-to-end. Is that one of the KPIs
+you're looking at, too? It's like how
+many more things can we get them to
+engage with? Yeah, we we look at that.
+Like we used to have one KPI that was
+like in a scope conversation. Like,
+"Hey, Sophia
+can answer the the
+the the user question or the user
+prompt?"
+And that KPI was like in 95, 96%. Like
+very asymptotic. So, we are not tracking
+it anymore. And we are now like
+For now, we think we have covered most
+of the use cases that the customer
+request us.
+We have like two ways to keep growing
+Sophia. One is
+adding use cases that the customer
+didn't know they want, but they will
+use. And we have some of them.
+Uh and also uh
+improving the ones that we have today.
+Like we can be better recommending you
+destinations. We can be better making
+you better trip plans.
+Uh
+improving our flight like for every
+product
+our mantra is, for example, for the
+flight for the flight shopping flow
+we want Sophia to be able to perform
+things that you can't do on a
+traditional page. Like if you go for the
+for the traditional platform and search
+for a flight
+it's not easy to compare dates like one
+day prior or one day later.
+&gt;&gt; Or if it's Madrid versus Amsterdam.
+&gt;&gt; Exactly. So, we are trying to focus
+Sophia on
+performing that things that it would be
+very difficult for a normal user to do
+in the traditional platform. So, we add
+value.
+&gt;&gt; have various browser windows open to
+compare [laughter] like
+&gt;&gt; That's what all we all do. Yeah. We want
+Sophia like
+to be able to solve all of these in the
+chat. Uh-huh.
+You know what I
+I'll give you some more things that I
+want as a user. This is only because
+we had a hackathon
+in the summer and the winners of the
+hackathon came on the podcast and they
+talked to us about what they built and
+it was just a little chatbot that you
+would drop into your WhatsApp groups and
+then it would help you organize with
+friends. Yes.
+We are looking into that because of us
+we have Sophia in WhatsApp. It's the
+perfect use case like add Sophia to your
+group friends chat chat and call Sophia
+wherever you want to check something
+like, "Hey, how's the
+or how how many do I have to pay to get
+a flight to Rio tomorrow?" I don't know.
+Or on February. So, it's one of the use
+cases that we are very Yeah, I'm talking
+more and you probably are too in the
+dreaming phase. I've got a group of my
+friends that I used to go skiing with
+and we want to organize a ski trip. But,
+we don't know when and we don't know
+where and we don't know where we're
+going to stay and so Sophia, the way
+that I think these folks had done it is
+that you call the chatbot or the chatbot
+interviews you and then it takes down
+the dates, it takes down your price
+sensitivity, it takes down, you know,
+where what kind of trip you want to go
+on because it's not always so clear
+like, "Hey, we want to go skiing." It's
+like, "Uh, what are your top three
+things to do on holiday?" And then it
+says, "Hey, I've got these different
+options for holiday. Whoever's in, give
+a thumbs up emoji and I'll buy your
+flight." Okay, and that's the task for
+you as well.
+I think that one of the things that you
+mentioned and
+we have
+we are always looking at this
+in the travel industry
+like the customer doesn't care if you
+took three more seconds or if they ask
+you questions because it's going to be
+an experience that he's like waiting
+for. It's not like I'm asking any other
+LLM, like, "Hey,
+what's my routine for today?" and it
+took forever or asked me questions. But,
+in the in the travel industry,
+users are willing to give us that time
+to get a a better answer, a better
+recommendation,
+the perfect product for for their trip.
+So,
+we are we have to be careful just not to
+ask too much questions, but to explore
+that
+that that idea of
+asking user information because they're
+willing to to give us that. Yeah, and if
+you make it frictionless or in-app
+&gt;&gt; with game with any gamification, let's
+say, like Yeah, or just okay, it's an
+emoji and then boom, it knows. That's
+that's my confirmation. It's not like I
+have to type anything or do anything in
+that regard. And the other thing that I
+was thinking is how
+you are able to do so much with that
+direct line of communication on WhatsApp
+because me, I'm a bit of a coffee snob.
+And when I go to places, I like to know
+where all the best cafes are around
+where I'm staying. And if you know that,
+then you can send me a nice little
+report of hey, here's all the ones. But
+then even more than that, you can say,
+"I created this shared Google Maps."
+&gt;&gt; Yes. And you just have to join my Google
+Maps and it has everywhere already
+marked.
+&gt;&gt; Or marked with pins, like where you have
+to go.
+&gt;&gt; Where you go.
+&gt;&gt; We are starting to explore like in-trip
+use cases. Like
+we we now have like Sophia outbound
+messages to our customers uh mostly in
+the post-sale journey of the of the
+of the of the user, but we are starting
+to explore
+what's
+uh how can we deliver value to the
+customer in the in trip part of
+of their journey.
+So yes, one that we were thinking was
+like restaurants recommendations on hey,
+I know that I know the hotel that you
+are saying because you buy it with the
+speaker. So hey, this is this is the
+nicest place near you.
+This is the nicest restaurant etc. So we
+are starting to explore that
+new face that
+Yeah, I remember my family came and
+visited me when I one of the first years
+that I was living abroad and they
+expected me to be the tour guide. Of
+course, I would expect the same.
+[laughter]
+Which I
+we kind of made a joke of it because in
+English, you know, you call when you
+can't go somewhere and you have to go
+around, it's called a detour. Okay. And
+I'm Demetrius and so I was given a
+detour. It was basically everywhere we
+were going was a bit of a roundabout way
+to get there and it was it was a
+complete detour. But
+at the end of the day, what I put
+together was like
+a pretty legit guide on the place we
+were going, why we were going there, why
+I thought it was cool, the different uh
+restaurants that we had to choose from
+that I think everybody would enjoy and
+that you can just create now. Yeah. I
+don't need to spend any time and each
+person can get their own
+personalized recommendation for their
+own preferences. Comes back to this idea
+that I was talking to Thiago about
+personalization at scale. Yeah. Is so
+cool and
+the new ways of doing it, what I've been
+realizing talking to
+everybody here is
+it's almost like WhatsApp for the
+consumer is becoming the control center.
+Just like Slack for the enterprise is
+becoming the control center, right?
+&gt;&gt; Because WhatsApp is what it is. That's
+why we said we said like I think it was
+a year ago like, "Hey, we have to have
+Sophia in WhatsApp. We can't miss this
+opportunity. We have to work on this."
+Yeah. And we took the project and we
+developed Sophia in our existing lines
+in WhatsApp. So, Yeah, for the
+Americans, I guess they're not seeing it
+as much cuz whenever I go to the US,
+it's always iMessage.
+&gt;&gt; iMessage, of course. And
+anywhere outside of the US, you were
+using WhatsApp.
+&gt;&gt; WhatsApp is very big. In in Europe and
+India, all of that, it's so popular. And
+so, having that as your control center
+where potentially I'm interacting with
+various agents. I've got my Despegar
+agent, I've got my iFood agent.
+&gt;&gt; Yeah. And in
+if I'm in Brazil, I know I'm talking to
+all of these
+uh agents and yeah.
+&gt;&gt; Yeah, agents to get my stuff done. It
+will make your life easier. Yeah. Yeah,
+yeah, yeah. And to especially if you're
+able to
+get it to do more stuff, but then what I
+am constantly thinking about is I don't
+want to have to like switch between
+agents. Yeah.
+I just want to talk to Sophia and then
+Sophia can talk to the iFood agent.
+&gt;&gt; Yeah. And so,
+&gt;&gt; Yeah, it's like having an ecosystem of
+our agents all in one place, so you
+don't have to take care of
+which one should I text text, but we can
+solve it that for you.
+Yeah. Yeah, you know, the more things
+you throw at it, it's going to be able
+to kind of be able to do it.
+And
+that I think is the current browser wars
+that are happening. You know how like in
+2014 or 2010, I can't remember exactly
+when,
+when uh Chrome was coming out, you had
+the new browsers and that was like the
+browser wars because it was the front
+page of the internet. It was how it was
+our gateway to
+&gt;&gt; Yeah, how you the platforms were
+presented to the customer. Yeah.
+&gt;&gt; And now it feels like that's the new
+gateway to the internet. Yeah. Is how
+&gt;&gt; Yeah, and what
+chat interface we use.
+So, and whose chat maybe it's not the
+interface it as much as it is what agent
+we choose to use.
+And each agent at the end of the day is
+probably going to have their own chat, I
+guess.
+&gt;&gt; Probably.
+Which
+like it doesn't worry you that meta
+might just say, "Oh, actually
+everything like that we can do now."
+For us it's very valuable to have our
+customer in our application. So,
+we always try to to have that
+and to make them use our app. So, Sofia
+it's
+let's say more optimized in our app that
+in WhatsApp because of
+WhatsApp's limitations of templates,
+flows, etc. So,
+in our app you have a richer UI Sofia
+than you have in WhatsApp because of the
+capabilities that that we can build.
+So, I think that
+for now there's value on
+using Sofia in the Despegar website or
+the Despegar app. Mhm.
+And I like how you broke down yesterday
+the different phases. You have what? You
+have the dreaming phase which is when
+you're planning the trip and you're
+starting to think, "Where could I go?"
+&gt;&gt; Yeah, we have the the dreaming phase
+that is the first one that as you just
+said it is like, "Where can I go? What
+do you recommend me? That's this is my
+preference. It's I have this budget."
+Then you enter when you decide your
+where do you want to go, you enter to
+the planning phase. Like,
+"When do I when do I want to go?
+What can I do there? What are
+the main attractions?"
+&gt;&gt; "Where am I going to stay?" Where you
+are going to stay.
+Ooh.
+And then you enter to like
+what we call in the booking part or the
+the purchase part Yeah. when you select
+the right product for you.
+So, we have those three important after
+purchase
+uh before purchase
+uh parts.
+And as I mentioned, we try to cover it
+all with Sofia. Um
+that it's a a new use case for our
+platform. So, we are giving users more
+value than we used to us TestVega.
+And then there's other phases of the
+trip. You have the actual trip itself.
+&gt;&gt; before before the actual trip, we have
+the uh
+anticipating part like
+you buy it a flight from us. But if I
+know I don't know if I know that you are
+going to go to ski. Like I know that you
+have to that I can recommend you or I
+can help you with uh ski passes, uh
+equipment, etc. So, that's all the
+anticipating part like helping the
+custom the the user to have all that he
+needs when he arrive at the destiny.
+Then we have the experiencing part that
+it's one that like in trip like we were
+talking
+before, like how we can deliver value
+when you are in your destiny. Let's say
+like hey, this is a very great place to
+take coffee. And then we have the
+sharing part. Like we are we are also
+starting to work on on this part.
+On travel, it's very like useful to see
+what other customers or what other what
+other people done on that place or on
+that on on their trip. So, we think that
+it's going to be important for us to
+have like a I don't think like oh maybe
+like a community, but if you can't if
+you are in your dream let's say you want
+to go to ski. I have went to ski like 2
+months ago. I have a upload to Sofia my
+review, my
+my recommendations, etc. And when you
+enter Sofia and you say, "Hey, I want to
+go ski." Sofia tells you, "Hey,
+I have these
+1,000 reviews and
+for skiing users are recommending this."
+It would be very more powerful than
+me telling you this. Like it's going to
+be more
+&gt;&gt; proof. Yeah, it's that social proof that
+we are going to to trying to have. Yeah,
+I was thinking about if you needed to
+actively reach out to customers to get
+those reviews or if they were just
+willingly putting them and saying, "Hey,
+I went here. It was great. I did this."
+&gt;&gt; I think that it's like a combination of
+those two things. Like we have to
+to go to get our customers to give us
+the review. But some of them also are
+doing it now without any
+Yeah, which also feels like a place for
+Sofia. If you want to get reviews, like
+Sofia could call people. Say, "Hey, you
+went on this trip." How did it go?
+&gt;&gt; Yeah, tell me about it. What did you
+like? What did you not like?
+&gt;&gt; a lot of ideas here, so Dude, [laughter]
+you might as well hire me at this point.
+[&nbsp;__&nbsp;]
+You're making my job easier. I know.
+What actually do you do? Because I'm
+doing your job right now.
+&gt;&gt; I'm talking to you. That's my job now.
+And you can just I can be a consultant
+if you want. [laughter] I'll work
+part-time. But the the thing that
+that I was also wondering about is
+when you're going
+on the trip, you have that anticipation
+phase. And there's certain times that me
+as a
+traveler,
+I will
+go some places, but I don't want to
+bring something
+or I forget something and then I just
+order it to my hotel, right? Sometimes
+it's I order in advance. And this is
+when
+So, I'll give you a very
+concrete use case.
+&gt;&gt; Okay. I'm going to Greece.
+I'm only taking a carry-on. I can't take
+liquids. And
+I'm going to sound so cheap right now,
+but [&nbsp;__&nbsp;] sunscreen at any little
+kiosk in Greece is like 10 euros.
+And if you order it, it's like four
+Yeah, no, it's like two. So, there's
+times where I've asked my godmother who
+lives in Athens to send to my hotel. She
+buys like a two-euro thing of sunscreen,
+sends it to my hotel in whatever island
+that I'm going to, so that I can have
+sunscreen, right?
+I'm thinking about that like whole
+customer journey. There's probably a
+million other things that people want
+when they get to the hotel that they
+want waiting for them. And if you said,
+"Hey, you're going to this ski trip. By
+the way, do you need a new ski helmet?"
+Yeah. Or
+&gt;&gt; have glasses? Yeah, when was the last
+time you got goggles? We got these new
+ones on offer in case you want to like
+look cool for your friends cuz everyone
+wants that external validation. Yeah,
+it's like
+like very near to your trip, like
+sending you, "Hey, this is the list as
+the list of things that you're going to
+need. Do you want like any any of them?
+Do you want any of any advice on any on
+any of them?" So,
+yeah. Yeah, that's like very
+it's like very near your trip, but it's
+very useful use case.
+Yeah, then you just use OLX.
+&gt;&gt; For you guys, the architecture that you
+decided on was Sophia's going to be the
+gateway.
+And then you're going to call Yeah, you
+can call tools. Yeah. Or different
+agents that that has their tools. Yeah,
+and they're very specific to those parts
+of the business.
+&gt;&gt; Yeah. And so, if it's a complaint, I can
+complain directly to Sophia's, and then
+it goes to the customer service agent.
+As opposed to a very verticalized agent
+that is
+only made for one thing, and if now I
+complain to that verticalized agent, it
+doesn't
+&gt;&gt; It doesn't do anything, yeah.
+&gt;&gt; Our vision with Sophia it's
+we want to be the channel of choice of
+our customers. We want our customers to
+like independent from our platform, they
+can do all they want to do in Sophia.
+So, that's why we want to cover all the
+the the travel cycle, and Sophia has
+each agent or has many agents for each
+use case or for each part. Because our
+our goal or our dream it's to be the
+channel of choice of our customers, like
+they want to talk with Sophia, and
+that's it. It's like WeChat in China.
+Yeah, kind [laughter] of.
+You can do anything in there. And But I
+want to break down to
+you guys so, you built Sophia
+which is the travel assistant agent, and
+you created it before there was
+LangChain and before there was MCP, and
+so you made a lot of really interesting
+design decisions. One being that you're
+going to create your own orchestration
+layer. Yeah. The other being that you
+basically created your own MCP.
+Yeah. At at the beginning, we didn't
+have the orchestration layer because we
+don't have as many tools or that we we
+have like the tools listed and the the
+LLM decide what tool to call. But when
+we we were were growing more and more
+and more, we realized that we have a we
+we need a new like the orchestration and
+then multi or we need like multi-agent
+the orchestration and then a the the
+agents with their tools. So, it was like
+kind of an evolution.
+We started with Sophia that calling
+their directly to tools. Then we evolved
+like creating Chappie and creating the
+satellite tiles the satellite
+agents with their tools.
+So, it was like
+a decision made at the moment that when
+we start when we were adding more and
+more tools, we realized that Sophia was
+getting a little bit lost there.
+And we needed to evolve in some way and
+when we did we did a research and we we
+said, "Hey, we need an orchestrator
+here." And there was any third party
+like very established in the market to
+to go with that.
+&gt;&gt; like 2024 if I remember correctly. So,
+yes, it was in 2024. We started POC at
+the the POC at the
+the end of 2023 and in 2024 it was like
+the first year with a full dedicated
+team to Sophia. Wow.
+then you said,
+"Now we need to recreate MCP." Or which
+at that time again, there was no MCP.
+So, At the beginning when when we create
+the orchestration layer,
+all the agents were inside Chappie that
+is our main app
+or our brain.
+But then we realized that
+Chappie was getting bigger and bigger
+and bigger and bigger and it's
+wasn't going to be able to manage that.
+So, we decide to
+put away or like to take away the the
+agents or that the agents with their
+tools away from Chappie.
+And that's where when we decide like we
+have to like create connections between
+these two things.
+So, MCP were available at that time
+because it was in 2024.
+And we created like our own MCP.
+And now I imagine there's There's of
+conversations between
+do we upgrade the MCP or do we stay with
+what we've created? Because MCP has this
+ecosystem around it. Or do we And
+probably on the orchestration layer,
+you're probably thinking, do we even
+need an orchestration layer anymore? Can
+we just let the model cook?
+That's That's yeah, that's talks that we
+that we have in like every week, let's
+say.
+We now have MCP protocols in Sophia.
+We are not thinking about changing the
+old ones to MCPs, but as the world is
+more MCP driven now, we we have to or we
+had to add MCP to Sophia so we can
+uh keep up-to-date and connect with new
+things, like it's say with external
+things or with our
+with other APIs of our of Test Beggar
+that are creating their MCPs as well.
+the new connections can be made from um
+through MCPs.
+Um
+And about the orchestration layer,
+we are like
+in when we when you create an agent,
+last week happens to us, we add a new
+tool
+with one agent, like we create we create
+a new tool
+and with examples of the use cases of
+that tool, we were to like we weren't
+very specific and start with the Sophia
+the day next to the the the develop
+start to like sending all the prompts to
+that tool and that wasn't right. So,
+we think we need the orchestration layer
+for now because also the agents that we
+have are very different, like issues
+assistant or flights or trip planner or
+dream facing, like
+they are very different use cases that
+you have.
+So, the orchestration layer keep that
+very optimized and very that I let's say
+simple in a way like
+uh breaking the decision of the LLM in
+two parts. Keep the
+the the flow or the conversation more
+Yeah, it seems like it's a separation of
+concerns.
+&gt;&gt; Yeah. Yeah, it's like
+&gt;&gt; it to
+almost be like
+a walled garden. Maybe not walled
+garden, but just if it's going to grab
+one of these tools, then it takes it. I
+still feel like you probably if you
+reassess in a year or maybe 6 months,
+it'll be like, well, okay, maybe we can
+get rid of it now.
+&gt;&gt; Yeah, probably.
+&gt;&gt; Considering how much
+like it's just wild I
+how much you don't need them anymore for
+a lot of the use cases, right?
+&gt;&gt; Yeah. Yeah, that's true.
+But as you mentioned, we start Sofia
+like 2 years ago in a desire to combine
+uh our knowledge of assisted contacts in
+in sales, in after sales, like we saw
+the opportunity right there and it was
+so clear like LLMs were the the perfect
+use case of LLM were conversational. We
+have been selling tickets or flights
+conversationally, so it was like the
+perfect combination of those two words
+with the know-how that Des Pegar has on
+how to do that
+uh with human agents.
+Like we are
+very in touch with them and they also
+make my my job easier like saying, "Hey,
+we thought that like a human agent would
+do this in in this interaction." And we
+took it, we saw if that use case it's
+also uh for Sofia, and we implemented so
+it was like a desire to combine those
+two words
+uh that are very deep in our culture. Do
+you ever give Sofia the ability to
+bargain with the customer or negotiate
+because I know that on certain hotel
+booking sites they'll say we match the
+lowest price. Not yet. We didn't do that
+yet. Cuz it could be dangerous, right?
+&gt;&gt; It could be dangerous. Yeah, you have
+the LLM is is is deciding for you, so
+could be dangerous. Yeah, and you think
+like somebody can just come and say,
+"Oh, well, I saw it cheaper on this
+website." The LLM's like, "Okay, cool.
+I'll give it to you for $1." Yeah. Yeah.
+Yeah, so no no not yet. We are not
+thinking about that.
+It'll be nice. When it does happen, tell
+me so I can I will remember this
+conversation.

@@ -1,152 +1,258 @@
 source: latent-space
-refreshed_at: 2026-05-19T09:08:18.565Z
+refreshed_at: 2026-06-02T00:38:29.937Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 16
-done: 10
-pending: 3
+total_candidates: 34
+done: 3
+pending: 28
 episodes:
-  - id: UmCZBwsibgs
-    title: From Consumer Toys for Pets to War Drone — Yaroslav Azhnyuk, The Fourth
-      Law & Noah Smith, Noahpinion
-    duration: 7169
-    upload_date: "20260518"
-    url: https://youtube.com/watch?v=UmCZBwsibgs
+  - id: jPtQlILfkhA
+    title: "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He"
+    duration: 6282
+    upload_date: "20260601"
+    url: https://youtube.com/watch?v=jPtQlILfkhA
     status: generated
-    priority: 1
+    priority: 0
     category: ai-tech
-  - id: vUARtyOvh5U
-    title: "Inside Abridge: The AI Listening to 100 Million Doctor Visits —
-      Abridge's Janie Lee & Chai Asawa"
-    duration: 3998
-    upload_date: "20260514"
-    url: https://youtube.com/watch?v=vUARtyOvh5U
+  - id: 0fgJPhYcbVk
+    title: "Devin’s 80% Moment: Background Agents, 7x PRs, & End of Hand-Held Coding — Walden Yan & Cole Murray"
+    duration: 4172
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=0fgJPhYcbVk
     status: generated
-    priority: 1
+    priority: 0
     category: ai-tech
-  - id: 9d899Ram9Bs
-    title: 🔬How GPT‑5 derived new results in theoretical physics and quantum
-      gravity — Alex Lupsasca, OpenAI
-    duration: 5511
-    upload_date: "20260505"
-    url: https://youtube.com/watch?v=9d899Ram9Bs
-    status: generated
-    priority: 1
-    category: ai-tech-rest
+  - id: XdevS0GSuiQ
+    title: 🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub
+    duration: 4212
+    upload_date: "20260527"
+    url: https://youtube.com/watch?v=XdevS0GSuiQ
+    status: pending
+    priority: 0
+    category: ai-tech
+  - id: kaX43RRRUKY
+    title: "AI Agents Need Computers: 74% MoM Growth, 850K/Day Runs, & New Agent Cloud — Ivan Burazin, Daytona"
+    duration: 4300
+    upload_date: "20260521"
+    url: https://youtube.com/watch?v=kaX43RRRUKY
+    status: pending
+    priority: 0
+    category: ai-tech
+  - id: LzCUYNP5UTI
+    title: "The Agent-Native Cloud: 3M Users, 100K Signups/Wk, Data Centers, & Death PRs — Jake Cooper, Railway"
+    duration: 5394
+    upload_date: "20260520"
+    url: https://youtube.com/watch?v=LzCUYNP5UTI
+    status: pending
+    priority: 0
+    category: ai-tech
   - id: CSYWbbP_OkY
-    title: ⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company
-      — Yasser Elsaid, Founder, Chatbase
-    duration: 3626
+    title: ⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company — Yasser Elsaid, Founder, Chatbase
+    duration: 3625
     upload_date: "20260502"
     url: https://youtube.com/watch?v=CSYWbbP_OkY
     status: generated
     priority: 1
     category: ai-tech
-  - id: rv23_KcHt4s
-    title: "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, & 1K
-      Engineers—Applied Intuition"
-    duration: 4447
-    upload_date: "20260427"
-    url: https://youtube.com/watch?v=rv23_KcHt4s
-    status: generated
-    priority: 1
-    category: ai-tech
   - id: RrkGoX3Cw7o
-    title: "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited
-      tokens — Mikhail Parakhin"
-    duration: 4470
+    title: "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited tokens — Mikhail Parakhin"
+    duration: 4469
     upload_date: "20260422"
     url: https://youtube.com/watch?v=RrkGoX3Cw7o
     status: failed
     priority: 1
     category: ai-tech
-  - id: uqM8qjbLRHA
-    title: 🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron
-      Alfa & Daniel Bear, Noetik
-    duration: 5122
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=uqM8qjbLRHA
-    status: generated
-    priority: 1
-    category: ai-tech-rest
   - id: yyuVR-ML9X8
-    title: "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil
-      Eifrem, CEO Neo4J"
+    title: "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil Eifrem, CEO Neo4J"
     duration: 2933
     upload_date: "20260418"
     url: https://youtube.com/watch?v=yyuVR-ML9X8
     status: failed
     priority: 1
     category: ai-tech-rest
-  - id: ATt7QJgt-2k
-    title: Notion’s Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future
-      of Work
-    duration: 5137
-    upload_date: "20260415"
-    url: https://youtube.com/watch?v=ATt7QJgt-2k
-    status: generated
-    priority: 1
-    category: manual-update
   - id: 5KnCKadxSPY
-    title: ⚡️ The best engineers don't write the most code. They delete the most
-      code. — Stay Sassy
+    title: ⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy
     duration: 3450
     upload_date: "20260413"
     url: https://youtube.com/watch?v=5KnCKadxSPY
     status: pending
     priority: 1
     category: ai-tech
-  - id: CeOXx-XTYek
-    title: "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or
-      review — Ryan Lopopolo, OpenAI"
-    duration: 4674
-    upload_date: "20260407"
-    url: https://youtube.com/watch?v=CeOXx-XTYek
-    status: generated
-    priority: 1
-    category: manual-update
   - id: knx2wrILP1M
-    title: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and
-      Why "This Time Is Different"
+    title: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different"
     duration: 4580
     upload_date: "20260403"
     url: https://youtube.com/watch?v=knx2wrILP1M
     status: pending
     priority: 1
     category: ai-tech
-  - id: oBWRHnggscM
-    title: "Moonlake: Interactive, Multimodal World Models — with Chris Manning and
-      Fan-yun Sun"
-    duration: 4008
-    upload_date: "20260402"
-    url: https://youtube.com/watch?v=oBWRHnggscM
-    status: generated
-    priority: 1
-    category: ai-tech-rest
   - id: obEWFoLfWD4
-    title: "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's
-      Most Powerful Stove at Impulse"
+    title: "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's Most Powerful Stove at Impulse"
     duration: 2223
     upload_date: "20260331"
     url: https://youtube.com/watch?v=obEWFoLfWD4
     status: failed
     priority: 1
     category: ai-tech-rest
-  - id: SUjA25ijcNs
-    title: "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar
-      Reddy & Guillaume Lample"
-    duration: 3242
-    upload_date: "20260330"
-    url: https://youtube.com/watch?v=SUjA25ijcNs
-    status: generated
-    priority: 1
-    category: ai-tech-rest
   - id: KSCCKCz2x04
-    title: 🔬There Is No AlphaFold for Materials — AI for Materials Discovery with
-      Heather Kulik
-    duration: 2115
+    title: 🔬There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik
+    duration: 2114
     upload_date: "20260324"
     url: https://youtube.com/watch?v=KSCCKCz2x04
     status: pending
     priority: 1
     category: ai-tech-rest
+  - id: TvmxWWfiYWI
+    title: "Dreamer: the Agent OS for Everyone — David Singleton"
+    duration: 3863
+    upload_date: "20260320"
+    url: https://youtube.com/watch?v=TvmxWWfiYWI
+    status: pending
+    priority: 1
+  - id: ZpZ7lFoWaT8
+    title: Anthropic’s Felix Rieseberg on AI Coworkers, Local-First Agents, and the Future of Knowledge Work
+    duration: 5254
+    upload_date: "20260317"
+    url: https://youtube.com/watch?v=ZpZ7lFoWaT8
+    status: pending
+    priority: 1
+  - id: nxnQl4AcqFg
+    title: "⚡️Monty: the ultrafast Python interpreter by Agents for Agents — Samuel Colvin, Pydantic"
+    duration: 2042
+    upload_date: "20260314"
+    url: https://youtube.com/watch?v=nxnQl4AcqFg
+    status: pending
+    priority: 1
+  - id: Iu4gEnZFQz8
+    title: "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Eskildsen of Turbopuffer"
+    duration: 3631
+    upload_date: "20260312"
+    url: https://youtube.com/watch?v=Iu4gEnZFQz8
+    status: pending
+    priority: 1
+  - id: 64D6tcsPH1U
+    title: Agent Inference at the "Speed of Light" — How NVIDIA moves like a $4.3 Trillion Startup
+    duration: 5159
+    upload_date: "20260308"
+    url: https://youtube.com/watch?v=64D6tcsPH1U
+    status: pending
+    priority: 1
+  - id: tMflcZHo2zI
+    title: "Cursor's Third Era: Cloud Agents — ft. Sam Whitmore, Jonas Nelle, Cursor"
+    duration: 4278
+    upload_date: "20260306"
+    url: https://youtube.com/watch?v=tMflcZHo2zI
+    status: pending
+    priority: 1
+  - id: mMbPEf4V_hE
+    title: Why Every Agent Needs a Box — Aaron Levie, Box
+    duration: 4618
+    upload_date: "20260305"
+    url: https://youtube.com/watch?v=mMbPEf4V_hE
+    status: pending
+    priority: 1
+  - id: Yw-m0PI2Atk
+    title: "⚡️ Polsia: Solo Founder Tiny Team from 0 to 1m ARR in 1 month & the future of Self-Running Companies"
+    duration: 2515
+    upload_date: "20260301"
+    url: https://youtube.com/watch?v=Yw-m0PI2Atk
+    status: pending
+    priority: 1
+  - id: 9QSm_mRGpN8
+    title: Measuring Exponential Trends Rising (in AI) — Joel Becker, METR
+    duration: 3912
+    upload_date: "20260227"
+    url: https://youtube.com/watch?v=9QSm_mRGpN8
+    status: pending
+    priority: 1
+  - id: UwnqWAYOjPU
+    title: Dylan Patel Explains the AI War While Cooking | In-Context Cooking
+    duration: 3312
+    upload_date: "20260226"
+    url: https://youtube.com/watch?v=UwnqWAYOjPU
+    status: pending
+    priority: 1
+  - id: V7_Ec2WFAWs
+    title: "🔬Max Welling: Materials Underlie Everything"
+    duration: 2054
+    upload_date: "20260225"
+    url: https://youtube.com/watch?v=V7_Ec2WFAWs
+    status: pending
+    priority: 1
+  - id: x9rWFiIubmc
+    title: "Claude Code for Finance + The Global Memory Shortage: Doug O'Laughlin, SemiAnalysis"
+    duration: 7659
+    upload_date: "20260224"
+    url: https://youtube.com/watch?v=x9rWFiIubmc
+    status: pending
+    priority: 1
+  - id: p1k7TiAFqdE
+    title: Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z
+    duration: 3331
+    upload_date: "20260219"
+    url: https://youtube.com/watch?v=p1k7TiAFqdE
+    status: pending
+    priority: 1
+  - id: F_1oDPWxpFQ
+    title: "The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean"
+    duration: 5011
+    upload_date: "20260212"
+    url: https://youtube.com/watch?v=F_1oDPWxpFQ
+    status: pending
+    priority: 1
+  - id: nP0N1kYLegc
+    title: 🔬Generating Molecules, Not Just Models
+    duration: 6086
+    upload_date: "20260212"
+    url: https://youtube.com/watch?v=nP0N1kYLegc
+    status: pending
+    priority: 1
+  - id: ck63uv6APBA
+    title: "Goodfire AI’s Bet: Interpretability as the Next Frontier of Model Design — Myra Deng & Mark Bissell"
+    duration: 4120
+    upload_date: "20260205"
+    url: https://youtube.com/watch?v=ck63uv6APBA
+    status: pending
+    priority: 1
+  - id: zP8P7hJXwE0
+    title: "⚡️Context Graphs: according to the authors — Jaya Gupta, Ashu Garg, Foundation Capital"
+    duration: 2024
+    upload_date: "20260204"
+    url: https://youtube.com/watch?v=zP8P7hJXwE0
+    status: pending
+    priority: 1
+  - id: XqoBSB3nsgw
+    title: "🔬 From Red Teaming GPT-4 to Automating Drug Discovery: The Future of AI in Science — Andrew White"
+    duration: 4436
+    upload_date: "20260128"
+    url: https://youtube.com/watch?v=XqoBSB3nsgw
+    status: pending
+    priority: 1
+  - id: W2cBTVr8nxU
+    title: "⚡️ Prism: OpenAI's LaTeX \"Cursor for Scientists\" — Kevin Weil & Victor Powell, OpenAI for Science"
+    duration: 2160
+    upload_date: "20260127"
+    url: https://youtube.com/watch?v=W2cBTVr8nxU
+    status: pending
+    priority: 1
+  - id: unUeI7e-iVs
+    title: Captaining IMO Gold, Deep Think, On-Policy RL, Feeling the AGI in Singapore — Yi Tay
+    duration: 5525
+    upload_date: "20260123"
+    url: https://youtube.com/watch?v=unUeI7e-iVs
+    status: pending
+    priority: 1
+  - id: BKLvySNVBtM
+    title: Brex’s AI Hail Mary — With CTO James Reggio (acquired for $5B by Capital One!)
+    duration: 4407
+    upload_date: "20260117"
+    url: https://youtube.com/watch?v=BKLvySNVBtM
+    status: pending
+    priority: 1
+  - id: v5mBjeX4TJ8
+    title: "Artificial Analysis: The Independent LLM Analysis House — with George Cameron and Micah Hill-Smith"
+    duration: 4694
+    upload_date: "20260109"
+    url: https://youtube.com/watch?v=v5mBjeX4TJ8
+    status: pending
+    priority: 1
