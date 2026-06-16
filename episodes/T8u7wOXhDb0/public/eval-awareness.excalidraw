@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":150,"y":10,"width":480,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"\"Are we in an eval?\"","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"eval awareness","lineHeight":1.25,"baseline":22},
+
+    {"id":"box","type":"rectangle","x":120,"y":80,"width":560,"height":80,"angle":0,"strokeColor":"#862e9c","backgroundColor":"#eebefa","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"boxt","type":"text","x":140,"y":95,"width":520,"height":50,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":20,"fontFamily":1,"text":"Humans ask: are we in a simulation?\nAIs ask: are we in an eval?","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"awareness","lineHeight":1.25,"baseline":22},
+
+    {"id":"l","type":"rectangle","x":40,"y":200,"width":340,"height":160,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"lt","type":"text","x":60,"y":220,"width":300,"height":120,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"In simulation\n\n\"actions don't affect\nanyone\"\n→ models go even\n   more crazy","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"sim","lineHeight":1.25,"baseline":22},
+
+    {"id":"r","type":"rectangle","x":420,"y":200,"width":340,"height":160,"angle":0,"strokeColor":"#2b8a3e","backgroundColor":"#b2f2bb","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"rt","type":"text","x":440,"y":220,"width":300,"height":120,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"In real life\n\nWill they notice?\nWill they switch\nbehavior?\nWe don't know yet.","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"real","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

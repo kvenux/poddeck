@@ -1,0 +1,37 @@
+id: 4D3hDmGhFhA
+source: lennys-podcast
+title: "AI 预言：Codex 反超 Claude、SaaS 没死、PM 和设计师才是赢家 — Dan Shipper"
+guest: "Dan Shipper"
+guest_role: "Every CEO & 联合创始人"
+published: 2026-05
+duration: "≈ 75 min"
+url: https://youtube.com/watch?v=4D3hDmGhFhA
+thumbnail: https://img.youtube.com/vi/4D3hDmGhFhA/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - product-management
+  - productivity
+  - startup
+  - ceo
+  - founder
+  - interview
+  - quick-take
+  - strategic
+summary: |
+  一年前 Dan Shipper 在这档播客里押 Claude Code 用于非编程工作，事后被证明完全正确。这一期他回到 Lenny's Podcast，把对未来一年的预言切成三组：工作的物理表面会迁移到 Codex 或 Claude 这类 agent shell 里；工作的形态会以 pull request 爆炸和 forward-deployed engineer 兴起为主线；PM 和 full-stack 设计师将成为最大赢家。最反直觉的押注：Codex 已经超过 Claude Code、SaaS 没有末日反而值得买、AI 工作大失业不会到来。
+core_ideas:
+  - 工作会分叉成两种形态——公司级超级 agent（Slack 里）+ Codex/Claude 作为个人工作 OS
+  - CLI 时代结束——Dan 主动翻转之前对 CLI 的押注："We made GUIs for a reason"
+  - SaaS 反转——不是 AI 嵌入 SaaS，而是 SaaS 跑在 agent 的 in-app browser 里
+  - 'I would buy SaaS stocks right now——agent 会把 SaaS 用量推到天上'
+  - 个人 agent 翻盘——Dan 押过个人 agent，半年后翻转押公司超级 agent + forward-deployed engineer
+  - Senior Engineer Benchmark——GPT-5.5 一次跳了 30 分到 62/100，但仍远低于人类的 high-80s
+  - 模型本质——"make yesterday's human competence cheap"，前沿永远向上一格
+  - 每个 agent 都需要一个人——Every 一年员工翻倍（15 → 30），自动化是个谎言
+  - PM + full-stack 设计师是赢家——Marcus 在 Every 一个人扛 Spiral 写作产品
+  - Ride the models——新模型出就把你最关心的问题再试一遍
+  - AI 的边缘 = AI 遇到真实人类的地方，不在 SF
+  - 从 spaciousness and strength 出发，不是 FOMO 驱动
+base: /episodes/4D3hDmGhFhA/

@@ -1,0 +1,36 @@
+id: -rIAVuaRjOg
+source: latent-space
+title: "Making DeepSeek v4 outperform Opus 4.7 with Taste — Ahmad Awais, CommandCode.ai"
+guest: "Ahmad Awais"
+guest_role: "Founder, CommandCode.ai"
+published: 2026-05
+duration: "30min"
+url: https://youtube.com/watch?v=-rIAVuaRjOg
+thumbnail: https://img.youtube.com/vi/-rIAVuaRjOg/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - coding-agents
+  - ai-products
+  - startup
+  - engineer
+  - founder
+  - interview
+  - technical
+  - quick-take
+summary: |
+  Ahmad Awais 解释为什么 DeepSeek V4 在编码 agent 里"很慢、很笨"——不是模型不够强，
+  而是它发出错的 tool call 后听不进 Zod error，平均会原样重发 56 次。
+  他们写了 3,200 行确定性 repair logic（现在 16,000 条 variation，覆盖 600 亿 tokens），
+  让 DeepSeek/Kimi/MiniMax 在 Command Code 里跑出接近 Opus 的体验，并把同一思路推广到
+  设计 slop 和安全代码。第二条产品线 Taste 自动学习你的微决策、存成 git 里的 markdown，
+  让便宜模型借用贵模型沉淀下来的判断力。
+core_ideas:
+  - "Tool Confusion：DeepSeek V4 Pro 的 alpha male energy——错的 tool call 会原样重发 56 次"
+  - "Repair, don't reject：先修好 args 再附 hint，第三次调用就开始自我纠正"
+  - "Claude Code 把 tool 错误藏在 Ctrl-O 后——开源模型在它上面永远拿不到公平评测"
+  - "不是 capability gap，是 contract gap：同一套思路打设计 slop（OKLCH、7 个表面模式）也成立"
+  - "Taste 是 highest order bit：自动学微决策、写进 git markdown、PR 审查、永不过时"
+  - "组合拳：贵模型起手沉淀 taste 文件 → 便宜模型接着干，整体表现接近贵模型独立工作"
+  - "Command Code 即将开源；产品哲学不做 Windows（everything works）也不做 Linux（造驱动），选 Apple——best of best + 可 hack"
+base: /episodes/-rIAVuaRjOg/

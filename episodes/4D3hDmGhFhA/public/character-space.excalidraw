@@ -1,0 +1,20 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":170,"y":10,"width":480,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":20,"fontFamily":1,"text":"Where the edge of AI lives","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Where","lineHeight":1.25,"baseline":22},
+
+    {"id":"sfcircle","type":"ellipse","x":80,"y":120,"width":300,"height":300,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":70,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"sflab","type":"text","x":120,"y":150,"width":220,"height":80,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":17,"fontFamily":1,"text":"SF labs\n\nmake the models\nknow them deeply","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"SF","lineHeight":1.25,"baseline":22},
+
+    {"id":"usercircle","type":"ellipse","x":420,"y":120,"width":300,"height":300,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":70,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"userlab","type":"text","x":460,"y":150,"width":220,"height":80,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":17,"fontFamily":1,"text":"Anywhere\n\nreal humans\ndoing real work","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Anywhere","lineHeight":1.25,"baseline":22},
+
+    {"id":"overlap","type":"text","x":300,"y":260,"width":200,"height":40,"angle":0,"strokeColor":"#862e9c","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"the edge","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"the edge","lineHeight":1.25,"baseline":22},
+
+    {"id":"cap","type":"text","x":110,"y":450,"width":580,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":15,"fontFamily":1,"text":"Discovery happens where new model meets new problem.","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Discovery","lineHeight":1.25,"baseline":18}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

@@ -1,0 +1,38 @@
+id: 3xZ78HHdqAk
+source: mlops-community
+title: "AI Is Fast. AI Projects Are Slow. Let's Fix That."
+guest: "Rocket Ride 联合创始人"
+guest_role: "Rocket Ride 联合创始团队 — 开源框架 2026-03-04 发布，捐给 Linux Foundation (AIF)；前身做 data discovery & preparation，处理过 1.5 billion files 级 RAG"
+published: 2026-06
+duration: "≈ 57 min"
+url: https://youtube.com/watch?v=3xZ78HHdqAk
+thumbnail: https://img.youtube.com/vi/3xZ78HHdqAk/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - startup
+  - founder
+  - interview
+  - technical
+  - quick-take
+summary: |
+  Rocket Ride 两位联合创始人讨论 "coding 不再是瓶颈" 之后的新工作 ——
+  intentionality / tool discovery / quality 才是新岗位；为什么 Claude 在增量工程上偷懒、容易写出 "spaghetti code that's not worth shipping"；
+  Rocket Ride 怎么把 AI 应用拆成 node + 五条 lane，让 Claude 用一句英文拼出 45 节点的 pipeline；
+  以及一个 12+9 小时的 Crew AI 同步噩梦 (dog/cat/elephant) 如何揭出 "plumbing 才是大坑"；最后讨论 $25k AWS 账单背后的 cost observability 和 model server 聚合 (一张 "big-ass GPU" 服务 100 个客户)。
+core_ideas:
+  - Coding 不再是瓶颈 —— 瓶颈搬到了 intentionality、tool discovery & selection、quality & post-production 三个新位置
+  - Efficiency AI (doing the same with less) vs Opportunity AI (doing more with the same) —— 短期裁员 vs 长期 10x topline
+  - Claude 擅长一次性按 plan 实现，不擅长增量工程 —— 它会再写一份 common.css，因为它不记得三天前自己写过
+  - 写代码不是终点 ——  能 run ≠ 能 ship；"You end up with spaghetti code that's not worth actually shipping"
+  - Vibe coder 关心结果，software developer 关心 craft（maintainability / readability / reusability）
+  - Lego 哲学 + 五条 lane（text / table / image / audio / video）—— 让 Claude 用一句英文拼出最长 45 节点的 pipeline
+  - 'It''s the plumbing, not the AI calls —— 框架瞄准 LLM 周围 80% 的脏活，不是 LLM 本身'
+  - 12 + 9 小时的 Crew AI 同步噩梦 —— 三个 chat (狗/猫/大象) 互踩；换成新 async API 才能跑 30 个并发
+  - 256 threads concurrently 是地基 —— Python sync/async 是 Claude 经常错的细节
+  - $25k AWS 账单 —— observability 不止 quality，还有 cost；下一波压力是"让它便宜"
+  - Auto-research 的想法：用 production traffic 自动重测便宜 LLM，决定是否切换
+  - Model server 聚合：一张 "big-ass GPU" + batched 64/128 channel 服务 100 个客户，按使用计费，lanes are isolated 保证不串数据
+base: /episodes/3xZ78HHdqAk/

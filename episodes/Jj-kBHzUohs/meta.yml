@@ -1,0 +1,27 @@
+id: Jj-kBHzUohs
+source: dwarkesh
+title: "The better AI gets, the smaller its share of the economy might get — Alex Imas & Phil Trammell"
+guest: "Alex Imas & Phil Trammell"
+guest_role: "AGI economics researchers"
+published: 2026-06
+duration: "~1h"
+url: https://youtube.com/watch?v=Jj-kBHzUohs
+thumbnail: https://img.youtube.com/vi/Jj-kBHzUohs/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - researcher
+  - strategic
+  - deep-dive
+summary: |
+  两位经济学家——DeepMind 的 Alex Imas 和 Epoch 的 Phil Trammell——讨论 AGI 时代的劳动份额、相关性部门、混乱中段
+  与再分配难题。他们提出一个反直觉的核心命题：AI 越聪明，它在 GDP 里的相对份额可能反而越小，因为机器经济会内部
+  闭环；劳动份额能否维持，取决于人类对"人在里头"的内在偏好与变种增长之间的赛跑。
+core_ideas:
+  - 工业革命 200 年后，劳动份额仍超过 60%——这本身就是一个待解的谜
+  - 相关性部门（人在里头才有价值的服务）能否撑起劳动份额，是一个数据问题，而我们没有数据
+  - 经济学界需要"data 的 Manhattan project"——尤其是消费弹性数据
+  - 混乱中段（够聪明能裁人但不够聪明把饼做大）是一个理论上可能但条件极窄的窗口
+  - AI 是电力还是社交媒体？这个二分决定了谁能拿到 AI 的红利
+  - 对发展中国家最优策略是"buy the index"——指数化 AI 经济，而非建数据中心
+base: /episodes/Jj-kBHzUohs/

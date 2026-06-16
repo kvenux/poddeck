@@ -1,0 +1,33 @@
+id: RJjl1TwyfWM
+source: lennys-podcast
+title: "Tony Fadell: How to build real taste (and why AI makes it more valuable)"
+guest: "Tony Fadell"
+guest_role: "iPod / iPhone / Nest 之父；Build Collective 创始人"
+published: 2025-05
+duration: "≈ 50 min"
+url: https://youtube.com/watch?v=RJjl1TwyfWM
+thumbnail: https://img.youtube.com/vi/RJjl1TwyfWM/maxresdefault.jpg
+status: generated
+tags:
+  - product-management
+  - design
+  - hardware
+  - ai-products
+  - startup
+  - interview
+  - founder
+  - strategic
+summary: |
+  Tony Fadell——iPod、iPhone、Nest thermostat 的核心设计者——回到Lenny's Podcast谈"如何真正做出有品味的产品"。从他和Steve Jobs就iPhone要不要硬键盘的死磕、iPod差点没有Windows版本险些断送Apple，到Nest在Google成"stepchild"的遗憾，再到泄露的Claude main loop为什么让"真工程师反胃"——Tony把"opinion-based decisions"、"三代产品法则"、"press release first"、"luxury software vs fast fashion"等理念串成了一个关于"为什么AI时代真正的产品taste更值钱"的论述。
+core_ideas:
+  - Opinion-based decisions——做1.0新品类时没数据可参考，必须有1–2个taste maker拍板；这是"benevolent dictatorship"
+  - 三代产品法则——make the product, fix the product, fix the business；iPod前两代只卖给Mac geek，第三代上Windows才起飞
+  - iPod险些没被救活——Steve "over my dead body" 拒绝Windows版；Tony坚持skunk works做出来，"否则iPod不是$349，是$3,000"
+  - Pain + 刚成熟的新tech = revolution——iPod、iPhone、Nest都是技术汇聚点
+  - Press release first 不是"working backwards"——是"insane way of working"才把它弄反了
+  - AI写的Claude main loop"让真工程师反胃"——short-term gain, long-term technical debt；fast fashion vs luxury software
+  - 下一个iPhone还会有屏幕——但输入层级翻过来：voice先，keyboard次之，tap/swipe最后
+  - 产品人的伦理责任——Steve否决iTunes上porn的故事，对照今天"sex chat bots for everyone"的AI公司
+  - iPhone是冰箱——能装junk food也能装good food；平台公司有责任提供"数字nutrition label"
+  - 'Don''t cognitively surrender.——用工具，但别认知缴械'
+base: /episodes/RJjl1TwyfWM/

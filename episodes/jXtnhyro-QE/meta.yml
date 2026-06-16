@@ -1,0 +1,33 @@
+id: jXtnhyro-QE
+source: mlops-community
+title: "Context Engineering for Coding Agents"
+guest: "Faus"
+guest_role: "Applied AI researcher / former restaurateur"
+published: 2025-11
+duration: ~70 min
+url: https://youtube.com/watch?v=jXtnhyro-QE
+thumbnail: https://img.youtube.com/vi/jXtnhyro-QE/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - productivity
+  - ai-products
+  - monologue
+  - researcher
+  - technical
+summary: |
+  一位 MLOps community Amsterdam 的现场分享。讲者把 "context engineering" 拆成一个
+  很哲学的命题：每周一个新模型，你能控制的只有那个 context window —— 怎么往里塞东西，
+  比模型本身更重要。从 25% 的经验法则、context 的三分法（deterministic / probabilistic /
+  human），到用大脑结构作类比、把 Karpathy 提议的 "markdown 当 memory" 拓展成带衰减
+  和重要度评分的 wiki —— 最后以一个 5 分钟硬 timer 的对比 demo 收尾。
+core_ideas:
+  - "focus on the things you can change —— 那就是 context window"
+  - 25% 是 context 使用的经验上限，不管模型窗口是 200K 还是 1M
+  - context 可以分成 deterministic / probabilistic / human 三类，区别在 "怎么被注入"
+  - 用大脑结构作类比 —— working memory + 海马体 + 长期记忆 —— 不是拟人，是借抽象
+  - Karpathy 提议 markdown 文件当 memory，作者在上面加了 hot.md、重要度 score、Ebbinghaus 衰减
+  - 5 分钟硬 timer 的对比 demo：同样的 Opus 4.7，带 wiki 的赢，不带的来不及
+  - 判断要不要用 LLM 的最简单标准 —— 你能不能事先说清 "好 / 坏" 的定义？
+base: /episodes/jXtnhyro-QE/
+category: ai-tech

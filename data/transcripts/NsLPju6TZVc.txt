@@ -1,0 +1,1988 @@
+Even if the technology again plateaus,
+even with current model shape, uh the
+way we're going to walk in 10 years is
+probably nothing compared to the way we
+walk today. And so there's still many
+many many opportunities to build for for
+everyone.
+We should probably start with this
+multiplayer verse [music] single player
+AI. I want to mention to folks that
+you've got a decorated background. you
+were at Stripe in the early days. You
+then you were also at OpenAI and now
+you're doing your own thing with Dust.
+So, it's super cool to see this
+progression. Are there things that in
+those early days of Stripe scaling up or
+in the early days of OpenAI scaling up
+that you have taken away from that and
+you want to infuse into Dust as you're
+scaling up?
+>> Oh yeah, a ton. uh mostly stripe over
+open first uh yeah I've been very lucky
+I've been very lucky uh so we joined
+stripe uh through an acquisition
+actually uh with my current co-ounder so
+it's not the first time we starting
+company
+>> nice
+>> uh the big difference that it was 15
+years ago and we we were young we had
+absolutely no clue about what we were
+doing but it was fun uh but we can chat
+about that later it's a whole subject of
+its own uh stripe we saw the 150 people
+to 3,000 it was absolutely incredible
+and I think uh I hold very dear to my
+heart the 150 to 500 people. I think it
+was pretty magical at Stripe
+>> uh because there was uh really uh very
+minimal management and it still was
+working really well and I'm trying I've
+been trying since then to understand
+what was happening at the time for that
+to work so well.
+>> Do you think that's the writing culture?
+So yes uh so I've got a I've got a bit
+of a theory about that uh which we we
+actually turn into operating principle
+at dust but my my big theory about the
+time it's slightly but I think
+it's interesting nonetheless.
+>> Uh my theory is that we were actually
+implementing a flocking algorithm. So
+you know what a flocking algorithm is is
+it's like when you so when you want to
+program a flock of birds or flock of
+whatnot uh in computers
+>> that are kind of a autonomous groups of
+things that autoorganize around
+obstacles. There's actually only three
+things to uh there's only three rules to
+make it work. It's uh local spiration.
+So small force that push the the people
+uh away, distant attraction
+>> and alignment
+and uh that gives you kind of a some
+form of autonomous behavior around
+obstacles. Uh you can you can look at
+flocking algorithm online and you'll see
+the small videos and I think at Scribe
+the writing culture was the distant
+attraction. Uh so Scribe was very early
+into implementing that kind of a open
+writing culture. It was mostly through
+email at the time, interestingly.
+>> And what? Oh, no. It was great. It was
+great. Oh, yeah. [laughter]
+>> I don't like Slack that much personally,
+and I love email, but that's another
+take that we can spend a lot of time on.
+[laughter]
+>> You're surprising me here. All right.
+>> Uh, but anyway, uh, so this traction,
+why? It's because we had those mailing
+list and so there were people within the
+or that was spending a lot of time kind
+of sifting through those main list and
+so that mean that somebody would see
+some else talk about subject A over
+there and see another person talk about
+sub the same subject over there in the
+or was able to tell them hey you're
+talking about the same thing you should
+chat and so that's kind of a distant
+traction uh false uh I think at scribe
+one thing that really struck me is the
+amount of trust between people at the
+time uh it was just ingrained in the
+cult culture in a very nice way and
+that's a kind of a local separation
+force because you don't look over the
+shoulder. If somebody says I'm I've got
+this, they've got this and you stop
+caring about that. And then finally, the
+last one was which is uh which is almost
+the the most one is alignment.
+But I think that's why we were we were
+and which is very interesting because
+it's very hard to reproduce that in
+modern times with AI. But we had a very
+strong alignment on the vision. It was
+very easy to understand. We are a dev
+API for payments. Basically, there's a
+tensor of countries, payment methods,
+payout methods, and you just just want
+to to fill it in.
+>> It was very easy to understand. And so
+that means that you are every is kind of
+aligned very naturally. And so that
+gives you the three properties of
+flocking which gives you kind of a
+autonomous behavior in a sense emergent
+autonomous behavior which explains why
+potentially we didn't need that that
+much management and why it was so nice
+to work in that environment. It feels
+like we could draw a parallel here and
+heads up segue into multiplayer AI,
+single player versus multiplayer with
+the flock algorithm. And how have you
+thought about humans working with agents
+in that flock style? Do you think that
+there's anything that you could look at
+there?
+>> Yeah, there's probably a ton of stuff,
+but it's very hard to anticipate because
+today we are still very much stuck in
+the single player mode. And what do you
+mean by that single player mode?
+>> It's mostly that most of the agent
+interactions we have, we just have them
+alone for two reasons. I think uh the
+main two reasons I see is first the
+timer of the tasks an agent can take is
+still pretty small. uh according to the
+meter benchmark uh we are topping at
+right now at uh couple hours let's say
+half a day and mostly in coding task by
+the way and you know half a day is still
+very much a single player thing you I
+can walk half a day on the task you can
+walk half the day on this task and you
+walk alone and it's fine because it's a
+kind of well-shaped tasks the other
+thing is that the the they're still very
+imperfect in many ways and so you
+interact a lot with Um, it's messy. Uh,
+really when you look at an agent trace
+between a human and an agent, you look
+at the how the sages made and like, oh
+man, you did something funky there.
+>> Or it's like, oh, you were so close,
+dude. A little bit over to the right or
+left, you would have been good.
+>> And so on those time horizon and and in
+terms of capabilities, the model are
+super jagged, which means that you're on
+that you're looking in that direction.
+the thing is clearly superhuman. You
+move a few uh uh uh degrees off on a
+slightly different task. You fall into a
+valley and the the the thing that thing
+is the dumbest dumbest thing on earth.
+And so that's why it's messy. And so all
+of that makes it very kind of unnatural
+to collaborate in an agentic loop with
+multiple humans to share uh your
+sessions with agents because they are
+messy. You share the output, you don't
+share the session. Um, and so that's
+that's why I think we're still very much
+single player AI in the way we we work.
+We all spend a lot of day in in CL code
+or codeex. We all spend a lot of day in
+our favorite agent harness to work on
+presentation and stuff. Uh, and it's we
+pretty much do it uh alone and we share
+in the in the other platforms the output
+and we collaborate there be it on
+GitHub, bit on notion, on Google drive
+whatnot. Um I think the thing that the
+the thing that is supposed to is is is
+about to switch is probably uh as the
+models are getting better and they seems
+to be getting better consistently. It's
+always an open question but when you
+look at the past few months Mhm. Um well
+the uh the time horizon of those task
+was increased and if you start
+considering a task like that represents
+a week of man walk
+for most job descriptions those tasks
+are inherently cross team cross people
+involving multiple person even if you
+think of coding there is very few coding
+task that takes a week that doesn't
+involve collaboration even with somebody
+external be it a product manager be it a
+designer
+or maybe the infra person because you
+have something finicky about the infra.
+Uh and so uh and if you look at
+something that outside of coding then
+most task that takes a week they are
+extremely crossunctional and so that
+will flip the picture where uh it's not
+going to be possible anymore for just
+one human to steer the agent in those
+type of task. the agent even the
+relationship between the human and the
+agent was will will flip. The agent will
+orchestrate a longer horizon task
+involving humans and the humans will
+steer but they'll they'll I'm quite
+convinced there's going to be a need for
+many humans to steer those agents be an
+agent or multiple agents we don't really
+care uh for those kind of long horizon
+tasks
+>> they'll invoke the human agent or the
+human tool when they need to. So it's
+invoking a SR tool and a
+>> for that
+>> there's gonna be there's there's gonna
+be some of that for sure.
+>> Yeah. And now, don't you feel like this
+is just an it's a UX problem more than
+anything? Because when you tell me about
+the single player mode, I think, okay,
+but what ways do I have to share with my
+colleagues rather than exporting the
+chat or putting it up with my PR, things
+like that. it doesn't really feel like I
+have the tools in order to get to bring
+someone else along this journey with me.
+Yeah, I think I think the the the
+interaction will pretty much remains uh
+kind of a you with the agent, but it's
+just that the agents will create many of
+those sessions in the to to achieve that
+task and have will kind of collaborate
+with many humans and so it is entirely a
+a UX is maybe slightly uh diminishing
+but I do think it's not a it's not a a
+machine learning problem. It's more of a
+product problem.
+>> Yeah. Um it means it just means that as
+an example if we if we take co-work
+which is having a kind of a real moment
+these days because it's working locally
+on your computer it is inherently a
+single player thing it's very hard to
+kind of a collaborate around something
+through co-work with multiple humans and
+that means that you need to push that
+harness inside of a Austin environment
+this is the only way I think u and uh
+and there's a lot of things that we we
+are exploring around what is the right
+product surface to enable that
+collaboration uh where you have multiple
+humans multiple uh sessions around a
+shared state uh and how that what what
+it can look like. I think this is the
+frontier in terms of product of
+interacting with agents and that's the
+one we're very excited about.
+>> Talk to me more about that. So one of
+the things we're doing right now uh is
+uh is so we we we've we've we've
+released the first version of that which
+is called uh really a we call it a pod
+and a pod is really a shared state with
+a a number of sessions uh between humans
+and agents and I'll give you a very
+simple example of where it plays really
+nice. So we have a as with any companies
+we have a team weekly. Uh and the team
+weekly is mostly made of a set of uh
+slides that are somewhat always the same
+with small variations every week and
+maybe some deep dive uh about uh
+subjects uh every other week. Um and so
+in the past the way it would work is
+that somebody would start building a
+slide and and ping the humans and have
+the humans collaborate in those slides
+etc. And uh the kind of orchestration of
+all of that would take some amount of
+time uh to that human. Uh now comes uh
+agents. Maybe you can uh the the initial
+organization building a slide. You can
+you can uh you can offload to an agent
+but you still have to ping the humans
+and organize the the kind of organize
+the collaboration so that we get to a
+shared results. Um and so with a pod
+which is a group of uh conversations,
+group of humans and a shared state uh no
+our team weekly is much more driven by
+an agent than driven by a human. So
+basically uh on our team are on
+Tuesdays, Monday morning uh somebody
+triggers an agent with a skilled team
+weekly. The team the agent creates a
+pod. It creates um one session per slide
+uh with the owner of each of those areas
+and maybe one session for the people
+that are uh doing the deep dive that
+week
+>> and it will will pre-walk the slides. So
+going into metatabase pulling the data
+keeping up to date revenue customers
+going on GitHub for the the product work
+and then going on whatever platform for
+the support state whatever he'll
+pre-build the slides and then it'll ping
+the the the person responsible for that
+slide and say hey what do you want to
+talk this week about and let me let's
+collaborate on on this slides what do
+you want to add is there anything you
+want to highlight and so that
+collaboration happens in one of that
+session uh each humans that are
+responsible for each of those subjects
+are collaborating in different sessions
+and On Tuesday, let's say noon, the
+agents the agents wakes up and like
+looks at everything probably ding on the
+humans that haven't haven't finished
+their work. Wakes up yeah wakes up again
+in two hours like two hours before the
+weekly look at all the the things that
+have been built and coles them into one
+shared presentation. So we we don't use
+any presentation anymore. We use we have
+a frame which is the equivalent of
+canvas or artifacts. already kind of a
+code generated uh UIs and so it it takes
+all of those frames and and and
+>> pull them in that in that shot frame and
+that thing is ready and really the the
+weekly the team weekly which is kind of
+a a multi-day collaborative task is
+today mostly on auto mode right and I
+think that's that's the kind of product
+surface that are interesting if you
+don't have that pod which is that group
+with that sh state feels kind of weird
+because you have a bunch of
+conversations all over the place. You
+don't have a sh place to see them all.
+The agent doesn't have a place to
+organize all of that work with multiple
+humans. And so I think that's that's the
+type of things we're exploring and the
+which is very exciting for for what's to
+come for more than for what's where we
+at.
+>> Can you talk to me more about this pod?
+>> Yeah. So yeah, the the a pod is really
+like technically it's really a group of
+humans,
+a group of agents, a group of sessions
+which is the interactions between human
+and agents
+>> and these are sandboxed.
+>> Each of the session has a sandbox.
+>> Each of the session has a a state. Uh so
+a state mean let's call it a fight
+system. The fight system is visible by
+the humans but also vis mounted on the
+sandbox. Basically to make that easy we
+diving into the technical details here
+we use GCS fuse so we back that with GCS
+so it's very easy to show it in the UI
+it's very easy to show it as a mount it
+as a file system to the agent so the
+home directory of the agent in the
+sandbox is is GCS back bas basically and
+so that's the state in one session and
+then inside of the pod we also have
+another file system which is shared
+across those sessions and the agents are
+free to move files between the two file
+system so basically they the slash
+session slash blah blah blah and in
+there they have all the all the file
+system related to the current session
+and then they have slashpod
+and the sl under slashpod that's the
+shared file system where they can move
+some of those files up or down as they
+see fit and so they can really
+collaborate across sessions you can have
+collaboration across sessions through
+that shared file system at the pod level
+>> and when I'm interacting with my agent I
+can drop into somebody else's slides
+presumably also So it's not just my
+slide.
+>> So if yeah if the if the slides of that
+a so somebody has a session with an
+agent inside of the pod is working on a
+slide it leaves naturally as a starting
+point on the file system of the session.
+So it's mostly visible to that session
+and then that person will say okay the
+slides are ready move them to the move
+them to the to the pod the slides get
+moved and then somebody else will be
+able to see them or even
+>> modify them which is risky in a sense
+but that's fine. I mean uh that's that's
+in Google Drive you can modify whatever
+else has been doing in your company as
+well. So I think it's okay.
+>> Do you have the
+possibility to look at the history of
+the modifications in case you're like
+control Z?
+>> Yeah. No, not right now. Uh [laughter]
+technically
+>> that's why it's risky though.
+>> Yeah. Technically technically we have it
+because GCS is version. So technically
+we do have it and that's definely
+something that we would want. Uh yes you
+can uh you could the re though the
+reality is that you do something with an
+agent it will uh what will happen is get
+it's going to read the file and then
+it's going to emit an edit uh and so
+generally they are able to pretty much
+pretty easily backtrack that change
+because they still see them in context.
+The only thing that the agent can do
+that would be bad is like
+like deleting the whole pod shared
+file system. Uh that's possible
+technically. Um uh I don't think it
+happens much. Uh so that's that's kind
+of fine.
+>> And also I imagine you have some kind of
+redundancy maybe some backup somewhere
+just in case you got
+>> Yeah. So again in just everything is
+version so we could uh we could totally
+restore it and uh and and yeah.
+So okay now the shared state yep and the
+ability for almost like this tiered
+level of I'm working I'm bringing it
+down not necessarily locally but I'm
+having my oneplayer experience
+and then I'm pushing to the multiplayer
+so everyone can share and look at it.
+How are you envisioning that in other
+scenarios?
+Uh there's uh there there is so many of
+them. It's um uh it's one of the by the
+way it's one of the
+very hard difficulty of building a
+normal platform. Uh there's a lot of
+value into building a normal platform.
+There's a lot of pain in building a
+platform. The pain is mostly this one is
+that the uh there is so many use cases
+uh that's that you it's you cannot I
+mean I would love to be able to tell you
+dust is awesome for that but that means
+we would be verticalized. If we were to
+be verticalized we wouldn't have the
+right to really try to equip the entire
+company and so that's why we accept that
+that tension. uh many other ways to use
+a pod. You can uh you can use a pod as
+um as a as a so basically we also have
+in that pod we also have a a list of
+tasks which is a way to try to organize
+work and so you can create a pod for any
+project you do and let's say you're on
+slack and you're like oh I need to do uh
+we need to do this this and that and you
+you call dusk from slack and you ask it
+to add those task to the to the pod
+you're working on may let's say you're
+working on a initiative sandbox you're
+working on adding sandbox to to dust you
+say should do this and that. The agent
+is capable of interacting with the pod
+and add task itself and then as a human
+you can uh you can the task are kind of
+a nice way to organize the uh organize
+the walk and trigger sessions to start
+solving the task uh with with an agent
+and a human working together uh to solve
+that task. So you have that kind of a
+task kind of a trying to explore the
+task management part of working uh with
+agents uh around a project. There's
+obviously another usage of pod which is
+uh which works well is around um
+internal kind of a internal support like
+uh so obviously the kind of external
+support the tier one support will will
+is best tackled in platform that are
+specialized for that but when the
+questions is finicky and it reaches your
+internal support team uh a pod is a
+really great place to share the way you
+solve those questions uh uh for people
+to to to to to look at and and and
+explore. And so I think there's many
+many uh use cases around that. We're
+really in the business of creating um
+Lego bricks that work well together and
+and make sure that they are somewhat
+universal. Um and so uh we see very
+varied usages. One principle that I
+think is interesting uh that we try to
+enforce is what we call the uh
+birectional aress. Mhm.
+>> Meaning that we enforce us a very simple
+rule is that any feature we build it
+should be equally accessible by agents
+and humans.
+>> Okay.
+>> There shouldn't be anything that a human
+can do in dust that an agent cannot do
+and vice versa. And I think
+>> and how does that play out in the time
+when you're actually building?
+>> So it it kind of creates a constraint on
+the things you can build. uh as an
+example uh uh I mentioned the tasks
+around the pod. This is a product
+surface that is uh kind of very human
+ccentric. Well, it's uh it it it's very
+important that those task are can be
+listed by agents, can be edited by
+agents, can be created by agents, can be
+uh the work can be triggered, another
+conversation can be triggered, the
+session can be triggered from those
+tasks by agents as well. And so it's
+really kind of a a great principle to
+make sure that we we don't overfeit on
+any of those two users because we're
+really building a a product for both
+those users. Uh and we really care about
+that because we see we it's the only way
+to start meshing the work of humans and
+agents together in our opinion. Only if
+you have that kind of symmetry will you
+progressively
+stop
+making it fuzzy whether the work has
+been done by humans or an agents which
+we think is the future and is exciting
+in many ways. Uh other things that
+there's so much so much places where you
+really want to build something for
+humans and when you try to apply and
+believe strongly in that principle it
+really makes you rethink what it should
+look like. Uh and so it's a useful
+principle to uh to apply. But I think
+most AI products today are kind of
+building for two two users and so it's
+important to build for them both.
+>> Yeah, it's a it reminds me of when
+someone told me you can create
+documentation that humans can read but
+agents can't but you can't do it vice
+versa. If you create documentation for
+agents, a human is going to understand
+it. So you should default to agents
+being able to understand your
+documentation first and foremost and
+humans uh will by default also
+understand. Now, when you were talking
+about the
+idea of the pods and also how work gets
+done over longer time horizons, it made
+me realize and and I had the vision of
+data moving through like a DAG and how a
+finished piece of work is not dissimilar
+to that. You have different nodes where
+work gets done and then it goes to the
+next node and whether that node and that
+piece of work is being done by a human
+or it's being done by an agent, it
+doesn't always have to be the same human
+that is doing it. And I think that's the
+huge unlock that I'm understanding with
+you is that a human is an expert in
+different parts of that process. So it
+shouldn't be the same human that owns it
+all the way through. We hear a lot of
+talk of how well now PMS and designers
+are shipping code
+>> and that's great
+but they have their unique skill set
+where they're very good at things. And
+isn't it almost more efficient if they
+can do what they're best at
+>> in that node of the DAG
+>> and then it gets shipped to someone who
+can make it battle harden. Maybe it's
+the DevOps person or the security
+person. They can harden it and then it
+goes to production and then you have
+that feedback loop where it will go back
+around and you're constantly iterating
+and updating. But those longer time
+horizon events now when you talk about
+multiplayer, I'm understanding what
+you're saying there.
+>> Yeah, I think I I think that's uh that's
+exactly that. and and and the the grail
+is u
+the grail is really try to create a
+place where it's really easy to end off
+and so to really create an edge and a
+next node and end off to the the next
+processing unit and the next processing
+might be humans might be an agent and it
+should be really easy to route towards
+one or the other and uh and uh and and
+and and
+that's that's the thing and to make that
+a reality uh the the complex
+Uh the the the dirty B that needs to
+happen is that uh those agents has to be
+very contextful and like
+it's super interesting into trying to
+think what is the right context for
+those agents to be useful agents of
+work. Uh is it just um I mean today the
+the basic answer is a long agency loop
+and gazillion MCP calls to uh rebuild
+the context in every session. Um the
+kind of a second stage answer is a is a
+turn everything into a skill and
+eventually the context will be rebuilt.
+Uh is that part automated? Is that part
+on autopilot? Is that part manual? These
+are all the kind of a question at the
+frontier of what it means to create that
+that right context for agents which is
+uh quite interesting.
+>> Yeah. How are you seeing success with
+that and breaking down those barriers so
+it is more fuzzy when you have the
+handoff and you can still I also
+understand there's moments where there's
+two different people humans that are
+working on the same thing and then the
+agent in the middle and so you almost
+have like this ven diagram of you have
+the product manager you have the
+engineer you have the agents all looking
+at one node if we're going to continue
+the metaphor of the DAG.
+>> Uh I I it's I think we are still I don't
+have a crisp necessary answer to that. I
+think we are uh again I think we are
+still very early on on this one because
+as we said it as as we said at the very
+beginning the capabilities of the agents
+are still kind of uh jagged and so that
+makes that whole process uh not super
+smooth at all time but we start seeing
+light at the end of the tunnel and so
+our goal is really to discover that with
+our user to give them the right Lego
+bricks um that means that the the the
+the within within our user base there's
+always going to be kind of AI operators,
+tinkerers that will see the bricks and
+will want to assemble them in kind of
+new ways. And it's so it's super
+exciting to see what people do with the
+bricks you give them. Sometime they come
+up with stuff that are just
+mind-blowing. They just rebuild entire
+systems, all of that. And it's it's
+exciting to see. But I think it's a it's
+a code discovery. It's a code discovery
+thing. So it's a would be very uh would
+be very um I mean on top of that it's so
+dependent on the capability of models
+which is moving so fast and and which is
+still kind of somewhat impredictable in
+many ways. Uh so it would be very uh uh
+adventurous of of me of trying to to
+have a very crisp answer on this one. uh
+>> slant a flag right now and then like by
+the time this podcast airs that didn't
+>> exactly exactly [laughter]
+>> which going back to the alignment uh I
+kind of seeded that uh like at the very
+beginning going back to the alignment
+this is one of the major challenge I see
+into trying to reproduce the kind of
+conditions of stripe early on I think is
+the alignment part because when you're
+operating in that space the
+technological substrate is moving
+under your feet in a way that wasn't
+true before. For the past 20 years, when
+we were building tech companies, you
+were building on JavaScript and posgress
+>> was stable.
+>> Yeah.
+>> Like there's nothing more stable. I mean
+those things evolve, but it's like
+stable stable concrete type stable. Uh
+and today we're building on on models
+that are changing every weeks.
+>> Yeah. And so every time we tried to
+build a very crisp picture of of what we
+could be constructing in a year, we got
+it completely wrong because within that
+time frame uh the model shifted. The
+place you wanted to build that nice city
+of yours uh kind of went under sea and
+the big mountain appeared right next to
+it. And so now you want to build on top
+of the maintain uh obviously and so uh
+that creates the uh that creates a that
+creates a real challenge for creating a
+crisp alignment of the team because you
+you you're subject to the fog of AI and
+it's very hard to see past six months
+let's say
+>> I like
+>> the fog of AI
+>> the fog of AI that's so that's that's a
+pretty uh that's one of an interesting
+challenge of building a building an AI
+company I guess Mhm. And now just going
+back to Dust and how you're building, do
+you
+allow folks to interact and be
+multiplayer in all different types of
+scenarios like Slack, like in their web
+browser or in GitHub or they throw like
+a Jira or linear issue at it? Is that
+kind of the vision where you're saying
+we have all these tentacles? Yeah, we
+try to build as much tentacles as as
+possible. The big one is obviously so
+there's always a and there's always an
+interesting tension is that uh uh when
+you build one of those connection like
+Slack is one of the one of the big ones.
+It's a very natural one. It's a chat uh
+system and so that's a place where you
+might want to trigger work with agents.
+>> Mhm. Um uh it is also an acquisition
+engine internally within work within uh
+companies because people are on Slack
+and they see other people using a system
+and so they discover it and they might
+start using it. Obviously
+>> the the tension is that the you
+constrained by the interface of the
+platform you're connected to. And so the
+experience everything we just said is
+not is very hard to do in Slack because
+you you bond by the interface. And Slack
+has been doing a lot of work there and
+and they actually you can create pretty
+smooth interface today in Slack. But
+let's say GitHub as an example. Uh it's
+just a text text async uh you don't see
+the syncing tokens. You don't see the
+tools being used all of that. And so I
+we really see those places as uh uh
+entry points more than place where the
+collaborations or the collaboration with
+agents really happens because you always
+want to you you always try to drive the
+user to go open the session inside of
+this because that's where all the
+richness happens.
+>> Ah I like that. So it's the gateway into
+it and you're pushing them to go and
+look and inspect on dust so that you can
+get that richer experience.
+>> Yeah. Some actions that agents take for
+the for obvious reasons of some admins
+uh mark as high stake. So it mean it
+requires a user confirmation before the
+action is taken. And a good example is
+sending an email. Um uh and uh and so in
+Slack you can actually build a pretty
+good uh tool approval experience but in
+GitHub you cannot
+>> Mhm.
+>> you cannot send the next message on the
+issue say you need to click here to
+approve the tool. It wouldn't make
+sense.
+>> Well I'm also thinking about even things
+like MCP apps that make the strat
+experience so much richer. You don't
+have that ability. Uh if I'm not
+mistaken,
+>> you could you could you could imagine
+that Slack rebuilds supports MCP app and
+you manage to forward the MCP app to
+Slack. That could be but again GitHub
+wouldn't work, Zenesk or all of that.
+Pretty complicated.
+>> Yeah. Or there's so many areas or
+surfaces that you touch that do not
+support that. And it would be very nice
+to have that richer data experience.
+Like even at Jira or Linear, you might
+want to see some of these data points or
+data exploration that happens with the
+agent before you commit to a quote
+unquote sprint because I don't know what
+happens in sprints these days. It's an
+absolute mess. [laughter]
+>> I maybe that's a thread we can pull on
+on how sprints work. No, but uh going
+continuing on this MCP apps, you almost
+want an area where you can use all of
+the data that you're having happen in
+these different spots like the Slacks or
+the Jiras or the lineers and then put
+them in something to allow folks to have
+that richer experience. So, I could see
+that being a huge value prop.
+>> Yeah. But we we really see those
+platforms as I mean we really try to
+insert ourselves in a disco system. We
+don't we don't want everything to happen
+on dust. We have have work some some
+amount of work happen on dust but we
+sometimes that work starts from slack
+continues on dust and ends up in GitHub
+as a as an issue and that's really fine.
+It's really important to be able to read
+from them. It's really important to be
+able to write back to them. I think
+that's the uh that's the at the top
+position on this one.
+>> Yeah. And it goes back to the whole
+fuzziness of the handoffs and how those
+work right now and how that actually is
+is being done because you've got some
+folks that are working in Slack or
+you've got decisions being made in Slack
+>> and then an agent will execute on that
+decision that's being made which then
+becomes a GitHub issue or a PR
+>> and then somebody else has to review it
+but they are using an agent to review
+it. So you've you've got all these
+different ways that it could be siloed
+or it probably is being siloed right
+now. And I know when we had our lunch
+and learns,
+>> one of the big things that folks asked
+for was how are teams working with
+coding agents? How are you figuring out
+which skills should be part of the whole
+company or should it be teamwide skill?
+How are you making sure that sessions
+can be reproduced or shared or are you
+committing your whole chat history to
+the PR? Like there's these questions
+that are coming up and we don't have the
+tools for them right now. No, at least
+in the in the coding agent space, we
+don't have them yet, but that seems I
+mean it seems pretty obvious that uh at
+some point uh your codex d- session and
+that ID or cloud d- session and that ID
+will be uh hosted in the cloud and
+you'll be able to tie it to the PR and
+somebody will want to re restart from
+there. Uh that's a pretty obvious uh
+iterations for them. Yep.
+>> Now I don't want to pass over this very
+big important thought of
+finding alignment is very tricky in the
+age of AI because you have the fog of
+AI, right?
+>> Yep. Are there things that you have done
+or seen work
+>> or just like a principle that you're
+operating on in dust so that you can
+>> not necessarily predict the future but
+>> iterate quickly when it does happen?
+>> Yeah, exactly. I think I think the uh
+the the failure mode of that is to uh uh
+refuse to paint a picture. I think you
+have to operate with uh some form of
+conviction within uncertainty.
+M
+>> it has to be clear to everyone that we
+are operating in a very uncertain
+environment and that whatever we say uh
+will be subject to change because the
+environment changed but that we create
+conviction on the actual current
+direction we're taking and so that means
+uh uh people I mean everybody wants to
+rally on a vision or rally on a
+direction and so if you cannot give a
+one year and two year direction you have
+to give a six months direction That's
+fine. And whenever you give a six month
+direction by month three, it's it's
+going to be updated. And so that means
+that you you you need to have that kind
+of muscle of updating it and being con
+providing a lot of conviction in in in
+that process but really being very
+explicit each time in doing it because
+otherwise you might fall in the trap of
+of not not creating that that that
+shared at least uh speed vector uh that
+you're trying to to have for the group.
+Uh and that's the worst that's the the
+the worst part. Basically, the longer
+you speak vector, the best it is. The
+shorter uh it's it's worse. Uh three
+months is uh so that's we're mixing time
+with speed here, but it's fine. Three
+months, what would be what would be
+anyway? Three months there's an
+interesting start. Three months is
+better than zero because then you don't
+know the direction.
+>> Yeah. And I imagine how it plays out in
+practice is every day folks are showing
+you new things and saying, "Hey, should
+we maybe go in this direction?" and you
+have to make those hard decisions of is
+it worth course correcting for this?
+Have we seen something that
+fundamentally changes where we want to
+go?
+>> Yep. Yeah. This uh so uh what we're
+trying to do is we're trying to really
+give a good picture of what we want to
+achieve within three to six months. But
+then we also uh so that's that's a kind
+of a a photo like it's a it's a snapshot
+uh and we try to update it but it's a
+kind of at the origin of bigo of months
+and then we uh we have what we actually
+doing and so we call it our stack ranks
+that's pretty easy it's a list of
+project that we actively working on and
+we try to create it very clearly so that
+the rest of everybody knows so
+engineering generally knows what they're
+working on not always true but most of
+the times better if true and enables
+everybody else within the company to
+know what we are changing on the product
+right now.
+>> Uh and and then that's that stack rank
+we really try to keep it very dynamic.
+So that means that we we have a process
+which we call stack rank update that is
+open to anybody in the company to update
+the stack rank and so uh obviously it
+gets windy at the top so it's not an
+easy process. It's not a that hard
+process either, but it's basically a
+button you can push and both founders
+appear in the room and we chat about how
+we should update the stack rank and
+everybody within the company has access
+to that to that.
+>> But generally we try to we expect we we
+have a high expectation for the input to
+that process depending on the on the
+size or the uh the kind of appetite that
+is associated with the updates. uh but
+uh but I think it's very nice because it
+gives to everybody to be a bit of a
+product person uh within a company and
+uh we're trying to push everybody to be
+a bit of product person inside of a
+company. Let's change gears and talk
+about something before we hit record. We
+were mentioning tokconomics and I think
+that is very hot topic these days
+because the general narrative you hear
+from the internet is oh the era of
+subsidies is over now folks are trying
+to go public. We're not going to get
+these cheap tokens. I'm not sure that I
+fully buy into that. Whenever I hear
+something from the masses I that
+automatically gives me like red flag.
+>> Yep. However, I do see that
+the costs are going up a lot and it is
+really easy to spend a lot of money and
+not create anything of value.
+>> So, there's like that [laughter]
+>> I can burn a whole hell of a lot of
+tokens. That doesn't necessarily mean
+I'm good at my job, right? uh and so I
+do understand that you were mentioning
+there's the cost of tokens but then
+there's also the cost of inference and
+so let's maybe center the next 5 10
+minutes around that
+>> well I think the the way the way I uh we
+think or at least I think about that is
+uh we know the end state
+this uh we are subject to gravity this
+technology has a sailing it will
+converge and when it does it will be
+commoditized and tokens will be cheap
+plentiful that's still state
+>> the question is and maybe it will have
+asi by then but whether whatever is the
+state where it reach it will plateau at
+some point because it and there's a
+limit amount of energy and stuff you
+know uh and and I think that when when
+it plateaus it'll get communitized and
+it'll be pretty cheap very close to the
+price of uh of of power basically uh the
+question is when that happens maybe it
+happens in in a year maybe it happens is
+five years maybe in 20 years maybe it
+happens in 100 years who knows uh and so
+the question is is trying to think about
+what's the transition state between now
+and then but I guess the end state is
+plentifulness cheap intelligence from
+from electricity
+um and then well the one thing that I've
+kind of was a a new learning for me so
+I'll I'll share it because I think it it
+was a learning for me in the past couple
+weeks months is that I've always
+supposed that if models performance
+plateau we would enter a very rapid
+communistation phase and I think I've
+been coming back from that uh that
+assumption
+>> because the u the demand has increased
+so much that the pressure on inference
+so just the the fact of serving the
+tokens is so high
+>> that uh the actors that have uh
+pre-built
+that inference capacity we'll be able to
+maintain high margin due to that
+pressure
+>> which means that at least my learning is
+that even if I suppose that today is the
+best we'll ever get in terms of models
+which is probably not true but even if I
+make that uh that third experiment that
+doesn't mean that in six months the
+tokens will be close to zero because
+there is so much buildup demand and so
+much and some of that demand is might
+not be the best demand because as you
+said it's easy to to be token taxing on
+some pure AI slop But
+>> uh
+>> uh but this the demand is still there
+and people are still ready to pay for it
+and so there's there is kind of another
+pressure in the market for around that
+will maintain the price of token high
+but uh but anyway it's very hard to um
+uh to know there's a [sighs]
+there's also the other thing that you
+can say that is very easy to say that
+makes sense is we're getting in a world
+where those those models on some task
+are PhD level if not better. Who needs a
+PhD level to fill in uh Salesforce?
+>> No one.
+But the counterargument to that there is
+two is uh who needs a MacBook M2 to do
+spreadsheets.
+>> No one. But but everybody wants one.
+>> Still use it [laughter]
+>> because it's the best thing. And the
+more serious arguments is uh uh even if
+the model is a PhD level if you apply to
+task like filling cell force you might
+gain one line of of reliability
+and whenever you gain one line of
+relability some funky stuff interesting
+stuff happen you go from I look up the t
+I look up what's going on I'm checking
+the work to uh uh to I'm checking every
+rig to this thing is fully entirely
+automated and I will never ever in the
+history of humankind
+fill in a Salesforce uh card ever.
+>> So I think
+>> and so I think there's a there's still
+an argument for using the best frontier
+model even for task that seems pretty
+not so PhD levelesque uh because of that
+kind of added nine of reliability on the
+task. Well, if the
+demand right now is the main constraint
+on what's making this plentiful, like
+you were saying, cuz 4.8 dropped
+recently and I've played around with it.
+I haven't seen that explosion of wow,
+this is so amazing
+>> and I need to use it all the time.
+>> There's a lot of talk about how Mythos
+is going to drop and it's going to be a
+gamecher, etc., etc. We'll see when that
+happens. But assuming in this thought
+experiment that the models are what they
+are and we have this pentup demand, the
+question in my mind is how long does
+this pent up demand stick around? Does
+it grow over time? Does it diminish over
+time? Is it something that stays stable?
+And so we just need to keep bringing
+more energy, more inference online to
+service that demand.
+>> Well, I think there's a there's a
+everybody I I presume everybody along
+the the the chain the the value chain
+will be happy to provide more offer,
+right? Yeah, the uh the extrac companies
+in every countries will be happy to
+build more nuclear plants and then the
+uh the cluster building companies will
+be happy to build new cluster in the
+place of old industrial places that are
+not used anymore and the GPU providers
+uh uh mostly one today but probably more
+competition tomorrow uh will be happy to
+provide the GPUs there and so uh I mean
+it will have economically it will have
+to equiliberate And um and we know where
+the uh I mean it's with those type of
+technology it always uh it always
+equalates to towards commit station.
+It's like your it's like your your your
+mobile phone uh your mobile phone
+service uh uh service you you pay 10
+bucks 20 bucks a month or maybe a bit
+more in the US I don't know. Uh but it's
+it's so cheap compared to the value it
+provides you. M
+>> it's just because it's in fully
+commutized and it's incorporates to cost
+plus
+>> margin.
+>> It is fascinating to think about that
+and right now though where we're at
+living today I imagine that's another
+piece that makes the ground underneath
+you very shaky.
+>> Mhm. And so trying to build in going
+back to this metaphor of the fog of AI
+knowing that the costs aren't really
+stable, locked in, reliable.
+And so then you're going out there and
+talking to users
+and you have your own product pricing
+models and all of that fun stuff. And
+then the users are already having their
+own thoughts about the tokens that
+they're spending and how they're
+spending it.
+that makes for some interesting
+conversations.
+>> Yeah, definitely. I think these uh it's
+the fog of pricing I guess this time
+around. [laughter]
+Uh uh we uh uh interestingly at Dust we
+um so we started with the with a flat
+price uh and the uh the thinking was was
+the following. The thinking was you want
+a flat price because you want to
+encourage usage and value creation. So
+you want kind of a Chinese buffet type
+of pricing because they uh you pay once
+can use as much as you want and uh let's
+go for usage let's go for for for value
+creation. Um and it was also built on
+the assumption that eventually even if
+the eventually was very loosely defined
+eventually cost would go down and as it
+happens uh uh with the emergence of uh
+the models I mean with the awaking of
+the models uh at the end of last year uh
+it is not sustainable anymore for us and
+so we have to refactor our entire
+pricing to move to what is the industry
+standard today and I think it's the
+sustainable pricing unless you are uh
+willing to go extremely uh negative
+margins. Uh you you you you have to move
+to a crate based pricing
+>> because you don't control those costs.
+We don't know what's going to be made of
+tomorrow. We don't know what's
+maybe MTOS will be really a banger and
+it will be maybe really expensive at the
+same time and that's great. That's great
+if that's the case. That's great if you
+are in a crate based pricing world
+because you're like people just go for
+it. Use MOS if you want. It's an awesome
+model. Uh it's going to cost you a lot.
+Uh but we have I mean it's fine if you
+are on a kind of a flat price uh like
+typical SAS pricing. Uh you just you
+just like if a model drops awesome very
+powerful but super expensive just can't
+serve it just can't serve it because
+it's the economics don't work anymore.
+So I
+>> Oh, sorry. Go ahead.
+>> Yeah. No, sorry. So, I think the
+uncertainty in kind of the time horizon
+for the evolution of pricing makes it
+pretty much an unstable position to not
+have a critbased pricing in the market
+today. I think
+>> yeah, it is very dangerous to go per se
+and then especially if you're
+abstracting away the cost of the
+providers. There's some creative things
+you can do like you were talking about
+earlier of using smaller models,
+>> but that at the end of the day is not
+going to work, especially if folks are
+wanting these the best
+>> Yeah. Exactly.
+>> models all the time.
+>> For I mean
+maybe there is a set of task where I'm
+happy to use a small model, but for most
+of the stuff I do with agents, I I just
+want the best.
+>> Yeah. Well, and you don't it almost
+takes more time to figure out where to
+insert the small model. Y
+>> which slows you down and you just it's
+like well
+>> I know I could save a few cents here
+>> but let's try and use it because it's
+going to be a lot easier for me
+>> then if you set up and and that's one
+thing that has changed a lot recently
+too is how we don't necessarily set up
+by hand each step of this graph. We let
+the agents, we kind of throw the problem
+at the agents and let them figure it
+out. And so if the agents have the
+ability to choose the smaller models or
+kick off tasks with smaller models,
+that's great. I'm not going to go in
+there and like
+>> use a smaller model for these specific
+tasks when you are going and doing them
+in the plan. You know, maybe there are
+people that do and those folks, wow,
+hats off to you.
+For now, I imagine you could optimize
+>> micro micromanagement of latit. And you
+probably could get more lift or more
+cost savings just by optimizing certain
+context window tricks or the ability to
+make sure that your agents aren't
+constantly ingesting files. Maybe it's
+like cashing tricks or things like that
+that are going to be much I'm not going
+to say like much cheaper, but they are
+going to potentially give you more bang
+for your buck.
+>> Yep.
+>> So, there's there's all that fun stuff.
+Now, I have one thing that has been
+going through my head that I've been
+wanting to ask you, and I'm sure you
+hear it every day that you talk to
+customers, and it's, "Well, yeah, cool,
+dust. I see this vision, but can't I
+just do that with co-work as we were
+talking about earlier? Co-work is having
+its moment. What is the unlock on this
+like single player to multiplayer?
+I can share my slides with people or I
+can share my sessions with people from
+co-work. So where do I go with Dust?
+>> Yeah, I think there's a so there's
+there's three pillars to our
+differentation with co-work. uh it's uh
+so first on the on on that multiplayer
+there's some use cases that you can
+explain pretty you know as I did for the
+team weekly where I think you can paint
+a picture with you you it's very hard to
+do with co-work that kind of a
+collaboration around a unit of work that
+needs multiple people the uh I mean you
+can obviously do it but it requires more
+more kind of manual work and it's more
+it's less integrated I think there's a
+in terms of enterprise there's the uh
+governance part which is very important.
+Um having the ability to uh we we try to
+do a better job than code. Uh on that
+then uh be able to distribute in a
+control way the different uh MCP
+servers, different tools, the different
+skills uh limit the access to some data
+to some users have that things
+transitively managed so that people can
+discover the the agents and the skills
+they can use but in a way that is
+aligned with other what are the
+restrictions of the workspace. I think
+co-work with all the things turning
+locally, the skills being shared through
+kind of all of a lot of bands to some
+extent as of today um is a bit more a
+bit more of a of a of a far west when
+you want to have kind of a slightly more
+uh governed deployment of AI within a
+company. So that will talk to different
+type of company obviously. And finally
+the third pillar which is a pretty
+obvious one is like you don't want to
+get stuck in with one model provider.
+Especially as we were talking about
+tokconomics just
+>> exactly you don't want to be stuck with
+one token provider because the next best
+model you don't know where it's want to
+know it's coming from and you surely
+want to be have access to it
+>> and so I think it's a kind of a mix of
+those three we try to be very innovative
+on the product uh in terms of uh
+multiplayer AI and that's a
+differentiation that's something that we
+hope will awaken and become stronger and
+stronger as we go uh we want to be uh
+better at the governance and kind of the
+enterprise readiness uh as much as
+possible in at the product layer
+obviously uh uh we're not talking about
+we're not talking about FDES trying to
+implement stuff in your company but
+really as a product be more enterprise
+ready and then the third pillar is that
+kind of a is that kind of a is that kind
+of a a freedom of of freedom of choosing
+your model and being able to test open
+source models and keep your finger on
+that and have all of that in one central
+place. Okay. So, I think it's really
+that kind of a those three factors that
+makes us still a compelling option uh in
+the time where everybody really talks
+about co-work. But I'm I mean we've
+lived through other hype micro hype
+cycles. Uh we've had obviously chipd
+we've long enough we we've hold enough
+for for having lived as a company the
+emergence of Chajibility. Imagine uh and
+we've lived through the the the Glean
+moment like it was all about Glean two
+years ago.
+What happened? That's true. Gle.
+>> Well, I think it's still a very powerful
+uh enterprise search and AI answer
+product and I think they're doing
+actually really well. I think they just
+uh they just uh I've seen I don't know
+if it's official or not, but I've seen
+on on newspapers. I don't know if it's a
+true number, but they've reached 300
+million revenue. It's a it's a very
+healthy growing company. But at that at
+that time, it was the it was really the
+darling.
+>> Yeah. The be all to end all. I remember
+those days in 2023 or 2024.
+>> Exactly. Exactly.
+>> So, there'll be there'll be other hype
+cycles. That's fine. I think we uh what
+we want to provide our users is really a
+platform where that is uh that is really
+uh building and and helping them being
+at the forefront of what can be done
+with uh with agents.
+>> So, at the risk of jumping all over the
+place.
+>> File systems.
+you we got into this earlier.
+Are you in a place where you feel like
+file systems can be updated for more
+agentic work andor I'll add to this
+longer question
+because the way the agents work and the
+way that they will almost fan out and do
+things.
+>> Yep. and do things very compute inensive
+things and then just hang out for a
+minute and be like hey human I want I
+want your feedback and maybe it's a
+minute maybe it is an eternity in
+computer time.
+>> Yep. Are there other areas where you
+feel like the current infrastructure
+that you have to build dust
+you need new tools
+well on the file system it's true that
+uh uh we can predict a moment where uh
+so right now we discuss about it we have
+a file system mounted on the pod we have
+a file system on sandbox some of the
+file system in the pod are shared you
+can have multiple agents working with
+that file system as of today it's mostly
+still human collaborative driven and so
+the kind of concurrency on that five
+system remains within typical human
+bounds
+>> but you could totally imagine like an
+army of agents collaborating on a
+project and then the five system becomes
+the wrong abstraction
+uh or I mean it's not necessarily the
+wrong abstraction but there's going to
+be there's going to be a concurrency
+pressure on it and it doesn't have any
+primitive for that I mean it does file
+locking but uh
+who uses file locking [laughter]
+>> agents will
+>> agents will agents might um uh but I
+think but to some extent this to me this
+has been sold there's there's a there's
+a couple companies uh that are building
+kind of a git infrastructure because uh
+if you want to scale providing GitHub
+repository agents uh using GitHub is not
+very convenient because there are rate
+limits that are meant for humans on the
+platform. And so there's a bunch of
+companies that are pretty exciting that
+that built Git Infra
+and Git infra seems to be a a fair fair
+solution to the uh to the problem
+because at least you have that uh
+resolution forced resolution step when
+you merge back to main. That makes kind
+of some sense. No,
+>> but at the same time, yeah, the uh uh
+but I think the uh yeah, as as we was
+chatting, I think one one step before
+that that excites me a lot is the uh is
+the kind of a stateful sandbox, the
+sandbox that stays live
+because I'm super excited about kind of
+a hyper specialized business apps. uh
+many of our users are already doing that
+with those frames that we uh mentioned.
+But those frames, they're not backed
+they're not backed by a particular
+sandbox. So they they they they kind of
+they kind of they they snapshots which
+mean that if you want to update it, you
+need to ask the agent to go fetch the
+data again and go update the frame. So
+what you really want is you want those
+frames to be backed by a sandbox that
+stays around because then you can have
+inside of a sandbox you can have a
+SQLite database and you can rebuild the
+CRM and ERP. You can rebuild whatever uh
+things you need to do your job. And the
+frame is the UI for the human. The
+sandbox is accessible by agents. And so
+you have an API for you have an a way to
+work with agents or directly as a human.
+Every human can create a different view
+of the the app. If let's say we are
+talking about
+feed a feedback system for the product
+where you automatically routt to
+different owners and that's something
+that you cannot manage to do well in
+GitHub or linear and so you build your
+own thing
+>> maybe the manager will want a different
+view than the IC which will want a
+different view than the person that
+report the feedback and that's having
+that ability is extremely exciting and
+in that world the kind of a de facto way
+to build that I think that is very easy
+is to is to do a shared nothing type of
+approach where the sandbox is the state
+and you just uh you just let the agents
+do whatever they want. Use whatever
+technology they want and you just
+snapshot the sandbox. You can go back in
+time easily and there is nothing more to
+it. There's no external database.
+There's no external g repository.
+I think that will that's kind of a very
+nice convenient way to package those
+kind of things for agents. Uh the only
+problem is like if you imagine that you
+have hundreds of agents collaborating on
+a shared sandbox then it starts failing
+and maybe then you need uh uh the codes
+to be managed by GitHub maybe you need
+the uh the data to be managed by a
+hosted database which so we'll see.
+>> So it works until you get to a certain
+scale which it doesn't feel like a lot
+of these workloads are at yet.
+>> Oh yeah.
+I mean it's so the moment where so
+imagine you are uh you're a small SMB uh
+in whatever countryside of uh of Germany
+and you uh and you do cookies and you're
+paying your you're paying your ERP uh
+20K or 30K a year to use free features
+of an ERP that has 10,000 features.
+>> Yeah,
+>> that's that's the state of SAS today.
+And
+>> Exactly. And so you may want to rebuild
+that uh that that that process which is
+uh get me the do get me the thing and
+then here are the the comments and it's
+a pretty easy one
+inside of one of those kind of a
+specialized app and so uh there indeed
+there is no there's going to be a few
+people interacting with it maybe agents
+maybe directly through UIs and I think
+having that that's that that that shared
+no sing approach really works the moment
+where it would fail is where uh you
+start growing and you have thousands of
+humans if they interact through the UI
+that would the model would still work
+fine. The money would fail is like you
+know 10,000 people and and uh or you or
+you 10,000 you 10 times bigger and know
+uh you need to make that system evolve
+and you have agents working with it and
+changing the code at the speed of
+hundreds of agents at the same time. We
+can imagine that world but that's that's
+where it's going to fail but it's so far
+away uh that's uh it seems like fine to
+not overinure for it
+>> and even
+the current state of a large company you
+don't necessarily have the majority of
+your projects being hit hundreds of
+times a minute by agents
+so it's almost like I see a 20 8020
+principle here where you could have that
+working for a a lot of your different
+projects, but then those projects that
+really need scale and they need that
+type of
+limiting or unlimitedness to it.
+>> You would take those or you would
+architect those in a different way.
+>> Exactly.
+>> So that is
+stateful sandboxes.
+Are there any other hang-ups that we
+might encounter if we tried to do them?
+It feels like it could get expensive if
+I constantly have a sandbox running and
+I only use it once a week. It could be
+wasteful.
+>> That that that that we have really great
+companies that gives you the nice
+preventives there. You just shut them
+down. The time is boot up time is boot
+up time is 100 milliseconds. You don't
+have if if it's sharing the beauty of
+that is that you don't have to care
+about where is the DB do you have to
+shut down the DB blah blah no everything
+is in the sandbox SQLite database it's a
+file it's one megabytes to do most of
+any companies would do with anything
+serious it just works I think it's I
+really see as the prolongation of the
+Excel spreadsheets
+>> today we have the Excel spreadsheets uh
+no man's land and SAS [laughter]
+and it's kind of the uh it's kind of a
+way to it's it's it's a capture of a lot
+more that you can do is a spreadsheet
+that you were forced to do with SAS. And
+so that's funny because if you really
+believe in that vision, it feels like uh
+Wall Street was right way in advance
+for danging the SAS businesses.
+And that's it's pretty rare to think
+that Wall Street was really really right
+in advance, but um but uh that's yeah,
+that's the the fun the fun thoughts. Uh
+but yeah, I think there's a massive
+opportunity to have anybody create the
+the app they need to do their job. Uh
+that is equally accessible. The state is
+equally accessible by agents and the the
+UI is actually can be create that can be
+customized to every human basically.
+That's there's something very exciting
+over there.
+Yeah, especially if you're interacting
+with this through
+the chat ability or I I guess where my
+mind gets caught up and where I've never
+fully bought into this generative UI
+principle, although I'm coming around to
+it a little more, the more and more that
+I use things like the HTML that the
+agents will create on the fly, it's
+like, ah, this is this is actually kind
+of that idea have generative UI. But
+what I would get hung up on is that a
+lot of times we have learned and we are
+comfortable with certain tools because
+we know those five things that we need
+to do. We know how to do them and where
+to do them. If we now are being asked to
+create our own tool that does those five
+things and we have to spend the time
+creating it, even if it is going to give
+us a lot of success on the tail end
+because it's going to be much faster,
+it's going to be more custom. We don't
+have to spend as much money,
+>> it's a pretty hard ask to get get it set
+up.
+Yeah. But it's going to be as with any
+content economy ever. It's a one one
+person producer 99% consumer which is
+true of of spreadsheets as well. There
+are people that knows that know how to
+do a great spreadsheets and they're not
+that many of them
+>> and they are the ones building the
+spreadsheets and then there are the rest
+of us consuming in the dashboard and
+there's the rest of us consuming
+consuming them.
+Ah, so you're thinking there will be the
+builders of these. It's just not we're
+not all going to be expected to build
+it. There's going to be the specific
+builders and they're going to I like
+that idea of extending the spreadsheet.
+You're now going to get this micro SAS
+that is very specific to your business.
+>> And anybody can build if they want. It's
+just that uh we know how it where it
+lands. It's like some will build, some
+will consume. And
+>> yeah, the the one place that I think
+that is for sure
+having its
+questions is the no code, low code type
+of tools because that is 100% in the
+crosshairs of what we're talking about.
+Yep. However, I did just see a tweet of
+somebody laughing saying,
+"I am constantly surprised at how folks
+will set up with their agents a whole
+workflow to automate something that
+costs like 90 cents to run when with
+Zapier, you could do it for 5 cents."
+>> Yeah. Yeah.
+So, it goes back to that thing of like
+what costs verse convenience type of
+thing. And it is much more convenient to
+explain what we want, especially if
+you're using some dictation tool. You
+just mind dump the agent organizes it
+and says, "All right, let's try it." You
+test it. It works. It looks good. Ship
+it.
+>> We'll see. It's hard to It's hard to
+predict where it's going to land, but
+it's surely there's surely a ton of um
+ton of exciting stuff to explore.
+Agreed. that the kind of on thely
+dynamic UI it's hard to see it fly right
+now just because of the latency but here
+it's kind of a slightly more async it's
+like uh you build once use many times
+but you can build very custom and a grid
+that's all of that is doable with uh
+with many no code platforms out there
+and it's uh it's very hard to understand
+why they
+why they didn't compare the world Yeah.
+Well, there there's also the other idea
+of just uh spitballing with you on
+product here cuz you're taking the
+approach of one sandbox that will have
+different views that people can drop
+into and they can look at. However,
+what I wonder and and I see it as the
+use case in my mind is you have a lot of
+customer calls. Like I'm sure you're on
+calls all day long talking with
+customers or talking with potential
+customers and some of the time of that
+call or the same call can have value for
+a salesperson. It can have value for a
+PM. It can have value for your
+engineering team. And so you want to
+take that transcript and you want to
+display the valuable parts to each party
+that's looking at it. And so going back
+to this analogy of all right, we've got
+data and we want to display it to
+different stakeholders in different
+ways,
+wouldn't it be or is there a world where
+I can as a PM have my sandbox and
+everything gets piped into that one
+place or maybe that is just like you
+don't need to do it at the sandbox level
+because you are doing it in all these
+different ways and you have something
+that's on top of all the sandboxes
+that's coagulating all of that data.
+>> Yeah, I mean some use cases will be
+leverable by just having the data and
+having agents just uh just process the
+data. There's a lot of that happening in
+dust today like we uh we have a let's
+say gong connector. So companies that
+have connected to gong they have all
+those gong calls that gets transcribed
+and recorded and that enables
+interesting use case where indeed
+product teams can have launch an agent
+do a deep dive on all of the customer
+calls for the past months tell me
+everything that they said about that
+feature or that thing and that's also
+completely possible today. uh is that is
+an exciting that that's something that's
+possible today. The kind of a
+micro SAS view of that would be uh you
+have a call, you dump the transcript,
+there's a it trigger in in a in a in a
+UI, it triggers an agent that will uh
+create stuff for the sales team, create
+stuff for a product team, uh auto assign
+tags for the product surfaces that are
+concerned, auto assign tags for the
+geography,
+and maybe you have a a way to say, okay,
+it looks good. uh and submit and then it
+gets uh stored in different places. I
+mean there are two ways of tackling the
+same problems. Uh but I do think that um
+uh uh um like there is many cases many
+use cases for uh kind of a DBbacked
+apps that will uh that that could be
+customized for a special way of doing
+work. uh I have I have many of uh my own
+ad dust on that could change a little
+bit the way we operate. We kind of we
+can always kind of a uh you know you you
+bend the way you want to operate to the
+tools that that that you use uh the way
+you share uh goals for your week or your
+days uh at at desk happens on Slack.
+Mhm.
+>> So it has a certain form factor that is
+bended compared to the ideal state. Uh
+the way we make decisions we do that on
+GitHub which is interestingly a fun
+place to do because it helps kind of
+asynchronous collaboration and sometimes
+it's done on Slack and it's bended in
+very different ways depending on the
+platform you use and so there's so many
+processes and ways to ways to work that
+we that are shaped by our by our tools
+and that the other way around and so
+that's what I find that's pretty
+exciting. Ah, so then you would have the
+creative control to do what you want and
+not be beholden to what the tools force
+on you.
+>> Yeah. Yeah,
+>> I could see that.
+>> And and the my imagination is going wild
+as I think through what you could do in
+those instances.
+I like this like databasebacked apps or
+just a sandbox with a database that's
+stateful
+is a very fun thing to ponder. Have you
+felt like the way that agents use
+databases,
+we need a new type of database or the
+way that agents are constantly going
+around and trying to collect data? And
+the reason I bring this up is because I
+was just reading that
+quote unquote old paper. I think it was
+from December 2025.
+It was like supporting our AI overlords
+and it's written by you know some of the
+greats I think mate Srya and Yan Stoka
+and uh Shrea Shankar and so they they
+mentioned how you have this these agents
+and what they called it was like agent
+speculation.
+>> So the agents will go and they kind of
+have a theory and then they'll try and
+find the data to support that theory and
+execute on what they need to do. But a
+lot of times if they're trying to get
+data from a database, it's not that
+efficient to pull the whole row or
+create this join from these gigantic
+tables or whatever it may be that you're
+like,
+can we have agents interact with data in
+a more efficient way?
+Yeah, I mean there surely is many things
+to invent there, but I'm also I'm a bit
+of a pragmaticist on those questions.
+And uh at the end of the day, when you
+think about that technology, it's
+trained on the internet. It's trained
+from uh reinforcement learning from
+human feedback. It's trained on on on
+human traces being built by many labs,
+etc. And so my point is that it's a
+technology that is extremely extremely
+extremely anthropomorphic.
+>> Uhhuh.
+And so it and it feels it actually we
+had that weird moment where we needed
+rag.
+>> And it was kind of a new way of
+presenting the data made for agent made
+for the constraint of the context size
+that was rather small. uh and with the
+context size augmenting and the uh the
+very anthropomorphic nature of that
+technology the what's the best way to do
+search in company data today is just
+let's do what people call agentic search
+which is basically just let's use the
+tool that the human use if we can do it
+they can do it as well
+>> and we're ready to pay the tax of the
+latency associated uh because it's just
+much simpler to just give them the tool
+and let them uh let them do the work and
+so I'm I think I'm a um it feels like uh
+as the context is getting longer the the
+the the way those those those agents use
+tools is looking much more I mean it's
+looking very much like we use tools and
+so
+if we didn't have the need in the past
+why would they interesting question
+>> and they've been on what the humans will
+expect of it so
+>> yep
+>> if you and they've been on all these
+traditional tools part also so if you're
+now creating new tools that you're
+expecting the agents to use. Well, it
+may take a few cycles. I I'm fascinated
+by that space just because I feel like
+you've got this whole new way of
+interacting with machines through agents
+and the infrastructure that we have.
+It's fun to think about is it good
+enough? Can we do like you were saying,
+can we explore and not be beholden to
+what tech currently
+>> constrains us to or is there like the
+other piece the other side of the coin
+that you're saying be more of a
+pragmatist and say look I think if we
+can use it this way the agents can use
+it this way.
+It's it's obviously going to be always a
+bit of a bit of a bit of a bit of both.
+But um even in the way we use tool, we
+use them very differently. Uh it's like
+we use UIs, they use APIs turned MCP
+turned CLI
+>> uh and eventually it's the CLI and so I
+would love to use every SAS in the world
+with a CLI myself. So in a sense at the
+end of the day we merge back into the
+most efficient place. Uh I might use I
+might use the the CLI that agents have
+been uh that have been built for agents
+for using using the SAS tool myself. I'm
+a big of a fan of the terminal. But
+>> I just saw a tool I can't remember what
+it was. It was like turn any SAS into a
+CLI. That was their whole tool. I can't
+remember what it was, but that is uh
+>> it's exciting to me. Yeah, [laughter]
+really. It's Yeah, it's a different
+level that we're playing at. Well, man,
+this has been great. Is there anything
+that you want to mention before we jump?
+Is there anything that I didn't ask you
+about?
+>> No, I think this was great. We covered
+the we covered the the main subject. I
+think we on the verge of going towards
+multiplayer AI. We don't quite know yet
+what it looked like, but it surely won't
+look like what we're doing today. And so
+that's uh that's why I I think it's a in
+the in that wall where there are two
+black holes being created uh in the
+market. I think uh it's always an
+interesting questions of uh are they not
+going to going to take it all? uh we we
+we we really attached to the to the to
+the thinking that even if the technology
+uh again plateaus uh even with current
+model shape uh the way we're going to
+walk in 10 years is probably nothing
+compared to the way we walk today and so
+there's still many many many
+opportunities to build for for everyone.
+>> I will also finish with dust is known
+throughout the world for having the
+absolute best inerson events. So if you
+see a dust event happening near you, I
+highly recommend that you go.
+>> Yeah, that is for sure. They are awesome
+events. Anybody that has been to one
+will tell you the same. So thanks for
+doing this, dude. I really
+>> Thank you very much. It was [music]
+great.
+[music]

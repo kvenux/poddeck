@@ -2,8 +2,8 @@ source: dwarkesh
 refreshed_at: 2026-06-02T00:38:29.637Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 1
-done: 0
+total_candidates: 2
+done: 1
 pending: 1
 episodes:
   - id: oIk3R-sMX5o
@@ -14,3 +14,11 @@ episodes:
     status: pending
     priority: 0
     category: ai-tech
+  - id: Jj-kBHzUohs
+    title: The better AI gets, the smaller its share of the economy might get — Alex Imas & Phil Trammell
+    duration: 4568
+    upload_date: "20260604"
+    url: https://youtube.com/watch?v=Jj-kBHzUohs
+    status: generated
+    priority: 1
+    category: update-2026-06-16

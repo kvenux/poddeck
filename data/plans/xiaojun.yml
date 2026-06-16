@@ -2,13 +2,12 @@ source: xiaojun
 refreshed_at: 2026-06-02T00:38:29.819Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 17
-done: 0
+total_candidates: 19
+done: 2
 pending: 5
 episodes:
   - id: rUjaLPE3mME
-    title: "He Xiaopeng: Robot IRON's Birth, The Accident, GX, His Big Bet &
-      Swimming in Blood"
+    title: "He Xiaopeng: Robot IRON's Birth, The Accident, GX, His Big Bet & Swimming in Blood"
     duration: 5172
     upload_date: "20260528"
     url: https://youtube.com/watch?v=rUjaLPE3mME
@@ -38,8 +37,7 @@ episodes:
     priority: 1
     category: update-2026-05-19-missing-transcript
   - id: ttkd0t5qTD4
-    title: "Yao Shunyu: Let Me Go a Little Crazy! Training Models at Anthropic &
-      Gemini, Heroism Is Over"
+    title: "Yao Shunyu: Let Me Go a Little Crazy! Training Models at Anthropic & Gemini, Heroism Is Over"
     duration: 13681
     upload_date: "20260511"
     url: https://youtube.com/watch?v=ttkd0t5qTD4
@@ -96,8 +94,7 @@ episodes:
     status: skipped
     priority: 1
   - id: gWmyu3x5rXY
-    title: "Yin Qi: On Chairing StepFun, the Seduction of Intelligence, and a Brutal
-      Long-Horizon Game"
+    title: "Yin Qi: On Chairing StepFun, the Seduction of Intelligence, and a Brutal Long-Horizon Game"
     duration: 7204
     upload_date: "20260127"
     url: https://youtube.com/watch?v=gWmyu3x5rXY
@@ -118,8 +115,7 @@ episodes:
     status: skipped
     priority: 1
   - id: toy8RLeFZ08
-    title: "Zhipu CEO Zhang Peng: Inside the IPO of China’s First Publicly Listed
-      LLM Company"
+    title: "Zhipu CEO Zhang Peng: Inside the IPO of China’s First Publicly Listed LLM Company"
     duration: 8675
     upload_date: "20260108"
     url: https://youtube.com/watch?v=toy8RLeFZ08
@@ -132,3 +128,19 @@ episodes:
     url: https://youtube.com/watch?v=9zSMTUUEfmU
     status: skipped
     priority: 1
+  - id: a93FT2340c0
+    title: 145. SpaceX 口述史：太空与 AI、人类文明扩张的前奏
+    duration: 10804
+    upload_date: "20260615"
+    url: https://youtube.com/watch?v=a93FT2340c0
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: kBsqirnWTpI
+    title: 144. 安克/阳萌：消费电子的死与生、第三品类、端侧模型、产品哲学
+    duration: 13052
+    upload_date: "20260608"
+    url: https://youtube.com/watch?v=kBsqirnWTpI
+    status: generated
+    priority: 1
+    category: update-2026-06-16

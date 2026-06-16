@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"title","type":"text","x":260,"y":15,"width":480,"height":34,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"Dust vs Claude Code","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"title","lineHeight":1.25,"baseline":24},
+
+    {"id":"p1","type":"rectangle","x":80,"y":110,"width":240,"height":340,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.3,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"p1l","type":"text","x":100,"y":140,"width":200,"height":290,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"#1\n\nMultiplayer\nproduct surface\n\npod = shared state\nacross humans\n+ agents","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"pillar1","lineHeight":1.25,"baseline":270},
+
+    {"id":"p2","type":"rectangle","x":380,"y":110,"width":240,"height":340,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.3,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"p2l","type":"text","x":400,"y":140,"width":200,"height":290,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"#2\n\nGovernance\n\ncontrolled MCP\nrollout, tool ACLs,\ntransitive perms","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"pillar2","lineHeight":1.25,"baseline":270},
+
+    {"id":"p3","type":"rectangle","x":680,"y":110,"width":240,"height":340,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.3,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"p3l","type":"text","x":700,"y":140,"width":200,"height":290,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"#3\n\nModel freedom\n\ndon't lock to one\ntoken provider —\nnext SOTA unknown","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"pillar3","lineHeight":1.25,"baseline":270}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

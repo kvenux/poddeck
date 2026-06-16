@@ -1,0 +1,30 @@
+id: LEwlSyR0cXA
+source: latent-space
+title: "GitHub's Agent Era: 14x Commits, 200M Developers, Copilot's Next Act — Kyle Daigle"
+guest: "Kyle Daigle"
+guest_role: "COO @ GitHub, CMO @ Microsoft Developer"
+published: 2025-05
+duration: 2700
+url: https://youtube.com/watch?v=LEwlSyR0cXA
+thumbnail: https://img.youtube.com/vi/LEwlSyR0cXA/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - interview
+  - ceo
+  - strategic
+summary: |
+  GitHub COO Kyle Daigle 与 Sean Wang 对谈 GitHub 与 Microsoft Developer 在 agent
+  时代的演化：内部 AI 工作流（micro skill 替代 mega skill、"回看式" LLM 用法）、
+  14× commit 增长拖出 MySQL 1 / permissioning / monorepo 等历史债务，以及
+  Copilot 从代码补全转向"统一 SDK + 多 harness + ambient context"的下一幕。
+core_ideas:
+  - "Mega skill 已死：用一堆 Lego 级 micro skill，再用英语描述拼起来"
+  - "LLM 最好用的不是前瞻，而是 recursive loop backwards——先回看上一周"
+  - "GitHub 14× 增长拖出 MySQL 1 / 老 permissioning / monorepo 反潮流"
+  - "scale 不再是 vertical / horizontal 二选一，而是要走对角线——重写 10-15 年没动的服务"
+  - "Copilot 被模型 Sherlock 一段时间后，押注统一 SDK + 多形态 harness"
+  - "AI 还在 hyper myopic 阶段，下一步是 ambient context——所有 spec/email/Slack 自动进 agent"
+  - "OS 也得重新设计：不再只是你一个人在用它了"

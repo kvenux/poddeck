@@ -1,0 +1,32 @@
+id: abYcV5LHMG4
+source: latent-space
+title: "Scaling Past Informal AI — Carina Hong, Axiom Math"
+guest: "Carina Hong"
+guest_role: "CEO & Founder @ Axiom Math"
+published: 2025-12
+duration: 75
+url: https://youtube.com/watch?v=abYcV5LHMG4
+thumbnail: https://img.youtube.com/vi/abYcV5LHMG4/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - startup
+  - founder
+  - interview
+  - technical
+  - strategic
+summary: |
+  Carina Hong 在公司成立 7-8 个月后筹了 $200M Series A，估值 $1.6B。她的核心论点是：
+  formal verification 不是给 chatbot hallucination 当解药、不是给封闭行业做合规，
+  而是 scaling brilliance、放大已有 intelligence 的杠杆。Putnam Dec 2025 第一次出现
+  formal AI 反超最强人类和最强 LLM——120 vs 110 vs 103。
+core_ideas:
+  - Putnam 120/120 第一次让 formal system 超过 informal LLM（DeepSeek 103）和 best human（110，MIT/Chicago）
+  - 'Verification is not about lousiness, it''s about scaling brilliance——Ramanujan 学了形式证明才把直觉变成可被后世延伸的 theorem'
+  - TAM 不是 niche 安全行业，是 "right of first refusal on all AI-generated code"——一个可选的验证层
+  - Code-with-proof（CodeMarina）：GPT 3.6% pass@1，Axiom 99%（189 题做对 187）——Lean+Rust 的强类型让 RL 信号干净
+  - 'No partial credit for a mostly verified GPU——ASIC 设计/验证人力比 1:3 到 1:4，硬件验证是 must-have 市场'
+  - Auto-formalization 是真墙：1 line code → ~20 lines proof，且 scaling law 不清楚是否线性
+  - Verified AI is for openness，不是为封闭行业服务——human-human blueprint、human-AI、AI-AI 三层协作都需要 verification 当 trust 协议
+  - 整个行业最大瓶颈是 fragmentation：人才被拆到 1000 个小项目；AI for Math 反而 join force，所以不算泡沫
+base: /episodes/abYcV5LHMG4/

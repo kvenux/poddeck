@@ -1,0 +1,1486 @@
+We care a lot about saving people money
+>> over the year that this pipeline's
+[music] going to be up if I can, you
+know, cut my LLM cost in half.
+>> The cost savings thing is huge, man.
+[music]
+>> Oh, that was cool. You missed that.
+>> That was a good one, huh?
+>> That was a good one.
+>> Very [music] cool.
+>> So, I think it's really important
+[music] to get the overall context of
+what we're talking about here. So, you
+know, you could say software engineering
+is dead, right? And while it's not
+really dead, certainly the old
+definition of software engineering is
+quickly evolving away.
+>> Yeah.
+>> And what we see is the need for
+developers to transition to this new way
+of working.
+>> And I like to just give a very simple
+example. You know, company A adopts
+efficiency AI, which is doing the same
+with less. So, what happens there? So
+they lay off 50% of their developers to
+maintain their current revenue, current
+growth path. Company B adopts
+opportunity AI which is doing more with
+the same. So what do they need to do?
+They need to keep their developers re
+quickly retrain them in this new way of
+working so that they can produce 2x, 4x,
+10x. And that 10x advantage in the
+topline revenue for that company B ends
+up compounding over time. And you can
+see where this goes between those two
+companies. So while while right now it's
+a little more shortsighted with a lot of
+efficiency AI going on in the industry
+and a lot of these either real AI
+layoffs or AIwashing it doesn't really
+matter. It's imperative that developers
+take those steps to build their AI
+expertise. And this is where really
+Rocket Ride sees an opportunity to help
+those developers get up to speed, get
+productive building AI solutions, AI
+workflows, AI automation, uh, you know,
+fast.
+>> So, yeah, tell me about how you feel the
+world of a software developer is
+changing. I imagine there's just now
+we're using a lot of coding agents and a
+lot of the code isn't being written by
+actual humans. that's being written by
+agents and we're kicking off sub agents
+or we're kicking off parallel agents
+there's longunning tasks all of that
+what does that entail now in what have
+you been seeing out there
+>> well I think in the context of rocket
+ride it really we really acknowledge
+that coding is no longer the bottleneck
+code generation is no longer the
+bottleneck which it used to be so the
+bottleneck just moves somewhere else
+right whether that's intentionality
+whether that's tool discovery and
+selection, whether that's quality and
+post-p production.
+The the whole idea here is that there's
+new roles for to be filled by the
+developer, and
+>> those are painful steps. They can be
+painful, certainly for the un uh
+inexperienced.
+>> I like this intentionality piece. Can
+you talk to me more about that? What
+I've noticed about,
+you know, the development process, my
+development process in the last uh, you
+know, a couple years using coding agents
+and all that kind of stuff, it's really
+quick to actually develop, you know,
+code, but it's also really quick to
+develop crappy code, right? And, you
+know, a a lot of times, even I love
+cloud AI. I mean, it's it's a really
+really good coding agent from my point
+of view. Sometimes it gets stuck in
+these loops and sometimes it doesn't
+take into consideration good engineering
+practices. Uh it writes not the best
+algorithms in the world and then you
+spend, you know, an hour trying to
+figure out, oh, you made a mistake on
+step a step in, right? And then it
+forgets everything that you've done. And
+guess what? You end up with spaghetti
+code that's not worth actually shipping.
+and to try and get it into a shipping
+state is very very difficult at that
+point in time.
+>> Yeah, we were just talking about how
+compact is not the best when you get the
+context and you need to compact it. And
+so there's a lot of hacks right now that
+folks are doing. One being just put it
+into a document so that you have your
+whole
+planning session or whatever it is that
+you're trying to do, the to-do list,
+etc., etc., is on a document and then
+you don't have to lose the context when
+you compact it and if you start a new
+session you can reference the document
+always
+>> that does help a lot you know one of the
+the keys to actually making cloud
+successful is a good plan
+>> you know giving it access to the full
+plan up front and when you do that it
+actually comes out with better code but
+that implies that it's not great at
+iterative you know engineering because
+it doesn't necessarily remember what it
+did three days ago and this module over
+here where this is reusable, you know, I
+I told it to go out and build a UI. I
+ended up with two or three different CSS
+stylesheets which were all common. And
+it's like, you know, good engineering
+practice, create a common CSS, you know,
+and move forward and use that, you know,
+for theming and all that kind of stuff.
+Claude's not really good at that. Claude
+is looking, you know, if really good at,
+you know, taking a particular task, you
+know, or plan and implementing that plan
+regardless of whether, you know, you
+have 500 files in there. It's not
+looking for all the CSS's and all the
+common styles on what the background
+paper looks like.
+>> Yeah. You you find that Claude is a
+little bit lazy.
+>> Yes.
+Well, I fight with Claude quite a bit
+actually. You know, it's just like, no,
+I don't want it done that way, you know.
+Okay, look at common.c CSS and figure
+out, you know, what are the common
+styles here? How do you apply themes?
+Why are you doing it this way and not
+this way when you did it this way
+yesterday?
+>> I mean, it's simulating a developer. So,
+of course, it's lazy.
+>> Yeah, [laughter]
+that is [clears throat] true. You want
+the more lazy the better if you're a
+developer, but it is relentless. So, a
+lot of times it can get there. It just
+means that you got to burn a bunch of
+tokens.
+>> Oh,
+yeah. I'm in trouble for that.
+>> Yeah. Yeah, I can believe it.
+>> Yeah, it's I so you know from a
+programmer standpoint, you know, I
+started in, you know, assembly language
+Z80, believe it or not, Z80 assembly
+code. If anybody recurs a Z80, this was
+like an 8bit microprocessor way back
+when. And then I went to basic and then
+I went to I did some dabbling in Cobalt
+and Forran and then all the way up.
+Finally ended up in JavaScript and
+Typescript about three, four, five years
+ago. And this AI evolution with claude,
+you know, and claude code, I just view
+as another, you know, language for me to
+actually interact with. I don't care
+about, you know, what kind of code it
+produces underneath what language it is.
+I want to interact at that top layer,
+but I also wanted to write quality code.
+If you're going to pick TypeScript, fine
+with me. No problem. Pick Typescript,
+but write good Typescript.
+So what have you been seeing out there
+as far as the difficulties
+>> from my point of view? It's the
+ambiguity if you know in the bridge
+between the English language I program
+in English obviously and the technical
+jargon about you know structure and
+creating good engineering principles
+underneath you know it's like a good
+architecture how do I actually express
+that to claude what is a good
+architecture because that's a very
+subjective you know uh uh point what is
+a good architecture you know what is
+good structure definition and you know
+reusability and component reusability
+all those kinds of
+So if you look at my memory.mmd it's
+probably you know like that long because
+I you know specifically go on and say I
+like this I like this I like this and
+>> is that primarily letting it live to
+help you create that solid architecture
+>> consistency. Yes. So I'll I'll say you
+know in my memory I'll say go out and
+look at common CS you know CSS look for
+styles you know look for this particular
+architecture I like you know snake case
+and typescript versus I'm sorry camelc
+case and typescript snake case and
+python you know and and so on and so
+forth so I have all these rules to
+assist cloud in in some kind of you know
+semblance of organization and it's like
+you know I I we have two we have in
+rocket ride we have two SDKs. We have
+one in CL uh of TypeScript, one in
+Python, right? And so I'll say, okay,
+make this change in the the TypeScript S
+SDK. Okay? And it does it even though in
+my memory I've told it, you know, when
+you update one of the S SDKs, we try and
+keep them in sync. So upgrade update
+the, you know, Python and then it will
+go into the Python and, you know, do a
+camel case because that did it with, you
+know, TypeScript, but that's not
+standard Python. So it's like you always
+have to check every line of code you
+know to make sure that it's actually you
+know based on good engineering
+principle.
+>> Yeah. I guess the question that I am
+constantly asking myself is if it runs
+even if it's not pretty does it matter?
+>> That's a great question.
+>> I triggered you both there a little bit.
+>> Yeah. You know, if you're a software
+developer, uh, and you care about your
+craft, then you want to know that it's
+architected for maintainability,
+readability, reusability.
+If you're a vibe coder, then your
+judgment is, does it do what I want it
+to do? Great.
+>> So, it really depends on are you a
+citizen developer or are you a software
+developer, right? But at the at the same
+time, think about all the infrastructure
+code that you have to go through and
+build each time you're building an AI
+application. Do you really want to
+reinvent that wheel over and over and
+over again? Rely on the particular
+version of the particular coding agent
+that you're using and you know, god
+forbid if you change coding agents and
+they do something different. You know,
+these coding agents are trained off of
+publicly available source code. Not all
+of that code is the best architecture
+code in the world. So
+>> what you're doing is you're basically
+risking that you're going to have
+different implementations of that
+infrastructure code at each time you
+build an AI application. That's really
+one of the foundations for why we
+decided to build Rocket Ride is let's go
+ahead and design a framework that
+standardizes that infrastructure tier
+and that glue codes which is kind of
+almost a waste of time anyway because
+it's not really tied to the value of
+what you're trying to build the the
+solution. It just is necessary. So we've
+abstracted that away and and done it in
+such a way that it's robust, scalable
+and standardized. And that's one of the
+aspects of, you know, what motivated us
+to build this thing in the first place.
+>> Yeah. Actually, we had a lunch and learn
+last week and it was all about skills.
+And one of the key learnings from a
+paper that one of the members of the
+lunch and learn was you have to build
+the skill for the model that you're
+using because different models prefer
+skills in different ways. And that was
+new to me. I didn't realize that you
+want to have it that kind of
+specificity. I probably should have
+known for the exact reasons that you're
+saying like each model is trained in its
+own way and it has its own
+particularities.
+But just doing that like it it gives you
+so much lift if you think about okay I'm
+using codeex or I'm using claude and
+this is how claude skills work. This is
+how codec skills work whatever it may
+be. then you can get a little more lift.
+Are you thinking in those terms?
+>> The way I see it is we've taken away
+some of that open judgment that the
+particular uh agent will will use to
+kind of follow a certain pattern. And
+I'll give you a practical example of why
+that's relevant. You've built you as a
+software developer have built a solution
+for the finance department that does
+XYZ. And now the legal department wants
+a very similar solution but it's a
+slightly different use case and it's a
+different data set. And now you go and
+you tell your coding agent without our
+framework and you say okay now modify
+that you know take that application that
+I just built as a base and now modify it
+for this this and this. It ends up going
+and changing things that you didn't want
+it to change. And by keeping it
+following these certain patterns for the
+stuff that isn't relevant to the
+differences between the two, it enables
+you to have more reliability. Hey, I've
+already got that thing running in
+production. It's already working. Why do
+I need to take risk in areas I don't
+need to take risk in for things that
+don't matter for that solution? So that
+this is an example of why that's
+valuable from my perspective. So I don't
+think it's so much that it's
+agentspecific
+as it is whichever agent is coming in
+it's not really a skill so much as these
+are the rules these are the patterns
+that you need to follow to build
+solutions in our tool. So you're
+defining in the framework these are the
+important things these are the rules and
+this is how I I want it to act and that
+can't be changed as you are changing the
+agent
+>> well there's a lot of flexibility to
+customize to build new nodes to compose
+uh solutions and and pipelines the way
+that you need to but there's like a some
+fundamental primitives that are there
+for a reason
+>> as we all know agents work differently,
+right? A crew AI agent works much
+differently than deep agent, which works
+much differently than lang chain agents,
+right? I mean, it's and how they
+interpret, you know, the the context
+that you give it and how they interpret
+the question and the ultimate goal is
+very different. Not only that, you can
+take a deep agent for example and give
+it two different LLM, you know, quad AI
+and you know and and you know Chad GBT,
+you know, it works differently, you
+know, and not only does it not work the
+same way, but a lot of times you get
+different results every time you call it
+because, you know, the the LLMs are free
+to go out and do whatever they want to
+do and you have to actually work with
+what they give you. So the thing is is
+is what we did is is we really wanted to
+be able to compare agents and their
+performance and then each agent and all
+of its tools can use different LLM. So
+bring the correct LLM to the you know to
+the job. So let's say a tool requires an
+LLM and that tool is very very good at
+reading tables out of PDFs for example,
+right? bring the right tool to the job
+where the main orchestrator may actually
+requires more intelligence so it goes
+with quad or you know uh jackp where
+somebody else may want to go with you
+know gemini something right it's so
+bring the right tool to the job and then
+one of the things that I really
+struggled with as a programmer when I
+first started doing this is okay do I
+use light chain or do I use haystack or
+do I use llama um what it llama index
+it's like Okay, which one do I use?
+Well, which one is better? I don't know.
+So, it's it's that trial and error that
+is so time consuming, right? So, with
+with you know what we what I wanted to
+bring the tool to is plug in anything
+you want. You know, they're both all
+given the same inputs. Plug in what you
+want, compare the performance, and you
+can literally do that in two minutes and
+see how deep agent actually performs on
+something versus, you know, uh uh crew
+AI. wow.
+>> Now once you once you do that,
+>> you pick your best agent. Well, does
+this work okay with Sonnet or does it
+work okay with, you know, GPT? Does it
+work with GPT3.5 Turbo? Because that's
+cheaper for me to run. So, not only can
+you tune the agents, but you can turn
+the LLMs and do direct comparisons in
+your pipelines to see exactly which is
+the best for your solution.
+>> And are you running these pipelines
+various times to be able to say, okay,
+this one,
+>> they're all run simultaneously. So you
+can give it an instruction and it can
+send it over to, you know, uh, Crew AI
+and let Crew AI do its work. And then
+you can get the results from Crew AI and
+then it'll do it to lang chain and then
+it'll do it to deep agent. Give you all
+the results and say, "Oh, this one
+sucked at it. So we're not going to use
+that one. Let's replace that one. Try a
+different LLM in it. Run it again."
+Boom. You've got your results all on the
+screen.
+>> Wow. That gives you a lot more insight
+on to is it me or is it the pipeline? Is
+it the agent? Is it the LLM? What is it
+exactly that is not working here when
+something is
+>> Well, then if you really want to dig
+down into it, there's a full trace on
+exactly what agent did what, what the
+agent was asked, the results from the
+agent, the you know what the the tool
+was passed, what the tool results came
+back. So you can trace through each
+different logical step that it took
+through
+>> went through to you know end up at your
+final answer. It's that full
+observability to recognize where things
+are falling over. What
+>> is the best agent for the job?
+>> Okay. Talk to me more about the
+primitives and how you break this down.
+>> I mean, we have many many different what
+we call nodes. Okay. Nodes are like, you
+know, taking a piece of text and
+chunking into documents, you know, and
+you can do it many different ways.
+There's a code uh a code chunker that
+actually recognizes C++ and JavaScript
+functions and all that kind of stuff.
+There's a regular text parser that you
+know chunks text based on paragraph or
+sentence for however you want to do it.
+Then there's things like you know vector
+stores. We have I think support for
+eight different vector stores right now.
+the most popular ones. Uh we have an
+HTTP
+uh uh uh requester that you can go out
+and you know get stuff from the from the
+the web. We have a uh support firecaller
+what 12 different LLM at this point in
+time.
+>> So I mean each one you build up these
+chains exactly what you want it to do. I
+have data I want to sent to here. I want
+it sent over here to do parsing on it. I
+want the text. I want to take that text
+and run it through a summarization
+engine. But before I do that, I want to
+do an anonymization on it. So it doesn't
+have any PII in it. Then I want to chunk
+it up and then I want to put it into a
+vector store. So you get to build up
+these pipelines. We, you know, we
+basically look at it as, you know, a box
+of Legos. You know, a little tiny red
+Lego is not interesting, right? A white
+Lego, you know, 4x4 Lego is not
+interesting. But when you start building
+stuff out of these Legos, that's when it
+becomes interesting. And that's what
+we're really focused on. You know, I
+have been constantly thinking about how
+much of the pipelines do I need to
+define versus
+letting one of these agents just figure
+out what the best way of going about it
+is if I give it the boundary conditions,
+right? I don't know if you've played
+around with that at all as to I want to
+clearly say this is the workflow because
+I know what the workflow is and I plug
+in the different parsers. I give it
+>> that LLM brain on certain steps but at
+the end of the day it's a bit of a DAG.
+>> That's
+exactly what we do. Okay, we standardize
+something called on what we call lanes.
+and lanes. We have a right text lane, a
+right table lane, a right question lane,
+right video lane, audio and image and
+based on the kind of data that's going
+through it. It flows through these nodes
+and you can do different things. You can
+do OCR which takes an image and outputs
+to the text lane. Then from the text
+lane, you can take that and plug it into
+an anomization text lane which produces
+more text but it's anonymized text that
+you can then chunk into documents if you
+want. So it's basically that plumbing
+between the two things is the is the
+boring stuff, right? And it's the stuff
+that LLMs, you know, clog typically get
+wrong. It's the plumbing. It's not the
+actual, you know, AI calls. It's the
+plumbing and getting everything to work
+together that, you know, these coding
+agents usually screw up.
+>> Yeah. Talk to me more about that because
+I
+want to just say give it to Claude. Let
+Claude figure it out on its own.
+>> Yes. So with with we've created this
+complete set of documentation that you
+can do two things with. Claude can
+actually build custom nodes for you to
+accept the you know text input and do
+whatever you want and send it out.
+That's that's one little Lego, right?
+But the more interesting case is I want
+to parse a PDF, anonymize it and you
+know output it to my text lane. Okay,
+return the answer. Quad will build that
+for you. It'll put all the Legos
+together because it completely
+understands exactly what each one of
+these nodes do. So you don't even have
+to go out and think about I need to
+connect this and this and this. Claude
+knows how to do it because we've
+instructed it all about these different
+nodes and how they work and interoperate
+together and it puts it together.
+>> Uhhuh. Okay. So the different nodes are
+very understandable
+by claude code or by whatever coding
+agent you're using and you're giving it
+a simple framework to leverage when it
+wants to create these workflows,
+>> right? And the reason why it's easy is
+because we've standardized on these
+lanes, right? It's very easy for cloud
+to understand this is the text lane.
+When you have text, run it through here.
+This is the image lane. You want to do
+OCR on it, run it through this. Right.
+So Claude, those are in simple terms
+that Claude usually gets pretty darn
+accurate on.
+>> Yeah. And we keep saying Claude, but any
+coding agent, right?
+>> Okay. Oh, so I use Claude, I'm sorry.
+>> Yeah. So these these three elements,
+right? The agents MD which kind of
+defines the rules and the instructions,
+the documentation, and then the source
+code itself, right? And with that, like
+you said, you know, we've actually given
+natural language instruction for the
+agent and watched it compose these
+relatively complex, I think 45 node
+pipelines
+>> to accomplish the the objective, right?
+>> So, I mean, that's where we're going
+anyway, right?
+>> Yeah. And how def how detailed are you
+in
+explaining in English each step versus
+just explaining what you want at the
+end? And then Claude figures out, I need
+to create this 45 nodes to get to that
+end state.
+>> Claude is good enough and our
+instructions are good enough. I have a
+PDF. Give me the text back.
+>> Okay. I have I have an invoice that I
+want to stick into a MySQL table. Here's
+the table name. And it'll figure out
+exactly what what it does because we
+have a MySQL connector. We have a table
+recognizer extractor. you know, puts
+this whole pipeline together to actually
+take a printed invoice, you know, that
+you get on a piece of paper, send it
+through the OCR, and then actually put
+it out into the into a database.
+>> And am I plugging in I can bring my own
+OCR model?
+>> Yep.
+>> And then you're giving me that
+observability on top. So if the OCR
+model, I can test them on different
+ones. I can see this one actually gives
+me better results.
+>> And then how are the evals being done?
+Well, one of the things that I did which
+was a really interesting uh pipeline
+that I wrote is that I used for actually
+testing OCR is I had an image right and
+then I uh on the we call it the dropper
+and you basically just drop it on an
+image file and it sends it through the
+pipe. I had all my different OCR models
+right and with those OCR models they all
+have text output. I took those text
+output put them into an LLM and say
+which is the best one. So it ranked all
+the different models based or the the
+different OCR models that I had based on
+my input so that I could get an
+impartial judgment. Oh, TR O OCR is
+better on this, you know, on this
+particular data or easy OCR is better on
+this or you know a handwritten is a
+completely different thing, right? But
+that's but that's what you can actually
+inherently test in like two minutes
+>> and you can do it for every use case
+which I hadn't thought about because
+there's certain use cases that are going
+to be they're going to skew towards one
+model versus the other.
+>> Yes, especially on OCR. OCR has broad
+variances on how good it is depending on
+the model.
+>> But then you can extrapolate that out
+for any type of use case. So if it's the
+PII, anonymizer model, you can
+>> sentence transformer, embeder, chunker,
+parser, you name it.
+>> And at the end of the day, if I want to
+bring something, let's say that I'm
+using a paid tool like extend, I know
+they have a great OCR model. I can just
+bring that, plug it in as one of those
+nodes because the nodes, if I'm
+understanding correctly, you're
+basically not opinionated about.
+>> No, no. We don't care what node it is.
+As a matter of fact, we have nodes that
+we send data to. We send data to Google
+to do object recognition or you can run
+object recognition on site. We're not
+opinionated. The the whole concept of of
+Rocket, right, is really pick the best
+tool for the job, right? And how do you
+actually prove that it's the best tool
+for the job is run it.
+>> Yeah. Yep.
+>> Yeah. We don't care if it goes up to a
+website or whether you're running it
+locally or on prem or wherever. just,
+you know, be able to prove which the
+best solution is.
+>> Yeah. Okay. Well, this makes sense on
+what you're doing and how you're doing
+it. And then, uh, are there any other
+primitives that we should know about?
+>> Oh, boy. One of my personal favorites is
+what we call the frame grabber. And the
+frame grabber is really cool because
+what you do is you feed video into it
+and we can detect uh, scene transitions
+within a video. Okay? And then we can
+tell you exactly the time that it it
+actually did that. We can pull out, you
+know, every third frame or a frame every
+15 seconds or 5 seconds or whatever. And
+then we can send those through object
+recognition. And from object
+recognition, we can say yay or nay
+whether this matches whether there's a
+blue car in there or not. And then we
+can actually pull highlight reels out of
+out of uh you know videos based on what
+the content is, send those frames to our
+assembler at the at the back end and get
+a full video with highlight reels you
+know for you know out of a big video.
+>> So I like the frame grabber. That's my
+favorite one. That and transcription
+actually.
+>> Oh nice. Yeah, transcription is a huge
+one. Especially
+>> I like many other people am addicted to
+the
+speak to text on your computer. I know a
+bunch of friends who are using local
+models to make that happen. I just pay
+for a service out there. But this is
+>> so one of the nodes that we have right
+now is is speech to text. All right,
+that's that's you know one of the nodes
+and that's transcribe. So you put in
+audio or video. Audio is faster, right?
+A lot more compressed.
+>> Uh you can put audio in and then it
+converts it to speech going on the text
+plane. From the text lane, you can
+convert that into a question. Issue that
+question to an LLM. An LLM gives an
+answer. Then we can send back the text
+to the answer. And what we're about
+ready to release right now is our text
+to speech.
+>> Okay. So then we can convert it back
+into speech voice agent
+>> and then and then answer you. So you can
+actually talk to your LLM and it'll talk
+back. It's not just a one-way street.
+>> Yeah. Why use Rocket Ride versus just
+using the native coding agent? I think
+we may be asking too much of of our you
+know codegen AI to actually do because
+not only are we having to ask them to
+write our application for us or you know
+the user interface and then the engine
+we're also asking them to figure out how
+to call and put all these different
+models together right and then what if I
+have to change a model six months from
+now do I have to go back into cotton and
+we already talked about how bad clot is
+at actually incremental stuff Right. So
+when you start making changes and
+maintaining that it becomes much much
+more difficult opens your your you know
+horizon for huge you know issues going
+forward. Not only that when you when you
+ask clog you have to be very specific
+have you taken care of all the async
+problems the multi you know
+multi-threaded problems the
+multipprocessing problems all these
+other things that you know are just
+nitty-gritty details. Yeah, it works
+fine as a proof of concept on my laptop.
+Deploy that and guess what? It falls all
+over itself.
+>> Talk to me a bit more about those
+problems that you've seen happening and
+and then how you solve them.
+>> The solution to the problem is really a
+good architecture upfront. Okay. It's
+like deciding these are how the lanes
+are going to fit together. This is how
+the components are going to fit
+together. This is their little piece.
+And then we control the outside of the
+piece. We give them everything that they
+need inside in order to do the task, but
+then we control all the outside so that
+we can run 256 threads concurrently
+without all the models stepping all over
+themselves. Right? So you can send 60
+chats, 60 people can actually be
+chatting with this thing at the same
+time without it falling over. those
+kinds of issues a good architecture and
+actually disciplined engineering you
+know like I mentioned earlier is
+absolutely critical for you know
+scalability durability maintainability
+upfront because if unless you design
+that upfront you've got problems you
+know when you start going into
+production you're going to have
+multi-thread issues then you have with
+Python Python oh my goodness sometimes I
+love Python but I hate Python because
+they have the synchronous model and the
+async model and the two don't get along
+very well right so you know trying to
+explain to claude okay this model like
+crew AI agent requires asynchronous but
+yet this model over here requires
+synchronous so now you actually have to
+say asyncrun or async you know to thread
+in order to get it to actually you know
+interoperate with each other quad misses
+that a lot I'll tell you that and then
+six months from now you're going to go
+in and change you your OCR to an
+asynchronous model. Good luck.
+>> Sounds like you've had that.
+>> I've been there.
+>> I can feel it in your voice. It's true.
+Let's talk a little bit about runtime
+observability and how that plays into
+it.
+>> There's different aspects to runtime
+observability. So, for example, you've
+got a running pipeline. It's working,
+but you're not satisfied with the
+quality of the answers from the LLM.
+Why? What's going on? We we enable that
+introspection at the input output of
+each node in that pipeline. What the LLM
+is doing, how they're talking to each
+other, what kind of answers it's
+getting. You might be looking at why is
+the latency on this particular agent so
+bad, right? You can dig in and
+understand where the latency is coming
+from. You can understand errors. Uh so
+there's different ways in which we
+provide that level of introspection to
+enable you to quickly get to the root
+cause of what your problem is if there
+is a problem. When you talk about, you
+know, 10 or 15 components in a pipeline,
+the only thing that has to fail is one
+and your result sucks, right? That's
+that's the bottom line. A lot of times
+trying to determine which one of those
+compa components actually failed or
+didn't produce the results. Is it, you
+know, step in two or is it step nine?
+and being able to in it not only during
+development going through and looking at
+everything that was done within the
+pipeline but also in production too. You
+can keep all this this logging
+information in production and somebody
+has you know a problem and you know in
+production and says well this really
+screwed up well let me go take a look at
+the log and see what the LLM did here
+and you know what the transcriber said
+here. Oh you gave it a bad image or
+something like that. So it's not only in
+development, it's actually more a key on
+observability in production because
+that's when your failures are actually
+going to happen.
+>> And another aspect is cost
+observability, right? So as you run
+these AI enabled applications at scale,
+how do you know whether you know what
+what's what's costing you the most
+tokens, right? Um you can you can dig
+into that. you can then fine-tune and
+say, "Hey, you know, can we find a
+cheaper model?" Um, am I running out of
+quota and why am I getting this error
+now? It's because, you know, I I've got
+my auto top off, you know, capped.
+>> And that I uh I've thought about a bunch
+because you can
+quickly get out of your depth,
+especially when you're with a team and
+you're thinking like, why did all of a
+sudden we are just like our spend went
+up 20 grand last week? and you're
+thinking, I hope it was for something
+good. [laughter]
+>> I I hope it means we're doing way more
+productivity or something like that. But
+if you don't have that visibility into
+it, you can kind of be, you know, flying
+blind.
+>> Absolutely. You know, the the obability
+and being able to look and see all the
+transactions, not only what the node
+did, but between nodes. Why did this
+node go over here instead of over here?
+All that is really, really important.
+not just in in you know development but
+in production and how many production
+systems actually have VS code debugger
+connected to it to find out exactly what
+happened.
+>> I can imagine a world where some folks
+are using Rocket Ride. They're getting
+that observability and from the logs
+they're just going back and they're
+updating autonomously.
+>> Well, the interesting part about that is
+you can actually take those logs, feed
+them back and see if you can go with a
+cheaper LLM. That's what I was thinking.
+>> Take a look at the inputs that the LLMs
+are getting. Gather those all up and
+say, "Issue these and check the results
+against what my new proposed LLM is
+doing with what I got before on the
+really hugely expensive LLM. Maybe I can
+save a few bucks."
+>> Yeah, I was thinking I wonder if anybody
+has run auto research in that regard
+because it feels like something that
+potentially you could optimize with just
+testing different LLMs. Maybe it's
+testing prompts then trying to still get
+the same output or at least the same
+you're passing certain amount of tests
+and
+>> that'd be really interesting to actually
+automat automate that. That's what I was
+thinking because you know what the
+>> end state is, right? So, it's easy to
+try and
+>> figure out and with auto research, I
+think that's the key. As long as you
+know what that end goal is, it will
+>> No, you may spend some money going for
+it. And so, it totally defeats the
+purpose of the whole like, oh, we're
+going to save money by running auto
+research for the next 24 hours and
+burning a bunch of cash. But,
+>> but you know what? If it saves you in
+the end over the year that this
+pipeline's going to be up, if I can, you
+know, cut my LLM costs in half, it's
+actually worth it, right?
+>> Well, and things are changing on a
+weekly basis, right? And some of these
+newer model versions that are coming out
+are actually more token efficient.
+>> So, what better way to find that out
+than as soon as these new models come
+out, actually run that through your
+pipeline and see if you're actually
+saving and you're, you know, the results
+are going to be there, right? They're
+not going to regress in terms of
+capability, but they're doing it at a
+cheaper token cost.
+>> Yeah. It's almost like something that
+you would want to just kick off a
+longunning agent that does that every
+couple weeks or every month. It's
+constantly trying to optimize as far as
+all right, let's scan.
+Maybe scanning hugging face is a little
+bit wild west because you never know
+quite know what those models are doing.
+But yeah, it it's probably worth looking
+into if you really are trying to
+optimize that. I think majority of the
+folks are just trying to make something
+work and they're not at the let's make
+it cheap phase yet. That might come in
+six months or a year or it might come in
+five years. Who knows?
+>> Well, it depends on who you talk to. The
+engineers just want to get it to work.
+The CFO says, "I'm not going to I'm not
+going to pay the bills." So, you know,
+the key is really designing it upfront,
+making sure what you have works. And you
+can do that not just, you know, from
+guessing. You can actually prove that
+this model actually works for you
+because it's cheaper. And we'll go with
+that up front.
+>> I think there was something interesting
+that you were talking about earlier on
+the inspiration behind building Rocket
+Ride. Can we go into that and what the
+pains were that you were seeing out in
+the market and why you felt like we need
+something that can give these LLMs a
+little bit more determinism when we're
+kicking off all these agents.
+>> I can go through my AI journey.
+>> Yeah. Give us the whole breakdown on
+>> Okay. So, so we started in a in a
+company called Oprah. Okay. and
+operating I've been in the backup and
+you know data you know synchronization
+world forever right um [snorts] and so
+when we when we first started you know
+oper
+data intelligence and automation and we
+actually started reading files and not
+just blobs and sending them over you
+know from to AWS or you know S3 and that
+we actually started trying to be
+intelligent on it like reading the text
+out of it and you know trying to figure
+out you know the classifications of data
+and all that kind of stuff. So
+>> we started I started my journey on AI.
+This was probably about three two years
+ago, three years ago and and it was
+actually a very simple it was actually
+taking you know a file parsing it
+chunking it up embedding it and putting
+it in a rag system so that a user could
+very easily you know chat with their
+data over you know
+>> I don't know 1.5 billion files or
+something like that. the classic 2024
+>> that didn't work very that didn't work
+very well. Okay. It was so expensive to
+actually embed all that data that it was
+just not but you know it was a learning
+experience for me.
+>> And so we had this engine that we you
+know was doing this this data processing
+and actually pushing through the
+pipelines and then we got the idea oh
+well you know what we could actually add
+this over here and this over here and
+what if we add this kind of node and you
+know all this kind of stuff. And then it
+just really started jelling into you
+know a more general product than you
+know just pushing files through it and
+and you know doing rag on it. So that's
+where oper or rocket ride was actually
+born is from you know technology that
+we've been working on for the last six
+or seven years with with operabi.
+>> Yeah. And and the reason why we decided
+to split this off and start a new
+venture is when you think about that
+core business for Opera
+to be leveraged. So it's really around
+that data discovery and preparation.
+Whereas this new tool was really around
+taking that data those those curated
+data sets and actually doing something
+with them and that that market is really
+developers and so it's completely
+different market different sales motion
+and so that's the reason why we split it
+off but as Rod says this engine's
+already been proven at pabyte scale
+running in an existing company you know
+at enterprise
+>> and it's probably worth noting here too
+that Rocket Rides fully open source,
+right?
+>> Yeah,
+>> correct.
+>> So that's awesome.
+>> Yeah, we donated it.
+>> Oh, nice.
+>> Yeah, we donated it all to a foundation.
+So we're part of the Linux Foundation
+and what is it? The AIF,
+>> So we're part of the AIF foundation,
+it's completely open source. Every bit
+of it, the C++, the T the Tika code and
+Java and all the the Python is all open
+source. Do you want to go down the C++
+route or do you want to give me a recent
+bug?
+>> I'll go with the concrete black bug.
+This is
+>> This is crazy.
+>> This just happened to me Thursday. Oh my
+goodness. It was like a nightmare. I
+spent like
+>> I don't know
+>> 12 hours on Thursday and then I got up
+at six o'clock in the morning and spent
+another nine hours on it.
+>> The problem was with Crew AI, okay?
+Crewia agents. It really is a good
+technology. I love crewi actually. But
+their API, okay, is synchronous.
+>> And what were you trying to do? What was
+>> I was trying to get two agents running
+at the same time.
+>> Okay. Two chats. Okay. Actually, I had
+three chats. I said, "Write me a 500word
+story about a dog." And in another word,
+another one I said, "Write me a 500word
+story about a cat." And then the third
+one was write a 500word story on an
+elephant. Okay,
+>> very simple chat, right?
+>> But it it but it runs through these
+things.
+>> And since we were using the synchronous
+call, it's not multi-threaded. The
+problem was as soon as you issued the
+second, you know, write me a 500word
+story about a cat, all of a sudden the
+dog was thinking the dog story was
+talking about the cat too, the elephant
+story just hung. Uh so it was all
+stepping all over itself and it turned
+out that it was you know crew AI on the
+synchronous mode. So then we actually
+had to go back and figure out okay how
+do we do this because it has three
+different API calls uh you know to
+actually do it. It's it's I don't
+remember what the there's a a
+synchronous one, then there's a
+synchronous one that is uh an
+asynchronous one that is actually using
+the synchronous loop. And then there's a
+truly asynchronous one that they
+actually introduced about 60 days ago on
+their latest stuff.
+>> And you saw this just by looking at the
+logs in Rocket Ride.
+>> And you recognized, wait a minute, why?
+>> Why is this over here? And why am I
+getting dog talk in the cat, you know,
+chat? And it's like, okay, something's
+wrong here, right? not it didn't work
+out well. So figuring out exactly what
+to change on the crew AI node and the
+crew you know uh sub agent and the
+orchestrator node that we have to use
+the async version the new async version
+allows us to run 30 different chats
+concurrently without them stepping all
+over each other. That's what Rocket Ride
+actually does because you know what?
+We'll find a problem, we'll fix it. And
+now you know you can just drop in these
+crew AI chats and you know they just
+work. You don't have to worry about the
+three different APIs and how the three
+different APIs work differently and
+break and have global variables. That's
+not the only one that happens to either.
+It's like OCR is oh my goodness. OCR is
+it's all over the place. Whisper is
+great, but you know it's it's all these
+different little details about all these
+things that you know your your coding
+agents are going to miss. It seems to
+work just fine because you know all the
+developers have been working you know on
+crew AI agent we haven't released it yet
+but all of the developer yeah it works
+and you know I've got a chat up and it
+you know does this and this. Have you
+tried a second chat? Yeah.
+>> Have you tried 10 chats throwing it at
+it? So those are the problems that you
+know you you run into when actually
+developing an AI solution.
+>> And this is actually an example of why
+uh a tool in a framework like uh Rocket
+Right is valuable because it's also
+communitydriven. So as the community
+discovers these kinds of issues that are
+general issues and they get fixed within
+the framework of the tool, everybody
+else benefits and you you no longer see
+that problem. Amanda, I'm just thinking
+about all the different APIs, the
+different nuances that the coding agents
+aren't really catching. I've also gone
+through this a few times where I'm just
+yelling at the coding agent like read
+the docs. Just read the docs and look,
+it says it right there and then I have
+to copy and paste like do this. No,
+you're looking at it wrong. You're
+thinking about it wrong. Do this,
+implement it this way. But by that time,
+it's like why didn't I just write it
+myself? Why am I having to go and copy
+paste the docs? And sometimes you get I
+think nowadays it's a lot better. Most
+>> documentation sites have like a
+llm's.ext, text. But even so, we had a a
+talk recently at one of the coding agent
+conferences where they were they did a
+bunch of research on how coding agents
+use different products and how well
+they're able to understand how to use a
+product versus others. And some the
+coding agents get like that because it's
+very well-ritten documentation. It's
+like machine understandable or code
+coding agent understandable
+documentation versus ah this
+documentation is written for a human and
+so it's not quite the same. A human
+understands and they're probably looking
+at it and thinking like yeah of course
+it's fine but then the agent has trouble
+when it tries to iterate over that and
+then you get into those situations where
+the agent doesn't quite understand what
+it's doing wrong. It's just doing
+something wrong and you want to be able
+to debug it. I may be odd, but one of
+the things that I do is I I I go through
+the documentation. I then ask Claude and
+GPT5,
+okay, write this prompt on a scale of 1
+to 10. And you know,
+GPT usually comes back with nine or 10
+or something like that. Cl say it's a
+six. And it's like, okay, how can I
+improve that? What can I do? Rewrite the
+prop for me so that you better
+understand it the next time. And that's
+an iterative process that we go through
+not only on prompts but on documentation
+and stuff like that because you know at
+the end of the day we want Claude and
+GPT to actually understand what we're
+trying to talk about. So the best thing
+you can do is ask them.
+>> Yeah. Yeah. I've heard folks doing this
+by way of skills but and it's a little
+bit like a quick and dirty fine-tune of
+a model on a certain product or a
+certain tool. So you can say, "Okay, now
+you're going to be using Crew AI. We've
+created a specific Crew AI tool." So you
+have all of these different
+understandings if the documentation
+isn't good enough.
+>> It's an art. It really is. And there are
+so many moving pieces with it that you
+know, and and the more that you can
+actually base things and you'll
+make the pieces so that they stick
+together correctly, the easier your job
+becomes because then there are not so
+many moving pieces anymore, right? Yeah,
+>> you have your own cloud. Can you talk to
+me a bit more about what that is and how
+it benefits folks?
+>> So, Rocket Ride launched on March 4th
+with this open source tool that we've
+been talking about. Uh, later this week,
+we launch our preview of our cloud
+service because what we've basically
+made available for free through open
+source is the way to build AI
+applications. Once you actually have an
+AI application and you want it a runtime
+for it, assuming this is not a, you
+know, personal project, you want to have
+many users using it. You need somewhere
+to host this thing and you want to be
+able to obviously have it scale and
+scale at a costefficient way. So the
+Rocket Ride cloud is going to be
+basically the the preferred option for
+us at least uh to to run those AI
+applications at a reasonable cost.
+Right? That's that's the the premise. So
+one of the some of the options that you
+have to actually deploy these pipelines
+you know once you draw all the pretty
+boxes and connect everything up you know
+is working on your laptop what are the
+three options you have to deploy you can
+deploy as a service on an on-prem server
+somewhere so you can supply your own
+GPUs you can supply all your own stuff
+your own hardware uh and run it yourself
+completely managed we're not involved at
+all right you get the source code you
+can put it wherever you want the same
+kind of deal that you know most AI
+companies like Novas and Quadrant they
+have the open software and then they
+have this hosting software right if you
+don't want to worry about you know your
+GPU utilization or getting the
+appropriate GPU that's where our cloud
+really comes in you can also deploy via
+docker too so if you want a docker then
+you know you can put it in your own
+onrem the advantage of actually going
+with the the rocket right cloud is
+number one economy of scales okay
+because if you're if you're spending x
+number on open AI and then you you know
+X number of requests and then you have Y
+number of requests with this you know
+llama parse and then you know all this
+kind of stuff we aggregate everything so
+we get economies of scale everybody
+who's using you know open AI we you're
+bundled in with them you know as far as
+that pricing goes so we can actually run
+it a lot cheaper you know for your
+external resources
+>> or is it everybody that's using OpenAI
+in Rocket Ride cloud
+It's is it it's my own company
+>> that's using it or
+>> it's it's your own company but it's it's
+our own company but we're aggregating
+the inference requests to open AAI so we
+get cheaper pricing we pass that on to
+you much better pricing that you can buy
+it yourself
+>> open AAI through you.
+>> Okay. Through your cloud.
+>> Yes. So when you when you drag over the
+OpenAI LLM Okay. that whole thing is
+being run in our you know in our cloud.
+So therefore you're with everybody
+else's open AI connections then we
+aggregate all those the open AI you know
+usage into a much better price
+negotiated price so we can deliver open
+AI services at a much you know uh
+reduced rate and same with with llama
+parse and all the other ones that are
+charged services. Not only that, you
+only have one API key to to manage,
+okay? Because now we charge you for the
+open AI usage. So all you need is the
+Rocket Ride key and it gets you all
+these different services based on your
+usage.
+>> So you're in a way you're also being a
+gateway.
+>> Yeah. Yes.
+>> Yeah. Okay. Tell me more. One of the
+challenges uh in this new era of AI is
+you see a lot of custom tool stacks for
+each developer and how does that work in
+a collaborative team setting. So by
+standardizing on something like the
+Rocket Ride framework now you upgrade to
+using the cloud service to run those
+pipelines we can provide uh
+collaborative features that enable
+people to work together on bigger
+projects. Um we're also look uh going to
+be offering uh governance and and
+auditing and compliance as well as sock
+2. And as we probably mentioned, we've
+come up with ways to maximize the
+compute resource utilization to lower
+our cogs which we can then pass those
+savings on to users as well so that we
+can offer this cloud service at a
+cheaper rate than say you'd find on the
+open market.
+>> You know, let's let's go into that for
+just a second. What's really interesting
+is is the the Rocket Ride cloud and how
+we deal with GPUs. We have something
+called the model server which allows
+aggregation of inference. So let's say
+we have a 100 different customers
+running easy OCR, right? Normally what
+would happen is you have a 100 different
+easy OCRs loaded all over these GPUs all
+over the place, right? So that means
+you've got a lot of GPU resources that
+you're essentially, you know, wasting.
+So with our model server that we run
+within within Rocket Ride, within the
+Rocket Ride cloud, we only have one OCR,
+easy OCR, and we do inference on a
+really powerful GPU on, you know, so all
+thoseund 100 customers are sharing that
+one GPU with easy OCR. I know that
+sounds terrible, you know, some kind of
+bottleneck or something like that, but
+we have big ass GPUs first of all.
+Second of all, we scale. If the queue
+starts getting too full and latency is
+actually, you know, going up, we'll
+actually throw in another easy OCR on
+it, you know, so we do two inferences
+concurrently. If it's continues to grow,
+then we'll add a third easy OCR and so
+it scales dynamically, but most
+importantly, it scales down as well. Now
+what would you do with you know
+inference on on prim right using o you
+know easy OCR or whisper or something
+like that you're actually paying 247 for
+a GPU that may be only used 5 minutes a
+day on a whisper model or eight hours a
+day you're still spending 16 hours
+hosting this Whisper model that you're
+not utilizing. So, in order to get the
+performance, you have a a choice. Either
+buy a really expensive GPU that's only
+going to be used 8 8 to 10 hours a day
+or use, you know, Rocket Ride Cloud,
+which you only get charged for usage.
+So, if it's only used for 10 hours a
+day, we'll kick that model out when
+you're not using it and bring in another
+model and reduce costs. And one of the
+things that we're capable we're able to
+do is because we understand what's in
+each of these pipelines using our
+framework, we can judiciously load these
+models in a smart way
+>> to again maximize the availability of
+GPU for other usage.
+I'm sure there's somebody out there
+thinking like, okay, that sounds great,
+but it also sounds dangerous because if
+I'm sharing GPUs with other people's
+companies, like my data is private and
+sensitive and how do you make sure that
+it's isolated for just me? So when we do
+the inference and we put when we put
+models onto onto a server, we typically
+batch things into 64 or 128 batches.
+They go into the GPUs and unless Nvidia
+has some really serious bugs and then
+does cross talk, you know, amongst the
+different channels, they're each
+individual channels. So when we feed in
+128 channels into the GPU, tell it,
+okay, go do the inference, do the
+operation now, and then on the back end,
+we pull everybody's stuff off of it. So
+we split it back up. We're only sharing
+it while it's on the GPU doing the
+inference. So unless there's a real
+serious problem with the GPU, there's
+absolutely no cross talk between the
+between different different inference
+loads.
+>> So the lanes are isolated.
+>> The lanes are isolated.
+The cost savings thing is huge, man. And
+I think that more and more as time goes
+on, folks are going to just start asking
+for that. You're probably already seeing
+it that it's like, "Yeah, right. We're
+doing the math here." And if we want to
+scale or if we really roll out this
+product to our whole user base, it's
+going to start being expensive. We've
+seen this pattern before, right, with
+cloud, okay? And and how everybody
+wanted to go to the cloud and then the
+CFO said, "What the hell's going on?"
+Right? It's like,
+>> and even my CEO, he says, "We spent
+$25,000 a month on AWS." And it's like,
+"Why?
+>> Where did that go?"
+>> It's like, "I don't know." [laughter]
+>> So, it's like this is this is just the
+beginning. We're just trying to get it
+to work right now, but [music] in the
+next year or two years, you're going to
+see a lot of pressure, you know, coming
+on on the op, you know, operational
+cost.

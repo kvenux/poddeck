@@ -1,0 +1,1698 @@
+Hey, how's it going? Welcome.
+LinkedIn
+and my
+Hello. Hello.
+Please find a seat. Settle down.
+Ah, do we not have enough chairs?
+There's more chairs over there.
+Okay, we have a really full room. The
+intention is every table has about four
+people. So, if you see table with less,
+I think most actually are quite full.
+Okay,
+we do have more tables if needed. Okay,
+yas. I think we need to get more tables.
+Um
+I will just do a very short introduction
+uh from the MLOps community. Um then we
+will have a very short introduction from
+our hosts and then we can get started
+with the schedule. Uh if you don't know
+me yet, I'm Ba. I am the uh one of the
+organizers of the MLPS community chapter
+here in Amsterdam. This event was
+organized by the global uh organization
+that we also have. Uh so if something
+went wrong, it is not my fault. So I was
+not involved with the day today. Um but
+um if if if there is actually something
+do come talk to me. So um we are um as I
+said both a global community and then
+local that means we have a very big
+online presence but then also a local
+presence. So we as uh the local chapter
+we organize AI events here in Amsterdam
+in the AI house among other places but
+also at a lot of other uh companies. Um
+and then globally we have a lot of uh
+podcasts, online conferences,
+newsletters and other interesting
+material also uh very nice Slack. So if
+you're interested in that uh please join
+us there. You can follow us on LinkedIn
+um as well. Um oh and our Luma for the
+events that's the best place to stay
+updated.
+I think that's uh my end here. So thank
+you very much for the AI house for
+hosting us again and then I will give it
+over to Flores.
+Thanks, Ba. So, super to see uh such a
+full house. I think this is honestly
+what we kind of meant when we're
+building this AI house, you know, to
+host so many builders. Uh and what I
+also really like to see is like, you
+know, it's not just only software
+engineers now that start to use AI in
+their day-to-day, but it's actually
+everyone. Um and uh yeah, that's also
+something we want to facilitate with the
+AI house. So yeah, I'm I'm from Process.
+Uh that's uh that's this is our
+headquarter here at the Zitto and yeah,
+we're operating uh tech companies
+globally. Um yeah, we're doing pretty
+interesting work. Um and uh yeah, you
+know, sometimes we're hiring. So do
+check that out. It's always cool, you
+know, especially if people are this
+enthusiastic about coding and AI, you
+know, it's it's always a good case. But
+yeah, but today we have a really
+interesting topic and uh I've seen some
+slide. You're in for a wild ride. Uh and
+I wish you uh uh yeah, all the best. But
+let me just introduce Fauso for a bit
+because he's not just an AI engineer.
+He's not just a co-founder, but he's
+also a researcher. So what you're going
+to see today is not just based on, you
+know, things he tried. It's on things he
+researched. and he's not researching you
+know in some closed loop in some some
+isolated part but he's researching with
+uh the industry. So these are real
+learnings and I think if I if I remember
+one thing that people will ask me when
+they when they ask around you know what
+what are you doing in the day-to-day is
+that they want to know what are the real
+things that are happening. I think FTO
+knows a lot about that. So, I'm uh yeah,
+I'm really uh excited that he came here
+because uh yeah, we like this content
+and I wish you all the best and good
+luck uh coding
+[applause]
+and and yes, so hi and um thank you all
+for coming. I mean, there's a lot of
+you. Who would have thought a few years
+ago that you would get a full house with
+a with with a topic like this?
+Um so um thanks for the introduction
+Flores. Um but I think the more relevant
+part because I am a researcher at the
+Java applied AI lab. Um but uh it's also
+true that I used to own a restaurant and
+and I only sold it like two years ago
+and my study my academic background is
+sociology.
+So how do you end up in an engineering
+environment? So that is kind of what I
+want to share with you today because you
+know I'm not here to teach you about
+syntax. You probably know much better
+than I do. Um but I'm here to provide
+you my humble lens on this changing
+world. I mean we can go very dramatic
+about it but matter of fact is that
+things are changing fast. And to
+understand those kind of big changes in
+our lives, we sometimes need a lens to,
+you know, to create a mental model of
+things. And I hope to provide that to
+you tonight. Uh in the next say, who
+knows 40 minutes, 60 minutes. I'm never
+good in timing, but we'll see. Um after
+that we will have a our uh buildoff
+where all of these groups that are so
+sitting snug as a bug on GitHub uh on
+their tables here um will try to uh
+compete with each other um by a
+challenge that I will give the details
+for later on. But it is a challenge
+taken from the real world of grease oil
+and data that I work in. Um,
+don't worry like your your developers,
+your you keep your hands clean.
+[laughter]
+Um, so um yeah, let's get uh let's get
+started without further ado.
+>> [music]
+[music]
+>> So one of the most fascinating things in
+the uh well evolution of humans I think
+is our [music] relationship with tools.
+Uh tools are in a sense what makes us
+very human [music] because tools
+make us able to rise above the sort of
+restrictions [music] of our own biology.
+And by making tools, by using tools, we
+also change [music] ourselves. We change
+our societies. I mean imagine time,
+right? Imagine a world without time. How
+different would your [music] whole
+conscious experience be? So now again we
+have made a tool that is dramatically
+going to impact not only what we do but
+also who we are. Um I find myself
+working in the terminal for the last
+years where I more and more and more do
+almost everything of my life. I mean, I
+own some companies and I do research and
+I love doing creative stuff like this
+and I can now all do it with just
+language, by just using systems smartly
+and um honestly uh not writing too much
+code. I mean checking it still but
+definitely not everything would be
+absolutely ineffective if you would do.
+Um so
+how can we because these models as we
+all know are not only opaque and you
+know even the labs that uh make them
+aren't really can't really explain what
+is happening underneath. So how do we
+you know influence it and um how do we
+manage doing that while there's a new
+model every week and uh or so
+today we are going to focus on context
+injection because that is you know the
+thing that we can change and in life in
+general if you work up yourself on the
+things that you have no influence on
+you're going to have a very hard life
+right so focus on the things that you
+can change and that is essentially this
+little window which could be a million
+tokens. Um, it's probably going to be
+more, you know, and it's probably going
+to be faster, but it will still be a
+limited space in which you can influence
+whatever it is that you want to do
+because if you're not training models on
+a daily basis, then you are not uh
+working with, you know, the the
+parametric memory, then you're not
+building your own models. But there's,
+you know, luckily a lot of things that
+we can do because,
+well, first, a raw API call, as most of
+you know, is stateless. there won't be
+any uh context so to say in that call.
+But if you use cloud code and that is
+the well what the entry portal that
+we're talking about tonight which is not
+necessarily the only one but it's one
+that I like most and I got to choose the
+topic so it's going to be cloud code
+tonight and I argue that it is one of
+the ones that lets you you know provides
+you with the most freedom although
+combining it with codecs uh in the CLI
+is definitely interesting too. Um so but
+cloud code does not come stateless right
+if you open your terminal um or whatever
+UI you are using but let's say terminal
+then you're accessing this model through
+the well system instructions that
+entropic uh created for cloud code which
+always are always loaded with the
+default agent
+um it will probably have your clot MD
+some hierarchical cloud MD like your
+user level, project level, maybe there's
+a subfolder level and there may be some
+skill descriptions um descriptions of
+tools like MCPS, there's memory that you
+have built up and um there are um some
+rules but that's a bit of a different
+story. Um so anyway, it's what it's
+already in that window. Then you start
+chatting, right? So your first message
+is dropping in that and then you know
+you're maybe it is checking files it is
+loading skills and loading the whole uh
+you know the the whole content and more
+and more builds up in that context
+window. Now I don't really know where
+the cut off point is where you shoot
+compact right or shoot starting new
+session. I have to admit that much of
+what I do there is based on sort of like
+gut feeling, you know, because there's
+so many I mean anyone who's going to
+tell you that they know is talking
+[ __ ] because there's so much like
+there's so much um moving parts
+happening in this context window because
+context is not just you know neutral
+data like if this if this would say um a
+certain concept and then some other file
+introduces another concept and then you
+started working on another task then you
+have a lot of, you know, you have a a
+large distribution of context in your
+window and it will definitely be harder
+uh to focus on the thing that you want.
+So the one context is not the other and
+you kind of have to feel it. But I think
+as a rule of thumb, don't even think
+about going over 25% of context usage in
+cloud code. Whether you're using a 1
+million model or a 200,000 token model,
+um it's just not worth it. is more
+expensive, it's slower and it's more
+prone to errors and there is real really
+easy solutions to manage it. We'll come
+to that.
+So context, what are we talking about
+here? Uh little context on context. I
+made this tonomy which is highly
+debatable and I'm sure many of you will
+debate me on it. Please do but after the
+uh talk. Um so I made it in like
+deterministic uh probabilistic and
+human. And that is because these
+different types of context
+um can be considered you know the way
+that they are injected in your session
+and what happens you know the way the
+content is actually produced. Both of
+them can be deterministic and
+probabilistic. Um yeah this is the best
+I could do
+but let's start with deterministic
+claude MDs right definitely a
+deterministic injection because you have
+your user scope that is on your machine
+it's probably get ignored and there
+should be some general rules there how
+you like things but basically as little
+as possible because less is always more
+when it comes to context basically
+context optimization is you know getting
+uh the the highest form of efficiency
+see getting the best result with the
+minimum input at uh uh injected at
+exactly the right time and that is why
+all of these kind of files are not in
+just one long markdown document right so
+this way we can play with it so cloud MB
+as said is injected deterministically
+as long as you start your default agent
+it's different for sub aents um and then
+there's rules I think they're very
+interesting because I see a lot of
+people um stating in their cloud MDs
+like how they want their Python
+conventions, how they um um you know
+whatever sort of like a system prompt
+for um uh conventions when it comes to
+uh coding languages or whatever
+expressions uh they should be in the
+rules because they are path scoped or
+they can be um a file extension or they
+can even be fetched uh
+probabilistically. Um but that is
+definitely the place for all those
+conventions, all the ways that you want
+things to work. Now there's hooks. Well,
+that is basically just a deterministic
+event. And Claude offers a whole bunch
+of um um yeah, life cycle events where
+you can just hook something up to. Um
+where I see it most useful is for
+example when you uh stop a session, you
+could have a another model do something
+with the data in your session. Uh you
+can have a um I use a um because I'm a
+horrible typer and I use
+text to speech of course um but it also
+is you know suboptimal. So then I have
+another session using Tumix and that
+monitors the session that I'm having and
+then every input you put a hook to to
+like a user input and then it rewrites
+uh considering all the whatever details
+uh the entropic gave you for their model
+and they just changed to 4.7. How do we
+like 4.7 so far?
+No opinion. Well, I've I've heard uh uh
+um obviously I've been making this
+presentation, so I've been using it day
+and night, so I can say a thing or two
+about it. It's um it's highly
+opinionated and um it really does as you
+say, which isn't always good. Um, so the
+point is that between those models,
+between those updates, there will be
+differences and an uh sort of like an
+observer pattern that is activated
+within hook can help you stay on track
+there. Um, there's auto memory that is
+Claude uh Claude's own node um own um
+memory, but I don't really like it. I
+mean, it's probably going to be awesome
+as most things that, you know, are not
+optimal yet, but it is it's like, you
+know, it doesn't really understand when
+to save something and and and and it has
+some trouble retrieving it at the right
+time, but it's basically just a markdown
+um based memory system. [snorts] And
+there's loops. Um if you are flush in
+credits and flushing, you know, flushing
+tokens, loops are a great thing. You can
+just set a crown job but then really
+easy and you know go back at this every
+30 minutes or so. Um probabilistic sub
+aents sub agents and agent teams are a
+very important feature in cloed. Um can
+I ask you a question?
+>> Yeah the previous
+provides us 1 million token whereas open
+source project like open code in there
+like at work we have hardcoded at 128k.
+So is that the reason or is it more
+automatically.
+>> Um
+well,
+all the arguments that you can make for
+staying in that context window basically
+have to do not you know the context
+window is a solution to a problem. Um
+your problem is that you want your AI to
+be focused on whatever it is that you do
+and you want it to remember all that you
+did. But hang on, hang in. There will be
+uh some there there are many solutions
+to it. Uh and that is that is definitely
+what we will be talking about uh today.
+Um so sub agents are include you have
+your default agent, right? Your chat and
+your sub agents do not have they do not
+inherit the um entropic uh claude
+personality message so to say. Uh they
+don't inherit your claw files. They
+don't inherit memory. uh they do by
+default I think inherit the uh settings
+for model uh and MCPS but you can also
+change that. So the great thing is
+sometimes I mean I find myself more and
+more not only um coding with cloud code
+but basically running my whole business
+life like I have um skills who come to
+that um to generate uh uh quotes from
+call transcripts and then invoices to
+clients and uh respond to emails and in
+draft and um uh uh yeah do do a whole
+bunch of other things as well like
+ideation research etc. So if you are
+using your default code agent for that
+you'll be sending a coding agent on a
+non-coding job which probably works but
+probably not optimal. Um with sub agents
+you can you basically have two choices.
+you can have the default agent generate
+them at runtime and you just ask um
+build a team to do research to XYZ
+um and it will give it an assistant
+message maybe some uh access to MCPS and
+to skills etc. Um, but if you do a task
+more than once, you probably want to
+build some default agents that you sort
+of design yourself and where you could
+even have your default agent make
+adaptions to it runtime, right? But then
+you have more control. You can uh in
+your general front matter, you can
+uh do uh things like models um um and
+what skills it has access to. And that's
+also important because let me just skip
+to skills. Skills are great. I'm sure
+all of you are using some form of skills
+in cloud code or other coding ideides.
+Um what are they? I mean they're not
+really magic. They're just a slash
+command with um something underneath,
+right? Um in the most basic form there
+will be a markdown file with some
+instructions in which case it should be
+indeterministic probably. But anyway,
+um, but the good thing is you can also
+extend them with scripts or what I often
+do when I have some task that requires
+something that Claude is either not good
+at or just not able to. Uh, for example,
+video analysis, right? The Gemini um is
+the only um model, Gemini 3.1 Pro is the
+only model together with Flash that is
+able to um ingest native video.
+Definitely not perfect yet. only like
+one frame rate per second. But there are
+some workarounds there possible as well.
+But you know what? If you just make an
+agent um in your skill and you pack it
+in some code and then you ask your skill
+includ code and then all of a sudden you
+are communicating with an Gemini agent
+or a codeex agent or whatsoever.
+so then we have plugins which is sort of
+around skills but then uh it comes as a
+package and you have around the whole
+the whole skills um you can you know how
+do you get them? You can get them from
+uh the you know the public domain um
+community resources. It goes without
+saying that downloading [snorts] skills
+from a website you don't know and a and
+a distributor you don't know is on your
+own risk. So more and more because what
+you really need is only you know a skill
+to make skills and um uh I think
+entropic serves that out of the uh box.
+So a skill to make skills let you in
+your chat you just worked through a
+problem you found out some things you
+did some research you found some really
+interesting stuff and then you wanted to
+save that. Before I would used to save
+it to databases to markdown files and
+then you know scatter it around
+everywhere and I just say make a skill
+and make it you know reusable so to say.
+So that means that you're ending up
+after spending some time with hundreds
+of skills maybe um a lot of rules and
+some uh cloud files are slightly too big
+and some sub aents and all of these
+things load something in your context
+window. Um I think with skills and MCPS
+um if you are not doing this yet you
+should um just look it up in the docs
+but it's called some like deferred
+tools. It's just one uh setting uh one
+flag and then all of a sudden uh you cut
+down your context window gets injected
+uh by a lot. But that also has you know
+all these things have trade-offs. Well,
+let's say you have 200 skills saying
+something, right? And uh and then um
+they have descriptions which should be
+accessible to the model to be able to
+choose right because you are not going
+to uh think about 200 different skills
+when you are in a process like there's
+just no way that a human will be able to
+choose from so many options. So you need
+the LLM to help you choose and bit more
+uh meta. I think that is probably the
+biggest uh
+use of AI in the future of humans is
+that they uh deote us of the uh things
+that we have to make choices about.
+Um, so these skills you can sort of
+compact these descriptions, but then the
+downside is that of course your LLM
+won't uh see them as good. So long story
+short, you have all these things that
+can be on user scope. That means that
+all of your projects see the same
+things. But I highly recommend, it's a
+little bit more work, but to have things
+project scope, right? So you could even
+have everything user scope but then for
+a certain project um load the full
+skills and the full MCP descriptions in
+that particular project because if you
+want your LLM your agent to be able to
+choose for you you need to provide it
+with good information.
+As said observers are other processes
+that um yeah watch what you do. I've
+recently been playing around with the
+Timox. Um, after being extremely annoyed
+on new, uh, controls that I had to
+learn, uh, I decided to make a skill for
+that. And then now my AI agent is doing
+it for me. Uh, and that includes, um,
+start a new terminal with a new cloud
+session or start a new terminal with a
+new codec session and explain to it what
+we were doing and what you expect of
+that agent to do. So your terminals can
+now talk to each other with TMX and it's
+really easy. So that also means you can
+have observers and um you know who
+watches the observer etc. um
+then the human right uh as said it's
+basically the job of the agent to un to
+offload us uh of all that hard work but
+we still need to steer really really
+good. Um, one of the annoying things of
+the upgrade to the Opus 4.7 model that,
+um, I saw is that it doesn't print its
+reasoning anymore. Uh, there are some
+ways around it, but as with many things,
+cuz I could talk for hours about these
+topics. Read the [ __ ] manuals, right?
+I can't really go through the entire
+documentation of Entropic. And believe
+me, they can do a lot better than I can.
+and they have an amazing AI agent on
+their um um uh on their website uh which
+you can ask um well you know questions
+to and it works really good but in
+general I think it is more important
+than ever to read documentation right um
+because
+we um um yeah we we we need to um not
+we don't really have to know everything
+in detail but we need to understand a
+lot of the concepts and I mean if I
+speak for myself what I find if if I
+read documentation it gives me ideas on
+what is possible and there's a lot
+possible a lot more I mean what you need
+to have is ideas and you need to sort of
+have a feeling what is possible and yeah
+um as I said I'm not going to go into
+the docks too much so I want to
+introduce uh yeah a system just an
+analogy and it's not an original
+analogy. I mean, it's, you know, the
+brain and AI. Um, but it's not on the
+level of the LLM is the brain and
+uh that maps directly to how we work.
+Well, first of all, it doesn't of
+course, right? I am not standing here
+anthropomorphizing uh anything. Um, but
+matter of fact is that these systems
+because I'm talking about the system
+like the LLM and the memory and how the
+attention and the context window works.
+These systems are super super complex.
+And
+to understand something that is so
+complex, you need something to abstract
+some things away. And there's something
+well, you know, um our the the way that
+we work like the way that uh attention
+works, how memory is stored and how
+memory is retrieved. And yeah, I want to
+um uh stress the point that if as stated
+context is finite and information uh is
+plenty then you need some place to store
+your information and you need some
+way to retrieve it, right?
+Um yeah so attention and memory that's
+what we're going going to talk about and
+how we can practically implement this in
+our workflow.
+So the brain analogy our attention um we
+have our working memory right uh
+seven things minus
+one or two I believe right the things
+that you can hold in your active uh
+working memory so of all these things
+that you see in your active working
+memory I mean there's much more
+things going on than that I can perceive
+at any given moment
+And what I do perceive is highly highly
+influenced by um yeah my priors right by
+prior meaning the sort of
+things that I know about the world and
+things that are important to me. And
+yeah, just a practical example, when I
+have my daughter of two uh and I would
+take it to the lab, then um she would
+see the same physical reality as that I
+do, but she was perceive a very
+different world, right? Um she different
+things are important to her and well
+knowledge does not get embedded in a
+vacuum so to say. It is uh it means
+something because you already know
+things and it also means something
+because it makes you happy, scared,
+you know the list. Um so things that we
+perceive in the real world and not
+everything is getting uh uh stored so to
+say but some things are and they go to
+our uh long-term memory and not directly
+they go through the hippocampus and that
+takes a while you know to sort of
+process memories and they're never
+stable right that looks nice and stable
+but they are not because when a memory
+is retrieved it will get altered because
+it is received in the messy real world
+in the messy
+reality of your own working memory and I
+argue that this is very much the same
+when you are working with clawed code.
+Um so memory um what I found to work and
+was actually a couple of weeks ago also
+um worked out much better than I would
+ever be able to write it down by Andre
+Karpathi is to
+um as an engineer working with a uh with
+agents to see memory storage as markdown
+files right no need for retrieval
+augmented generation because there is I
+mean That's a great solution when you
+have a lot of files, right? But there's
+also a lot of moving parts and a lot of
+things that you can go, you know, that
+can go wrong that you don't really
+influence. Well, the actual problem if
+you're coding, uh, if you're working,
+uh, in in claude, um, you'll be doing
+research, right? there's there's a lot
+of papers coming in and um maybe you are
+reading some documentation and it
+doesn't really make sense to do that
+every time and again or maybe you use
+context 7 but still there there there
+are probably things that you do more
+often uh than once right so what if you
+just have a folder a wiki and in that
+wiki you see mine here um this is the
+wiki that I used to build this
+presentation right a lot of research on
+attention neuroscience etc. I kind of
+jumped in that rabbit hole so took a bit
+longer [laughter]
+but there's an there's an index there
+and that index is really what you would
+want to see as a human when you would
+you know want to find something in this
+sort of library and now you see an
+obsidian uh visualization super easy uh
+you can uh have all the relationships
+but then this is sort of where Kapati
+stopped you will get to see that um uh
+concept later in the in the in the
+buildup. Um but he also at liberty say
+you know um this is an abstract concept
+uh you can build whatever you want on
+top of it. So what I found immediately
+most interesting and um and and and I
+hope I can get it to work. I'll probably
+open source uh it uh after as well. I
+hope you get as enthusiast about this
+concept as I am after playing around
+with it in the in the workshop. Um oh
+yeah so by the way what you see here the
+system that uh that is now working and
+it's what what is important like if you
+just store everything um then it doesn't
+really have a meaning right then it just
+accumulates and accumulates. So you need
+some policy to decide what is important
+right where is the attention and you
+need some policy to um decide what um
+yeah how to retrieve it and I just use
+some simple things like um um um a rule
+of decay that when um some knowledge is
+in that wiki and it's not being used
+after some time it will get lower scores
+but if some you know if concepts of the
+same sort of concepts are uh being added
+to that Viki then probably that concept
+is important so then all these concepts
+get a higher score. Um and also you
+could um imagine that um if you send an
+an agent to archive for a paper research
+for some task then it will focus on that
+task. That's just how it works. And the
+whole thing that you know the most
+beautiful things are the unexpected
+things right like the sort of
+serendipity the uh and the the findings
+that actually update the priors not only
+confirm the priors. So while you will
+still have that from your sub agent that
+you send on research, you can instruct
+it just by simple instructions to also
+download all those files and then um uh
+process them through that wiki and have
+a bunch of other agents with different
+instructions that could even be dynamic
+um uh process it and put it in your
+wiki. So then you would have some maybe
+5% of the information that is relevant
+from that search would be injected in
+your context window because that's what
+you're working on. But you also save the
+other 95% for later uh use and then some
+system should be able to um yeah sort of
+make it uh uh maintain it and LLMs are
+pretty good in that. Um yeah I'm not
+going to go through the entire um system
+here today.
+Um but why is it important? I thought
+like let's show a little demo. So
+there's a default run here and a
+configured run and these are um two runs
+and they are both fine setups like they
+have a good cloth they have skills sub
+agents um both work on opus 4.7 there's
+no difference but for one thing that the
+configured run has a wiki and that wiki
+is filled with information um that was
+relevant for this task and the task was
+chosen deliber believe by me pretty
+hard. Uh it's to build a seller automata
+visualization. Uh and um that is um yeah
+that's hard.
+And um so here the configured run was uh
+well I I I fetch the database by you
+know researching some some hour and uh
+asking questions reading papers and
+processing that in the database. Now, of
+course, the default run used the same
+model, so it will it would get there as
+well, but uh I um set a timer. So,
+there's every uh 30 seconds and then the
+next tool call you see there's uh here
+it says what? So, it it injects the time
+and it stresses it to um to hurry up.
+And then when you only have five
+minutes, then you really see the
+difference. Then the one with wiki can
+just access the wiki, fetch the concepts
+and build the thing. And um this one
+either has to do parametric memory or
+very little research or it will run out
+of time. Um I think that is important
+time I mean that's that's a metric that
+matters right.
+So the difference that's the default
+that's the configured and uh we made a
+little script there to check uh some uh
+some things and it was you know just a
+lot better as you would expect. Now this
+is very much like the challenge that um
+we will um do tonight.
+So
+let me
+what kind of problems, what kind of real
+world things can we actually do with AI?
+And I'm sure you guys have a lot of a
+lot of ideas, but I mean, I think
+there's also so much um ignorance about
+that uh around. I mean, when I read some
+uh opinion articles in quality
+newspapers, I often think like Jesus Do
+do you even understand, you know, what
+what what what this kind of technology
+is capable of? And and often I think
+that people
+look at it with a sort of like magic
+thinking like you know that this one
+model needs to be super smart in
+everything and know everything and uh to
+be impactful but that is obviously
+uh not the case. I mean, you could have
+many, many, many models that are not
+even that omnipotent uh by themselves
+that do little things. And as long as
+you engineer those systems really well
+and you train these models and you find
+a way to
+um
+to find out if anything that the model
+says is what you want uh of it right and
+I think maybe I'm coming down to like
+the most important thing if you are not
+able
+um to uh to to to to say that if that
+that if a model produces an output, if
+that output is good or bad, then you
+probably shouldn't give the task to an
+LLM
+and you probably should think of what it
+is that makes an answer good or bad. So,
+I mean, I think it's it's yes, [snorts]
+it's it's probably not a good idea to
+write essays with LLMs. maybe help you
+do the spelling, but you know that you
+can say like it's it's good or bad. But
+and it's also probably a pretty shitty
+idea to do your customer services with
+AI. First of all, because of simple
+rules of economics, like if something is
+freely uh um and uh uh available for
+everyone to use, then it loses all
+value. And the whole idea of customer
+services is that you uh perceive some
+value of it as a human being, right?
+that's as much a marketing part of your
+company as it is there to solve
+problems. So yeah, pretty pretty bad
+idea I think. Um but you know to do
+things that are really hard for humans
+and very complex uh they're often really
+good and one of those uh things is um
+extracting structured information from
+technical drawings um that you know on
+itself are a 2D representation of some
+reality right uh and a drawing is hardly
+ever meant to just look at as the 2D
+version of nothing, right? So this is a
+lossy version of something and you know
+um you might want to get that
+information back and that is I hear that
+all around me in in the industry a
+really tangent problem and it's also
+actually how I rolled into this whole AI
+thing because I said I was owning a
+restaurant and um I uh at the time I had
+some issue with a accountant fully his
+fault of course um
+hi High court thought differently but
+you know we we don't talk about that um
+no it's a it was a it was an
+administrative thing and um but I ended
+up having to do three years of
+administration uh in reverse so that is
+the point where I started learning about
+structured extraction and what um turns
+out what is true for financial documents
+that when you extract something you just
+have to make sure that you can check it
+either deterministically or
+probabilistically in order to see if the
+answer is correct right the same um kind
+of goes for uh these problems. Now,
+these are not all solved problems. So,
+that is uh why the challenge is fun
+tonight. Um
+yeah, so in um a couple of minutes, I
+hope this works because I have actually
+um the first time I use Daytona. Have
+anyone um a whole lot of experience with
+Daytona sandboxes here? Okay, I'm on my
+own. Great. Um [laughter]
+no, no. So the a little bit from now
+there will be um uh QR codes on the
+screen and per team you use one QR code
+right but we'll go through it in a
+second. First about the challenge you
+will receive a sandbox which is a
+preconfigured
+um um workspace. Uh it will be in the
+terminal. Um it will be a bit of hassle
+if you want to do it in ID but you
+should be fine in the terminal. And
+there's a lot of information already in
+that sandbox uh about this presentation,
+about the challenge. You can just ask,
+right? Because you will scan a QR code,
+you'll log in with your claude account
+and you can kind of just start with the
+read me and then you take you through it
+and otherwise you can ask me. But the
+challenge is to extract structured
+information from a technical drawing so
+that you would be able to reconstruct a
+3D model from it as good as you can do.
+And of course I have the uh
+the real answer so we can easily score
+it. You know it's just a gradient,
+right? You have a certain percentage
+correct. Um there will be a practice
+drawing like the one I just showed you.
+But you have 55 minutes to figure things
+out. I'd recommend to
+have someone set up a wiki system
+because the actual challenge will only
+last for 5 minutes and I can guarantee
+you that I chosen this drawing so that
+it will not be possible to get all that
+information with research agents in five
+minutes. So you have to do someone
+building a wiki system can be anything.
+I mean there is the karpathi um
+suggestion which you can probably just
+copy paste. Uh you can think of your own
+thing. I mean the world is your oyster
+here. Um but it must be possible when um
+you know 55 minutes are passed then
+there is um another five minutes to
+digest the real drawing. um which again
+probably won't be enough to uh do
+everything but you may you know you may
+be able to adjust some uh skills that
+you've made some prompting um on that
+there's also uh in that sandbox a bunch
+of skills and a bunch of sub agents
+whatever you can just play with it and
+there are things that you should not
+change like the timer but they're
+clearly marked
+then so then after five minutes uh
+everyone or every team starts one
+session can be interactive and you have
+five minutes will the counter here to
+extract uh anything that you want to
+validate JSON. I'll put a JSON and I'll
+run the scores. Um yeah, are there?
+Well, let's let's let's go back. That's
+very [snorts] um let's let's first do
+questions, right? Um any questions?
+>> Don't you think a bit of knowledge in
+this area
+considering
+Are you going to provide a bit?
+>> Yeah. Yeah, absolutely. There will be um
+um there will be uh uh information in
+the uh sandbox and I can definitely um
+uh provide some more information there
+because as you say that is um yeah that
+is the most well one of one of the most
+important things and it you know exactly
+connects to the whole um attention
+um analogy is that knowledge does not
+get get embedded in a vacuum. So you can
+only see things when you know things and
+you have to let your AI, you have to
+give your AI, as it were, a mental model
+of the world that it's operating in. And
+only then it will be able to see the
+things that are important. So yes and um
+but let's um yeah, I'll I'll I'll do it
+in a second. Any more questions? Yeah.
+>> How would you expect JSON? How do you
+represent 3D drawing.
+>> Um so it won't it it would it probably
+not possible to rep to actually
+reconstruct the entire the the drawing.
+Um but you can um so in that image right
+there is explicit information. You have
+to find out what it is. uh and there
+will be um information that you can
+deduce um by extracting explicit
+information and making calculations of
+let the AI uh figure that out. Um but
+yeah, you can uh it is possible to store
+information that is necessary to
+reconstruct such drawing in JSON. I mean
+you can basically express almost
+anything in that, right?
+bit louder.
+>> Ah, yeah.
+>> Okay.
+You want me to go through it?
+>> Yeah.
+All right. Um
+so this represents um what is loaded at
+start right there's your your clawed
+rules and your memory and in this case
+it's about the memory system. So of that
+memory system there's um at the top of
+the memory system there's a file and
+that's named hot MD and that gets
+updated with every um lint with every
+processing of information.
+Um this is affected by the distribution
+of um concepts in the or entities or you
+know different um um um um information
+packages in your uh in your memory
+system, right? And then it refers to an
+index and that index is what you saw
+earlier. Um just a map through
+everything that is underneath.
+Um now let's say that you are in that
+session and this is loaded right. Um you
+send an agent on some research
+and then I have a system with an
+observer but you could do that
+definitely in a different way. and that
+system of the observer. So that's a
+different terminal session. Uh and that
+has in his claw MDs because they have
+their own claw MDs and they have the not
+only the hot MD but also the whole index
+and they are instructed to really
+research that wiki memory uh the whole
+time really. So they have a good thing
+of what is in there. So they can do two
+things when they observe your uh chat
+and you can observe chats pretty easy
+with cloud because these are just JSONL
+files that are stored in your computer.
+Um and um well anyway let's not go into
+too much technical detail but that's
+that's very well possible. Um so let's
+say they see something that they think
+ah this would really um improve the
+situation if it only would have this
+information that I know exists in the
+database then it uses stim send message
+to um send a message to the well there's
+actually something in between but there
+let's say send a message to the main
+agent that can then do a wiki fetch and
+directly load that information in this
+context window. the other way around
+when it sees something happening in that
+chat that is interesting to store in the
+knowledge database because it is either
+confirming knowledge already in the
+database or uh the opposite I mean and
+you know you could add all these uh
+rules or all these uh triggers uh
+yourself right what is important I don't
+know man I'm I'm experimenting with it
+right um but time will tell um So anyway
+that is what happening there and then we
+can either write uh or we can uh
+retrieve right and writing is um done by
+just fetching the raw files storing the
+raw files um and they are not touched
+they're protected they stay there but
+these raw files are uh processed and um
+I know it's token intensive but I like
+to process them in in you know as a
+whole because if you split that um I
+think that every page, every chapter in
+whatever uh information storage uh can
+only really be understood when you read,
+you know, when you have the uh content
+of the entire uh thing when maybe even
+um because this part is interesting
+because what is the agent going to
+extract from a paper say right um well
+it depends on it task but it could also
+depend on what is already in that
+database.
+And I think that is the interesting
+thing to play with here is you know what
+makes an agent decide to um get
+something out of that piece of
+information.
+all right so there is uh but yeah this
+is also I mean it's totally free form it
+can actually you know you can tell it to
+extract concepts entities procedures
+code snippets um images
+whatever um and it basically updates uh
+a value on how important things are and
+there with me there's a rules called
+ebing house decay uh that when things
+are 14 days or 30 days in the database
+and they are not being they sort of, you
+know, lower that value. Oh, there it is.
+Yeah. [snorts] Um, yeah. And then it's
+just a matter of getting it in the
+context window. And what I'm saying, I'm
+experimenting with different things. Um,
+I think the timing thing is working
+pretty good and also uh talking
+intensive. So, I uh put the job to
+Codeex because I found myself having two
+Mac subscriptions and and I was focusing
+on one, you know. So now Codeex is just
+processing that whole stuff the whole
+time and I'm not really using it for
+other things. Um yeah and then the idea
+is that you have your own personal
+memory that's transferable that is in
+markdown that has the original files
+that has a summary made by the LLM
+through a certain lens and it has all
+these concepts and and entities etc
+extracted
+and yeah I think uh I think we're going
+to see more of these kind of things
+because obviously uh there's a lot of
+people working on these kind of systems.
+Did that answer your question? Okay.
+Sorry. Yeah. Yeah.
+Yeah.
+>> Yeah. Well, it's it's only a problem if
+it isn't true that [laughter]
+um um [snorts]
+I think I read the um paper
+um you um um
+from entropic on the emotion vectors who
+read it. Yeah.
+Um um and while I think that entropic
+always sort of kind of likes to steer
+things up a little bit in the sort of
+language that I choose to describe these
+kind of experiments, but there is of
+course um merit uh to it that you can
+what I basically said that if you put
+the LLM in a certain state um by um um
+telling a story that is um highly
+disruptive, it would
+uh in in in a certain state and when um
+and and and they could measure we can't
+do that of course but they can uh the uh
+the ve factors that were activated and
+these represent the emotions and of
+course they're not really emotions they
+are learned patterns from human language
+obviously um but you can still use that
+that kind of language right that that
+that kind of ideas and that is sort of
+what I'm saying here tonight as well but
+it's it's a delicate subject because I
+can say here uh you know you would
+understand if I say you know don't
+entrepreneurize but you can use it you
+know as an analogy to understand because
+it's trained on the total corpus of
+human knowledge so you know obviously
+you can use sort of reverse psychology
+to work with it but it doesn't mean it's
+actually true but that detail is lost on
+a lot of people right so it's
+you can't you can't really say this on
+the streets too much um it'd be highly
+boring by the way as well um but to
+answer your question yeah I really can't
+I'm thinking Beijian prior and some way
+to uh update them and some way to have
+them uh choose risk.
+>> Right.
+>> So
+back to that emotion as human if there
+is something nice or happy about some
+event the connection between these
+events is very strong. So you can also
+>> measure it when you
+If it's also negative, how do you try to
+maybe get the individual? So, let's say
+you're doing a task and it fails and
+fails and fails and that goes to the
+actual memory.
+>> Well,
+yes and no. I mean I mean what it is
+that you what is it that you would
+really are what is it that you're really
+trying to achieve in the end? We're not
+trying to achieve an agent to have
+emotions. We're trying to achieve that
+it sort of understands what I find
+important. So maybe you could um and as
+the entropic research points out it is
+very sensitive to emotional uh input. So
+like it recognizes certain emotions,
+right? Then if a user and I'm just
+talking freely here like I'm I didn't
+think this through but as a user um um
+you could imagine that an observer agent
+would definitely be capable of
+determining what is important to you
+maybe because you use certain language
+or you know you stress it and then sort
+of adds extra weight to that uh
+knowledge. But
+>> how does it
+>> Oh, okay. Um Um Well, there's here um
+where was it? Was it
+I think
+Yeah. So, basically here you see the the
+the the numbers. This is the the the the
+Q value the trust that it has that it's
+that it belongs in the corpus really.
+>> Yeah. Yeah. Yeah. [snorts]
+>> Maybe for the challenge so I understand
+correctly. We're just oneing it. We're
+[snorts] not writing a script or
+anything.
+>> No. Yeah. And um what is important I
+mean you're free to write a script but I
+think maybe I'm wrong but that something
+that is so that has so much unknowns
+because that's deliberately chosen that
+has so much unknowns is not something
+you can do with a script because you
+would have as Mohammed said there so
+many you have to have so much domain
+knowledge to be able to write a say
+pantentic model with rich description.
+that be able you already know what you
+have to extract and that sort of thing.
+That's a script work, right? But the
+whole thing with claude and and and AI
+agents is that they can solve problems
+at runtime. Um, which is not always your
+production solution, but it's definitely
+something you can learn a lot from. So,
+in this case, I'd say you're building a
+cloud setup that is able to tackle
+complex problems without you uh really
+having to do much. I mean you can you
+can steer in those five minutes. Um and
+of course if you would do a real job
+there you wouldn't do it in five
+minutes. But the whole idea is to, you
+know, to play around to see if you can
+make it happen that you can uh force the
+agent to use your wiki that you can um
+[snorts]
+um maybe make a hook that before it
+decides to go out on a research that the
+hook says, you know, that would be uh
+did you consider the wiki or well I mean
+there uh there's there's a lot of things
+that we can do. Shall we kind of see if
+that whole Daytona because I'm very
+nervous if this Daytona works.
+So, let's get it over with.
+Or is there any prominent questions?
+>> Um I don't think we have that uh
+>> luxury now. Oh yeah, by the way um
+I um I did co-anropic. Nobody answered.
+Um but so yeah, not not even an AI. I
+thought that was very rude. Um so um
+that's why we uh asked you to provide
+your own accounts, but it was also a
+good filter because we had hundreds of
+signups and I really like you know that
+you know the basics already. So but it
+will be one person per table that has to
+log in. But you could potentially if you
+would want to you could log in and out
+and whatever. But I don't think this is
+not going to be super token intensive.
+But I leave that decision up to you. But
+so you know
+ah so per tape. Yeah.
+>> Um that is not my cup of tea. [laughter]
+Yeah, there's someone on it. Um yeah. So
+one person per team starting at one
+please um because this will be your
+groups um center right. So this will
+bring you to a URL well straight
+actually straight to a online terminal
+then you just copy this URL and send it
+to your laptop and then you are logged
+in that uh logged into that terminal and
+then you're going to tell me what you
+see and I'm going to talk you through
+it. Right.
+Um, I can share the
+>> I was wifi password.
+>> The Wi-Fi password is giraffe with a
+capital G and an exclamation mark at the
+end.
+>> Okay. One good question. I was um I was
+under the impression that there were
+table numbers on the table, but I used
+to own a restaurant, guys. I got this
+covered.
+Um let's just say this is table one
+two three four and then we do like that
+or do we so we start at one 1 2 3 4 5 6
+7 8 9 10 11 12
+can I get a steak for table 13
+>> so
+this
+>> oh
+>> exactly lined up.
+>> Oh. Oh. Oh. Wait, wait, wait, wait. One,
+one, one, one question. No, stop, stop,
+stop, stop, stop. We We have a We have a
+good suggestion because apparently the
+tables are exactly lined up as these.
+Um,
+>> four. This is only five.
+>> All right. No, sorry. So then it's just
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+17 18 19 20 21 22 23
+We're not sitting at the table, but
+right there.
+>> So then you're 24.
+Yes. Um, so this is I don't know if
+everyone is um managing to get in, but
+if you have scanned and you have that
+terminal, then you're probably accessing
+it at um home route. So you need to
+navigate to the Daytona workspace. So cd
+into home Daytona workspace and ls
+you'll see the files and if you login
+from that workspace you should be able
+to ask claude um about the files and
+you could open it in an IDE but have to
+figure that out yourself [laughter]
+and Just a reminder about the Wi-Fi
+password, the username, uh the
+>> So the Wi-Fi password is giraffe with a
+capital G and exclamation mark.
+>> Yep. Network is AI house guest.
+Can you go back to the few hours?
+>> [snorts]
+>> you get it to work.
+>> All right. What I um
+recommend you do is read the read me
+yourself and um ask Claude to help you
+with the rest. Let me know if everyone
+is ready. If there if there's if there's
+still team struggling.
+>> So, I mean, we could kind of try things.
+Um, I think what let's see what happens
+if you log in with your own cloud
+account into that same directory. You um
+I'm not sure if you're able to work on
+the same file at the same time. that
+probably give some issues but please
+have a it should be possible I think to
+to login with your own uh account.
+Sir,
+>> we only have 4.5 here.
+>> Um,
+>> because the cloud version is old on this
+installation.
+>> I don't know if you only have
+I don't think
+>> but in my local I
+>> Yeah, it's [laughter]
+Yeah. So um
+everyone I think has Opus 4.5 as their
+model while they normally would have um
+4.6. To be honest, that might be a
+Daytona um thing that is um
+Yeah, out of out of my control here. Um,
+if everyone's ready, I'll start the
+timer, but no, not ready yet. Let me see
+if I can help you.
+>> On that one, so we just need a bit more
+time.
+>> Yeah, that's okay. Yeah.
+>> Oh, yeah. Yeah, you'll be fine. Yeah.
+Sorry, but uh whenever we're trying to
+authenticate, it's going to like a
+browser.
+>> Yeah. Yeah. If you Yeah. Copy paste it
+into your browser.
+>> We are on the same.
+>> Okay. Let's go.
+>> So, I tried it again.
+Let's see. I break out.
+>> You You sure pasted it? Yeah. Look.
+Um, yeah, please come to me if something
+is not working. Please raise your hand
+and I'll be with you then. Yeah.
+as you can.
+>> So I assume that can we start with um
+the countdown then?
+Um, this thing is lagging. I
+[clears throat] can't type anymore.
+>> Okay, let me check.
+That might be something totally out of
+my control like the internet.
+How's how's the speed of the typing in
+the terminal? Is it laggy for some
+people?
+>> So, it's just All right, then maybe um
+restart.
+>> Did you try turning it on and off again?
+No, [laughter]
+>> sorry.
+>> Maybe restart.
+Maybe is that because when I close the
+terminal, the old one terminal.
+>> I Yeah, yeah, yeah.
+This won't load forever.
+>> Maybe just close Chrome and and and try
+to uh
+>> Yeah. Yeah. Yeah. Yeah. Yeah. And your
+teammates are um fine, right?
+>> Uh four.
+>> Yeah. Yeah. But they are um not expert.
+>> I don't think anyone's team.
+>> Okay. So, then we are going to start,
+guys. Otherwise, we'll be here uh late
+night. Okay. Uh, the timer is going to
+start now. And um, have you all found
+the practice drawing by the way?
+>> Have you all found the practice drawing?
+>> Yeah, you found it, right?
+>> Okay. And what's the file name?
+>> Oh, well. [laughter]
+That makes sense, right?
+It's just under practice drawing.
+>> All right, I'm gonna
+start the timer and you can ask me
+questions
+along the way.
+>> Yeah. Otherwise, we will be here
+forever.
+>> if you have a question for me, raise
+your hand, right? And I'll be at your
+table and I can now switch off my
+microphone.
+The
+Jason,
+are you different than the one that
+is
+So, um, one tip, um, if you ask Claude
+in your, um, workspace if there's any
+tips in the workspace on the, um,
+well, tips to extract data. Uh, and you
+can of course practice on your um
+practice drawing. Uh, but you really
+need of course the sort of schema to do
+it. And there might be some info in
+there. So you could just ask and uh it
+will find it.
+>> It won't give you the whole schema, but
+it will give you tips.
+Oh yeah, that's right. Yeah. Yeah. Yeah.
+>> And um
+[clears throat]
+>> I'll give a [laughter]
+one uh one more tip I'll just um keep
+giving unasked advice for the next 40
+minutes um is to have someone of the
+team to really work on that drawing
+immediately. Try to find out what kind
+of drawing is it? What industry? Um what
+features am I seeing?
+um you know there's things maybe from a
+file that you would want to know like on
+a more you know uh meta level that
+you're interested in. So once you know a
+little bit about that and the industry
+you can have someone else do research
+and start just saving it to markdown and
+then someone else figuring out how to
+make a memory database of that which
+could be a very simple thing. Don't over
+complicate it.
+All
+right. So, this is the practice drawing.
+If you can't find a way to view it
+yourself, uh, which might be complex
+because it's a web- based, uh, terminal,
+uh, this is the drawing. But I, you
+know, it can give you definitely some
+information, but I bet that Claude knows
+more about this drawing than you do when
+you look at it.
+So if you have figured out what kind of
+drawing it is, I assure you that the
+actual
+um challenge drawing will be the same
+sort of drawing.
+So if you know what this is, then you
+know what that is, right? And that's
+important for your domain knowledge
+because you know you might want to find
+out
+um what this is for um what it is an
+export of, you know, what the 3D model
+is called, etc.
+Exactly.
+So guys, if you think um the challenge
+is absolutely ridiculous and you need
+more information, please ask me, right?
+And I'll I'll be happy to. [laughter]
+More questions.
+>> okay. So, how do you imagine the process
+of the five minutes? Because currently
+you supply us an output uh bash file
+>> and it iterates against the output bash
+files uh and fix whatever it needs to
+fix according to it. Will that be part
+of the process? Because it doesn't make
+sense in production. Production you
+don't have the output.
+>> No, no, no, no. Of course. So, also in
+the test that you're going to do, is it
+going to be like against something?
+Yesterday.
+Uh so what you see in the screen here is
+information that you all have in your um
+Daytona um sandbox, but I realize that
+you can't view it there, so I put it up
+here. So this is these are not answers.
+These are not a source of truth for your
+practice drawing. These are and I'd say
+these are very important right you want
+to instruct your um whatever it is that
+you're making to at least extract these
+fields right and within these fields
+look for certain information
+and
+um also there is automatically there
+should be a timer activated um that's
+how I made it I hope it works um but you
+could if you if it doesn't print that to
+terminal. You can ask claude if it sees
+the timer because that will be uh quite
+relevant when you uh are pushing it to
+do something within a given time frame.
+Uh and it's also if you never made that
+something you could copy because it's
+really useful.
+And I have one more tip, guys, because I
+realize that this is a hard challenge
+and I'm asking a lot of different things
+at the same time. Um, if you didn't
+figure out what the file format is, like
+the specific PDF, I would really advise
+you to ask Claude something about that
+because that will give you a lot of
+But what can you tell about this PDF?
+what is the type? Um, what can I learn
+just from the file? That sort of thing.
+question. Do you still have the example
+of the contours?
+Um, so one more tip here. So we are
+nearing uh the end of our time here. I'm
+not sure if my timer represented the
+countdown correctly because I've been
+swiping away, but anyway. Um, so you
+don't have a source of truth, right?
+That is the problem. Um but there might
+be things especially when you are
+deducing information because not too
+long ago the actual challenge was to
+extract information but
+that the LLMs are so good now that you
+can pretty be pretty sure that it will
+extract right information. maybe whole
+counts and that sort of things are um
+you know or certain lines that maybe uh
+uh represent things certain things like
+symbols you know the LM could really uh
+use some help there to understand what
+it's looking at but I mean with deducing
+information that uh it may be possible
+to uh calculate the length of a line
+where there's no length uh written and
+those things as well. Um, and for
+everyone this is really important. Like
+I mean it's here for a reason. Um, yeah.
+So let's say five more minutes and then
+uh I'll drop the real drawing
+>> and then you have uh another five
+minutes
+and there is a counter system uh timer
+already uh working and when the 5
+minutes start it doesn't matter. It
+doesn't have to be one run. uh you can
+steer it, you can all try it at the same
+time. I don't care as long as in the
+output is one output.json and I can then
+pull it. Okay.
+All right. Can you please check if in
+your data folder um a new file just
+appeared um with the lovely name of
+ZPR152.pdf?
+It did appear.
+Awesome. [laughter]
+Um, okay. Well, that means you have five
+minutes and in five minutes you we mean
+you can start now whatever but in 10
+minutes from now your output the JSON
+following the rules has to be in its
+designated location and it's done.
+There we go.
+5 minutes to wrap up.
+>> Five minutes for the run to start and
+then the run takes maximum of five
+minutes. So essentially you have 10
+minutes. Yeah. [laughter]
+I mean
+six
+Okay, I suggest you start really trying
+to get that result in. Uh, you might
+have already started, but
+there we go.
+>> Sorry.
+There's one minute grace. So you won't
+be cut off immediately but I will be
+start pulling.
+Can um all of you confirm that there's
+one output.json in each
+output folder? Yeah. Yeah. Yeah.
+Perfect.
+>> Yeah. Yeah. Yeah. Let me uh I'm uh I'm
+putting it uh in a second.
+>> So I'm I'm I'm missing output files of
+team 15, 22, and 23.
+>> You should
+So why
+I don't know.
+>> [cough and clears throat]
+>> for sure. Sure.
+All right, I'm running the evil now.
+We'll start.
+>> [laughter]
+>> All right. Almost.
+Swiss out. Ah. [laughter]
+All right, it's time to reveal
+>> [clears throat]
+>> Here.
+>> All right. Um, now they always say it
+was a really close call, but this is a
+really close call. [laughter]
+Uh, can I make it a little bit bigger?
+>> Let me see.
+>> Yeah. All right. So, I'll tell you what
+I what I'm seeing here. Um, team seven.
+Who's team seven?
+Really, really close call. I mean, you
+can expect it to be a close call when
+you're all using the same technology and
+you all know don't know [ __ ] about the
+domain, right? Like, but they did.
+No, beautiful. Um, yeah. And
+furthermore, um, I mean, what can we say
+about nice colors? Um, very quickly
+wellm made FTO in three minutes. Thank
+you. Um, [laughter]
+and um, yeah. Yeah, congrats guys. Um um
+let me um let me um I heard a few people
+asking can we get all the uh results
+from all the teams and I think that is
+only super fair to do and I will also
+give me a week or so to prep but I will
+also for those who are interested share
+that whole memory system that I made and
+hopefully someone else be able to make
+it work better. [laughter]
+I'll talk to you and for now I say thank
+you for your attention. As we all
+learned that comes at a price.
+Oh yeah, I always forget this.
+>> Oh yeah, [laughter]
+>> uh yeah,
+I'll send you the the results as well.
+No worries.
+Yeah. Come on.
+>> You better.
+Hey, hey, hey, hey.
+Hey,
+hey, Heat. Heat.

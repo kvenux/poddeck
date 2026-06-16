@@ -1,0 +1,30 @@
+id: cFNI2FORAc0
+source: latent-space
+title: "Satya Nadella on AI — NoPriors x Latent Space Crossover @ Microsoft Build 2026"
+guest: "Satya Nadella"
+guest_role: "Microsoft Chairman and CEO"
+published: 2026-05
+duration: 1800
+url: https://youtube.com/watch?v=cFNI2FORAc0
+thumbnail: https://img.youtube.com/vi/cFNI2FORAc0/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - panel
+  - ceo
+  - strategic
+  - ai-products
+  - coding-agents
+  - product-management
+  - quick-take
+summary: |
+  Microsoft Build 2026 现场，Satya Nadella 与 Sarah Guo / Elad Gil / swyx 的 30 分钟跨节目对谈。核心命题：让每家公司都能在 Microsoft 的平台之上长出自己的 frontier intelligence。从 MAI 模型的清洁血统、harness + private evals 这一新护城河，到 SaaS 三层栈的 re-litigation、Azure 网络团队把工作"meta 化"成 Miles agent，再到数据中心扩张的社区许可问题，Satya 用一系列具体例子勾勒了 Microsoft 的"第三幕"。
+core_ideas:
+  - 平台的定义是 above-the-platform 价值大于 captured-in-platform 价值 — 这是 Microsoft 跟 single-model frontier lab 的根本路径分叉
+  - 新 frontier 加上时间维度 — GPT-5.5 → traces → 5B 推理模型反超基线（Land O'Lakes demo）
+  - Private evals 是 AI 时代最大的 IP — Acid test 是 model A 能否切到 model B 还能继续 hill climb
+  - SaaS 栈的 re-litigation — 数据模型、业务逻辑可以留，UI 要重写；Work IQ 把 M365 里"从未被当数据库用的数据库"暴露出来
+  - 'love outcomes until they have an outcome — outcome-based pricing 是叶公好龙，subscription + consumption meter 会长期并存'
+  - Meta 工作 — Azure 网络团队不做网络，做"自动做网络的 agent"叫 Miles，要 tokens 不要 head count
+  - 不能犯"4 billion typists"那种错 — 工具规模化时，要重新定义角色而不是放大旧角色
+base: /episodes/cFNI2FORAc0/

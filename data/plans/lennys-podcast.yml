@@ -1,96 +1,89 @@
 source: lennys-podcast
-refreshed_at: 2026-05-19T09:08:18.552Z
+refreshed_at: 2026-06-02T00:38:29.665Z
 min_duration: 3600
 min_date: "20260101"
 total_candidates: 11
-done: 10
-pending: 0
+done: 4
+pending: 6
 episodes:
-  - id: G5WTgB87rYQ
-    title: How to ship hardware in the AI era | Caitlin Kalinowski (Apple, Meta,
-      OpenAI)
-    duration: 5951
-    upload_date: "20260517"
-    url: https://youtube.com/watch?v=G5WTgB87rYQ
-    status: generated
+  - id: PoJ1vTdHpks
+    title: How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries
+    duration: 5963
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=PoJ1vTdHpks
+    status: pending
     priority: 1
-    category: ai-tech
-  - id: PplmzlgE0kg
-    title: How Anthropic’s product team moves faster than anyone else | Cat Wu (Head
-      of Product, Claude Code)
-    duration: 5135
-    upload_date: "20260512"
-    url: https://youtube.com/watch?v=PplmzlgE0kg
-    status: generated
-    priority: 1
-    category: manual-update
   - id: mCO-D3pkviM
-    title: "AI era skills: Why cultivating agency matters more than job titles | Max
-      Schoening (Notion)"
+    title: "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)"
     duration: 5243
-    upload_date: "20260512"
+    upload_date: "20260101"
     url: https://youtube.com/watch?v=mCO-D3pkviM
     status: blocked
     priority: 1
     category: manual-update
-  - id: yUohoaC8_Hs
-    title: Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)
-    duration: 5711
-    upload_date: "20260419"
-    url: https://youtube.com/watch?v=yUohoaC8_Hs
-    status: generated
-    priority: 1
-  - id: xCd9ykretlg
-    title: Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)
-    duration: 4959
-    upload_date: "20260412"
-    url: https://youtube.com/watch?v=xCd9ykretlg
-    status: generated
+  - id: -7Yol5vX5xw
+    title: How to win when software is not a moat | Evan Spiegel (Snapchat CEO)
+    duration: 4225
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=-7Yol5vX5xw
+    status: pending
     priority: 1
   - id: _rcniEb9bLw
-    title: The real AI revolution isn’t software. It’s farms, mines, and trucks. |
-      Qasar Younis
+    title: The real AI revolution isn’t software. It’s farms, mines, and trucks. | Qasar Younis
     duration: 5064
-    upload_date: "20260308"
+    upload_date: "20260101"
     url: https://youtube.com/watch?v=_rcniEb9bLw
     status: generated
     priority: 1
-  - id: 3UyitfSbY6c
-    title: How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach
-      Brian Halligan
-    duration: 4477
-    upload_date: "20260215"
-    url: https://youtube.com/watch?v=3UyitfSbY6c
-    status: generated
+  - id: twzLDx9iers
+    title: "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham"
+    duration: 5517
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=twzLDx9iers
+    status: pending
     priority: 1
-  - id: Auxs8ZsHRI4
-    title: A child psychologist’s guide to working with difficult adults | Dr. Becky
-      Kennedy
+  - id: O_W76LR77Vw
+    title: “I deliberately understaff every project” | Leadership lessons from Rippling’s $16B journey
+    duration: 5777
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=O_W76LR77Vw
+    status: pending
+    priority: 1
+  - id: J9982NLmTXg
+    title: Why securing AI is harder than anyone expected and guardrails are failing | HackAPrompt CEO
+    duration: 5561
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=J9982NLmTXg
+    status: pending
+    priority: 1
+  - id: 6qAB6aUMIeA
+    title: The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
     duration: 5516
-    upload_date: "20260201"
-    url: https://youtube.com/watch?v=Auxs8ZsHRI4
+    upload_date: "20260101"
+    url: https://youtube.com/watch?v=6qAB6aUMIeA
+    status: pending
+    priority: 1
+  - id: RJjl1TwyfWM
+    title: "Tony Fadell: How to build real taste (and why AI makes it more valuable)"
+    duration: 5707
+    upload_date: "20260607"
+    url: https://youtube.com/watch?v=RJjl1TwyfWM
     status: generated
     priority: 1
-  - id: 8xLquwfx6p0
-    title: The surprising advice from a founder who built 2 unicorns | Jason Cohen
-      (WP Engine)
-    duration: 6364
-    upload_date: "20260125"
-    url: https://youtube.com/watch?v=8xLquwfx6p0
+    category: update-2026-06-16
+  - id: 4D3hDmGhFhA
+    title: "AI predictions: Job markets, Codex beats Claude, and the death of org charts — Dan Shipper"
+    duration: 5646
+    upload_date: "20260528"
+    url: https://youtube.com/watch?v=4D3hDmGhFhA
     status: generated
     priority: 1
-  - id: 1em64iUFt3U
-    title: How a Meta PM ships products without ever writing code | Zevi Arnovitz
-    duration: 4512
-    upload_date: "20260118"
-    url: https://youtube.com/watch?v=1em64iUFt3U
+    category: update-2026-06-16
+  - id: BD3vLtWhT5A
+    title: The most rational take on AI you'll hear this year
+    duration: 4790
+    upload_date: "20260531"
+    url: https://youtube.com/watch?v=BD3vLtWhT5A
     status: generated
     priority: 1
-  - id: KtKJ3A6DWTs
-    title: "How to show up in any room with a low heart rate: Silicon Valley’s
-      missing etiquette playbook"
-    duration: 5195
-    upload_date: "20260115"
-    url: https://youtube.com/watch?v=KtKJ3A6DWTs
-    status: generated
-    priority: 1
+    category: update-2026-06-16

@@ -2,8 +2,8 @@ source: mlops-community
 refreshed_at: 2026-06-02T00:38:30.196Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 30
-done: 1
+total_candidates: 33
+done: 4
 pending: 27
 episodes:
   - id: kDAlW3vRQzI
@@ -223,3 +223,27 @@ episodes:
     url: https://youtube.com/watch?v=Wgfi3qWnPgE
     status: pending
     priority: 1
+  - id: jXtnhyro-QE
+    title: Context Engineering for Coding Agents
+    duration: 8859
+    upload_date: "20260614"
+    url: https://youtube.com/watch?v=jXtnhyro-QE
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: NsLPju6TZVc
+    title: MCP, Agents & the $40M Bet on Multiplayer AI
+    duration: 4846
+    upload_date: "20260612"
+    url: https://youtube.com/watch?v=NsLPju6TZVc
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: 3xZ78HHdqAk
+    title: AI Is Fast. AI Projects Are Slow. Let's Fix That.
+    duration: 3408
+    upload_date: "20260610"
+    url: https://youtube.com/watch?v=3xZ78HHdqAk
+    status: generated
+    priority: 1
+    category: update-2026-06-16

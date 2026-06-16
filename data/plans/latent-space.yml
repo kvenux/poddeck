@@ -2,8 +2,8 @@ source: latent-space
 refreshed_at: 2026-06-02T00:38:29.937Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 34
-done: 3
+total_candidates: 39
+done: 8
 pending: 28
 episodes:
   - id: jPtQlILfkhA
@@ -256,3 +256,43 @@ episodes:
     url: https://youtube.com/watch?v=v5mBjeX4TJ8
     status: pending
     priority: 1
+  - id: cFNI2FORAc0
+    title: Satya Nadella on AI — NoPriors x Latent Space Crossover @ Microsoft Build 2026
+    duration: 2486
+    upload_date: "20260612"
+    url: https://youtube.com/watch?v=cFNI2FORAc0
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: LEwlSyR0cXA
+    title: "GitHub's Agent Era: 14x Commits, 200M Developers, Copilot's Next Act — Kyle Daigle"
+    duration: 5084
+    upload_date: "20260613"
+    url: https://youtube.com/watch?v=LEwlSyR0cXA
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: T8u7wOXhDb0
+    title: When AI Agents Run Businesses — Lukas Petersson & Axel Backlund of Andon Labs
+    duration: 4677
+    upload_date: "20260611"
+    url: https://youtube.com/watch?v=T8u7wOXhDb0
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: abYcV5LHMG4
+    title: Scaling Past Informal AI — Carina Hong, Axiom Math
+    duration: 5584
+    upload_date: "20260609"
+    url: https://youtube.com/watch?v=abYcV5LHMG4
+    status: generated
+    priority: 1
+    category: update-2026-06-16
+  - id: -rIAVuaRjOg
+    title: Making DeepSeek v4 outperform Opus 4.7 with Taste — Ahmad Awais, CommandCode.ai
+    duration: 2441
+    upload_date: "20260615"
+    url: https://youtube.com/watch?v=-rIAVuaRjOg
+    status: generated
+    priority: 1
+    category: update-2026-06-16

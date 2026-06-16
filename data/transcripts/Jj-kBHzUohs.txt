@@ -1,0 +1,2427 @@
+Today, I'm chatting with Alex Immerman,
+who is director of AGI economics at
+Google DeepMind and professor of
+economics at University of Chicago, and
+Phil Trammell, who is head of economics
+at Epoch and research scholar at
+Stanford. In general in this interview,
+what I want to understand is what
+economics tells us about what we can
+expect in the world with more and more
+automation, more and more advanced AI,
+what that tells us about what will
+happen to wages, to labor share, what
+the best way to tax and redistribute the
+wealth that we generated as a result of
+AGI will be,
+and what kinds of things will be scarce,
+because what is scarce kind of tells you
+where the value will accrue. So, I want
+to start there. What are some plausible
+candidates of what will be scarce?
+>> Something like the relational sector,
+which is what I defined as,
+you know, basically services and goods
+where the fact that the human was in the
+loop was actually part of the value of
+that product. So, because humans are
+naturally scarce,
+if we have automation where a lot of
+other things stop being scarce, we will
+still have scarcity in things that
+humans are kind of involved in and in
+the loop for.
+>> Mhm. I'm curious to understand whether
+humans doing services for other humans
+can ever be a big part of the economy.
+And here's maybe one intuition pump. So,
+in a world where AI can physically do
+anything humans can do, you know,
+there's this whole machine economy where
+they're like building factories and
+doing research and coming up with new
+ideas, and humans may or may not be
+involved in the physical production of
+those things, but probably not, given
+that in the ultimate limit of robotics
+is solved, if you don't care about
+humans being involved in that process,
+why would humans be involved in that
+process? But then there's these other
+things which you point out where well,
+we actually maybe in some cases do want
+the ballerina or the barista or whatever
+to be a human that's part of the value
+of going to a cafe or a performance. But
+only humans have that preference. So,
+there's this human economy where like
+humans are doing services for each
+other, and part of their wealth is
+flowing to other humans, but part of
+their wealth is also like they they will
+want some of the automated goods that's
+like machine only economies creating.
+And so part of that wealth is flowing
+out. And so if you just think of this is
+like this is not a closed loop, but a
+lot of things in the machine only
+economy are closed loop because the
+machines don't care about like getting
+the human barista to make them a coffee.
+And so within that model it isn't isn't
+it intrinsic that like the human only
+economy will become a smaller and
+smaller share?
+>> I would like to pitch kind of a
+rephrasing of that question. So I think
+my view is that kind of forecast that
+economists like us would make are not
+necessarily as individual forecast like
+me and me and Phil are talking right
+now, are not necessarily very useful.
+The reason I think that so there was
+this blog post by Andre
+Fredkin, Brian DeBerry, and then Andrew
+Coe that came out yesterday actually,
+that looked at like kind of people's
+forecasts, economists forecasts about
+the labor market. And what they found is
+that there's a ton of disagreement, like
+in every single direction. So what they
+advocate for, and I think I I'm in
+agreement here, is rather than thinking
+about individual forecasts like what me
+and Phil are going to do, rather looking
+at kind of like basically generating
+prediction markets where you get
+aggregate forecasts, where you get like
+kind of
+wisdom of the crowd effects. And kind of
+the reason that I think this is because
+we have been famously terrible at
+forecasting. And so let's let's take
+let's go all the way back to 1820. Um
+this sort of debate that we've been
+having actually is like 200 years old.
+So David Ricardo is one of the classic
+economists, not neoclassical, classical
+economists. And he when industrial
+revolution started happening, he was
+wrote a bunch of stuff saying like look
+this is going to be great for everybody,
+prices are going to come down. But then
+he turned around and he's like wait, I
+can actually see all of these jobs that
+are creating value, they're going to be
+automated by these machines. This is
+going to be really bad. Everybody's
+going to become unemployed, and there's
+going to be political unrest and things
+like that. And if you look at Ricardo's
+predictions, they're actually right. If
+you look at all those jobs that made
+money in Ricardo's time, they got
+automated.
+So, if I was David Ricardo and I woke up
+and somebody told me all those jobs did
+get automated.
+And you ask me David Ricardo, like what
+do you think the prime age employment
+rate is in 2026? I think he would be
+surprised if you told him it was the
+highest it's ever been other than 2000.
+We have the highest number of employed
+people that could potentially be
+employed since 2000. That was like the
+peak and now it's like the second peak,
+basically. So, what David Ricardo ended
+up missing is the fact that, you know,
+essentially you have these economics of
+structural change where basically
+everything that got automated became
+cheap, people had more money to spend on
+things, and then they started spending
+money on services. And you know, this is
+kind of like the lump of labor fallacy.
+That's what they call it. David Ricardo
+didn't think, "Hey, I should have, you
+know, considered the fact that new jobs
+would be created."
+But it's kind of not obvious that like
+money would go to services. Like why
+wouldn't they go to more automated goods
+or and something like that? And I'm not
+saying that like I'm not using this
+anecdote as to say like this is what's
+going to happen now. We're going to have
+full employment. I'm using that anecdote
+as to say it's really hard to make
+predictions. And what I think maybe a a
+really useful tool that econ economists
+have is instead start with the premise.
+Like maybe we'll start it today. Look,
+labor share is zero. Like labor share
+has gone down. What could possibly
+explain this? Let's write down an
+economic model of what happened. Phil
+will talk about this later today. Or you
+can start write down a model to say,
+"Hey, what if labor share just stays the
+same?"
+What can make that happen? And here's my
+main here's if you don't take anything
+out of this conversation for me, we
+don't have any data. I've been kind of
+saying we need a Manhattan project for
+data. We don't have data on basically
+consumer demand elasticities. We don't
+know what they are. We don't know
+we're not really tracking what jobs are
+getting created or destroyed. Like the
+O*NET database with all of the tasks and
+different jobs, that's been rarely
+updated. It's super low quality. And so
+what I think is really useful is to
+think about like what are the potential
+scenarios and we'll be talking about a
+lot of these scenarios, mapping them out
+and to say what type what dimension of
+scarcity will generate that scenario. So
+if there's full employment, we could
+talk about the relational sector or
+something like that. If there's you
+know, very labor share collapses, we can
+talk about other sorts of scenarios. And
+then that will tell us what data we
+should be collecting.
+>> It's probably worth the defining labor
+share and capital share real quick. So
+the whole economy, like the the total
+sum of goods and services sold,
+um is either paid out to people in wages
+>> Yeah.
+>> or it's paid out to uh capital, which is
+to say that there's like rents on
+buildings and then there's shareholders
+of companies that get paid out and for
+many hundreds of years in the economy uh
+60 something percent of the economy for
+all the things that are sold in a given
+year, basically gets paid out to humans
+in wages and the other 30 40% gets paid
+out to people who own machines and land
+and uh claims on companies and whatever.
+Um and the question is, well right now
+if 60% is going to wages, does that
+shrink as automation
+um or as EIs get smarter and smarter and
+better and better?
+>> And it's like it really this is a call
+to war fact. Like right? So it's
+incredibly we should stress this. It's
+incredibly surprising.
+>> Right.
+>> That it's over 60% after the Industrial
+Revolution, after all of the automation
+we've ever seen. The fact that it's
+almost like some people are worried it's
+an accounting error or something like
+that, that it's kept being been so
+constant. And
+uh the fact that it's like been over 60%
+and you know, there's there's even a
+controversy right now.
+Uh so some might say like you know,
+labor share has been falling in the last
+20, 30 years, but you know, depending on
+how you
+There's been a lot of accounting changes
+in the last 30, 40 years. So, for
+example, Andy Atkins has has this paper
+showing that actually actually if you
+keep the accounting constant over the
+years, labor share hasn't even fallen
+ever.
+>> But it's not it's not that surprising,
+right? I mean, if
+Phil, you made this point that if labor
+and capital are complements, you need
+both to do anything. Well, it kind of
+makes sense that you kind of need to pay
+both of them to get something done.
+>> have had stuff can be completely
+>> Although you had the post where you were
+pointing out that actually Sorry, you
+should
+>> Oh, yeah, well, I was going to say
+there's a sense in which nothing's yet
+been completely automated. If you look
+at the network-adjusted
+factor shares of a good, which is to say
+you look down the supply chain and say
+not just like the final step, but how
+much of that is done by capital and
+labor, but what went into the machines
+that can automate that final step.
+You'll find that labor's adding a lot of
+value down the supply chain. So, like,
+you know, computer and electronic
+products in the US have a very stable
+capital share, network-adjusted capital
+share of around 50%. It's not 100%.
+Um, I do think there's this qualitative
+shift that we I think we agree is
+coming, which is that there will be at
+least some goods whose network-adjusted
+capital share goes to one. Right?
+Because the whole supply chain can be
+automated and there's no part in it that
+we care intrinsically about having a
+human do.
+Um,
+so that'll be a you know, that'll be a
+qualitative shift. Interestingly, the
+implications of that shift for the
+overall
+capital share are ambiguous, because
+if we let's say that we've got the two
+sectors, the human intrinsic sector with
+the ballerinas, and everything else,
+right?
+Right now,
+everything else has been scarce because
+of the lack of labor in it, right? But
+if we fully automate the supply chains
+for everything else, right? And we
+satiate in everything else really fast,
+then
+the quantity of everything that's not a
+ballerina, say,
+goes to infinity, but
+our the marginal utility in that stuff
+goes to zero faster than the quantity is
+rising.
+>> Yeah. I also kind of want to move if you
+don't mind move away from the ballerina
+example because I think like the kind of
+point that I was trying to make in my
+post
+again and the point of the post was like
+to work backwards from a particular
+scenario was that kind of the ballerina
+and the kind of performer, that's the
+wrong reference class.
+Right now we have a lot of jobs where
+you have different tasks. So this is the
+task-based model jobs where you have
+like a lot of different tasks. So like a
+doctor, what is their job? They're
+filling out insurance documents. They're
+you know, going and like calling
+different pharmaceutical companies. And
+one of their tasks is to actually see
+the patient and talk to them, but that's
+like actually not the main part part of
+the job.
+So you could have you could have a job
+and a service or a good
+be a product of different types of tasks
+and you can automate a ton of those
+tasks. And if the consumer is willing to
+pay more for a product or service where
+every single task is automated versus
+every single thing except for that one
+part where the doctor is actually
+delivering the diagnosis, providing
+support and things like that, we would
+call that job a relate part of the
+relational sector, right? Because a
+human is people are willing to pay more
+for the human to stay in the loop in the
+job. Right? Right? So I think we don't
+have data
+to say like here are relational jobs,
+here are not because you literally need
+to collect data of the following sort.
+Do a conjoint analysis of like here's my
+willingness to pay for this service,
+this good, here's the counterfactual
+where everything is presumed to be by
+machine, here's the counterfactual where
+this one task is not
+Right. What is your willingness to pay?
+What is your elasticity for that for the
+human to not be in the loop? And like
+literally, if I don't have that data,
+what prediction am I going to make in
+this in this story, right?
+>> Right. But I I guess isn't there another
+point which is that there's a lot of
+fully automated goods that don't even
+exist yet? And you can't collect any
+data right now about, say, how much
+people will want to keep buying more and
+more of some drug that makes you
+healthier that's fully produced by the
+AIs.
+>> and that that's kind of Phil's point
+where
+and you you can you can make it is that,
+look,
+you know, you could have an increase in
+variety in capital where you don't get
+the say share, right? So, you're
+increasing variety, so you're not
+hitting that really
+diminishing marginal utility point where
+you're, you know, you're basically most
+of your income is going to to to the to
+the human sector.
+If that increasing in variety is fast
+enough and there is no such increasing
+in variety in the human sector, then you
+can get all of the relational that you
+want, but it doesn't matter for labor
+share. It goes to zero.
+>> Uh Phil, I like your analogy to some
+Mongolian economist sitting around in
+1400 thinking about what will be scarce
+and the limits of that kind of analysis.
+Do do
+I think you should talk to that.
+>> Sure, yeah. So, if you just looked at um
+the goods available to, you know, a
+Mongolian of the distant past, no expert
+on this society, but I know they didn't
+have nearly the variety that we have
+now. And
+um they looked at the jobs that were
+sort of intrinsically human like being
+being a singer, say.
+Um and then they looked at the
+the things that were not intrinsically
+human like um you know,
+the transportation services provided by
+their horses or the the different kinds
+of food they had.
+If they just kind of held the varieties
+fixed on in both categories and asked um
+what will happen once we have a lot more
+automation, um they might have said,
+well, we'll just satiate in,
+you know, uh horse-like transportation
+and in yogurt and in airts, those shares
+will all go to zero and we'll be left
+spending all of our money on on singers.
+Um but of course that's not what's
+happened because as we've accumulated
+more wealth and you know, more advanced
+machines and and so on, we've expanded
+the range of things other than singers
+to spend our money on and the share
+spent on singers has stayed sort of
+negligible. Um
+So likewise, that's sort of my central
+prediction about how future unfolds
+though I it could go either way.
+>> I was going to make a point and I
+realized it's a fallacy but the reason
+it's a fallacy is interesting. So I was
+going to say um
+I mean it's just hard to imagine a world
+where there's trillions upon trillions
+of robots but there's only some billion
+odd humans and then like the cumulative
+amount we're spending on robots and like
+building more robots and whatever is
+less than what we're spending to like
+pay you know, Magnus Carlsen and
+>> Or or financial advisors or doctors or
+tutors.
+>> or whatever.
+>> But then I I realized that's a fallacy.
+Um the number of transistors in the
+world has like literally
+certainly trillion X, maybe quadrillion
+X or something and your colleague Chad
+Jones has a very interesting result
+about how the
+share of the economy that is going
+towards paying for computing basically,
+like paying for the transistors
+um has been decreasing. The point that
+you made is that one way to think about
+Moore's law
+you know, what sets price? Well, the
+price is a supply and demand and so not
+only are we producing more transistors
+more cheaply but also we're like the
+value of the marginal transistor is
+decreasing, right? So more the as you
+were saying, another way of saying
+Moore's law is what you should say.
+>> I like the yeah, the the pessimistic
+framing of Moore's law is every 18
+months the value of computation halves.
+>> Yeah. Right?
+>> Like we're just running out of uses for
+computation so fast that it's sustaining
+Moore's law.
+>> And and this is in fact like literally
+relevant to a conversation about AI
+>> Um
+maybe for the first time this is no
+longer true.
+>> So, the famous fact here is that an H100
+costs more to rent now than it did 3
+years ago, even though we have much
+superior technology and we have much
+more compute in the world um because
+as models get smarter, the opportunity
+cost of compute gets higher.
+>> Phil's point about increasing variety.
+>> Right? What we have done is increased
+increased the types of things that
+people demand from capital.
+>> Now all of a sudden you have a new
+variety that you could be using capital
+for and all of a sudden you you you jump
+back up.
+>> Yeah, you could imagine we just never
+satiate demand for compute and if as
+long as that stays the case,
+um then the share of the economy that is
+going towards compute would keep
+increasing.
+>> And that that's the big question, right?
+It's like that is the ultimate question
+that we need to be kind of looking at is
+like what what number of new uses are we
+figure finding for that commute where
+you have the demand for these uses? So,
+what I kind of want to emphasize is that
+a lot of models
+in economics, especially in the space
+that we're talking about, take demand as
+almost kind of exogenous and they don't
+unpack like what is the like the
+psychology of what people actually want.
+And so, what
+got me kind of also thinking about this
+the idea of the relational sector is
+work that I was doing on the fact that
+there does seem to be this value this
+intrinsic value
+that is it's not just because it's
+scarce, it's because there's some
+intrinsic preference that people have
+for like empathy and connection and you
+know, getting getting uh
+interacting with another person. So,
+like one of the experiments uh that we
+ran was like there there's an art print,
+right? And we actually have an incentive
+compatible way of like basically saying
+like how much are are willing to pay for
+this art print. People actually paying
+real money for it. And then we say like,
+"Look, there's only one one of those art
+prints and it's either made and these
+are between subject conditions by by AI
+or by a person. So, with one, you get
+the effect that the person produced art
+print is valued much much higher than
+the than the AI version. And then what
+we do is to say there's in a set of
+other conditions, there's 500 of these
+being produced. So, for the human-made
+one, the price goes down a lot because
+it's no longer seen as like you're not
+like making a connection with this one
+artist versus with AI, there's no
+difference. AI's already viewed as like
+a commodity.
+>> And you know, we need to do a lot more
+research on this, but it seems like
+that's kind of like the the key
+difference between
+you know, something like let's say a
+horse, right? There's no a horse was an
+input into a into an output where you
+can replace the horse with something
+else. You only care about the output.
+The only way this relational story works
+and this is what we need more more data
+on is if it's not a human is not a horse
+in the sense that it is providing value
+from the output where if you replace the
+human, the the value of the output
+decreases. And if that's not strong
+enough and if it doesn't hold for enough
+sectors, if it doesn't hold for enough
+jobs,
+um then this kind of story doesn't work
+anymore.
+>> There aren't that many situations that
+have thought as hard as Jane Street
+about how to turn smart people into some
+of the most competent researchers and
+engineers in the world. This relies in
+part on an apprenticeship model where
+new hires are paired with senior
+mentors. But Jane Street also runs a
+bunch of classroom style lectures and
+hands-on boot camps. These courses cover
+a range of topics and they go pretty
+deep. There's one lecture that focuses
+on reverse engineering systems with
+tools like s trace and GDB and another
+that teaches you how to profile code
+down to the cache hierarchy level.
+Importantly, Jane Street designs these
+courses not just to teach the relevant
+object level skills, but also to impart
+the relevant tacit knowledge. For
+example, their week-long neural net boot
+camp starts with general theory, but
+then quickly progresses to how to apply
+neural networks to trading. And here
+they cover the specific obstacles that
+Jane Street traders tend to encounter
+and the workarounds they've come up with
+to [music] get around them. Jane Street
+takes this sort of learning incredibly
+seriously. Every office has dedicated
+classroom space and courses are
+prioritized as a part of regular work.
+If you'd like to work at a place like
+this, Jane Street is hiring. You can
+check out their open roles at
+janestreet.com/dorcas.
+There's one possibility which
+Molly
+has written something about this messy
+middle scenario and there's that
+possibility
+made me think about whether it might be
+better to have, at least as far as
+wealth distribution
+and redistribution goes, it might be
+better to have much faster AI takeoff.
+And I want to ask you whether the
+following
+is at all likely or there's any set of
+assumptions that this can make it so,
+which is that
+AI makes it possible to automate jobs
+such that like many people are losing
+their jobs, but it doesn't create enough
+wealth
+while the process of automation is
+happening to
+pay off basically the people who are
+getting laid off such that there's like
+a Pareto improvement.
+Everybody's getting better as a result
+of AI automation. And of course, there's
+a trivial sense in which that must be
+true because whatever money you're
+saving, whatever money the company is
+saving by not paying the humans instead
+of just paying the AIs,
+those resources still exist in the
+economy and they can just be paid off to
+people. But there's going to be some
+allocated inefficiency like the
+government doesn't know exactly who got
+laid off because of AI. There's some
+political problem of like if the meta
+worker gets laid off first and they're
+making 200k a year.
+Is there a politically sustainable
+situation where you give them a 200k
+check a year when there's many people
+who are working who are making much
+less?
+Um
+so
+do you at all find this scenario
+plausible where AI is actually
+automating a bunch of things, but there
+isn't enough wealth creation as as is
+automation?
+>> Uh,
+>> think it's
+>> Is that plausible?
+>> Possible. To me, it does seem like a
+pretty narrow window. My guess is that
+if we have the technology to automate
+so many jobs, then it becomes like a new
+kind of political problem, then probably
+all of us will be growing really fast.
+Well, unless in all of those professions
+that it's automating,
+>> [snorts]
+>> it's just a hair more productive. So,
+like the cost of all the capital to
+uh
+to to replace all the software engineers
+is just, you know, a hair less than the
+cost of what we'd pay the software
+engineer.
+>> And why why is it implausible that it's
+just like a company can save money by
+laying off a bunch of software
+engineers, but and in the long run,
+there's a Jevons paradox thing, and you
+know, we can't anticipate in advance
+what we'd do with more software, and
+surely there's going to be more uses,
+but in the short run, the fact is just
+that a lot of people are laid off, and
+they still need to figure out how they
+can use a million X more JavaScript
+tokens.
+>> thing that like is in either like, you
+know, Phil Phil and I have been like
+writing about these things, and we have
+mathematical models in the back of these
+things. We don't have any political
+economy in any of our models.
+>> Mhm.
+>> Andy Hall wrote a really nice blog post
+about the politics of AGI, and he made a
+really interesting observation. If
+there's a 2% increase in unemployment,
+the political winds completely change.
+Like unemployment it has a huge effect
+on what happens politically. So, you
+know, to to Molly's uh excellent essay,
+by the way. Um I think in some ways like
+one of the worst scenarios is a drip
+scenario because of the political
+economy piece, right? Because like you
+know, people essentially what you
+what you might see is like people not
+really being unemployed in mass, but
+kind of like moving into sectors that
+pay them less money, kind of basically
+getting uh what happened with phone
+operators in in in the mid-century of
+the of the
+between 1920 and 1940, phone operators
+were completely automated, right? But it
+took 20 years, even though the
+technology existed. And therefore, there
+was this drip. It wasn't like this giant
+sector just disappeared.
+>> And what ended up happening, you there's
+a really nice uh QJE paper on this,
+basically showing that a lot they were
+got reabsorbed into the economy.
+But at lower salaries, and they were
+mostly underemployed.
+And I think that's the scenario that
+Molly was was was writing about this
+like kind of messy middle where like
+things aren't a disaster because we saw
+with COVID like the fiscal fiscal
+response can move quickly if there's an
+emergency. And an emergency is a quick
+uptick in unemployment, which could even
+look like 2 or 3%. That's like a
+national That becomes a national
+emergency if it becomes fast.
+>> Um the concern is
+that suppose what whatever you're saving
+on those white-collar workers,
+if that's not growing the economy, but
+it's just creating some, you know, saved
+resources that can be allocated
+elsewhere, is that enough to do
+um a broad-based redistribution scheme?
+Because then you you have like the money
+you saved up a couple of people.
+>> And unless you can figure out exactly
+how to get it to them specifically,
+where you have the problem of can can I
+do like can I do a UBI off the money I
+saved by doing
+>> saying like look, the pie did not grow
+that much. You're just basically say
+you're just basically
+displacing a bunch of people, but that
+actually didn't grow the the
+technological frontier of what the
+economy can produce.
+>> And so then there's a question of like,
+well, maybe every time I don't know if
+this is the case, maybe every time this
+has happened in history the the
+technological frontier has expanded a
+bunch, and so
+>> I think that's the case. I think simply
+in in in in history, the technological
+frontier has expanded. Yeah. So it's
+it's it's it's kind of And I I think
+Philip made the same point. Like it's
+hard to imagine that sort of scenario um
+where you were getting like
+intelligence that's
+kind of just enough to replace the
+software engineer, but still costs a lot
+of money. Like it's just a hair less
+less ex less expensive than the software
+engineer. So you're not getting this
+abundance effect.
+>> And so you're what where is the
+redistribution going to happen because
+the pie didn't grow?
+>> Yeah, yeah. Okay, so the the the
+this is very helpful. So there's a car
+many different things have to be true
+for this scenario to come to pass, each
+of which seem unlikely. One, it has to
+be the case that it is possible to
+automate entire white-collar jobs, but
+only in a piecemeal way. That is to say
+that you can only automate the software
+engineers, but that same program can't
+also automate an accountant and an
+analyst and whatever. Where I think um
+at least my model of intelligence is
+such that both of like the breadth of
+capacity it requires to do something
+like software engineering, um and what
+intelligence is is such that, you know,
+if you can really just like lay off all
+the software engineers, you've got
+enough in the bucket there that you
+could like
+um automate all kinds of white-collar
+work. So, yeah, you're saving
+there's huge amounts of potential
+savings that have happened as a result
+of these layoffs. And also, that AI is
+going to be cheaper than human labor. Um
+and if both of those things are true,
+this messy middle scenario, where we
+literally don't have the wealth to uh go
+around, seems unlikely. And then the
+question is like, what is the best way
+to tax it and redistribute it?
+>> Yeah, I have some thoughts. I think I
+think I think it's just really important
+to outline the costs and benefits. Like
+um it's also important to know that
+they're So, first, there's differential
+complexity in like implementing these
+things.
+Uh two, they differ in the timeline of
+like being actually helpful. So, like
+something like universal basic capital,
+that's not like that's not going to
+generate returns for something that
+happens in 6 months. So, you probably
+are going to end up with a layer
+of things. So, like for example, like a
+negative income tax. Like you implement
+it, and it it the day it turns into law,
+that is already you already have this
+sort of insurance that like, you know,
+there's a floor for which, you know,
+everybody everybody gets a certain
+amount of money, and then, you know, if
+you earn more money, you get taxed more,
+and things like that. Um
+and
+but, you know, there's
+positives and negatives to negative
+income tax. With UBI, the for example,
+the I I I I worry a lot about like the
+political economy implications. Like for
+example, like if people are just kind of
+dependent on a check,
+it really matters who's in power. Like
+right now we're endowed with labor that
+can turn into uh that can turn into
+income.
+When that is no longer the case and we
+are now at the mercy of the
+of the elected official for like basic
+needs, right? So that to me feels like a
+power sharing arrangement that's really
+dangerous.
+>> But wouldn't that be true of any sort of
+government redistribution program?
+>> So something like universal basic
+capital where you have like an ownership
+share and you have property rights for
+capital,
+then you just you're just you're just a
+you're just a normal person.
+>> But this goes back to the question of
+indexing because if indexing is hard,
+then universal basic capital is hard.
+>> the that that's the problem with
+universal basic capital is targeting,
+right? What do you target to put into
+people's portfolios?
+>> Like what if Enthought goes to zero, but
+some brand new robotics company takes
+all the surplus?
+>> Exactly, exactly. So that's the risk of
+universal basic capital with a negative
+income tax you have the same sort of
+issues that with UBI. Where where like
+you know, somebody comes into power and
+says like this is we're not going to do
+that anymore and people can't work and
+then, you know, you you have the issue
+of the the floor being raised.
+>> One concern with the wealth tax is that,
+you know, you there's no political
+politically sustainable equilibrium at
+like 0.5% wealth tax. And, you know,
+I mean this happened with the income tax
+of course, right? It starts low, it's
+like for a war or something and then it
+has slowly and slowly escalates until
+the marginal tax rate in the US is
+probably on the order of income tax rate
+is like 40% or something.
+Um, and in certain states upwards of
+50%. Um,
+with a capital tax, is there a reason to
+worry would it would that distort
+investment because people would just be
+like, why would I invest in Enthought or
+Intel? The government's just going to
+take larger and larger shares of it and
+dilute my share?
+>> W- well, well, hold on. So, um,
+I think it's worth separating like
+how the revenue is raised, like what's
+taxed and then how it's distributed. It
+could be that the government hands out
+shares of Anthropic to everyone by by
+broad-based tax and then buying
+Anthropic. Yeah.
+Which would probably be the right thing
+to do. I mean, hopefully some like
+populist proposal doesn't interfere with
+that and and like expropriate some like
+particular company that everyone happens
+to know about. Um
+>> But how So you're you're suggesting
+there could be a tax that is some sort
+of optimal tax it's we're taxing
+externalities or we're taxing land or
+we're
+I guess we'd probably need to tax
+something other than just those two
+things. But that tax
+>> or consumption.
+>> Okay. So a consumption tax,
+like a European value-added tax type
+thing, that allows the government to go
+buy a bunch of stocks
+and then they just distribute those
+stocks
+to everybody.
+>> That's David Autor's
+>> Yeah. Yeah, I mean, that's not going to
+be that different from just like
+redistributing the stocks, but it'll be
+a little different.
+>> Yeah. That's what social security That
+was the proposal for social security, by
+the way. That was privatizing social
+security, right? So it's like you have
+you turn like this sort of weird like
+not weird, but it's been working it's
+worked so far, but you know, there's
+questions for how long it's going to
+keep working. Like basically,
+privatizing social security was giving
+everybody a basket of stocks.
+Okay, I'm I'm curious to understand
+people talk about whether there's a
+white-collar apocalypse already. Is
+there any evidence
+uh that suggests that there is mass
+automation or unemployment as a result
+of AI already?
+>> Um I think there's a a lot of people are
+looking at it. So this is an area where
+there's like a lot of eyes and a lot of
+data being produced. Uh so the Budget
+Lab over Yale is doing really good
+analysis on this. They just recently
+released a report, and I think like you
+really have to squint to see anything
+happening. Like basically, if you want
+to take kind of like
+an an approach across the entire economy
+and looking at even looking at like
+software engineering, like the most
+exposed sort of sectors, there's just
+like not really anything going on. There
+might be a little bit of a signal about
+like junior developers getting jobs less
+than before, and that but that's like a
+less than before rather than a level
+shift. As in, there's actually an
+increased demand for senior manager for
+senior software engineers if anything.
+Um, and so if you look at trend, it's
+kind of like for junior managers, it's a
+bit below trend.
+>> So as in, you're saying the growth is
+slower than before.
+>> Yes. But there is still growth even on
+entry-level software engineers.
+>> Yeah, exactly.
+>> And what do you think is going on with
+the anecdotal evidence of
+graduating college students saying that
+they're finding it harder to find
+CS jobs or something?
+>> I think that's anecdotal evidence.
+>> You think it
+it's always been hard to get jobs for
+some people, and now it's getting turned
+into an AI narrative. Same with the
+layoffs, where it's probably just normal
+layoff, and they turned it into an AI
+layoff.
+>> Yeah, I mean, you you have to be careful
+with all of this. I think like there are
+these like, you know, there are these
+like coordinate public coordination
+devices for like, let's say we get into
+a narrative where like if you're a firm
+and you're not laying people off,
+then you're seen as like not adapting AI
+enough. So like then you'll get you're
+going to just get a cascade effect of
+firms like just needing to keep up with
+the Joneses in terms of like starting to
+lay people off. And that's kind of like
+that that's super worrying, where like
+actually the firm might be actually
+worse off
+>> after the layoffs than before the
+layoffs, but it's just doing the layoffs
+to have the perception that look look
+we're not behind the times. We're we're
+we're, you know, using AI. Like you have
+the you probably heard these anecdotal
+stories of like these token counters
+that like you have to maximize tokens
+and things like that. So
+again, like right now we have we don't
+really have a any evidence of a
+white-collar bloodbath.
+>> And is that surprising at all? I I feel
+given the fact all these things AI can
+do is just like this is a story as old
+as time. If you automate some
+complimentary task, the overall bucket
+of things that the
+the human labor which complements the
+automation
+>> will will increase in value.
+>> So this is this is one of the statistics
+that's really important for that
+argument is elasticity of demand. So
+like the you take the O-ring model of
+jobs. So like again, jobs is a series of
+tasks. Let's say the AI automates like
+nine out of 10
+nine out of 10 tasks. One task is not
+automated. If that person can now kind
+of focus in on that task and the job
+will become more productive. If that
+translates into a price effect product
+is actually cheaper. If the demand
+responds enough where now there's
+it's being bought more, it's being used
+more, the service is being used more.
+That could actually lead to more higher.
+>> And a lot of people on the internet have
+been like kind of making that argument
+kind of very generally saying like look,
+we're seeing if anything in the data
+we're seeing an uptick in software
+engineering.
+>> Right. Yeah. Yeah.
+>> Which suggests that at least for now,
+given the way the jobs work, it might be
+elastic.
+>> But I think this elasticity of demand
+argument
+is incredibly important both for for a
+lot of arguments that people make um
+or just a lot of labels that people use
+without understanding what the
+underlying causation is. So people often
+talk about Jevons paradox.
+>> Um this is this idea that as something
+gets cheaper, you will want so much more
+of it that the total amount you spend on
+the thing increases. And so famously
+this happened to coal in Britain 200 odd
+years ago. But really this only happens
+if
+there's the demand for something is
+highly elastic. There's many things for
+which there is not super elastic demand.
+If oil for example gets super cheap,
+it's not like magically
+>> Insulin, right? Insulin is another one.
+>> Uh magically there's going to be so many
+more cars that
+now we're going to be using way more oil
+than before.
+>> At least not in the short run.
+>> Exactly. So the long run elasticity is
+higher than short run elasticity. But
+even in the long run, so agriculture
+famous is the example where
+um
+we can produce way more food if we
+dedicated the same portion of the
+economy that we dedicated to
+agriculture. We're already producing
+more food regardless, but we could
+produce even more food if the same
+portion of the economy that was
+producing food 100 years ago was
+currently producing food. Um but, you
+know, you eat enough and then you're
+done. And so, the claim with software is
+that it is a It is not some inherent
+property of markets that as it gets
+cheaper, you'll just keep wanting more
+of it.
+>> Absolutely not.
+>> It is The thing about software is this
+is a particular kind of good where as it
+gets cheaper, we'll want more and more
+It is also highly relevant in your essay
+about this. A lot of A lot of this
+podcast is me summarizing your essays
+back to you.
+Uh that there's this very viral
+uh scenario planning about the future by
+Citrine, where they're predicting as a
+result of automation, as a result of
+very powerful AI, there will be a
+recession because white-collar workers
+will get automated. Uh their salaries,
+which were, you know, paying for a bunch
+of things,
+will no longer be available, and so
+there will be a slump.
+Do you want to recapitulate why this
+might be implausible?
+>> Well, I mean, so part of it is
+plausible, part of it's not not
+plausible. So, like the the part that's
+kind of like within the This is
+something that we started the
+conversation with is the idea that there
+could be unemployment, a lot of
+unemployment. As if if the speed of
+automation is quick and things like
+that, people could get laid off and they
+may not find work very
+very quickly. So, that part of the
+Citrine essay about the unemployment,
+you know, we we can quibble about that,
+but that's that's not the issue. The
+issue is that they talked about negative
+economic growth.
+>> And so, what I did in the in the piece
+that actually Phil and I had a back and
+forth on was to say like let's start
+with the with the proposition that
+there's negative economic growth. What
+conditions do you need on the economy to
+get negative economic growth? And it
+turns out the conditions are
+pretty improbable. So, one thing that
+you need is like for
+the the holders of capital, like rich
+people basically, like basically what
+you have in this in those sorts of
+scenarios, like you have a reallocation
+of wealth and income from like
+lower-income people who are working who
+are using their labor towards capital
+owners. So, what you need is that
+basically demand to be bounded, like a
+hard bound, not even like a soft sort of
+like diminishing sensitivity. You need
+for them to eventually say, "I've had
+enough. I don't want to spend any more
+money." And for that money to not enter
+as investment.
+>> Right, which is like and then you can
+get negative growth, which is like
+>> And the crucial thing is even if we
+don't want more
+that the world in this there's a
+singularity and we don't want to invest
+more money is crazy, right? Where we're
+not like, "Let's build more data
+centers. Let's build more fabs." Even
+though we have AGI, we're not like
+investing in more data centers to run
+the AGI and that's like driving more
+>> Yeah, and so I sent the essay to Phil
+and Phil actually wrote back being like,
+"This is pretty dumb." Like my essay,
+saying like you're you're trying to say
+that there's going to be negative
+economic growth, but they're these are
+very implausible conditions. And I was
+like, "Actually, that's the point of the
+essay, that these are
+>> [laughter]
+>> very implausible economic conditions."
+So, that's where I think like scenario
+planning really shines is you have the
+Centrainian essay, which I think is like
+I think it was great that it's written
+because it kind of started a
+conversation, but it's just like
+you need it it's so intuitive this idea
+that like look, if there's demand
+collapse, we can get the economy to
+shrink, but it's actually
+you could get that with a depression,
+right? Where in a in a depression, the
+technological frontier didn't expand.
+>> Here, the technological frontier is
+expanding. You actually have abundance.
+And for abundance to generate negative
+economic growth, that's really hard to
+get.
+>> Right, exactly.
+Google recently announced Gemini Omni
+and its video editing capabilities are
+incredible. You can upload a video and
+then tell Omni to do things like change
+the background or adjust the lighting or
+add or remove elements
+all while keeping everything else
+consistent. But, Omni isn't just a video
+editor. I got a chance to sit down with
+the research and product team behind
+Omni, and I learned that it's a preview
+of how future frontier models will be
+trained. It can take in any kind of
+input, whether that's text or audio or
+video.
+>> [music]
+>> And while it doesn't currently do so,
+architecturally, it's capable of just as
+seamlessly outputting images or text.
+So, it's really a bet on the multimodal
+data transfer hypothesis. The model
+becomes better at predicting one data
+type by seeing the others. For example,
+Omni is really good at accurately
+rendering text on video, even though
+Google didn't specifically target that
+capability in this model. And Omni is
+the next step towards more accurate
+world models. Because in order to
+predict the next frame of a video, you
+have to have a deep understanding of
+physics and spatial dynamics. As Omni
+progresses, it'll be interesting to see
+whether it can close the sim to real
+gap. Because it's much harder to collect
+data in the real world than it is in
+simulation, robotics progress has lagged
+other applications of AI. But if you
+have really good video models that can
+simulate reality, maybe that stops being
+the case. In the meantime, if you want
+to try Omni, you can check it out in the
+Gemini app at gemini.google or use it in
+Google's AI creative studio flow at
+flow.google.
+We're talking second about why there
+isn't more automation as a result of
+LLMs. And one plausible mechanism could
+be that, as you're saying with the
+O-ring,
+uh so O-ring theory refers to this fact
+that the Challenger shuttle blew up
+because there's there's one component
+that malfunctioned and it destroyed the
+whole thing. And maybe that's a more
+general model of how goods are produced
+in the economy that you got to make sure
+everything is reliable and works well,
+and you can't automate entire job to an
+AI right now,
+um even though it might be able to
+perform it at some probability. You need
+extreme reliability in order for it to
+not destroy the finished good. Um
+I think this is Yeah, this so this might
+explain why there's less automation now
+than there otherwise could be. But I
+think it works in the other direction
+once AIs get advanced enough that
+integrating humans into the production
+flow of future goods, even beyond the
+even beyond the arguments about how
+humans will be more expensive or dumber
+or whatever. Even beyond that, just
+there will be whole production flows
+that are
+organized for AI labor.
+Where they're talking in neuralese,
+they're thinking many thousands of times
+faster. So even if there's some
+comparative advantage where it makes
+sense to hire a human, there will be
+like transaction cost and worries of a
+reliability that will actually make it
+hard to integrate humans into future
+production flows.
+>> Yeah, that that seems right to me.
+In particular, I just want to
+distinguish between the
+the the point that if you automate like
+9/10 of a job, then people might kind of
+shift over to the last 10th, but like
+there might be 10 times more work
+demanded of them from
+the model of owing automation from like
+Gantz and Goldfarb recently, which was
+that if you can only automate 9/10 of
+the job, but you can do it to a lower
+standard of quality than the human could
+do it, you might not want to automate
+even those 9/10.
+And that's the thing that could totally
+port over to
+like the symmetrically, it could be a
+reason why we don't use a human for one
+part of the job anymore because a human
+just can't perform it to the level of
+quality that the AI can perform the
+other parts of the job or the level of
+speed or whatever. And they end up
+pulling down the uh quality or speed of
+the finished product.
+>> By the way, the model you're talking
+about seems extremely plausible to me of
+why more lawyers or accountants or
+whatever are not automated. Like there
+are cases in or even software engineers
+where there's a pretty good probability
+that the thing worked as you expect, but
+the the thing you're paying a lawyer for
+is like, "No, really, my company's not
+going to go under because um
+>> You're also paying for a lot of like
+regulation rights stuff, right? So like
+with lawyers particularly, you need
+some entity to back up the product. You
+need kind of like an ownership of the
+product. You need somebody to be able to
+fire or or hire, like licensing issues.
+There's a lot of like sort of like
+regulatory layers that are like also
+going to be
+keeping
+even if there's no relational element
+human in the loop that have nothing to
+do with like the ability of the human to
+actually perform the service.
+>> Yeah. Yeah, I mean, you know, all of
+these frictions on um
+the
+political type decisions that we are
+accustomed to only trusting human you
+know, only having humans for like
+legislation and being a judge, being a
+jury or all the licensing thing that
+keeps certain professions human
+that all strikes me as transitional,
+right? I mean
+what we expect to come from a human and
+like how we organize our politics,
+that's changed so many times throughout
+history, right? From little
+hunter-gatherer bands to empires and
+whatnot. And
+once
+an AI-run political system is much more
+efficient than the alternatives, then
+those will probably tend to outcompete
+the others and you know
+>> So speaking of which
+we've been talking about
+what preferences humans currently have
+and what impact that has on
+what kinds of goods will be scarce in
+the future.
+But of course
+we'll have different kinds of entities
+in the future. Uh AIs, right? There was
+a time when there were no humans on
+Earth, but evolution selected for agents
+that have specific drives and
+preferences because those tend to
+survive the most and those preferences
+now basically determine how a hundred
+trillion dollar world economy
+uh what it produces. And so why not
+expect the same thing of AIs in the
+future. This is not This is not even a
+world with um
+catastrophic misalignment, that is to
+say they just kill everybody, but there
+will there will be evolution of even
+even if not individual AIs and firms
+which have AIs as part of them. And what
+will that evolution favor? What will
+favor probably
+firms or agents that grow, right?
+There's just there's like a selection
+argument that uh things which grow will
+be more prevalent. And maybe just based
+on that you can make some predictions
+about what their preferences will be.
+But it is the kind of entity which
+prefers to have human intrinsic goods
+going to be the kind of entity that
+accumulates resources the most? Probably
+not, right? Probably like saves more. It
+like has unsatisfiable demand for things
+like
+whatever the relevant resource happens
+to be. Computers is an obvious one.
+Um and can we use that to make some
+prediction about what
+the non-human preferences that will be
+guiding the future?
+>> Yeah, so I think
+>> If there's like an AI that's like has
+its own welfare and it's it's fully
+autonomous and it's like making its own
+decisions and it that they're that are
+welfare relevant. To be honest, I I I
+have absolutely
+no prior that they it would like at all
+prefer other to to like deal with
+humans. There's like no reason. But
+let's But But Let Let me take like a
+the other side of that argument. Will
+humans preferences to be interacting
+with one another and to trust and
+empathize and all of these sorts of like
+things with other humans versus a
+simulated AI? I think it's a really
+important question whether those will
+change. Right. So, I've heard a lot of
+arguments saying like look, you know,
+right now we're just not used to the
+technology. And at some point like what
+you're thinking of relational or
+something like that, people are just
+going to see like an AI therapist as a
+superior product. And they're not going
+to need the sort of like empathy or
+whatever that the human is
+providing. I think this is actually a
+really complicated question.
+Um here's one argument for why it's not
+going to go away and that that has to do
+with evolution. So, let's say there's
+two types of people. One person doesn't
+really have this preference. They can
+just interact with other AI, whatever
+can simulate it better. The other one
+has almost like a like a moral emotion
+like from the using Jonathan Haidt's
+framework. Moral emotion against
+interact like offloading those sorts of
+social interactions to an AI. Which of
+those two people are going to reproduce,
+find a mate, all of these sorts of
+things?
+I think the answer is kind of clear,
+right? It's the second one that has the
+preference for other people.
+>> on how the reproduction is happening.
+>> Fair.
+>> But if if we're if we're in, you know,
+the world where like
+reproduction is still happening the way
+that it's happening, I think and this is
+a big question. I'm not even like I'm
+not making a prediction. Again, I'm just
+saying like if we're thinking you know
+that you had David Reich on on the show,
+his point on the last podcast was that,
+you know, we're buzzing with natural
+selection.
+>> So even if like you get some sort of
+indifference now, you might get
+selection to point into like an even
+stronger preference for other humans.
+>> Here's one way to think about it.
+How is the wealth of the
+richest people in the world
+instantiated? Of course, they can um
+as you were we had a call earlier and
+making the point that their consumption
+is more geared towards relational goods.
+Like Mark Zuckerberg is hiring MMA
+instructors and dancers for his wife's
+birthday and so forth. But most of his
+wealth is just
+stock in Meta. And he as a controlling
+shareholder could say, "Hey Meta, just
+give me all this income or turn all this
+wealth into dividend income.
+Um and I would just spend that on
+consumption. But instead, he rather
+would have his wealth compound um
+and Meta to build more data centers
+basically.
+So you don't even have to change humans
+for this to be the case. It is just the
+case that the humans which are
+wealthiest and are growing wealthier
+because their wealth is compounding
+just have this like almost a Nick
+Landian preference for like accelerating
+capital. Um
+and that that does seem to suggest that
+yeah, is is that an important
+determinant of what kinds of things are
+produced in the future?
+>> Yeah, could I just say like there's two
+ways you could get the two kinds of
+people, one of whom prefers the human
+therapist and one of whom is fine
+interacting with the AI.
+If they both satiate equally quickly in
+capital, right?
+>> But the one who likes the human
+therapist just also likes having some
+human intrinsic uh services.
+Um then
+the marginal value like how the marginal
+value of capital in the future
+for compares to the marginal value of
+capital today for each of them if they
+start out equally rich should be
+basically the same.
+I mean there could be interactions and
+whatnot but base basically that should
+be the same.
+If what's driving the difference is that
+one person just doesn't satiate in
+capital because they're they're
+engaged by the prospect of you know
+exploring the universe and turning their
+head into a galaxy brain or whatever and
+the other one satiates.
+>> Then the person who doesn't satiate in
+capital is going to have if they're
+being rational they're going to have a
+higher savings rate.
+>> Okay so in the long run they're going to
+have most of the wealth
+and [snorts]
+the overall capital share will basically
+be the capital share of that person
+spending which is going to be one.
+>> And it's important that this is we're
+not talking about a hypothetical future.
+>> Yeah yeah.
+>> Like Elon Musk is talking about mass
+drivers on the moon.
+>> like by far the wealthiest person in the
+world. I mean obviously currently his
+his investments are going towards humans
+as well as machines but he I don't think
+he cares particularly that his like
+future researchers and engineers are
+humans versus AI.
+>> And he manages to reproduce fast as
+well. So
+>> Yes.
+>> So anyway so I just think it's worth
+drawing that distinction. Yeah there are
+currently some rich people that don't
+seem to um
+satiate quickly in capital and and so
+maybe in the long run they'll save the
+most and yeah.
+that does seem sort of right to me.
+and I would just also say even if they
+do reproduce more slowly like
+biologically
+that might just not matter that much in
+the long run right if if uh
+they can live forever and
+>> The the living forever is key.
+>> Right. So I think I think again like and
+we're we're we're scenario building here
+right? So I think um
+if you could live forever like a lot of
+stuff changes for my story as well. I
+think I think it's um
+to your point about you know, rich
+people just consuming not consuming a
+lot and investing. I think this will all
+depend on the returns to capital.
+Right? So, like right now the returns to
+data centers are super hot.
+Right? But, if we get into a situation
+where people are satiated with capital,
+um then the returns to accumulating
+capital are going to be lower. And so,
+then these rich people are going to be
+consuming more.
+Right? So, because they were the
+incentive to invest is smaller. So,
+basically you kind of think about this
+in general equilibrium.
+>> Um the general equilibrium of this sort
+of process like we have gotten
+tremendously more richer since, you
+know, 1820. We've gotten many more
+people are investing.
+But, you're still getting a consumption
+response which keeps, you know, people
+employed and labor share high. And
+that's because
+>> Wait, it it Well, hold on. Not
+necessarily. I think you're probably
+making the same point, but it I mean
+they could just It could be that
+investment has to be titrated through
+actual laborers who have to go like do
+things for their investment to work,
+which like would not In the future, only
+the consumption is human mediated,
+right? Cuz the investment can just be
+done by the robots.
+>> But, if the returns are if you So, we're
+in the scenario with high with like how
+you can keep high labor share, right?
+Let's take that scenario. In the
+scenario with high labor share for
+whatever reason, the the returns to
+capital are going to be lower.
+>> Yeah, that's right. And then the I mean
+the to the earlier thing where the messy
+middle where you're saying why this is
+implausible, I I feel like we can do a
+similar thing here where for returns to
+capital to be lower, the growth rate has
+to have be
+lower, right? I mean, it certainly has
+to be lower than what we're expecting
+through the period of transformative AI.
+You know, if there's explosive growth.
+>> Yeah, yes and no. I mean, so the the the
+capital stock could grow quickly, but
+the price of capital goods relative to
+consumption goods could be falling
+faster than the capital stock is
+growing.
+>> Oh, interesting.
+>> Yep. It's the It's the difference
+between like the the the the potential
+frontier of technology and like the what
+the realized prices of these things cuz
+you have relative prices. That's what
+really important here.
+>> So, you're saying
+I could be putting my money towards
+you know, earning 30% interest and
+investing in data centers
+or whatever there'll be something in the
+future if growth rate is high that earns
+high returns. Um or I could
+as a result of all the technological
+breakthroughs or some cool product that
+I really want to buy right now and both
+of those will be compelling options.
+>> Yeah, it doesn't have to be a new
+product. It could be a human intrinsic
+product.
+>> Right. Although
+if it's a human intrinsic product
+we would want to have it much more in
+the future than we want it now because
+sort of the the thing it compares
+against is
+>> So, we might want it the same as we want
+it now in the sense that like the
+marginal utility in a value in a
+performance is exactly the same as now,
+right? But the marginal utility in a
+robot I just be a lot lower than now.
+>> So, so
+>> in units of robots we want it a lot more
+than we want it now, right? Right? So,
+would the interest rate be 30%? It
+depends what you mean by the real
+interest rate, okay? It might be that
+every robot now can turn into, you know,
+100 robots next year, right? So, in
+units of robots the interest rate is
+10,000%.
+>> the price of robots is falling really
+fast
+>> Prices adjust. I mean, that's the whole
+I think that's the whole point is that
+>> Yeah, but though but here prices are
+adjusting in this interesting way that
+too many macro models don't allow for,
+>> So, that what what a
+>> what's happening is what would be called
+investment specific technical change
+where yeah, the price of capital is like
+falling relative to the price of
+consumption instead of like the standard
+doing the standard macro thing of saying
+there's just output. It's like chimera
+of the thing called output which is one
+for one can be allocated to capital or
+consumption, right? That's not going to
+be true in this world. Every unit of
+capital next year is giving up way less
+consumption than each unit of capital
+this year cuz like the just one robot
+now turns into many robots next year but
+but the number of dollars remains the
+same.
+>> And again, we're going to go back to the
+increasing varieties thing where like if
+all of those extra robots next year
+actually different varieties of robots
+that I'm not getting satiated on those
+robots then then it's a very different
+different story.
+>> Yeah, right.
+And but now we're talking about the
+consumption world whereas
+for the investment side of things
+there could be just some greedy titan of
+industry who keeps wanting more and more
+robots and that alone would be enough it
+would to increase the marginal value of
+robots and therefore decrease labor
+share.
+>> Yeah, okay. But I would why are why are
+we not expecting greedy titans of
+industry to keep existing?
+>> I mean greedy titans of industry
+historically have like built libraries
+>> But that's because they die. And they're
+>> they all die. Everybody dies.
+>> Well,
+we'll see. [laughter]
+>> But I mean like conditional on people
+dying, I think like you know, his like
+again, I you you had a guest on the show
+who said like, you know, to understand
+the future you should think about the
+past and I think like I I you could have
+new types of titans being
+>> being born who's where their entire
+reason for accumulating wealth is just
+to accumulate wealth. But a lot of the
+time
+you know, at least historically, I'm
+just talking about historically, the
+wealth accumulation process is part of a
+large social
+sort of like social interaction amongst
+peers, amongst the community where you
+want to be admired in some way or
+something like that. So people end up
+like the the stylized fact of titans of
+his of industry is like you accumulate
+the capital and then you like buy a
+bunch of stuff.
+>> Yeah, I mean
+I guess it is sort of a historical
+question but it does seem to me in a lot
+of cases what is happening
+is that
+as they near the end of their life, they
+either hand it off to their children who
+are worse stewards of capital than they
+are, and they don't even manage to grow
+their wealth at the rate the economy
+grows, much less faster than the economy
+grows, which their parents were doing.
+And also they're like, "Well, I care
+less about my children having it than me
+sort of playing this game of
+accumulating wealth, and so I'm just
+going to give it to some trust." Um and
+if people are living longer, or if they
+can figure out some way in which to
+align
+their trust to this wealth accumulation
+process. It just feels like the
+evolution here is so strong where you
+just need a couple of agents that think
+this way for this to be the dominant
+thing
+determining the preferences of the whole
+economy cuz this part is growing much
+faster than the other parts of the
+economy.
+>> I think you just like the the part about
+satiation and and diminishing marginal
+utilities I I think it keeps coming up,
+but I think it's really really
+important.
+>> Like, you know, if a person has an
+intrinsic preference for accumulation.
+>> That's just like that's what they want.
+I think your story is totally right. But
+But that's just like not how usually
+preferences work. Like you have enough
+whatever you hedonics in your life, and
+then then like the social status, all of
+this sort you know, Rousseau wrote about
+this. Saint Augustine wrote about this.
+This is like a
+kind of like a basic part of
+preferences. Now,
+two you you guys are arguing about
+something else where like
+you have you could have such high
+concentration that you could just have a
+couple of exceptions to the rule, and
+that's going to be enough. And I I I
+have nothing to say about that.
+>> Yeah, I mean I I think that the claim is
+a little stronger, not just like you
+could have some exceptions, but that it
+seems that historically and today
+we see the exceptions, and they just
+haven't really taken over the economy
+historically because they have they've
+been these dissipation shocks is what
+they're called. So they've like given it
+to their kids who squandered it, or they
+put it in
+foundations which um
+which spent it. I mean, it's not a
+really a shock, but I mean it's Right.
+People went People might have liked to
+you know, fill the universe with
+monuments to themselves and sort of
+whatever
+live forever very wealthy. And it's like
+a weird preference, but it's not a
+hypothetical preference. I think that's
+that's the thing.
+>> But who knows what what's going on in
+their heads.
+I think um
+uh even without those like the kind of
+intrinsic preference for accumulation,
+there are
+some
+instrumental reasons why people Some
+people might value accumulation, which
+is also worth bringing up. So, um
+there's
+desire for uh political or philosophical
+or religious influence, right? So,
+people get into sort of an arms race
+over like what, you know, what society
+looks like and what people believe. Um
+and then similarly, but differently cuz
+it's not an arms race,
+there's just uh total total utilitarian
+philanthropy, right? So, uh when I think
+about
+why it might be good to have a lot of
+wealth in the future as a good classical
+utilitarian, to me the value is
+or at least one way you could have a
+kind of almost unsatiating
+utility function in in having wealth in
+the future is to create new happy
+beings, right? They just add to the
+total welfare of the world.
+You know, I mean this this idea goes at
+least as far back as like Bostrom's
+astronomical waste point that we could
+like put Dyson spheres around the stars
+and turn all the energy into really
+happy simulations and whatnot.
+>> I think the particular greediness of
+this optimizer doesn't matter what
+they're greedy for. I think
+I I If we're getting about utilitarian
+philosophy whatever,
+um like it's just a pure von Neumann
+probe
+has I don't know what the Is this an
+accurate to say that they just have high
+marginal value for like the random solar
+system they'll occupy cuz that turns
+into like more solar systems that turns
+into more solar systems. But like a von
+Neumann probe is a thing that will can
+exist, right? And that's like a very
+greedy optimizer.
+>> Yeah, I mean if we're talking about like
+whether they'll dominate the economy,
+maybe this is a technicality, but um
+you know, we we we only count
+final consumption goods and investment
+goods as GDP, right? If there's just
+this phenomenon
+>> How does a von Neumann probe show up in
+GDP?
+>> Well, yeah, exactly, right? So, if if if
+it's like if we recognize it as a person
+that like owns itself and it's like sort
+of, you know, optimizing on the margin
+between like spending a bit more on a
+baby von Neumann probe that colonizes
+another star system or like a ballerina
+or something and it's just like it
+doesn't value the ballerina very much,
+but it's yeah.
+>> Yeah, when we're talking about like AI
+beings or like like it just it just
+completely depends on how we're doing
+the accounting there.
+>> Right. Yeah, but it's just like what
+does the world look like in a world
+where like von Neumann probes are
+possible? Is it possible the labor share
+is high?
+>> But
+anyways, yeah, I think it's possible the
+labor share is high the way we usually
+account it.
+>> One of the biggest problems in RL right
+now is credit assignment because you
+have these extremely long rollouts and
+you need to know why they succeeded or
+failed. One of Cursor's researchers,
+Sasha Rush, gave me a blackboard lecture
+on how they use targeted RL with textual
+feedback to deal with this problem and
+train Composer 2.5. I filmed on my
+iPhone, so apologies for the camera
+work.
+>> So, we generate this output. It's just a
+sequence of tokens.
+Um we're going to send those sequence of
+tokens to this model that's going to
+read it.
+>> Um and then it's going to isolate a
+specific say turn that it says is
+problematic.
+>> Then we're just going to do text
+manipulation. We're just going to take
+that trajectory and we're literally just
+going to like
+smash in some extra tokens.
+>> After Cursor injects these hint tokens,
+they run another forward pass. The
+trajectory itself doesn't change, but
+the hint causes the model to assign
+lower probability to the error tokens.
+Cursor then trains the original model to
+match those probabilities, basically
+teaching it to downweight these specific
+mistakes. There's a lot more nuance that
+we couldn't include in this tutorial. If
+you want to watch the full thing, I
+posted it on my Twitter. And if you want
+to try out composer 2.5, head to
+cursor.com/dwarkesh.
+Do economists have any advice for
+countries which are not in the AI
+production chain? If you if you're not
+either producing the AI models, you're
+not producing
+the hardware that goes into AI models,
+if you're not Korea making HBM or Taiwan
+making
+with the fabs or not
+uh the Netherlands with ASML.
+Like what is India or Nigeria? What
+should India be doing right now? If
+you're talking to Modi right now, what
+do you say?
+>> I I think the biggest lack of resources
+that we have allocated in the economic
+profession is thinking about
+middle-income developing countries in
+the in the age of AI.
+And I mean this is this is my fault, you
+know, this is something I fault myself
+with as well. There's not enough people
+thinking about this question. Like there
+are scenarios where, you know, you get
+like AI technology
+you know,
+uh being allocated and dissipating to to
+Nigeria and developing countries and
+things like that. And like that leveling
+the playing field. Like essentially like
+giving them a like a level up as far as
+far as capabilities.
+But there's another world where like
+because they don't have enough
+resources, they're not making
+they're not training the models, they
+don't have the hardware where they just
+completely get left behind. And because
+of, you know,
+automation, we can produce commodities
+in developed countries now. Then we
+don't even have, you know, the consumer
+market. And then that that world looks
+pretty pretty bad.
+>> It seems to me like an extension of the
+messy middle case, right? Um one of the
+ways in which the messy middle might
+only be bad in a narrow range of
+scenarios isn't just that like it would
+be easy to redistribute because the pie
+would be bigger, but because um
+the interest rate would be way higher
+and or sort of equivalently the price of
+everything except the
+human intrinsic goods would be would be
+falling really rapidly. It's sort of two
+sides of the same point. Um a little bit
+of savings would turn into a lot of
+consumption next year, right? So, things
+have to go really wrong for us to like
+just get over the threshold of,
+uh, you know, capital being productive
+enough to automate lots of work, but not
+be productive enough that that the
+interest rate is high and or the price
+of capital produced goods is falling a
+lot, okay? So, even without
+redistribution, a little bit of savings
+will save a lot of people.
+>> And so, you're saying if the developing
+countries have some savings
+>> Yeah, yeah, yeah.
+>> in the developed world, that will be
+enough to produce a lot of surplus that
+they can
+>> They will now be able to consume a lot
+using their savings.
+>> but but but I mean, uh, the messy middle
+could be like wider in this case. I
+mean, they're starting from such a lower
+level in terms of like how much
+they have saved but they haven't and how
+how much it's like actually indexed to
+the global economy.
+Um, and I think it's important for them
+to get on it now and I don't have strong
+feelings about whether it should take
+the form of like sovereign wealth funds
+that invest in
+>> the the right supply chains or, uh,
+or just, you know, subsidies to their
+own citizens to buy a little bit of
+them.
+>> This is actually I think a crucial
+point. We were talking earlier about why
+the Rockefellers or whatever of the
+world, why their descendants don't
+control everything if our argument about
+the selection of these kind of kind of
+greedy optimizers hold. And one argument
+is just that it's like very hard to
+index the economy and maybe they would
+have just decided to have their heirs
+index the economy and have it grow at
+the rate of economic have their wealth
+grow at the rate of economic growth and
+they would be, you know, trillionaires
+their heirs would be trillionaires by
+now, but
+it just histor- before index funds
+existed, it's just very hard to just
+get,
+um,
+get a represent- it's just a very small
+fraction of the economy going back a
+hundred years accounts for a majority of
+the value created now and if you miss
+those particular things, you would have
+basically,
+uh, your wealth would have just kind of
+stagnated. Um, and maybe there was a
+brief golden window from the creation of
+index funds up until,
+um, I don't know, five years ago where
+actually you could index the economy and
+you could have your wealth grow at the
+rate of the economy grows, but now that
+we're in this world with very
+concentrated returns, especially two
+private companies, which is capital that
+is, as we were making a point in our
+blog post, um the average person has
+disproportionately less access to. Uh as
+opposed to, you know,
+most of the capital is like having a
+random house, at least in the US.
+>> Or a part of a house.
+>> Yeah, which is as as as we were saying
+is sort of unique
+a capital that is uniquely ill-suited to
+be complementary to the production of AI
+or the serving of AI or to robots.
+>> Um or the kinds of goods that the rich
+will bid up the prices of.
+>> Exactly, right? Cuz what is the value of
+a house currently? It is really the land
+is close to other humans and modular
+relational stuff that is just not going
+to be the main factor of production.
+>> And this is the way Georgian tax would
+would not raise enough money for for the
+sort of programs that that that we were
+discussing.
+>> Right. Stepping back, the point I was
+trying to make is if it gets harder to
+index the economy now
+and that is supposed to be the main way
+in which both one, normal people are
+supposed to
+modular some sort of use universal basic
+>> the developed world.
+>> In the developed world, are supposed to
+have some leverage on or have some
+purchase on the wealth from AI.
+And it's also the way that developing
+countries are supposed to have some
+purchase on the wealth gains from AI.
+But it's very hard I don't know is
+Nigeria owning a lot of SK Hynix and
+like Anduril? I'm guessing not, right?
+It's not enough for them to just own the
+S&P 500.
+>> So actually this brings up a really
+important point. Like is AI going to be
+like electricity or social media?
+>> If it's So think about ComEd or ComEd is
+in whatever whatever the electricity
+provider here is. It's a monopoly.
+It provides a resource that everybody
+uses, but do we think about electricity
+as like generating creating
+concentration of power and it's ComEd
+like having like this huge amount of
+political power, social power, something
+like that.
+No, because a lot with electricity, a
+lot of the downstream benefits actually
+came to like the users of the
+electricity rather than the rather than
+the actual entity producing the
+electricity. On the other hand, with
+social media, it was the opposite case,
+right? Social media, you know, it was
+everywhere. Everybody uses social media,
+but the rents went to the platform.
+>> But that's a really interesting point.
+The more you think I I'm I don't endorse
+this take. I'm going to talk talk out
+loud. The more you think AGI is going to
+be
+it
+is
+um our economy is going to be run on AGI
+the way our economy currently runs on
+electricity.
+That it is this is a broad fundamental
+transformation of the entire economy.
+The more it looks like electricity, and
+the more it's like every company in the
+S&P of the future
+>> Exactly.
+>> if it's going to make it to the S&P 500,
+it is because it has leveraged AI.
+>> Exactly. And then you're indexed again.
+But then again, I guess it is totally
+if you just look at how concentrated the
+S&P is over time, you know, just like
+these big tech companies much more so
+I I I guess this is a good so
+fundamental point that it's hard to
+reason about about how much of the
+gains from AI these individual private
+companies will be able to control.
+>> And I I I think like the open model
+thing is going to be a big big
+>> point here, right? So, like if if we're
+indeed like we we're we're in a we're in
+a world where it's like the open models
+are models are 6 months behind the
+frontier, 9 months, then, you know,
+we'll hit AGI, we'll hit whatever, and
+like in 6 months, like everybody has
+access to this to this resource.
+>> it this goes to show you that every
+question is connected to every other
+because then that question about whether
+there's runaway gains connects to
+questions about recursive
+self-improvement. And even from a
+recursive self-improvement, then
+continual learning, which or online
+learning, which lets a model learn on
+the job. So, if it's deployed, it gets
+to learn more. And these are just sort
+of like
+technical question or forecasting
+technical questions, which then impact,
+I guess, whether Uganda will have any
+purchase on Yeah. the returns of AGI.
+But, it sounds like your answers are
+really
+The reason I'm emphasizing the question
+is I think both for the messy middle and
+for developing countries, a
+recommendation that is often made
+naively is you got to do some kind of
+retraining, you got to do some kind of
+jobs program or you got to have them
+build data centers in your country. And
+I think you guys are suggesting
+something closer to just
+buy the index of AGI. That's like a
+probably much more cleaner and much more
+likely to succeed strategy.
+>> It It's really good There These are the
+two scenarios, right? So, I think there
+is a world where it is concentrated, in
+which case it's going to be really hard
+to index AGI.
+>> Uh There is another world where it is
+not It's electricity, then like
+basically every company has access to
+AGI. So, you just buy you use buy the
+index. So, like, you know, Nigeria just
+needs to buy the index. And they And
+Nigeria has access to AGI.
+>> Right. Like
+>> because of the open minds.
+>> So, just to um
+get back to the question of like
+about whether to go with retraining or
+just trying to index.
+I would prioritize trying to index, but
+just given how fast AI could, you know,
+hit the world. But,
+I definitely wouldn't just rely on that
+because like it could
+the the sort of um
+messy middle type cases or the just the
+long timelines cases on which like you
+we don't get it anything like AGI all
+that soon. Um
+Well, still you'll just be like leaving
+a lot of value on the table if you could
+have like retrained to be a bit better,
+like educated to how you know how to use
+the latest wave of computing and and
+>> Yeah, so I I don't I don't I don't I
+don't think there's that much of a an
+either or there. Like I mean, maybe the
+reason to be pessimistic about this is
+because one of the reasons a country's
+poor is that it has a bad education
+system. And so, becoming the best in the
+world at retraining people at using AI
+It seem like a particularly promising
+um particularly promising strategy for
+this the that that for country.
+>> Although there there are cases where
+like in in in develop developing
+countries you you you had this like
+leapfrogging effect with like for
+example like mobile banking or something
+like that. It's more It's much more
+prevalent in like Nigeria than it is in
+in Germany or something like that. Like
+there everybody's doing mobile banking.
+They have They have it on their phones.
+They're constantly
+doing this sort of thing. So I mean
+I I again I'm not putting probabilities
+on this, but like with a transformative
+technology like AI you could get
+leapfrogging.
+>> Where you know you skip the step in the
+middle and you can get like really
+astronomical growth.
+>> Maybe.
+>> Just about the ease of indexing can I
+just quickly say I
+I think it's definitely something to
+worry about a bit and keep an eye on,
+um but as discussed in in our own essay
+and as other people have pointed out,
+it's already not that hard to index. So
+it's not There's been a bit of an
+increase in the privatization of
+returns, but it's still like, you know,
+well under 20% of uh the total market
+cap of
+non-non-tiny companies in in the US is
+is uh private. And
+you know, everyone thinks about OpenAI
+and Anthropic and then if if that's
+where all the wealth will will accrue,
+then yeah, like all these questions
+about whether open models will stay only
+a little bit behind, you know,
+uh those are important. Um
+but you know, even they look like
+they're going public before too long
+probably. Um and the frictions that have
+been keeping companies from going public
+might themselves be alleviated by AI a
+lot, right? Just all of the disclosure
+requirements and and whatnot. They want
+to get access to more potential
+investors, too.
+And uh
+if I had to guess, I would guess that
+the kind of
+long kind of general trend of just like
+lowering those frictions and making it
+easier for more and more people to index
+more and more will continue despite the
+recent bump in the other direction.
+>> This actually makes me hope even more so
+than before that the labs do get
+commoditized.
+Or at the very least they go public as
+soon as possible. But hopefully they
+just get totally commoditized because
+um I think AI will be much more popular
+and uh
+more importantly will be much more
+likely to lead to broad increases in our
+prosperity if the gains are
+just not particularly It is as hard to
+capture the gains of AI as it is to
+capture the gains of electrification.
+>> Yeah, exactly. So I think like everybody
+There's no anti-electricity people out
+there, right?
+>> I mean electricity doesn't take your
+job, but
+>> it takes some people's jobs.
+>> Yeah, yeah. And and I I I think it's um
+I you know, this is maybe a tangential
+to the conversation. I think like um
+there's there's like a really ne
+narratives matter and there's this like
+really negative narrative around AI
+right now, but that's because people are
+not putting out the positive narrative.
+Or because and and there's a reason.
+It's it's it's more difficult to imagine
+something that doesn't exist that's
+about good thing than losing something
+that exists.
+>> Right, yeah.
+>> Right. So it's very easy for somebody to
+to to go on a podcast and to say like
+these jobs that you like, they're going
+away that to somebody to spin up like a
+an an a utopia which doesn't exist.
+>> Right. I hope this isn't
+too out of left field, but I think I
+would be remiss if I didn't point out
+one big cost of having commoditized
+frontier AI models, which is the
+the tech race dynamic, right? That like
+for safety purposes you might want fewer
+frontier
+>> [clears throat]
+>> companies so that each one has a buffer
+in case they want to slow things down to
+make things safer.
+And uh the way this relates to our point
+before about the kind of widespread
+access, you know,
+of of of the returns.
+is that I think there's a lot less of a
+trade-off there than some people
+imagine. Where you you know, some people
+think either
+uh frontier AI gets commoditized and we
+all enjoy the benefits, but there might
+be some risk because like it it's the
+market's really competitive and
+cutthroat, or um
+things are safer because there's a big
+gap between the leader and the laggard,
+but that means that the leaders get
+fantastically wealthy.
+No, like you could just have a
+relatively big gap, but it's a public
+company ownership and it's widely
+distributed.
+>> More recently I have been thinking that
+the uh risk of commodification, which is
+that it sort of diffuses the the
+it diffuses the ability to use AI to
+harmful ends is worth the uh benefit
+that I I just feel I worry that not only
+having these concentrated labs um makes
+it so that the sort of surplus isn't as
+widely distributed through society, but
+also creates a very tangible, clear
+political target for the government um
+to I mean, we saw this with the Defense
+Production Act right against Anthropic.
+Um if there wasn't one lab that is or a
+couple of labs that are clearly ahead of
+others, this kind of threat would be
+much harder to make.
+Uh thank you guys for doing this.
+>> Yeah, thank you.
+>> Thank you. I I I I feel like there's a
+lot of unresolved questions, but I it is
+it is helpful to know what the relevant
+at least like what is the first branch
+along all these important dimensions.
+>> Great. Thank you.
+>> Okay. Well,

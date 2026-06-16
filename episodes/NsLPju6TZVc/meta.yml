@@ -1,0 +1,35 @@
+id: NsLPju6TZVc
+source: mlops-community
+title: "MCP, Agents & the $40M Bet on Multiplayer AI"
+guest: "Dust Co-founder"
+guest_role: "Dust 联合创始人 — 前 Stripe（早期收购加入，亲历 150→3000 人）、前 OpenAI"
+published: 2026-06
+duration: "≈ 50 min"
+url: https://youtube.com/watch?v=NsLPju6TZVc
+thumbnail: https://img.youtube.com/vi/NsLPju6TZVc/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - productivity
+  - startup
+  - founder
+  - interview
+  - strategic
+  - technical
+summary: |
+  Dust 联合创始人讨论"单人 AI → 多人 AI"的产品边界：为什么 Claude Code / Codex 仍然本质上是单人模式（任务时长仍是半天，模型能力是 jagged 的），
+  以及他们的回答 —— Pod：一个把多代理、多人类、GCS-FUSE 共享文件系统封装在一起的工作单元。还讨论了 Stripe 早期的 flocking 算法机制、fog of AI 下的对齐难题、
+  tokconomics 的终局（commoditization）与过渡期（需求挤压维持高价）、为什么 flat pricing 死了、以及 stateful sandbox + SQLite 作为 SaaS 的可能替代。
+core_ideas:
+  - 单人 AI 仍是默认 —— 因为 agent trace 太 jagged（"超人 vs 谷底"），所以人们只共享输出、不共享 session
+  - Stripe 的非管理学 = flocking 三规则 —— local separation（信任）、distant attraction（邮件文化）、alignment（"a dev API for payments"）
+  - Pod 是 Dust 的新原语 —— 一组人、一组代理、一组 session、一个 GCS-FUSE 共享文件系统；代理在 /session/... 与 /pod/... 之间搬文件
+  - Team weekly 已被 pod 自动化 —— 代理预拉数据、为每张 slide 开 session、会前两小时合成 frame
+  - Bidirectional access 是产品强约束 —— 任何功能都必须同时对人和代理可用，反过来也成立
+  - Fog of AI —— "基础设施每周变" 使得一年规划失效；唯一可行的是六个月 / 三个月的 stack rank，配合全员可触发的 stack rank update
+  - Tokconomics 终局 = gravity → commoditization（≈ 电价），但过渡期被需求压力撑住，flat pricing 已不可持续
+  - 一个额外的 9 改变任务形态 —— 即使任务只需要"小模型水平"，多一个 9 的可靠性也能把"监督每行"变成"再也不碰"
+  - Stateful sandbox + SQLite = micro-SaaS —— "Wall Street was right way in advance for danging the SaaS businesses"
+  - Agents are anthropomorphic —— 所以 agentic search 在 context 拉长后击败 RAG；最终人和代理在 CLI 处汇合
+base: /episodes/NsLPju6TZVc/

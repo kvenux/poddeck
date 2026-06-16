@@ -1,0 +1,31 @@
+id: BD3vLtWhT5A
+source: lennys-podcast
+title: "The most rational take on AI you'll hear this year"
+guest: "Benedict Evans"
+guest_role: "Independent tech analyst, ex-a16z"
+published: 2026-05
+duration: 5400
+url: https://youtube.com/watch?v=BD3vLtWhT5A
+thumbnail: https://img.youtube.com/vi/BD3vLtWhT5A/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - startup
+  - strategic
+  - investor
+  - interview
+  - deep-dive
+summary: |
+  Benedict Evans 在 Lenny 的节目上展开了他最新的 "AI is eating the world"
+  演示——一份"80 页都在说 we don't know"的冷静分析。他给出三组核心判断：
+  我们处于 1997 年互联网那种"看得见大方向、看不清谁会赢"的早期阶段；
+  task ≠ job，所以 17% 自动化分析都是 horseshit；基础模型很可能像电信运营商
+  ——重要、伟大、毛利率很低，价值会沿着 stack 往上流到应用层。
+core_ideas:
+  - "1997 论：方向已经定了，但大部分东西还不工作，谁会赢都不知道"
+  - "Task vs Job：你雇 McKinsey 不是为了 75 页 PPT，是为了走遍企业、判断政治"
+  - "Jevons 悖论：Excel 没让初级 banker 周五中午回家，AI 也不会"
+  - "基础模型可能是 commodity——没 network effect、无差异化、应用层那么多种"
+  - "Larry Tesler 定律：AI 是机器还做不到的事，做到之后大家就说那只是软件"
+  - 'Evans 唯一愿意给的建议：don''t stick your head in the sand，潜进去用'
+base: /episodes/BD3vLtWhT5A/
