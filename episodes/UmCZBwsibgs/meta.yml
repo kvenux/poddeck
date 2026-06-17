@@ -1,8 +1,9 @@
 id: UmCZBwsibgs
 source: latent-space
-title: "From Consumer Toys for Pets to War Drone — Yaroslav Azhnyuk, The Fourth Law & Noah Smith, Noahpinion"
+category: ai-tech
+title: "从宠物消费玩具到战争无人机 — Yaroslav Azhnyuk（The Fourth Law）与 Noah Smith（Noahpinion）"
 guest: "Yaroslav Azhnyuk · Noah Smith"
-guest_role: "The Fourth Law / Odd Systems — founder · Noahpinion — writer"
+guest_role: "The Fourth Law / Odd Systems创始人 · Noahpinion作者"
 published: 2026-04
 duration: "≈ 90 min"
 url: https://youtube.com/watch?v=UmCZBwsibgs
@@ -18,25 +19,19 @@ tags:
   - strategic
   - technical
 summary: |
-  Yaroslav Azhnyuk built Pet Cube in San Francisco — "cameras that fling treats to pets" — and then,
-  after Russia's invasion landed on the last flight into Kyiv on Feb 23, 2022, pivoted to building
-  drone autonomy, thermal cameras, and FPV strike drones for the Ukrainian armed forces. With Noah
-  Smith and Latent Space's Brandon, he walks through five levels of drone autonomy, eight dimensions
-  of the autonomous battlefield, why FPVs replaced artillery as "the god of war" (~80% of frontline
-  casualties), and the disquieting arithmetic of China's drone manufacturing scale (4M Ukrainian
-  FPVs/year vs ~4B Chinese capacity).
+  Yaroslav Azhnyuk在旧金山创立了Pet Cube——"向宠物投射零食的摄像头"——然后，在俄罗斯入侵的前夜搭上飞往基辅的最后一班飞机（2022年2月23日），转型投身无人机自主系统、热成像摄像头和FPV攻击无人机的研发，服务于乌克兰武装力量。他与Noah Smith和Latent Space的Brandon共同梳理了无人机自主性五级体系、自主战场的八个维度、FPV如何取代炮兵成为"战争之神"（约80%的前线伤亡），以及中国无人机制造规模令人不安的数字（乌克兰年产400万架FPV，中国产能约40亿架）。
 core_ideas:
-  - Software-defined warfare — a fleet of drones can inherit new behaviors overnight via OTA, a first in military history ("push a software update and get all of your Roman legionnaire's a new helmet")
-  - Five levels of drone autonomy — terminal guidance → bombing → target detection → navigation → takeoff/landing; inspired by SAE self-driving levels
-  - Eight dimensions of the autonomous battlefield — level, platform, domain, swarming, environment, C2, infrastructure, distribution
-  - L1 alone (terminal guidance) took one Ukrainian pilot's mission-success rate from 20% to 71% and his kill zone from 3 km to 10 km
-  - FPV drones are the god of war — 70–80% of frontline casualties now caused by FPVs; artillery is dethroned but not obsolete
-  - Cost asymmetry — a $500 FPV vs a $5M tank; Vyriy Drone's Alexei Babenko quote about destroying a year of Rheinmetall tanks in a day
-  - Optic-fiber prices jumped from $4/km to $32/km in months — because AI data centers consume the same fiber
-  - 5 to 10 years from now it will be immoral to use weapons without AI — the precision argument
-  - The China overhang — 4M Ukrainian FPVs/year vs 4B Chinese capacity; container-ship long-range drone delivery as a strategic scenario
-  - Four layers of Western lag — autonomy technology, mass manufacturing, components, rare-earth refining
-  - Drone-time differential — Ukraine/Russia advanced ~1 year of drone tech in a year; Europe moved "from winter 2022 to spring 2022"
-  - Kyiv as Defense Valley — Arthur C. Clarke's "the future is already here, just not evenly distributed" applied to military tech
-  - Si vis pacem, para bellum — the closing message: invest in defense if you want peace
+  - 软件定义战争——无人机舰队可以通过OTA在一夜之间获得新行为，这在军事史上是第一次（"推送一个软件更新，让你所有的罗马军团士兵获得新头盔"）
+  - 无人机自主性五级——末端制导→轰炸→目标检测→导航→起降；灵感来自SAE自动驾驶级别
+  - 自主战场的八个维度——级别、平台、领域、集群、环境、指挥与控制、基础设施、规模
+  - 仅凭L1（末端制导），一名乌克兰飞手的任务成功率从20%提升到71%，杀伤区从3公里扩大到10公里
+  - FPV无人机是战争之神——前线70–80%的伤亡现在由FPV造成；炮兵被取代但并未消亡
+  - 成本不对称——500美元的FPV对500万美元的坦克；Vyriy Drone的Alexei Babenko关于一天产量足以摧毁莱茵金属一年产量坦克的引言
+  - 光纤价格从每公里4美元涨到32美元——因为AI数据中心消耗的是同款光纤
+  - 5–10年后，不用AI的武器将是不道德的——精准度论证
+  - 中国产能的悬剑——乌克兰年产400万架FPV对中国40亿架产能；集装箱船远程无人机投送作为战略场景
+  - 西方落后的四个层面——自主技术、大规模制造、零部件、稀土精炼
+  - 无人机时间差异——乌俄在一年内推进了约一年的无人机技术；欧洲"从2022年冬天走到了2022年春天"
+  - 基辅——国防谷；亚瑟·C·克拉克的"未来已经到来，只是分布不均"应用于军事技术
+  - Si vis pacem, para bellum——结束语：想要和平，就要备战
 base: /episodes/UmCZBwsibgs/

@@ -1,5 +1,6 @@
 id: 1WFffCGhm7U
 source: mlops-community
+category: ai-tech
 title: "Fixing GPU Starvation in Large-Scale Distributed Training"
 guest: "Kashish"
 guest_role: "Uber · ML Infra · Marketplace Matching Lead"

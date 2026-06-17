@@ -45,6 +45,23 @@ export const CATEGORIES = [
 
 export type CategoryId = typeof CATEGORIES[number]['id']
 
+// Fold legacy / fine-grained category labels into the 5 canonical buckets so
+// the homepage doesn't sprout an ever-growing "其他" section. Ad-hoc per-batch
+// tags (e.g. `update-2026-06-16`, `manual-update`) are NOT mapped here — those
+// are run-plan bookkeeping, not topics; episodes should carry a real topic
+// category in meta.yml instead.
+const CATEGORY_ALIASES: Record<string, CategoryId> = {
+  'ai-research': 'ai-tech',
+  'ai-products': 'ai-tech',
+  'ai-tech-rest': 'ai-tech',
+  'ai-engineering': 'ai-tech',
+}
+
+function normalizeCategory(cat?: string): string | undefined {
+  if (!cat) return cat
+  return CATEGORY_ALIASES[cat] ?? cat
+}
+
 export interface EpisodeWithSource extends EpisodeMeta {
   sourceRef: Source
 }
@@ -97,7 +114,7 @@ export function loadEpisodes(): EpisodeWithSource[] {
       if (!existsSync(metaPath)) continue
       const meta = readYaml<EpisodeMeta>(metaPath)
       meta.base = meta.base || `/episodes/${meta.id}/`
-      meta.category = meta.category || categoryMap[meta.id]
+      meta.category = normalizeCategory(meta.category || categoryMap[meta.id])
       const sourceRef = sourceMap[meta.source]
       if (!sourceRef) continue
       results.push({ ...meta, sourceRef })

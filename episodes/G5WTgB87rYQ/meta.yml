@@ -1,8 +1,9 @@
 id: G5WTgB87rYQ
 source: lennys-podcast
-title: "How to ship hardware in the AI era | Caitlin Kalinowski (Apple, Meta, OpenAI)"
+category: ai-tech
+title: "AI时代如何交付硬件产品 | Caitlin Kalinowski（Apple、Meta、OpenAI）"
 guest: "Caitlin Kalinowski"
-guest_role: "Hardware leader — ex-Apple (MacBook Pro/Air), ex-Meta (Quest, Rift, Orion AR), ex-OpenAI (robotics)"
+guest_role: "硬件领袖 — 前Apple（MacBook Pro/Air），前Meta（Quest、Rift、Orion AR），前OpenAI（机器人部门）"
 published: 2026-04
 duration: "≈ 75 min"
 url: https://youtube.com/watch?v=G5WTgB87rYQ
@@ -19,25 +20,18 @@ tags:
   - strategic
   - technical
 summary: |
-  Caitlin Kalinowski has shipped flagship hardware at three legendary companies — the original
-  unibody MacBook Pro and MacBook Air at Apple, the Quest / Rift / Orion AR program at Meta, and
-  most recently OpenAI's robotics division (which she publicly resigned from over the "department
-  of war" deal). She walks Lenny through why hardware is fundamentally different from software
-  ("we only get to compile four or five times — ever"), the 5-layer supply-chain stack that's been
-  outsourced over 25 years, Palmer Luckey's drones-vs-aircraft-carriers argument, the impulse
-  equation that governs robot safety, the "memory-price meteor" coming for every physical AI
-  startup, and the four hardware design principles she carries from Apple to Meta to OpenAI.
+  Caitlin Kalinowski曾在三家传奇公司交付旗舰硬件——Apple的初代一体式MacBook Pro和MacBook Air、Meta的Quest/Rift/Orion AR项目，以及最近因"战争部门"协议公开辞职的OpenAI机器人部门。她与Lenny深入探讨了为什么硬件与软件有根本性的不同（"我们只能编译四五次——一辈子就这些"），被外包25年的5层供应链结构，Palmer Luckey的无人机vs航母论述，决定机器人安全性的冲量方程，即将冲击每家物理AI创业公司的"内存价格陨石"，以及她从Apple到Meta再到OpenAI一路带着的四条硬件设计原则。
 core_ideas:
-  - One technological lineage — VR → AR → robotics share the same SLAM, depth-sensing, and spatial-perception stack; the VR investment was never wasted
-  - We only get to compile four or five times — hardware's defining constraint, vs software's continuous deploy
-  - The 5-layer supply chain — raw materials → magnet processing → actuators → sub-assemblies → robots, every layer offshored over 25 years
-  - Robot safety as physics — impact = arm-mass × velocity + actuator torque, then compliance; today's warning is "no human within 3 ft"
-  - Four hardware design principles — define goals up front, design the hardest part first, over-iterate touch points, do it right now
-  - Why not 100×? — the Sam Altman habit Caitlin took with her
-  - The bar he held was not wavering — the Steve Jobs habit, and why hearing it once is enough
-  - Decisions at the lowest level possible — the Zuckerberg habit that kept Meta's hardware org fast
-  - There's a meteor called memory prices — DRAM doubling, AI data centers eating supply, advice to startups is pre-buy
-  - I want codecs for engineering — AI is on the edge of real CAD but not in it, and the bottleneck is proprietary CAD data
-  - Humanoids are not the answer to everything — a dedicated screw-driver robot beats a generalist for the laptop assembly line
-  - The third path after OpenAI — public exit over the "department of war" deal, framed as a boundary, not scorched earth
+  - 一脉相承的技术谱系——VR→AR→机器人共享同一套SLAM、深度感知和空间感知技术栈；VR的投入从未白费
+  - 只能编译四五次——硬件的决定性约束，对比软件的持续部署
+  - 5层供应链——原材料→磁铁加工→执行器→子组件→机器人，每一层在25年里被外包出去
+  - 机器人安全即物理——冲击力 = 臂质量×速度 + 执行器扭矩，再叠加顺从性；当前的警示是"3英尺内不得有人"
+  - 硬件设计四原则——提前定义目标，先攻最难的部分，在触点处过度迭代，现在就去做
+  - 为什么不是100倍？——Caitlin带走的Sam Altman习惯
+  - 他坚守的标准从不动摇——Steve Jobs的习惯，以及被说一次就够了
+  - 决策在最低层作出——让Meta硬件团队保持速度的Zuckerberg习惯
+  - 内存价格陨石——DRAM价格翻倍，AI数据中心吞噬供给，给创业公司的建议是提前备货
+  - 我想要工程编解码器——AI处于真实CAD的边缘而非内部，瓶颈在于专有CAD数据
+  - 人形机器人不是万能答案——专用拧螺丝机器人比通才更适合笔记本装配线
+  - 离开OpenAI后的第三条路——因"战争部门"协议公开离职，定义为立场而非玉石俱焚
 base: /episodes/G5WTgB87rYQ/

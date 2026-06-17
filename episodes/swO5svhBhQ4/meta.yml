@@ -1,8 +1,9 @@
 id: swO5svhBhQ4
 source: mlops-community
-title: "Building AI Agents That Survive Production"
+category: ai-tech
+title: "构建能在生产环境中存活的AI智能体"
 guest: "Haytham Abuelfutuh"
-guest_role: "CTO, Union AI; co-author of Flyte"
+guest_role: "Union AI首席技术官；Flyte联合作者"
 published: 2026-05
 duration: "≈ 32 min"
 url: https://youtube.com/watch?v=swO5svhBhQ4
@@ -16,16 +17,12 @@ tags:
   - reliability
   - platform
 summary: |
-  Haytham Abuelfutuh argues that the hard part of production agents is not only prompts
-  and tools, but the operational substrate around long-running, failure-prone sessions.
-  The talk frames production readiness around dynamic execution, durable recovery, and
-  defended sandboxes, using the example of human travel agents to show why interruption,
-  state, and recovery matter more than a clean demo loop.
+  Haytham Abuelfutuh认为，生产环境智能体的难点不仅在于提示词和工具，还在于围绕长时运行、容易出错的会话的运营基底。演讲围绕动态执行、持久恢复和防御性沙箱三个维度构建了生产就绪性的框架，并以人类旅行社为例，说明了中断处理、状态保持和恢复比一个干净的演示循环更为重要。
 core_ideas:
-  - Production agents need to tolerate failure rather than pretend failures can be eliminated.
-  - Long-running sessions make agent reliability different from ordinary stateless services.
-  - Durable state and cheap recovery are core platform requirements, not afterthoughts.
-  - Dynamic execution lets agents branch, loop, call tools, and adapt without forcing every path into a rigid DSL.
-  - Defended sandboxes matter because useful agents may need to write and run code safely.
-  - Shifting infrastructure ownership left can unlock faster iteration for researchers and application teams.
+  - 生产环境智能体需要容忍故障，而非假装故障可以消除
+  - 长时运行的会话使智能体可靠性不同于普通的无状态服务
+  - 持久状态和廉价恢复是核心平台要求，而非事后补救
+  - 动态执行让智能体无需将每条路径塞入刚性DSL，即可分支、循环、调用工具和自适应
+  - 防御性沙箱很重要，因为有用的智能体可能需要安全地编写和运行代码
+  - 将基础设施所有权左移可以为研究人员和应用团队解锁更快的迭代速度
 base: /episodes/swO5svhBhQ4/
