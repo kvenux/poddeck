@@ -1,0 +1,29 @@
+id: 18qSqzTdnbs
+source: guigu101
+title: 'AppLovin撕开巨头裂缝的1000天：AI审判、被做空与Underdog的"弱者之心"【硅谷101专访】'
+guest: "葛小川 Giovanni Ge"
+guest_role: "AppLovin 首席产品及工程官（CPO/CTO）"
+published: 2026-03
+duration: ~120 min
+url: https://youtube.com/watch?v=18qSqzTdnbs
+thumbnail: https://img.youtube.com/vi/18qSqzTdnbs/maxresdefault.jpg
+status: generated
+category: business
+tags:
+  - interview
+  - deep-dive
+  - strategic
+  - ai-products
+  - product-lead
+  - startup
+summary: |
+  葛小川——中科大少年班出身、意大利博士、Meta 出走者——在 2022 年底加入 AppLovin，三年从工程师晋升为首席产品及工程官，主导了 AXON 2.0 推荐模型上线、跨入电商、卖掉游戏业务等关键节点。这是他第一次中文视频专访，复盘了 AppLovin 在 Google/Meta 双垄断下、伴随三轮做空狙击、市值冲破 $2000 亿、加入 S&P 500 的 1000 天。访谈的核心母题是"underdog 弱者之心"——拒绝"做对了三件事"的成功学叙事，强调"决策本身简单，关键是之后 365 天每天怎么过"。
+core_ideas:
+  - AppLovin 是头部广告平台里唯一没有自有流量的玩家，靠 MAX/Adjust/MoPub 三次收购搭起底座，再用 AXON 2.0 弥补现代推荐算法的代差
+  - 葛小川拒绝把成功归结为"几件做对的决策"，反复强调"365 天每天的日子怎么过"才是真正的差异
+  - 跨入电商不是"复制粘贴模型"，而是"重新创业"——第一性原理判断哪些可迁移、哪些必须重写
+  - 卖掉游戏业务的三重逻辑：数据实验室使命终结、估值重置（19% → 81% EBITDA）、资源极限压注电商
+  - 反直觉选择：不自研大语言模型，反而获得"自由选最好模型"的优势，市场第一个用 LLM 全自动生产广告素材
+  - 招人转向：经验被高估，2024 年后彻底转向新人 + 全硅谷最高薪；要"聚光灯边缘"的 talent
+  - AppLovin 工程师的 5 个特质拼成 HEART：humility/empathy/ability/resilience/tenacity；不到 100 名工程师人均产出 4000 万美元利润
+base: /episodes/18qSqzTdnbs/

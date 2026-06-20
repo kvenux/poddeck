@@ -1,0 +1,30 @@
+id: pdcT2jwXP0s
+source: guigu101
+title: '"再造一个CUDA"：英伟达的第二护城河与"超级碗"阳谋【深度解析GTC 2025】'
+guest: "陈茜 + 多位机构投资人 / 芯片从业者"
+guest_role: "硅谷101 主持人 / 行业嘉宾访谈"
+published: 2025-03
+duration: ~30 min
+url: https://youtube.com/watch?v=pdcT2jwXP0s
+thumbnail: https://img.youtube.com/vi/pdcT2jwXP0s/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - chips
+  - hardware
+  - ai-products
+  - strategic
+  - technical
+  - panel
+summary: |
+  GTC 2025 现场的"双面"复盘：台前股价当天 -3.3%、路线图被消化没惊喜；台下机构和芯片从业者一致看好，因为老黄真正在讲的是 Scale Up + Scale Out 的数据中心叙事——CPO 硅光交换机把横向扩展打通，开源的 Dynamo 推理软件被嘉宾视为"第二个 CUDA"。再加上"旧卡推理 + 新卡训练"的折旧打法和"超级碗"全生态阳谋，AMD、ASIC、云厂商各自的位置被重新框定。
+core_ideas:
+  - GTC 2025 看似平淡，但 Scale Up + Scale Out 才是新故事——计算单元不再是 GPU 而是整个数据中心
+  - 芯片路线图 Blackwell Ultra → Vera Rubin → Rubin Ultra → Feynman，伴随"黄氏算法"重新定义
+  - CPO 硅光交换机把每端口能耗从 30W 降到 9W，3.5× 能效 / 10× 可靠性
+  - 硅光技术 20 年来 Intel 是真先驱，英伟达通过 Mellanox 收购拿到核心能力，靠 AI 数据中心找到杀手级应用
+  - Dynamo 是推理侧的开源调度软件，被嘉宾视为"第二个 CUDA"——GPU Planner / Smart Router / Comm Lib / Memory Manager 四大组件
+  - AMD 的 ROCm 软件"全是 bug"，只能做到 8 卡互联 vs 英伟达 2027 年的 576 卡，"差距已经没办法弥补"
+  - 老黄的旧卡推理 + 新卡训练策略 + 训练推理共享同一软件框架 = 真正护城河
+  - 真正的对手不是 AMD/Groq/ASIC，而是 AWS/Microsoft 这些云厂商；Super Bowl 阳谋让每个产业都接进 CUDA-X
+base: /episodes/pdcT2jwXP0s/

@@ -1,0 +1,33 @@
+id: F7oNfszczVc
+source: guigu101
+title: "再访田渊栋：46.5亿美金估值的RSI，与AI自进化｜Neolabs特辑【101视频播客】"
+guest: "田渊栋"
+guest_role: "RSI 联合创始人 · 前 Meta FAIR 研究总监"
+published: 2026-06
+duration: 75
+url: https://youtube.com/watch?v=F7oNfszczVc
+thumbnail: https://img.youtube.com/vi/F7oNfszczVc/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - startup
+  - interpretability
+  - ai-safety
+  - interview
+  - researcher
+  - founder
+  - strategic
+  - technical
+summary: |
+  田渊栋离开 Meta FAIR 半年后，与 Richard Socher、熊蔡明、Tim Rocktäschel 等 7 位顶级研究员一起创立 Recursive Superintelligence（RSI），6.5 亿美元融资、46.5 亿美元估值。
+  这一期他第一次系统讲述了 RSI 的技术路线：用 AI 优化 AI（左脚踩右脚），把 auto research 作为商业化第一步，以及他认为现在 AI 能力大约在"满分 10 分的 0.5 分"。
+  对话还覆盖了 NeoLab 全景、coding 之后的下一波、大厂蒸馏员工的"吸星大法"、以及"水越来越少，鱼必须变成四维生物"的就业大趋势。
+core_ideas:
+  - RSI = Recursive Self Improvement，让 AI 优化 AI 自己，maximize knowledge discovery rate
+  - 现在在 0.5 / 10 阶段，山外可能还有 100 — "翻过那座山才能看见后面的山有多高"
+  - Pre-training 决定 RL 上限 — RL 只能把"第 200 名的答案放到第 1 名"，没种子就没用
+  - Coconut / Latent reasoning — 语言只是解释，真正的思考是非语言的
+  - 前沿大模型之争本质是组织架构之争，先进生产力 vs 落后生产关系
+  - Coding 之后下一个 The Next Big Thing 是 AI research 本身
+  - 大机器不需要你的零件了 — 每个人都得变成一个"行走的数据源"
+base: /episodes/F7oNfszczVc/

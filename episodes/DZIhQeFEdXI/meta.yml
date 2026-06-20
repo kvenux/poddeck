@@ -1,0 +1,29 @@
+id: DZIhQeFEdXI
+source: guigu101
+title: "拆解机器人“肉身”、量产与供应链：空翻之后，它还要学会接住一片落叶｜机器人特辑"
+guest: "王闯 等业内人士"
+guest_role: "机器人本体 / 关节 / 激光雷达 等领域受访嘉宾"
+published: 2026-06
+duration: 30
+url: https://youtube.com/watch?v=DZIhQeFEdXI
+thumbnail: https://img.youtube.com/vi/DZIhQeFEdXI/maxresdefault.jpg
+status: generated
+tags:
+  - robotics
+  - hardware
+  - chips
+  - interview
+  - technical
+summary: |
+  硅谷101 陈茜对话多位机器人本体业内人士，把人形机器人拆成骨架、关节、传感器、电气计算四大系统逐一讲透。
+  从空翻时几十个 g 的冲击、减速器的"不可能三角"、电机能效 3% 与 5% 的鸿沟，
+  到前特斯拉 AI 硬件负责人复盘 Optimus 单芯片改双芯片的反复，再到供应链从"求着别人"到"滚雪球"的转折。
+core_ideas:
+  - 一次空翻触地的加速度"跟汽车撞到墙差不多"，达几十个 g —— 骨架要同时满足又轻又强
+  - 美国银行测算执行器约占机器人成本 51%，比骨骼、传感器、芯片、电池都贵
+  - 减速器的不可能三角：性能 / 成本 / 耐用 / 抗冲击 —— 还要 10000 台之间保持一致
+  - 电机能效 3% 与 5% 的差异，会反向卡死整机性能上限
+  - 触觉在 2025 量产里"几乎就没有"，嘉宾说 2026 年才看到规模化希望
+  - 机器人供应链与汽车 80% 重合，但量产难点在系统整合，不在拼装
+  - 下一个里程碑不是更炫的动作，而是基础的"感控融合" —— 接住一片落叶
+base: /episodes/DZIhQeFEdXI/

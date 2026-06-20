@@ -1,0 +1,33 @@
+id: 3el8ppdGnSk
+source: guigu101
+category: ai-tech
+title: '再聊黄仁勋"量子春晚"：只有混战、没有共识的量子计算界'
+guest: "陈茜（主持）· Joe Han（13 年量子产业经验 / 早期投资人）· 祁均教授"
+guest_role: "《硅谷101》深度第二期 · 复盘英伟达 GTC「量子日」"
+published: 2025-04
+duration: "≈ 30 min"
+url: https://youtube.com/watch?v=3el8ppdGnSk
+thumbnail: https://img.youtube.com/vi/3el8ppdGnSk/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - ai-research
+  - investor
+  - interview
+  - technical
+  - deep-dive
+summary: |
+  黄仁勋年初一句"非常有用的量子计算还要 15-30 年"砸了量子概念股一把；GTC 期间他本想"握手言和"，召集 14 家量子计算公司 CEO 同台，开场却说"我都不知道量子计算公司已经上市了"——量子概念股再次重挫。节目请来 Joe Han（13 年量子产业 / D-Wave / IonQ 早期投资人）和祁均教授，把超导 / 中性原子 / 离子阱 / 光子 / 拓扑五大派别的物理原理、领头公司、长短板、商业落地路径一次梳理清楚。
+core_ideas:
+  - 量子日的 drama —— 14 家 CEO 同台、整机几乎完全不兼容，"无法统一路径，无法达成共识"
+  - 四维评价框架：多 · 快 · 好 · 省，没有一家四个维度全占
+  - 超导路线：IBM 已交付 60+ 台整机、Amazon Ocelot + Alice&Bob 用"猫态"在硬件层做容错（节省 200×）
+  - 中性原子三家：Atom Computing 追长存储、Pasqal 拼阵列模拟、QuEra 可编程式摆原子
+  - 离子阱精度王者：IonQ 室温机架 + Quantinuum 并行设计，双比特门 99.9% vs 超导 98%，但慢 100×
+  - 光子路线 PsiQuantum 60 亿美元投前估值融资 7.5 亿，赌百万比特规模 + 复用硅光子工艺
+  - 拓扑大戏：微软号称"新物质状态"，匹兹堡大学研究员 Sergey Frolov 开喷"欺诈性项目"
+  - 中国玩家每条路线 2-3 家百花齐放：本源 · 国盾 · 华翊 · 国仪 · 中科酷原 · 图灵 · 正则
+  - 量子 + AI 三种结合：AI 辅助量子 / 量子启发式算法 / 混合 QPU 架构
+  - 共识只有一条：要做"改变世界"的应用，必须达到百万量子比特，每隔几年要 10× 扩展
+base: /episodes/3el8ppdGnSk/

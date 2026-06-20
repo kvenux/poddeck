@@ -1,0 +1,114 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "sim", "type": "rectangle", "x": 40, "y": 140, "width": 250, "height": 200,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 1, "version": 1, "versionNonce": 1,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "sim-t", "type": "text", "x": 60, "y": 175, "width": 210, "height": 130,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "Simulation\n仿真世界\n\n固定参数\n完美物理引擎\n无限并行",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null,
+      "originalText": "Simulation\n仿真世界\n\n固定参数\n完美物理引擎\n无限并行",
+      "lineHeight": 1.25, "baseline": 120
+    },
+    {
+      "id": "real", "type": "rectangle", "x": 500, "y": 140, "width": 250, "height": 200,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 3, "version": 1, "versionNonce": 3,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "real-t", "type": "text", "x": 520, "y": 170, "width": 210, "height": 150,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "Real World\n真实世界\n\n摩擦/形变/流体\n噪音/不规则\n无限细节",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null,
+      "originalText": "Real World\n真实世界\n\n摩擦/形变/流体\n噪音/不规则\n无限细节",
+      "lineHeight": 1.25, "baseline": 140
+    },
+    {
+      "id": "arrow1", "type": "arrow", "x": 295, "y": 195, "width": 200, "height": 0,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 5, "version": 1, "versionNonce": 5,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow",
+      "points": [[0, 0], [200, 0]]
+    },
+    {
+      "id": "arrow1-l", "type": "text", "x": 320, "y": 160, "width": 160, "height": 30,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1,
+      "text": "Sim-to-Real Gap",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "Sim-to-Real Gap",
+      "lineHeight": 1.25, "baseline": 16
+    },
+    {
+      "id": "arrow2", "type": "arrow", "x": 495, "y": 290, "width": -200, "height": 0,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 7, "version": 1, "versionNonce": 7,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow",
+      "points": [[0, 0], [-200, 0]]
+    },
+    {
+      "id": "arrow2-l", "type": "text", "x": 320, "y": 300, "width": 160, "height": 30,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 8, "version": 1, "versionNonce": 8,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1,
+      "text": "Real-to-Sim Gap",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "Real-to-Sim Gap",
+      "lineHeight": 1.25, "baseline": 16
+    },
+    {
+      "id": "chasm-t", "type": "text", "x": 320, "y": 60, "width": 160, "height": 30,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 9, "version": 1, "versionNonce": 9,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "动力学的鸿沟",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "动力学的鸿沟",
+      "lineHeight": 1.25, "baseline": 14
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

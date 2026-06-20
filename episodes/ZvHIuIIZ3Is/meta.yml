@@ -1,0 +1,32 @@
+id: ZvHIuIIZ3Is
+source: guigu101
+title: "揭秘数采工厂：稀缺的机器人数据，到底难在哪儿？｜机器人特辑"
+guest: "陈茜 · 智元 / 觅蜂 / Sharpa 受访人"
+guest_role: "硅谷101 主持人 + 机器人公司数据负责人"
+published: 2026-06
+duration: 32
+url: https://youtube.com/watch?v=ZvHIuIIZ3Is
+thumbnail: https://img.youtube.com/vi/ZvHIuIIZ3Is/maxresdefault.jpg
+status: generated
+tags:
+  - robotics
+  - hardware
+  - ai-research
+  - interview
+  - technical
+  - strategic
+summary: |
+  硅谷101 飞到上海智元机器人数采工厂，亲手试了一把"遥操作采集员"，并和觅蜂、Sharpa 等机器人公司聊清楚了一件事：机器人没有 LLM 那种"吃掉互联网"的福利 —— 每一条高质量数据都必须从零生产。
+  这一期把四层数据金字塔（遥操 / 仿真 / 动捕 / 视频）的优势、上限、代价讲透了，并给出了一个非常具体的"黄金配方" —— 遥操在数据池里大约只占万分之一，但决定模型能不能落地。
+core_ideas:
+  - 机器人数据不是互联网副产品 — 必须用具身本体 + 精确同步的多维传感器从零采集
+  - 四层金字塔：遥操真机 / 仿真合成 / 动捕 / 互联网视频，质量越高数量越少
+  - 上海智元数采工厂 200 台机器人 + "Zero to hero 一个月"的金牌采集员
+  - 觅蜂 2026 真机产能 200 万 h + 计划 800 万 h Human-Centric 数据
+  - Sharpa 乒乓球机器人 40 h 纯仿真训练出 0.02 s 击球反应
+  - Sim-to-Real 和 Real-to-Sim 双向 Gap — 动力学层面最难
+  - '黄金配方：遥操 : 动捕 : 视频 ≈ 1 : 100 : 100，真机仅占万分之一'
+  - 中美路线分化：中国把数据做成工厂；硅谷往视频靠拢
+  - AgiBot World 开源 → GR00T N1 训练数据 80% 来自它
+  - Sergey Levine 的麦当劳预言：1 万家×2 h = 1000 万 h/年
+base: /episodes/ZvHIuIIZ3Is/

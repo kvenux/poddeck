@@ -1,0 +1,33 @@
+id: JGiguIv6m8s
+source: guigu101
+title: "智能体社交革命：AI Agent是怎么来到你我身边的？"
+guest: "何朝阳"
+guest_role: "Teamily AI 创始人"
+published: 2026-06
+duration: 30
+url: https://youtube.com/watch?v=JGiguIv6m8s
+thumbnail: https://img.youtube.com/vi/JGiguIv6m8s/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - startup
+  - interview
+  - strategic
+summary: |
+  硅谷101 陈茜对话 Teamily AI 创始人何朝阳，从 Claude Code 引爆的"装机热潮"
+  谈起 Agent 三层架构（Model Router / Memory OS / MCP·A2A·ACP 协议拼图）、
+  三重能力跃迁（长时陪伴 / 主动行动 / 自我进化）、Harness Engineering 的复利效应，
+  以及行业三条路径（延长创新 / 社会实验 / 人机共生）与 Web 4.0 的轮廓。
+core_ideas:
+  - 社交基本单位从"人"变成"人+Agent"，两层网络在同一基础设施上融合
+  - Claude Code 真正的影响不在应用层而在认知层 —— 从"租房"到"买房"的范式变化
+  - Agent 三层架构同时成熟 —— Model Router + Memory OS + 协议层（MCP/A2A/ACP）
+  - Semantic Model Router 编排 200+ 模型、12 维任务分类，背后是实时调度系统
+  - Memory 是 Agent 的"人格系统" —— 从 RAG 到 Memory OS 再到 Social Brain
+  - Skills + Harness Engineering 是自进化的载体 —— 用得越多进化得越快
+  - 关键能力转向 —— 从"会不会写 Prompt"变成"能不能和 Agent 形成长期协作关系"
+  - 未来 Computer use 会比 Browser use 更贴合 LLM 的自然语言处理能力
+  - 商业模式从"卷 Token"转向"卷行业 Know-how"，雇佣 AI Teams（智能体军团）
+  - Web 4.0 —— AI 作为"第一类公民"，拥有完整的支付与协作体系
+base: /episodes/JGiguIv6m8s/

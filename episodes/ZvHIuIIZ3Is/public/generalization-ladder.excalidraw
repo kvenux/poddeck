@@ -1,0 +1,108 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "step1", "type": "rectangle", "x": 60, "y": 320, "width": 220, "height": 80,
+      "angle": 0, "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 1, "version": 1, "versionNonce": 1,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "step1-t", "type": "text", "x": 80, "y": 340, "width": 180, "height": 50,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "✓ 物体泛化\n已实现",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "✓ 物体泛化\n已实现",
+      "lineHeight": 1.25, "baseline": 45
+    },
+    {
+      "id": "step2", "type": "rectangle", "x": 280, "y": 220, "width": 220, "height": 80,
+      "angle": 0, "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 3, "version": 1, "versionNonce": 3,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "step2-t", "type": "text", "x": 300, "y": 240, "width": 180, "height": 50,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "✓ 环境泛化\n已实现",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "✓ 环境泛化\n已实现",
+      "lineHeight": 1.25, "baseline": 45
+    },
+    {
+      "id": "step3", "type": "rectangle", "x": 500, "y": 120, "width": 220, "height": 80,
+      "angle": 0, "strokeColor": "#c92a2a", "backgroundColor": "#ffc9c9",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 5, "version": 1, "versionNonce": 5,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "step3-t", "type": "text", "x": 520, "y": 140, "width": 180, "height": 50,
+      "angle": 0, "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "✗ 任务泛化\n还没看见",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "✗ 任务泛化\n还没看见",
+      "lineHeight": 1.25, "baseline": 45
+    },
+    {
+      "id": "key", "type": "text", "x": 480, "y": 50, "width": 280, "height": 50,
+      "angle": 0, "strokeColor": "#7048e8", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 7, "version": 1, "versionNonce": 7,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1,
+      "text": "🔑 这是机器人\n数据钥匙",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "🔑 这是机器人\n数据钥匙",
+      "lineHeight": 1.25, "baseline": 45
+    },
+    {
+      "id": "step", "type": "line", "x": 60, "y": 420, "width": 660, "height": 0,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "dashed",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 8, "version": 1, "versionNonce": 8,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "points": [[0, 0], [660, 0]]
+    },
+    {
+      "id": "yaxis-t", "type": "text", "x": 20, "y": 180, "width": 30, "height": 120,
+      "angle": 0, "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 9, "version": 1, "versionNonce": 9,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1,
+      "text": "难度\n↑",
+      "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "难度\n↑",
+      "lineHeight": 1.25, "baseline": 35
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

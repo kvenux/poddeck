@@ -1,0 +1,33 @@
+id: Xj6W71Gt1-w
+source: guigu101
+category: ai-tech
+title: '探展CES 2026：与吉利聊聊开始"读懂"世界的汽车，与Physical AI的"GPT时刻"【赞助】'
+guest: "陈茜 · 李传海"
+guest_role: "硅谷101 联合创始人 · 吉利汽车集团 CTO"
+published: 2026-01
+duration: "≈ 25 min"
+url: https://youtube.com/watch?v=Xj6W71Gt1-w
+thumbnail: https://img.youtube.com/vi/Xj6W71Gt1-w/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - robotics
+  - ai-products
+  - walkthrough
+  - strategic
+  - technical
+summary: |
+  硅谷101 陈茜在 CES 2026 现场探展，以 Physical AI 为主线串起 NVIDIA Alpamayo、宝马 Alexa+、博世/LG 智能座舱等西方阵营动作，
+  随后深度解剖吉利全域 AI 2.0 与 WAM 世界行为模型如何把"单点智能"升级到"整体涌现"——并通过"上天入地"的生态布局
+  （算力 23.5 EFlops、低轨卫星 64 颗、龙鹰一号 7nm 芯片、曹操 Robotaxi、沃飞长空 eVTOL、千里科技机器人 RLBench 90%）
+  论证为什么吉利 CTO 李传海会说"吉利想要做中国的特斯拉"，以及全球车业为何分裂成"代码速度"与"新型制造"两个平行世界。
+core_ideas:
+  - Physical AI 是 CES 2026 最重要的关键词，汽车是最直接的落地场景——从"看见世界"到"真正理解世界"的跃迁
+  - 吉利首发 WAM 世界行为模型，由 MLLM 决策大脑 / Action Expert 执行小脑 / World Model 预测模拟器 / 价值函数评价官四角色协同
+  - 生态闭环的运行逻辑：传感器 → 端侧算力 → 架构 → 数据中心 → 卫星 → 具身智能，让车从硬件产品变成"出行智慧生命体"
+  - 数据量决定模型上限——特斯拉 2025 全年 163.6 万 vs 吉利 302 万（其中 NEV 168.8 万），吉利训练数据已经反超
+  - '上天入地的物理底座——算力大联盟 23.5 EFlops 居中国车企第一、吉利星座 64 颗卫星完成组网'
+  - 车是"轮式机器人"——研究机器人和训练自动驾驶底层技术相通，布局机器人是"为下一个时代买门票"
+  - 全球汽车业分流：中国"速度与智能化" vs 欧美"品牌与工程深度"，奔驰宝马深陷康威定律；吉利的"双栖"特质或是它最大筹码
+base: /episodes/Xj6W71Gt1-w/

@@ -1,0 +1,113 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "max-box", "type": "rectangle", "x": 60, "y": 80, "width": 220, "height": 130, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "max-label", "type": "text", "x": 80, "y": 100, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "MAX\n2018\n卖不出好价钱",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "MAX\n2018\n卖不出好价钱", "lineHeight": 1.25, "baseline": 75
+    },
+    {
+      "id": "adjust-box", "type": "rectangle", "x": 320, "y": 80, "width": 220, "height": 130, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "adjust-label", "type": "text", "x": 340, "y": 100, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "Adjust\n2021 / $10亿\n效果说不清",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Adjust\n2021 / $10亿\n效果说不清", "lineHeight": 1.25, "baseline": 75
+    },
+    {
+      "id": "mopub-box", "type": "rectangle", "x": 580, "y": 80, "width": 220, "height": 130, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "mopub-label", "type": "text", "x": 600, "y": 100, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "MoPub\n2022 / $10.5亿\n规模不够大",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "MoPub\n2022 / $10.5亿\n规模不够大", "lineHeight": 1.25, "baseline": 75
+    },
+    {
+      "id": "arrow1", "type": "arrow", "x": 280, "y": 145, "width": 40, "height": 0, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [40, 0]]
+    },
+    {
+      "id": "arrow2", "type": "arrow", "x": 540, "y": 145, "width": 40, "height": 0, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [40, 0]]
+    },
+    {
+      "id": "axon-box", "type": "rectangle", "x": 280, "y": 320, "width": 300, "height": 110, "angle": 0,
+      "strokeColor": "#862e9c", "backgroundColor": "#eebefa", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "axon-label", "type": "text", "x": 300, "y": 340, "width": 260, "height": 70, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 22, "fontFamily": 1, "text": "AXON 2.0\n2023年4月",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "AXON 2.0\n2023年4月", "lineHeight": 1.25, "baseline": 55
+    },
+    {
+      "id": "arrow3", "type": "arrow", "x": 170, "y": 215, "width": 240, "height": 100, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [240, 100]]
+    },
+    {
+      "id": "arrow4", "type": "arrow", "x": 690, "y": 215, "width": 240, "height": 100, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [-240, 100]]
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

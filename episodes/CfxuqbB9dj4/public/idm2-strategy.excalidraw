@@ -1,0 +1,21 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"title","type":"text","x":180,"y":20,"width":280,"height":36,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"IDM 2.0 三方向","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"IDM 2.0 三方向","lineHeight":1.25,"baseline":24},
+
+    {"id":"b1","type":"rectangle","x":40,"y":100,"width":180,"height":160,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"b1-text","type":"text","x":50,"y":130,"width":160,"height":100,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"自建晶圆厂\n4 年 5 个节点\n1100 亿投资","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"自建晶圆厂\n4 年 5 个节点\n1100 亿投资","lineHeight":1.25,"baseline":20},
+
+    {"id":"b2","type":"rectangle","x":240,"y":100,"width":180,"height":160,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"b2-text","type":"text","x":250,"y":130,"width":160,"height":100,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"开放代工 IFS\n+ 授权 x86\n抢 TSMC 蛋糕","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"开放代工 IFS\n+ 授权 x86\n抢 TSMC 蛋糕","lineHeight":1.25,"baseline":20},
+
+    {"id":"b3","type":"rectangle","x":440,"y":100,"width":180,"height":160,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"#ffc9c9","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"b3-text","type":"text","x":450,"y":130,"width":160,"height":100,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"把自家芯片\n外包给 TSMC\n(N3B)","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"把自家芯片\n外包给 TSMC\n(N3B)","lineHeight":1.25,"baseline":20},
+
+    {"id":"problem","type":"text","x":40,"y":310,"width":580,"height":80,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":8,"version":1,"versionNonce":8,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"问题：客户不信任 + 美国补贴杯水车薪 + 自家芯片性能也没起来","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"问题：客户不信任 + 美国补贴杯水车薪 + 自家芯片性能也没起来","lineHeight":1.25,"baseline":20}
+  ],
+  "appState": {"viewBackgroundColor":"#ffffff","gridSize":null},
+  "files": {}
+}

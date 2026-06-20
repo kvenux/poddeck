@@ -1,0 +1,35 @@
+id: 8pncy425QqQ
+source: guigu101
+title: '"杭州六小龙"首个IPO、空间智能与AI的下一步：对话群核科技创始人黄晓煌'
+guest: "黄晓煌"
+guest_role: "群核科技 / 酷家乐 创始人"
+published: 2026-06
+duration: 50
+url: https://youtube.com/watch?v=8pncy425QqQ
+thumbnail: https://img.youtube.com/vi/8pncy425QqQ/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - robotics
+  - startup
+  - interview
+  - ceo
+  - founder
+  - strategic
+summary: |
+  硅谷 101 陈茜对话"杭州六小龙"首家 IPO 公司 —— 群核科技创始人黄晓煌。
+  从世界模型 / 空间智能 / 具身智能 的概念辨析出发，覆盖空间表征技术选型、
+  中美路线之别、Claude Code 时代的新护城河，以及一段从 NVIDIA CUDA 第一批开发者
+  到 2012 年一年没融到资、被迫包装成家装 O2O 的创业故事。
+core_ideas:
+  - 没有空间智能就不可能实现 AGI —— 它是连接 "认知 → 三维建模 → 行动" 的关键拼图
+  - 用一扇门讲清楚：空间智能识别门把手、具身智能去开门、世界模型预测旁边走动的人
+  - 群核选择 Mesh + 3D 高斯混合表征 —— 兼顾视觉真实与可交互
+  - 中国贴近物理世界 / 美国贴近虚拟世界 —— 群核 vs World Labs 的路线分野
+  - 2012 年第一笔融资靠包装成 "家装 O2O" 才融到 —— 工作履历"英伟达"反而是减分项
+  - ChatGPT 颠覆算法认知：从"更聪明的人写算法" → "数据量越多就越智能"
+  - Claude Code、OpenCode 火了之后，工具不再是壁垒 —— 模型、硬件、数据才是
+  - 收费模式从 SaaS 转向按 Token 按量付费 —— 未来是多硬件终端的世界
+  - 算力分配的内部哲学：营收 10% 拿去买卡，"卡是永远不够的，就看你怎么算经济账"
+  - 拿着 "锤子" 找 "钉子" —— 黄晓煌从英伟达学到的创业方法论
+base: /episodes/8pncy425QqQ/

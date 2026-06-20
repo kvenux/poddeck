@@ -1,0 +1,124 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "r1", "type": "rectangle",
+      "x": 80, "y": 60, "width": 480, "height": 60, "angle": 0,
+      "strokeColor": "#94a3b8", "backgroundColor": "#f1f5f9",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 1, "version": 1, "versionNonce": 1,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "r1t", "type": "text",
+      "x": 100, "y": 75, "width": 440, "height": 30, "angle": 0,
+      "strokeColor": "#334155", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "① 点云 Point Cloud  —— 信息太少",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": null, "originalText": "① 点云 Point Cloud  —— 信息太少",
+      "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "r2", "type": "rectangle",
+      "x": 80, "y": 140, "width": 480, "height": 60, "angle": 0,
+      "strokeColor": "#0891b2", "backgroundColor": "#cffafe",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 3, "version": 1, "versionNonce": 3,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "r2t", "type": "text",
+      "x": 100, "y": 155, "width": 440, "height": 30, "angle": 0,
+      "strokeColor": "#155e75", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "② Mesh —— 抽象、不真实",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": null, "originalText": "② Mesh —— 抽象、不真实",
+      "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "r3", "type": "rectangle",
+      "x": 80, "y": 220, "width": 480, "height": 60, "angle": 0,
+      "strokeColor": "#d97706", "backgroundColor": "#fed7aa",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 5, "version": 1, "versionNonce": 5,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "r3t", "type": "text",
+      "x": 100, "y": 235, "width": 440, "height": 30, "angle": 0,
+      "strokeColor": "#7c2d12", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "③ NeRF —— 性能太慢",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": null, "originalText": "③ NeRF —— 性能太慢",
+      "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "r4", "type": "rectangle",
+      "x": 80, "y": 300, "width": 480, "height": 60, "angle": 0,
+      "strokeColor": "#9333ea", "backgroundColor": "#e9d5ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 7, "version": 1, "versionNonce": 7,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "r4t", "type": "text",
+      "x": 100, "y": 315, "width": 440, "height": 30, "angle": 0,
+      "strokeColor": "#581c87", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 8, "version": 1, "versionNonce": 8,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "④ 3D 高斯 —— 视觉完美、交互弱",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": null, "originalText": "④ 3D 高斯 —— 视觉完美、交互弱",
+      "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "r5", "type": "rectangle",
+      "x": 80, "y": 400, "width": 480, "height": 80, "angle": 0,
+      "strokeColor": "#16a34a", "backgroundColor": "#bbf7d0",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 9, "version": 1, "versionNonce": 9,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "r5t", "type": "text",
+      "x": 100, "y": 415, "width": 440, "height": 50, "angle": 0,
+      "strokeColor": "#14532d", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 10, "version": 1, "versionNonce": 10,
+      "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1,
+      "text": "⑤ 群核现在用 →\nMesh + 3D 高斯 混合",
+      "textAlign": "left", "verticalAlign": "middle",
+      "containerId": null, "originalText": "⑤ 群核现在用 →\nMesh + 3D 高斯 混合",
+      "lineHeight": 1.25, "baseline": 40
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

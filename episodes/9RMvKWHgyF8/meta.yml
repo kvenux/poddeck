@@ -1,0 +1,29 @@
+id: 9RMvKWHgyF8
+source: guigu101
+title: '当机器人学会开可乐：深聊灵巧手的"不可能三角"与六大技术门派｜机器人特辑'
+guest: "TetherIA 团队"
+guest_role: "特斯拉前灵巧手负责人创业团队 / Aero Hand Open 作者"
+published: 2026-06
+duration: ~32 min
+url: https://youtube.com/watch?v=9RMvKWHgyF8
+thumbnail: https://img.youtube.com/vi/9RMvKWHgyF8/maxresdefault.jpg
+status: generated
+category: tech
+tags:
+  - interview
+  - quick-take
+  - technical
+  - robotics
+  - hardware
+  - startup
+summary: |
+  硅谷101 机器人特辑第一期。结论很反直觉：在机器人世界里，开可乐比走路难十倍——控制灵巧手要比控制躯体难上至少十倍。从 Unitree G1（$16k 整机）到 Shadow Robot（$100k+ 一只手）的价格落差出发，节目走访了 TetherIA（特斯拉前灵巧手负责人的创业团队），梳理了灵巧手 40 年技术演进、"性能/成本/可靠性"不可能三角、六大门派路线对比（直驱 / 绳驱 / 液压 / 连杆 / 混合 / 开源），并实测了抓 5mm 螺丝钉、大盒子、可乐瓶、桌面 iPhone 四个 demo。TetherIA Aero Hand Open 用 $300 开源策略试图复刻"Android 之于手机"对垄断市场的颠覆。
+core_ideas:
+  - 灵巧手的控制比整机控制难十倍——人手 27 自由度、29 关节、34 肌肉，且必须主动和外界接触（这正是传统机器人极力避免的）
+  - 不可能三角：性能、低成本、可靠性，只能三选二；Shadow Robot 用 $100k+ 换性能，开源 3D 打印的 DexHand 用功能换成本
+  - 双闭环控制类比大脑+小脑：前馈（视觉/经验预测力量）+ 反馈（触觉/&lt;100ms 反射）；2023 年特斯拉 Optimus Gen 2 捏鸡蛋 demo 正是两者协作
+  - 六大门派各有优劣：直驱（Allegro/XHand 暴力解）、绳驱（Tesla/Shadow/TetherIA 仿生）、液压（Sanctuary AI Phoenix 21 自由度）、连杆（韩国 ILDA 优雅）、混合（折中）、开源（DexHand/ORCA/Aero Open 群狼战术）
+  - 特斯拉绳驱方案根本劣势是欠驱动难精控——需要软件对各模块精准建模才能用
+  - AI 反过来在降低硬件精度要求：传统靠精度堆功能，现在 VLA+Sim2Real+AI 小脑让便宜硬件也能完成复杂任务
+  - TetherIA 的"安卓策略"——$300 开源 + 现成电机，让全世界爱好者成为数据贡献者，与社群共同成长
+base: /episodes/9RMvKWHgyF8/

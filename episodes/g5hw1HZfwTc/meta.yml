@@ -1,0 +1,32 @@
+id: g5hw1HZfwTc
+source: guigu101
+title: '机器人"大脑"60年进化史：基础模型的五代进化与三大闭源流派｜机器人特辑'
+guest: "陈茜 / Dyna Robotics 创始团队"
+guest_role: "硅谷101 主持人 / Dyna 创始人现场访谈"
+published: 2025-12
+duration: ~30 min
+url: https://youtube.com/watch?v=g5hw1HZfwTc
+thumbnail: https://img.youtube.com/vi/g5hw1HZfwTc/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - robotics
+  - hardware
+  - startup
+  - monologue
+  - founder
+  - strategic
+  - technical
+summary: |
+  硅谷101 机器人特辑（闭源篇）：从 1961 年 Unimate 在通用汽车工厂上班，到 2025 年 VLA 横空出世，60 年五代基础模型进化一次性串清。
+  陈茜走访硅谷 Dyna Robotics——成立一年估值 6 亿美元、24 小时叠 700+ 张餐巾 99.4% 成功率的明星公司，听三位华人创始人拆解 VLA 架构、为什么需要"L"、以及"小而精 vs 大而全"的模型哲学。
+  并梳理闭源世界三大流派的路线之争：Tesla / Figure 的全栈整合、Dyna / Skild / Amazon 的垂直突破、NVIDIA / Google / OpenAI / Meta 的生态平台——本质是三种关于"通用性"的不同赌局。
+core_ideas:
+  - 60 年五代进化：编程式 (1961) → SLAM (90s) → 模仿学习 (2015) → 强化学习 (2016) → VLA (2025)，每一代解决前一代的痛，但留下新的坑
+  - 2025 成为"元年"是三件事同时成熟：大语言模型够用 + 算力价格腰斩再腰斩 + 中国硬件供应链成熟
+  - 数据是核心瓶颈——YouTube 有无数叠衣服视频但没人告诉机器人手指关节角度和力量，"真机数据"互联网上根本没有
+  - Tesla 的 FSD 逻辑迁移看似无懈可击，但 embodiment gap（人手和机械手的物理差异）是绕不开的坎，5000 台年初目标到年中暂停生产
+  - Figure AI 的 Helix 用 System 1 + System 2 双系统架构（小脑 + 大脑皮层），单网络控制上半身 35 个自由度，估值不到一年从 26 亿飙到 390 亿
+  - Dyna 的反直觉判断：机器人 Scaling Law 不像语言模型——瓶颈是数据质量而非数量，深度专精积累的"元学习能力"比"大而全"更有效
+  - NVIDIA 的护城河不是 GR00T N1 模型本身，而是"机器人界的 Android"式生态锁定——开源是真开源还是伪开源是下集核心问题
+base: /episodes/g5hw1HZfwTc/

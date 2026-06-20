@@ -1,0 +1,104 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "target", "type": "ellipse", "x": 320, "y": 240, "width": 220, "height": 120, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "target-label", "type": "text", "x": 320, "y": 270, "width": 220, "height": 60, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 22, "fontFamily": 1, "text": "AppLovin\n$200B 市值",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "AppLovin\n$200B 市值", "lineHeight": 1.25, "baseline": 48
+    },
+    {
+      "id": "s1-box", "type": "rectangle", "x": 30, "y": 40, "width": 230, "height": 90, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "#ffc9c9", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s1-label", "type": "text", "x": 40, "y": 55, "width": 210, "height": 60, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 17, "fontFamily": 1, "text": "Culper + Fuzzy Panda\n2025-02-26\nAI 伪装说",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Culper + Fuzzy Panda\n2025-02-26\nAI 伪装说", "lineHeight": 1.25, "baseline": 55
+    },
+    {
+      "id": "s2-box", "type": "rectangle", "x": 600, "y": 40, "width": 230, "height": 90, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "#ffc9c9", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s2-label", "type": "text", "x": 610, "y": 55, "width": 210, "height": 60, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 17, "fontFamily": 1, "text": "Muddy Waters\n增量真实性之问\n归功率仅 1/3",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "Muddy Waters\n增量真实性之问\n归功率仅 1/3", "lineHeight": 1.25, "baseline": 55
+    },
+    {
+      "id": "s3-box", "type": "rectangle", "x": 310, "y": 460, "width": 240, "height": 90, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "#ffc9c9", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 3}, "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "s3-label", "type": "text", "x": 320, "y": 475, "width": 220, "height": 60, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 17, "fontFamily": 1, "text": "CapitalWatch\n东南亚洗钱指控\n后撤回部分",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "CapitalWatch\n东南亚洗钱指控\n后撤回部分", "lineHeight": 1.25, "baseline": 55
+    },
+    {
+      "id": "arr1", "type": "arrow", "x": 240, "y": 140, "width": 110, "height": 100, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [110, 100]]
+    },
+    {
+      "id": "arr2", "type": "arrow", "x": 620, "y": 140, "width": 110, "height": 100, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [-110, 100]]
+    },
+    {
+      "id": "arr3", "type": "arrow", "x": 430, "y": 460, "width": 0, "height": 90, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": {"type": 2}, "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [0, -90]]
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

@@ -1,0 +1,28 @@
+id: bO6xBjIx9JQ
+source: guigu101
+title: '脑机接口大盘点：从科幻到现实，谁在引领这场"读心术"革命?'
+guest: "刘嘉教授"
+guest_role: "Axoft 联合创始人 · 柔性脑机接口材料研究者"
+published: 2026-01
+duration: ~39 min
+url: https://youtube.com/watch?v=bO6xBjIx9JQ
+thumbnail: https://img.youtube.com/vi/bO6xBjIx9JQ/maxresdefault.jpg
+status: generated
+category: science
+tags:
+  - monologue
+  - quick-take
+  - technical
+  - hardware
+  - startup
+  - founder
+summary: |
+  硅谷101 陈茜 2026 年 1 月的一期脑机接口（BCI）行业大盘点。从 Noland Arbaugh 用意念玩《文明 6》讲起，把 Neuralink、Synchron、Paradromics、Blackrock 四家在押的"路线豪赌"和 2025 年涌入的硅谷新秀（Sam Altman 的 Merge Labs、Fred Ehrsam 的 Nudge、Forest Neurotech、SPIRE Therapeutics）一次梳理清楚。穿插的核心专家是 Axoft 联合创始人刘嘉教授——他用"颅骨是音乐厅"的比喻讲清三大技术路线的物理底层，给出"通道数一年半翻一番"的行业摩尔定律，也用"1.3/1000"这个数字提醒大家：Neuralink 也只摸到了大脑表面的千分之一。
+core_ideas:
+  - Neuralink 截至 2025 年完成 13 例人体植入，1 万人在排队；Noland Arbaugh 用意念创下每秒 8 比特的当时世界纪录
+  - 刘嘉的"音乐厅比喻"——颅骨是低通滤镜，40Hz 以上信号全被过滤；非侵入式从物理本质上得不到单个神经元信号
+  - 半侵入式最尴尬——开了颅却不深入，像"买票进了音乐厅却坐在最后一排"
+  - 大脑是豆腐，电极是钢刀——漂移、免疫排异、神经元凋亡是侵入式的真问题；Axoft 用全氟弹性体光刻胶做"天生柔软又坚韧"的新材料
+  - 脑机接口的"摩尔定律"是通道数一年半翻一番；但空间覆盖率只有 1.3/1000，深度只有 3-5 毫米，大脑有 8 厘米厚
+  - 五家公司路线大不同——Neuralink 押人机共生 / Synchron 押血管植入的安全使用 / Paradromics 押 65,536 通道的极致性能 / Blackrock 押 20 年沉淀的稳扎稳打 / 硅谷新秀押非侵入式与超声另辟蹊径
+base: /episodes/bO6xBjIx9JQ/

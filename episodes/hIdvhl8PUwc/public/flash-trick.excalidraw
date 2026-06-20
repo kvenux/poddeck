@@ -1,0 +1,19 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"dram","type":"rectangle","x":80,"y":80,"width":260,"height":140,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"dram-l","type":"text","x":100,"y":110,"width":220,"height":90,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"DRAM (内存)\n\n常用参数 +\n动态加载片段","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"DRAM (内存)\n\n常用参数 +\n动态加载片段","lineHeight":1.25,"baseline":80},
+
+    {"id":"flash","type":"rectangle","x":420,"y":40,"width":320,"height":260,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"flash-l","type":"text","x":440,"y":110,"width":280,"height":120,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":20,"fontFamily":1,"text":"Flash 闪存\n\n固定的大块参数\n常驻这里","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"Flash 闪存\n\n固定的大块参数\n常驻这里","lineHeight":1.25,"baseline":110},
+
+    {"id":"a1","type":"arrow","x":340,"y":150,"width":80,"height":0,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"transparent","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"points":[[0,0],[80,0]],"lastCommittedPoint":null,"startBinding":null,"endBinding":null,"startArrowhead":"arrow","endArrowhead":"arrow"},
+    {"id":"a1-l","type":"text","x":340,"y":160,"width":80,"height":40,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":14,"fontFamily":1,"text":"动态加载\ndynamic load","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"动态加载\ndynamic load","lineHeight":1.25,"baseline":30},
+
+    {"id":"label","type":"text","x":200,"y":340,"width":400,"height":60,"angle":0,"strokeColor":"#666","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"端侧 200亿 MoE 模型\n少量占用内存，少耗电","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"端侧 200亿 MoE 模型\n少量占用内存，少耗电","lineHeight":1.25,"baseline":50}
+  ],
+  "appState": {"viewBackgroundColor": "#ffffff", "gridSize": null},
+  "files": {}
+}

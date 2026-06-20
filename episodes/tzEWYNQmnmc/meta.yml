@@ -1,0 +1,35 @@
+id: tzEWYNQmnmc
+source: guigu101
+title: "AI救活了一家马桶公司，也点燃了存储芯片超级周期"
+guest: "陈茜 + 三星业内人士 + 华尔街投资人 Rob"
+guest_role: "硅谷101 主理人 / 内存行业内部 + 投资人"
+published: 2026-06
+duration: 35
+url: https://youtube.com/watch?v=tzEWYNQmnmc
+thumbnail: https://img.youtube.com/vi/tzEWYNQmnmc/maxresdefault.jpg
+status: generated
+tags:
+  - chips
+  - hardware
+  - ai-products
+  - interview
+  - investor
+  - strategic
+summary: |
+  硅谷101 陈茜对话三星业内人士与华尔街投资人 Rob，系统梳理这一轮"四十年一遇"的
+  存储芯片超级周期：从日本马桶公司 TOTO 因高纯度陶瓷静电吸盘订单排到 2027 而股价飙升，
+  到 DDR4 一年涨 1800%、HBM 单颗比同等重量黄金还贵；解释 HBM-DRAM 的"产能排挤"悖论，
+  Tokyo Electron 不扩产的"小日子"哲学，以及"周期股是否能首次被重新定价为成长股"
+  这个真正决定下一轮估值的问题。
+core_ideas:
+  - TOTO 的隐藏业务（高纯度陶瓷静电吸盘，精度做到头发丝 1/80）证明 AI 浪潮的副作用已蔓延到最意外的角落
+  - 闪迪 2026 CES 上推有法律效力 + 不退预付款的 LTA —— 几十年来从未发生过，存储行业的"画风变了"
+  - HBM 是反向缩放产品：一片晶圆做 HBM3E 12 层只能产普通 DRAM 的 1/3，HBM4 可能恶化到 1/4
+  - '产能排挤效应 —— 越扩 HBM，普通 DRAM 越短缺；2025 Q4 普通 DRAM 利润率反而追平 HBM'
+  - 推理时代是"内存挑战" —— 摩根士丹利测算 1 个 ChatGPT = 226PB HBM + 4.6EB DRAM + 47EB NAND
+  - 内存帕金森定律 —— HBM 一扩容开发者就把它填满，存储永远是下一个瓶颈
+  - 三大供给瓶颈：洁净室不够、Tokyo Electron 等设备商不扩、节点迁移摩擦 —— 远水解不了近渴
+  - 云厂商极度 price insensitive，OEM 没议价权 —— 雷军、克拉克、裴宇都在公开喊痛
+  - 存储厂商反而怕垄断：100% 市场份额 = 100% 需求风险，更愿意三家平衡竞争
+  - 如果这次真的从周期股重定价为成长股 —— 哪怕利润不增长，光是市盈率翻倍就能让股价翻一倍
+base: /episodes/tzEWYNQmnmc/

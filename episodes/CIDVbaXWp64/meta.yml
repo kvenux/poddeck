@@ -1,0 +1,32 @@
+id: CIDVbaXWp64
+source: guigu101
+title: "硅谷看DeepSeek V4：模型大战、Token Efficiency、算力突围与AGI必经之路【硅谷101视频播客】"
+guest: "肖志斌 + Jenny Xiao"
+guest_role: "ZFLOW AI CEO / 前华美半导体协会主席 · Leonis Capital 合伙人 / OpenAI 前研究员"
+published: 2026-06
+duration: 30
+url: https://youtube.com/watch?v=CIDVbaXWp64
+thumbnail: https://img.youtube.com/vi/CIDVbaXWp64/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - chips
+  - ai-products
+  - panel
+  - strategic
+summary: |
+  硅谷101 陈茜对话资深芯片架构师肖志斌与 Leonis Capital 合伙人 Jenny Xiao，
+  从 DeepSeek V4 的工程惊喜与 Token Efficiency 谈起，
+  覆盖架构创新、100 万 token 上下文、昇腾适配、英伟达护城河、
+  开源对美国闭源商业模式的"死亡地带"威胁，以及 Anthropic/OpenAI IPO 的资本市场分化。
+core_ideas:
+  - DeepSeek V4 在 Token Efficiency 上"继续一骑绝尘" —— 工程完成度比单点 benchmark 更重要
+  - 没有效率 AGI 只能是 demo，有了效率 AGI 才能成为真正的产品和基础设施
+  - 架构四件套 —— 混合注意力 + CSA + HCA + mHC + Muon 优化器
+  - V4 支持 100 万 token 上下文，面向 agentic coding 和复杂多步任务
+  - 短期看英伟达不会被取代 —— GPU + 软件栈 + 生态的乘积才是护城河
+  - DeepSeek 为美国闭源基础模型公司划出"死亡地带"，被开源超越则业务价值基本为零
+  - 效率也是智能的一部分 —— 开源是闭源商业模式最大的结构性威胁之一
+  - 公开市场对 Anthropic 的胃口比对 OpenAI 大得多，机构正在 IPO 前抛售 OpenAI
+  - Agentic 时代的赢家定义 —— 用最低成本最稳定地把智能交付给最多开发者和企业
+base: /episodes/CIDVbaXWp64/

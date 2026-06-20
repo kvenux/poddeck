@@ -1,0 +1,31 @@
+id: kjqOsLdvSFg
+source: guigu101
+category: ai-tech
+title: "Physical Intelligence与机器人开源革命：免费大脑背后的四派力量与博弈｜机器人特辑"
+guest: "陈茜（主持）/ 柯丽一鸣（PI）· 王昊（自变量）· Jan Liphardt（OpenMind）"
+guest_role: "《硅谷101》机器人深度解析 + 三位嘉宾的具身智能访谈片段"
+published: 2026-03
+duration: "≈ 30 min"
+url: https://youtube.com/watch?v=kjqOsLdvSFg
+thumbnail: https://img.youtube.com/vi/kjqOsLdvSFg/maxresdefault.jpg
+status: generated
+tags:
+  - robotics
+  - ai-research
+  - hardware
+  - startup
+  - researcher
+  - interview
+  - technical
+  - strategic
+summary: |
+  《硅谷101》机器人特辑的开源篇——把机器人 VLA 开源生态拆成四股力量：学院派（OpenVLA、Octo）、巨头生态派（NVIDIA GR00T、Google Gemini Robotics）、创业 + 中国力量（小米、蚂蚁、自变量、清华、OpenMind 等），以及独立成派的 Physical Intelligence（π₀）。逐一剖析这些模型的技术路线、开源动机和阵营关系，最后回到那个核心问题：估值 56 亿美元的 PI 为什么要把核心模型免费给世界？以及一个 Stanford 教授父亲对这场开源运动最朴素的回答。
+core_ideas:
+  - 70 亿击败 550 亿——OpenVLA 用「两双眼睛 + 一个大脑」的协同架构碾压 Google RT-2-X
+  - 四股力量同台——学院派 / 巨头生态派 / 创业与中国力量 / 技术极致派 PI，路线和动机都不一样
+  - Flow Matching + 50Hz——π₀ 把动作当连续信号而不是 Token，能做折纸、玩扑克、叠衣物
+  - 机器人届的复仇者联盟——Levine、Finn、Hausman、Ichter 同一批人既造了 Google 闭源，又打开了开源
+  - 真假开源——纯开源 / 半开源（π₀ 权重开数据闭）/ 战略开放（GR00T 锁 NVIDIA 生态）是一个光谱
+  - 三层叠加打巨头——Open X-Embodiment 数据 + LeRobot 工具 + Genesis 仿真（一张 RTX 4090 = 49 年训练）
+  - 公平竞赛窗口——机器人领域开源闭源同时起跑，但窗口期不会永远开着
+base: /episodes/kjqOsLdvSFg/

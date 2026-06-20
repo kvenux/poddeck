@@ -1,0 +1,29 @@
+id: 5DMVAqQ-dd8
+source: guigu101
+title: "亲手帮忙装了台量子计算机，量子时代要来了吗？【深度】"
+guest: "Roger"
+guest_role: "前 Caltech 量子计算团队博士、Berkeley 博士后"
+published: 2025-03
+duration: 30
+url: https://youtube.com/watch?v=5DMVAqQ-dd8
+thumbnail: https://img.youtube.com/vi/5DMVAqQ-dd8/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - ai-research
+  - interview
+  - deep-dive
+  - technical
+  - researcher
+summary: |
+  硅谷101 走进硅谷一家量子计算实验室，亲手帮忙装机。围绕谷歌 Willow 的"低于阈值"突破、五家巨头(IBM/Google/Amazon/Nvidia/Microsoft)截然不同的技术路线、加密货币和 AI 受到的冲击，以及最现实的金融与材料应用，给出一个不靠口号、靠路线图的判断:**业内大多数人会认同的实用化时间点是 20 年左右**。
+core_ideas:
+  - Willow 真正的突破不是单纯做大，而是错误率随规模下降——业内称为"低于阈值"，是 1995 年以来量子计算的圣杯
+  - 量子计算的"Transformer 时刻"已到，"量子 GPT 时刻"按 Google / IBM 路线图大约在 2030–2032 年
+  - 五家巨头的量子布局是各自基因的延续:IBM 求稳、谷歌灵活、亚马逊弯道超车、英伟达卖铲子、微软押拓扑
+  - 微软的 Majorana 1 是新路线，但有 2018 年自家论文 2021 年撤稿的历史阴影，仍在被质疑
+  - 现有椭圆曲线加密对这一代量子算法仍是 Quantum Safe，但 Vitalik 和 StarkWare 已经在准备硬分叉与抗量子方案
+  - 真正最早受益的是金融(新加坡金管局直接资助银行)和材料科学(模拟分子系统的天然优势)
+  - 嘉宾的时间判断:"15 年太乐观，30 年太保守，20 年是业内共识"
+base: /episodes/5DMVAqQ-dd8/

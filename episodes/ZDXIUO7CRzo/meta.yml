@@ -1,0 +1,33 @@
+id: ZDXIUO7CRzo
+source: guigu101
+title: "揭秘春晚小品机器人：与松延动力聊对戏、空翻、仿生背后的技术进化｜机器人系列"
+guest: "姜哲源"
+guest_role: "松延动力创始人"
+published: 2026-02
+duration: 30
+url: https://youtube.com/watch?v=ZDXIUO7CRzo
+thumbnail: https://img.youtube.com/vi/ZDXIUO7CRzo/maxresdefault.jpg
+status: generated
+tags:
+  - robotics
+  - hardware
+  - startup
+  - interview
+  - founder
+  - technical
+  - strategic
+  - quick-take
+summary: |
+  陈茜走进松延动力北京办公区，和 1998 年生的创始人姜哲源聊春晚小品里那台 1:1 复刻蔡明的仿生机器人，
+  以及背后的 4 条产品线（Bumi 消费级、N2 高动态、E1 上下肢协同、仿生机器人）。
+  姜哲源对具身智能现状的判断异常清醒：连 BERT 时刻都没到，行业卡在数据上，
+  World Model 不是答案，路径在 1-10 年之间没人答得好。
+core_ideas:
+  - 春晚 30 年首次让机器人进入语言类小品，万分之一失败率都不行
+  - 仿生机器人的核心 dilemma：仿真度 vs 自由度，本次以 32 DOF + 1:1 真人头破局
+  - 恐怖谷是个谷，特别不像、特别像都不恐怖——必须抓"特别像"那一端
+  - good performance = huge compute + huge params + huge data，具身智能"data 铁定不具备"
+  - 行业可能正处于"上古时期"（IBM 牛津词典阶段），连 BERT 都没到
+  - 世界模型不是答案，物理引擎对接触和软体流体的建模是 research level 难题
+  - 路径选择：不当小而美龙头，去挑战"让机器人进家干活"的大问题
+base: /episodes/ZDXIUO7CRzo/

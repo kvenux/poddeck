@@ -1,0 +1,31 @@
+id: hIdvhl8PUwc
+source: guigu101
+title: "库克的离场，苹果新AI权力重构与价值观天平｜WWDC26"
+guest: "陈茜 与 多位投资人 / 创业者"
+guest_role: "硅谷101 主理人；含 Runta 创始人 Guanlan Dai 等"
+published: 2026-06
+duration: ~30 min
+url: https://youtube.com/watch?v=hIdvhl8PUwc
+thumbnail: https://img.youtube.com/vi/hIdvhl8PUwc/maxresdefault.jpg
+status: generated
+category: ai
+tags:
+  - ai-products
+  - strategic
+  - interview
+  - investor
+summary: |
+  WWDC26 现场观察：Tim Cook 最后一次主持，9 月之后 John Ternus 接任 CEO。
+  硅谷101 剖析了 2025 年那场没有库克出席的秘密会议、Apple Intelligence 的诉讼烂摊子，
+  以及由此引发的 AI 权力重构——Giannandrea 出局、Rockwell 接 Siri、Subramanya 从 Google 挖来掌模型。
+  随后逐层拆解五款 AFM 模型、System Orchestrator、App Intents 的"胡萝卜+大棒"，
+  以及苹果与谷歌合作搭建的 Private Cloud Compute 隐私架构与三层硬件信任链。
+core_ideas:
+  - 完美文化在 AI 节奏里失衡——一年憋一个大招的发布模式，撞上每周一个 release 的 AI 时代
+  - 2025 年那场没有库克出席的秘密会议，重新划分了 AI 在苹果内部的归属权
+  - 五款 AFM 模型：端侧 30 亿 + 200 亿 MoE，云端三件套；用闪存承载固定参数让大模型跑在手机上
+  - 模型是苹果自研，但底层用了 Gemini 技术，Cloud Pro 跑在 Google Cloud 的 NVIDIA GPU 上
+  - App Intents 是开发者生态的胡萝卜加大棒——免费 AFM 调用 vs 错过几十亿设备流量
+  - Private Cloud Compute：Apple 软件证明 + Google Titan + Intel TDX + NVIDIA Blackwell CC 的组合信任链
+  - Context is king——苹果与 Google 共同握着的隐藏富矿，但能不能落地仍是未知数
+base: /episodes/hIdvhl8PUwc/

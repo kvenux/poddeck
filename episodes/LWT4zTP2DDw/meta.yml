@@ -1,0 +1,35 @@
+id: LWT4zTP2DDw
+source: guigu101
+title: "深聊GPT-5发布：过度营销的反噬与AI技术突破的困局"
+guest: "陈茜 + 多位 AI 技术专家"
+guest_role: "硅谷101 主持人 + AI 研究者 / 工程师"
+published: 2025-08
+duration: "~30 min"
+url: https://youtube.com/watch?v=LWT4zTP2DDw
+thumbnail: https://img.youtube.com/vi/LWT4zTP2DDw/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-products
+  - ai-research
+  - coding-agents
+  - monologue
+  - researcher
+  - quick-take
+  - strategic
+summary: |
+  硅谷101 陈茜 复盘 GPT-5 发布会的「就这？！」翻车现场——SWE-bench 图表错乱、
+  伯努利效应解错、4o 用户集体抗议——并对谈多位 AI 技术专家解释 GPT-5 的真相：
+  它不是端到端超级大模型，而是路由器拼接方案，业内戏称「GPT-4.99」。Scaling Law
+  确实碰壁，下一步突破要靠 RL + universal verifier、多模态/世界模型、或者跳出
+  Transformer 的 JEPA 等新架构。
+core_ideas:
+  - GPT-4 → GPT-5 是 refinement，不是 step change——和当年 GPT-3 → GPT-4 的「天和地」差距完全没法比
+  - GPT-5 是一个典型的「联合的系统」/ 实时路由器拼接——业内戏称 GPT-4.99
+  - OpenAI 三大商业战场：教育（Chegg/Duolingo）· 医疗（18% GDP）· 编程（vs Claude Code）
+  - SWE-bench 错图 + 伯努利效应解错——博士级 AI 当场翻车
+  - Scaling Law 碰壁的根因：高质量人类生成数据已经耗尽，合成数据救不回来
+  - 模型像海绵：catastrophic forgetting + model plasticity 是物理上的上限
+  - 下一步突破三条路径：RL + universal verifier（AlphaZero-like）· 多模态/世界模型（Genie 3）· JEPA 等非 Transformer 新架构
+  - OpenAI 从「The One」变成了「One」——Sam Altman 营销鬼才的反噬
+base: /episodes/LWT4zTP2DDw/

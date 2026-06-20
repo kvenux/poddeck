@@ -1,0 +1,28 @@
+id: Tzp0EF-sysI
+source: guigu101
+title: "人类会被困在1nm吗？深度解析光刻机与芯片制程的未来【深度】"
+guest: "庞博士 / Evan Tao / Marc Hijink"
+guest_role: "SPIE Fellow / 前 ASML 机械工程师 / ASML 传记作者"
+published: 2026-05
+duration: 2400
+url: https://youtube.com/watch?v=Tzp0EF-sysI
+thumbnail: https://img.youtube.com/vi/Tzp0EF-sysI/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - interview
+  - technical
+  - deep-dive
+summary: |
+  硅谷101 用瑞利判据 CD = K₁·λ/NA 为骨架，把 EUV 光源、蔡司透镜、High-NA / Hyper-NA、计算光刻 OPC / ILT、芯片命名"骗局"、纳米压印、以及 ASML 与美国政府的政治经济史串成一条主线。
+  访谈了 SPIE Fellow 庞博士（ILT 曲线掩膜贡献者）、ASML 前机械工程师 Evan Tao、ASML 传记作者 Marc Hijink。核心判断：光刻机硬件未来 10-25 年不会大变，真正的突破来自 GPU 加持的 AI 算法。
+core_ideas:
+  - 瑞利判据 CD = K₁·λ/NA 是光刻所有进步的统一框架——降 λ、提 NA、优 K₁，三选一。
+  - EUV 光源已用到 600W，目标 1kW，但短期不会换波长——一旦换光源，整条工艺链都要重做，至少用到 2035-2040 年。
+  - High-NA EUV 单价 3.5 亿欧（+75%），光刻效率反而下降——所以英特尔抢先采购，台积电用双重曝光替代方案犹豫到 2024 H2 才下单。
+  - 庞博士的曲线掩膜 ILT 让晶体管布线摆脱"横平竖直"——Imec 评估这项贡献"比从 High-NA 到 Hyper-NA 还大"，相当于提升 3 代。
+  - 你买的"3nm 芯片"实际线宽是二十几纳米——这套乘以 0.7 的命名规则由台积电带头，跟物理尺寸早已脱钩。
+  - ASML 受制于美国，是因为 1999 年 EUV-LLC 项目和 2001 年收购 SVG 时美国政府的扶持——历史伏笔，不是空穴来风。
+  - 真正的天花板不是 1nm，而是商业账本——AI 让 3-4 万美金/颗的 GPU 撑得起下一代光刻机的成本，半导体重新成为朝阳产业。
+base: /episodes/Tzp0EF-sysI/

@@ -1,0 +1,29 @@
+id: VJgIENvy14k
+source: guigu101
+title: "数据中心上太空？新的泡沫，还是下一个金矿？"
+guest: "陈茜 + Ablimit Aili 博士 + Ethan Xu"
+guest_role: "硅谷101主理人 / Nature论文一作 / 前微软能源战略经理"
+published: 2026-02
+duration: 15
+url: https://youtube.com/watch?v=VJgIENvy14k
+thumbnail: https://img.youtube.com/vi/VJgIENvy14k/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - ai-research
+  - monologue
+  - strategic
+summary: |
+  硅谷101 陈茜系统拆解"太空数据中心"赛道：马斯克、贝佐斯、谷歌、英伟达 × Starcloud 都已经下场，
+  而地面 AI 数据中心被电力、散热、用水卡到极限。太空给出的三份厚礼是能源、散热、低延迟，
+  收敛成两条主流路径 ——「在轨边缘计算」和「轨道云数据中心」—— 都还要在监管与成本两面接受严苛考验。
+core_ideas:
+  - 马斯克在达沃斯宣称两年内、最迟三年，太空将成为部署 AI 数据中心成本最低的地方
+  - 谷歌 Suncatcher 计划用 81 颗卫星 + 1 km 集群 + 自由空间光通信，2027 年发射首批原型
+  - 太空三份厚礼：太阳能效率 8-10×、3 K 背景温度让 PUE 逼近 1、光速比光纤快 30%
+  - 英伟达 Starcloud-1 把 H100 + 莎士比亚训练的 NanoGPT 送上天，标志在轨算力进入实践验证阶段
+  - 1 GW 地面数据中心 ≈ $516 亿；同等太空版本仅"发射 + 在轨组装"就 $200-300 亿，整体可能上探到 $千亿
+  - 长期账：用几十年极低运行成本去弥补前期高昂投入 —— 押注未来发射成本可降至每公斤 60 美元甚至 15 美元
+  - 终局可能是"混合算力体系"：地面继续承担主体算力，太空主攻 AI 训练这种能耗大但对延迟不敏感的场景
+base: /episodes/VJgIENvy14k/

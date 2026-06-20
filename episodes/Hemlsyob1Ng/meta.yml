@@ -1,0 +1,29 @@
+id: Hemlsyob1Ng
+source: guigu101
+title: 'CES 2026：探展50个AI项目背后的泡沫、野心与非共识'
+guest: "陈茜"
+guest_role: "硅谷101 主理人 · CES 2026 现场探展"
+published: 2026-01
+duration: ~31 min
+url: https://youtube.com/watch?v=Hemlsyob1Ng
+thumbnail: https://img.youtube.com/vi/Hemlsyob1Ng/maxresdefault.jpg
+status: generated
+category: ai
+tags:
+  - walkthrough
+  - quick-take
+  - ai-products
+  - robotics
+  - hardware
+  - product-lead
+summary: |
+  硅谷101 陈茜在 CES 2026 现场跑了一周，挑战 "50 AI Product Challenge"。从宇树/Sharpa/波士顿动力 Atlas 三家人形机器人路线之争，到 Fuzozo "舔狗/柠檬精" 半年卖 12 万台的陪伴机器人爆发，再到 Waymo/Tensor/英伟达三路角力的自动驾驶、以及 AI 床垫、AI 喂鸟器、Ray-Ban Meta/Rokid 眼镜、Vocci 戒指等智能穿戴。结论：各行各业确实在拥抱 AI、产品力都在变强；但属于 AI 硬件的 iPhone moment 还没到来——"难度不亚于当年发明轮子"。
+core_ideas:
+  - 三家人形机器人三条路线：宇树打价格出货（2025 卖 5500 台）、Sharpa 灵巧手能力打满（22 自由度、$5 万/只）、Atlas 抛弃液压拥抱规模化（已数千台在工厂）
+  - 陪伴机器人是中国公司的天下：Fuzozo "舔狗/柠檬精/懒打工人" 性格设计 + 每日小日记，半年卖 12 万台；去年的明星 Mirumi 一年就显得落寞
+  - 垂直人群成为陪伴赛道新方向：Luka 儿童阅读、Jennie $1500 失智老人、OLLOBOT 智能管家、Aura 服务宠物
+  - 自动驾驶三路角力：Waymo Ojai 准备扩到更多城市、Tensor 堆 100+ 传感器走 L4 私家车、英伟达 2026 Q1 上路测试 / 2027 L4 Robotaxi
+  - 英伟达不止卖芯片：Trinity DGX Spark 三轮车（0-100 km/h 2 秒）、$299 开源机器人、投资 Serve Robotics 送餐（2000 台在街头）
+  - AI 让传统硬件再做一遍：慕思床垫多 5% 深睡、追觅 AI 吹风机/洗衣机、Birdfy AI 喂鸟器在 70 亿美元市场月销百万
+  - iPhone moment 之争：眼镜（Ray-Ban Meta $299、Rokid 智能体商店）vs 戒指（Vocci）—— 陈茜暴论 "耳机甚至假牙的可能性都比眼镜要强"
+base: /episodes/Hemlsyob1Ng/

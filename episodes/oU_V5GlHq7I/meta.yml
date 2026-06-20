@@ -1,0 +1,33 @@
+id: oU_V5GlHq7I
+source: guigu101
+title: "中国机器人的全球化野心、踢馆硅谷，及 Physical AI 的爆发准备：对话魔法原子"
+guest: "顾诗韬 (Polly)"
+guest_role: "魔法原子总裁"
+published: 2026-05
+duration: 4500
+url: https://youtube.com/watch?v=oU_V5GlHq7I
+thumbnail: https://img.youtube.com/vi/oU_V5GlHq7I/maxresdefault.jpg
+status: generated
+tags:
+  - robotics
+  - hardware
+  - startup
+  - strategic
+  - interview
+  - ceo
+summary: |
+  魔法原子把发布会开到 Santa Clara——一家小米铁蛋研发班底起家的中国机器人公司，
+  在硅谷接受硅谷101 2.5 小时访谈。新任总裁顾诗韬讲清楚了中美机器人公司的根本分工、
+  中国"数据燃料"的成本代差，以及为什么真正的对手是华为/小米/特斯拉，而不是另外
+  199 家创业公司——以及为什么 2029-2030 之前的三四年窗口要拿来锤打"能直接 PK
+  10 万名员工"的组织体系能力。
+core_ideas:
+  - 硅谷一家一刀（Agility 工业、Figure/1X/Optimus 家庭、PI/NVIDIA 算法），中国 200 家公司全栈作战
+  - 中国一条有效数据的采集成本，只有美国的 1/5 到 1/10——"数据燃料"是独立优势
+  - 中国公司从第一天就要"自我造血"——人民币 LP 的风险偏好决定了商业模式的紧迫感
+  - 三阶段落地：一阶段半结构化交互 / 二阶段灵巧手操作 / 三阶段家庭与商战
+  - 真正的对手是华为/小米/特斯拉这种系统能力大厂，三阶段比的是品牌、生态、组织
+  - 爆发拐点 2029-2030，留给创业公司的窗口只有三四年——用来锤打能 PK 10 万人的组织体系
+  - 双层解耦 VLA 模型（上层 VLM + 下层 MoE），省掉预训练降低数据需求、缩短交付周期
+  - 5 亿融资春节前已交割，新一轮一个月内再交割，20 亿生态基金启动，2027 年目标 IPO
+base: /episodes/oU_V5GlHq7I/

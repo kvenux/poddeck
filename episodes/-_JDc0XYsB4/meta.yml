@@ -1,0 +1,32 @@
+id: -_JDc0XYsB4
+source: guigu101
+category: ai-tech
+title: "AI云端狂想曲：亚马逊云科技的算力突围、Agent重构与卓越运营"
+guest: "陈茜（主持） · Matt Garman（AWS CEO） · Werner Vogels（AWS CTO）"
+guest_role: "《硅谷101》AWS re:Invent 2025 拉斯维加斯现场报道"
+published: 2025-12
+duration: "≈ 34 min"
+url: https://youtube.com/watch?v=-_JDc0XYsB4
+thumbnail: https://img.youtube.com/vi/-_JDc0XYsB4/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - hardware
+  - chips
+  - coding-agents
+  - ceo
+  - interview
+  - strategic
+  - technical
+summary: |
+  《硅谷101》飞到拉斯维加斯的 AWS re:Invent 2025 现场，把这家全球最大云厂商的"AI 云端狂想曲"拆成四个支点——算力（Trainium2→3→4 与 GB300 双线）、模型（Nova 2 四款 + Bedrock 接入 MiniMax/Kimi）、首创的"开放训练模型"平台 Nova Forge、以及围绕 Agent 的 Bedrock AgentCore 和 Kiro/Security/DevOps 三大虚拟工程师。同时带读者看 Adobe / 康泰纳仕 / Blue Origin / Ocean Cleanup / F1 / NBA 等客户案例，最后落到 CTO Werner Vogels 在第十四年也是最后一年 keynote 上说的那段关于"卓越运营"和"不被看见的价值"的话。
+core_ideas:
+  - 算力路线两条腿走 —— GPU 最佳栖息地 + 自研 Trainium ASIC，OpenAI 380 亿与 Anthropic Project Rainier 50 万芯片同时验证
+  - Trainium3 一次升级 4.4×算力、3.9×带宽、每兆瓦 5× token；Trainium4 路标直接剧透 FP4 6× / HBM 2×
+  - Nova 2 不打"性能冠军"打"性价比 + 生态"——Lite / Pro / Sonic / Omni 四款一次发齐
+  - Nova Forge 解掉"微调浅 / 续训退化 / 从零烧钱"三难，给企业造专属 Novellas
+  - Bedrock AgentCore 把 Policy / Evaluation / Episodic Memory 三件事打包成 Agent 落地基建
+  - Blue Origin 2700 个 Agent 入业务流，BlueGPT 把研发交付速度推到 75% 提升
+  - 投资人视角 —— AWS 是"AI 模型的天猫"，平台属性 > 模型属性
+  - Werner 14 年最后一次 keynote 把"卓越运营"和"不被看见的价值"留给所有 builder
+base: /episodes/-_JDc0XYsB4/

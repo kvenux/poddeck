@@ -1,0 +1,31 @@
+id: eAYx6CHstNw
+source: guigu101
+title: "对话高通：智能体爆发、6G与Physical AI背后的大赢家"
+guest: "徐晧 博士"
+guest_role: "高通公司全球副总裁"
+published: 2026-06
+duration: ~35 min
+url: https://youtube.com/watch?v=eAYx6CHstNw
+thumbnail: https://img.youtube.com/vi/eAYx6CHstNw/maxresdefault.jpg
+status: generated
+category: ai
+tags:
+  - hardware
+  - chips
+  - ai-products
+  - robotics
+  - interview
+  - strategic
+summary: |
+  硅谷101 在"骁友会五周年派对"现场对话高通公司全球副总裁徐晧博士，串起 AI 落地的暗线——
+  从模型蒸馏/量化/LoRA/MoE 把端侧模型缩到 4B 级、到手机 agent 化、再到机器人、汽车、XR 眼镜、AIPC
+  与 6G AI-Native 设计，全景拆解高通"通信 + AI + 机器人"三栖的边缘 AI 布局。
+core_ideas:
+  - AI 的暗线是端侧——同等能力的模型一年内从几百 B 缩到 4B 级
+  - AI 是 new UI，手机的第三代是 agentic 形态：要么整机即智能体，要么 super app 调用一切
+  - 机器人比手机更强调算力 + 低延迟；端侧 + 5G/6G 形成"如果端侧能解决就在端侧解决"的协同
+  - 6G 商用 2029–2030，AI 流量预估占 30–40%，并新增"通感一体化"把无线信号变成 Physical AI 的眼睛
+  - 骁龙数字底盘是业界第一个：双芯片统一调度，让自动驾驶和座舱娱乐共享算力且对用户无感
+  - 眼镜是最难的一块端侧 AI——分离式渲染把耗能事放回手机，AR1 平台支撑"找钥匙"等新用例
+  - AIPC 不是伪命题：coding 是最强商业化用例，本地 + 云端形成 personalized library 的混合方案
+base: /episodes/eAYx6CHstNw/

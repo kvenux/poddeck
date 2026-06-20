@@ -1,0 +1,30 @@
+id: 2PSCnOFkR3U
+source: guigu101
+title: "AI Agent 爆发前的黎明：Manus 不够好，但天快亮了"
+guest: "Nathan Wang · Chaoyang · Keith · Sophie 王可倚"
+guest_role: "AI Agent 开发者 / TensorOpera 联合创始人 / Tiny Fish CEO / 硅谷101 特约研究员"
+published: 2025-03
+duration: 47
+url: https://youtube.com/watch?v=2PSCnOFkR3U
+thumbnail: https://img.youtube.com/vi/2PSCnOFkR3U/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - startup
+  - coding-agents
+  - product-management
+  - interview
+  - strategic
+summary: |
+  借 Manus 爆火与争议这一切口，硅谷101 系统梳理 AI Agent 过去两年的技术发展、当下产品瓶颈与全球生态版图。
+  Nathan Wang 用正确性/可用度/完成度三维度实测 Manus，发现研究/教育 4 分以上但数据分析仅 2.5；
+  Chaoyang 提出"模型/工具/数据/基础设施"四维度框架，并把 AI Agent 演进划成单体→单机多 agent→分布式→AI OS 四代；
+  全美 1.5 万家初创公司在赛跑，但 Adept 已经倒在了黎明前。
+core_ideas:
+  - Manus 是一记叫醒铃：大模型底座已经准备好，应用从业者要做的是完整度高的产品，而不是痴迷于技术底层
+  - '用户阈值概念——超过阈值才是生产力工具，之前都只是 demo'
+  - 嘉宾用乔布斯回应工程师的故事回应"套壳"质疑：从用户体验倒推到技术，而不是反过来
+  - AI Agent 四代演进：Single → 单机 Multi-agent → 分布式 → Agent-Agent 协议 + AI OS
+  - 两个绕不开的瓶颈：可靠性 (Reliability) + 鲁棒性 (Robustness)，多步任务错误率会乘法叠加
+  - 创业建议：不要做通用 agent，垂直深耕（Perplexity 模式）才是当下出路
+base: /episodes/2PSCnOFkR3U/

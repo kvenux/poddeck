@@ -1,0 +1,22 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"l4","type":"rectangle","x":80,"y":50,"width":640,"height":70,"angle":0,"strokeColor":"#862e9c","backgroundColor":"#e5dbff","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l4t","type":"text","x":120,"y":70,"width":560,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"④ 折扣层：合同 · 套餐 · 阶梯优惠","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"④","lineHeight":1.25,"baseline":22},
+
+    {"id":"l3","type":"rectangle","x":80,"y":140,"width":640,"height":70,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l3t","type":"text","x":120,"y":160,"width":560,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"③ 计费层：订阅制 · API 包 · limit + 超量","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"③","lineHeight":1.25,"baseline":22},
+
+    {"id":"l2","type":"rectangle","x":80,"y":230,"width":640,"height":70,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l2t","type":"text","x":120,"y":250,"width":560,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"② 定价层：每个事件值多少钱（可动态）","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"②","lineHeight":1.25,"baseline":22},
+
+    {"id":"l1","type":"rectangle","x":80,"y":320,"width":640,"height":70,"angle":0,"strokeColor":"#e8590c","backgroundColor":"#ffd8a8","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l1t","type":"text","x":120,"y":340,"width":560,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":8,"version":1,"versionNonce":8,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"① 事件层：读/写/思考/命中缓存——只记事件","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"①","lineHeight":1.25,"baseline":22},
+
+    {"id":"note","type":"text","x":80,"y":420,"width":640,"height":25,"angle":0,"strokeColor":"#868e96","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":9,"version":1,"versionNonce":9,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":13,"fontFamily":1,"text":"「发生了什么」和「该怎么收费」彻底拆开","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"note","lineHeight":1.25,"baseline":18}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

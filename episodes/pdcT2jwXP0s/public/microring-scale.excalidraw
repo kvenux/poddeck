@@ -1,0 +1,21 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":140,"y":10,"width":480,"height":30,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":22,"fontFamily":1,"text":"微环谐振器有多小","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"微环谐振器有多小","lineHeight":1.25,"baseline":22},
+
+    {"id":"hair","type":"ellipse","x":120,"y":110,"width":200,"height":200,"angle":0,"strokeColor":"#f59f00","backgroundColor":"#ffec99","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"hairt","type":"text","x":140,"y":190,"width":160,"height":50,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"人头发\n≈ 0.01 mm²","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"人头发\n≈ 0.01 mm²","lineHeight":1.25,"baseline":22},
+
+    {"id":"arrow","type":"arrow","x":340,"y":210,"width":80,"height":0,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":2,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":2},"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"points":[[0,0],[80,0]],"endArrowhead":"arrow"},
+    {"id":"arrowt","type":"text","x":340,"y":170,"width":80,"height":24,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"再小 10×","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"再小 10×","lineHeight":1.25,"baseline":22},
+
+    {"id":"ring","type":"ellipse","x":480,"y":190,"width":40,"height":40,"angle":0,"strokeColor":"#c92a2a","backgroundColor":"#ffa8a8","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"ringt","type":"text","x":430,"y":250,"width":160,"height":50,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"微环谐振器\nMicroring","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"微环谐振器\nMicroring","lineHeight":1.25,"baseline":22},
+
+    {"id":"nano","type":"text","x":120,"y":350,"width":520,"height":50,"angle":0,"strokeColor":"#5f3dc4","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":8,"version":1,"versionNonce":8,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"纳米级误差 → 光的波长就过不去","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"纳米级误差 → 光的波长就过不去","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

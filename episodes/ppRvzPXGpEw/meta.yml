@@ -1,0 +1,29 @@
+id: ppRvzPXGpEw
+source: guigu101
+title: "Token经济学：AI时代的新货币战争"
+guest: "陈茜"
+guest_role: "硅谷101 主持人"
+published: 2026-04
+duration: 1800
+url: https://youtube.com/watch?v=ppRvzPXGpEw
+thumbnail: https://img.youtube.com/vi/ppRvzPXGpEw/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - startup
+  - strategic
+  - monologue
+summary: |
+  从 Meta 的 Claudeonomics 排行榜讲起——硅谷如何把 token 烧成了新的炫富方式。
+  深度梳理 token 三段式定价（Input/Cached/Output = 1:0.1:6）、反直觉的「越贵越便宜」悖论、
+  中国开源模型 50-70 倍价差杀入、OpenRouter 与 Metronome 的中间层生意，
+  以及一个更大的命题：token 正在成为「电力出海」的新形态，重演大宗商品几千年的所有商业模式。
+core_ideas:
+  - Token-maxxing 是硅谷新的炫富方式——Meta 一个月烧掉约 9 亿美元的 token
+  - Token 价格三件套 Input:Cached:Output ≈ 1:0.1:6，但越贵的模型综合成本反而越低
+  - 中美模型价差可达 50-70 倍，SWE-Bench 上 MiniMax M2.5 与 Claude Opus 4.6 只差 0.6 个百分点
+  - OpenRouter 和 Metronome 抓住了 token 时代的中间层机会——聚合 + 计费
+  - Token Arbitrage（套利）正在成型——智能路由器、混合调度、最会调度的系统会赢
+  - 电力出海——没有一度电出境，但电的价值通过 token 完成跨境结算
+  - Token 将成为大宗商品——人类几千年发明的所有商业模式都会在 token 身上重演
+base: /episodes/ppRvzPXGpEw/

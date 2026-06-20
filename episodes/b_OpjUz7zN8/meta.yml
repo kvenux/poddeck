@@ -1,0 +1,33 @@
+id: b_OpjUz7zN8
+source: guigu101
+title: "硅谷视角深聊：DeepSeek的颠覆、冲击、争议和误解【深度】"
+guest: "硅谷101 五人小分队 + 十余位硅谷嘉宾"
+guest_role: "节目策划与采访（主持人陈茜）"
+published: 2025-02
+duration: 60
+url: https://youtube.com/watch?v=b_OpjUz7zN8
+thumbnail: https://img.youtube.com/vi/b_OpjUz7zN8/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - ai-products
+  - chips
+  - hardware
+  - startup
+  - panel
+  - strategic
+  - deep-dive
+summary: |
+  硅谷101 整个春节加班，组成五人小分队，采访了十余位硅谷嘉宾，从五个维度复盘 DeepSeek：
+  V3 / R1-Zero / R1 三发齐发的技术创新（MoE、MLA、GRPO），蒸馏与成本的争议，对
+  OpenAI / Anthropic / Meta / 英伟达 的四种冲击，应用层的"锦上添花 vs 雪中送炭"，
+  以及孵化它的幻方量化与梁文峰其人。
+core_ideas:
+  - V3 的关键词不是"突破"而是 efficiency——MoE 不新，但 DeepSeek 把负载均衡做工程化
+  - '推理成本才是真正改变游戏规则的事，不是被反复传播的 557.6 万美元训练成本'
+  - DeepSeek 没有绕过 CUDA——只是在 PTX 这一层凿了个口子，墙没变低
+  - 对 Anthropic 的打击可能比对 OpenAI 更大：2C 落后、API 被砸价、又没推理模型
+  - 端 AI 边际成本趋近 0，SaaS 时代"硬件 + 订阅"的捆绑逻辑被瓦解
+  - 投资人新共识：纵向 AI 胜于横向 AI，"专才胜于通才"
+  - 幻方八年伏笔 + 28 岁平均年龄纯本土团队 + 老板自己读论文写代码——文化是结果不是装饰
+base: /episodes/b_OpjUz7zN8/

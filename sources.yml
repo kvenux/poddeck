@@ -98,6 +98,16 @@ sources:
     color: "#0f766e"
     description: 生产级 AI / MLOps 访谈，偏 agents、evals、部署、延迟和工程实践
 
+  - id: guigu101
+    name: 硅谷101 Silicon Valley 101
+    channel: https://www.youtube.com/@TheValley101
+    filter_keywords: [AI, 机器人, Physical AI, 大模型, 芯片, Agent, 世界模型, DeepSeek]
+    min_duration: 1800   # 正片多为 30-95min，30min 起以免漏掉
+    min_date: "20260101"
+    cache_limit: 150
+    color: "#db2777"
+    description: 中文科技/AI 深度访谈与产业解析，437k 订阅，覆盖 AI 模型、机器人/Physical AI、半导体、硅谷商业
+
   - id: karpathy
     name: Andrej Karpathy Talks & Interviews
     channel: https://youtube.com/@karpathy

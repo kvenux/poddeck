@@ -1,0 +1,128 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "axis-x", "type": "line", "x": 60, "y": 380, "width": 720, "height": 0, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [720, 0]]
+    },
+    {
+      "id": "axis-y", "type": "line", "x": 60, "y": 380, "width": 0, "height": -300, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "startBinding": null, "endBinding": null, "lastCommittedPoint": null,
+      "startArrowhead": null, "endArrowhead": "arrow", "points": [[0, 0], [0, -300]]
+    },
+    {
+      "id": "bar1", "type": "rectangle", "x": 130, "y": 320, "width": 80, "height": 60, "angle": 0,
+      "strokeColor": "#868e96", "backgroundColor": "#ced4da", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "bar1-label", "type": "text", "x": 130, "y": 395, "width": 80, "height": 30, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "1天",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "1天", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "bar1-top", "type": "text", "x": 130, "y": 285, "width": 80, "height": 30, "angle": 0,
+      "strokeColor": "#868e96", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "行业默认",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "行业默认", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "bar2", "type": "rectangle", "x": 310, "y": 250, "width": 80, "height": 130, "angle": 0,
+      "strokeColor": "#f59f00", "backgroundColor": "#ffec99", "fillStyle": "hachure", "strokeWidth": 2,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "bar2-label", "type": "text", "x": 310, "y": 395, "width": 80, "height": 30, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "7天",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "7天", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "bar2-top", "type": "text", "x": 310, "y": 215, "width": 80, "height": 30, "angle": 0,
+      "strokeColor": "#f59f00", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "偶尔有人",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "偶尔有人", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "bar3", "type": "rectangle", "x": 540, "y": 120, "width": 80, "height": 260, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8", "fillStyle": "hachure", "strokeWidth": 3,
+      "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "bar3-label", "type": "text", "x": 540, "y": 395, "width": 80, "height": 30, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "28天",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "28天", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "bar3-top", "type": "text", "x": 510, "y": 80, "width": 140, "height": 30, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "AppLovin 第一",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "AppLovin 第一", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "ylabel", "type": "text", "x": 5, "y": 200, "width": 60, "height": 30, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "价值",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "价值", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "xlabel", "type": "text", "x": 330, "y": 430, "width": 200, "height": 30, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid", "strokeWidth": 1,
+      "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [], "frameId": null,
+      "roundness": null, "seed": 13, "version": 1, "versionNonce": 13, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "广告优化窗口",
+      "textAlign": "center", "verticalAlign": "middle", "containerId": null,
+      "originalText": "广告优化窗口", "lineHeight": 1.25, "baseline": 22
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

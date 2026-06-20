@@ -51,6 +51,8 @@ export type CategoryId = typeof CATEGORIES[number]['id']
 // are run-plan bookkeeping, not topics; episodes should carry a real topic
 // category in meta.yml instead.
 const CATEGORY_ALIASES: Record<string, CategoryId> = {
+  'ai': 'ai-tech',
+  'tech': 'ai-tech',
   'ai-research': 'ai-tech',
   'ai-products': 'ai-tech',
   'ai-tech-rest': 'ai-tech',
