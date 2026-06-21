@@ -19,14 +19,52 @@ function showToast(msg) {
   toastTimer = setTimeout(() => { toast.value = '' }, 1600)
 }
 
-// 当前可见 slide 的纯文本。GlobalBottom 在 slides 容器外只渲染一次,
+// deck 主标题(去掉 " - Slidev" 后缀,取 "|" 前的主题部分)。
+function deckTopic() {
+  return (document.title || '')
+    .replace(/\s*[-–—]\s*Slidev\s*$/i, '')
+    .split(/[|｜]/)[0]
+    .trim()
+}
+
+// 在句子边界处截断,尽量不切半句。
+function clip(text, max) {
+  text = (text || '').replace(/\s+/g, ' ').trim()
+  if (text.length <= max) return text
+  const slice = text.slice(0, max)
+  const stop = Math.max(
+    slice.lastIndexOf('。'), slice.lastIndexOf('！'), slice.lastIndexOf('？'),
+    slice.lastIndexOf('；'), slice.lastIndexOf('. '),
+  )
+  return stop > max * 0.4 ? slice.slice(0, stop + 1) : slice.trim() + '…'
+}
+
+// 抽取当前页的「标题 + 核心观点」。GlobalBottom 在 slides 容器外只渲染一次,
 // 所以 .slidev-page-N 的 innerText 不含返回/分享按钮等 chrome。
-function currentSlideText() {
-  const el = document.querySelector('.slidev-page-' + currentSlideNo.value)
-  let text = ((el && el.innerText) || document.title || '').replace(/\s+/g, ' ').trim()
-  const MAX = 200
-  if (text.length > MAX) text = text.slice(0, MAX).trim() + '…'
-  return text
+function extractSlide() {
+  const page = document.querySelector('.slidev-page-' + currentSlideNo.value)
+  let heading = ''
+  let body = ''
+  if (page) {
+    const h = page.querySelector('h1, h2')
+    heading = ((h && h.innerText) || '').replace(/\s+/g, ' ').trim()
+    let full = (page.innerText || '').replace(/\s+/g, ' ').trim()
+    if (heading && full.startsWith(heading)) full = full.slice(heading.length).trim()
+    body = full
+  }
+  return { heading, body: clip(body, 140) }
+}
+
+// 组装干净的中文分享文案:【标题】+ 核心观点 + 出处。
+function composeShareText() {
+  const topic = deckTopic()
+  const { heading, body } = extractSlide()
+  const lines = []
+  lines.push(heading ? `【${heading}】` : `《${topic}》`)
+  if (body) lines.push('', body)
+  if (topic && heading && heading !== topic) lines.push('', `—— 摘自《${topic}》· PodDeck`)
+  else lines.push('', '—— via PodDeck')
+  return lines.join('\n')
 }
 
 // 指向当前这一页的链接。用 hash(#slide=N)而非路径,
@@ -67,9 +105,9 @@ async function copyToClipboard(payload) {
 }
 
 async function onShare() {
-  const title = document.title
-  const text = currentSlideText()
+  const text = composeShareText()
   const url = shareUrl()
+  const title = deckTopic() || document.title
   // 手机(粗指针 + 支持 navigator.share):调起系统分享面板
   if (isCoarsePointer() && typeof navigator.share === 'function') {
     try {
@@ -80,8 +118,8 @@ async function onShare() {
       // 其它错误 → 落到剪贴板分支
     }
   }
-  // 桌面:复制「文字 + 链接」
-  const ok = await copyToClipboard(text + '\n\n' + url)
+  // 桌面:复制「标题 + 核心观点 + 链接」
+  const ok = await copyToClipboard(text + '\n' + url)
   showToast(ok ? '已复制到剪贴板' : '复制失败,请手动复制')
 }
 
