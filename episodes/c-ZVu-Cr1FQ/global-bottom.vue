@@ -73,12 +73,16 @@ function shareUrl() {
   return location.origin + import.meta.env.BASE_URL + '#slide=' + currentSlideNo.value
 }
 
-function isCoarsePointer() {
+// 是否真·移动设备(手机)。关键陷阱:触屏笔记本 maxTouchPoints>0 但不是手机,
+// 不能只看触点,否则桌面也会被误判、弹出系统分享面板。
+// 优先用 Client Hints 的 userAgentData.mobile(桌面恒为 false,不受触屏影响),
+// 回退到 UA 关键字。
+function isMobile() {
   try {
-    return window.matchMedia('(pointer: coarse)').matches || (navigator.maxTouchPoints || 0) > 0
-  } catch (e) {
-    return false
-  }
+    const uad = navigator.userAgentData
+    if (uad && typeof uad.mobile === 'boolean') return uad.mobile
+  } catch (e) { /* ignore */ }
+  return /Android|iPhone|iPod|iPad|Windows Phone|Mobile/i.test(navigator.userAgent || '')
 }
 
 async function copyToClipboard(payload) {
@@ -108,8 +112,8 @@ async function onShare() {
   const text = composeShareText()
   const url = shareUrl()
   const title = deckTopic() || document.title
-  // 手机(粗指针 + 支持 navigator.share):调起系统分享面板
-  if (isCoarsePointer() && typeof navigator.share === 'function') {
+  // 仅真·手机调起系统分享面板;桌面(含触屏笔记本)一律走剪贴板
+  if (isMobile() && typeof navigator.share === 'function') {
     try {
       await navigator.share({ title, text, url })
       return
