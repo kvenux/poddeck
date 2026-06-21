@@ -13,6 +13,7 @@
     "auto:update": "tsx scripts/auto-update.ts",
     "analyze": "tsx scripts/analyze-scan.ts",
     "sync": "echo 'TODO: P4'",
+    "sync:global-bottom": "tsx scripts/sync-global-bottom.ts",
     "build": "tsx scripts/build-all.ts",
     "preview": "npx serve dist -p 4173",
     "dev:landing": "echo 'TODO: P4'",
