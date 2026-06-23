@@ -32,6 +32,9 @@ export interface EpisodeMeta {
   core_ideas?: string[]
   base?: string
   category?: string
+  // Precise upload date (YYYY-MM-DD) sourced from data/plans/*.yml upload_date.
+  // `published` is month-granularity and only used for display; this drives sorting.
+  uploadDate?: string
 }
 
 // Category definitions with display order
@@ -83,15 +86,32 @@ export function loadSources(): Source[] {
   return sources
 }
 
-// Build a map of episode id → category from data/plans/*.yml
-function loadCategoryMap(): Record<string, string> {
+// yt-dlp upload_date is YYYYMMDD → normalize to YYYY-MM-DD for display/compare.
+function normalizeUploadDate(raw?: string | number): string | undefined {
+  if (raw == null) return undefined
+  const s = String(raw)
+  return /^\d{8}$/.test(s) ? `${s.slice(0, 4)}-${s.slice(4, 6)}-${s.slice(6, 8)}` : undefined
+}
+
+interface PlanInfo {
+  category?: string
+  uploadDate?: string
+}
+
+// Build a map of episode id → { category, uploadDate } from data/plans/*.yml.
+// The plan files carry the authoritative yt-dlp upload_date (day precision),
+// which meta.yml's month-granularity `published` cannot match.
+function loadPlanInfo(): Record<string, PlanInfo> {
   const plansDir = resolve(PROJECT_ROOT, 'data/plans')
-  const map: Record<string, string> = {}
+  const map: Record<string, PlanInfo> = {}
   if (!existsSync(plansDir)) return map
   for (const f of readdirSync(plansDir).filter(f => f.endsWith('.yml'))) {
-    const plan = readYaml<{ episodes?: { id: string; category?: string }[] }>(join(plansDir, f))
+    const plan = readYaml<{ episodes?: { id: string; category?: string; upload_date?: string | number }[] }>(join(plansDir, f))
     for (const ep of plan.episodes || []) {
-      if (ep.category) map[ep.id] = ep.category
+      const info = map[ep.id] || (map[ep.id] = {})
+      if (ep.category) info.category = ep.category
+      const up = normalizeUploadDate(ep.upload_date)
+      if (up) info.uploadDate = up
     }
   }
   return map
@@ -100,7 +120,7 @@ function loadCategoryMap(): Record<string, string> {
 export function loadEpisodes(): EpisodeWithSource[] {
   const sources = loadSources()
   const sourceMap = Object.fromEntries(sources.map(s => [s.id, s]))
-  const categoryMap = loadCategoryMap()
+  const planInfo = loadPlanInfo()
 
   // Prefer per-episode meta.yml (has richest info). Fall back to episodes.yml.
   const episodesDir = resolve(PROJECT_ROOT, 'episodes')
@@ -115,8 +135,11 @@ export function loadEpisodes(): EpisodeWithSource[] {
       const metaPath = join(epDir, 'meta.yml')
       if (!existsSync(metaPath)) continue
       const meta = readYaml<EpisodeMeta>(metaPath)
+      const plan = planInfo[meta.id]
       meta.base = meta.base || `/episodes/${meta.id}/`
-      meta.category = normalizeCategory(meta.category || categoryMap[meta.id])
+      meta.category = normalizeCategory(meta.category || plan?.category)
+      // Prefer the plan's day-precision upload_date; fall back to meta.published.
+      meta.uploadDate = plan?.uploadDate || meta.published
       const sourceRef = sourceMap[meta.source]
       if (!sourceRef) continue
       results.push({ ...meta, sourceRef })
@@ -133,9 +156,12 @@ export function loadEpisodes(): EpisodeWithSource[] {
     if (seenIds.has(ep.id)) continue
     const sourceRef = sourceMap[ep.source]
     if (!sourceRef) continue
+    const plan = planInfo[ep.id]
     results.push({
       ...ep,
       base: ep.base || `/episodes/${ep.id}/`,
+      category: normalizeCategory(ep.category || plan?.category),
+      uploadDate: plan?.uploadDate || ep.published,
       sourceRef,
       thumbnail: ep.thumbnail || `https://img.youtube.com/vi/${ep.id}/hqdefault.jpg`,
     })
@@ -158,8 +184,13 @@ export function loadEpisodes(): EpisodeWithSource[] {
     const ca = catOrder[a.category ?? ''] ?? 99
     const cb = catOrder[b.category ?? ''] ?? 99
     if (ca !== cb) return ca - cb
-    // Within same category, sort by published date descending (newest first)
-    return (b.published ?? '').localeCompare(a.published ?? '')
+    // Within same category, sort by upload date descending (newest first).
+    // uploadDate is day-precision (YYYY-MM-DD) from the plan; falls back to the
+    // month-granularity `published` when no plan date exists. Both are
+    // lexicographically comparable as ISO-ish strings.
+    const da = a.uploadDate ?? a.published ?? ''
+    const db = b.uploadDate ?? b.published ?? ''
+    return db.localeCompare(da)
   })
 
   return results
