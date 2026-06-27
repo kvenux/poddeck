@@ -2,8 +2,8 @@ source: lennys-podcast
 refreshed_at: 2026-06-02T00:38:29.665Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 11
-done: 4
+total_candidates: 13
+done: 6
 pending: 6
 episodes:
   - id: PoJ1vTdHpks
@@ -87,3 +87,19 @@ episodes:
     status: generated
     priority: 1
     category: update-2026-06-16
+  - id: Ybrl4FYM57c
+    title: What happens after coding is solved? — Fiona Fung (Claude Code & Cowork)
+    duration: 5925
+    upload_date: "20260621"
+    url: https://youtube.com/watch?v=Ybrl4FYM57c
+    status: generated
+    priority: 1
+    category: update-2026-06-27
+  - id: 7eh9C3TUotc
+    title: The hidden pattern behind successful products — Mark Pincus
+    duration: 5963
+    upload_date: "20260614"
+    url: https://youtube.com/watch?v=7eh9C3TUotc
+    status: generated
+    priority: 1
+    category: update-2026-06-27

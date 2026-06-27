@@ -1,0 +1,32 @@
+id: h5dlIPM0X18
+source: latent-space
+category: ai-tech
+title: "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP"
+guest: "Anjney Midha"
+guest_role: "Amp 创始人兼 CEO，前 A16Z 合伙人，Stanford CS183 frontier systems 课讲师"
+published: 2026-06
+duration: 3637
+url: https://youtube.com/watch?v=h5dlIPM0X18
+thumbnail: https://img.youtube.com/vi/h5dlIPM0X18/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - hardware
+  - chips
+  - startup
+  - founder
+  - investor
+  - interview
+  - strategic
+summary: |
+  Anjney Midha 把 Amp 定位成 AI 算力的"独立系统运营商"（ISO）——参照美国电网 PJM Interconnection 的模型，做 pooling、调度，但自己不持有资产。
+  他认为现在很多有钱有算力的 AI lab 仍出不了东西，根因不是技术，是 culture：mission alignment 在快速 scaling 中被稀释，半导体行业沉淀几十年的 iterative bring-up 纪律被 AI 例外论抛弃。
+  全集还覆盖了 Anthropic 起飞的"prepared mind"逻辑、Anthropic 的 21 nos、Net-positive 数据中心的 $0.50 设想、DeepMind 6 个月 embargo 的市场失灵，以及他自己 14 年放不下的副线——end-of-life prediction。
+core_ideas:
+  - "诊断：有钱有 GPU 还不能 ship 的 AI lab，问题在 culture——mission alignment 在 scale 中被稀释，radian metaphor"
+  - "Amp = ISO，类比 PJM Interconnection：不持有资产，靠 pooling 错峰 demand，1.3 GW base load + ~6 GW spike 设计"
+  - "Net-positive 数据中心：$4 → $4.50/hr 中的 $0.50 直接给社区，否则 ~20% 美国新数据中心面临社区阻力"
+  - "Anthropic 起飞不是运气：4 年 paranoia + efficiency 的复利；P0 是 coding，from day one"
+  - "Culture is not a set of beliefs, it's a set of actions——很脆，需要日常 tend；钱太多就没 21 nos 来淬炼 culture"
+  - "Researcher → CEO 的失败模式不是能力，是意愿；VC 把人塞进 box 是普遍盲区"
+base: /episodes/h5dlIPM0X18/

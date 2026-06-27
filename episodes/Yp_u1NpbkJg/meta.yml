@@ -1,0 +1,45 @@
+id: Yp_u1NpbkJg
+source: latent-space
+category: ai-tech
+title: "The Agent Cloud: Databricks' Bet on the Future of AI — Matei Zaharia & Reynold Xin"
+guest: "Matei Zaharia & Reynold Xin"
+guest_role: "Databricks 联合创始人 (CTO / Chief Architect)"
+published: 2026-06
+duration: "1h"
+url: https://youtube.com/watch?v=Yp_u1NpbkJg
+thumbnail: https://img.youtube.com/vi/Yp_u1NpbkJg/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - founder
+  - engineer
+  - technical
+  - strategic
+  - coding-agents
+  - ai-products
+  - startup
+summary: |
+  Databricks 联合创始人 Matei Zaharia 和 Reynold Xin 在 Latent Space 拆解 Data+AI Summit
+  的三大发布：开源的 Agent Cloud（Omnigent）、Postgres-on-Lake 的 Lakebase（LTAP）、
+  以及从零重写的分析引擎 Dream Engine。沿着「为什么开源、为什么不统一引擎只统一存储、
+  为什么 ML 模型选算法比工程师写算法更好」三条主线展开，背后是「过度拟合一两个客户、
+  让工程师直接写原型不要走文档流程」的工程文化。
+core_ideas:
+  - "三大发布：Omnigent（开源 Agent Cloud）/ Lakebase（Postgres on Lakehouse）/ Dream Engine（从零重写的分析引擎）"
+  - "Omnigent 的核心是一个通用 Agent API——把 Claude Code / Codex / Phi / OpenAI SDK 映射到同一个会话/工具/取消接口"
+  - "Reynold 的红灯故事：开车去看医生时手机连笔电、每个红灯靠路边盯 Codex 会话——「我们回到了编程的黑暗时代」"
+  - "周六开源，几天合并 ~400 PR，约一半来自非团队贡献者（K8s 支持、各种云沙箱）"
+  - "开源 vs 服务的判断法：层有网络效应就开源（Spark/Omnigent），运维可靠性是价值就做服务（流式 / Lakehouse）"
+  - "安全是渐变不是 yes/no——「读机密」和「装新 NPM 包」单独都 OK，组合在一个 session 里就要拦"
+  - "成本也是策略：Matei 让代理调试结果花了 500 美元，新设计是会话级累计花费、超阈值弹窗"
+  - "Lakebase = LTAP（不是 HTAP）：不统一引擎，只统一存储——Postgres 直接以列式写到 lake，无需 CDC"
+  - "CDC 是「持续数据损坏」（Continuous Data Corruption）：keynote 现场只两个人举手说喜欢自己的 CDC 管道"
+  - "Lakebase 没设计文档——工程师直接写了原型，用存储集群的空闲 CPU 做行→列转码，压缩后写入反而更快"
+  - "Dream Engine 是用十年 query trace（千万亿数据点）训练 ML 模型来选算法，不是工程师查论文"
+  - "为防第二系统效应，工程师半玩笑要把它叫「流引擎项目」——用联合创始人的名字命名以防被砍"
+  - "和 Snowflake 的分岔：Databricks 从 day one 用开放格式（Parquet→Delta→Iceberg）+ pre-ChatGPT 就是 ML 平台"
+  - "上下游路径：Databricks 从大数据批处理起步往下游做 SQL；Snowflake 从小数据看板起步往上游做 ingest"
+  - "Mosaic 收购后没做通用基础模型——选了走专用子模型路线：文档解析视觉模型，比前沿模型便宜 100 倍且效果更好"
+  - "过度拟合一两个客户的弊端远小于试图面面俱到——Delta Lake 起源就是 17-18 年只给最大客户做"
+  - "Reynold 接 Satya 的「tokens 是新石油」：拥有查询 trace 和表布局让他们能很快重写引擎并确信它对"
+base: /episodes/Yp_u1NpbkJg/

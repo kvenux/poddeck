@@ -1,0 +1,32 @@
+id: j8BAficRjEc
+source: latent-space
+category: ai-tech
+title: "AI Security After Codex and Claude Code — Zico Kolter & Matt Fredrikson, Gray Swan"
+guest: "Zico Kolter & Matt Fredrikson"
+guest_role: "Gray Swan 创始人 / CMU 教授"
+published: 2025-06
+duration: 64
+url: https://youtube.com/watch?v=j8BAficRjEc
+thumbnail: https://img.youtube.com/vi/j8BAficRjEc/maxresdefault.jpg
+status: generated
+tags:
+  - ai-safety
+  - ai-research
+  - coding-agents
+  - startup
+  - interview
+  - researcher
+  - technical
+summary: |
+  Gray Swan 两位 CMU 教授创始人讲他们如何把 AI 安全做成一个独立行业。
+  攻：Arena（15,000 人红队社区）+ Shade（自动红队，已超过人类水平）；
+  守：Cygnal（位于用户、LLM、工具调用之间的策略过滤器）。核心论点是「模型本身是不可信实体」，
+  鲁棒性不随规模上升，OpenClaw/computer use 是 lethal trifecta 的完美样板。
+core_ideas:
+  - 模型是不可信实体——AI 安全不是用 AI 做防御，是给 AI 这个新平台做防御
+  - Shade 自动红队在固定窗口里已经比人类红队找到更多 break
+  - 鲁棒性是独立能力，不随模型 scale 上升；GPQA 强 ≠ 抗注入强
+  - Lethal Trifecta（Simon Willison）：不可信输入 + 私密数据 + 外发能力，三者齐全才有真风险
+  - Cygnal 是专门训出的策略过滤模型，企业可配置自己的规则
+  - Agent 当下还是「带你权限的副本」，下一步是 persona 分身——Zico 的预测
+  - 'Grey Swan 命名故意：prompt-injection 大新闻是可预见的稀有事件，要赶在它发生前布防'

@@ -1,0 +1,32 @@
+id: 7eh9C3TUotc
+source: lennys-podcast
+category: business
+title: "成功产品背后的隐藏模式 | Mark Pincus（Zynga 创始人）"
+guest: "Mark Pincus"
+guest_role: "Zynga 创始人 — Farmville / Words with Friends / Poker / 新书《Life at the Speed of Play》"
+published: 2026-06
+duration: "≈ 100 min"
+url: https://youtube.com/watch?v=7eh9C3TUotc
+thumbnail: https://img.youtube.com/vi/7eh9C3TUotc/maxresdefault.jpg
+status: generated
+tags:
+  - product-management
+  - startup
+  - ai-products
+  - founder
+  - investor
+  - interview
+  - deep-dive
+  - strategic
+summary: |
+  Mark Pincus 在 Zynga 创造了 10 次大游戏发布中的 8 次大爆款，社交产品做了一打绝大多数都跑出来了。他花了 5 年写出《Life at the Speed of Play》，把毕生关于做爆款消费产品的方法论沉淀成一个简单到反创业者本能的框架——Proven · Better · New。这期对谈里他展开了这个框架，并讲透了"为什么本能 95% 是对的、想法 75% 是错的"、"为什么 MVP 是个有毒的概念应该改成 MLP"、"Day 365 retention 和秘密 metric ASN"、"鸡尾酒派对——AI 时代下一个社交产品应该长什么样"，以及他作为 5 个孩子的父亲在 AI 时代到底教孩子什么。
+core_ideas:
+  - Proven · Better · New 框架——精确 copy 已被验证的 + 10/10 用户说 fk yeah 的小改进 + 一个会大概率失败的新点子
+  - 本能 95% 对、想法 75% 错——把本能从想法里剥离，围绕本能测试很多个想法，failure for the right reason
+  - Kill hope before hope kills you——区分 belief 和 hope，MVP 改成 MLP（Maximum Launchable Product）
+  - AI 应该被用作 testing/failure machine，一周测 100 个想法而不是 3 个月做一个错的产品
+  - Day 365 retention 是真护城河，ASN（Active Social Network）是 Zynga 的秘密 leading indicator
+  - 鸡尾酒派对方法论——Claude/GPT 今天是"安静、孤独的派对"，下一波社交产品在那里
+  - Make everyone a CEO + stay close to the metal——管理是让别人在你不在时做对事，但先把"在场"用到极致
+  - CEO 第一守则：be right——在对的水域比有对的船更重要
+base: /episodes/7eh9C3TUotc/

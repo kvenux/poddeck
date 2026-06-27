@@ -1,0 +1,38 @@
+id: 4-sWFytOfRw
+source: latent-space
+title: "The Limits of AI in Science: Why We Need Self-Driving Labs — Joseph Krause, Radical AI"
+guest: "Joseph Krause"
+guest_role: "CEO, Radical AI"
+published: 2026-06
+duration: "1h"
+url: https://youtube.com/watch?v=4-sWFytOfRw
+thumbnail: https://img.youtube.com/vi/4-sWFytOfRw/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - hardware
+  - robotics
+  - startup
+  - ceo
+  - founder
+  - interview
+  - technical
+  - deep-dive
+summary: |
+  Radical AI 的 CEO Joseph Krause 解释为什么材料科学不是 AI for bio——
+  没有 SMILES/SELFIES 那样的字符串能描述一块合金，所以模型再大也 one-shot 不出
+  能装进 iPhone 或飞上 Starship 的新材料。解药是 self-driving lab：让 AI scientist
+  自己跑研究 campaign。Radical 三个月做了 1,200 块合金，对比 DARPA × GE Aerospace
+  的 MACH 项目一年 500 块。Joseph 的反共识结论：材料行业不缺算力，缺实验；
+  在科学里，experiments are the moat, models are not.
+core_ideas:
+  - "没有'材料版 SMILES'——成分 + 供应链 + 微观结构 + 处理工艺 + qualification，没法塞进一个字符串"
+  - "Self-driving lab ≠ 自动化实验室：前者是 Waymo（自己跑 campaign），后者是 hands-free 驾驶"
+  - "材料的真值在实验台上：'In materials, the ground truth is the material itself'"
+  - "三个月 1,200 块合金 vs. 行业基线（DARPA MACH）一年 500 块——量级跳跃"
+  - "Concurrent engineering（借自 SpaceX 的 Charles）：设计产品时同时发明新材料"
+  - "AI scientist 的并行能力：同时读 10 万篇论文 + 看 10 万张 SEM 图，这是人类没有的维度"
+  - "反共识：材料行业不缺算力，缺实验；'In science, models aren't the moat, experiments are.'"
+  - "对中国的回应：不要复制单一实体模式，要打公私合作 + 国家级实验数据 + 私营 SDL 闭环"
+base: /episodes/4-sWFytOfRw/

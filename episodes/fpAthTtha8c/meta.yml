@@ -1,0 +1,31 @@
+id: fpAthTtha8c
+source: latent-space
+category: ai-tech
+title: "OpenAI's Research Playbook: Scaling Laws, Reasoning, Evals, AGI — Mark Chen"
+guest: "Mark Chen"
+guest_role: "OpenAI Chief Research Officer"
+published: 2026-06
+duration: 41
+url: https://youtube.com/watch?v=fpAthTtha8c
+thumbnail: https://img.youtube.com/vi/fpAthTtha8c/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - interview
+  - researcher
+  - technical
+  - strategic
+summary: |
+  Mark Chen 在 Latent Space "cooking series" 一边煮韩式豆腐汤一边讲清楚 OpenAI 的研究路线：
+  scaling laws 在 10 个数量级上没有破，pre-training is dead 是循环出现的伪叙事，evals 行业整体在"裸奔"，
+  reasoning（o1）能上线靠的是 Jakub 和 Ilya 的 conviction 而不是显然的算法红利，
+  3 年路线图的终点是 end-to-end research——模型不仅做实现，还能有 taste。
+core_ideas:
+  - "scaling laws 已经撑过 almost 10 orders of magnitude，pre-training is dead 是几乎每 1-2 年就会重新出现一次的伪叙事"
+  - "RL 真正起飞的地方是 cold hard truth 域（math/CS），创意写作这类两个专家意见会发散的领域很难直接套"
+  - "做 o1 的难点不是算法本身，是说服一家'已经有挣钱的机器'的公司转向——这靠 Jakub、Ilya 等少数人的 conviction"
+  - "OpenAI 三大研究 org：pre-training（世界知识）+ RL（推理）+ alignment/post-training，每个 org 押 3-5 个 bet"
+  - "Evals crisis：SAT/IMO/IOI 全饱和，eval 一旦公开就废，evals team 必须跟 model team 在组织上分离"
+  - "Vibe researcher 已经发生——研究工作正向 orchestration 转移；3 年内目标是 end-to-end research（包含 taste）"
+  - "高风险 bet 是 OpenAI 的 alpha，trader 出身的'期望值哲学'：很多次失败 + 一次 mega hit 就划得来"
+base: /episodes/fpAthTtha8c/

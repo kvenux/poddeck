@@ -1,0 +1,33 @@
+id: Ybrl4FYM57c
+source: lennys-podcast
+category: ai-tech
+title: "What happens after coding is solved? — Fiona Fung (Claude Code & Cowork)"
+guest: "Fiona Fung"
+guest_role: "Anthropic — Claude Code & Co-work Lead"
+published: 2026-06
+duration: 5400
+url: https://youtube.com/watch?v=Ybrl4FYM57c
+thumbnail: https://img.youtube.com/vi/Ybrl4FYM57c/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - product-management
+  - productivity
+  - interview
+  - product-lead
+  - strategic
+summary: |
+  Fiona Fung 带过 Visual Studio、Facebook Marketplace、Meta 智能眼镜，
+  现在在 Anthropic 管 Claude Code 和 Co-work——也就是正在重写"工程师怎么工作"的那个团队。
+  这期对谈讲她如何在工程师人均代码产出 8x 的世界里维持质量、招人、判断 metric、保住团队文化，
+  以及一系列具体落地的做法：常驻 Claude session、routines、bad/sad 框架、JIT planning、
+  pair-wise programming lunch、explicit permission to kill processes。
+core_ideas:
+  - Coding is no longer the bottleneck —— 瓶颈从产出挪到 verification
+  - High agency + high accountability 是 Claude Code 团队文化的双轴
+  - 用一个常驻 Claude Code session 监听所有 repo / Slack / metrics / incidents
+  - 招两种 profile，缺一不可：creative builders + deep systems experts
+  - Bad vs Sad —— 让不同 surface 的质量可以横向比较的简单分类
+  - Latent demand —— 用户在为你跳火圈，那里就是下一个产品
+  - JIT planning + explicit permission to kill processes —— 自己引入的流程也要敢拆
+base: /episodes/Ybrl4FYM57c/

@@ -1,0 +1,28 @@
+id: _xxLW71vT4s
+source: toe
+category: science
+title: "This Physicist May Have Just Solved Quantum Gravity"
+guest: "Neil Turok"
+guest_role: "Edinburgh Higgs Chair / 前 Perimeter 研究所所长"
+published: 2026-06
+duration: 6742
+url: https://youtube.com/watch?v=_xxLW71vT4s
+thumbnail: https://img.youtube.com/vi/_xxLW71vT4s/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  Neil Turok 在这期 Theories of Everything 长访谈里提出：量子引力或许根本不需要弦、额外维度或多元宇宙。
+  他和博士生 Sam Bateman 把 1977 年 Stelle 的二次引力理论，配合一个对玻恩规则的微小推广（让概率定义在 Klein 空间而非希尔伯特空间里），
+  绕过了高阶导数理论的两个 175 年老咒语：奥斯特罗格拉茨基不稳定性和负范数"幽灵态"。
+core_ideas:
+  - 二次引力 + 修改玻恩规则 → 可重整化、渐近自由、概率为正的量子引力
+  - 奥斯特罗格拉茨基"不稳定性"在引力里就是正常的宇宙加速膨胀
+  - 幽灵态不对应负概率——范数本身不可观测，只需在 Klein 空间里重写规则
+  - 弦理论隐含的假设"理论必须在希尔伯特空间"一旦放开，多元宇宙的论证不再成立
+  - CMB 涨落谱看起来就像一个四阶导数场——天空里写着量子引力的签名
+  - Sam Bateman 在博士经费用光的那一刻发现了关键的玻恩规则改写
+base: /episodes/_xxLW71vT4s/

@@ -2,8 +2,8 @@ source: toe
 refreshed_at: 2026-06-02T00:38:29.795Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 1
-done: 0
+total_candidates: 2
+done: 1
 pending: 1
 episodes:
   - id: TgFmA-Qwsek
@@ -14,3 +14,11 @@ episodes:
     status: pending
     priority: 0
     category: ai-tech
+  - id: _xxLW71vT4s
+    title: This Physicist May Have Just Solved Quantum Gravity
+    duration: 6742
+    upload_date: "20260622"
+    url: https://youtube.com/watch?v=_xxLW71vT4s
+    status: generated
+    priority: 1
+    category: update-2026-06-27

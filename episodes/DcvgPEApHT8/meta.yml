@@ -1,0 +1,34 @@
+id: DcvgPEApHT8
+source: latent-space
+category: ai-tech
+title: "Every product of the future will be a living system — Ronak Malde, Trajectory.ai"
+guest: "Ronak Malde"
+guest_role: "Trajectory.ai co-founder"
+published: 2026-06
+duration: 40
+url: https://youtube.com/watch?v=DcvgPEApHT8
+thumbnail: https://img.youtube.com/vi/DcvgPEApHT8/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - ai-research
+  - coding-agents
+  - startup
+  - interview
+  - founder
+  - researcher
+  - quick-take
+  - technical
+  - strategic
+summary: |
+  Ronak Malde 从 Windsurf 一路被 DeepMind 收购，然后掏出收购款回来做 Trajectory.ai——
+  一个押注 continual learning 是下一代 AI 产品形态的平台。访谈里他拆了 SDPO 这个自蒸馏
+  RL 算法、Continuous LoRA 的并发训练栈、以及和 Harvey + Nemotron 3 训出来的法律模型。
+core_ideas:
+  - 当下 AI 是"静态软件"——昨天的模型今天还在犯同样的错，所有的用户纠正都被白白丢掉
+  - Trajectory 把每家公司散落的数据收成一种叫 trajectory 的统一格式，可同时驱动 evals / judges / environments / 训练
+  - SDPO 让 teacher = student 但塞一条 production hint，student 去对 log probs——文字级监督不再压成单一标量
+  - Continuous LoRA 把训练当成操作系统问题：共享 sampling / 训练池，8 个并发 ≈ 3 个串行的 wall-clock
+  - 客户三段式：AI-native (Clay, Harvey, Rogo, Decagon, Mercor) → 科技存量 (Airtable, Notion) → Fortune 500 (Walmart)
+  - 下一步要把 harness / skills / memory 层都拉进同一个续学循环——不止是训模型
+base: /episodes/DcvgPEApHT8/

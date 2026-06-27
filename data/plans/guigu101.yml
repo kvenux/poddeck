@@ -2,8 +2,8 @@ source: guigu101
 refreshed_at: 2026-06-20T00:00:00.000Z
 min_duration: 1800
 min_date: "20220101"
-total_candidates: 70
-done: 38
+total_candidates: 71
+done: 39
 pending: 0
 episodes:
   - id: UBwHVneGiXs
@@ -598,3 +598,11 @@ episodes:
     priority: 1
     category: ai-tech
     note: no CC track (burned-in subs) — needs ASR
+  - id: y2bZdXZBeBc
+    title: AI 时代的"超级高中生"、大学外的第三种可能与中国创新教育｜探访北京探月学校
+    duration: 4680
+    upload_date: "20260626"
+    url: https://youtube.com/watch?v=y2bZdXZBeBc
+    status: generated
+    priority: 1
+    category: update-2026-06-27

@@ -1,0 +1,21 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"id":"t","type":"text","x":180,"y":20,"width":340,"height":34,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":100,"version":1,"versionNonce":100,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":24,"fontFamily":1,"text":"素养本位的三层","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"素养本位的三层","lineHeight":1.25,"baseline":22},
+
+    {"id":"l1","type":"rectangle","x":120,"y":380,"width":460,"height":80,"angle":0,"strokeColor":"#2f9e44","backgroundColor":"#b2f2bb","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":1,"version":1,"versionNonce":1,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l1t","type":"text","x":140,"y":400,"width":420,"height":40,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":2,"version":1,"versionNonce":2,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"第 1 层 · 可迁移素养(批判 / 信息 / 创造)","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"第 1 层 · 可迁移素养(批判 / 信息 / 创造)","lineHeight":1.25,"baseline":22},
+
+    {"id":"l2","type":"rectangle","x":160,"y":260,"width":380,"height":80,"angle":0,"strokeColor":"#1971c2","backgroundColor":"#a5d8ff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":3,"version":1,"versionNonce":3,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l2t","type":"text","x":180,"y":280,"width":340,"height":40,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":4,"version":1,"versionNonce":4,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"第 2 层 · 领域 specific 素养","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"第 2 层 · 领域 specific 素养","lineHeight":1.25,"baseline":22},
+
+    {"id":"l3","type":"rectangle","x":200,"y":140,"width":300,"height":80,"angle":0,"strokeColor":"#5f3dc4","backgroundColor":"#d0bfff","fillStyle":"hachure","strokeWidth":2,"strokeStyle":"solid","roughness":1.5,"opacity":100,"groupIds":[],"frameId":null,"roundness":{"type":3},"seed":5,"version":1,"versionNonce":5,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false},
+    {"id":"l3t","type":"text","x":220,"y":160,"width":260,"height":40,"angle":0,"strokeColor":"#1e1e1e","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":6,"version":1,"versionNonce":6,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":18,"fontFamily":1,"text":"第 3 层 · habits of mind","textAlign":"left","verticalAlign":"middle","containerId":null,"originalText":"第 3 层 · habits of mind","lineHeight":1.25,"baseline":22},
+
+    {"id":"note","type":"text","x":80,"y":490,"width":540,"height":30,"angle":0,"strokeColor":"#666","backgroundColor":"transparent","fillStyle":"solid","strokeWidth":1,"strokeStyle":"solid","roughness":1,"opacity":100,"groupIds":[],"frameId":null,"roundness":null,"seed":7,"version":1,"versionNonce":7,"isDeleted":false,"boundElements":[],"updated":1,"link":null,"locked":false,"fontSize":16,"fontFamily":1,"text":"越往上越难被 AI「蒸馏走」","textAlign":"center","verticalAlign":"middle","containerId":null,"originalText":"越往上越难被 AI「蒸馏走」","lineHeight":1.25,"baseline":22}
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}
