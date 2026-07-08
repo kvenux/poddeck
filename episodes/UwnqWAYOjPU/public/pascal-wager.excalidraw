@@ -1,0 +1,169 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "hdrY", "type": "text",
+      "x": 200, "y": 30, "width": 200, "height": 25, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "AGI arrives?", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "AGI arrives?", "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "yesL", "type": "text",
+      "x": 220, "y": 65, "width": 90, "height": 20, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "YES", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "YES", "lineHeight": 1.25, "baseline": 14
+    },
+    {
+      "id": "noL", "type": "text",
+      "x": 380, "y": 65, "width": 90, "height": 20, "angle": 0,
+      "strokeColor": "#868e96", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "NO", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "NO", "lineHeight": 1.25, "baseline": 14
+    },
+    {
+      "id": "sideY", "type": "text",
+      "x": 20, "y": 130, "width": 170, "height": 40, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "You\nspent big", "textAlign": "right", "verticalAlign": "top",
+      "containerId": null, "originalText": "You spent big", "lineHeight": 1.25, "baseline": 30
+    },
+    {
+      "id": "sideN", "type": "text",
+      "x": 20, "y": 250, "width": 170, "height": 40, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "You\ndidn't", "textAlign": "right", "verticalAlign": "top",
+      "containerId": null, "originalText": "You didn't", "lineHeight": 1.25, "baseline": 30
+    },
+    {
+      "id": "cYY", "type": "rectangle",
+      "x": 200, "y": 100, "width": 140, "height": 100, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "cYYt", "type": "text",
+      "x": 210, "y": 130, "width": 120, "height": 45, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "You win\nthe race", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "You win the race", "lineHeight": 1.25, "baseline": 32
+    },
+    {
+      "id": "cYN", "type": "rectangle",
+      "x": 360, "y": 100, "width": 140, "height": 100, "angle": 0,
+      "strokeColor": "#f08c00", "backgroundColor": "#ffec99",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "cYNt", "type": "text",
+      "x": 370, "y": 130, "width": 120, "height": 45, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "Wasted\ncapex", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "Wasted capex", "lineHeight": 1.25, "baseline": 32
+    },
+    {
+      "id": "cNY", "type": "rectangle",
+      "x": 200, "y": 220, "width": 140, "height": 100, "angle": 0,
+      "strokeColor": "#c92a2a", "backgroundColor": "#ffc9c9",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "cNYt", "type": "text",
+      "x": 210, "y": 250, "width": 120, "height": 45, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "You're a\nloser", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "You're a loser", "lineHeight": 1.25, "baseline": 32
+    },
+    {
+      "id": "cNN", "type": "rectangle",
+      "x": 360, "y": 220, "width": 140, "height": 100, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "#dee2e6",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "cNNt", "type": "text",
+      "x": 370, "y": 250, "width": 120, "height": 45, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 13, "version": 1, "versionNonce": 13, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 15, "fontFamily": 1, "text": "Cash keeps\ncompounding", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "Cash keeps compounding", "lineHeight": 1.25, "baseline": 32
+    },
+    {
+      "id": "concl", "type": "text",
+      "x": 50, "y": 360, "width": 500, "height": 40, "angle": 0,
+      "strokeColor": "#862e9c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 14, "version": 1, "versionNonce": 14, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "→ dominant strategy: spend like crazy", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "→ dominant strategy: spend like crazy", "lineHeight": 1.25, "baseline": 18
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

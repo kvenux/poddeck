@@ -1,0 +1,113 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "gpu", "type": "ellipse",
+      "x": 250, "y": 40, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "gput", "type": "text",
+      "x": 265, "y": 60, "width": 150, "height": 55, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "Main GPUs\nA100/H100/B200", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "Main GPUs", "lineHeight": 1.25, "baseline": 42
+    },
+    {
+      "id": "cpx", "type": "ellipse",
+      "x": 60, "y": 200, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "#ffd8a8",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "cpxt", "type": "text",
+      "x": 75, "y": 220, "width": 150, "height": 55, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "Ruben CPX\nprefill / video", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "Ruben CPX", "lineHeight": 1.25, "baseline": 42
+    },
+    {
+      "id": "groq", "type": "ellipse",
+      "x": 440, "y": 200, "width": 180, "height": 90, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "groqt", "type": "text",
+      "x": 455, "y": 220, "width": 150, "height": 55, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "Groq-style\nlow latency", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "Groq-style", "lineHeight": 1.25, "baseline": 42
+    },
+    {
+      "id": "l1", "type": "line",
+      "x": 340, "y": 130, "width": 0, "height": 60, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "dashed",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0,0],[-150,70]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": null
+    },
+    {
+      "id": "l2", "type": "line",
+      "x": 340, "y": 130, "width": 0, "height": 60, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "dashed",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0,0],[150,70]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null,
+      "startArrowhead": null, "endArrowhead": null
+    },
+    {
+      "id": "cap", "type": "text",
+      "x": 100, "y": 340, "width": 480, "height": 30, "angle": 0,
+      "strokeColor": "#862e9c", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "\"No one ingredient shines above all\"", "textAlign": "center", "verticalAlign": "top",
+      "containerId": null, "originalText": "No one ingredient shines above all", "lineHeight": 1.25, "baseline": 18
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

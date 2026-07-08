@@ -1,0 +1,27 @@
+id: ULi-TCF2cQE
+source: guigu101
+title: '美国AI研究员的中国之旅：年轻人，追赶者，算力焦虑与"AGI展示厅"'
+guest: "Nathan Lambert"
+guest_role: "Ai2 大模型后训练负责人 · Interconnects 作者"
+published: 2026-07
+duration: ~87 min
+url: https://youtube.com/watch?v=ULi-TCF2cQE
+thumbnail: https://img.youtube.com/vi/ULi-TCF2cQE/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - ai-research
+  - researcher
+  - strategic
+  - deep-dive
+summary: |
+  2026 年 4 月，Ai2 后训练负责人 Nathan Lambert 用 6-7 晚跑遍北京、杭州的中国 AI 实验室——阿里巴巴、月之暗面、智谱、美团、清华、小米、蚂蚁百灵、魔搭。这期硅谷 101 的专访是他回美后最完整的一次现场复盘：中国研究员为什么这么年轻、"AGI 展示厅"是什么、开源模型领导权已在 2025 年夏天易手、华为芯片推理可用训练不行、Claude 在中国仍是开发者最爱、以及一个被严重低估的中国短板——数据产业。
+core_ideas:
+  - 中国实验室是"近乎完美的快速跟进者"——传统基准差距 6-9 个月，但发布节奏比美国快得多，用户看到的差距更窄
+  - Nathan"拿枪指着头必答"：Kimi 和智谱是世界上最好的开源模型；2025 年夏天起美国已把开放模型领导权让给中国
+  - 中国大公司(美团/小米/蚂蚁)普遍自己做模型，源于一种"技术所有权心态"——能自己做就尽量自己做，才能掌握长期轨迹
+  - 年轻是结构性优势：Kimi 那篇 Attention Residuals 论文的作者之一是 17 岁高中生；博士生普遍是核心研究员
+  - 算力焦虑是唯一被反复提到的瓶颈：一次预训练 6 个月、传闻 OpenAI 研究员人均 5000 张 GPU；华为芯片推理可用但训练还不行
+  - 中国最被低估的短板是数据产业——美国有 Scale AI/Mercor/Surge 这套市场，中国"我们基本没有这种东西"
+  - Nathan 认为 Dario Amodei 在短期风险上表达得过于激烈；他自己在中美之间希望做"搭桥的人"
+base: /episodes/ULi-TCF2cQE/

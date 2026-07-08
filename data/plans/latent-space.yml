@@ -1,27 +1,18 @@
 source: latent-space
-refreshed_at: 2026-06-02T00:38:29.937Z
+refreshed_at: 2026-07-08T12:20:40.990Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 45
-done: 14
-pending: 28
+total_candidates: 33
+done: 3
+pending: 26
 episodes:
-  - id: jPtQlILfkhA
-    title: "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He"
-    duration: 6282
-    upload_date: "20260601"
-    url: https://youtube.com/watch?v=jPtQlILfkhA
-    status: generated
-    priority: 0
-    category: ai-tech
-  - id: 0fgJPhYcbVk
-    title: "Devin’s 80% Moment: Background Agents, 7x PRs, & End of Hand-Held Coding — Walden Yan & Cole Murray"
-    duration: 4172
-    upload_date: "20260528"
-    url: https://youtube.com/watch?v=0fgJPhYcbVk
-    status: generated
-    priority: 0
-    category: ai-tech
+  - id: YQWXxnkK4dw
+    title: 🔬 "The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation"
+    duration: 6519
+    upload_date: "20260630"
+    url: https://youtube.com/watch?v=YQWXxnkK4dw
+    status: pending
+    priority: 1
   - id: XdevS0GSuiQ
     title: 🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub
     duration: 4212
@@ -114,7 +105,8 @@ episodes:
     duration: 5254
     upload_date: "20260317"
     url: https://youtube.com/watch?v=ZpZ7lFoWaT8
-    status: pending
+    status: generated
+    category: update-2026-07-08
     priority: 1
   - id: nxnQl4AcqFg
     title: "⚡️Monty: the ultrafast Python interpreter by Agents for Agents — Samuel Colvin, Pydantic"
@@ -170,7 +162,8 @@ episodes:
     duration: 3312
     upload_date: "20260226"
     url: https://youtube.com/watch?v=UwnqWAYOjPU
-    status: pending
+    status: generated
+    category: update-2026-07-08
     priority: 1
   - id: V7_Ec2WFAWs
     title: "🔬Max Welling: Materials Underlie Everything"
@@ -184,7 +177,8 @@ episodes:
     duration: 7659
     upload_date: "20260224"
     url: https://youtube.com/watch?v=x9rWFiIubmc
-    status: pending
+    status: generated
+    category: update-2026-07-08
     priority: 1
   - id: p1k7TiAFqdE
     title: Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z
@@ -256,91 +250,3 @@ episodes:
     url: https://youtube.com/watch?v=v5mBjeX4TJ8
     status: pending
     priority: 1
-  - id: cFNI2FORAc0
-    title: Satya Nadella on AI — NoPriors x Latent Space Crossover @ Microsoft Build 2026
-    duration: 2486
-    upload_date: "20260612"
-    url: https://youtube.com/watch?v=cFNI2FORAc0
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: LEwlSyR0cXA
-    title: "GitHub's Agent Era: 14x Commits, 200M Developers, Copilot's Next Act — Kyle Daigle"
-    duration: 5084
-    upload_date: "20260613"
-    url: https://youtube.com/watch?v=LEwlSyR0cXA
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: T8u7wOXhDb0
-    title: When AI Agents Run Businesses — Lukas Petersson & Axel Backlund of Andon Labs
-    duration: 4677
-    upload_date: "20260611"
-    url: https://youtube.com/watch?v=T8u7wOXhDb0
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: abYcV5LHMG4
-    title: Scaling Past Informal AI — Carina Hong, Axiom Math
-    duration: 5584
-    upload_date: "20260609"
-    url: https://youtube.com/watch?v=abYcV5LHMG4
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: -rIAVuaRjOg
-    title: Making DeepSeek v4 outperform Opus 4.7 with Taste — Ahmad Awais, CommandCode.ai
-    duration: 2441
-    upload_date: "20260615"
-    url: https://youtube.com/watch?v=-rIAVuaRjOg
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: Yp_u1NpbkJg
-    title: "The Agent Cloud: Databricks' Bet on the Future of AI — Matei Zaharia & Reynold Xin"
-    duration: 4205
-    upload_date: "20260624"
-    url: https://youtube.com/watch?v=Yp_u1NpbkJg
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: h5dlIPM0X18
-    title: Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP
-    duration: 3637
-    upload_date: "20260618"
-    url: https://youtube.com/watch?v=h5dlIPM0X18
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: fpAthTtha8c
-    title: "OpenAI's Research Playbook: Scaling Laws, Reasoning, Evals, AGI — Mark Chen"
-    duration: 2477
-    upload_date: "20260625"
-    url: https://youtube.com/watch?v=fpAthTtha8c
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: j8BAficRjEc
-    title: AI Security After Codex and Claude Code — Zico Kolter & Matt Fredrikson, Gray Swan
-    duration: 4050
-    upload_date: "20260622"
-    url: https://youtube.com/watch?v=j8BAficRjEc
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: 4-sWFytOfRw
-    title: "The Limits of AI in Science: Why We Need Self-Driving Labs — Joseph Krause, Radical AI"
-    duration: 4610
-    upload_date: "20260617"
-    url: https://youtube.com/watch?v=4-sWFytOfRw
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: DcvgPEApHT8
-    title: Every product of the future will be a living system — Ronak Malde, Trajectory.ai
-    duration: 2038
-    upload_date: "20260621"
-    url: https://youtube.com/watch?v=DcvgPEApHT8
-    status: generated
-    priority: 1
-    category: update-2026-06-27

@@ -1,0 +1,159 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "beijing-box",
+      "type": "rectangle",
+      "x": 60,
+      "y": 60,
+      "width": 320,
+      "height": 260,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1.5,
+      "opacity": 60,
+      "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "beijing-label",
+      "type": "text",
+      "x": 90,
+      "y": 74,
+      "width": 260,
+      "height": 32,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 24, "fontFamily": 1,
+      "text": "北京  3-4 晚",
+      "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "北京  3-4 晚", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "b1", "type": "text", "x": 100, "y": 130, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 阿里 / 千问", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 阿里 / 千问", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "b2", "type": "text", "x": 100, "y": 160, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 月之暗面 Kimi", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 月之暗面 Kimi", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "b3", "type": "text", "x": 100, "y": 190, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 智谱 AI", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 智谱 AI", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "b4", "type": "text", "x": 100, "y": 220, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 美团 · 清华", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 美团 · 清华", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "b5", "type": "text", "x": 100, "y": 250, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 小米园区", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 小米园区", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "arrow-1", "type": "arrow",
+      "x": 380, "y": 190, "width": 130, "height": 100, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [130, 100]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "hangzhou-box",
+      "type": "rectangle",
+      "x": 500,
+      "y": 300,
+      "width": 320,
+      "height": 220,
+      "angle": 0,
+      "strokeColor": "#e8590c",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1.5,
+      "opacity": 60,
+      "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "hangzhou-label",
+      "type": "text", "x": 530, "y": 314, "width": 260, "height": 32, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 24, "fontFamily": 1, "text": "杭州  几晚", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "杭州  几晚", "lineHeight": 1.25, "baseline": 22
+    },
+    {
+      "id": "h1", "type": "text", "x": 540, "y": 370, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 阿里巴巴园区", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 阿里巴巴园区", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "h2", "type": "text", "x": 540, "y": 400, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 蚂蚁百灵", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 蚂蚁百灵", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "h3", "type": "text", "x": 540, "y": 430, "width": 240, "height": 24, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 13, "version": 1, "versionNonce": 13, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "• 魔搭社区", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "• 魔搭社区", "lineHeight": 1.25, "baseline": 17
+    },
+    {
+      "id": "h4", "type": "text", "x": 540, "y": 460, "width": 260, "height": 24, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 14, "version": 1, "versionNonce": 14, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "(DeepSeek 也在杭州, 未拜访)", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "(DeepSeek 也在杭州, 未拜访)", "lineHeight": 1.25, "baseline": 15
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

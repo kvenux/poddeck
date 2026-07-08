@@ -1,0 +1,29 @@
+id: ZpZ7lFoWaT8
+source: latent-space
+title: "Anthropic Felix Rieseberg on AI Coworkers, Local-First Agents, and the Future of Knowledge Work"
+guest: "Felix Rieseberg"
+guest_role: "Anthropic Codework · Electron 原作者"
+published: 2026-03
+duration: 5254
+url: https://youtube.com/watch?v=ZpZ7lFoWaT8
+thumbnail: https://img.youtube.com/vi/ZpZ7lFoWaT8/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - productivity
+  - product-lead
+  - engineer
+  - interview
+  - deep-dive
+  - strategic
+summary: |
+  Anthropic Codework 团队 PM Felix Rieseberg 上 Latent Space。核心押注很反直觉:硅谷低估了本地电脑,Claude 应该住在你自己的机器上,而不是搬去云端。围绕这条主线,他讲了 skills 起源、VM 沙箱、模型 overhang、junior 就业焦虑,以及 Electron 之父为什么至今相信 Chromium 是"真正的操作系统"。
+core_ideas:
+  - Silicon Valley 低估了本地电脑 —— MacBook 而不是 Chromebook 才是主流,是有理由的
+  - Codework = Claude Code + 轻量 Linux VM + 更多 guardrails,给不想开终端的人
+  - Anthropic 的新工作方式:execution is cheap,直接把候选方案都 ship 出来对比
+  - Skills 起源于 Barry 想连数据仓库时的一个 markdown 文件 —— 上层抽象吃掉了 MCP
+  - Approval 每一步不等于自动化,Swiss cheese sandbox 才是中间路
+  - Anthropic 对 junior 就业市场"deeply worried",Waterloo co-op 是可行模板
+base: /episodes/ZpZ7lFoWaT8/

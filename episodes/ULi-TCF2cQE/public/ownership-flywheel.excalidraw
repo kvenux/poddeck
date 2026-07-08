@@ -1,0 +1,130 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "center", "type": "ellipse",
+      "x": 340, "y": 240, "width": 220, "height": 120, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "roundness": null,
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "center-label", "type": "text",
+      "x": 360, "y": 275, "width": 180, "height": 50, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "自己做模型", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "自己做模型", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "n1", "type": "rectangle",
+      "x": 50, "y": 60, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "n1-label", "type": "text",
+      "x": 60, "y": 78, "width": 200, "height": 50, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "1. 用户 + 生态\n(支付宝/美团app)", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "1. 用户 + 生态\n(支付宝/美团app)", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "n2", "type": "rectangle",
+      "x": 630, "y": 60, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "n2-label", "type": "text",
+      "x": 640, "y": 78, "width": 200, "height": 50, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "2. 算力 + 人才\n(阿里云/内部)", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "2. 算力 + 人才\n(阿里云/内部)", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "n3", "type": "rectangle",
+      "x": 630, "y": 460, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "n3-label", "type": "text",
+      "x": 640, "y": 478, "width": 200, "height": 50, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "3. 内部agent\n+ 专用模型微调", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "3. 内部agent\n+ 专用模型微调", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "n4", "type": "rectangle",
+      "x": 50, "y": 460, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "#a5d8ff", "fillStyle": "hachure",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "roundness": {"type": 3},
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "n4-label", "type": "text",
+      "x": 60, "y": 478, "width": 200, "height": 50, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "4. 产品变强\n更多用户 + 数据", "textAlign": "center", "verticalAlign": "middle",
+      "containerId": null, "originalText": "4. 产品变强\n更多用户 + 数据", "lineHeight": 1.25, "baseline": 40
+    },
+    {
+      "id": "a1", "type": "arrow",
+      "x": 270, "y": 100, "width": 80, "height": 120, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [80, 120]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "a2", "type": "arrow",
+      "x": 630, "y": 100, "width": -80, "height": 120, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 12, "version": 1, "versionNonce": 12, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [-80, 120]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "a3", "type": "arrow",
+      "x": 560, "y": 380, "width": 80, "height": 100, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 13, "version": 1, "versionNonce": 13, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [80, 100]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "a4", "type": "arrow",
+      "x": 340, "y": 380, "width": -80, "height": 100, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 14, "version": 1, "versionNonce": 14, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [-80, 100]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

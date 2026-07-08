@@ -1,0 +1,30 @@
+id: UwnqWAYOjPU
+source: latent-space
+title: "Dylan Patel Explains the AI War While Cooking | In-Context Cooking"
+guest: "Dylan Patel"
+guest_role: "SemiAnalysis Founder & CEO"
+published: 2026-02
+duration: 3312
+url: https://youtube.com/watch?v=UwnqWAYOjPU
+thumbnail: https://img.youtube.com/vi/UwnqWAYOjPU/maxresdefault.jpg
+status: generated
+tags:
+  - chips
+  - hardware
+  - ai-products
+  - interview
+  - ceo
+  - strategic
+  - quick-take
+summary: |
+  一集在做鸡肉炒饭的过程中同时讲清楚 AI 产业格局的访谈。Dylan Patel 从台海终局的四种情境
+  讲到出口管制的两派逻辑，从 Anthropic 一个月加 $2-3B 收入讲到 hyperscaler 的 Pascal
+  赌局，从 Jensen 的偏执讲到瓶颈从 CoWoS→数据中心→电力→又回到晶圆厂的迁移路径。
+core_ideas:
+  - 台海最有趣的美国立场是希望 KMT 上台——中国被政治安抚，但 TSMC 依然受美国银行与设备体系管辖
+  - Kimi K2.5 与 Codex 差距不是数量级而是几个百分点，管制"够不够"是 Dario 与 Sacks 的核心分歧
+  - Claude Code 一个月内从 2% 涨到 4% GitHub commits，全部 AI 编码工具估算已占 10% 以上
+  - Hyperscaler 的博弈是 Pascal's wager——不需要相信 AGI，只要担心别人赌对了就必须一起赌
+  - Nvidia 的宿命是护城河越来越浅，只能靠偏执与异构（GPU + CPX + Groq）拖住垂直整合的竞争者
+  - 半导体瓶颈按年迁移，2026-28 又回到晶圆厂，这堵墙至少要撑到十年末
+base: /episodes/UwnqWAYOjPU/

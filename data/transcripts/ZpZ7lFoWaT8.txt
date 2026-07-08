@@ -1,0 +1,2864 @@
+This is maybe where I hold like a
+somewhat contrarian view to a lot of
+people in the eye. I actually don't
+think that the future is going to be
+hyper personalized software down to the
+point where everyone is running their
+own version. Like I actually think it's
+going to be quite helpful on the bus to
+have our own internal chat tool. Silicon
+Valley overall is under valuing the
+local computer. And my default argument
+for that is always, how come we're all
+using MacBooks and not like an iPad or a
+Chromebook? And now when I think about
+Claude, it's this entity that is
+supposed to be very useful to you. Like
+it tremendously useful to you. I think
+that entity needs to have access to all
+the same tools you have access to.
+Otherwise, it's going to be hamstrung
+like all these complex ways.
+>> [music]
+>> Hey everyone, welcome to the Latent
+Space podcast. Our first one in the new
+studio at Kernel Loop. Uh this is
+Alessio, founder of Kernel Labs, and I'm
+joined by Sweeks, editor of Latent
+Space.
+>> Yeah, so nice to be here. Thanks to uh
+TJ, Alessio, and Alan helping to set
+everything up. It looks beautiful. We
+even have the logo outside. Yeah, that's
+good and thanks. It's like really nice.
+>> [laughter]
+>> When you walk in here as a guest, you're
+like, "Oh, this is a serious
+production." You're like feel it
+immediately. Yeah. Felix, you've been
+you're you're currently product manager
+of Covalent or Uh every year we change
+titles. And yeah,
+the the identities are kind of vague.
+Member of technical staff. I know.
+Member of technical staff is like the
+official title we'll carry around
+forever. Yeah. I recently kind of wanted
+like we've been
+I kind of obsessed I I've been using it
+a lot even for managing Latent Space.
+Like uh Covalent helps me upload videos
+and like title things and like edit and
+everything. It's it's like really
+amazing. Cool. He said multiple times
+Covalent is AGI in the group chat. Yeah
+yeah yeah. So so we have a second uh we
+have a second channel uh for Latent
+Space TV.
+Uh and I uh
+and uh we basically this is our Discord
+meetup. Um and I I we have like Claude
+Covalent is might be AGI. I don't know
+if we we have uploaded it yet, but one
+of the sessions was like a like a Claude
+Covalent thing. I love to see I would to
+see it. Like I'm so curious. Like one of
+the most fun parts of my job is to like
+constantly see the weird things people
+use Cocalc for because it's obviously
+like very hard for us to actually
+design for specific use cases. We do,
+but like every single person who's like
+most amazed is usually amazed about a
+thing that I didn't even expect Cocalc
+would be good at. Um we have a new
+designer, and it's one of the first
+small tasks. I was like, "Hey, we need
+like a new emoji for Cocalc for our
+internal Slack." It's like a pretty
+small thing. I was like, "Can you please
+do it?" And he drew an SVG and just gave
+it to Cocalc. I was like, "Can you make
+this emoji?"
+And now it has like this beautiful loopy
+animation.
+Um and I mean, I think obviously this
+goes down to like a ton of stuff you can
+do more things with code than you
+expected. But, it is like
+that kind of stuff that is really fun to
+me. So, long story short, I would love
+to see like the kind of things you're
+doing. I'll pull it up. I'll pull it up.
+Yeah.
+>> Yeah. Uh but, before we get into it, I I
+think always want to start with like a
+top-level what is Cloud Cocalc for
+people who haven't heard of it, haven't
+tried it out. Okay.
+Uh real quick, Cloud Cocalc is a
+user-friendly version of Cloud Code.
+So, the way it basically works is we
+have Cloud Code and for us fairly
+impressive agent harness that over
+December we noticed more and more people
+are using either, even though they're
+not technical, they they're not at home
+in the terminal, or they are at home in
+the terminal, but they started using
+Cloud Code for non-coding workloads.
+Right? Like, managing expenses or like
+filling out receipts or organizing
+knowledge base. Like, there was a big
+Obsidian moment that a lot of people
+liked.
+And we wanted to capitalize on that, but
+also bring bring this capability to
+people who are not terminal native and
+who might not know how to like brew
+install something.
+So, Cocalc is Cloud Code running in a
+virtual machine with a little bit of
+padding, a little bit more guardrails,
+making it a little safer, a little bit
+more convenient for people who
+don't want to first open up the terminal
+when they go to work.
+It's interesting uh that it's kind of
+pitched that way as a more user-friendly
+thing because I always feel like it it
+to me I I treat it as like why I'm
+familiar with Clockcode. Like we we did
+a Clockcode episode about a year ago.
+But this one is like even more power
+user tools, because it it kind of
+integrates much better with like Cloud
+and Chrome and in all the all the other
+tooling. But like maybe maybe that's
+like a perception thing, right? Like
+>> No, honestly I don't think you're wrong.
+This is like a thing I've been thinking
+a lot about for like the last weeks. So
+>> people when they say user-friendly is
+like oh it's the dumbed-down version.
+But no, actually this is the superset.
+Yeah. Like I think a similar thing
+happened a similar thing happened to me
+about 10 years ago, like maybe 12 years
+ago when I was at Microsoft and we
+started working on on Electron and like
+browser-based technologies and
+cross-platform stuff. And one of the
+first use cases was Visual Studio Code,
+which used to be a website. And the
+initial narrative was oh Visual Studio
+Code is is like a more user-friendly
+version of Visual Studio.
+But in a similar vein, I think there
+were some voices saying oh this is not
+for serious developers. Like we're not
+going to use this, right? For like
+anything. And I think in the end what
+happened is people have different
+stories about why Visual Studio Code
+became
+such a big thing.
+But my personal my personal belief is
+that the hackability and the
+extendability is like played a pretty
+big role.
+Right? You can hook in Visual Studio
+Code to like almost any workload. It's
+so easy to hack on. So easy to build
+extensions for it.
+And I think Code Work might be hitting a
+similar thing where it's very easy to
+extend and it's very easy to bring into
+your workflows.
+Uh so the convenience I think is a bit
+of a it's obviously the thing we strive
+for as developers.
+But I think the way people find value in
+it then is by probably mapping it onto
+whatever they actually have to do in
+their job. So end of last year you see
+the spike of like non-technical usage in
+Clockcode. What's the design process to
+say we should make Clockcode work?
+Because I mean you built that in only 10
+days. Um I'm sure there was some
+discussion before on what does easier to
+use mean.
+You know? Like maybe making like a
+desktop GUI is obviously one way to do
+it, but like there's a lot of nuance in
+the product. Like maybe talk people
+through
+what was like the trigger of like we
+should build a separate thing. And we
+should not build like a different block
+code thing. And then maybe some of the
+more interesting design decisions that
+maybe you didn't take. Yeah. I think at
+Anthropic we've been thinking about ways
+to move people who are comfortable with
+using Claude as a questions and bring
+more of the power of like this thing to
+now like execute tasks for you or I can
+like solve problems for you or I can
+like build things for you. How do we
+bring that capability to people who are
+currently mostly comfortable with like a
+like question answer paradigm within the
+chat. And we've had a lot of prototypes
+around that. This going back as far as
+like easily a year and a half. Like we
+had a lot of people working on that. Um
+and internally Anthropic is a very
+prototype demo-first culture. We have a
+lot of like internal prototypes that
+don't reach the public. And what Cowork
+actually became is like we sort of
+picked the right pieces out of the many
+prototypes that we had. Right? And
+that's that's maybe also like I think an
+important qualifier whenever people
+mention this like 10-day number. I do
+think it's important for me to mention
+that we didn't start with scratch. There
+was like a lot of stuff already
+happening, right? Like And I think it's
+important for people to remember that
+when you build a website, you use React,
+you use like a bunch of other things.
+And this is like a similar scenario with
+like a lot of pieces we already had.
+Um and in terms of decision paths
+I think we live in like an interesting
+new world where execution is actually
+quite cheap. Mhm. So maybe maybe what
+you I'm doing that so crazy to hear.
+That was wild. You should be ideas are
+cheap. Execution is the hard part. No.
+But like the we we used to live in this
+world maybe where you would take a
+product manager and the product manager
+would go to a number of potential
+customers and in this like very low
+bandwidth way would try to try to like
+tease out what are the problems they're
+having, what are they willing to buy. Um
+and then maybe what can you build to
+like address that need. And then you go
+back and you like draft a spec and you
+think about it and then like you make a
+design and you execute it. We in
+Anthropic have now probably much closer
+to the point where like
+don't even write a memo, just like build
+like let's build all the candidates very
+quickly.
+Let's Let's just build all of them and
+then pick the best ones.
+I think the the decision that is most
+impactful both for the product as well
+for the users right now is like
+the way we put value on your local
+computer.
+I think that's a big decision point.
+A lot of people have thought about
+should this thing, whatever it is,
+should it ultimately run in your
+computer or should it run in the cloud?
+Because there are tradeoffs, right? I
+guess like if we solve auth, it would be
+easy to do in the cloud, but I think
+like the fact that I can just download
+any file from anywhere and then put it
+and co-work there is like a big unlock.
+Um I mean it's interesting you mentioned
+reusing certain pieces. I think this is
+something I've been thinking about even
+with cloud code, right? The price of
+like writing code is going to zero, blah
+blah blah, but it actually seems like
+the value of having some sort of
+platform substrate is like increasing
+because as you build these new things,
+you can kind of plug them together.
+Yeah. So I almost feel like when people
+are saying, "Oh, the value of a lot of
+software is going to zero because you
+can recreate it." To me it's almost like
+the opposite. It's like having an
+existing platform to build on top of is
+like even more valuable because you can
+kind of bolt things on. Yeah. You have
+obviously MCPs, you have skills, you
+have like obviously the models, right?
+Which is a big part. All these things
+kind of come together. Do you feel like
+that's a valid way to think about it
+where people should invest even more in
+kind of like these primitives to rebuild
+on or are you like recreating a lot of
+it each time because like things change
+and it's easier to rewrite than reuse?
+You know, I think I think you're right.
+I think you're right that the holistic
+platform is really useful.
+And this is maybe where I hold like a
+people in the AI. I actually don't think
+that the future is going to be
+hyper-personalized software down to the
+going to be quite hard for all of us to
+have our own internal chat wall.
+And like, if I want to talk to you,
+like, how is that going to work, right?
+In the In the context of Colleague and
+how we build it, I think it's a bit of a
+combination. Like, what the The
+execution that gets cheap is not
+necessarily rebuilding all the
+primitives. I think a priori, there's
+also not a lot of value in it. So, for
+instance, my team did not think about
+rebuilding Colleague code. We like very
+much started with the with the core
+thesis of this should be Colleague code.
+>> Mhm. And then we like built things on
+top of it. The part of the execution
+that gets a little cheaper is like, how
+do you take all of these Lego pieces and
+put them together in a way that makes
+sense for users? That is like actually
+valuable. You have so many different
+approaches now in terms of
+what kind of What kind of things do you
+actually elevate to a primitive?
+Do you strongly believe that all your
+products should be built by just
+combining primitives that are available
+to all of us or is it available to you?
+Keep some things internal?
+Um and I think that's still evolving.
+But I think what's probably going to go
+away is like
+I'm not sure if it's going to fully go
+away, but I'm going to say I think for
+me personally
+I will probably no longer try to come up
+with a really good product without
+testing out with people. This is not a
+new concept, but wherever you used to
+have to make costly decisions around do
+we pick technology A or technology B
+or do we like um build it this way build
+it the other way.
+I really strongly believe now you just
+build all of them and try them out with
+that small focus group and then whatever
+whatever is better
+is what you go with, right? And that
+that is probably quite different even
+from
+how we maybe worked a year ago,
+right? Like, I think I think this
+happened very recently. Yeah, I started
+building something in on Electron since
+you're here, coincidence.
+>> Uh but then Electron and like SQLite are
+like there's like some issues that like
+between development and like uh building
+anyway. And I was like, I'll just
+rebuild the whole thing in Swift. And
+just recreated the whole thing in Swift.
+And it's like
+it's done, you know? It was that didn't
+take any effort. I I I don't even know
+Swift. But Yeah, exactly. I I was like
+I'm the I'm not reviewing it anyway,
+whatever. You can write it whatever
+language you pick. But the important
+stuff that I did was not write the
+electron bindings. It was like the logic
+of what happens in the app. You know,
+and then the model is like, yeah, I can
+just recreate the same thing in Swift.
+>> Yeah, I I think you still want
+especially for people who are doing like
+high-performance software or like really
+complex software, you still want like to
+some view of the architecture.
+Uh but you can use markdown for that.
+>> Right. [laughter] Yeah.
+Uh you don't actually have to read the
+code. Again, I'm still like on that
+that's sort of like a definitional
+thing. Um can we build a good mental
+model of Cloud Collab? Um this is what I
+have, right? Like you said it's like
+fundamentally Cloud Collab, we don't
+want to touch it. There's the Cloud app,
+there's Cloud in Chrome. I think you
+guys do something different in planning.
+But uh I've been talking with Tariq
+who's on the Cloud Collab team, and you
+guys are he's like, "No, we just exposed
+planning." Maybe you can clarify it.
+Like what are the major pieces that
+people should be aware of goes into
+Cloud Collab? Like okay, I think you
+basically have them. So, you can you can
+take planning more or less out. I think
+there's a few things that are really
+valuable in Cloud Collab. Um
+the virtual machine is probably the most
+powerful thing. So, we currently run
+like we're we currently run like a
+lightweight VM, and we put Cloud Collab
+into the VM. And we do that for for
+um a number of reasons. Safety and
+security is a big one. But even if you
+even if you ignore for a second safety
+and security, and you're just like,
+"Okay, YOLO, I want this thing to do
+whatever." It is quite to give Cloud its
+own computer. That is like generally a
+good idea. And
+in terms of architecture and UX and
+everything else that we've been working
+on on this topic, it often is quite
+useful if you do like anthropomorphize
+um Cloud aggressively and just be like,
+"This is a person."
+Yeah, what would you do if you gave if
+you had a person, right?
+And the analogy I've given my dad this
+morning who is still like quite
+insistent on using chat even for like
+coding things is, "If you were a
+developer, and your employer told you
+that you don't need a computer, they're
+just going to like send you emails with
+the code and you send emails with code
+back. Like that maybe work for Pedro on
+the back, but that is not very
+effective.
+Um so what we can do with the VM is
+because it's a it's a Linux system,
+Cloud Code has more or less free range
+to install whatever it needs to install.
+It can install Python, it can install
+Node.js. We do have strict network
+ingress and egress controls, so you can
+still as as a user in like plain human
+language make it clearer to to the
+entire system what you're okay with and
+what you're not okay with, but at no
+point do we have to ask a real person
+like a like a person who might be in
+marketing or lawyer. I don't have to go
+to a lawyer and be like, are you okay
+with me installing Homebrew? Yeah, yeah.
+Because the implications of the question
+and the answer are complex and nuanced
+and like not not easy to reason about.
+And this gives us a lot of abstraction
+that makes Cloud very powerful. Now then
+around it we we do probably have a
+number of things that also keeps growing
+almost every single week that you're
+probably noticing that makes Cloud maybe
+better for certain tasks than just Cloud
+Code on its own. Yeah, but most of those
+actually live in the system prompt.
+They're about like what can we infer
+about the work that you do? What can we
+what can we introduce into the system
+prompt to make them more effective? It's
+of course the like very tight
+integration with Cloud and Chrome.
+You're noticing that a lot of people,
+especially as the models get better, a
+lot of people throw up their hands when
+it comes to MCB connectors in this area.
+I'm not going to I'm not going to go
+through like 25 MCB connectors, click
+off everywhere, and then like half of
+them don't let me do any things anyway.
+So Cloud and Chrome is quite powerful
+because we can just talk to the Cloud
+and Chrome sub agent.
+And they will just do things for you.
+Yeah, so so one example, right? In MCB I
+honestly I think that the state of MCB
+is kind kind of like really hard to
+integrate. Um I need to I needed to add
+uh Figma MCB to the coding agent that I
+use. Yeah. Uh and but I didn't want to
+read the docs, so I just had Cloud do
+it.
+>> And it's it's great at reading docs.
+Like in the same way I had to set up
+like a Google Cloud
+um account for some project I was
+working on and get some API keys
+somewhere. And Google Cloud is famously
+super hard to navigate. So, I just
+didn't want to deal with any of it. So,
+I just used Cloud Code.
+Within the first week of developing on
+Cloud Code, this happened very very
+Um I caught myself like starting to use
+Cloud Code for coding tasks, which is
+not ostensibly what we built it for,
+right? We don't need to. But, I found
+myself um
+I found myself like on our internal
+internal tool that we have for to
+collect crashes and just like debugging
+information. And I found myself sort of
+like picking out the ones that I think
+we can easily fix versus the ones that
+might be like kernel corruption or
+something else in the operating system.
+And I found myself sort of picking these
+out and then just telling Cloud go fix
+this bug.
+I was like, "What am I doing here?" Go
+one level up. Tell Cloud Code, "I want
+you to go to all these crash tools. I
+want you to find all the bugs that you
+think are fixable and not like an
+operating system crash. And then I want
+you to tell another Cloud to like fix
+all of that.
+Um and that's that's that's sort of what
+I'm doing there. another Cloud? Yeah.
+So, it can spin up another instance or
+Uh it Currently, what I do is
+um and this is a bit of a hack, but I'll
+tell it to use Cloud Code remote
+to call itself. Yeah.
+That's interesting. So, you basically
+take
+If you if you imagine like a dashboard
+with like 20 bugs. You Is this remote
+control or Cloud Code remote? Oh, well,
+sorry. I just wanted to confirm what The
+way I'm using it is I have Cloud Code
+running and I'm telling Cloud Code,
+"Here's where I normally go every
+morning to find the latest bugs.
+Go read the entire bug list.
+Separate out which ones are fixable
+which ones are not fixable. And then for
+the fixable ones, for is this almost
+loop, for each bug, write a markdown
+file with a prompt.
+And then for each markdown file that is
+a prompt, start up a Cloud Code. So,
+natively [clears throat] Cloud Code has
+this concept of the sub agents. And this
+is basically a sub agent, but you're not
+using the sub agent's functionality. I'm
+not using the sub agent's functionality
+and the reason I'm not is because I'm
+firing that off as a Cloud code remote
+task. Yeah, it's kind of nice because
+then I can just fire it off. I can go to
+my next meeting
+and in cloud code remote now the work is
+happening. Yeah, you you see like you're
+already starting to use the cloud over
+your local machine and I think this is
+one of those things where like well,
+shouldn't just everything just be cloud
+first, right? Uh this is such a good I
+have like so many thoughts about this. I
+have so many thoughts about this. Okay,
+so I generally believe that Silicon
+local computer and my default argument
+for that is always how come you're all
+Chromebook?
+Um there there's like still value in in
+having a local machine.
+And now when I think about cloud, it's
+this entity that is supposed to be very
+useful to you. Like a tremendously
+useful to you. I think that entity needs
+to have access to all the same tools you
+have access to. Otherwise, it's going to
+be hamstrung in like all these complex
+ways.
+And there's there's sort of two
+approaches we could take.
+We could say, okay, we're going to like
+one by one chip away at everything that
+is at your computer and move it into the
+cloud.
+That's that's one way to do it. Um and I
+think other products have taken that
+path. I personally, this is a very
+personal opinion, but I personally for
+the amount of tools that I use
+just don't have the patience to give
+another tool like permissions to every
+single thing and keep those permissions
+up to date. The second thing that I'm
+still grappling with and I don't have a
+good answer for anyone to say yet, but
+the second thing I'm still grappling
+with is
+what does it look like for someone to
+slurp up your entire work and put that
+in the cloud? Like if I just
+as an example like if you click a button
+and it just clone your entire computer
+into the cloud, is that something that
+you would want?
+I'm not totally convinced yet that at
+all everyone will.
+And that is sort of like upstream of all
+the technical issues we're going to have
+because like in general, I think the
+world is not ready for this kind of
+stuff. Like I'll give you one quick
+example that would probably be very easy
+for us.
+So as a desktop app, we in theory with
+your permission can do a lot of things
+on your computer, including reading your
+Chrome cookies, if you really want to do
+it, right? We could take your Chrome
+cookies, you wouldn't have to decrypt
+them for us, but we could put those on
+the cloud if we really felt like it.
+Pretty easy solution that would be super
+cool because it'd be like, "Oh, we can
+do all the tasks in the cloud now." Um a
+lot of websites, banks included, if if
+they see the same authentication from
+like two different locations, will just
+lock down your account. And now you have
+to go to the branch and be like, "Okay,
+I'm here with my passport."
+And you know,
+as tired as we all are of the term agent
+for the agentic future, I think there's
+a lot of stuff that's sort of slowly
+needs to catch up. And until that's the
+case,
+the way I, as someone who's working on
+Claude, can make Claude most effective
+is to like put it where you're working.
+Anything else I thought with our mental
+model? So, like basically like uh part
+of me also just want like the more I
+understand how it works, the more I can
+use it to its full potential, right?
+>> Yeah. And so, what I'm get hearing from
+you is you told me to delete the
+planning thing. You're not doing
+anything special on on the that's only
+exclusive to Claude Co-work. We have
+some tricks, but this is sort of like
+change freak of a week. We eval Claude
+Co-work maybe against different use
+cases than you would eval Claude code,
+right? How do you think about it this
+way? Okay. So, like Claude code is
+ideally more like Claude Co-work, yeah.
+So, Claude code is like quite optimized
+for coding tasks, and we mostly evaluate
+whether or not we're getting better or
+worse depending on how good it is at
+like a typical suite job. And Claude
+Co-work on the other hand, we evaluate
+more against typical knowledge work, the
+kind of stuff you would find in finance
+or in like maybe a like um like a legal
+office. Um my personal use case is
+always like managing my
+things like managing my personal
+mortgage or something like that, right?
+Or like wealth planning for me and my
+family. Those are the kinds of use cases
+we
+eval Claude Co-work on. And what you
+might be picking up on is like the
+subtle changes we make to the system
+prompt, what we put in the system
+prompt, how we steer Claude with the
+tools we give it.
+Um so, like either it be better in one
+of the other direction and whether
+there's a trade-off, trade-offs exist a
+lot. Claude code will be better for
+code, and Claude code work will be
+better for non-coding tasks. Will those
+gaps still exist in the next few
+generations of models? It's like a
+little unclear to me, though. Yeah,
+because right now these like
+hyper-optimizations we make, I'm not
+sure for how long they're still going to
+be relevant. I think what I was
+referring to was also it just
+qualitatively felt different when I
+probably it's just all prompting and I'm
+reading too much into it, but like the
+fact that you it comes out as like a
+nine-step plan, I can edit the plan, and
+get feedback, and and and see it execute
+the plan. Yeah, it felt more long-range
+than in Claude code, but maybe that
+already existed in Claude code, and you
+just built a nicer UI for it. It's kind
+of both. Um like if the Claude code
+people who built
+the planning functionalities would say
+that they would probably say, "Yes, we
+have one of those things in Claude
+code." And they do.
+Um I think people tend to give Claude
+work
+tasks that are maybe of longer time
+horizon. I thought it was so long. Yeah.
+That's like one thing, right? You're
+just like that the the chunk of work
+tends to be maybe a little bigger. And
+then the second thing is that because
+the work when it gets longer it gets a
+little bit more ambiguous, we do tell
+Claude work to make heavy use of the
+planning tool, or to make heavy use of
+the ask user question tool, right? We do
+want it to come up with like different
+scenarios of okay, tease out what the
+user actually wants. Don't go off to
+work for like 4 hours, and then come
+back with the wrong thing. And you're
+probably picking up on that. Yeah. Um I
+wish I could tell you I like built this
+magical thing, and it's like there's
+some secret sauce. I'm like No, I mean
+that it's just clarity is good. You
+know, engineers just want to know that
+they can they can plan around it. And
+then I I think also for me um
+I remember I think I have to switch to
+my my other machine because this is a
+new machine it doesn't have my session,
+but uh yeah, the the the planning is
+really important for for me to like
+approve, or like to see whether it's
+like it's right. The ask user question
+is so beautifully presented. I mean it
+it's also available in like cursor and
+and in Claude code, but like I I think
+like it's still nice to see that it like
+it's kind of for me like to understand
+that it gets me, it gets what I want to
+do.
+>> Yeah. Yeah, it prizes our art. Just on
+the topic of evals, when you say eval, I
+think people are very vague about what
+it means. Is it just like vibe testing
+or do you have like automated
+programmatic evals of Claude work? When
+we say eval, uh what we really mean is
+that we essentially take the entire
+transcript, including all the tools that
+Claude has available ultimately to it,
+and we then measure what are the outputs
+depending on what we tweak.
+Right? So, we do run that a lot. We use
+that in training.
+Um we use that in in like
+if you sort of separate out post
+training from like the scaffolding
+around it, Claude work sort of exists in
+the scaffolding space, but obviously we
+also train on it a little bit. Um so,
+when we say eval, we mean given the
+certain transcript, what do the outputs
+look like, including the file outputs as
+well as like the actual token outputs
+like the ones that you see in the chat
+window. I'm curious um how much of the
+failure modes are the model intelligence
+versus like the usage of the end tool to
+put the intelligence in? Like the wealth
+planning is like a good example, right?
+It's like one thing is to come up with a
+plan, the other thing is like make a
+nice spreadsheet um that kind of runs
+you through the plan. Like, how are you
+seeing that evolve? The thing that I
+grapple with a lot is that whatever
+scaffolding you come up with, I think we
+still have a bit of
+sort of like model overhang where the
+model is dramatically more capable than
+right, users have been using it for, and
+I think part of that is that we're just
+not getting the model all the tools to
+do all the things it's theory capable
+of. All right, that's like one thing.
+Um
+However, whenever you do put the
+scaffolding, I'm sort of wondering at
+what point at what point will that
+scaffolding go away, and like how much
+you invest in figuring out what the
+right scaffolding is is kind of up to
+it's a little bit of a bet, right? And
+one thing that I as an engineer quite
+enjoy is that like working at Tropic and
+working at a frontier lab, I maybe have
+a little bit more insight into what's
+coming coming down the chute in terms of
+like what's the next model, what is the
+model capable of, what it's good at,
+what is it bad at. And I'm I'm
+increasingly wondering
+is the right thing for us to like really
+invest too much in sort of these like
+scaffolding corrections where the model
+might otherwise not misbehave but just
+not do the thing that you want.
+>> Yeah. Or is it to just like give it as
+many capabilities as possible, try to
+make those safe so that the worst case
+scenario is like not as bad as it might
+be otherwise, and then just simply wait
+a second for the next model drop. I'm
+personally currently more leaning into
+the latter. I think we're going to see a
+lot of like applications and companies
+that do very impressive things with AI
+that in the short term might seem very
+effective because they're very
+specialized to individual use cases, but
+I think once models get better at
+generalization and get better at like
+those specific use cases without being
+super guided on those,
+I'm not sure how long that's going to
+stick around. And you can sort of kind
+of already see this in like skills and N
+2 P servers, right? We've we've already
+seen sort of this like slow shift from N
+2 P service to skills. And like maybe a
+good example is
+Barry, who made skills.
+He was initially hacking on something
+that honestly looked a lot looked looked
+a lot like what Coda does today. He was
+sort of thinking about, what if Coda but
+for like people who don't want to build
+code? Mhm. And um he too did that as a
+prototype inside the desktop app. One of
+the first use cases we thought of were,
+okay, what what are like coding like use
+cases that
+could really benefit from graphical
+interfaces and like from being a little
+separated from the actual underlying
+code. And everyone comes to the same
+answer, it's data analysis.
+>> Right. First like, how many users do we
+have today? How many like it's always
+data analysis.
+And I think the thing that ultimately
+led to skills is that we wanted to
+connect this little prototype to our
+data warehouse.
+And the team very quickly discovered
+that like instead of building a custom
+tool for the thing to our data
+warehouse, they just like made and file
+where we're like "Dear Cloud, if you
+want to get data, here's the endpoint,
+here's what the API looks like, you
+figure it out." And then they end up
+handing over control. Yeah, yeah. Also,
+just like maybe go one step up in the
+layer of abstractions.
+Right, just like
+instead of instead of telling the thing,
+"Here's the CLI, please call the CLI."
+or "Here's an MCP, please call this
+interface shape." just like this is the
+endpoint. If you want to know something,
+if you post here, maybe you can do post
+sequel.
+It's going to be okay. And that ended up
+being so effective that they started
+trying the same pattern of like just
+giving the model a markdown file that
+describes whatever needs to do.
+That the whole thing eventually became
+skills and we're like "We should package
+this up. This is a really good idea."
+Yeah, um we've had Barry and Mahesh on
+on our conference and he's definitely
+got a good idea there. Yeah, I wanted to
+show you that how I've been using Cloud
+Code Work. Uh so this is this is my
+favorite part. This is this So this is
+like me This is how we run the Discord.
+We literally At first, I didn't trust
+Cloud Code. This is my very first usage.
+Okay. Right? So then I was like, "Okay,
+I will just try to manually download
+from Zoom all my recordings and upload
+it to YouTube because this is a very
+laborious process. I got to click click
+click. YouTube isn't super
+user-friendly." And it just did it. And
+then I was like, "Actually, you know,
+even the download from Zoom part, I
+should also
+put into Cloud Code Work." and then I
+did it. Right? Here's a bunch of And it
+starts compacting here and it and it it
+starts
+even be able to do things like look
+through the individual frames of the
+video to name the video so that I can
+upload it automatically. All that is And
+this replaces my job as a YouTuber.
+>> We will forever appreciate your great
+>> Yes. You know?
+>> And so that's great.
+But then by the compacts, it makes makes
+like a new thing, right? So I I don't I
+don't have the initial initial thing.
+But And then I asked it to make its own
+skill so that it so that something
+that's repetitive and one-off and
+human-guided becomes more automated and
+I can use the skills independently and
+reuse them. Uh and then obviously can
+write skills. And that goes into context
+and skills at the bottom here, which is
+which is so nice. Um so I have all these
+skills that that I now sort of do on a
+weekly basis. Uh I know you've released
+scheduled co-works, which I haven't done
+yet, but
+There's really no reason why you
+shouldn't try them. I I think this is
+like so wonderful and fun for me to see
+because I think one thing that is very
+fun for me about skills in particular is
+that they're so easy to make. Like
+anyone can make a skill. Like a text
+message could be a skill. And they can
+be so hyper-personalized to you. And
+this is like sort of this abstraction
+layer, right? Like um I
+I'm just guessing, but I assume you
+you're very good at your job. You've
+probably given this thing some guidance
+about how to do it, right?
+I I just said wrap everything up into
+into a skill, right? And then and then I
+was like, "Actually, sometimes I might
+need to break things apart because some
+parts fail or some parts might be needed
+individually." So I told it to split one
+skill into three skills.
+So it's like a skill skill splitting
+thing. And then there's like a parent
+skill that just orchestrates all of them
+if I want to use that. You know, like I
+think that's that's like really good. Uh
+and there's there's one more part, which
+is the Google Chrome thing that I told
+you about, where I'm like, "Okay, you
+know what's better than uploading using
+Cloud Co-work to YouTube? Like actually
+looking at the docs to like
+programmatically upload to YouTube, and
+then putting that in a skill." And I've
+never done that before. I don't want to
+deal with Google Cloud. So Cloud Co-work
+does it for me. That is really cool.
+So so I I just I don't care. I just like
+let it do its thing. I don't it doesn't
+really matter. That is really cool. And
+then you've I assume paired the skill
+just with the same script that it's
+built? Yeah, and then I just update
+update the skill.
+>> Ah, that is beautiful. Yeah, that's
+wonderful. It's kind of like a skill
+Basically, I think like the way that
+people ease into Cloud Co-work is like
+take a knowledge work task that you
+would normally be clicking around for,
+and then try to turn turn that. And then
+you do the Okay, well, what if you went
+further? Okay, and then what if you went
+further? What if And then you sort of
+expand the scope of Co-work as you gain
+trust with it and and also teach it how
+to replace you. Yeah, it's like a little
+bit like playing Factorio but for your
+own life. Like you said, you start
+really small. Yeah. You start automating
+something really tiny and like
+once it clicks, you keep adding onto
+this like automation empire just like
+make your life easier and easier. My
+favorite skill has been
+um every single morning, co-work starts
+looking at my calendar
+and make sure that there's no conflicts
+because people tend to schedule out
+meetings sometimes last minute and
+sometimes miss it. It's often painful.
+And a lot of products have existed like
+that a lot. I've written in the custom
+prompt there. I haven't made it a skill.
+Um honestly should. Yeah. But I've given
+it like pretty clear instructions about,
+"Okay, here are some people if they book
+over other meetings, I'm probably going
+to go to their meeting." Like if Dario
+schedules a meeting. Right. Not try to
+reschedule Dario out of it, right? Um
+and I think there's some other rules in
+there about like what kind of meetings I
+care more about, what kind of meetings I
+care less about. What is okay to like
+maybe punt like when I want to be when I
+want to want to be working, when I don't
+want to be working.
+And it's those really small things that
+I can think kind of click with people.
+Right when we launched co-work, I think
+one of the user stories that went most
+viral on Twitter
+X was clean up your desktop, which is of
+course silly. That's such a silly thing,
+right? Like you don't need a model to
+clean up your desktop, not really.
+Um Like this? Like clean up my desktop?
+Yeah, exactly. Yeah. I need to I need to
+choose my desktop right, I guess. Give
+it access to my desktop. Yeah. Okay.
+Uh okay, this is very scary. Uh we'll do
+it. I did I did it with my downloads
+folder. It was like, "You have so many
+term sheets and there's like eight
+copies of your rental lease for your
+office." I was like, "All right, I don't
+yell at me." But I think yeah, it's that
+such a small task and then like I I
+would never go out there and normally
+otherwise tell people, "I've built a
+product that can organize your folder
+for you." Um because it feels small, but
+I think to your point like
+Uh here's here's the here's the ask you
+the questions. Yeah. Uh Beautiful,
+right? It lead obvious junk. You
+probably shouldn't click that. No. If
+he's not done right.
+It's nice this reversible. I don't Maybe
+I'll learn Yeah.
+Uh yeah, no. I have a I have a
+typical everything is super messy
+folder. So, yes, I think this this is
+super helpful. So, this is a pretty
+simple task. But, I Okay, here it is,
+right? Here's the progress. I don't see
+this in This is why I'm like this got to
+be something different than uh than
+Cloud Code because I'm like We do Yeah,
+that's
+we do system prompt that we're like,
+"All right, we want you to think about
+like this task." Yeah, I mean, that's
+all I Yeah. And then I can I can I can
+do like little suggestions for for for
+these things. It's beautiful. Look at
+this.
+I I can I can like say like, "Oh, don't
+do that. Don't do this." Like it's
+amazing. I'm so happy you like it. Um I
+mean, the other way around, like we're
+part of the Cloud Code team. If you
+would like that in Cloud Code
+Yeah. Damn.
+Uh so so yeah, I I mean, uh
+this is really good. I obviously I'm
+like going to raving about it. I know, I
+have other things like sign up for PG&E.
+>> So, if you can do phone calls for me,
+that'd be great. Um
+I I do
+>> People have done that. Obviously, you
+can't do that natively, but people have
+done that with like various other
+providers. Yeah. Uh and then this is
+like signing up for the Figma MCP.
+I really am trying to do like
+everything. Um
+data analysis as well. I do think Oh,
+design to code uh very very good, right?
+So, like here's the Figma file, take it,
+and then
+this is where like a lot of other tasks
+like knowledge work, like replace my
+manual clicking, but this is No, I would
+normally use Cloud Code work Cloud Code
+for this. But, because I perceive that
+you have better Chrome integration, I I
+think you can actually do a better job
+with this. And I This is This is one
+shot at my uh conference website. That's
+pretty cool. It's like at some point, I
+would love to like hear how you feel
+about
+code in the desktop app which is like I
+never use.
+>> Which is the the same team. Same team.
+Yeah. So, I use the Cloud Code Code in
+which I I perceive to be the default way
+of
+Cloud Coding. So, one thing this has
+Sorry, I'm just like I'm not here I'm
+not here to like wrap all the products
+up like I can talk about other stuff.
+I'm not sure if people out there want to
+like hear me advertise my stuff for like
+an hour. Please do that. Um this thing
+has like a built-in browser, which is a
+thing a lot of products have. You see it
+here, it's a built-in browser and I
+think giving Cloud eyes into like what
+you're actually working on makes it so
+much more effective. And this is
+probably what you've seen in Cloud Work
+because it can see Chrome, it can like
+debug the DOM, it can like see things.
+Um that does make it
+more powerful. Yeah, so so I think uh my
+mental model is kind of broken cuz I
+only use this Cloud Work because I
+thought they had a
+uh browser thing in it, but I understand
+that the Cloud Code app or the app
+version of Cloud Code does have a
+built-in browser. I've seen I've seen
+this preview thing. Yeah, I just I've
+never used it. But in the end in the end
+you sort of I have it by heart. Yeah,
+you basically get the same thing, right?
+Like the the the additional skill that
+you're describing is Cloud is better if
+it can see what it's working on. Right?
+That's sort of like the summary here.
+And like whether it's using your Chrome
+>> Yeah. or it's just like making up its
+own little like browser, it doesn't
+really make a big difference because
+either way it's going to see
+what it's working on and that just makes
+it much better. And then you don't have
+to run QA for your Cloud. Why doesn't it
+pick up my existing Cloud Code sessions?
+Cuz I I mean obviously I've used Cloud
+Code, but
+>> Excellent question. Um don't have a good
+answer other than I we're honestly
+having
+>> Yeah.
+>> This is what the OBI team does, I think.
+Uh cool. I I I don't have other like I I
+just I I want to expand people's minds
+and also maybe show people if they
+haven't really done it, but like I I
+think it's very interesting how I
+sometimes use this more than I use I
+mean I use Dia, right? Yeah. Um I and I
+use uh I've used like all the other
+agentic browsers and Anthropic didn't
+have to build an agentic browser because
+you just had Cloud Cloud Work and that's
+enough. Yeah. I also think like maybe
+integrating with number of excellent
+browsers out there is like currently on
+my
+personal priority list a little higher
+than like trying to rebuild a browser
+home scratch.
+>> Yeah. You know, never say never, but I
+think going back to this idea of like we
+want to plug this into like our entire
+existing workflow.
+I think our goal is actually to not
+replace any of the applications you have
+on your computer,
+but instead of like work really well
+within your workflow.
+>> Meet the new one, yeah. Yeah. It seems
+that nowadays, especially on the
+browser, most of the innovation is like
+user ergonomics. It's not really like
+the underlying browser engine. So, I
+feel like the clock it doesn't really
+matter if it's like the uh or Chrome or
+Alice, whatever. Yeah, we want to We
+want to We want to meet you wherever you
+are, which is like
+like obviously I would say that, but
+it's also just generally true because I
+don't want to shrink my potential user
+base
+artificially by saying, "Okay, like I'm
+going to start building for the people
+who are willing to switch browsers."
+Right. There's such a like, you know,
+like many lawsuits have been filed over
+who gets to operate the browser. And
+like a lot of money has been spent over
+the question of like which browser is
+default and which search engine is
+default within the browser. Uh I just
+want to build for
+Yeah, I want to build for the swix
+essentially. Like I want to I want to I
+want to build for people who have a
+number of annoying tasks that they feel
+like maybe Clockwork could could do it
+for them. Yeah. What do you think about
+skills portability? I think there's been
+one thing. I use another thing called
+Zoe, which is kind of like a cloud
+computer plus agent and I have a skill
+to add visitors to the office. Yeah, so
+whenever somebody has to come in after
+hours, they need to check in downstairs.
+But I want to like text the thing. So,
+it doesn't really work in in Co-work.
+But now that skill is in the Zoe harness
+and it's not in my Co-work thing. And
+then if I make a change, it's got to I
+got to sync them.
+How do you see that going? Like I see
+memory as like cloud personal. Kind of
+like I don't necessarily want my
+memories to be cross thing. Yeah. But I
+do want my skills to be cross agent that
+I use. I think with MC P's people did
+the same thing. It's like, "Oh, MC P
+gateway, MC P registry." I don't really
+know if that's like a business. So, I'm
+curious like if you've had any thoughts
+in the area. I think for me this is sort
+of where I go back to the really basic
+primitives for our skills are file based
+instead of like this complicated thing
+that exists inside of place somewhere
+that is like super proprietary. I'm
+really leaning into the idea of like
+it's all just files and folders. And
+that makes it very portable on its own
+right. We do have skills as part of this
+container format which we just call
+plugins. And plugins are available both
+for cloud code and cloud code work. It's
+the same format.
+And you can install plugins. This works
+in Colab today. You can basically say
+I'm going to add a whole like just a
+GitHub repo as a skills marketplace or
+like a plugin marketplace.
+And that's how we're doing portability.
+I think we have a lot of room left to
+grow
+in
+how do we make it easy for people to
+know that they can write skills? How do
+we make it easy for them to just like
+share a skill with you? Because
+obviously all the words I just said,
+right? Like I'm losing most of the
+knowledge worker base out there. Right?
+I started by saying, "Oh, you can
+connect a GitHub repo." It's not exactly
+how most people will end up working in
+like a general knowledge worker space.
+Um but I think there's something there.
+And
+another thing that's there that I think
+has not really been properly explored is
+the
+the the combination of which part of the
+skill is very portable and then which
+part of the skill is like very personal
+to you.
+Right? And I think that's something we
+haven't really solved yet as an
+industry. It's like which time you want
+to introduce more structure to the skill
+or have always have like public skill,
+private skill, you know, pairs. Yeah,
+yeah, kind of. I think that's like like
+the easiest way to do this would just
+we do like use string interpolation or
+something, right? Right. Yeah, yeah.
+Insert username here, insert like phone
+number, insert like known folder
+locations, that kind of stuff.
+Um that's probably clunky. That's why we
+haven't built it. Um,
+but I do think someone is going to come
+up with like an interesting way to
+keep everything we like about skills.
+The portability is just a file. It's
+just markdown. It's just text honestly,
+right? Like a text file works.
+The
+complete lack of structure, which means
+you don't need any kind of tutorial to
+write a skill. Just like
+explain it to Claude the way you would
+explain it to me, and Claude will
+probably get it before I would, right?
+You just like
+for booking a flight, tell Claude how to
+book a flight the same way we're telling
+someone I just thought about near today.
+But combine that with a very like
+personal thing, um, maybe we'll stick
+with the booking a flight example. I
+don't actually think AI should be
+booking flights. I think the tools we
+have is yes.
+Yeah, finally somebody says it. It's the
+default demo that everyone was making.
+I'm like my opinion against flight
+booking demos. It is not a good
+showcase. Yeah, I'm like I just want to
+book my flight myself. But, um,
+I think there's a lot of things that
+have a personal and a non-personal
+component, and that's mainly why people
+reach for flight booking because some
+things are very universal.
+Cheaper flight is usually better, right?
+Like few people try to book the most
+expensive flight. And then some things
+are quite personal about like what time
+you prefer, what seat you prefer, which
+airports you prefer.
+Combining that in like a skill format
+that is actually
+portable, compatible, easy to understand
+for people. I think that would be very
+exciting. We're just having to figure it
+out yet. Yeah, I think the text part
+Ever- I think everybody by now has some
+sort of like cloud file thing. Either
+Dropbox, Google Drive, whatever.
+So, it feels like in a way it should
+basically like symlink
+my skills into all my agent harnesses.
+Yeah, just keep those in sync. Like we
+have internally this like valuable
+tokens repo, which is like all the
+commands and sub agents. It's a good uh,
+and then I build like a TUI where you
+can start and be like, you know, install
+this command and this three sub agents
+into this agent in this folder and just
+copy paste this. It doesn't do anything.
+It literally CP the file into that. But
+I feel like there should be something
+similar where like whenever I go into a
+new thing is like, "Hey, here's like the
+link to exactly the cloud folder and
+just bring down these skills into this."
+Like today, it doesn't quite work like
+that. Like if I install a new agent,
+I cannot I have to like copy-paste all
+the skills and I don't even know where
+they are. Yeah, that's like the big
+problem. It's like, "Where do I find
+them?" Yeah. Um so, I'm curious like in
+the future like that that almost feels
+like my personal productivity thing
+would be my skills. Yeah.
+>> It's not really the product that I use
+because everybody has access to the same
+product. But today there's that just
+looks like copy-pasting of the files. I
+think so many things I I really like
+thinking about agents and LLMs just as
+like another coworker.
+So many attempts have been made to build
+documentation companies that are like,
+"Oh, we're going to solve all your
+documentation problems." Um I myself
+like spent a little bit of time working
+in Notion, right? So I'm like deeply
+familiar with the concept of let's get
+everyone on the same page.
+>> Mhm. Right?
+What you're basically saying is you want
+all your agents to be on the same page
+about your preferences, about the
+skills, about the way they ought to
+work, and like how they ought to
+execute.
+And I'm not sure what the right thing is
+going to be. If it's going to be some
+some company that can say, "All right,
+we're as an independent body, we're not
+trying to let push into any particular
+product. It's our job to be like these
+skill authority and we provide I don't
+know, we're going to be the Dropbox of
+skills and we can just sim link us into
+all the products you want to use."
+I'm not sure that's going to be a viable
+business, but as as an idea,
+it would be cool, right?
+>> Yeah. Yeah, I think so many things are
+just going away as businesses. It's
+like, "How am I supposed to do it?" I'm
+not even asking somebody to make a
+product about it. Like, "Yeah, I want to
+personally know." And there's things
+like you said just like you almost want
+to skill and then interpolate between
+personal and work. So if I'm booking a
+flight for work, it's different than I'm
+booking a flight personally. Yeah. In
+some ways, but like a lot of the
+scaffolding is the same, you know? I I
+as an engineer, I will tell you like,
+you know, technically a person to single
+person. I will just be like SimLinks.
+Well, that's what that's what I do with
+Claude that MD and agents that MD. It's
+just the same as how SimLinks. And so,
+it's like that works, but it feels like
+yeah, I don't know, maybe. Because I
+will go on that level. You can always
+tell Co-work your problem and then
+Co-work will solve it for you. Just make
+the SimLinks. That's like one way to do
+it. That's true. That's true. All right,
+everything is called Co-work. Uh
+potentially spicy question for both of
+you.
+Uh which of these industries will go
+away? Okay, so what Felix was saying
+before is interesting. There's basically
+like the short-term pressure of like we
+need to turn these tokens into valuable
+things, which is I should build a
+last-mile product that harness the
+model.
+And then there's the question of like
+long-term
+which ones are going to still be
+valuable. And I think you're kind of
+seeing this today where like uh you
+know, the coding space in a way it's
+kind of like everybody's moving up and
+up in stack because you need more
+engines turning tokens into code.
+I think search like enterprise search is
+kind of seeing the same thing like where
+Glean and like all these different
+companies is like at the end of the day
+if Co-work is the one doing all the
+work, the search itself is like such a
+small part that like I don't know if I'm
+really going to pay that much money just
+to do search. It's almost like
+everything is like a Co-work vertical.
+So like how much can Co-work
+first-party support Mhm. and how much
+can it not. I think for a lot of these
+things, the planning thing that you were
+showing Do we show it? It's uh the
+planning the planning thing.
+>> Okay, yeah, yeah. Like that's one thing
+where like most of the value that these
+agents provide is like they're better at
+planning for specific tasks and have
+better tools for it. Yeah. But I think
+the models are now
+moving in that direction and they have
+the right harnesses and they're on your
+So for me it's almost like if
+the end customer trusts your startup to
+be the provider of that task result,
+then I think that works.
+This is something that This is a shirt
+spike that we're we're working on. Uh
+yeah.
+I think
+Look Look, I'll I'll I'll tell you this.
+Like I don't think I'm the best person
+who like actually has to make which
+industry is going to be hit the hardest,
+but I do think that Anthropic as a group
+of people, we're
+deeply worried about the impact
+that the tools are going to have on the
+labor market, especially for like junior
+employees.
+I think I think it's only honest to say
+that when we talk about automating a lot
+away a lot of the work that we
+personally find annoying, that we maybe
+think it's not the best use of our time.
+In a lot of industries, that kind of
+work would have been given to a junior
+entry-level employee, right? And I think
+it's it's only it's only right to
+be really worried about that and like
+worry what that's going to do when
+particular to people like enter the job
+market. I have a solution for that.
+Which you make them you create
+simulative jobs for them.
+>> Okay.
+>> So this is this is like half joke, half
+true. So if you think about software
+engineering, when you're like a junior
+engineer, you work like 1 2 3 years. And
+in those 3 years, there's like maybe
+like a handful of moments where like you
+really learn something. And then a bunch
+of other days where like you're not
+really progressing. Yeah. I think now we
+can use
+AI and these models to actually like
+shortcut these careers and almost like
+simulate the early years of your work
+and like just make them like super dense
+in like these learnings. It's like,
+"Hey, we're working on this feature,
+which is like a distributed system and
+you need to learn this thing. That might
+take 3 months at a company." And so you
+take 3 months. Here is like we're just
+simulating the whole thing. It's
+actually not a real thing. And in 1
+week, we kind of speedrun through the
+whole thing and you kind of learn your
+lesson from there. And we kind of repeat
+that. In like 1 year, you basically get
+like
+3 years worth of like projects and
+experience. Yeah. I think it's harder
+for like things like sales or for things
+like you know,
+marketing because you don't really have
+a way to get the feedback loop.
+But I think a lot of it it sounds kind
+of silly. It's like you're making the
+new fake job, but it's almost like you
+go to college, right? People pay to
+learn how to do it. And this might feel
+similar where it's like, "Hey, we have
+the Jane Street simulator."
+It's like, "You want to come work at
+Jane Street? We'll just put you in the
+simulator for like 3 months and you'll
+come out of it as like, you know, I'm
+ready." So there there is an aspect
+here. I'm not an expert enough to like
+actually know what
+what is going to happen to marketing or
+legal or finance, right? Like I don't
+work in those jobs and I I don't think I
+should talk about them. But I am an
+engineer and I think I have a pretty
+good idea about engineering is like
+and I think one thing we're sort of
+seeing is that as a company in all sizes
+as the public we're like deeply worried
+about entry-level, but we're also seeing
+more senior engineers accelerated if you
+like they're more productive. They they
+actually increase the value they
+provide.
+a thing that I'm thinking about a lot is
+the fact that even before all of this
+happened, um I've always had a lot of
+respect for the University of Waterloo
+and the the new grads that have joined
+my teams as from coming from the
+University of Waterloo always felt like
+more ready than new grads who like
+literally spend their entire time at the
+university regardless of how good but
+never actually had to work inside an
+environment where you have to ship
+things that eventually will be used by
+users.
+And I'm I'm I'm German and like
+initially went to German university. I
+think the the
+the like information systems programs
+there tend to be very theoretical,
+right? Like I often give people the
+example of like trying to become a
+doctor, but you first have to do 4 years
+of biology. And as a result, when you
+get a new grad, you sort of have to
+teach them what it's like to actually
+build products and to work in a company
+and to like work with other people and
+like some people will have different
+opinion and like how do you do all of
+these things? And the University of
+Waterloo, it seems like they just spend
+half of their time I don't know if this
+is true, but I think it's a year, right?
+They spend so much time
+>> part of your job curriculum to do spend
+a year in internships. Yeah, they just
+like go from company to company. They
+show up on your team as like a junior
+engineer who's been to like 20
+companies. Not really, but like it seems
+like a lot of my new grads have also
+briefly worked at Apple, Google, Tesla.
+>> Yes, and there's a common meme where
+they like collect all these logos like
+Infinity Stones. But and they always put
+it on LinkedIn. It's very unclear that
+they were an intern. Like Yeah. Yeah,
+exactly. But it does actually make them
+so much better compared to other new
+grads. And I wonder if that's a useful
+model maybe for the future when we also
+have to like crunch down the amount of
+time you have as a junior employee
+because the value you have as a junior
+employee is going to like be impacted.
+My sort of pro young people take is that
+they're you're more
+you have higher neuroplasticity. You can
+learn more. You have less pre-existing
+biases. And what I is assuming it's true
+for you what OpenAI often says is that
+actually is the the younger like fresh
+grad engineers that use Codex or they're
+coding stuff more innovatively than the
+experienced engineers who have a set and
+preferred way of doing things.
+>> Yeah, as I talk to people I I write some
+of my experiences. Yes, and maybe you're
+more AI native. And therefore you're you
+you get cut. But like I think the
+problem is you don't need that many of
+them. I mean I Anthropic is on the
+record of saying we do believe that the
+impact on the market is going to be
+sizable.
+And we do not think that people overall
+are ready. Right? And we do actually
+think we should probably talk about it
+as a society much more. Yeah, I'm not
+sure that I'm like the individual that
+can add like anything useful there. But
+I think as societies with economists and
+and governments that need to
+wrestle those questions in a way that is
+probably more meaningful than me
+wrestling with them.
+We're probably not talking enough. Yeah,
+well well we try to educate and then I
+think also just releasing frequently as
+as as you guys do or probably maybe too
+frequently. Yeah,
+it's helping people to adjust over time
+rather than one big bang thing. There's
+like sort of this gradual takeoff that
+people are living through that we we can
+help out, right? Yeah, and I but I think
+a lot of us like wondering at what point
+do we actually have full takeoff, right?
+Like at what point is there we're all
+sort of expecting this like big bang
+moment where things will like start
+accelerate so quickly that it becomes a
+self-reinforcing loop.
+And then at point it's sort of like off
+to the races and there will be no more
+like slowly catching up, you know, just
+have being so good at everything. Yeah,
+it's when co-work is training models.
+It's when it's looking at TensorBoard
+and exactly weights and biases and
+training things. I like we can all
+debate like how many years it's away,
+right? Like some people make a better
+route like maybe it's 10 years away,
+maybe it's a year away.
+Um I'm not entirely sure where where I
+come on this line, but I'm not entirely
+sure that ultimately matters all that
+much whether or not happens in four or
+five years. If we've have a decent one
+that's certainly that's going to happen,
+it's probably something we should
+wrestle with. I wanted to talk so by the
+way the the schedule task complete the
+the the the the the the the the the the
+the the the the the the the okay, but
+you know, I was trying to get it to do
+more so that thematic like read the
+file, understand what it's about, group
+by
+uh the the topic rather than the file
+type. I mean you can just follow up and
+have it do that actually.
+Oh yeah, like it did it did it proposing
+that's right. So it's got some like
+topical things, but uh
+yeah, it could probably do better. Like
+yeah, so like I probably need to give it
+a skill to read video files so that it
+understands here's how I like to
+Honestly though like um I see that
+you're using open 4.6, right? Like my
+recommendation for people is
+increasingly don't worry about it
+anymore. Just like tell it what do you
+want it to do and it's probably going to
+figure out a way to do it. Okay. It
+might not be the way that you like
+necessarily or the way that you've gone
+about it. Yeah, videos deeper. But we're
+also sourcing organizing all of this so
+let's fight. Yeah, yeah, yeah.
+I'm honestly like so curious what Cloud
+is going to come up with.
+>> I'll kick that off. I wanted to also
+just talk about the the overall you
+know, you talked about data analysis,
+you talked about like your personal
+finances. You also said
+which by the way for us is very timely,
+tax season, right? Like use Cloud Core
+for tax season and it is not responsible
+for any mistakes, but might as well,
+right? Like it's it's free knowledge
+work for you. Yeah, so I just like I
+think Cloud for finance is a big deal
+and this is definitely like in that mix.
+I wonder is it like do you is it a
+separate team? Do you talk to them? How
+important is it, right? Like cuz he he
+can you also need the output Excel files
+now. Yeah. Just talk about the finance
+effort you guys
+>> care about the verticals quite a bit. So
+we do have a dedicated verticals team.
+We also have a dedicated enterprise
+team. And those is business engineering,
+not sales. It's engineering, yeah. Yeah.
+Yeah. It's engineering. So we do have
+people who sort of come to work every
+single day and they they ask themselves
+how do we make Cloud work extremely
+effective for people in those specific
+industries? How do we make it easier for
+them to understand? How do we make it
+easier for them to plug into this sort
+of get the same value out of it that
+software engineers get? I think it's no
+real surprise that software engineers
+ended up being sort of at the forefront
+of the entire AI moment because so much
+of it is this like Rube Goldberg
+machine-esque where like we're already
+used to automating things, right? Like
+it's part of our job. Yeah. So we care
+about it quite a bit. I think it also
+like really matches
+what we see Cloud being very good at as
+a model.
+I think it provides tremendous amount of
+value to those customers in particular
+because
+we can do so much with the amount of
+data they have. Those are like data
+heavy industries.
+They're industries where correctness
+matters quite a bit. So for us if I've
+used it to analyze my business, I just
+can't show it.
+>> So that's too sad. So I had a similar
+question about taxes. Like I did tweet I
+did tweet about the fact I did tweet
+about oh, Cloud was doing my taxes. This
+is honestly incredible. And
+it's like annoying because like this is
+so cool, but I'm not going to
+>> Twitter's maybe not the audience that
+needs to like see my tax return. Yeah,
+but here here it is. It's it's reading
+on the videos. So that's like yeah, it's
+getting more.
+Yeah. How did it actually do it? I'm was
+curious. Oh, usually it just like takes
+a screenshot and then it reads the
+screenshot with by vision.
+>> [snorts]
+>> So, this is what I do for my my Zoom
+upload thing, right? Because I I have
+paper club sessions that I need to
+upload to Zoom, and I want it to
+automatically uh
+title them and do show notes and
+everything. So, it just takes
+screenshots and try to try its best.
+Yeah. It wouldn't probably benefit from
+transcribing, which it's it's doing by
+it's operating by pure vision now, but
+it's good enough. Yeah. And then I I do
+have to call uh out to Nana Banana to do
+images. So, unless you guys do images
+for me, uh I have to call the people who
+do images.
+>> We're aware. We're aware.
+It's It's just like so fun for me
+because like this is the thing that I'm
+increasingly doing, like increasingly
+curious about Claude's creativity and
+like figuring out what is great Claude's
+approach is like solving a problem.
+>> Yeah. Vision for everything is is like
+the the superpower, right? Like, you
+know, and computer use, you guys were
+the first to do computer use, right? And
+when it was launched, I was very
+unimpressed.
+I was like, it's slow, it's unreliable,
+it's the Yeah, and the what? how much
+better it's got is 1 year ago. Yeah.
+I know. Like, it was barely usable.
+Yeah, I I remember it was barely usable,
+but isn't it wild how much better things
+have gotten over that 1 year? We went to
+the Anthropic office because they for
+the launch event for computer use, like
+there was like this hackathon. Yeah, and
+like nobody hacked on computer use.
+>> But I did see I don't I I don't know if
+you were okay with me saying that, but I
+did see briefly that you do have like a
+like an automate Mac OS FTP server
+installed, right? Do you use that ever?
+What Sorry, which one? Where?
+>> Um if you go to your settings. Oh,
+settings. Okay. Uh where Sorry, this
+one? Yeah.
+Yeah. Um I noticed that in your
+connectors Uh
+Uh I probably said that at one time, but
+I don't use it actively.
+>> Okay, like A Mac OS Automator? Yeah,
+yeah. So, so I Yeah, this one I really
+wanted to like just automate everything
+in my thing. I didn't find I didn't find
+it super reliable. Okay. Yeah, why?
+>> No, no. No question at all. Claude is
+much better writing AppleScript and
+executing its own AppleScript than
+relying on these uh third-party tools.
+Yeah. Uh so, I've increased I I
+initially installed IMCP and like all
+these other FCPs that people built, and
+but now I don't use any of them anymore.
+Like just just let Claude write its own
+thing. Yeah.
+>> It's going to be more custom-made. We
+keep going up the stack, but I do think
+computer uses like a fairly interesting
+area to me, and it's like also
+interesting in the sense that
+I don't think we're far away from
+I don't think we're far away from Claude
+being very effective at like using your
+computer and not just a theoretical
+computer. Mhm. What's the relationship
+between the user and the computer? Like
+there were some tweets about how huge
+some of the VMs that Claude Co-work
+creates are. It's like 12-15 GBs, and
+people complain. But at some point it's
+like if you're using the computer,
+you're taking action, is this just your
+computer, and I'm just looking at it?
+You know, it's like I I think that's why
+people like the idea of like the Mac
+Mini and the open claw or whatever on
+it, because it's like it got its own
+home, you know, it's doing its thing.
+I'm doing my thing. I think there's some
+kind of like not like race condition,
+but it's like okay, if I kick start this
+task, now I can't really use the
+computer. Yeah. You know, because Claude
+Co-work is doing things on it.
+And it's kind of awkward, like
+yeah, I'm not sure. I I do think it's a
+super interesting area, because I I can
+maybe tell you like some of the things I
+thought about that I think are actually
+a bad idea.
+So, when when we initially started
+working on Co-work, I I
+did have some dreams about
+what would it look like for Claude to
+have its own cursor.
+Could be cool, right? Like it's a
+computer, we can write code, we can
+touch everything. Like who says that
+computers need to have one cursor? We
+could do a second cursor. But that
+actually breaks down quite a bit, even
+if you go and like present cool dreams
+to both Apple and Microsoft. You're
+like, wouldn't it be cool if um it
+breaks down quite a bit, because so many
+of our models on the computer are built
+around this idea of like there's only
+one thing you're working on it. There's
+like a foreground app, a background app.
+Claude and Chrome can work in the
+background, but that's like within one
+application. But at the operating system
+layer, that is a lot harder to
+implement. So, I'm I'm still grappling
+with
+what what does it mean for Claude to
+actually act on your computer? Is the
+right format for Claude to have its own
+computer
+that you set up and maybe every now and
+then you like zoom in and you play with
+it, or is the right format for Claude to
+just like wait until you're
+stepping away for a little bit and take
+over while you're gone, or is the right
+move for Claude to just like have his
+own computer in the cloud and like
+whatever you want Claude to do you set
+up yourself. [laughter]
+Right? There's like a There's like a
+number of different options.
+Um this is a thing I think about a lot
+like what is the relationship between
+you and your computer
+and you and your data on the computer?
+Because how intimate that relationship
+is kind of depends on the tool and the
+thing that you're currently looking at,
+right? Like we're quite comfortable
+sharing some things, very uncomfortable
+sharing other things. And I think
+whatever product is going to be
+successful will have to
+deal with those like with those
+different things, but you probably even
+if Claude was capable of making a
+determination
+would you want Claude to make that
+determination in the first place? It's
+tricky, Barry, because it's like it's
+more than just privacy. It's like almost
+intimacy. And it's like tricky to reason
+about in a way
+that will make everyone comfortable.
+Yeah, I could see, you know, a virtual
+box, like actual virtual box app where
+like you run the VM and then you have
+like a screen within the screen, you
+know, you can put in the background, but
+then you can like jump in the screen.
+And like
+>> Hearing that's not a bad idea. Yeah. You
+know? Like I I mean I used to you know,
+people used to do that virtualizing like
+Kali Linux in a Windows machine. Yeah.
+And then you just jump in and then you
+would jump out, but it's like it's not
+like a dual boot. It's like within the
+thing. The problem is that you need
+twice the amount of RAM, twice the
+amount of, you know, it's like it's kind
+of taxing on the machine. But I think
+that would be cool. Kind of like see,
+you know, the little Claude window. I
+can see his desktop, like how cute it
+is, clicking around things.
+I was going to bring out he's the
+original machine in a machine guy
+because he has the Windows
+uh Windows 95 project. Where's Where's
+the Windows 95 project at? It's probably
+somewhere on my GitHub. No no no no no.
+I I It's like It's the first thing you
+see is this one. Nice. Yeah, it's
+>> Yeah, exactly. That was honestly a very
+fun project though. Like obviously I
+didn't I should I should say this just
+so that no one gets the wrong
+impression. I did not write the actual
+the actual Obviously I didn't build
+Windows 95 because I was a child. But
+also I did not build the actual engine
+that is capable of like simulating an
+x86 processor in JavaScript and
+WebAssembly.
+Um that's a tool called v86 which is
+very cool and everyone should try. But
+this came out of a This came out of like
+a debate we had at work where
+people were like they often are in the
+end of debating the merits of Electron
+and whether or not we should be building
+software in JavaScript. Yes or no?
+And I still am very upset that I can run
+all of Windows 95 in JavaScript and
+launch Microsoft Excel inside the
+virtualized JavaScript Windows 95
+machine and do things that I can do that
+entire chain faster than I can do a lot
+of other things in like traditional SAS
+applications. Mhm. Uh this is sort of
+like a like a performance rampage that I
+went on. So I mostly built this as a
+joke
+>> for some of my colleagues at Slack. This
+took took like one night. Um What? but
+then
+then I
+It was It was not hard to do. It was
+All the hard work is on v86. Like it's
+go to the repo. It's going to say like
+99% of this work is done by by a guy who
+goes after the by the name copy. His
+name is Fabian. Yeah. Um
+Cool. I think you're you're kind of back
+on the Windows grind because you're
+building on the Windows support. Uh I
+thought there were some really cool
+technical stories to tell uh and it
+gives people an appreciation of like
+well, here's how hard it is and here's
+how important how you invest in the
+sandbox. So maybe this is like a good
+opportunity to talk about some of the
+details. Oh yeah, the the VM honestly is
+like so cool. There's a lot of things we
+dislike about the VM, right? Like
+there's a lot of things that are real
+trade-offs
+and you want to know why you're making
+those trade-offs. Um you're right, there
+are a lot of people writing me like,
+"Hey, how how come Cloud is taking up 10
+GB?" I could say in the pod it's not
+actually taking up 10 GB. It's just like
+a way that Mac OS displays
+bytes is like wrong. But the way we
+actually write it to disk is by we
+collapse the empty space in the image.
+So it's not actually taking up 10 gigs.
+But that's a technical differentiation
+that's for a non-technical manager to
+lie. To me the the the how come is it
+takes too long to start. Yeah. It's like
+30 seconds sometimes or I don't know.
+Oh, it should be faster than that.
+Whatever. Fine. It's going to be 10, but
+it feels like 30. Yeah, like even either
+way, like whatever it is it's going to
+be it's going to be slower than just
+running Cloud Code directly on your
+computer, right? So the trade-offs are
+real. But what we're doing on Windows,
+we're using the Windows Windows host
+compute system. It's the same thing that
+WSL 2 runs on, like the Windows
+subsystem for Linux, that I think a lot
+of developers appreciate quite a bit.
+And it's it's pretty cool because we
+sort of like have to separate it out
+which system space the virtual machine
+runs in and who gets to talk to that
+virtual machine because obviously you
+give this virtual machine a decent
+amount of power, how do we optimize not
+just the connection between the two
+systems, but also how do we make sure
+that random other application doesn't
+get to talk to Cloud inside the VM. Mhm.
+We do some pretty interesting things.
+Um last week we started writing a new
+networking service and networking driver
+that optimizes how Cloud talks to the
+internet. If your company is doing like
+weird internet things, like packet
+inspection like T, like, you know,
+taking your pod as a cell inside your
+company.
+I think there was probably like a very
+small easy version to build of Cloud
+Code that is much simpler, but also
+breaks on most com most users'
+computers.
+And this one is quite nice because it
+works on most users' computers. Um and
+the default example I would go for is
+I I really want this to be highly
+effective on like a on like a machine
+that most people pick up. and that
+machine will probably not have Python,
+it will not have no JS. And even if I
+just take away those two things, Claude
+is going to be so much less effective on
+your computer.
+So, what do you do? You don't even I
+mean, maybe maybe require people to
+install Node and Python. Oh, like a you
+mean for like a what does the future
+look like without a VM? No, no, no. So,
+so like like you said, right? Let's say
+the target machine is whatever is at
+default spec Windows desktop. We do
+this, which is quite cool. So, on on
+your
+um Mac OS, we use the um Apple
+virtualization framework, which is
+pretty solidly optimized. Like, it's
+good stuff. And it's a very simple API
+call, right?
+>> It's just like super simple. I I saw the
+code recently, and I was like, "That's
+it? What the fuck?"
+>> Would you you once you start like
+shipping production code on it, you
+start adding like all of these edge
+cases you learn. Oh, yeah. It ends up
+being a little longer, but um I think
+Apple really cooked with the
+virtualization framework. It is very,
+very good. It is very fast, very
+reliable. And same on Windows, the the
+host compute system, I think WSL 2
+as well is maybe one of the diamonds
+within Windows. It's like one of the few
+things that developers universally rave
+about is very, very cool. And like
+hooking into the same subsystem makes it
+a lot easier for us to say, "We don't
+really care how locked down your
+computer is. Maybe it's like your
+employer's computer, and your employer
+has decided that you can install
+nothing." Mhm. Not trusted. But, it's
+true in a lot of environments, right?
+Like, even at Anthropic, um our IT
+department
+controls what kind of stuff we install,
+which is like a pretty common experience
+for many companies. Um and this
+gives IT departments a decent amount of
+like it makes their job so much easier
+because we can say you can separate out
+Claude's computer from the user's
+computer, and then for Claude's
+computer, what you probably care about
+is data loss, you care about like a
+potentially hostile actor, you care
+about maybe data being exfiltrated. And
+once you control the network and the
+file system layer, you don't really care
+necessarily anymore that Claude might be
+writing super useful Python scripts.
+What worries you about the fact is that
+like once you install Python, now anyone
+can do anything on your computer.
+But once you put that in a VM, that risk
+really goes down.
+Yeah. So, that's why we jump through all
+of these hoops. Yeah, I think you you
+had a different tweet about this, but it
+it's it's almost like
+people have also approve exhaustion.
+Mhm. It's like you can't approve every
+single commands. Like sometimes by by
+default some of the the CLIs I think you
+even early cloud code
+uh we have to approve every single
+command. Yeah. And and like it's so
+there is a sort of
+dichotomy between either approve every
+step or dangerously skip permissions.
+Yeah. And actually sandboxing is like
+kind of like the middle ground. Yeah, I
+do think I do think it it's maybe on us
+as like the industry to come up with
+something better than "Oh, this is super
+safe as long as it doesn't do anything."
+Right? And if you want this to be
+useful, then you have to like approve
+every single step of the way and like
+computer use is a good example. The only
+way to make computer use on your host
+like super safe,
+like really super safe, is probably if
+you approve every single action, right?
+Like models like I would like to type
+the word
+"L." You're like, "Okay, that seems
+fine." Cuz I know I know which like
+cursor is focused. Yeah, it's not
+automation if you don't delegate. Yeah,
+exactly. You need to like probably
+delegate. You need to be able to like
+delegate and walk away and trust that
+this thing is not going to like mess up
+automatically. And I don't even think we
+need to build perfect systems. I don't
+think we need to wait for like 100%
+model alignment. We can rely on the same
+Swiss cheese model we've used in the
+industry for a long time. But I do think
+we need to like universally maybe
+eventually invest more. And that's what
+we're doing. We need to invest more in
+systems where we can say you do not need
+to approve everything. Speaking of Swiss
+cheese model, I mean
+he just wrote a thing about this. Oh,
+cool. Yeah. Yeah. Um
+Yeah, so we're cool. I mean, yeah. It's
+it's weird how like I guess usually I
+think safety and security is kind of
+like a boring word to to engineers.
+They're like, "Just give me unsafety.
+Give me unsecure." But I think achieving
+the right thing like you're going after
+a consumer / prosumer. Yeah, yeah, kind
+of like both. I was kind of like both. I
+think I I also want to capture people
+who would have no trouble using Cloud
+Code like yourself. Yeah, yeah, yeah.
+But still find it maybe just convenient,
+easier. You're like, "Oh cool, that's
+like the to-do list on the right. I can
+edit it." Those things are just easier
+to do if you have to.
+>> Yeah, but this is like clearly the
+knowledge work side. Cloud Code will
+clearly capture the development
+workflow. But like I I I do think like
+you have to sweat this like safety and
+security details in order for people to
+trust it. And like the even Cloud and
+Chrome like having the whatever API uses
+to do the background thing Yeah. Um
+that's the only reason I use it. It's
+because otherwise I would have to just
+get a separate machine Yeah. and just
+run it run through it.
+>> sounds super annoying. Yeah, I mean like
+I'm currently doing it, but
+And I think I think also as developers
+um maybe we're we are more risk
+tolerant, but we're also just like
+accepting
+We are more risk tolerant, but I think
+we also just have like I don't want to
+say arrogance, but like sort of the
+trust of like the really bad thing
+happens we can probably fix it. I just
+tell Claude to like check with me before
+doing any irreversible action like
+sending an email or doing it
+permanently. It's good enough. But like
+not even Claude, I mean like simple
+things such as npm install. Like we're
+all running npm install with full user
+permissions and if it wants to like read
+.ssh it will.
+Crazy that that is the default. Kind of
+what Yeah, I know. I agree. I agree at
+the fine. Like I'm obviously doing it
+every single day. No, right? Like Uh
+and I think obviously npm and GitHub too
+have like done a pretty good job maybe
+over the last couple months to like
+clean house and come up with like more
+specific tokens. But generally speaking
+I think as engineers we've always been a
+little bit more risk tolerant. And if
+you do a little bit of introspection and
+you ask yourself
+is that how we should be doing things?
+You might not always come up with the
+right answer. And I think for models
+too. Like my approach like I'm not going
+to
+the safest thing is to do nothing.
+We do want products that are quite
+capable, but to the extent possible, I
+don't want to ask you, are you okay with
+the script? Because I kind of believe
+that
+once it starts becoming a part of your
+workflow, you're probably not either
+either you don't have the skill to
+understand whether or not this Python
+script is safe,
+or you're not going to read it anyway.
+Cool. I guess I have a couple parting
+questions. What's the future of Claude
+work?
+I think we're still we're still at such
+early days. We're going to keep shipping
+things that we're going to keep shipping
+things that
+um
+we're going to keep iterating on this
+thing like pretty quickly, by which I
+mean you can sort of continue to expect
+that every single week there's going to
+be like a small new feature, if not a
+big new feature.
+Um I'm going to continue probably to
+double down on your computer and like
+making you effective on your computer
+and making Claude effective on your
+computer. Um we're starting to grapple,
+as we talked about today, grapple more
+with the question of like what does it
+mean, what does your computer mean? Does
+it have to be the one in front of you?
+Or like a VM on your computer or like a
+computer somewhere else?
+And then the third thing that I'm quite
+excited about is
+continuing to go up this hill climbing
+on slowly taking users who are used to
+asking questions and getting an answer
+to slowly teaching them to like step
+more and more away and let Claude take
+over
+like bigger and bigger tasks and work
+both in time as well as in like scope.
+And I think you can probably see most of
+the our investments and our future
+releases to like work on both of those
+things.
+Like the ability to do more on your
+computer and then the ability to do more
+independently and for longer.
+Does remote control work for Claude work
+yet? No, right? Excellent question.
+>> Coming soon. I mean, that's an obvious
+thing if you want to keep betting on the
+on your computer. But I I to me like
+you know, we we talk about like people
+are not ready this year, like there
+there's there's no wall, it's it's
+accelerating. To me like what will be we
+be doing differently at the end of this
+year that, you know, we maybe not even
+thinking about this at the start of this
+year, right? Like I'm just trying to
+look ahead as to like what's like a good
+use case that you're that we sort of aim
+towards. So for example for the machine
+learning scientist it's always okay well
+I want AI scientist that can automate
+automate machine learning. But like for
+for knowledge work I mean I can already
+you know get it to sign up for Google
+Cloud to me as AGI. Cuz Google Cloud's
+but like what what is what's beyond that
+I don't know. I think it's basically the
+idea that like you still have to tell
+her to build your script right you were
+still kind of involved.
+>> Yes.
+>> And maybe a way that felt kind of
+magical to you but like maybe to me on
+the other side as the person building
+this product still feels kind of
+heavy-handed. I see so much process that
+I'm like oh let me take that away from
+you. Okay.
+>> Or like how do I just go I will
+continuously to go will continue to go
+like further and further up the stack
+and make your life easier and easier. Oh
+here's one right?
+>> Yeah. Watch
+uh
+I you know I don't care about my own
+privacy or whatever or I trust I trust
+Anthropic. So just watch everything I do
+on a normal day-to-day basis. At the end
+of the day tell me what
+you is called co-workable. Yeah.
+>> You
+like for good reason I don't enjoy I I
+don't
+feel my entire career I've never like
+teased too much what I'm working on
+because I think you should just like
+yeah to release it. Yeah build the days
+and release it.
+>> And then talk about it like I'm I'm not
+a big fan of the like
+vague posting on work ahead of time. But
+the thing that is like always so
+fascinating to me is like both of you
+all multiple times today you've like
+mentioned things and I'm like yeah that
+is obviously like very obvious okay that
+someone should be working on those
+things. Um and I think we're still in
+the space where if you look at co-work
+the things that we were releasing will
+probably not be a big surprise to either
+of you you're going to be like yeah
+obviously that's valuable. Obviously
+they were working on those things.
+>> Yeah yeah.
+>> And obviously that's good and useful.
+And the more I hit the those points the
+more our future is fitting into that
+category I think the better it is for
+us. Because then we don't end up
+building things that are too hyper
+specialized or too difficult to
+understand. Yeah I think the hyper
+specialized thing is very important. It
+it keeps you like general purpose it
+means you're not thinking too small
+maybe. I don't I don't know what the the
+word is. Yeah, yeah, exactly. It's like
+the whole concept that like at no point
+did we release
+you know, there's no cloud code for
+Node.js applications that use React and
+TanStack and all of those two things.
+And like if it's anything else I know
+several startups like that.
+I think that's pretty like I'm not a VC,
+I'm not an investor. It's like hard for
+me to predict where the market's go. But
+in terms of the building blocks that I'm
+interested in, the Electron is probably
+by far the most popular thing I ever
+built. And
+um Electron itself is like
+very abstractable and generalizable,
+right? Like so many apps are running in
+it. And I think it would have been hard
+for me to predict how many apps actually
+end up using Electron. Yeah. Um and what
+would have been even less useful for me
+to predict is in what those apps do. I
+do remember Bloom coming out and being
+like that is cool. Like you're a camera
+in a little circle in the corner. That
+is pretty smart. That's an Electron app?
+Yeah. Or at least was. I'm not sure if
+it still is. It was for a while. Like
+one pop. That's why it has so many
+interesting things, right? It's it's
+it's it's a level of the stack that I'm
+quite comfortable with and
+whenever I give other engineers advice,
+it's actually that layer that I think is
+most valuable to invest in because the
+tools of the layer are not that good,
+but that's where you get the most
+leverage
+for like the future in general. Just
+quick tangent on Electron cuz I always
+wondered this. Uh have you looked at
+Tauri? I have, yeah. What's your take?
+You know, my my my my view is like most
+things should be Tauri by default unless
+you really need the full power of
+Electron. But Yeah, I can give like my
+take on I can give my big take. Why do
+we ship an entire version of Chromium
+inside the thing, right? Like why do we
+do that? And
+um people ask me this question a lot
+because it's like very counterintuitive.
+Wouldn't it be much easier to use the
+web views that are on the operating
+system? Wouldn't it be much easier not
+to have to do that? And the answer is
+yes. And like obviously I did that once
+upon a time I did that. There was a
+version of the Slack app that used just
+the operating system web views. Did you
+Did you start the Slack app? I would
+Well, team effort and end, but I was I
+was there and we built this stack up.
+Yeah, that's crazy.
+I mean, obviously you get the electron
+guy to do it, but
+>> Well, but this is an interesting find.
+Like, by the time by the time I joined
+Slack, they already had an app that was
+built with something at the time called
+Mac app that was a little bit like the
+same app gap thing for mobile. It just
+used the operating systems that use
+Um and that didn't work for like so many
+reasons. Um and then we're like, all
+right, we we need like bigger guns. We
+need like take more control of the
+rendering stack. And there's there's a
+few things I always mention here. Um
+I think if you're building a small app,
+just going with the operating systems
+that use perfectly fine. If you're
+building an app, maybe that doesn't have
+too many users who would like cry bloody
+murder if it doesn't work, that is fine.
+The reason to go with your own embedded
+rendering engine is because and this is
+still true in 2026, the operating system
+rendering engines are not that good.
+They're just not that good. Both
+Microsoft and Apple are trying to move
+away from that. They so far really
+haven't. The only way to upgrade those
+is to upgrade your operating system.
+So, if you're say a Slack and you have a
+critical rendering bug in
+WOK web view and then some of the other
+web view options, your only recourse is
+to tell your customer, oh sorry, you're
+too poor, you didn't buy the latest
+MacBook. Unacceptable. Unacceptable to
+user, unacceptable to user developer.
+So, you sort of need to like go down the
+stack and like find the best rendering
+engine and put it in your app. Why
+Chromium, even though it's very big?
+Chromium is by far the best thing. Like,
+I I often like to remind people the
+Unreal Engine. You want to render some
+text, they use Chromium.
+Like, Chromium is part of the Unreal
+Engine for the same purposes. Chromium
+is very, very good. I think it's like
+one of the marvels of engineering. It's
+very hard from where it's San Francisco
+right now where we're recording, most of
+the people in the city are web
+developers. It's hard for me to like
+overstate how magical it is that you can
+run seat like rendering a YouTube video,
+dynamically negotiating a bit rate,
+figuring out what to do about your
+extremely broken hardware driver.
+Actually, this is a fun thing.
+You can enter Chrome colon whack-whack
+GPU.
+And if you scroll down a little bit,
+these are all the enabled workarounds
+because something is going wrong on your
+computer. If you're doing this on a
+Windows computer with like a GPU that is
+not the most popular GPU, it will be
+much longer. And all of these are
+usually just there to make sure that if
+I say as a developer, I want a red pixel
+to appear here, that that actually
+happens. Chrome is such a marvel because
+it works on all the machines that a user
+might throw at you, and it's going to
+work fairly reliably. And if it doesn't,
+they will probably fix it within 24
+hours. As is. So, this is the super
+operating system, right? That that works
+everywhere. Yeah. All right. Okay. Yeah.
+So, a lot of the magic of Electron is
+honestly just that it makes it very easy
+for you to ship Chromium in a way that
+serves you exactly in your use cases
+electron exactly. Our next interview was
+with Martin Grissom who had the phrase
+like desktop OS's are just poorly
+poor
+implications of the the actual OS, which
+is Chrome, which like actually works
+everywhere.
+It is this this is the platform where
+you ship apps. As I think the wild thing
+is that as engineers, we so often sort
+of assume that the platform like the
+layer below us is like super stable. And
+then you talk to those people and
+they're like, "Yeah, we're also just
+like guessing." Um
+uh and I had like a distinct moment at
+Slack where one of our customers at
+Slack was Nvidia, and
+for a while, I really put GPU developers
+on this pedestal in my head. And I do
+think they're still probably much
+smarter than I am.
+But I was like, "Hardware engineers who
+built the chips, who then like built the
+drivers,
+their work must be so much harder than
+mine. They must be very good."
+And we had like one bug in Slack where
+like if you had a YouTube video in
+Slack, it wouldn't quite render why like
+it would have these weird artifacts.
+And um that ended up being Chromium bug
+and ended up on this like giant thread.
+So I got to see a lot of the source code
+and they also are just like
+comment to do we don't know why this is
+weird but if you flip this bit things
+work. You know, this is just like
+happening at every layer of the stack.
+Maybe the
+you know the the end of year AGI
+prediction is that Cloud can build
+Chromium.
+>> You see you see you laugh now but I like
+you know someday it's it's starting to
+get pretty good like you know you should
+completely useless
+mostly just like overwhelmed both with
+whole hyper specialized tools are inside
+the Chromium repo.
+Like for for a long time the
+Chromium had to like sort of reinvent
+all the tools because none of them were
+capable of handling Chrome.
+I think the AGI moment I'm kind of
+waiting for is at what point are we
+going to say Electron is probably no
+longer necessary because you can just
+build fully native apps. The Swifty?
+Yeah, like not just in Swift because
+this is one thing like it's pretty easy
+if you I think our current models are
+quite capable of taking an Electron app
+and replicating it Swift. Are they going
+to be capable of like building an app
+that is actually more performant, uses
+less memory, all of that stuff?
+Um is going to go into the same hyper
+optimization that developers have done
+for like a long time?
+We're not quite there yet where I can
+like point even our best models at a
+thing and say just replicate this in
+native code.
+Make no mistakes or try think, right?
+We're not quite there yet.
+Um I don't just think it's bad. Today I
+think it's back. Yes. Okay. Or or we'll
+get a neural think for like days. Which
+is a pretty long time for Bora. But he
+worked on neural think for days?
+>> Yeah. Why? It's just it's just a
+front.
+A little More goes into it. Yeah, okay.
+Another question I had is like co-works.
+So if I have my Cloud co-work, like
+what's kind of like the multiplayer
+mode? I think sub-agents is like single
+player split up the context. Yeah. And
+the multiplayer co-work is like my
+colleague has some file on their machine
+that I want to know about or I want to
+know how their task is going to then
+update my thing. Like is that
+interesting? Is that something that
+makes sense for you to build or for like
+It's like super interesting to me. It it
+almost goes back to like some of the
+scaffolding where I'm like, okay, are we
+going to be end up are we will we end up
+building scaffolding that will just go
+away? And like a question and a half
+year is at what point do we just assign
+these things
+like their own Gmail account and we just
+give them their own like Slack handle
+and then they will just like use the
+same tools we humans use to interact
+with each other. You mentioned our
+finance people. They've been working
+pretty hard on very good office
+integrations.
+And I think for a while we built like we
+built so much tech around Claude leaving
+useful comments inside a Google Doc and
+now just does it. Just like leaves a
+comment in your Google Doc and that's
+how you interact with it. Maybe like the
+similar thing where I still have open
+questions around what is the best
+interaction mode? Is it for us to build
+something super custom for Claude agents
+to talk to each other? Or is it okay,
+let's just jump straight to the finish
+line and say we'll we're just going to
+give this thing if you use Slack at
+work, we're just going to give this
+thing a Slack handle and that's going to
+be the way it's like multiplayer
+capable. They communicate with each
+other. Yeah. Like you know, as as a fun
+project I built this thing called
+PiQueue which basically takes any repo
+and the Pi agent coding agent, it puts
+it in a VPS and then there's a public
+webhook where anybody can submit a
+coding task.
+And then there's a dashboard in which
+you review the task and then you
+Pi p i q
+>> Yeah, you basically got all these like
+tasks. Anybody can submit a task.
+And to me it's almost like
+in the organization of the future, it's
+like the sales people are talking to the
+engineering team that is talking to the
+marketing team, to the product team.
+And all these co-workers going to like
+queue up decisions for other people to
+approve in a way. Yeah. You know, and
+I'm kind of curious what that looks like
+and like how do you how do I give my
+co-work the ability to both approve
+tasks without asking me. Yeah. And how
+to decide which one I need to review.
+Yeah. You know, because for some of
+these things is like, you know, you want
+to change the color or something, that's
+kind of like a branding decision. Or
+another one is like, hey, your thing is
+just broken. It's like this is like how
+you fix it. And Claude can actually
+review whether or not that prompt
+matches what it's trying to do. Today
+everything is still very
+it's like multiplayer within the single
+player, you know, I guess they have not
+many of them. But like how do I get
+multiple people
+to hand off to each other things using
+their particular context?
+>> Yeah, and for both of your co-workers to
+like talk to each other, right? Right.
+Yeah, hey, we got an episode today. Can
+you like have you, you know, or Yeah,
+this is like a I know we're like running
+out of time here, but like we we
+previously talked about sharing skills
+and I could have this question of like
+what if your co-work like ask the other
+co-works if they have a skill for this
+task. Does any of these could do it,
+right? Like okay, so skill transfer.
+Yeah, like
+and again this maybe a
+>> this maybe
+this maybe goes back into the territory
+of like building something very powerful
+and building something creepy often goes
+hand in hand
+because I could tell from the reaction
+that my fellow engineers had that this
+is probably not what we're going to do,
+but like
+we have Bluetooth LE, right? Like I this
+computer can figure out that it's
+sitting right next to this computer. So
+you're probably working on the same
+thing. Um will you see that in co-work?
+Probably not. But um there's like I
+think really creative solutions to
+problems that we really haven't tried
+yet.
+>> Yeah, yeah, yeah, yeah. Excellent. I
+guess the the last thing is that
+Anthropic Labs I always have this mental
+model of a model lab versus agent lab
+and this is basically Anthropic's
+internal agent lab which Claude code
+is now under, right? It's part of the
+whole org. I mean people are so
+fungible, right? Like okay, this is just
+I don't know how I don't know how real
+this is.
+No, it's a real team. It's a real team.
+The the last team is primarily working
+though on things that you don't see in
+public yet.
+They're trying like really wild out
+there ideas that seem quite improbable.
+The mad scientist but you you're are you
+officially under this thing or No, we're
+we're so code is
+now Cloud Code is like a fairly big
+group where
+I actually don't know how many people we
+have like I remember yesterday coming
+into our weekly co-work meeting and I
+was like whoa, this is
+>> a lot of people here.
+But we still have a labs team and we
+actually made the labs team a lot
+bigger. Mike just joined the labs team
+as a as an IC which I think is very cool
+and very fun.
+But they're they're working on things
+that you have not seen yet that are
+extremely out there and probably half
+broken, right? Like the sort of the idea
+of a labs team is that it should only
+work on things that make really no sense
+for anyone else to work on. Okay, well
+we're looking for exciting things from
+there. But thank you so much. I know
+we're out of time but I appreciate your
+joining us. I appreciate Cloud Co-work.
+Everyone go use it. It is
+the closest I've felt to AGI this year.
+That's so nice of you to say. Thank you
+very much. Yeah, thank you for your
+time. Yeah.

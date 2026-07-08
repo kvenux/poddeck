@@ -1,0 +1,99 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "y-axis", "type": "line",
+      "x": 80, "y": 100, "width": 0, "height": 380, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [0, 380]], "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": null
+    },
+    {
+      "id": "x-axis", "type": "line",
+      "x": 80, "y": 480, "width": 720, "height": 0, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [720, 0]], "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": null
+    },
+    {
+      "id": "y-label", "type": "text", "x": 40, "y": 100, "width": 100, "height": 24, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "能力", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "能力", "lineHeight": 1.25, "baseline": 15
+    },
+    {
+      "id": "x-label", "type": "text", "x": 740, "y": 490, "width": 100, "height": 24, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 16, "fontFamily": 1, "text": "时间 →", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "时间 →", "lineHeight": 1.25, "baseline": 15
+    },
+    {
+      "id": "us-curve", "type": "line",
+      "x": 80, "y": 440, "width": 700, "height": 300, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 3, "strokeStyle": "solid", "roughness": 1.5, "opacity": 100, "groupIds": [],
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [120, -40], [240, -140], [360, -160], [480, -220], [600, -240], [700, -300]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "us-label", "type": "text", "x": 630, "y": 100, "width": 180, "height": 30, "angle": 0,
+      "strokeColor": "#1971c2", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "美国前沿", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "美国前沿", "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "cn-curve", "type": "line",
+      "x": 80, "y": 460, "width": 700, "height": 260, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 3, "strokeStyle": "solid", "roughness": 2, "opacity": 100, "groupIds": [],
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [80, -20], [140, -20], [220, -100], [280, -100], [380, -170], [440, -170], [540, -220], [600, -220], [700, -260]],
+      "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": "arrow"
+    },
+    {
+      "id": "cn-label", "type": "text", "x": 630, "y": 200, "width": 180, "height": 30, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 20, "fontFamily": 1, "text": "中国实验室", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "中国实验室", "lineHeight": 1.25, "baseline": 18
+    },
+    {
+      "id": "step-note", "type": "text", "x": 200, "y": 340, "width": 300, "height": 24, "angle": 0,
+      "strokeColor": "#e8590c", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 9, "version": 1, "versionNonce": 9, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1, "text": "阶梯 = 等待发布, 中国这段更短", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "阶梯 = 等待发布, 中国这段更短", "lineHeight": 1.25, "baseline": 13
+    },
+    {
+      "id": "gap", "type": "line",
+      "x": 600, "y": 200, "width": 0, "height": 40, "angle": 0,
+      "strokeColor": "#868e96", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 2, "strokeStyle": "dashed", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 10, "version": 1, "versionNonce": 10, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "points": [[0, 0], [0, 40]], "lastCommittedPoint": null, "startBinding": null, "endBinding": null, "startArrowhead": null, "endArrowhead": null
+    },
+    {
+      "id": "gap-label", "type": "text", "x": 440, "y": 210, "width": 200, "height": 20, "angle": 0,
+      "strokeColor": "#495057", "backgroundColor": "transparent", "fillStyle": "solid",
+      "strokeWidth": 1, "strokeStyle": "solid", "roughness": 1, "opacity": 100, "groupIds": [],
+      "seed": 11, "version": 1, "versionNonce": 11, "isDeleted": false, "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 14, "fontFamily": 1, "text": "6-9 个月基准差距", "textAlign": "left", "verticalAlign": "top",
+      "containerId": null, "originalText": "6-9 个月基准差距", "lineHeight": 1.25, "baseline": 13
+    }
+  ],
+  "appState": {"gridSize": null, "viewBackgroundColor": "#ffffff"},
+  "files": {}
+}

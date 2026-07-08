@@ -1,0 +1,105 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "b1", "type": "rectangle",
+      "x": 40, "y": 60, "width": 260, "height": 130, "angle": 0,
+      "strokeColor": "#2f9e44", "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 1, "version": 1, "versionNonce": 1, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t1", "type": "text",
+      "x": 60, "y": 80, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 2, "version": 1, "versionNonce": 2, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "1. Status quo\n\nNo war, no blockade\nChina keeps industrializing",
+      "textAlign": "left", "verticalAlign": "top", "containerId": null,
+      "originalText": "1. Status quo\n\nNo war, no blockade\nChina keeps industrializing",
+      "lineHeight": 1.25, "baseline": 60
+    },
+    {
+      "id": "b2", "type": "rectangle",
+      "x": 340, "y": 60, "width": 260, "height": 130, "angle": 0,
+      "strokeColor": "#e03131", "backgroundColor": "#ffc9c9",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 3, "version": 1, "versionNonce": 3, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t2", "type": "text",
+      "x": 360, "y": 80, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 4, "version": 1, "versionNonce": 4, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "2. Stronger indep.\n\nDPP pushes harder\n→ China moves aggressively",
+      "textAlign": "left", "verticalAlign": "top", "containerId": null,
+      "originalText": "2. Stronger indep.\n\nDPP pushes harder\n→ China moves aggressively",
+      "lineHeight": 1.25, "baseline": 60
+    },
+    {
+      "id": "b3", "type": "rectangle",
+      "x": 40, "y": 230, "width": 260, "height": 130, "angle": 0,
+      "strokeColor": "#f08c00", "backgroundColor": "#ffec99",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 5, "version": 1, "versionNonce": 5, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t3", "type": "text",
+      "x": 60, "y": 250, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 6, "version": 1, "versionNonce": 6, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "3. KMT wins\n(Dylan's pick)\n\nChina placated, export\ncontrols still hold",
+      "textAlign": "left", "verticalAlign": "top", "containerId": null,
+      "originalText": "3. KMT wins",
+      "lineHeight": 1.25, "baseline": 60
+    },
+    {
+      "id": "b4", "type": "rectangle",
+      "x": 340, "y": 230, "width": 260, "height": 130, "angle": 0,
+      "strokeColor": "#862e9c", "backgroundColor": "#eebefa",
+      "fillStyle": "hachure", "strokeWidth": 2, "strokeStyle": "solid",
+      "roughness": 1.5, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": {"type": 3},
+      "seed": 7, "version": 1, "versionNonce": 7, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false
+    },
+    {
+      "id": "t4", "type": "text",
+      "x": 360, "y": 250, "width": 220, "height": 80, "angle": 0,
+      "strokeColor": "#1e1e1e", "backgroundColor": "transparent",
+      "fillStyle": "solid", "strokeWidth": 1, "strokeStyle": "solid",
+      "roughness": 1, "opacity": 100,
+      "groupIds": [], "frameId": null, "roundness": null,
+      "seed": 8, "version": 1, "versionNonce": 8, "isDeleted": false,
+      "boundElements": [], "updated": 1, "link": null, "locked": false,
+      "fontSize": 18, "fontFamily": 1, "text": "4. Coup / invasion\n\nPolitical coup most likely,\nfull invasion tail risk",
+      "textAlign": "left", "verticalAlign": "top", "containerId": null,
+      "originalText": "4. Coup / invasion",
+      "lineHeight": 1.25, "baseline": 60
+    }
+  ],
+  "appState": { "gridSize": null, "viewBackgroundColor": "#ffffff" },
+  "files": {}
+}

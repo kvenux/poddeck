@@ -1,0 +1,30 @@
+id: x9rWFiIubmc
+source: latent-space
+title: "Claude Code for Finance + The Global Memory Shortage"
+guest: "Doug O'Laughlin"
+guest_role: "SemiAnalysis 合伙人 · 半导体分析师"
+published: 2026-01
+duration: ~2h20min
+url: https://youtube.com/watch?v=x9rWFiIubmc
+thumbnail: https://img.youtube.com/vi/x9rWFiIubmc/maxresdefault.jpg
+status: generated
+category: business
+tags:
+  - deep-dive
+  - interview
+  - investor
+  - chips
+  - coding-agents
+  - strategic
+summary: |
+  半导体分析师 Doug O'Laughlin (SemiAnalysis) 上 Latent Space 分享他被 Claude Code 4.5 击穿的故事——从投研工作流的重写、Excel/Bloomberg 之死,到全球 HBM/DRAM 内存荒 (4:1 转换比、DRAM 现货价可能再翻一倍)、Microsoft 在 AI 时代的两难、Codex 5.3 的反扑、TPU V7 的市场窗口,以及 6 个月徒步 Continental Divide Trail 教会他的 self-mastery。
+core_ideas:
+  - Sonnet 4.5 是 chasm 被跨过的信号 —— Claude Code 从"边缘工具"变成"每日基线",Doug 愿意每年付 20-30k 使用
+  - LLM 是专家的乘数放大器,不是 junior 的替代品 —— junior 如果直接 review 而不做原始工作,永远建立不起 embedded judgment
+  - Excel 和 Bloomberg 是分析师的 IDE —— 都会死。Claude for Excel 只是过渡形态,像给马车装引擎
+  - 'Microsoft 有最多东西可失: "renting barbarians at the gate" —— Azure 每年武装的对手,正在挖 Office 家族的墙脚'
+  - HBM 4:1 榨汁比 + 三年零扩产 = 自 1996 年以来最严重的内存短缺 —— DRAM 价格可能再涨 100%,iPhone 现货价将随之上涨
+  - AI capex 已追上、并即将超过美国铁路时代 —— 铁路建设 45 年 3 次 boom-bust,AI 可能重演;Stargate 单项就是 2% GDP
+  - Context window 停在 1M 已经 2 年了 —— Doug 预测未来会出现"context rationing",按 context 长度付费
+  - 'CDT 6 个月徒步 2800 英里教会 Doug: "self-mastery is your most important tool use" —— 在什么都能被 automate 的时代,对自己的 tool use 是最后的护城河'
+base: /episodes/x9rWFiIubmc/
