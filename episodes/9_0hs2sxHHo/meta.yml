@@ -8,6 +8,7 @@ duration: "1h 56m"
 url: https://youtube.com/watch?v=9_0hs2sxHHo
 thumbnail: https://img.youtube.com/vi/9_0hs2sxHHo/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [ai-research, coding-agents, startup, interview, ceo, technical, strategic]
 summary: |
   Eiso Kant 复盘了从早期 code models 失败到 Poolside 模型工厂的路径，并解释为何开放权重还不够，开放研究才真正降低新模型公司的进入门槛。对谈还深入讨论了小模型的持久行为、agent 反哺研究、极简 harness、RL 的日历时间瓶颈，以及开放模型的治理边界。
