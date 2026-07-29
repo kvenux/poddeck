@@ -2,10 +2,18 @@ source: latent-space
 refreshed_at: 2026-06-02T00:38:29.937Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 45
-done: 14
+total_candidates: 46
+done: 15
 pending: 28
 episodes:
+  - id: 9_0hs2sxHHo
+    title: "The AI Frontier: from open weights to open research — Eiso Kant, Poolside AI"
+    duration: 6250
+    upload_date: "20260722"
+    url: https://youtube.com/watch?v=9_0hs2sxHHo
+    status: generated
+    priority: 0
+    category: update-2026-07-28
   - id: jPtQlILfkhA
     title: "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He"
     duration: 6282

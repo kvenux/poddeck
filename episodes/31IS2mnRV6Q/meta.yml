@@ -1,0 +1,26 @@
+id: 31IS2mnRV6Q
+source: mlops-community
+title: "Sandboxing, Agent Harnesses, and Agent Teamwork"
+guest: "Shahram Anver"
+guest_role: "Cleric co-founder and CEO"
+published: 2026-07
+duration: 80 min
+url: https://youtube.com/watch?v=31IS2mnRV6Q
+thumbnail: https://img.youtube.com/vi/31IS2mnRV6Q/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - interview
+  - ceo
+  - technical
+  - strategic
+summary: |
+  Shahram Anver 以 Cleric 的演化为线索，解释为什么更强的模型需要更坚固的 sandbox，而生产级 AI SRE 的耐久壁垒正在从调查 loop 下沉到环境、验证与学习。对谈进一步讨论人类如何转向例外审批与品味判断，以及 coding、SRE、security agents 如何形成有治理的协作团队。
+core_ideas:
+  - Harness 的目标是提供快反馈、合适上下文与可承受的行动边界
+  - 模型能力提升后，刚性工具应让位于箱内自由与箱外强隔离
+  - 生产级 AI SRE 的难点是环境、验证与可复利的 operational memory
+  - 人类价值从逐步执行转向方向判断、例外审批与 taste
+  - Agent 团队需要隔离、共享决策状态与显式治理结构
+base: /episodes/31IS2mnRV6Q/

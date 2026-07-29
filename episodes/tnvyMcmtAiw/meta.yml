@@ -1,0 +1,28 @@
+id: tnvyMcmtAiw
+source: guigu101
+title: "对话Vincent Koc：OpenClaw的反思与进化，中国的“小龙虾”狂热，与Agent的下一步"
+guest: "Vincent Koc"
+guest_role: "OpenClaw Foundation Chief Architect"
+published: 2026-07
+duration: 1h05m
+url: https://youtube.com/watch?v=tnvyMcmtAiw
+thumbnail: https://img.youtube.com/vi/tnvyMcmtAiw/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - productivity
+  - interview
+  - engineer
+  - technical
+  - strategic
+summary: |
+  Vincent Koc 复盘 OpenClaw 从全球热潮走向稳定基础设施的过程：团队如何在高速 Agent 开发中犯错，又如何用测试工厂、AI review 与权限边界把可靠性补回来。对谈也深入讨论中国的快速采用、个人 Agent 与 coding agent 的差异、模型和 harness 的共同作用、记忆难题，以及基金会为何坚持做跨模型生态的中立层。
+core_ideas:
+  - 热度回落后实际采用继续增长，稳定性改进比短期声量更重要
+  - Personal Agent 通过持续记忆、工具和自修改能力跨出 coding agent 的边界
+  - Agent 安全需要凭据、容器、操作系统、意图判断与模型护栏共同作用
+  - 模型能力与 harness 缺一不可，记忆和多租户仍是未解决的核心问题
+  - 多 Agent 设计应从工作和上下文出发，避免复制旧组织结构
+  - 开源基金会希望成为跨模型、跨公司与跨国家的中立 Agent 基础层
+base: /episodes/tnvyMcmtAiw/

@@ -2,10 +2,18 @@ source: xiaojun
 refreshed_at: 2026-06-02T00:38:29.819Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 19
-done: 2
+total_candidates: 20
+done: 3
 pending: 5
 episodes:
+  - id: fww9LN9baKQ
+    title: 147. 和蚂蚁灵波沈宇军聊：机器人原生基础模型、大脑和本体的关系、预训练与数据scale up、老师汤晓鸥
+    duration: 6774
+    upload_date: "20260722"
+    url: https://youtube.com/watch?v=fww9LN9baKQ
+    status: generated
+    priority: 0
+    category: update-2026-07-28
   - id: rUjaLPE3mME
     title: "He Xiaopeng: Robot IRON's Birth, The Accident, GX, His Big Bet & Swimming in Blood"
     duration: 5172

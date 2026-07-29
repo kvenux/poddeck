@@ -1,0 +1,21 @@
+id: fww9LN9baKQ
+source: xiaojun
+title: "147. 和蚂蚁灵波沈宇军聊：机器人原生基础模型、大脑和本体的关系、预训练与数据scale up、老师汤晓鸥"
+guest: "沈宇军"
+guest_role: "蚂蚁灵波首席科学家"
+published: 2026-07
+duration: "约113分钟"
+url: https://youtube.com/watch?v=fww9LN9baKQ
+thumbnail: https://img.youtube.com/vi/fww9LN9baKQ/maxresdefault.jpg
+status: generated
+tags: [ai-research, robotics, startup, interview, researcher, deep-dive, technical, strategic]
+summary: |
+  沈宇军从视觉生成研究讲到蚂蚁灵波的具身原生路线：为什么机器人大脑需要从物理世界需求出发，重做视觉预训练、实时架构与跨本体数据管线。对谈也给出当前能力的边界——位置随机性已有进步，但机器人的 GPT-1 时刻仍取决于可规模化、可被模型使用的数据。
+core_ideas:
+  - 通用机器人大脑不仅要跨任务、跨场景，还要在预训练阶段跨本体学习
+  - 数字世界追求画质与完整生成，物理世界更看重空间、实时性与因果单向建模
+  - Vision、Depth、VLA、Video、World 的能力最终汇入面向控制的 VA 2.0
+  - 机器人数据从两万小时扩到六万小时，但分布、清洗、操作员与跨本体 SOP 才是核心难点
+  - 位置泛化已出现突破，任务零样本泛化仍受数据规模限制
+  - 具身数据能否从十万小时迈向百万小时，决定机器人的 GPT-1 时刻何时出现
+base: /episodes/fww9LN9baKQ/

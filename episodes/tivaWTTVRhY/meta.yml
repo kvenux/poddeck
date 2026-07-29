@@ -1,0 +1,27 @@
+id: tivaWTTVRhY
+source: lennys-podcast
+title: "How Anthropic builds products like Claude Code before the AI models are ready | Dianne Penn"
+guest: "Dianne Penn"
+guest_role: "Anthropic Head of Product, AI Research and Labs"
+published: 2026-07
+duration: 1h34m
+url: https://youtube.com/watch?v=tivaWTTVRhY
+thumbnail: https://img.youtube.com/vi/tivaWTTVRhY/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - product-management
+  - interview
+  - product-lead
+  - technical
+  - strategic
+summary: |
+  Dianne Penn 复盘 Anthropic 如何让研究、模型与产品共同演进：从 Golden Gate Claude 和 Opus 3 的 coding 押注，到 Claude Code 与更强模型互相解锁。她也解释了为什么 evals 正在成为研究型 PM 的核心产物，以及在生成越来越便宜后，判断、验证和亲手 shipping 为什么更加重要。
+core_ideas:
+  - 前沿模型需要前沿产品载体，模型能力与用户采用会互相放大
+  - Labs 对方向保持坚定、对原型保持松动，并在新模型出现后重访旧下注
+  - 研究型 PM 把模糊用户反馈拆成可复现、可测量、可训练的 eval
+  - 管理者必须持续亲手 shipping，才能维持对快速变化的模型能力边界的判断
+  - AI 应当反驳并拓展人的思考，最终判断、验证与签字责任仍由人承担
+base: /episodes/tivaWTTVRhY/

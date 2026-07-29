@@ -2,10 +2,18 @@ source: guigu101
 refreshed_at: 2026-06-20T00:00:00.000Z
 min_duration: 1800
 min_date: "20220101"
-total_candidates: 71
-done: 39
+total_candidates: 72
+done: 41
 pending: 0
 episodes:
+  - id: tnvyMcmtAiw
+    title: 对话Vincent Koc：OpenClaw的反思与进化，中国的“小龙虾”狂热，与Agent的下一步
+    duration: 3700
+    upload_date: "20260721"
+    url: https://youtube.com/watch?v=tnvyMcmtAiw
+    status: generated
+    priority: 0
+    category: update-2026-07-28
   - id: ULi-TCF2cQE
     title: 美国AI研究员的中国之旅：年轻人，追赶者，算力焦虑与"AGI展示厅" ｜专访Nathan Lambert【101视频播客】
     duration: 5225

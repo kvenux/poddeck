@@ -1,7 +1,7 @@
 // Execute pending entries in data/plans/*.yml:
 //   1. download subtitle via yt-dlp → data/transcripts/<id>.txt
 //   2. scaffold episodes/<id>/ from _templates
-//   3. invoke claude -p to generate slides.md + meta.yml
+//   3. invoke claude -p or codex exec to generate slides.md + meta.yml
 //   4. update plan entry status (pending → generated | failed)
 //
 // Usage:
@@ -9,6 +9,7 @@
 //   pnpm run plan:run -- --id=lex-fridman          # only this source
 //   pnpm run plan:run -- --limit=3                 # process at most N episodes
 //   pnpm run plan:run -- --concurrency=2           # parallel generation
+//   pnpm run plan:run -- --engine=codex --model=gpt-5.6-sol --effort=xhigh
 //   pnpm run plan:run -- --dry-run                 # show what would be done
 //
 // Status updates are written back to data/plans/<source>.yml after each episode.
@@ -19,7 +20,7 @@ import {
   readFileSync, writeFileSync, existsSync, mkdirSync, cpSync, readdirSync, unlinkSync,
 } from 'node:fs'
 import { glob } from 'node:fs/promises'
-import { spawn } from 'node:child_process'
+import { spawn, execSync } from 'node:child_process'
 import { readYaml, writeYaml } from './lib/yaml-io.ts'
 import { run as shellRun } from './lib/spawn.ts'
 import { downloadAutoSubs, cleanVtt } from './lib/yt.ts'
@@ -42,6 +43,14 @@ const limit = Number(process.argv.find(a => a.startsWith('--limit='))?.split('='
 const concurrency = Number(process.argv.find(a => a.startsWith('--concurrency='))?.split('=')[1] ?? 1)
 const dryRun = process.argv.includes('--dry-run')
 const onlyCategory = process.argv.find(a => a.startsWith('--category='))?.split('=')[1]
+const engine = process.argv.find(a => a.startsWith('--engine='))?.split('=')[1] ?? 'claude'
+const model = process.argv.find(a => a.startsWith('--model='))?.split('=')[1]
+  ?? (engine === 'codex' ? 'gpt-5.6-sol' : 'opus')
+const effort = process.argv.find(a => a.startsWith('--effort='))?.split('=')[1] ?? 'xhigh'
+
+if (engine !== 'claude' && engine !== 'codex') {
+  throw new Error(`unsupported engine: ${engine}`)
+}
 
 // Shared state for rate-limit detection and token tracking
 let rateLimited = false
@@ -137,6 +146,19 @@ function resolveClaudeBin(): string {
   throw new Error('cannot locate @anthropic-ai/claude-code/bin/claude.exe')
 }
 
+function resolveCodexBin(): string {
+  try {
+    const npmRoot = execSync('npm root -g', { encoding: 'utf-8' }).trim()
+    const p = join(
+      npmRoot,
+      '@openai', 'codex', 'node_modules', '@openai', 'codex-win32-x64',
+      'vendor', 'x86_64-pc-windows-msvc', 'bin', 'codex.exe',
+    )
+    if (existsSync(p)) return p
+  } catch {}
+  throw new Error('cannot locate @openai/codex native binary')
+}
+
 function renderTask(entry: PlanEntry, sourceId: string): string {
   return readFileSync(TASK_FILE, 'utf-8')
     .replaceAll('{{ID}}', entry.id)
@@ -174,7 +196,6 @@ function parseTokensFromLog(logPath: string): { inputTokens: number; outputToken
 }
 
 function generateOne(entry: PlanEntry, sourceId: string): Promise<GenerateResult> {
-  const claudeBin = resolveClaudeBin()
   const systemRules = readFileSync(RULES_FILE, 'utf-8')
   const taskPrompt = renderTask(entry, sourceId)
   const logPath = join(ROOT, 'logs', `generate-${entry.id}.log`)
@@ -183,20 +204,34 @@ function generateOne(entry: PlanEntry, sourceId: string): Promise<GenerateResult
   const logFd = fs.openSync(logPath, 'w')
   const startTime = Date.now()
 
-  log.raw(`  spawning claude -p for ${entry.id} → logs/${entry.id}.log`)
+  const executable = engine === 'codex' ? resolveCodexBin() : resolveClaudeBin()
+  const args = engine === 'codex'
+    ? [
+        'exec',
+        '--model', model,
+        '--config', `model_reasoning_effort="${effort}"`,
+        '--dangerously-bypass-approvals-and-sandbox',
+        '--json',
+        '--color', 'never',
+        '--cd', ROOT,
+        `${systemRules}\n\n# Episode task\n\n${taskPrompt}`,
+      ]
+    : [
+        '-p',
+        '--model', model,
+        '--verbose',
+        '--output-format', 'stream-json',
+        '--append-system-prompt', systemRules,
+        '--add-dir', EPISODES_DIR,
+        '--add-dir', TRANSCRIPTS_DIR,
+        '--allowedTools', 'Read,Write,Edit,Bash,Grep,Glob',
+        '--permission-mode', 'bypassPermissions',
+        taskPrompt,
+      ]
+
+  log.raw(`  spawning ${engine} (${model}, effort=${effort}) for ${entry.id} → logs/generate-${entry.id}.log`)
   return new Promise(resolveFn => {
-    const child = spawn(claudeBin, [
-      '-p',
-      '--model', 'opus',
-      '--verbose',
-      '--output-format', 'stream-json',
-      '--append-system-prompt', systemRules,
-      '--add-dir', EPISODES_DIR,
-      '--add-dir', TRANSCRIPTS_DIR,
-      '--allowedTools', 'Read,Write,Edit,Bash,Grep,Glob',
-      '--permission-mode', 'bypassPermissions',
-      taskPrompt,
-    ], {
+    const child = spawn(executable, args, {
       cwd: ROOT,
       stdio: ['ignore', logFd, logFd],
       shell: false,
@@ -281,7 +316,7 @@ async function processEntry(
 }
 
 async function main() {
-  log.step(`Run-plan — concurrency=${concurrency}, limit=${limit}${dryRun ? ' (DRY RUN)' : ''}`)
+  log.step(`Run-plan — engine=${engine}, model=${model}, effort=${effort}, concurrency=${concurrency}, limit=${limit}${dryRun ? ' (DRY RUN)' : ''}`)
 
   const plans = loadPlans()
   const targetPlans = onlyId ? plans.filter(p => p.source === onlyId) : plans

@@ -2,10 +2,18 @@ source: huberman
 refreshed_at: 2026-04-12T00:23:05.099Z
 min_duration: 5400
 min_date: "20260101"
-total_candidates: 14
-done: 3
+total_candidates: 15
+done: 4
 pending: 0
 episodes:
+  - id: bPd9NnOzx78
+    title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
+    duration: 9700
+    upload_date: "20260720"
+    url: https://youtube.com/watch?v=bPd9NnOzx78
+    status: generated
+    priority: 0
+    category: update-2026-07-28
   - id: Tmw2dW0a9DY
     title: Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner
     duration: 8419
