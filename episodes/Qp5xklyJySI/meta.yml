@@ -8,6 +8,7 @@ duration: "约 95 分钟"
 url: https://youtube.com/watch?v=Qp5xklyJySI
 thumbnail: https://img.youtube.com/vi/Qp5xklyJySI/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [ai-research, ai-products, startup, interview, founder, engineer, technical, strategic]
 summary: |
   Matt McPartlon 与 Neil Patil 解释 Chai 如何从结构预测走向抗体生成，并用 50 个 target、约 20% 平均 binding hit rate 与 0.33 Å 结构误差验证模型的真实进展。对谈进一步拆解专业分子设计产品、湿实验反馈、算力与持久执行基础设施，以及药物发现为何正在从瀑布式试错转向精密工程闭环。

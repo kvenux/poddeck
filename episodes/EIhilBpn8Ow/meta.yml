@@ -8,6 +8,7 @@ duration: "2h 29m"
 url: https://youtube.com/watch?v=EIhilBpn8Ow
 thumbnail: https://img.youtube.com/vi/EIhilBpn8Ow/maxresdefault.jpg
 status: generated
+category: mind-body
 tags: [interview, researcher, deep-dive, technical]
 summary: |
   Alan Castel 从记忆的重构性、错误驱动学习与健康遗忘讲起，解释为什么熟悉感和高置信并不等于准确。

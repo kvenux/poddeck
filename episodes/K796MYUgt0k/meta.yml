@@ -8,6 +8,7 @@ duration: "49m"
 url: https://youtube.com/watch?v=K796MYUgt0k
 thumbnail: https://img.youtube.com/vi/K796MYUgt0k/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [ai-research, interview, researcher, technical, quick-take]
 summary: |
   Danielle Perszyk 从认知科学出发，解释为什么 Agent 的可靠性不能只看点击与任务完成，

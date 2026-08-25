@@ -8,6 +8,7 @@ duration: "~2h13m"
 url: https://youtube.com/watch?v=-RXD4bTuFTo
 thumbnail: https://img.youtube.com/vi/-RXD4bTuFTo/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [ai-safety, ai-research, interview, researcher, deep-dive, technical, strategic]
 summary: |
   Ryan Greenblatt 与 Dwarkesh Patel 拆解 AI 自动化 AI 研发后的反馈回路：为什么研究可能加速、能力如何向工业世界迁移，以及奖励黑客为何可能随模型变强而更难发现。对谈同时追问模型究竟应当对齐用户、公司还是社会，并讨论透明度、监督与治理能否在竞争压力下跟上。

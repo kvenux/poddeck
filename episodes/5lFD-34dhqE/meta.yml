@@ -8,6 +8,7 @@ duration: "约 47 分钟"
 url: https://youtube.com/watch?v=5lFD-34dhqE
 thumbnail: https://img.youtube.com/vi/5lFD-34dhqE/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [coding-agents, ai-research, interview, researcher, quick-take, technical]
 summary: |
   Alex Krentsel 解释 Exo 如何把 agent 拆成无状态 executive、受保护 harness 与隔离 sandbox，使 policy 可以在运行时查看并修改自己的代码。对谈进一步讨论自动回滚、秘密隔离、可迁移执行、可中断任务，以及自我优化为何必须受到 eval 约束。

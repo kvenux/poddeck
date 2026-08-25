@@ -8,6 +8,7 @@ duration: "~1h38m"
 url: https://youtube.com/watch?v=QbdbAhaJoCQ
 thumbnail: https://img.youtube.com/vi/QbdbAhaJoCQ/maxresdefault.jpg
 status: generated
+category: science
 tags: [ai-research, interview, researcher, deep-dive, technical]
 summary: |
   Adam Brown 从光速上限与等效原理出发，逐步解释为何重力应被理解为弯曲时空中的惯性运动，并用 Schwarzschild 解拆开事件视界、时间膨胀与能量红移。对谈进一步追踪黑洞的多通道证据、1919 年日食验证，以及少量经验线索、理论一致性与 AI 科学探索之间的边界。

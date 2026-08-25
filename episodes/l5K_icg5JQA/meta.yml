@@ -8,6 +8,7 @@ duration: "约 44 分钟"
 url: https://youtube.com/watch?v=l5K_icg5JQA
 thumbnail: https://img.youtube.com/vi/l5K_icg5JQA/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [hardware, chips, startup, monologue, researcher, investor, technical, strategic]
 summary: |
   这期从百度团队早期的 Scaling Law 发现出发，追踪 Cerebras 为什么用整片晶圆重新设计 AI 计算，并如何用微小核心、冗余和动态路由解决良率难题。故事进一步解释国家实验室、G42 与高速推理如何把一项超前技术推向规模商业化，以及 IPO 后供应链、竞争和毛利率带来的现实约束。

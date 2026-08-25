@@ -8,6 +8,7 @@ duration: "101分钟"
 url: https://youtube.com/watch?v=H3Gs4QUHvA4
 thumbnail: https://img.youtube.com/vi/H3Gs4QUHvA4/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags:
   - ai-research
   - interpretability

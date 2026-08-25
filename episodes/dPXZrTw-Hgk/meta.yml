@@ -8,6 +8,7 @@ duration: "约 3 小时 46 分钟"
 url: https://youtube.com/watch?v=dPXZrTw-Hgk
 thumbnail: https://img.youtube.com/vi/dPXZrTw-Hgk/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [robotics, ai-research, hardware, interview, researcher, deep-dive, technical]
 summary: |
   Kay Ke 从传统机器人、机器学习与强化学习的交汇处，拆解 Physical Intelligence 的 π₀、π₀.₅ 与 π*₀.₆ 三条研究主线。对谈进一步讨论真实机数据、评测、本体形态、中国硬件供应链，以及机器人自我组装所打开的长期想象。

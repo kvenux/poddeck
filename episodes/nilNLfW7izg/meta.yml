@@ -8,6 +8,7 @@ duration: 50 minutes
 url: https://youtube.com/watch?v=nilNLfW7izg
 thumbnail: https://img.youtube.com/vi/nilNLfW7izg/maxresdefault.jpg
 status: generated
+category: ai-tech
 tags: [hardware, chips, monologue, technical, strategic]
 summary: |
   这期节目追溯 SK 海力士从韩国财阀现金流、海力士债务危机到押中 HBM 的完整路径，并拆解内存墙、TSV 与 MR-MUF 等关键技术。节目也把离婚案引出的政治资本争议与存储周期风险放回同一张产业地图中，解释技术领先为何仍离不开制造、认证、治理与扩产。
