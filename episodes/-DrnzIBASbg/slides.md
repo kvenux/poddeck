@@ -8,6 +8,7 @@ info: |
   MLOps.community 的一次实战型读书会：从 prompt、context、harness 走向 loop engineering。
   Arthur、Val、Spar 与社区成员讨论生产 harness、可验证控制流、评估层、成本和自动化边界。
 class: text-center
+coverDate: ''
 transition: slide-left
 mdc: true
 drawings:
@@ -16,14 +17,22 @@ themeConfig:
   paginationPagesDisabled: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25]
 ---
 
-# Reading Group July 2026<br/><span class="text-3xl">Loop Engineering</span>
+<div class="absolute inset-0 overflow-hidden">
+  <img
+    src="/cover-loop-engineering.png"
+    alt="Loop Engineering：观察、评估、行动、学习的反馈闭环"
+    class="w-full h-full object-cover"
+  />
+</div>
 
-<div class="mt-6 text-xl opacity-80">MLOps.community Reading Group</div>
+<div class="relative z-10 w-[42%] h-full flex flex-col justify-center text-left">
+
+# Reading Group<br/>July 2026<br/><span class="text-3xl text-blue-700">Loop Engineering</span>
+
+<div class="mt-5 text-lg opacity-80">MLOps.community Reading Group</div>
 
 <div class="mt-2 text-sm opacity-60">Arthur · Val · Spar · community round table</div>
 
-<div class="mt-10 mx-auto max-w-3xl p-5 rounded-xl bg-blue-50 border border-blue-200 text-base opacity-85">
-从会写 prompt，到会设计一个<strong>能观察、评估、纠错、停止并留下学习记录</strong>的工程系统。
 </div>
 
 ---
