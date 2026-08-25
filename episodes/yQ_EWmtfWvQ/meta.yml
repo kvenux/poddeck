@@ -1,0 +1,28 @@
+id: yQ_EWmtfWvQ
+source: lennys-podcast
+title: "The rise of taste, human authenticity and judgment in an AI world | Adam Mosseri (Head of IG)"
+guest: "Adam Mosseri"
+guest_role: "Head of Instagram"
+published: 2026-07
+duration: 1h08m
+url: https://youtube.com/watch?v=yQ_EWmtfWvQ
+thumbnail: https://img.youtube.com/vi/yQ_EWmtfWvQ/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - product-management
+  - design
+  - interview
+  - product-lead
+  - strategic
+summary: |
+  Adam Mosseri 从 Instagram 的组织变化出发，解释 AI 如何把团队推向更小的 pod、让工程工作迁向规划与评审，并提升品味、愿景与策略的价值。
+  对谈进一步拆解推荐系统的真实机制、AI 内容的来源与信任问题，以及在三十亿用户规模下做实验和公开沟通所面对的取舍。
+core_ideas:
+  - 小型 pod 以通才工程师和 Product Staff 为核心，在关键节点按需引入高级专家
+  - AI 降低制作和跨职能门槛后，品味、愿景、策略与反馈成为更稀缺的人类能力
+  - 成熟的 AI 使用者会同时看见工具惊人的能力与明显的短板，并按价值而非消耗配置 token
+  - LLM 开始把不可读的推荐向量翻译成用户能理解和调整的主题，但排序仍包含长期生态取舍
+  - 合成内容越丰富，创作者身份、观点、账号历史与不确定性透明度越能支撑信任
+  - 超大规模产品的早期测试也会成为公共事件，实验、沟通与责任必须一起设计
+base: /episodes/yQ_EWmtfWvQ/

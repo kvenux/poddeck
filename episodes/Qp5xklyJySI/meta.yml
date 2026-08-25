@@ -1,0 +1,21 @@
+id: Qp5xklyJySI
+source: latent-space
+title: "🔬They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery"
+guest: "Matt McPartlon & Neil Patil"
+guest_role: "Chai Discovery co-founder & platform/product lead"
+published: 2026-08
+duration: "约 95 分钟"
+url: https://youtube.com/watch?v=Qp5xklyJySI
+thumbnail: https://img.youtube.com/vi/Qp5xklyJySI/maxresdefault.jpg
+status: generated
+tags: [ai-research, ai-products, startup, interview, founder, engineer, technical, strategic]
+summary: |
+  Matt McPartlon 与 Neil Patil 解释 Chai 如何从结构预测走向抗体生成，并用 50 个 target、约 20% 平均 binding hit rate 与 0.33 Å 结构误差验证模型的真实进展。对谈进一步拆解专业分子设计产品、湿实验反馈、算力与持久执行基础设施，以及药物发现为何正在从瀑布式试错转向精密工程闭环。
+core_ideas:
+  - Chai 选择做中立的软件与建模层，而非持有自己的药物开发管线
+  - Chai-1 预测结构，Chai-2 共同生成序列与结构，Chai-3 继续逼近治疗级性质
+  - 50-target 实验获得约一半 target 的 binder，平均 binding hit rate 约 20%
+  - 产品形态更像分子 CAD，通过可视化界面表达 epitope、selectivity 与跨物种约束
+  - 模型候选、湿实验测量与下一轮生成组成新的药物发现闭环
+  - 验证速度、专用算力形态、持久执行与人才流向仍是规模化的主要瓶颈
+base: /episodes/Qp5xklyJySI/

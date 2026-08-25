@@ -1,0 +1,26 @@
+id: TfyPshgMbug
+source: dwarkesh
+title: "Grant Sanderson (@3blue1brown) – AI disproved a famous math conjecture. Now what?"
+guest: "Grant Sanderson"
+guest_role: "3Blue1Brown creator and mathematics educator"
+published: 2026-06
+duration: 1h33m
+url: https://youtube.com/watch?v=TfyPshgMbug
+thumbnail: https://img.youtube.com/vi/TfyPshgMbug/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - interpretability
+  - interview
+  - deep-dive
+  - technical
+summary: |
+  Grant Sanderson 以单位距离猜想的反例为起点，讨论 AI 数学为什么进展更快，以及 IMO、黎曼猜想与形式化验证分别能说明什么。对谈进一步追问真正困难的能力：提出好猜想与好定义、压缩证明为人类理解，并在海量机器生成数学中承担策展、教学与应用判断。
+core_ideas:
+  - AI 的能力前沿具有尖峰与分形结构，数学领先不代表所有任务同步被自动化
+  - 黎曼猜想的机器证明可能来自跨域闪电连接、建立新理论或不可压缩的长推理链
+  - Galois 理论展示了概念突破可能需要百年才能获得社会与应用层面的验证
+  - 数学进展快不仅因为可验证，也因为任务可从相同起点并行重放和反复训练
+  - Lean 的短期作用可能被高估，但它能为海量 AI 论文提供机器可检查的正确性绿勾
+  - 当证明与解释都被自动化，人类仍通过策展、关系型教学和应用方向判断创造价值
+base: /episodes/TfyPshgMbug/

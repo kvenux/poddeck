@@ -1,0 +1,29 @@
+id: 6uIJdXmB4vE
+source: toe
+title: "The Last Generation of Mathematicians"
+guest: "Jacob Tsimerman"
+guest_role: "Fields Medalist and incoming OpenAI AI safety team member"
+published: 2026-08
+duration: "1h 29min"
+url: https://youtube.com/watch?v=6uIJdXmB4vE
+thumbnail: https://img.youtube.com/vi/6uIJdXmB4vE/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - ai-safety
+  - researcher
+  - interview
+  - technical
+  - strategic
+summary: |
+  Fields Medalist Jacob Tsimerman 解释数学为何可能成为最早被 AI 深度改写的知识工作之一：瓶颈将从找到证明，转向理解、归类与选择方向。
+  对谈进一步讨论形式化证明与共同理解的差别、理论构建是否真是稳定的人类角色，以及他为何暂别学界转向 OpenAI 的 AI safety 工作。
+  给年轻人的结论不是放弃数学，而是继续追随热爱，同时尽早接触 AI、理解新工作节奏并为职业路径保留弹性。
+core_ideas:
+  - 数学是相对封闭的符号系统，AI 能在不等待实验与材料的情况下快速迭代
+  - 近期更现实的瓶颈是人类阅读与归类速度，而不是完全不可理解的外星证明
+  - 证明既是形式正确性的证书，也是数学共同体传递理解与继续研究的媒介
+  - 问题求解、定义与理论构建彼此生成，很难成为稳定且永久的人类专属层
+  - 技术能力不会自动导向理想社会，需要公司、政府、学界与非营利组织共同治理
+  - 年轻人可以继续深入数学，但应尽早用 AI 做真实项目并对单一路径进行对冲
+base: /episodes/6uIJdXmB4vE/

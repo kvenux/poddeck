@@ -1,0 +1,29 @@
+id: N5AQFYtqx8Q
+source: huberman
+title: "Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li"
+guest: "Dr. Fei-Fei Li"
+guest_role: "Stanford professor and World Labs co-founder"
+published: 2026-08
+duration: "约 2 小时 8 分钟"
+url: https://youtube.com/watch?v=N5AQFYtqx8Q
+thumbnail: https://img.youtube.com/vi/N5AQFYtqx8Q/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - robotics
+  - interview
+  - researcher
+  - deep-dive
+  - strategic
+  - technical
+summary: |
+  Fei-Fei Li 从视觉演化、ImageNet 与现代 AI 的三元汇合讲起，解释模型为何强大，也说明未被记录的人类体验为何仍构成边界。
+  对谈进一步讨论医疗、教育、机器人与空间智能，主张以人的能动性、尊严和多方参与来决定 AI 如何进入社会。
+core_ideas:
+  - 视觉感知推动生物智能演化，也为神经网络的层级结构提供早期启发
+  - ImageNet、大数据、神经网络与 GPU 的汇合构成 2012 年现代 AI 的关键拐点
+  - 模型依赖可捕获的数据；未被表达的私人记忆、直觉与情感不能被直接学习
+  - 医疗 AI 的价值取决于模式是否充足，人机协作在稀缺数据场景中更可靠
+  - 教育应同时避免禁用工具和丧失学习能动性，并把提问能力重新放回课堂
+  - 具身与空间智能将 AI 推向机器人和 3D/4D 世界，但未来形态应由社会共同设计
+base: /episodes/N5AQFYtqx8Q/

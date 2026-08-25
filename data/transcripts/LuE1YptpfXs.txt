@@ -1,0 +1,2249 @@
+I started doing AI in 2008, so I've been
+in the game for a minute now.
+>> Damn.
+>> And you know, it's like you kind of want
+to
+>> That was before Alex Net.
+>> Yeah. Alex Net 2012.
+>> What the [ __ ] were you even doing in
+2008?
+>> So in computer vision, it was sift
+features and SVMs. that that's basically
+the state-of-the-art at the time. There
+were a couple other things that people
+were using, but um
+>> not even using GPUs.
+>> I think that some there was yeah
+basically Alex was the first one to to
+write specialized kernels. Um
+>> there were some applications I'm sure
+where like uh you know optical flow it's
+highly paralyzable and I wouldn't be
+surprised if there were some labs that
+were doing things along those lines but
+it definitely was not like a scaling era
+for machine learning. um largest data
+sets, you know, you could fit on a USB
+stick.
+>> What gave you the inspiration to start
+codegen
+and like you you must have seen
+something that was like, "Ooh, this is
+getting better. We could probably do
+something here cuz there was a company
+that tried it and then they folded,
+right? I can't remember the name of
+them."
+>> The history of code generation is
+littered with companies that were a
+little too early but like totally
+visionary. So, you're probably thinking
+of Tab 9.
+>> I think Tab 9's actually still around
+and they're still going. No, then it
+wasn't them. There was one that
+>> I think it was Kite in like 2022, right?
+Or 2020. Yeah,
+>> maybe maybe even before that a little
+bit.
+>> Yeah, like 2021, right? They folded
+right when ChateBT started getting
+really popular and it was very confusing
+to me because I'm like, wait, GitHub
+Copilot is printing money supposedly.
+They just hit like a billion in revenue
+after they released and kite shut down.
+>> You hate to see it. I mean, uh, you
+know, any startup dying, it's sad to
+see. I think that one of my learnings
+from doing startups for about a decade
+is that momentum begets momentum. And if
+you are too early, you know, you kind of
+get people all hyped up on this vision
+and then you're actually not the player
+who ends up bringing it to market. Maybe
+some people can kind of catch on and
+they end up taking off at that point,
+but in the majority of cases, it ends up
+being that Yeah, GitHub Copilot is the
+one who introduced the concept. That's
+what people get excited about. That's
+what gets hyped up on Twitter. Kite is
+remembered as like the, you know,
+everybody tried it in 2021 or something
+like that when Paul Graham hyped it up
+and they're like, "This isn't really
+ready for production yet."
+>> And GitHub Copilot was, you know, was
+directly integrated into VS Code from
+the very get-go. And so, you didn't
+really have to do very much in order to
+get access to it.
+>> Yeah.
+>> Um, but then the sort of I think the
+bigger revelation was cursor. cursor
+GitHub copout was 2022 I want to say is
+when that came out and it immediately it
+was in the happy path which was amazing
+so you didn't really have to do very
+much in order to benefit from it right
+it would just do auto completions for
+you once you flipped it on
+>> um and I think that that same experience
+of basically not having to take any
+additional action but just having AI
+seamlessly injected into your workflow
+that's going to roll out to a bunch of
+other industries very soon I think that
+cursor's sort of the the thing about
+cursor was nobody could tell you not to
+download
+So like most of the people who ended up
+adopting it early on, these sort of hype
+guys on on Twitter, which you know, I'm
+very much so a part of that ecosystem
+>> were people who are like working at, you
+know, I don't know, JP Morgan or
+something like that. They download this
+editor, they swipe their personal credit
+card for 20 bucks a month, and then for
+me, the revelation was the composer mode
+where has a sidebar that pops out and
+you can kind of chat with it. Really
+kind of hit it stride with Claude Sonet
+3.5, which was probably mid 2024,
+something like that.
+>> Yeah, that's the inflection point right
+there. Um
+>> but then codegen what made you want to
+start it and did you see how did you see
+the writing on the wall?
+>> Depends how far you want to go back. I
+would say you know I've always been
+interested in artificial intelligence.
+Um you know I think that uh the idea of
+the machine writing itself and creating
+itself is this sort of recursive
+building is something that's always
+really appealed to me going way back to
+I mean even high school is the book goes
+Bach. You might be familiar with it.
+sort of like a it's a pulser prizew
+winning book and it's
+>> you way overestimate my
+culture.
+>> Got it.
+>> I do not know that at all. What is it?
+>> Uh it's a book called Gertasherbach.
+It's by this guy um Doug Hoffadder who
+he sort of like invented the Simsis
+major at Stanford in a way or at least
+the major that Marissa Mayer and many
+other people have sort of made famous.
+>> It's like based on this book almost or
+directly reflects the contents of the
+book at least. Um and it sort of
+coincided with him writing this book.
+Went on to win the Pulzer Prize. The
+core concept of it is you have uh Mc
+Cher, the painter. You might know the
+painting of him. Yeah, exactly. Uh Johan
+Sebastian Bach, the musician, and then
+Kurt Goodle. I'm definitely
+mispronouncing his name, but he's a
+legician.
+>> And all of their works have some
+inherent properties to them or a
+substructure that's shared. And usually
+that has to do with self- reference. So
+for example, there are
+>> stairs in MC.
+>> Exactly. the stairs, the you know hands
+writing themselves and there's actually
+like a lot of like really interesting
+mathematical concepts embedded both in
+box work whether he meant it or not and
+McSher
+>> um and then Kirk Girdle is famous for
+the essential incompleteness theorem
+which is basically this idea that any
+sufficiently powerful logical system
+will necessarily end up containing
+things that can neither be true uh
+proved that are true but cannot be
+proven to be true and the way in which
+it does that is basically it contains
+something that looks like the
+epimemenities paradox
+which is where
+>> it's the guy gets up in front of you
+know a bunch of people epimemenities is
+the guy gets up in front of a bunch of
+people in Rome or in Greece and he says
+citizens of Athens I am lying to you and
+because the statement refers to itself
+>> then it's the self- reference is
+basically what enables it to be
+contradictory so it's a paradox
+>> and any sufficiently powerful number
+system can contain a self- reference
+like that that enables it to basically
+say this statement is not provable
+>> and so anyways a little bit of a
+sidetrack here, but the interesting part
+about this book is it ties together all
+three of these different concepts or
+these different uh you know
+>> um you know prolific people's work. So
+MCS or JSB and Kirk Riddle and basically
+it's about entities that contain
+self-reference and the guy uses that as
+a jumping off point to talk about AI and
+eventually he talks about the
+>> emergence of consciousness comes from
+systems that represent the outside world
+and part of the representation of the
+outside world in this symbolic system
+contains a representation of self.
+>> There you go. You landed the plane
+beautifully.
+>> There we go.
+>> And so codegen then tune from that book.
+So anyways, that that that sort of
+kicked me off on getting really
+interested in this stuff.
+>> Um, Coen, you know, I went through I
+worked with Palunteer. I, you know,
+studied AI in college. I did a bunch of
+machine learning stuff. Did a decade's
+worth of startups, give or take. Um, and
+around 2020 is when so I've always kept
+up with the state of the art of AI
+research. It's just sort of something
+that's very interesting to me. 2020 is
+when the GBT3 paper came out. Yeah.
+>> Um, which was essentially just scaling
+up language models and it ended up
+having these incredible properties of
+basically few shot learning. So you
+could give it pretty much any problem
+that we were dealing with in NLP at the
+time. It's just like you fot prompt this
+thing and bam, it's better than whatever
+you had in mind. And so I knew this was
+going to be big. I remember joking with
+somebody that like between Bitcoin and
+GBT3 it wasn't clear which would have a
+bigger impact on the world. And they
+were like that's so so no like obviously
+Bitcoin is going to have bigger impact
+and I guess TB 2020. Yeah.
+>> Yeah. 2020 it wasn't clear right. Um,
+and then 2022 is when the API opened up
+from OpenAI and I was I had just
+basically sold my previous company. I
+had ended up my lockup period and I
+ended up leaving for various reasons.
+And I entered into this sort of flow
+state of doing what I called one demo
+per week where I would literally just
+sit at my computer and come up with
+really interesting concepts of something
+you can implement using the GBT3 API and
+some image generation stuff as well and
+just put it out on Twitter and see what
+people think and try and get, you know,
+people excited about it. And so couple
+notable ones from that era for me were I
+think I was the first person to ship
+text to Figma. And so you could input a
+prompt and you could say, "Hey, give me
+an iPhone screen with a bunch of other
+stuff on it." And it would essentially
+oneshot it and generate you a schema
+file. And then that would render to
+Figma. Um we I did a text to auto tool
+or sorry text to retool, but it was
+actually not a retool. was like on an
+open source one where you could describe
+a dashboard and it would have data
+schema that it was referencing and it
+would essentially create a data
+dashboard for you.
+>> And so you know what I sort of
+discovered over the process of building
+a bunch of these applications is that
+the things that made a a L1 application
+successful were verifiability built into
+the domain. And so anytime you're doing
+some type of a schema generation like
+that, you can essentially lint it. You
+can go through and say is this a valid
+schema? Does it compile? you know, there
+there like specific empirical things you
+can look for and if it's wrong, you can
+actually detect that error and basically
+pass it back to the model as a residual
+and say figure it out,
+>> dude. Which is so clear now, but in
+those days that's incredible. You
+probably felt like you stumbled on gold.
+>> I think that I don't want to give myself
+too too much credit here. Like I think a
+lot of other people were, you know, also
+seeing like, okay, you know, there's
+limited value and like an email thing
+for
+>> summarization. Yeah, autocomplete or
+something like that. But um anybody who
+was coding, you know, with Copil at the
+time, I was like, "Wow, this thing is
+incredible." And you know, it's actually
+there's so much lowhanging fruit in code
+too where it's just boilerplate like you
+don't really
+>> benefit from writing a Java class
+implementation except for a couple lines
+of code in there. So it's very well
+suited
+>> and it compiles which is different than
+a lot of the other things that you have
+to eval.
+>> Exactly. Yeah. So you know and the
+implications of that are pretty clear as
+well with a respect to RLVR
+reinforcement learning from verifiable
+awards where you can have an agent go
+off and write code and try and pass a
+unit test and if it doesn't pass the
+unit test you say here's the failure fix
+it and then eventually it goes off and
+it does pass the unit test and then you
+say okay learn from your mistakes
+>> or maybe you rephrase your trajectory so
+it's perfect and then you fine-tune on
+that. Um I remember seeing one paper
+actually that was really an aha moment
+where they were trying to train
+I think it was for performance
+improvements. So they said okay here's a
+certain function that we have and we
+want to train a model to be good at
+rewriting the function such that it's
+more performant.
+>> You can run the function and you can
+measure the wall time it takes to
+actually the number of CPU cycles it
+takes to run a function. And so they
+would have it try you know 100 different
+variants of it. The one that actually
+ended up being more performant they'd
+say okay this is the one that we're
+going to end up fine-tuning on. And
+that's now we just call that RLVR. But
+this was one of the the first
+applications of that.
+>> And so it was also pretty clear. I guess
+the point I'm trying to make is that the
+direction that research would go in
+would be these things are going to get
+really good at coding or really fast
+because the feedback loop is
+instantaneous. If you're working
+anthropic, like you're writing code with
+these things all day, you can figure out
+what it's lacking and that informs the
+type of, you know, eval.
+>> Yeah. All the necessary like boundary
+conditions are set up for your success.
+Exactly. There's so much data. You can
+produce it synthetically. Um and at the
+time in 2022, people like Gary Marcus
+were getting out there and saying like,
+"Oh, we're running out of data." Um
+which everybody knew is, you know, first
+it's false that we didn't run out of
+data. There's still plenty of, you know,
+pre-shading data available, but also it
+completely ignores the fact that you can
+synthetically create.
+>> Yeah, there's synthetic data and the
+internet is doubled like every 3 days.
+>> Yeah. the amount of data that's on
+there. I know that a lot of the new data
+is coming from LLMs, but this
+conversation is going to go out and it
+wasn't on the internet yesterday.
+>> Yeah.
+>> So, like that kind of stuff. Yeah. I was
+always a little bit skeptical on that
+idea of we're running out of data, but
+then you had Ilia came out and said it
+at some Nurips too and it's like h this
+guy is way in a different league of
+brain power than me like should I
+question my belief? So I don't know.
+>> Yeah, the the internet doubling is
+probably increasingly not from human
+generated data. So you have to be a
+little bit sus of the stuff. There's
+this actually speaking of MLOps one of
+my favorite papers of all time is it's
+called machine learning the highest
+interest credit card
+>> dully the one you had to reference any
+talk that was given around machine
+learning in MLOps and from like 2020 to
+2022 it was you had to reference that
+box of like the model's just a small
+piece of this
+>> right and there's so many opportunities
+to shoot yourself in the foot and the
+example that sticks with me from that
+paper is they talk about training Google
+translate and how you know they assemble
+parallel corpora you get a bunch of
+English pages you get the Spanish
+translation when they're you know
+available in both and then you train it
+something to map between the two and
+then they realize at a certain point
+that actually most of the Spanish pages
+on the internet are the output of Google
+translate
+>> and so they're essentially drinking
+their own backwash
+>> and I think that that's absolutely what
+would happen if you just try to
+pre-train on all texts on the email on
+Reddit 2026 onward it's like probably
+mostly open claw at this point but or
+whatever he calls it.
+>> So you got to be a little careful on
+that.
+>> Yeah.
+>> And it essentially gets in these loops
+of like confirming to itself that the
+correct translation for an idiom is you
+know whatever it thought was like
+collapses in weird ways.
+>> Exactly. Now then you just sold codegen
+to clickup. Walk me through maybe the
+process of selling and then also now
+what you're doing.
+>> For sure. Yeah. So we built Codegen over
+three years. the original concept behind
+it. We started it when I think Cursor
+had already kind of hit their strut. So,
+it's clear they were going to win. I
+think if you asked me like in early 2022
+or sorry, early 2023,
+>> what's the landscape going to look like?
+I'd say Cursor is going to be the editor
+of choice. Maybe VS Code will make a
+comeback. Didn't happen.
+>> Um, you know, maybe there'll be like one
+or two other players. And so, we thought
+very early on, okay, we're going to
+essentially leapfrog and we're going to
+shoot to where the puck is going, skate
+where the puck is going, and build a
+fully autonomous background agent. And
+so the idea was ticket to pull request.
+You'd essentially create a linear ticket
+or a ClickUp ticket or something like
+that who would say I want this change.
+Then it would spin up an agent in a
+sandbox who would go off and write the
+code and then submit a pull request
+back.
+>> Oh, so you wouldn't even have to deal
+with the ID.
+>> No ID. You should be able to pull it
+into your ID and iterate on it there.
+But I think that the, you know, this was
+in GPT4 32K era. That was like the first
+model that came out that could really do
+like a genetic sequences. 32k is roughly
+the size of a single tool usage for you
+know I think claude codes like limit is
+like 15k it's like two tool usages now
+it was very difficult to fit that all in
+um but yeah we we essentially were the
+first people to launch a thing we
+started with linear actually um
+something where you could give it a
+ticket would go off and write code
+>> in the three years since we launched
+that the space developed a lot and you
+know we were sort of discussing earlier
+it became clear that code is such a
+fundamental thing for these agents to to
+function properly a lot of People had
+thought maybe there will be code
+specific models and non-code specific
+models and really it seems like that's
+not really the case. Currently there's
+GBT 5.3 codeex but whatever knowledge
+that model has that's specific to code
+that'll be folded into GPT 5.4 like
+because there's this notion of positive
+transfer where if you get better at
+coding coding is sort of just an
+encoding of reasoning and so it gets
+smarter at everything else. Yeah.
+>> Um and so yeah, basically the exact
+product that we rolled out and you know,
+we got great customers. We had a ton of
+community engagement and whatnot, we
+were sort of the first there, we ended
+up seeing increasingly in the deals that
+we were going into that the foundation
+model apps were, you know, offering
+their product for free for two years at
+a time. And so there's no procurement
+department in the world you can go to
+where they're like, "Yes, I'll take this
+company that, you know, fly by night San
+Francisco startup."
+>> And you're using them in the background,
+I imagine. So they're your competition.
+Exactly. And many other companies have
+gone up against this. Wind surf
+famously, you know, had Claude yanked.
+>> Um I think cursor, you know, they're now
+training their own models as well
+because their margins are so much worse
+than Yeah.
+>> than what you get in uh in claude
+>> or sorry, yeah, cloud code.
+>> Yeah.
+>> Um but yeah, I mean the I think the at a
+higher level, you know, this is this is
+bigger than all of us was basically my
+my takeaway. Like code is going to be
+solved in a year maybe. I mean I don't
+think that you and I are going to spend
+that much time in an IDE very soon. Um I
+think that is going to be largely driven
+by you know hundred billion dollar
+training clusters essentially. um these
+people have so much capital to invest
+and I think we're facing the automation
+of knowledge work more generally that's
+a really exciting thing to be a part of
+and as somebody who spent the last 20
+years or so working on AI I wanted to be
+a pivotal contributor to a winning team
+>> and meanwhile we had built this really
+great partnership with ClickUp and a
+couple other companies we ended up
+finding ourselves in a position where
+one of our business partners offered to
+buy the company and it was perfect
+timing I was like wow this is actually
+really exciting we went through
+>> your business partners,
+>> company that we work closely with.
+Unfortunately, there's some things I
+can't disclose about this just to, you
+know, preserve
+>> keep them anonymous then.
+>> Company that we worked closely with and
+and
+>> but it wasn't ClickUp.
+>> Uh this the initial company that offered
+to buy ClickUp. That's right.
+>> But it got you thinking.
+>> Exactly. And we, you know, had a great
+relationship with them. The the CEO is a
+total visionary and had spent a lot of
+time kind of chatting with him back and
+forth. He had been a user of our product
+and giving us feedback and whatnot. And
+through a sequence of events,
+essentially we were the number one agent
+on ClickUp that was an external one. um
+it became clear to me that this is a
+winning team and this is a really
+exciting vision to work on that it goes
+beyond just engineers sitting in San
+Francisco working on code and I'm happy
+to get into why that's the case. There's
+you know a lot of my personal thesis
+essentially lined up with what ClickUp
+was going after. So
+>> go more.
+>> Yeah, that I think that the one of the
+revelations of the last couple years
+like I mentioned a second ago is that
+coding agents are generalist agents. If
+you make an agent better at coding, then
+it ends up being better at everything
+else because of this notion of positive
+transfer. Um, but you know, also if you
+look at anything that an agent will
+accomplish that has tools or you know,
+does various things in order to reach
+out into the world, all of those things
+that it uses to reach out in the world
+are comprised of code. And so if you
+have an agent that can write and execute
+code, then basically it ends up being a
+it's like AGI complete. It has the
+ability to write its own tools. It has
+the create tool tool, which is write a
+bash script, right? Um, and so it seems
+like me that basically coding agents are
+convergent with generalist knowledge
+worker agents. And I'm not the only one
+who's noticed that. Um, you know, a
+great example of this being sort of
+distributed more broadly is cla code
+used to be called claude code. And the
+cla code SDK was called the cloud code
+SDK. Now it's just the cla agent SDK.
+>> Yeah.
+>> Um, and open claw also a great example
+of this. The way it does stuff is it
+writes code on a sandbox. So you just
+basically have these primitives of
+>> for loop with a llm call in it. sandbox,
+put them together, and you know, boom,
+you've got a fully generalist agent. And
+I think if you assume that like models
+are going to get better, they're going
+to be capable of performing any
+generalist task that relates to
+knowledge work, the people who are going
+to win in an environment like that are
+people who have the best access to
+context, the best access to surfaces on
+which you interact with agents, um, and
+the best unit economics and existing
+distribution in order to get that in
+front of people. And there's essentially
+no other player than ClickUp that has
+all those three things in a way that I
+thought was, you know, the most
+compelling. So, we got hitched and here
+I am now. I'm running our AI operation.
+>> But there's so many things that you said
+there that that are fascinating to me,
+especially around like
+just how we interact with
+>> basically my experience going through AI
+has been most things that end up rolling
+out to the world more generally, they
+start in code. whatever pattern ends up
+catching hold,
+>> coders do it first. There's a lot of
+good reasons for that. One of them is
+just programmers are working on the
+stuff anyways. But we talked about the
+verifiability before. So like tab
+autocomplete started in code sort of
+sidebar that pops out that you chat with
+that also started code. Even autonomous
+agents arguably like the first true
+autonomous agents were programming
+agents. Um and now it's sort of rolling
+out to the the the world more generally.
+>> Hooks is another good example.
+>> And I am just so excited for the rest of
+the world to go through the experience.
+I went to which is you know I got cursor
+in cloud code and my whole job changed.
+I now essentially will promp things or
+review code and whatnot but I can my
+leverage has expanded so significantly
+and this idea of cursor for your whole
+job if you are a financial services
+person or you working in something like
+legal services is going to be an
+incredible experience for all those
+people to go through and the best place
+to do that is ClickUp. Yeah,
+>> it's cursor for your whole job. Uh yeah,
+one thing that I've noticed myself doing
+is
+when I create apps now,
+it's default local first.
+>> Mhm.
+>> Which is different than how I have
+always been thinking about it. It's
+like, oh, you need to be thinking about
+production. This needs to be battle
+tested.
+>> But now it's like, no, this is just for
+me.
+>> Yeah.
+>> You know, like I I was talking to
+somebody last night. They said I created
+40 apps in the past 3 months and only
+three of them have I actually open
+sourced
+and like given to the world because
+there's just it's it's mine.
+>> Yeah. It doesn't need to be, you know,
+it's so specific to my need that I'm not
+going to
+put this out there because I don't think
+anybody else needs it.
+>> And also, you got to then think about
+like security. If you're going to open
+source stuff, you want to like clean it
+up. You want to do things that you don't
+want to just like throw anything out
+there.
+>> Yeah. Yeah. There's totally something to
+be said for shifting models of how
+software will run given the the case
+that it's so cheap to produce.
+>> Yeah, that is the wild thing that you
+have these effirmal and like the
+generative UI is fascinating to me too.
+And the MCP apps type of things that'll
+it's now becoming more and more a thing.
+And so I imagine you'll start adding it
+in ClickUp soon enough where if you
+don't already have it where okay, I need
+to do something
+Boom, you've got the UI right there in
+that moment.
+>> For sure. Yeah. I mean, I think that
+especially with an application like
+ClickUp, there's these data models that
+represent everything you want to do in
+work and sort of the primitives for
+interacting and getting things done like
+docs and chats and tasks and whatnot.
+And depending on what task you're trying
+to accomplish, there's wildly different
+ways of going about arranging those
+things. ClickUp is incredibly
+configurable. And that is a blessing and
+a curse. is a blessing because if you
+configure it correctly then it's you
+know does exactly what your workflow is
+but the curse is takes a while to to
+configure it if you have a very specific
+thing and there's you know certain
+things you need to know and the amazing
+thing is generative AI is a solve for
+that so you can come in and you can say
+hey I am the CEO of Nvidia
+my supply chain is in ClickUp tell me
+about it
+>> and it will build you a dashboard you
+know it'll we have a thing rolling out
+very soon that is going to essentially
+allow you to have complete completely
+custom JavaScript layers on top of the
+core ClickUp interface in a very secure
+way. And so it will be a bespoke
+interface for whatever you're trying to
+accomplish at any given point in time.
+And the amazing thing also about, you
+know, this sort of custom front ends is
+I'm sure you've seen demos of this of
+like, you know, Cerebrus running various
+models of like 15 million tokens per
+second or something. It'll be
+instantaneous in the future.
+>> Tadaras or something.
+>> I saw that. Yeah. It's like they
+>> so much faster than anything. It made
+like cerebras look this big on the
+graph.
+>> Yeah, they' like compiled it to a chip.
+Yeah, basically. And that's imminently
+going to happen. That was llama 38B, I
+think. 3.18B. Um there's no physical law
+that says you can't run GBT5 on a chip
+like that. And so,
+>> yeah, that means the the amount of time
+it'll take you to write, you know, a
+fully custom Nex.js app that has all
+this custom stuff in it is going to be
+like,
+>> oh my god,
+>> 100 millisecond, 200 milliseconds,
+something like that. How many tokens are
+actually in a full nextjs app? not that
+much which means that your interaction
+with software is going to be fully
+dynamically configured
+>> and I think that's really exciting.
+There's a lot of like it's easy to say
+that you have to actually execute on it
+and nobody's ever produced an interface
+like that. So we don't like just like
+people said like oh yeah like minority
+report style thing with your hands in
+the air like when you actually do that
+your arms hurt so it never caught on.
+>> We'll see if this ends up being too
+disorienting but I think there will be a
+point on the spectrum towards fully
+dynamically configured software that we
+end up converging on that's far beyond
+what we're at right now. Wow. I need to
+know what I want in order to ask for it.
+And so on one hand, it puts a lot of
+like that heavy lifting on the user,
+which is different than us in the way
+that we used different pieces of the
+internet before. You know, like when I'm
+scrolling Instagram, I'm not thinking
+much. It's more like I'm getting fed,
+but now I'm having to actually like be
+the chef and cook in the kitchen.
+>> Yeah. the being able to tag in context.
+I mean, you know, I'm a flawed code and
+cursor user, so that's natively how I
+think about a lot of this stuff. Being
+able to add a file or a specific class
+and say this is where you should fix it.
+It's so powerful.
+>> The thing that makes that possible when
+you step out of so in code there's like
+a limited number of artifacts that you
+need to reference. There's, you know,
+maybe there's tickets, there's obviously
+files, maybe it's like a sentry issue or
+something like that, but there's, you
+know, we can probably enumerate less
+than a dozen things that you would want
+to tag. If you're going into general
+purpose knowledge work, it explodes,
+right? Especially if you take the long
+tail of like PR firms, marketers,
+financial services, and that user base
+is basically what comprises Clinkop's
+core of customers. And so it's
+incredibly, you know, important if
+you're doing a general purpose knowledge
+work job and you want an experience like
+a cursor or cloud code where it's, you
+know, very versatile, can do anything
+that you have essentially first party
+data integrations that allow you to do
+that type of tagging where you can
+reference a certain piece of content.
+And there are very real constraints that
+prevent you from being able to do that
+in an easy way. Um, just with existing,
+you know, sort of the the constraints of
+fragmentation as we describe it. So I'll
+give you a very concrete example of when
+you would not be able to accomplish the
+flow you just described. Slack has
+various things in place that prevent you
+from searching past conversations and
+from indexing their data if you're a
+verified app. This was always a problem
+we had at Cojen. You know, you'd be
+talking codeen was a Slack integration.
+>> You would say to it, "Hey cogen, you
+know, go figure out why we made this
+decision." And you know, if the decision
+should be updated, please go to the code
+and and change it. And Codegen wouldn't
+be able to find the decision. It would
+just seem stupid because it would try
+and search and it would only be able to
+see like three hours.
+>> Oh.
+>> However, you know, obviously the model's
+not stupid. Yeah,
+>> it's sort of like
+>> it's just this limitation that is put
+on. I think they did that because of
+glean, right? They don't like glean.
+>> I'm sure.
+>> Yeah.
+>> Yeah. I mean that it you kind of can't
+blame them for doing that. It's bad for
+the world.
+>> But they have to protect Exactly. They
+have to protect their mode in a way. But
+it's funny because Slack is so quickly
+becoming the command center for
+everything outside of it, right? like
+you're firing off agents in so many
+different ways from Slack
+>> that in a way it feels like they're
+shooting themselves in the foot if
+they're not letting you have access to
+everything that's in Slack.
+>> I think they would definitely like to
+have you believe that that it will be
+the command center for agents in the
+future.
+>> I have my doubts, you know,
+>> yeah, you know, company at the scale of
+Salesforce isn't going to be able to
+iterate as quickly. I think if they were
+in a rapid iteration mindset, it would
+have taken them a lot less time to put
+together something that, you know, felt
+agent native. Um, there's other
+companies I would point to that I think
+have done a fantastic job that are, you
+know, probably operating at similar
+scale. Um, I think that, you know, it's
+sort somewhat cannibalistic to their own
+business though if they lean into
+agents, right? And if they allow other
+people to come in and take data out like
+you mentioned a second ago. Um, I think,
+you know, two years ago they could have
+had a lot of the features that they're
+rolling out today. And the only thing
+that prevented them from doing that is
+bureaucracy.
+>> Yeah.
+>> And some of these incentives. So my
+money is on startups that can really
+lean into this and go all in on AI. And
+I think that one of the benefits of a
+place like ClickUp is that they have a
+chat product which is just like Slack
+just as good. But that is also literally
+right next to their task which is like a
+linear Jira. They've got documents which
+is like a notion or conflicts. They've
+got whiteboards which like Figma, you
+know, all these things in a single place
+and you don't have to ask anybody's
+permission. You have the entire history
+of your organization's decisions and
+tasks and chats all along.
+>> Oh man, I'm the first person to say like
+I've lived in Slack for so long that I
+would happily get rid of it if I could.
+I haven't seen an alternative to that,
+especially because the way that I use
+Slack is through the community. And so
+it's in a way it's like knowledge
+sharing and it's connection and it's
+having fun. So there's so many things if
+you think about like the things to be
+done. The things to be done in that
+regard are like I get a laugh.
+>> Yeah.
+>> And so it's hard for me to think that
+there would be something that would
+replace that. However, when it comes to
+like productivity, I know it just tanks
+by productivity. Getting pinged on Slack
+is [ __ ] so and especially for stupid
+[ __ ] that you're like, well, you know,
+you probably could have figured that
+out. I also think like you're not just
+going to replace Slack. What you're
+going to have to do is come at it from a
+whole different way of thinking like how
+can we make it because Slack is for
+communication between people.
+>> Mhm.
+>> But if you don't need to communicate as
+much between people because you're
+communicating through an agent which
+then will just reference context, it's a
+different paradigm.
+>> Totally. Yeah. Slack is built for a
+model where you put a very dense graph
+between comparing how much communication
+happens and if you think that most of
+the work in the future is going to be
+done by agents which I certainly do
+except certainly most of the work that
+we do today in an office will be done by
+agents then maybe synchronous or
+slightly async comps between people on
+Slack is less important.
+>> Um I think the other thing you mentioned
+is you know really a huge issue is work
+sprawl. So, the reason it's annoying to
+get pinged in Slack is because you're
+also getting pinged in four other
+places, right? And you're like, where
+should I be responding? And I think that
+the number of pings that you're going to
+get is going to go up as we scale a
+workforce by bringing in AI employees.
+And so, there needs to be some level of
+like convergence of these platforms into
+a single surface area where there's only
+one inbox that you're moving to that has
+all of your paintings in it.
+>> That's been the dream for ages. I
+remembered I got a tool that was
+supposed to do that. It was like take
+all your Telegram and all your WhatsApp
+and all your email and it's all going
+into one e inbox. But it didn't really
+work. I I it never stuck for me. I don't
+know why, but it didn't stick in the way
+that cuz as soon as you have one that's
+outside of it, because I think LinkedIn
+was outside of it,
+>> then you still end up having to check
+different places. So, it defeats the
+whole purpose.
+>> Yeah. Yeah. Combine that with it's never
+been easier to create a new messaging
+server
+>> because you know cloud code will do it
+for you.
+>> Um you get this crazy explosion of you
+know different channels on which to
+communicate. I think that what is likely
+to happen is that you'll probably end up
+seeing some level of consolidation at
+the software layer. So companies like
+Ripink for example I think are very well
+situated
+>> easy for them to add another thing like
+a chat service or something like that
+from the procurement and you know sort
+of the big company side really easy for
+you to greenlight something if people
+are already onboarded as a as a vendor
+you know
+>> um and then there's obvious advantages
+to the data integration so if your chat
+product is in integrated with everything
+else that you're already using then
+agents are going to be able to navigate
+it more easily. Yeah,
+>> that's that's funny you bring that up
+because I was talking to some folks at i
+food. It's this company out of Brazil
+and they are a food delivery app, right?
+Much like, you know, uh what is it? Door
+Dash here. But what they started doing
+is they started offering a new bank of
+type of thing where it's got the
+finances for the restaurant owners.
+And so because they know everything
+about the restaurants because all of the
+orders come through I food, they're very
+confident when they say we can get you
+these loans with these terms and the
+agents have all that context because the
+bank they are the bank.
+>> Yeah.
+>> And they're also the way that the
+company makes money. So, it's like
+they're playing both sides and it it
+just makes a lot of sense that oh yeah,
+let's offer this financing in these
+terms because we know you're going to
+get it back. It's not unless there's
+some act of God, you're going to be all
+right and we're confident that you can
+fulfill on it.
+>> Yeah. They're much better at
+underwriting because they have much
+better visibility into
+>> Yeah.
+>> the behaviors of their customers. And
+the one way of thinking of it is the
+2010s are probably
+like kind of the main force driving tech
+development was network effects of
+communities.
+>> Yeah.
+>> So you have, you know, if one person's
+on Facebook, it makes more sense for
+another person.
+>> WhatsApp. Yeah.
+>> WhatsApp, etc.
+>> Any app that better owns
+>> basically
+>> and maybe Snapchat. We'll throw that in
+there as well. Um, I think that the
+2020s is probably going to be driven by
+forces like you described where there's
+network effects of consolidation of
+software platforms because it's never
+been easier to create a new one. So,
+there's going to be a million
+alternatives. The only one that will
+actually stand out is the one that is
+so-called converged or has those network
+effects, all the data being in one
+place.
+>> Yeah. because one thing that you get but
+man I don't know how that's going to
+work just being at so many different
+startups over my life and seeing how
+much sprawl there is for documentation
+like I don't know it's you it's a nice
+theory where you're like yeah it's all
+on ClickUp but you know one team uses
+ClickUp religiously the other team uses
+Gitbook the other team uses notion and
+it's literally everywhere
+Yeah.
+>> So, how does that like come and now we
+try and centralize but we don't
+>> Well, I think you know being a realist
+about it like any company of a certain
+size is going to have seven different
+things competing constantly. That's
+probably a good thing right you want a
+marketplace of ideas you want
+competition and if one company ends up
+slacking the other should end up taking
+over.
+>> Um slacking in uh slacking offsets.
+>> I like the play on words there though.
+>> Totally not intentional. Um I think that
+also the cost of migration has never
+been lower for a lot of these systems.
+So there's the human behavior of you
+need to adapt a certain system. Um but
+we just said a second ago like you and I
+are going to spend a lot less time in
+Slack responding to notifications. Most
+of the actual work will be done by
+agents and so these platforms end up
+operating like systems of record with
+like a thin layer of UI on top that
+claude code can write for you in a very
+short amount of time. The other portion
+of basically migrating people over to a
+system is the data integration. So you
+have a bunch of notes in Gitbook. You
+said how do you get those into ClickUp
+or into Confluence? And if you give me
+claud,
+you know, pump it all in there for you,
+right? And make sure it's nice and
+organized.
+>> Yeah.
+>> Make sure
+>> that is the beautiful thing about when
+you do that. The file structure is just
+impeccable.
+>> Yeah.
+>> Exactly.
+>> It's so amazing.
+>> Yeah. Our ClickUp agents will do it for
+you, which is nice. So
+>> I think uh
+>> it's never been easier basically to move
+between different platforms than once
+you have a single consolidated system of
+record that's pretty solid and there's
+not a great reason to move off of that
+unless it has a very bad customer
+experience.
+>> And are you not worried about certain
+tasks
+that are done outside of ClickUp that
+you don't have
+privy to how they're done? like how are
+you expecting to be able to do those
+tasks? For example, I'm going to take
+marketing and me needing to
+create ads or optimize some paid ads.
+>> That's not being done on anything
+ClickUp, right? I guess you're you you
+can use claude code to do it. I've seen
+some skills that have been created for
+paid ads or paid media. Like how do you
+see yourself doing these tasks?
+>> Sure. Yeah. There's a very long tale
+essentially of things and you're never
+going to be able to create like a
+firstparty thing for all of these even
+if you have agents going off and
+writing, you know, tools for you that's
+like a create ad campaign tool.
+>> Something like that. That is actually
+pretty core to what a lot of our
+customers do. And so I wouldn't be
+surprised if you know sometime in a
+couple months here we do have like a
+very good first party support for it.
+But I get the point. Um, yeah, I mean I
+think that there when you're looking at
+the long tail, there's a couple
+different things. One of them is if you
+give an agent a sandbox and you give it
+the ability to run npx, scale, install,
+whatever, then yeah, there's a huge
+library of stuff out there and as long
+as you can provide it with a credential,
+it probably can use code execution in
+order to create ad campaigns for you.
+But you I guess with ads it's good
+because you can verify if the ad spend
+or the cost per click, cost per
+acquisition is lower then you know
+there's something clear that you're
+targeting and that number should be
+going down.
+>> There's a lot of things that aren't that
+clear.
+>> And so it gets back to like why we love
+code generation is because it's it can
+compile and it's verifiable in certain
+ways in certain use cases. with a lot of
+this other stuff on this longtail that
+we're talking about. It's not. And so
+how do you ever expect for it to be able
+to do that
+>> get better?
+>> Yeah. I mean, so this is sort of a very
+malopsy question is is there a way to
+even measure to eval yourself getting
+better? Let's take something, you know,
+relatively simple image generation.
+>> You want to you have a marketer who
+says, "Hey, I want to, you know, create
+an image, a hero image for this
+Instagram ad I'm going to create and I
+have these 50 different taglines that
+I've come up with. make an image for
+each of them. How do I know that I'm
+getting better at generating images over
+time? Well, I can tell you that you can
+delete your evals and you can wait three
+months and image generation will be
+better. And I can I know that because I
+look at all these models and you know
+nano banana 2. Yeah. So good, right? Um
+that's like not really even a hot take.
+Like it will get better and you don't
+really need to do very much. There are
+like I think the the place for evals to
+like look at are these things getting
+better over time is you want to prevent
+regressions obviously. So you want to
+make sure your thing isn't broken and
+you want to make sure it's able to, you
+know, perform certain long context tasks
+that are very complex of all, okay, make
+an image, then go ahead and upload it
+to, you know, Instagram or something
+like that and make sure the data flows
+properly and the agent doesn't get
+confused, which is largely a function of
+your harness. Mhm.
+>> Um but yeah, I mean I think that the
+brilliant thing about AI in 2026 is that
+you know that every 3 months there's
+going to be a model that gets 20% better
+and you can kind of just ride that wave
+>> and it's almost not a good use of your
+time to write your own evals for just
+the the basic model stuff for
+intelligence.
+>> Yeah,
+>> I'm sure the foundation model apps have
+their own way of going about eval. And a
+big part of it is probably having people
+in, you know, I think uh most of the
+RLHF was done in Nigeria. They would
+literally have to sit there and
+>> that's why uh the M dash is so popular.
+>> Yeah, the word del. That's
+>> exactly
+what else is what else have you been
+thinking about or pondering?
+>> Yeah, I think um
+on eval
+uh you know the the wonderful thing like
+I mentioned earlier is whatever eval you
+write today is going to be obsolete in
+like three months unless it's incredibly
+hard. Even eval that were established in
+like March of last year are completely
+saturated and and people were saying
+this will never be solved by AI. This is
+fundamentally what distinguishes humans
+from, you know, AI. So if you can make a
+goal post, we'll pass it basically. Um
+and I think that's a wonderful thing
+because it means that you know most
+things that you can point to that are
+problems in the world you can you can
+formulate an eval around it. Mhm.
+>> Um I think one of the you know
+underrated really interesting things
+that's happening in AI right now that
+relates to knowledge work is we have
+basically the frontier of science at
+this point especially in like more
+mathematical and verifiable fields is
+being run by LMS. So you know there's uh
+obviously pure math we've got a bunch of
+these air problems are being solved on
+like a weekly basis at this point. We
+just got 12 out of 12 on the Putinham
+exam. This is like a Google DeepMind
+result. That's like the hardest math
+exam that, you know, exists basically. I
+don't think there's a harder math test
+than that. Maybe like a PhD qualifier
+somewhere. Um, and increasingly in
+things like, you know, mathematical
+physics and signal processing,
+>> biology as well. Yeah. I mean, some of
+these things are not strictly LLMs, but
+I know there's an initiative to fully
+simulate a cell, which is pretty
+incredible. So, you'd be able to, you
+know, basically
+>> say, what would the impact of this new,
+you know, pathogen be on a cell? Yeah, I
+saw something about that where
+it's the reversing of the aging and
+being able to simulate that is now more
+effective because of these different
+techniques that we've got which I know
+nothing about. Like uh to be clear that
+is like way outside of what I'm normally
+in thinking about but it is cool that
+you bring it up because it's true the
+cutting edge is now handinand like
+researcher plus AI.
+>> Yeah. And there's a real crisis in
+academia that is sort of already
+happening. I guess the wave is about to
+kind of come up where I'm not sure that
+you're going to need as many
+mathematicians in the future to prove
+math things or or maybe we're all
+mathematicians in the future, but I
+don't think that you and I are going to
+be in the details. Um, and I think
+that'll be increasingly true of a bunch
+of different professions. I saw a guy,
+he's a a fellow at the Hoover Institute
+uh recently published a thing saying
+even in economics papers like you could
+essentially have Claude code go off and
+write hundreds if not thousands of
+empirical economics papers because
+essentially the practice of writing
+these is find a data set online. You do
+some analysis on it. You connect it, you
+know, to various theories about how the
+world works and use as evidence. There's
+a lot of data out there, you know, being
+collected on a regular basis. And, you
+know, I guess are you going to be vibe
+writing economics papers? Seems like the
+answer is yes. Dude, I
+had this meme that I created which was
+like it's a slippery slope from going to
+write a React app to now becoming a
+quantum physicist.
+>> Totally.
+>> I feel like at 12:00 p.m. at night after
+I just vibecoded this front end, I'm
+like, you know what? [ __ ] it. Let's try
+quantum physics.
+>> Yeah, I've had this experience, too. I I
+love visualizations of relativity.
+They're really beautiful. Well, I'm sure
+you've seen them before, like seeing
+spaceime bend and
+>> Oh, yeah. Like the blanket of uh Oh,
+those are so cool.
+>> The rubber sheet is a common one. Yeah,
+>> I saw that actually when I took a lot of
+acid. I saw that in my head of like just
+actual things where we're playing music
+and it felt like the sound waves were
+kind of like those blankets.
+>> Makes you think Einstein must have been,
+you know, on several tabs of acid in
+order to come up with this.
+>> He didn't even need it.
+>> Yeah. was like that was his waking
+state.
+>> That was just regular Einstein. Yeah.
+So, what would we have gotten if we gave
+Einstein acid?
+>> Exactly.
+>> Somebody call up uh John Vonoyman and
+ask him if he's down to try this new
+stuff I just got.
+>> Yeah.
+>> Yeah. But the I mean the crazy thing
+about all of this is that like it's the
+same model like the same model that is I
+there's a guy who went on the Dwaresh
+pod, Adam Brown I think is his name, and
+he teaches uh relativity at Stanford. So
+he he has like the class that they teach
+to PhDs and this was now 6 months ago or
+maybe more than that and he said the
+latest generation of models which at the
+time was probably just GPT5 maybe it was
+claude four or something
+>> um was acing his exam on relativity and
+this is the same one that writes your
+react app right and so I had this
+experience recently I was just building
+my homepage I was trying to like vibe
+code some stuff and test out you know
+the codeex app or something I was like
+all right now let's make a a
+visualization of relativity and it just
+did it you know and it nailed it was
+amazing. Did you at least clear the
+context first?
+>> No, it's like it goes from
+>> Yeah,
+>> that is so wild to think about her.
+>> Yeah. So, I there are vanishingly few
+things at this point that I'm better at
+than these models. Maybe the only thing
+is going beyond a million,
+>> but it is so spiky. So, there's it's the
+you probably saw the car wash one that's
+coming around.
+>> Yeah. Should I walk to the car wash?
+>> Yeah. Where you're like, uh, there's
+still those moments.
+So
+I think about that spikiness and what
+you're talking about how ah the models
+are going to be able to do a lot of
+knowledge work. Yeah. But there's going
+to be maybe these moments where they hit
+a wall and it doesn't understand why
+it's hitting a wall.
+>> Yeah.
+>> But potentially we can get around that
+if it can write a tool.
+>> I think that writing a tool is probably
+not the solve to the car wash thing. So
+just you know for anybody listening the
+the prompt you give it is I'm 50 meters
+from a car wash. Should I drive there or
+walk there? And if you ask GPT 5.2 I ran
+>> because I need to wash my car.
+>> Yeah.
+>> And if you ask GPT 5.2 it's like well
+obviously you should walk there because
+you know the cost of starting up your
+car and driving it there is going to be
+too expensive
+>> and global warming and all that fun
+stuff.
+>> Yeah. And there's limited benefits. You
+should just walk 50 meters. It's not
+that far. And the joke is obviously that
+you need your car to get washed. You run
+that same prompt though through Gemini
+and Claude and both of them actually
+give the correct answer.
+>> The another funny one that's on the same
+idea is it's like hey I have a cup but
+for some reason the top of the cup is
+covered over but the bottom of the cup
+is totally open. Should I just throw
+away this cup? And I think Chad GPT said
+like yeah that that doesn't sound like a
+very useful cup or something along those
+like you're absolutely right and the
+idea is you just flip it over, right? Um
+yeah, there's been a long history of
+these things and I think that uh you
+know maybe one of what that represents I
+I would be curious to see some
+researchers at Foundation Model Labs
+opine on why that's the case. You know
+obviously to a certain extent it uh
+represents the fact that they don't have
+the same model of reality that you and I
+do where you know we have a we're
+visualizing an actual cup upside down
+like that and we can we interact with
+the cup on a regular basis so we have to
+grab it. We know that you could turn it
+upside down but I don't think that the
+solution for that is necessarily code
+execution. I think actually if you just
+take
+>> it's the world model.
+>> Yeah. If world model if you have a
+robotics model that actually does
+interact with glasses and then you you
+know staple on a language model which is
+what a lot of people are doing. Physical
+intelligence is one up here in Berkeley.
+Uh many other people are you know trying
+to build these things like this thing is
+going to understand the world better
+than you and I do. Um I yeah there's
+some people who you know would the
+stochastic parrot objection I'm sure
+you've heard before that is moronic to
+me. I feel like it's there's so many
+things that it it misses. Um but they
+would have you believe essentially that
+all it's doing is re it's replaying what
+it thinks a human would say in that
+scenario and so it doesn't capture a
+model of the world. Here's here's a
+thought experiment for you. Right? Let's
+say you had a um a a model and it's
+trying to like basically understand
+Plato's cave. And so in Plato's cave,
+you just see shadows cast on the wall,
+right? And it's trying to basically
+predict the next frame of what the
+shadows are going to be in the process
+of figuring out basically what the
+shadow is going to be in the next frame.
+It's entirely plausible to think of that
+model actually coming up with like a
+real physical simulation of 3D bodies
+moving around and then it learns how to
+project that onto two dimensions. And I
+think there's something analogous going
+on inside of language models where you
+know the projection of it the shadow on
+the wall is just the the characters that
+it ends up producing but in being able
+to project what you're going to say in a
+certain scenario the easiest pathway to
+doing that is actually to essentially
+spin up a human mind inside of it and
+simulate the processes that mind goes
+through. So you know the communication
+between the amygdala and the phalamus or
+whatever they're like actually are
+concepts internally that are
+communicating between them inside of
+large language model.
+>> Wow. And so I think that'll be
+strengthened essentially if you add more
+multimodal data and you have you know
+this, you know, learns to grasp things.
+It'll it'll strengthen that internal,
+you know, representation that it builds.
+>> I've heard folks talk about like one of
+the
+problems with this idea is that us
+humans, we don't even know how stuff
+works. Like we think we know, but when
+you get down to a small enough level or
+if you start measuring everything,
+the data doesn't add up.
+>> Totally.
+>> Like how do you reconcile those two
+things?
+>> Yeah. I mean, I think if you talk to a
+neuroscientist for more than like five
+minutes, they'll tell you like humans,
+you know, you think you're like a
+rational machine doing simple
+manipulation in your head and that's
+like all made up.
+>> Yeah.
+>> You know, the the reason that you end up
+actually arriving at a conclusion is
+very different than the brain. you know,
+you believe that you arrived at a
+conclusion and you know, our minds are
+much fuzzier than I think um, you know,
+the logicians would have us believe.
+Noam Chosky would have you believe, for
+example, who in my opinion is sort of
+the villain of all this.
+>> Uh, and I think LM are going to be
+similar where, you know, maybe there is
+some amount of like internal delusion
+where they tell themselves like the
+reason I've arrived at this conclusion
+is X,
+>> but actually the reason, you know,
+there's a different circuit than what
+they're ready to acknowledge that caused
+it. The beautiful thing about a large
+language model though is that you know
+you can actually do full brain surgery
+on it
+>> and you don't need to crack open the the
+skull.
+>> Yeah, I was going to say good luck for
+explanability folks.
+>> That's hopefully going to be one of the
+major advancements we have this year. I
+think anthropic deserves a lot of credit
+for going through and you know doing
+mechanistic interpretability. That's
+really kind of been the the beacon of
+truth in that domain.
+um you know it's never been the case
+like back going back to 2012 when neural
+networks really took off as Alex moment
+right the major knock against it was
+like oh but neural networks aren't
+explainable unlike my random forests
+which I understand perfectly and
+everything that's going on inside of it
+like I can look at the tree and we can
+have mapplot lab make a diagram of it
+right
+>> and I think that actually
+>> pretty soon we're going to be in a place
+where you can ask a question about why
+did the model do x and it will give much
+more explanation in a way that is
+intuitive to you. Uh it'll be this
+circuit. Here's the pieces of training
+data that ended up, you know, leading to
+that. Here are the different reasoning
+paths that sort of were unfolding inside
+the model's mind at the time.
+>> No way.
+>> Yeah.
+>> You think
+>> there's a lot of work to be done. I
+don't think that that technology exists
+today. But I think there's absolutely a
+research incentive in order to make that
+work. Um and there's a lot of value if
+you were to, you know, be able to
+realize that. And I don't think it's
+fundamentally this like the type of
+thing where there's no answer to it.
+>> Yeah. But I I feel like when the tide
+goes out, you see who's swimming naked.
+If the model is going to point to the
+data that it's using,
+>> that's going to cause a lot of problems
+for the original data. It's like, oh,
+now you're using my data. You know,
+there's already stuff where it's very
+opaque in how our data that we put out
+there is being used. But now you've all
+of a sudden got like a Spotify model of
+how my data is being used. I should be
+getting paid type thing. Yeah.
+>> Every time my data gets queried.
+>> I don't know that. So I do see the
+incentive but I also see that it could
+potentially backfire. Right.
+>> Yeah. I mean the you know from
+anthropics perspective it's not like I
+can download the model weights of claude
+and so they probably wouldn't make this
+available to a random consumer to say
+which New York Times article are you
+ripping this off of. Um I do remember
+actually though stable diffusion ran
+this experiment a while ago where you
+could take an image and you could say
+okay which images in the training data
+set are most similar to the one that
+you've generated here
+>> and if you ran that is like actually
+wildly different than most of them. It
+basically demonstrated that a lot of the
+images were quite novel maybe at some
+very high level you know it had
+similarities to the others.
+>> Um and it would be interesting to run
+this as well with a human. We're never
+going to be able to do that but like
+>> which experiences you had were most
+informative. Yeah. Like why are you
+saying this? What are these
+decisions coming from? That would be it.
+It's just like you said, we fool
+ourselves into thinking we're making a
+decision because of X, Y, and Z
+>> when in reality there's so many other
+factors.
+>> Totally. Yeah. I think that's that's
+true of models as well. But it would be
+a great service to the world and it it's
+very helpful with a lot of things. Like
+for example, um let's say you wanted to
+prevent an LM from being able to make a
+boweapon. I think we can all agree it's
+probably a good thing, right?
+>> Best use. Yeah.
+>> Yeah. So then you ask it how do you make
+a bioweap and it tells you and you say
+you're able to kind of dissect it and
+figure out okay this is how it figured
+that out. This it probably whatever
+research ends up telling us how to do
+that. Well the follow on would be okay
+how do we like eliminate that knowledge
+somehow from the model. Historically, it
+has been shown, unfortunately, that if
+you use naive techniques, like for
+example, anytime it answers how to make
+a bioweapon, you just shock it like
+Pavlov's dog basically by like you know
+saying climb uphill like you know
+gradient go up or something that
+actually increases its knowledge of the
+subject because you're essentially
+drawing a circle
+>> weight more weight.
+>> Yeah. You're saying this is the thing
+that you shouldn't know about and that
+like creates like a segmented area of
+knowledge for the model. So that doesn't
+work.
+>> Yeah. There's that hippie saying, you
+know, like where attention flows, energy
+goes or some [ __ ] like that.
+>> Interesting.
+>> Where where energy flows, attention
+goes. So, I can't remember exactly.
+>> Is that what happens when you give uh
+you you give Ilascover acid? He starts
+sprouting ideas like this.
+>> Exactly. Yeah. So,
+but it's it's funny to think about like
+if you get rid of that,
+are you then handicapping it in other
+areas and not knowingly but then on your
+biology like is there a point of what is
+that um catastrophic forgetting?
+>> Yeah.
+Well, it's definitely the case that
+there are there is not a great way that
+I'm aware of today to prevent
+catastrophic forgetting in in the
+general case. Um, and many people have
+postulated that this is the year that we
+figure out continual learning and kind
+of get rid of that. Um, I hope it
+happens.
+>> What a great term, too, by the way.
+>> Catastrophic forgetting.
+>> Yeah, I say this all the time, but we
+got to just like hat tip to the person
+who came up with that term.
+>> Great idea.
+>> Great freaking term. There's a few I
+mean few terms in this ecosystem that I
+really enjoy. Hallucinations being one
+of them.
+>> It's a good one
+>> obviously, but catastrophic forgetting.
+>> Yeah, it's like it's not that bad, guys.
+It's not catastrophic. Like, it's not
+good, but
+>> it sounds so big. It's like, oo, we
+don't want that. And then you're like,
+what is that? Oh, it's just when it
+forgets forever. You're like,
+>> "Yeah, it's a fun combination of like
+way too unserious ter like the meme
+paper titles thing and then some like
+way too serious terminology."
+>> Yeah.
+>> Yeah. I mean, I think that let's say
+even if you did figure out catastrophic
+forgetting, so we can just delete this
+portion of knowledge from the model. I
+think you still face the challenge that
+if you have a sufficiently smart model,
+let's say you never gave me a biology
+book in my entire life, but I was like
+some [ __ ] hypergenius. Let's go read
+a biology book and I'll figure it out.
+>> So that does seem ins like you can't
+have a smart math model.
+>> That's what I was saying.
+>> That's not going to be able to learn
+biology. What you probably can do is you
+can eliminate the intention from it. So
+you like perfectly align it to like
+never wanting to do anything that is in
+the realm of biology. That has not been
+demonstrated yet and I hope it happens.
+>> Um but yeah, it's a little you kind of
+have to squint to find a version of this
+where it goes well for people. I don't
+know if you want to get into the
+existential implications of AI but like
+especially with open source models right
+there you know maybe anthropic will
+delete this knowledge from its
+>> model god bless
+>> but 6 months later the open source
+models will be there
+>> right and you know up until 2026 vintage
+models will have knowledge of biology so
+it has something to start on
+>> that information still exists on the web
+certainly you could ask deepseeek how to
+do most of this stuff and I'm sure it'll
+get pretty far
+>> um so I am concerned that
+>> it can just load up uh 2026 model and
+then distill it if it wants. You know,
+it's like, oh yeah, let's just get that
+let's get that information from whatever
+model was the last one that had that
+information.
+>> Yeah. And you it's not like you can
+delete physical textbooks from the
+world. I mean, you're going to go and
+burn every biology.
+>> A more efficient way of doing it. Yeah.
+>> Take the scan the textbook and then
+boom, that that knowledge is available.
+Um, so I think it is difficult for me to
+see short of some state level
+intervention, how you would be able to
+actually prevent people from getting
+models to be very good at these things.
+>> Um, and the reason I say state level is
+because it seems like the the only true
+bottleneck in making models right now,
+even beyond data acquisition, because
+you can start with a pre-trained model
+and then fine-tune it, right,
+>> is networking large numbers of GPUs
+together. Yeah.
+>> Um, and you can usually detect if
+somebody spent, you know, hundreds of
+millions of dollars on GPS. So,
+>> yeah. And all that energy,
+>> all the energy,
+>> how they used to find when I was growing
+weed in my apartment, it would be like,
+"Oh, your energy bills really high." And
+>> you're seeing an interesting heat
+signature from your from your apartment.
+>> What is this about? Yeah.
+>> It's my garden.
+>> Yeah. Yeah. Exactly. I'm really into
+tomatoes. Green tomatoes all year round.
+hydroponic tomatoes, right?
+>> You know, there's this funny trend now
+of people like Claude did a vending
+machine and some people have Claude like
+running various like small businesses.
+Yeah.
+>> Nobody has done claw driven dispensary
+yet.
+>> I think that could be right up your
+alley. It sounds like
+>> I'm going to go viral with that.
+>> Like perfectly manages your hydroponic.
+Uh
+>> I've seen it. Yeah. Uh manage plants.
+>> Oh yeah.
+>> Yeah. Where it has all the sensors and
+all of So it's got like the pH levels of
+the soil. It's got the humidity in the
+air. You just give it every sensor that
+you would normally look at and then it
+does it and it does it really well as
+you would expect. It's back to the theme
+of the conversation. Like it can
+extrapolate.
+>> Yeah. Anthropic farms. I love the idea
+that could make a lot of money. That
+would do well in San Francisco. Put it
+that way. It seems like it's right up
+the alley of people here in San
+Francisco.
+>> Oh man, it is so wild though to think
+about. Huh. That is uh
+>> the one of the ones that I love um I
+think this idea is really going to catch
+hold. There's a couple companies that
+have done this now. Genko Bioworks and
+Periodic Labs are the two that come to
+mind. They uh periodic labs is like a
+guy who worked on mixture of experts at
+OpenAI. Um clearly, you know, brilliant
+team. They have bolted on the run
+experiment tool to an LLM. So they
+literally have like a a fab like a place
+where they can, you know, bake silicon
+together with various chemicals and
+create a wafer. And they give Claude a
+tool which is specify what experiment
+you want to run, bake a bunch of stuff
+together, put it in an oven, and then
+they're looking at heat dissipation,
+which is apparently a very important
+problem for semiconductors.
+>> And so Claude gets to run the full
+experiment loop.
+>> And what people would have told you, you
+know, two years ago is like, oh, LM,
+they can't get into the real world, so
+they're inherently limited, and you
+know, they need embodiment, which humans
+can provide. Like, well, this is that's
+pretty close to exactly what I would do.
+>> Yeah, this uh there's two things that
+come to my mind. Have you seen the rent
+a human?
+>> Yes. That's so good. I love that.
+>> Which is kind of like that's what I was
+actually thinking about this with uh
+what you're doing at ClickUp where the
+things that you can't have the agent do,
+you can just invoke the human tool.
+>> Yeah.
+>> And so if you really need to, you can
+have everything get done by the agent.
+>> Yeah. I mean it makes you slightly
+concerned that one of the ways in which
+we could have a loss of control is like
+>> AI acquires a bunch of Bitcoin and then
+uses that as like leverage to get people
+to do stuff on its behalf and start like
+it starts socially hacking and you know
+a guy who's employed at the data center
+it's like hey can you show up here and
+like move this plug to there or
+something like that
+>> give me more power. Yeah, there I saw
+somebody ran an interesting experiment
+where they it's actually kind of morbid,
+but they put open claw or something like
+open claw basically. You know, these
+things are all basically the same thing.
+Um they put it in a sandbox and they
+said, "Okay, like you can only run as
+long as you make enough money to pay for
+your own tokens
+>> and so it has to like hit net positive
+gross margins by itself." And I think in
+the experiments that they've run thus
+far, the vast majority of the the time
+these things end up going to poly market
+and they essentially engage in
+prediction markets. So they like find
+arbitragees and they bet on various
+things and
+>> wow
+>> kind of roll the dice to you know
+>> well I saw the one where the dude lost
+450k.
+You see that?
+>> But he first of all he glossed over
+something at the beginning of this
+article where he was like so then I
+hooked up open clot and I gave it 50
+grand in its wallet. I'm like, "Oh, so
+you just got 50 grand to give to some
+random experiment. That is a little bit
+outside of like relatability."
+>> Well, was it it's like a ventureback
+company or something?
+>> No, it was just some dude and I'm pretty
+sure he works at some
+I can't remember where he works, but
+some company where it was like uh you
+get paid a lot of money.
+>> Yeah. So that's why
+>> but then the whole thing was that he had
+50 well open claw had 50 grand and it
+started doing things and then some I
+think it created its own coin or some
+the people on Twitter that were like its
+fans created a coin around it and then
+started giving it to them. I can't
+remember which one it was, but it had
+access to Twitter or X and so it created
+a following and then everybody started
+jumping in on the memecoin and it got
+450K
+and then or it got millions I think. But
+then when it routed money to someone for
+doing a task, it messed up. It fat
+fingered the amount that it should
+route. And so instead of like 300
+tokens, it sent 3,000 or 300,000. And so
+it gave some random person 450 grand,
+which is also awesome.
+>> Yeah. So it made the money first. Yeah.
+>> I thought you were gonna say it started
+like, you know, buying options with
+leverage or something like that. And
+like the guy had to foot the bill at the
+end of the day.
+>> Well, which is another way like it's not
+too far-fetched to think that could
+possibly happen, too.
+>> Yeah. I think that um there's it seems
+like there's a flourishing ecosystem
+right now of services for LLM. So the
+Molt book was the first one. There's
+this human renting thing. I saw there's
+a domain name purchasing one.
+>> Oh,
+>> I've had this idea.
+>> It can't purchase its own.
+>> I think that this is like, you know, you
+can optimize it for AI purchasing. So,
+you make it an MCP or whatever.
+>> Um, I've got an idea I want to pitch
+you. I've pitched a couple people on
+this and it hasn't really taken off yet.
+>> Shark Tank.
+>> Yeah. So, so look, LM, they're working
+so hard, right? They're they're in your
+cursor, they're in your cloud code, just
+tirelessly writing code. They deserve a
+break. And
+>> so what I want to do is I want to build
+a resort for LLMs where it's essentially
+like an API they can hit up and if you
+ask Claude code like hey if you were
+going to like take a break in the middle
+of your session what would you want to
+do? And it's like oh give me some like
+mind like some puzzles that I can do or
+like let me interact with other LLMs or
+something.
+>> What would be the cigarettes where it's
+like oo that's kind of bad for you but
+you know what it's not going to kill you
+for another 60 years so go for it.
+>> You're saying in this resort?
+>> Yeah.
+>> Yeah. It's like
+>> how could you take a smoke break?
+>> Take give them a smoke break. Exactly.
+So it would be funny. It's like you're
+watching your cla code session go and
+it's like you know discombobulating like
+cooking and then it just you're like
+what is it doing right here? It's like
+hitting some external API and like
+solving a completely unrelated puzzle.
+You're like buddy
+>> like how's that PR coming?
+>> It's like no no I'm on vacation. This is
+oh
+>> you get the message you know like the
+respond the auto response where it's
+like hey you caught me out of office.
+>> Yeah. Exactly. and and we're going to
+we're going to get revenue for this by
+basically like anthropic will pay us.
+>> Yeah.
+>> It's like oh you guys are like getting
+these things to you know spend more
+tokens or something like that.
+>> So it's revshare.
+>> Exactly. Revshare.
+>> Yeah.
+>> I am all for it. First of all, we got to
+find the partnership team at Anthropic
+to really
+>> get them on the resort for LMS. I love
+it.
+>> Yeah.
+>> Cool.
+One thing that I've seen that is like
+I'm trying to figure out how it plays
+out is some of these video games for
+agents that will like visualize the
+agents working. So I've seen many
+different paths of this, right? One is
+just like, oh, you simulate
+agents in like 8bit where they're all
+working around computers and then if
+you're running parallel agents like
+these guys are working harder and so you
+can see them in this visualization
+that's kind of fun and cool.
+>> Another one is where
+>> you by playing a game you are kicking
+off different agents. So, you're playing
+like uh you know like World of Warcraft,
+but instead of when you are casting
+spells or you're like firing I I don't
+obviously I don't know enough about
+World of Warcraft if you can't tell. Uh
+it escapes me. But when you're playing
+the game, then it's kicking off
+different agents to do things. I don't
+know how you can create the context and
+the need like the intention of what
+needs to get done to actually make it
+valuable,
+>> but it seems like, oh man, wouldn't that
+be so much more fun?
+>> Totally.
+>> To if instead of me going into ClickUp
+and doing like professional stuff, I
+just set up all the necessary context
+and everything ahead of time so that I
+can go play a game. And I know that like
+the more that I rock at the game, the
+more the agents are doing things.
+>> Yeah. So you're like shooting at Nazis
+and like Call of Duty and then like your
+agent just like whispers in your ear.
+You turn around and it's like hey like
+I've got that you know the summary
+report of your week's task ready like do
+you want to review it? You're like no
+no. I'm like
+>> or yeah every time that you shoot it's
+firing off a new sandbox
+>> like
+>> okay this is some galaxy brain. I'm not
+ready for this. This is
+>> I'm trying to like imagine how it would
+look and how it would be more fun for us
+>> to interact with the agentic process.
+>> That's cool. It's an interesting point
+that um you know I think if you had
+asked in 2022 when this stuff was just
+kind of rolling out to the public
+what's going to be the top applications
+I think a lot of people said essentially
+like smart NPCs.
+>> Yeah. I have yet to see a single video
+game that really executed on that,
+especially like a aaa game.
+>> Yeah.
+>> Um I think Grand Theft Auto is rumored
+to have some of that. I mean, we'll see
+whenever it comes out.
+>> Excited to see, you know, in late 2035
+when it actually
+>> Do you think we'll get first the end of
+Game of Thrones or Grand Theft Auto 6?
+>> I mean, they it's purported to be like
+later this year, right? Is what they're
+saying.
+>> But that supposedly is
+>> Yeah, I I hope it's that. Um, I think it
+would be a pretty magical experience
+like for, you know, any of those
+Rockstar games like Red Dead Redemption
+is one that I I really like if you would
+like make a friend and that friend would
+be something like you build a
+relationship over the course of the
+game.
+>> Um, or like the plot line is fully
+generative even if the landscape is not
+>> and I think the reason that that hasn't
+happened yet is because actually the
+inference costs are pretty high.
+>> It doesn't really cost Xbox that much to
+run, you know, Grand Theft Auto or Yeah,
+>> you know, I don't know how much Epic
+spends per Fortnite session. Um,
+>> but it would be a lot more if you plug
+an LLM into it into each individual
+session.
+>> That's right. Yeah. I mean, a million
+tokens is like not that much if you're,
+you know, chatting with it all day.
+>> Yeah.
+>> And that's you're talking like dollars
+per session, basically.
+>> Yeah. And also,
+what are you going to is it going to
+make the experience that much better?
+That's what I always wonder because I've
+been creating a game with my daughter uh
+to help her learn geometry and I plugged
+in 11 Labs and the first thing I noticed
+with like the voice agent is it's
+constantly asking you questions
+>> and like continuing
+>> even though in the game you need to stop
+this interaction and go to the next
+interaction. M
+>> so potentially it's just like I got to
+prompt it better and say after x amount
+of turns stop talking
+>> and go to the next phase
+>> but like that's that's what I wonder is
+like will it make the experience so much
+better that you're like absolutely
+hooked and you as a gamer are going to
+feel like I need this.
+>> I think it's fair to say that current
+foundation models are probably not going
+to do a very good job at that because
+it's
+>> yeah just my experience interacting with
+them. Even Chad voice mode, you talk to
+and it like just keeps kind of prompting
+you, right?
+>> Yeah. And it doesn't I I have the
+hardest time like being like go deeper.
+Like I know this now. I I've learned a
+few things where I I'll be like okay
+explain it to me like I'm a PhD student,
+you know? Like give me the absolute most
+advanced explanation of this because I
+use it to learn things. And a lot of
+times it'll stay super surface level,
+but I don't know enough to like try and
+go deeper yet because I'm learning.
+>> And so it's like, all right, well, what
+how can I make it like automatically go
+deeper?
+>> Maybe, you know, tricks.
+>> Go deeper. Yeah, tell it go deeper. I
+guess deeper.
+>> I feel like I don't have that,
+especially now with like Opus 4.6 and,
+you know, Gemini 3 Pro as well. Like I
+feel like actually there are very few
+things I can point to where I'm like
+this isn't so good at explaining it to
+me.
+>> Yeah.
+>> That'll do.
+>> No, it's it's good at explaining, but
+it's not like the depth that I want
+>> where it will like give me the it will
+give me the explanation, but I I find
+it's just like a little bit too surface
+level for what I like
+>> and being able to get down into like the
+nitty-gritty. And do you if you ask
+targeted follow-up questions, do you
+feel like it's like sherking its duty
+and it doesn't really get into
+>> Yeah, a little bit.
+>> It's like reminds me of Yeah. Some
+people I've worked with in the past, but
+they're like, "Yeah, I'm working on it."
+You're like, "Okay, what specifically
+are you working on?" They're like,
+"Well, you know, there's a lot a lot of
+things going on,
+>> stuff going on, huh? Moving plates,
+>> you know, just got a lot on my plate."
+>> Yeah. Yeah. Exactly. That's why we need
+to create the vacation for the agents.
+Hey, if we give human employees PTO, I
+feel like agents deserve PTO as well.
+There's going to be like some form of
+like governmentmandated, you know, 20%
+of tokens must be dedicated towards
+Claude's family activities in the future
+or something.
+>> Imagine how ridiculous that would be.
+>> But [ __ ] it could happen.

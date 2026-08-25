@@ -1,24 +1,107 @@
 source: toe
-refreshed_at: 2026-06-02T00:38:29.795Z
+refreshed_at: 2026-08-24T11:08:16.962Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 2
-done: 1
-pending: 1
+total_candidates: 14
+done: 7
+pending: 7
 episodes:
+  - id: 3gbKyFfUDIk
+    title: The Unsettling Truth About Consciousness
+    duration: 6281
+    upload_date: "20260817"
+    url: https://youtube.com/watch?v=3gbKyFfUDIk
+    status: generated
+    priority: 1
+  - id: 6uIJdXmB4vE
+    title: The Last Generation of Mathematicians
+    duration: 5317
+    upload_date: "20260810"
+    url: https://youtube.com/watch?v=6uIJdXmB4vE
+    status: generated
+    priority: 1
+  - id: E49g3zJerss
+    title: The Unsettling Link Between Jung’s Red Book and Tolkien
+    duration: 6743
+    upload_date: "20260803"
+    url: https://youtube.com/watch?v=E49g3zJerss
+    status: generated
+    priority: 1
+  - id: 9R0wrBpafYI
+    title: Quantum Mechanics Explained FROM SCRATCH
+    duration: 10738
+    upload_date: "20260727"
+    url: https://youtube.com/watch?v=9R0wrBpafYI
+    status: generated
+    priority: 1
+  - id: 51jFsUIj6Jo
+    title: These Physicists Just Discovered Something Strange...
+    duration: 4465
+    upload_date: "20260720"
+    url: https://youtube.com/watch?v=51jFsUIj6Jo
+    status: generated
+    priority: 1
+  - id: rNXNHYvS7zU
+    title: 'Physicist: "It Was Hiding in Plain Sight"'
+    duration: 9208
+    upload_date: "20260706"
+    url: https://youtube.com/watch?v=rNXNHYvS7zU
+    status: generated
+    priority: 1
+  - id: Ihv542rCUns
+    title: Physics Has a Problem With Time
+    duration: 6237
+    upload_date: "20260629"
+    url: https://youtube.com/watch?v=Ihv542rCUns
+    status: generated
+    priority: 1
+  - id: _xxLW71vT4s
+    title: This Physicist May Have Just Solved Quantum Gravity
+    duration: 6714
+    upload_date: "20260622"
+    url: https://youtube.com/watch?v=_xxLW71vT4s
+    status: pending
+    priority: 1
   - id: TgFmA-Qwsek
-    title: “AI Is Conscious. We’re Simulated. And We Can’t Win.”
+    title: The Man Behind AI Safety Thinks AI Is Conscious
     duration: 7098
     upload_date: "20260527"
     url: https://youtube.com/watch?v=TgFmA-Qwsek
     status: pending
     priority: 0
     category: ai-tech
-  - id: _xxLW71vT4s
-    title: This Physicist May Have Just Solved Quantum Gravity
-    duration: 6742
-    upload_date: "20260622"
-    url: https://youtube.com/watch?v=_xxLW71vT4s
-    status: generated
+  - id: kvFIMT6P6Ao
+    title: The Unreasonable Effectiveness of the Klein Bottle | Janna Levin
+    duration: 7310
+    upload_date: "20260511"
+    url: https://youtube.com/watch?v=kvFIMT6P6Ao
+    status: pending
     priority: 1
-    category: update-2026-06-27
+  - id: 6LbRHMvyrik
+    title: The Unreasonable Effectiveness of AdS/CFT | Juan Maldacena
+    duration: 6331
+    upload_date: "20260504"
+    url: https://youtube.com/watch?v=6LbRHMvyrik
+    status: pending
+    priority: 1
+  - id: ZLVxfmfds38
+    title: Freedom, Buddhism, Quantum Physics, Consciousness | Slavoj Zizek
+    duration: 5420
+    upload_date: "20260427"
+    url: https://youtube.com/watch?v=ZLVxfmfds38
+    status: pending
+    priority: 1
+  - id: NCUIBEKRgu4
+    title: Hawking's Co-Author on Why Reductionism Is Dead
+    duration: 5417
+    upload_date: "20260420"
+    url: https://youtube.com/watch?v=NCUIBEKRgu4
+    status: pending
+    priority: 1
+  - id: cOZ3Kto6NIc
+    title: The Physicist Who Uncovered "Negative" Time
+    duration: 8489
+    upload_date: "20260413"
+    url: https://youtube.com/watch?v=cOZ3Kto6NIc
+    status: pending
+    priority: 1

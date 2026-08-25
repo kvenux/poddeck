@@ -1,0 +1,29 @@
+id: ffdR5fZTC5E
+source: xiaojun
+title: "148. 对游凯超3小时访谈：开源Infra、和模型Co-design 、“如果vLLM失败，我们会后悔一辈子”"
+guest: "游凯超"
+guest_role: "vLLM 核心维护者、推理基础设施创业者"
+published: 2026-07
+duration: "2h07m"
+url: https://youtube.com/watch?v=ffdR5fZTC5E
+thumbnail: https://img.youtube.com/vi/ffdR5fZTC5E/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - startup
+  - coding-agents
+  - interview
+  - engineer
+  - deep-dive
+  - technical
+  - strategic
+summary: |
+  游凯超复盘自己从算法研究转向机器学习系统的路径，以及 vLLM 如何从 PagedAttention 论文原型成长为生产级开源推理引擎。对谈进一步拆解中国开源模型浪潮、社区治理与公司化、Coding Agent 对贡献机制的冲击，以及模型、推理系统和硬件 co-design 的效率逻辑。
+core_ideas:
+  - 系统研究用可验证的性能、真实用户和生产收益，替代单一的论文 novelty 坐标
+  - vLLM 的核心价值已经超越 PagedAttention，在持续重构中屏蔽模型与硬件的快速变化
+  - 开源项目走向集群部署后，需要公司补上稳定人力、NDA 法律实体与长期算力
+  - Coding Agent 让代码供给变便宜，也让维护者的上下文、优先级与长期判断更稀缺
+  - 模型结构决定推理效率上界，RoPE、FlashAttention 与 MoE 展示了 co-design 的现实价值
+  - 商业化围绕 Token 产出与成本节省展开，并以社区方向一致为合作边界
+base: /episodes/ffdR5fZTC5E/

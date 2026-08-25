@@ -1,0 +1,21 @@
+id: zawGTDLtWFY
+source: xiaojun
+title: "NVIDIA VP Ming-Yu Liu: Cosmos 3, World Models, Kung Fu, What Jensen Taught Me"
+guest: "Ming-Yu Liu（刘洺堉）"
+guest_role: "NVIDIA VP of Research · Cosmos Lab VP"
+published: 2026-08
+duration: "约216分钟"
+url: https://youtube.com/watch?v=zawGTDLtWFY
+thumbnail: https://img.youtube.com/vi/zawGTDLtWFY/maxresdefault.jpg
+status: generated
+tags: [ai-research, robotics, hardware, interview, researcher, deep-dive, technical, strategic]
+summary: |
+  NVIDIA 研究副总裁刘洺堉回顾从传统计算机视觉、GAN 与 diffusion 走到 Cosmos 3 的二十年研究路径，并解释为什么 Physical AI 需要一个把语言、视频、音频与动作统一起来的 world foundation model。对谈也深入到模型之外：如何从 22 个模型收敛为一个、如何让 200–300 人同时对齐与自主决策，以及 Jensen Huang 的长期主义怎样影响研究与组织选择。
+core_ideas:
+  - Cosmos 面向 Physical AI 提供更好的数据、起点与环境，核心目标是提升泛化
+  - Predict、Reason、Transfer 与 Policy 描述同一个世界，因此在 Cosmos 3 收敛成统一模型
+  - 语言负责知识与沟通，视频和音频描述物理变化，动作负责真正改变世界状态
+  - 双塔架构在理解与生成之间隔离梯度，未来方向是一塔，但当前优先保证客户可用与部署成本
+  - Physical AI 评估需要 benchmark、Arena 与真实领域专家三层证据
+  - 大型研究组织必须同时做到目标对齐、信息透明与一线自主决策
+base: /episodes/zawGTDLtWFY/

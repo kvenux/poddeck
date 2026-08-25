@@ -1,0 +1,23 @@
+id: K796MYUgt0k
+source: latent-space
+title: "Why AI Agents Don't Actually Understand You — Danielle Perszyk, Amazon AGI Lab"
+guest: "Danielle Perszyk"
+guest_role: "Amazon AGI Lab researcher"
+published: 2026-07
+duration: "49m"
+url: https://youtube.com/watch?v=K796MYUgt0k
+thumbnail: https://img.youtube.com/vi/K796MYUgt0k/maxresdefault.jpg
+status: generated
+tags: [ai-research, interview, researcher, technical, quick-take]
+summary: |
+  Danielle Perszyk 从认知科学出发，解释为什么 Agent 的可靠性不能只看点击与任务完成，
+  而要看它是否能持续建模用户的目标、偏好与变化中的意图。对谈进一步讨论集体智能、
+  社会世界模型、多 Agent 累积文化、人类能动性，以及能够保护认知摩擦的 AI tutor。
+core_ideas:
+  - 人类智能从社会互动中涌现，AI 应扩展集体对话而不只是替代单个劳动者
+  - 感知型 Agent 需要共同整合环境感知、世界模型、实时互动、记忆与用户模型
+  - 可靠性应从动作坐标正确升级为理解逐步展开的目标与用户心智
+  - 泛化可能依赖推断他人心智并持续对齐彼此表征，而非单任务强化学习
+  - 固定编排的多 Agent 尚未形成相互影响、累积文化以及从互动中涌现的规范
+  - 多样化 AI 视角与理解型 tutor 可以分别保护人类能动性和学习中的认知摩擦
+base: /episodes/K796MYUgt0k/

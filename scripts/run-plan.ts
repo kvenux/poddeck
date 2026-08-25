@@ -7,6 +7,7 @@
 // Usage:
 //   pnpm run plan:run                              # all pending across all plans
 //   pnpm run plan:run -- --id=lex-fridman          # only this source
+//   pnpm run plan:run -- --episode-id=abc123,def456 # only exact video IDs
 //   pnpm run plan:run -- --limit=3                 # process at most N episodes
 //   pnpm run plan:run -- --concurrency=2           # parallel generation
 //   pnpm run plan:run -- --engine=codex --model=gpt-5.6-sol --effort=xhigh
@@ -39,6 +40,12 @@ const RULES_FILE = resolve(PROMPTS_DIR, 'slides-system-rules.md')
 const TASK_FILE = resolve(PROMPTS_DIR, 'slides-task.md')
 
 const onlyId = process.argv.find(a => a.startsWith('--id='))?.split('=')[1]
+const episodeIds = new Set(
+  (process.argv.find(a => a.startsWith('--episode-id='))?.split('=')[1] ?? '')
+    .split(',')
+    .map(id => id.trim())
+    .filter(Boolean),
+)
 const limit = Number(process.argv.find(a => a.startsWith('--limit='))?.split('=')[1] ?? 9999)
 const concurrency = Number(process.argv.find(a => a.startsWith('--concurrency='))?.split('=')[1] ?? 1)
 const dryRun = process.argv.includes('--dry-run')
@@ -178,9 +185,6 @@ function parseTokensFromLog(logPath: string): { inputTokens: number; outputToken
   let inputTokens = 0, outputTokens = 0, isRateLimit = false
   try {
     const content = readFileSync(logPath, 'utf-8').trim()
-    if (content.includes("hit your limit") || content.includes("rate limit")) {
-      isRateLimit = true
-    }
     // Parse stream-json: each line is a JSON event, look for result type
     for (const line of content.split('\n')) {
       try {
@@ -188,6 +192,33 @@ function parseTokensFromLog(logPath: string): { inputTokens: number; outputToken
         if (evt.type === 'result' && evt.result?.usage) {
           inputTokens = evt.result.usage.input_tokens ?? 0
           outputTokens = evt.result.usage.output_tokens ?? 0
+        }
+        if (evt.type === 'turn.completed' && evt.usage) {
+          inputTokens = evt.usage.input_tokens ?? inputTokens
+          outputTokens = evt.usage.output_tokens ?? outputTokens
+        }
+
+        // Only inspect structured API/error events. Searching the whole log is
+        // unsafe because transcripts, memory snippets, and tool output can all
+        // legitimately contain phrases such as "rate limit".
+        const errorText = (() => {
+          if (evt.type === 'result' && (evt.is_error || evt.api_error_status === 429)) {
+            return JSON.stringify({
+              status: evt.api_error_status,
+              error: evt.error,
+              result: evt.result,
+            })
+          }
+          if (evt.type === 'error' || evt.type === 'turn.failed') {
+            return JSON.stringify(evt.error ?? evt.message ?? evt)
+          }
+          if (evt.error === 'rate_limit' || evt.error?.type === 'rate_limit' || evt.error?.code === 429) {
+            return JSON.stringify(evt.error)
+          }
+          return ''
+        })()
+        if (/hit your limit|rate[ _-]?limit|too many requests|\b429\b/i.test(errorText)) {
+          isRateLimit = true
         }
       } catch {}
     }
@@ -241,7 +272,7 @@ function generateOne(entry: PlanEntry, sourceId: string): Promise<GenerateResult
       fs.closeSync(logFd)
       const durationMs = Date.now() - startTime
       const { inputTokens, outputTokens, isRateLimit } = parseTokensFromLog(logPath)
-      resolveFn({ ok: code === 0, inputTokens, outputTokens, durationMs, isRateLimit })
+      resolveFn({ ok: code === 0 && !isRateLimit, inputTokens, outputTokens, durationMs, isRateLimit })
     })
     child.on('error', err => {
       log.err(`  spawn error: ${err.message}`)
@@ -328,10 +359,34 @@ async function main() {
   // Flatten all pending entries with their plan context, sorted by upload_date desc
   const allPending: { entry: PlanEntry; sourceId: string; plan: PlanFile; planPath: string }[] = []
   for (const { source, path, plan } of targetPlans) {
+    let planChanged = false
     for (const entry of plan.episodes) {
-      if (entry.status === 'pending') {
+      const requested = episodeIds.size === 0 || episodeIds.has(entry.id)
+      const hasArtifacts = existsSync(join(EPISODES_DIR, entry.id, 'slides.md'))
+        && existsSync(join(EPISODES_DIR, entry.id, 'meta.yml'))
+      if (requested && hasArtifacts) {
+        if (entry.status !== 'generated') {
+          entry.status = 'generated'
+          planChanged = true
+          log.info(`  ${entry.id}: existing slides.md + meta.yml, marking generated`)
+        }
+        continue
+      }
+      const statusEligible = episodeIds.size > 0
+        ? entry.status !== 'generated'
+        : entry.status === 'pending'
+      if (statusEligible && requested) {
         allPending.push({ entry, sourceId: source, plan, planPath: path })
       }
+    }
+    if (planChanged) savePlan(path, plan)
+  }
+
+  if (episodeIds.size > 0) {
+    const matched = new Set(allPending.map(item => item.entry.id))
+    const missing = [...episodeIds].filter(id => !matched.has(id))
+    if (missing.length > 0) {
+      log.warn(`requested episode IDs not pending/found: ${missing.join(', ')}`)
     }
   }
   // Filter by category if --category specified

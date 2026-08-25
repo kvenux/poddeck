@@ -1,0 +1,2183 @@
+If you disagree about whether we're
+living in one of the vast number of
+palagans,
+>> it doesn't make sense to believe an
+interpretation of quantum mechanics
+which says we shouldn't believe quantum
+mechanics.
+>> This is David Wallace, professor of
+philosophy of science at the University
+of Pittsburgh and one of the leading
+philosophical defenders of the many
+worlds interpretation. [music]
+Years prior, David supervised Emily's
+undergraduate thesis at Oxford. [music]
+>> I think it's much more likely we'll
+learn something about epistemology from
+resolving that than learn something
+about physics. Professor Emily Adlam,
+who's also been on the podcast [music]
+before, argued that no one inside many
+worlds could ever confirm many worlds.
+Both believe the philosophy [music] of
+physics is just as important as the
+physics itself.
+>> I don't know which interpretation is
+right.
+>> On this channel, I, Kirchaung, interview
+researchers regarding their theories of
+reality with rigor and technical depth.
+Today, I bring you Emily Adlam and David
+Wallace's first joint interview,
+starting with one of the deceptively
+simplest questions in quantum mechanics.
+What is the wave function? We'll start
+with you, David.
+>> It's the representational tool in
+quantum mechanics that encodes
+the physical features systems have. So
+the there's a take on the wave function
+that just says it's epistemic, but the
+take I want to say it's it's it's not a
+thing in itself. That that's a category
+error, but uh it encodes the properties
+things have and the relations they stand
+in. And for the a given system, the wave
+function of that system just encodes all
+the properties that system has.
+>> Emily, do you broadly agree?
+>> Uh to some extent. I mean, I think there
+are two types of roles that a state sort
+of tends to play in physics and one is
+to represent the sort of occurren
+at a time and another is to encode
+predictions about how the systems are
+going to behave in the future. uh and at
+least in classical physics we typically
+expect those things to kind of come
+together that the predictions are just
+sort of given by the the current
+properties at a given time. Um I think
+there are reasons to think that in
+quantum mechanics that might not be the
+case and so we might want to make more
+of a distinction between the properties
+that a system currently has and the
+prediction we want to make about its
+future. And so for that reason I'm
+slightly skeptical about whether it's
+whether we we should assume that the
+wave function represents properties or
+whether it just rather represents a sort
+of set of predictions.
+>> People ask a question like what is the
+wave function ontologically? Does it
+exist? Is there such a thing as a
+universal wave function? Is that all
+that there is? I know there are some
+views that that all that there is is
+this universal wave function evolving
+forward. But there are two different
+uses of the word universal wave
+function.
+>> So there's a bunch of things mixed
+together there. And I should say
+incidentally just to clarify where I'm
+coming from. I'm answering these
+questions flat out from the Everettian
+perspective I think is probably right.
+If I was teaching a general philosophy
+of quantum mechanics class I'd be a lot
+more ecumenical about what I think the
+wave function is. Um I'm a bit more
+dogmatic as to what I think the right
+interpretation is Emily. So I'm probably
+willing to be a bit more committal
+there. Um so I would say that to ask
+what the wave function is onlogically
+for everyone is kind of the wrong
+question to ask. it's not a thing or or
+at least to suppose it's a thing is a
+big substantive extra step. There's
+nothing in even very realist approaches
+to quantum mechanics to say that the
+wave function itself is a thing. Um it's
+an if a representational reading of its
+right then it encodes properties things
+have and to go to Emily's comment if
+some more inferential reading of its
+right then it encodes something else.
+But the point is it's not uh you know
+it's it's a tool we use in our theories
+either to represent or to predict or to
+infer or whatever. So then the question
+is that a universal wave function is can
+we talk about the universe as a whole as
+a quantum system with properties that
+can be represented. Um and then I think
+the answer is probably yes in the sense
+that we do so fairly effectively when
+we're doing quantum cosmology. It's not
+what we normally do but we can do it if
+we want to.
+>> Yeah. I mean I think the question is
+there a universal wave function is a
+good question partly because uh I'm
+interested in relational approaches to
+quantum mechanics and one of the main
+commitments of the relational approaches
+is that there is not a universal wave
+function. There could not be a universal
+wave function because wave functions
+always have to be attributed relative to
+to something else. Um so that that I
+guess is one of the central points
+setting apart various relational
+approaches from the interpretation for
+example. Um uh and I think one one
+reason to be a bit skeptical about the
+use of a universal wave function is
+because the sort of central observation
+that the relational approaches want to
+make is that in practice we do always
+use wave functions relationally sort of
+using them relative to some experimental
+setup or to some particular reference
+frame or what have you. And so all the
+evidence we really have for wave
+functions is of the sort of relational
+use of them. So there's somewhat of an
+extrapolation to step beyond that and
+say wave functions can be used in this
+kind of absolute way to describe the
+universe as a whole. So that's one
+reason to have some skepticism there.
+>> Emily, would you plant your flag down on
+the relational quantum mechanical
+interpretation in the same way that
+David plants the flag down on the Aadian
+side?
+>> No, I mean I don't know which
+interpretation is right. I also think
+that the relational approach as it is
+currently formulated can't be right. I
+think it has a bunch of problems that
+need fixing. I do think the sort of
+central core idea that there's something
+relational about quantum mechanics is
+promising, but I think more work needs
+to be done to develop what that should
+look like.
+Now, clearly David is no fool by any
+stretch, but you're not buying you're
+not jumping where that flag has
+dominion. So why why are you not
+changing your getting a passport there?
+>> Um well, you know,
+>> where do you only visit?
+>> Where do you even visit?
+>> Do I even visit? [laughter]
+>> I have visited in the past. Yes. Um no,
+I I I could definitely see the appeal of
+the Emirates approach. not least because
+I think it's the only approach which
+sort of uh reliably works in all
+applications that we we sort of know of
+and so that's obviously a very appealing
+feature. Um the worries that I have
+about Everest are to do with the the
+role of probabilities in empirical
+confirmations. Obviously there's sort of
+long-standing discussion about how to
+make sense of the probabilities in
+Everett and there are various strategies
+you can sort of use to address that. I'm
+not presently convinced that any of
+those existing strategies give you
+probabilities that are robust enough to
+play the kind of role that I think
+probabilities need to play in in
+conservation to make sense of quantum
+mechanics. So for that reason I I am
+doubtful and would like to see sort of a
+clear demonstration one way or the other
+that this can be done.
+>> So is it the case that Emily you're not
+arguing that ever is false? It's that
+Everett under some interpretation, I
+know there are different slices. There
+are different there's there's a Wallace
+view and and there's a a Saunders view.
+I just spoke to Saunders and they're not
+precisely the same. So under some
+interpretation that it can't be
+rationally justified from inside the
+Everettian universe which is different
+than just saying Everett that
+interpretation is false. Like what are
+you precisely saying Emily? Yeah. Well,
+the worry is that if there is no
+adequate solution to the Everettian
+probability problem, then if you believe
+that you are in an Everettian world, it
+would follow that you wouldn't be able
+to use the relative frequencies and so
+on as empirical evidence for a theory in
+the way that we actually have used them
+to support quantum mechanics. So, it
+then looks like you shouldn't think that
+quantum mechanics is right. Um, but it
+doesn't make sense to believe an
+interpretation of quantum mechanics
+which says we shouldn't believe quantum
+mechanics. So, the whole thing looks a
+bit self- undermining if if the
+probability problem can't be resolved.
+So it comes down to can it be resolved?
+>> Yeah. I mean in a certain sense I agree
+with that but I put the logic a little
+differently. I I mean here's the thing
+about Everettian quantum mechanics. The
+the framework of unitary quantum
+mechanics. So the mathematical core of
+what ever using which I'd say is the the
+standard equations of quantum mechanics
+but also commitment to the fact that
+measurement is a is a physical process.
+Commitment to the fact there's no
+epistemic role of what's going on.
+There's no special role of observation.
+The difference between the cross the
+quantum and the classical is just a uh a
+matter of dynamics and scales. The
+physical systems can be studied in
+isolation. That kind of framework I'd
+want to say is robustly scientifically
+successful. There's no internal problem
+inside
+um physics practice in doing that. And
+that's that's different I'd say from
+where we were in quantum mechanics in
+say prior to the 1980s pri prior to a
+lot of development in decoherence and
+measurement theory. And at a meta level
+I'm just much more skeptical of the
+premises of any philosophical argument
+that says we have to reject that
+framework than I am [laughter] of the of
+of the result there. I mean I think
+we're we don't have a lot of precedent
+of situations in which um we've got a
+completely successful scientific theory
+where we have some entirely external to
+it um philosophical conceptual
+constraint. I think if there if there is
+some kind of clash between uh deeply
+held principles of epistemology and the
+framework of quantum mechanics I think
+it's much more likely we'll learn
+something about epistemology from
+resolving that than learn something
+about physics. So, I mean, I'm entirely
+happy to get into the weeds of how I
+think we should think about the details
+of the probability problem inside Ever,
+but that's my kind of starting point. I
+I think it's a I think it's an important
+philosophical problem. I think we can
+learn a lot about um probability from
+thinking about it. And dialectically,
+since a bunch of people are ever
+sympathetic but worried about
+probability, uh in so far as there are
+things that can be said to assuage those
+worries, it's worth saying. But um I
+would need a hell of an argument to
+convince me that on sort of our priority
+philosophical grounds um we should
+reject Everett on the grounds it clashes
+with some epistemological principle we
+have however compelling that principle
+might seem to be.
+Well, Emily, you can give that hell of
+an argument if you like and just just
+imagine that you all are at a conference
+and and I'm not here and you can also
+feel free to ask questions to one
+another.
+>> Uh yeah. Well, I mean I I should say
+that I I also am not keen to reject
+quantum mechanics or any large part of
+the framework of it. Um you know,
+obviously the my ideal interpretation
+would be an interpretation that
+preserved quantum mechanics as is and
+yet was not the first interpretation.
+>> [laughter]
+>> um and and you know obviously I don't I
+don't have a complete version of such
+interpretation to offer. So that is a
+problem. I mean because I I think that
+ever has this very significant problem
+uh and because I nonetheless think that
+quantum mechanics as it currently exists
+is is so well well uh demonstrated that
+gives me some faith that there must be
+another interpretation which would work.
+But yeah, I think I I agree that
+currently you don't have such a thing
+and so we should be looking for it.
+>> The interpretation of that formalism. So
+you wouldn't think something like an
+Adrien and Kent's proposals for
+photonbased final state theories would
+would would be as attractive. Just
+trying to look at the parameters.
+>> I think because the way in which quantum
+mechanics put is put together is quite
+sensitive and quite difficult to alter
+successfully. Um an ideal interpretation
+should either change nothing or change
+as little as possible. Um so for that
+reason I'm I'm quite skeptical about
+sort of bone bone style interpretations
+or collapse style interpretations which
+require changing a lot. Um I'm hopeful
+that there might be ways to have other
+types of interpretations which are not
+ever but which nonetheless maintain very
+significant aspects of the existing
+formalism. That's one of the reasons why
+I'm interested in the relational
+approaches because as I understand one
+of their goals is to try to provide an
+alternative which nonetheless preserves
+most of the formalism of quantum
+mechanics.
+>> Yeah. So, it might be worth
+distinguishing
+between what you might call Everett
+Light. Um, it's actually let me back
+off. Sorry, I tangled my chain of
+thought. Um, let me just put since I
+paused, let me just say for Kurt, um,
+I'm play like we're doing the let's talk
+the conference framework, but Emily and
+I have talked about this stuff a lot.
+[laughter]
+So, the the way we actually want to talk
+about it is inevitably going to have to
+have a fair amount of pedigogy. If we
+just have a direct conversation about
+this, I think it's going to go
+>> Oh, that's totally fine. Have a have a
+direct conversation. Don't feel like you
+have to then and by the way audience
+what I mean is so and so who cares about
+that get into the weeds.
+>> All right fine. Um so maybe distinguish
+between um modification light and pure
+interpretation. So there might be
+modificatory moves that as you say are
+less kind of thoroughgoing than
+dynamical collapse theories or hidden
+variable theories. I'm I'm really
+skeptical but if there were then yeah I
+can see that's a window you might be
+able to explore.
+>> Yeah. Um and then there's kind of
+genuinely pure interpretation. So
+there's if there's a pure interpretation
+of QM that's not ever then yeah I'm
+happy to say that's very much on the
+table and we can talk about it. Um I
+mean from that point of view if we think
+about the relational idea I I guess the
+question is and I think this has come up
+in some of your work there's a there's a
+sort of tension where if you
+it's hard to find a happy medium that
+doesn't commit you either to a
+relatively thoroughgoing modification
+the formalism or basically claps back to
+Everett. I mean I'm not you if if you
+take the sort of original relli idea
+that the the core content of relationism
+was just simply the statement that we
+can't state a quantum state other than
+in the context of some other you some
+some other system [sighs]
+I I mean I'm not even sure that differs
+from ever at a level that isn't a
+relatively kind of high metaphysics
+disagreement. I'm not even sure I
+couldn't be persuaded that was an
+equivalent way of talking. I'm not I
+mean you're right that the genuine use
+of a universal wave function I I don't
+think there are zero cases of use that
+in physic but there ex exception few. So
+I'm I'd be pretty relaxed if one lost
+that but I think for that very token if
+one had that light a form of relationism
+then your sort of adamant versions of
+that ever are going to come be just as
+bad there. And then the worry is is
+there a relationism that is going to
+avoid the kind of concerns you've got
+that doesn't end up committed to a the
+sort of thoroughgoing modification that
+as you say is going to run into a ton of
+technical problems.
+>> Yeah. No, I agree with that. Um and
+there's been a discussion recently in
+the literature over relational quantum
+mechanics about how to define quantum
+events and whether this can be done in a
+precise way within the formalism of
+quantum mechanics. Um, having thought
+about this for a while, it seems to be
+obvious that you can't. Um, this can't
+be done. Uh, the only thing you can
+really do is what was a recent paper by
+Relli and Dagio just basically proposing
+a version of Everest. Um, saying that
+you can look from the outside and you
+can see something that kind of looks
+like a measurement as the things become
+entangled and discussed this with them
+and said, isn't this just Everest? And
+the conclusion is, well, yes,
+essentially it's it has some different
+philosophical emphases, but it is
+essentially the same thing and it's
+going to have the same problems. So
+yeah, I think the conclusion of this
+discussion for me is that there is no
+relational approach that's significantly
+distinct from Everett uh which preserves
+the entire formalism of quantum
+mechanics and adds nothing to it. Um I'm
+still hopeful that there are directions
+you could investigate which would be
+relatively minor modificatory strategies
+and which might would would still leave
+quantum mechanics intact in the domains
+where it's successful. Um but that's
+obviously more a promisory note than a
+well-developed idea at this stage. Yeah,
+I mean that's fair enough and it's worth
+saying I mean look um I'm I'm perfectly
+pro people working on things like that.
+I'm perfectly pro people working on
+dynamical plast.
+Um I mean as a if if we're doing physics
+rather than philosophy then absolutely
+let's explore the theory space. Um but
+then I'm separately interested in the
+question well okay given the actual best
+theory we have at the moment.
+>> Yeah.
+>> Um what are we going to do with it? How
+do we think about it? Um
+>> I mean I mean just to just to clarify
+what you have in mind for the sort of
+relli
+my guess is we're doing something like
+the following. I I can be a relationist,
+but I can still say, "Okay, fine. You go
+and do the shredding a cat experiment
+and I retreat to Alpha Centuri because
+I'm distressed by violence to cats." Um,
+while I'm on Alpha Centuri and you do
+the experiment and you're in my you're
+outside my light cone, then even the
+relationist, if they're not going to be
+too sparse in the attributions of
+states, is going to say something like,
+"Well, your state relative to mine is
+something like a superp position of life
+cat and a dead cat."
+>> Yeah.
+>> Yeah.
+>> Uh, yeah. I mean the question is is
+being posed in the literature is about
+you know how do you say when and how a
+measurement has taken place in in RQM
+and and the answer they want to give is
+that you look from the outside and you
+see that adequate correlations have come
+come about between these two systems and
+then once this is a sort of smooth
+process which happens as a matter of
+degree and then that's all you can say
+about it um which seems to me more or
+less exactly what you would also say
+within a sort of Everett story. Um, so
+yeah, there's there's no there's no room
+in that story for a specific individual
+outcome to America.
+>> Well, I mean, after all, the the the
+rebellion relative state is perfectly
+definable inside the Ever
+interpretation. Um, and as you as you
+point out, the the universal state is
+not doing a hell of a lot of work in
+that story, but the the state relative
+to me may be enormously indefinite,
+which
+>> yes,
+>> gets you the problems. Yeah.
+>> So, I'm hearing an awful lot of I agree.
+I agree. I agree.
+>> Where's the disagreement? Well, I think
+the disagreement is that I, you know,
+despite seeing the the attractions of
+the ever picture, I still think the
+epistemic issues are significant enough
+to make me rule it out. And so I
+therefore think there must be some other
+answer, which I', you think there are
+various directions to look in. Uh I
+think there are interesting new ideas
+coming in from more recent work in
+physics and in quantum gravity and so
+on. And so I'm sort of hopeful that
+there are other options that we just
+haven't explored yet. Um but yeah I mean
+I I agree that kind of the existing
+interpretations that we have ever it is
+the one that apart from these epistemic
+concerns sort of works best and is most
+easily applicable. So just to push your
+um your prior on this how you know how
+committed are you these epistemic things
+suppose we prove some frankly fairly
+implausible nogo theorem that says that
+no minor tweak of the formalism of
+quantum mechanics is um uh is going to
+get you away from the ever
+interpretation. you have to do a
+thoroughgoing modification of the
+formalism
+uh along the lines of anamical collapse
+theory or invariable theory um that
+that's the only way you could get around
+it. Are you still confident enough of
+those epistemic arguments you want to
+say nonetheless um what what we conclude
+from that is that it must be that there
+exists some fur modification of this
+kind.
+>> Uh yes, I would conclude that. Yeah, I
+would be disappointed because that looks
+like very hard work. But uh I think the
+epistemic concerns are for me serious
+enough that you know unless someone
+comes up with a what an argument that I
+would find more convincing to show that
+the evering probabilities can play the
+right kind of role then just as a matter
+of kind of internal logic I just can't
+accept it.
+>> So I mean let me push a little on that.
+I mean yes obviously as a matter of
+internal logic if you have confided
+premises then you have to eject some.
+But I mean,
+you know, I I love philosophy. Some of
+my best friends are philosophers. I got
+paid by my way to come from philosophy.
+But
+>> does analytic philosophy really have the
+kind of track record to give one that
+level of confidence in
+uh epistemological prior? I mean look if
+I thought quantum mechanics itself was
+the end of the story of physics and
+there was no more physics to be done uh
+and the only remaining obstacle was this
+was the epistemic concerns that might be
+a different situation. You know part of
+the reason I I am willing to investigate
+the possibilities is because quantum
+mechanics is clearly not the end of the
+story and there are things we don't
+understand about physics and so there
+are certainly roots to explore which
+might modify quantum mechanics anyway
+and and and which might potentially also
+give interpretations which I find more
+coherent.
+>> Good. Okay, that's that's that's reason
+enough. So, so sure. So, yes, if you're
+inclined to think something like quantum
+gravity is again going to modify the
+core quantum formalism, then sure,
+there's a natural synergy. I can
+certainly see that. I mean, and and
+conversely, I mean, uh I think string
+theory is very substantially our best
+strategy for quantum gravity at the
+moment. Um
+>> uh I think and that that's just a a
+unitary unmodified quantum theory. um
+modulates some slight delicacies about
+the problem of time. So is loop quantum
+gravity. So is astronomotic safety.
+These are all the those are what I would
+count the serious runner up processes.
+So I'm hardly moved by the fact all of
+those are quantum theories. So
+>> yes, although I mean I think I have some
+concerns [clears throat] about all of
+those having been formulated in ways
+which rely on a
+theory that we haven't interpreted
+properly yet. And so I wonder if there's
+some interaction between ongoing
+difficulties in formulating theories of
+quantum gravity and difficulties in
+interpretation of existing theory.
+>> Sure. Yeah. I mean either way again I'm
+probably probably a lot more optimistic
+about how well we're doing than you are.
+Um but no sure I mean I think I think
+it's um
+I mean look I as I said before I have a
+lot more time for
+sure let's change the formalism as part
+of a sort of ongoing project in physics.
+I'm quite unmoved by it as a a pro frame
+rate.
+>> For me, the hardest part about most
+conversations is actually what happens
+after. That is the follow-ups that I'm
+supposed to send or the ideas that I
+have on walks later that just escape my
+mind by the time that I sit down.
+Fortunately, I've been using Plaude, P L
+A U D, and the shift is super simple. I
+stopped trying to hold everything in my
+head. Plaude starts with hardware, which
+is what makes it different. There's the
+Note Pin S, which is a wearable, and
+it's completely hands-free. I use it
+when I'm moving around, when I'm out for
+a walk, when I'm thinking out loud, even
+when I'm in the shower, wherever I don't
+want to pull out my phone. And when I
+need to capture phone calls or more
+intentional conversations, I use the
+Note Pro. It magnetically attaches to my
+phone, records calls and meetings, and
+keeps everything organized afterward.
+What Plaude truly does is it turns what
+I've heard into something that I can
+actually use. summaries, action items,
+follow-ups without the mental overhead
+of reconstructing everything later. It
+basically becomes a searchable record of
+your own work. So, if your work lives in
+conversations, whether that's research,
+medicine, law, or just a huge amount of
+meetings, it's worth looking into. It's
+also built around enterprise security
+standards, SLC2, HIPAA, and GDPR
+compliant. Check it out at
+plaude.ai/kurt.
+That's pl Aud.ai. AI/currt
+and use code cur kurtz for a 15%
+discount. This video is sponsored by
+plaude. All opinions are my own. What do
+you mean Emily when you say that some of
+the approaches to quantum gravity
+inherit some interpretational issues of
+quantum theory. Um well I mean some of
+the inter approaches to quantum gravity
+have difficulties or have sort of
+conceptual issues they're trying to
+overcome with respect to the role of
+observers and the way observers like tie
+into the theory. So I mean the problem
+of time can be thought of that way. The
+problem of time is something to do with
+understanding
+the nature of our experience of time and
+how we end up kind of looking into the
+world. um despite the fact that it seems
+as though there's no sort of evolution
+in in some versions of quantum
+mechanics. Another issue is that quite a
+lot of uh in quantum gravity for example
+the most straightforward way to do a
+calculation is kind of like fix an
+external classical classical space-time
+boundary and then do quantum gravity
+sort of inside that boundary and so you
+still seem to need some kind of like
+Heisenberg cut uh in in much the same
+ways as you do in sort of uh standard
+non-relativistic quantum mechanics. So
+there seem to be some conceptual issues
+and difficulties within quantum gravity
+surrounding the role of observers. And
+since that was sort of already a problem
+as I see it in standard quantum
+mechanics, it seems to me at least
+plausible there's some link between the
+problems we're having in quantum gravity
+and the other earlier problems that in
+interpreting quantum mechanics.
+>> I'm not I'm not sure how crucial it is,
+but let me suggest those are problems in
+quantum cosmology, not quantum gravity
+per se. I mean if we want to study an
+isolated subsystem
+>> we always individuate subsystems
+basically temporally. And that's in
+classical GR likewise will will
+individuate our subsystems and locate
+them against the sort of classically
+specified background. We'll put
+conditions there. I think we have fairly
+satisfactory quantum theories of gravity
+at least in string theory. Um I agree we
+have no satisfactory quantum theory of
+cosmology and
+>> part of the reason for that I guess is
+precisely this system localization. I
+mean I'm slightly skeptical about making
+a division between those two problems in
+a sharp way precisely because subsystem
+decompositions themselves are one of the
+things that start to look quite quite
+odd uh in the point of view of uh
+certain kinds of conical quantization
+for example. Um so you know while I
+agree that you can look at an individual
+subsystem and you know derive useful
+predictions out of it quantum
+gravitationally uh the the the
+separation between those two problems
+itself seems to me to be a kind of
+approximation and something that we
+shouldn't sort of rely on conceptually.
+>> Um
+I mean I could get in the weeds of
+quantum gravity. Let me really strongly
+object to the idea that um because
+something's an approximation we
+shouldn't rely on it conceptually.
+>> I mean everything is an approximation.
+[laughter] Natural selection is an
+approximation. I still want to use it to
+explain adaptive complexity.
+>> Sure. No, that's fair. Now, we can we we
+can use the approximation if our goal is
+to understand how to make predictions
+for the quantum gravity of some
+effectively isolated subsystem. Um um I
+think nonetheless if you're trying to
+understand I guess what quantum gravity
+is and what it's telling us about
+spacetime and how it links uh links to
+and h to uh earlier frameworks and how
+uh our experience and quantum
+non-authentic quantum mechanics merges
+out of it. I'm slightly skeptical that
+you can tell that story in a complete
+and satisfactory way while ignoring
+these more cosmological issues because
+they all they seem quite tightly tied
+together in the framework of quantum
+gravity in a way that they maybe are not
+in earlier physics.
+>> How do you think that goes? I mean
+that's not obvious to me. If I take a an
+isolated system um I put it in a box. I
+idealize the box in certain respects. Um
+I do quantum gravity inside the box and
+I look at the degree and in some regimes
+I'll get a big black hole and I get
+interesting quantum quantum mechanical
+stuff on the surface of the black hole.
+In other regimes I'll get perturbations
+of flat spacetime and I can just do QFT.
+Um I mean that's the regime in which we
+recover low energy quantum gravity and
+quantum field theory from well as it
+were string theory is the place where
+that's most concretely successful. I I
+mean I wouldn't faintly want to suggest
+that's the end of the story. I'm just
+not sure why the cosmological versus
+non-cossmological
+and strong gravity versus non-strong
+gravity bits don't commute.
+Um well I mean for example from a
+relational point of view again um one of
+the sort of recent uh directions of
+investigation in the relational
+formalism has been looking at the way in
+which subsystem decompositions depend on
+a choice of reference frame. Um so you
+know given a fixed subsystem
+decomposition you can for sure do a
+description of it and describe the
+physics of just that subsystem uh sort
+of relative to the choice of background.
+Um but it seemed to me that if you want
+to tell a complete story about how all
+that is emerging from whatever is
+underneath then you are going to have to
+take into account the fact that the
+subsystem decomposition itself is not
+fixed and then that's and that the
+procedure for choosing it is part of the
+story.
+>> Okay. Yeah. Yeah, I mean I could believe
+that that might depend a bit on how much
+the relation we're using. And I suppose
+I'm just concerned that we do
+I mean in some ways I'm reiterating my
+sort of general complacency move here
+that we do seem to have models of
+isolated systems and we do actually seem
+to make quite a lot of progress in
+getting out low energy from high energy.
+Um even while recognizing that the
+cosmological situation is still much
+more opaque.
+>> Yeah. No, that's fair enough. Yeah. And
+I think I I agree that we can do a lot
+of things usefully, but there are also
+sort of certain questions that seem to
+be important about the way these things
+are tied together.
+>> Yeah. Yeah, that's fair. Okay.
+>> Okay. So, to close the chapter on the
+Everettian side, the reason that you
+don't buy into it, it has to do with
+some epistemological problems which
+David is also willing to concede, but
+doesn't see the problem as being so
+strong that David would abandon. Whereas
+Emily, you weight that a bit more
+strongly than David does. And David is
+saying that look are you going to
+suggest that there's some large
+modification to quantum theory that
+wouldn't imply Everett? And then Emily
+is saying, well, maybe because we still
+don't have some final physics, maybe
+there's something about the interaction
+between gravity and quantum mechanics
+that isn't so straightforward.
+>> Yeah, as I say, I'm hopeful that there's
+a minor modification which will succeed
+and we don't have to make a really large
+modification. But if if push comes to
+shove and a large modification is the
+only thing that will work then I I'm
+willing to do that. I'm willing for
+someone else to do the work. Um but
+[laughter]
+I think it pro I would be I would be
+inclined to think it has to be done in
+that case.
+>> So the place where where I slightly
+disagree Kurt is um it's not that I
+think these epistemological problems are
+slightly less problematic than Emily
+thinks they are. I think these
+epistemological problems are solvable in
+a completely satisfactory way with no
+residue. I'm entirely happy with their
+solution inside Everett. Um and you
+arguing for that was the main main theme
+of the earlier phase of my intellectual
+life. Um what I was saying in this
+context is that
+even persuade me that what I see as
+satisfactory philosophical solutions
+here don't work. Um I am much more
+inclined to think well we need to think
+harder about the philosophical issues of
+epistemology and probability so that we
+can work out how we can solve them
+inside the formalism than um to uh to
+think we should abandon that formalism
+and and to some extent I mean at that
+level it becomes becomes inevitably
+inconclusive. I mean there's a matter of
+one's sort of prior as to what's likely
+to break which is kind of what we're
+talking about. There's also a matter of
+division of labor. I mean my and I don't
+think this is a disagreement between me
+and Emily. My feeling is even if it were
+true that we need to make large and
+thoroughgoing modifications of the
+formulas of quantum mechanics, this is
+not something within the skill set of
+the typical even highly technically
+minded philosopher of physics. Um so in
+terms of what do philosophers have to
+contribute to the measurement problem,
+it's more likely to be in the space of
+exploring
+somewhat more philosophical moves either
+Emily's kind of minor modification quasi
+relational explorations or um the more
+sort of flat flatly let's um uh let's
+let's look explore Everett but I don't
+want to give the impression that I think
+these are profoundly difficult problems
+that we don't know how to solve but we
+can expect to be able to solve I think
+they're solved just fine thanks
+>> okay I'm curious then if you all
+disagree for the same decent. So, do you
+all dislike say dynamical approaches or
+a a Penrose approach or a Tim Modellian
+approach to interpretations of quantum
+mechanics for the same reasons or do you
+all not buy into them for dissimilar
+reasons? So, why don't we pick the most
+fun one? [laughter]
+Perhaps it's more interested to talk
+about what's different between these two
+ways of doing things. There is an
+enormous difference in my view between
+approaches which lead to at least quasi
+tractable tests of the alternative of
+quantum mechanics and theories that are
+attend intended to be modifications of
+the formalism of quantum mechanics in
+ways that are undetectable. So if you
+think about dynamical collapse theories
+where you know the collapse of the wave
+function shown as cat resolving into
+alive or dead but not both is something
+that's really supposed to happen as a
+matter of micronamics.
+um it's premature and I think not really
+the point to look at those theories and
+say well what would the world be like if
+they're fundamentally true that you want
+to think of those theories as ways of
+parameterizing
+the space of what it what what of what
+collapse might look like if one of these
+theories turns out to be right
+experimentally
+that's a crack opened into new physics
+that would probably look different from
+anything we can imagine the point of
+those of those theories in the forms we
+have now is to let us do experiments
+um or or work out what experiments we
+could do and try to test those theories.
+Um I mean I think Clap's theories are
+good science and one of the ways to tell
+they're good science is that I think
+they're within 10 or 20 years of being
+completely ruled out experimentally.
+[laughter]
+>> What about a Jonathan Oppenheim approach
+to quantum gravity where gravity remains
+classical and somehow the coupling
+between them is stochastic? Does that
+have any bearing to Everett?
+>> Uh well only if it's true Everett's
+false. [laughter]
+um if if on Oppenheimer's approach then
+um uh effectively you have wave function
+collapse. So if um if I can have a
+superp position of the matter the the
+idea of the Oenheim approach and it's
+it's it's it has a long pedigree is that
+the gravitational force isn't sourced by
+the matter distribution it's sourced by
+the sort of smeared matter distribution
+of all the terms in the quantum
+superpositions. Um if the quantum superp
+positions evolve unitarily and don't
+collapse that will rapidly and radically
+violate experiment. Um so those theories
+are only viable in the context of some
+kind of collapse mechanism which is
+normally tied to gravity itself. So the
+idea is if I have a sufficiently spread
+out mass distribution in a superp
+position then the dynamics will somehow
+have to select one of those and so the
+gravitational field can still carry on
+being sourced by the smeared mass
+distribution because it's not really
+that smeared anymore. Um so every
+obviously if that's right then these
+macroscopic superp positions whichever
+it's committed to don't exist.
+>> Yeah. Yeah, I mean I think that those
+styles of approaches which maintain sort
+of a classicality of spaceime and
+gravity are are appealing because there
+are a bunch of both conceptual and
+technical difficulties that come from
+trying to make sense of superp positions
+of spaceime. So I can see the appeal of
+avoiding them. Um and you know I think
+that the technical challenges of making
+such a thing work are strong. Uh, and I
+would probably have low credence that it
+will work in the end, but I think
+because it has such nice features that
+there's a good reason to explore it. I
+>> I mean, I'd say I'm I I think the
+technical problems of having
+superpositions of geometry are massively
+overstated. Um, I actually think the
+technical problems of not having them
+are much more severe. I think we have a
+mathematically fairly satisfactory
+theory of quantum gravity at energies
+below the plank scale. Well, below the
+plank scale.
+>> Yes. Um there was some you know it has a
+whole bunch of interpretational
+questions um some of which are just the
+measurement problem but you bracket
+that.
+>> Um so I'll so I mean yeah I hesitate to
+disagree with Sir Roger Penrose but I do
+what I you know it's worth saying Pen is
+very much has a minority view here.
+>> Um however again in in a certain sense
+it sort of doesn't matter. We're
+probably within 10 to 20 years of just
+being able to test this theory
+empirically. I have I have money riding
+on the fact that it will fail the test
+and be eliminated. [laughter]
+>> I would be very happy to lose the bet
+because it would open a amazing vista of
+new physics. We'd learn a ton of stuff.
+Um I'm not expecting to learn those
+things, but the point is will um the the
+experiments to test these things are in
+the kind of prototyping and applying for
+grants level. I'm not enough of an
+experimentalist to know the exact
+timing, but it's probably isn't going to
+be 10 years, but it's not going to be 50
+either.
+>> Is it a poly market bet?
+>> Uh, no. No, it's just a friend of mine
+who believes in collapse theories, which
+one of us has to buy the other one a I
+forget. Bottle bottle of good wine. I
+think
+>> David, you have some recent work about
+realism. So, what is realism? Firstly,
+>> sorry, let me adjust to the change.
+[laughter]
+>> [gasps]
+>> Realism very loosely is the picture that
+our scientific theories
+are telling us things about what the
+world is like. What or perhaps more
+mundainely what the systems they
+describe is like not just how they
+appear to be at the scales of which
+human senses can engage with them but at
+the the scales beyond those senses. So
+classically speaking, the the
+anti-realist
+doesn't believe in electrons or nuclei
+of atoms. They don't think we have
+reason to think those things exist. Or
+maybe they think even talk of those
+things is just a fancy way of coding up
+predictions for experiments. The realist
+thinks, and again there's lots of
+gradations of this, but loosely
+speaking, yes, there are electrons. Yes,
+there are atoms which do have nuclei.
+The fact that we can't see them is a
+mundane fact about the fact that the
+wavelengths of light that our eyes
+detect are too wide to interact with
+them directly, but we have perfectly
+good reason to think they still exist.
+>> You have some recent work on
+mathematical realism, if I'm not
+mistaken.
+>> Yeah.
+>> So, are you an antic structural realist?
+[gasps]
+>> That term is used in such a a tangle of
+ways. Um I have a view on realism that
+is the view I came to from reading
+various people who at various points
+described them as themselves as
+structural realists. Um the extent to
+which that view fits the views that
+various time slices themselves have held
+I couldn't tell you. Um some of them
+have been quite sympathetic to it. So,
+so yeah, I mean that on structural
+realism has been used to mean anything
+from the kind of very deflationary math
+oriented metaphysics I like to uh a sort
+of priority monism with deep ties to
+slastic metaphysics.
+>> Emily, what is your metaphysics?
+>> Um,
+I try not to be too committed to any
+specific metaphysics, but definitely
+broadly speaking, I am a structural
+realist, I guess. Um I think I was
+initially more attracted toward
+epistemic versions of structural realism
+but um more recently partly as a result
+of thinking about uh relational
+approaches actually I have become I've
+moved more towards the sort of end of
+the scale. So I I guess broadly speaking
+on structural realist realist but I try
+to remain a bit open there.
+>> Well so you both agree in basically
+every way.
+No, [laughter]
+>> we disagree, for instance, about whether
+on current scientific evidence we have
+excellent reason to believe we're living
+in one of a vast number of power unions.
+[laughter]
+>> So, Emily, what is scientific
+intersubjectivity? It's a large word,
+but what does it mean? Why is it
+important to you? Why do you think that
+throws a monkey wrench into Everett? Why
+does a good physical theory have to
+secure it?
+>> Uh, yes. So um and the reason I became
+concerned about inter subjectivity was
+um through thinking about the
+measurement problem because there's a
+sort of general class of interpretations
+of quantum mechanics uh not not
+necessarily including Everett but
+adjacent to Everett uh where there seem
+to be problems for inter subjectivity in
+the ordinary sense. um the the most
+distinctive of those ones I've talked
+about the most is relational quantum
+mechanics because the standard version
+of relational quantum mechanics says
+that there are no absolute uh observer
+independent facts and what that means is
+that there are no absolute facts about
+the relations between different
+observers. So it sort of can't be true
+in a non-relative sense that when I
+speak to you uh what you hear matches
+what I expect myself to be saying. And
+so um we can't sort of say that in any
+sort of uh observer independent sense.
+we're really succeeding at communicating
+information to one another. Um that I
+think is is a problem for me because my
+understanding of the way in which we do
+science that involves uh a lot of
+processes that are very significantly
+based on the expectation that we can
+share information in a in a absolute
+sense with other scientists that you
+know I can do observations and tell you
+about them and then you can really learn
+what I have really seen and then we can
+arrive at a sort of shared reality
+within which we're doing science and
+arriving at conclusions. um relational
+quantum mechanics and various other sort
+of observer dependent approaches doesn't
+seem to allow that um that there's no
+shared world which sort of really exists
+in a way that goes beyond the
+perspective of any any observer. It
+seems to me that I share a world with
+you. It seems to you that you share a
+world with me about neither of is really
+right in an absolute sense. Uh so my my
+worry is that that that is going to
+undermine various kinds of roles that
+interubjectivity plays in scientific
+practice particularly the sort of
+special objectivity that comes to
+science in virtue of the fact that
+there's lots lots of people working
+together and sharing ideas and
+critiquing and so on and so forth. So
+for that reason I I'm pretty skeptical
+about accepting any interpretation which
+says that we can't really share
+information in absolute sense.
+>> And David you hear that and think what
+>> um that I completely disagree.
+[laughter]
+I mean, in a sense, I haven't got a dog
+in the fight. I don't I mean, the the
+version of Everett I'm interested
+doesn't have this problem particularly.
+Um, but to defend the honor of the
+relationists
+um I mean the so so so you know some and
+somewhat analogous issues come up in the
+epistemology of Everett as well. Um uh
+the crucial place is how much we need to
+inject the phrase in an absolute sense
+into things. So do we need interjective
+agreement between scientists? Sure we
+do. Um uh do we need uh to be able to
+trust that when I report my results to
+you, you uh understand the results the
+same way I gave them to you? Yes, of
+course we do. Do we have to assume that
+uh the scientific community can
+communicate among themselves
+effectively? Yes, of course we do. Do we
+need to accept any of those things as
+being true when we insert the phrase in
+an absolute sense? Um I want to claim
+the former is just obviously necessary
+by just an internal observation of
+scientific practice and the latter is
+something that philosophers put in um uh
+that goes beyond what's inside a sort of
+practice based analysis of science. So
+if you look at the first the first paper
+RLI ever has on relationism, it says
+something like the presumption we're
+going to make is that all um all
+statements are to be evaluated
+anything you say any any any statement
+at all in quantum mechanics or
+derivatively anything else is always
+going to be evaluated relative to a
+context. Um so if you think that science
+requires agreement in an absolute sense
+and if in an absolute sense is to be
+taken as explicitly metaphysically
+um contradicting that statement then
+yeah sure of course you better reject
+relational quantum mechanics and we
+don't need to get into the weeds of
+relational quantum mechanics to
+establish that it followed from the
+first sentence description of it but I'm
+concerned that those reasons are
+question begging. I mean, um, I'm
+worried that they trade on an intuition
+we have about how we like the world to
+be, um, rather than on anything that's
+actively required. I don't see any
+reason we can't that from any given
+perspective, we can't tell a completely
+good story about how the scientific
+method plays out. Um, including from my
+perspective, I can say that from your
+perspective, these things match my
+perspective. The the whole thing sort of
+commutes down. Um the only thing you
+can't say is from the absolute god's eye
+perspective um uh every perspective
+disagrees because that statement is just
+not you know not grammatically even
+really inside this sort of relation of
+creation. It's kind of a bit analogist
+to
+ideas about the the sort of nature of
+time. If you were to say, look, I insist
+that scientific facts are always true.
+Um, then that's, you know, there clear
+necessity that various scientific
+assumptions have to be always true. Um,
+we can't assume that they're just true
+sometimes and then stop being true
+later. Um but if you'd say scientific
+claims must be true in a tenseless
+fashion
+um then that would be smuggling in a
+piece of metaphysics that might be
+defensible on metaphysical grounds but
+which wouldn't would be going
+substantially beyond the um the sort of
+internal to scientific practice
+analysis. I subscribe to the economist.
+Their science and their AI coverage is
+among the best I found anywhere. And I
+say that as someone who reads plenty of
+it. I'll give you some examples. They
+just ran an analysis on how attitudes
+towards science are changing in American
+politics and what this means for
+research and funding in scientific
+institutions moving forward. This sort
+of highquality reporting is fantastic.
+They even covered how dark energy may be
+weakening over time. Now, if that holds
+up, it completely changes our
+understanding of the universe's fate. If
+you watch this channel, those are
+exactly the kinds of questions that we
+explore every week. I subscribe to The
+Economist because their science and
+their AI reporting regularly surprises
+me with how deep it goes. And they're
+also of course known for global affairs,
+both political and economic reporting.
+They are top tier. And interestingly and
+flatteringly, TOE is one of the only
+podcasts that The Economist partners
+with. So as a listener, you get an
+exclusive 35% off. That's not a deal
+that they have just anywhere. Head to
+economist.com/toe
+to subscribe. That's economist.com/toe
+for 35% off.
+>> Yeah, I mean I think part of this comes
+down to a sort of internal tension in
+the way that relational approaches are
+sometimes formulated. Um because agreed
+uh the kind of philosophical uh setup is
+supposed to be that all statements are
+assessed relative to a context. But
+nonetheless uh in many settings the
+picture that the relationalists seem to
+want to uh suggest does involve sort of
+making a non statement which is not
+indexed to anything about the existence
+of a whole bunch of perspectives such
+that from each perspective quantum
+mechanics is true. Um and that is kind
+of the picture of the world which is uh
+particularly motivated for example by
+the desire to make sense of what's going
+on in the witness frame scenario while
+allowing that everybody is right in what
+they have really seen. Um, and my
+concern is that if that's the picture of
+the world uh that you're trying to
+promote, then there is an internal
+inconsist inconsistency there and
+supposing that we have all these
+different perspectives surveying quantum
+mechanics and yet by construction I can
+never find out anything about what's
+going on in any other perspective. I've
+got no reason to believe they have a
+quantum mechanics. Um, so I think you
+know there there is I think a consistent
+formulation of a relational approach
+which really does commit to this view
+that you can't make that statement about
+the world as a whole. You can't talk
+about all the different perspectives.
+can't talk about in quantum mechanics.
+Uh that it seems to me is not what many
+of the relationalists want and is not
+what is sort of primarily motivated by
+uh what's going on in quantum mechanics.
+Um so uh while that's a possible way to
+make the view look look consistent, I
+think that's not there's a tension in
+the way they're formulated where they
+kind of want to have both things
+together and I think I can't have both.
+>> I think that's fair. I mean to tie that
+back to where we were previously, try
+this. Um I mean I'm saying I think the
+relation should commit to the bit. Um
+But I think if they do, they probably
+get to where we were talking about
+earlier where relationism becomes an
+extremely close relative of the average
+interpretation.
+>> Yeah.
+>> And need to accept a whole bunch of
+things about Ever that you find
+unacceptable. And then many relationists
+don't particularly want to buy either.
+>> Um, in denying their in Everettianness,
+the uh relationists
+uh run exactly into the problem you're
+describing because I do agree that these
+hybrids are
+>> very difficult to sustain. Yeah. Right.
+Uh so I guess I see as a sort of dilemma
+where on on one route they do have this
+kind of hybrid story and then that seems
+to be inconsistent for these
+indogitivity reasons. The alternative is
+to as you say commit to the bit but then
+that seems to fall into the problems I
+have with Everett. So I worry that
+neither of those roots is going to
+satisfy me personally. [laughter]
+>> One person's dilemma is another person.
+A question that the audience has on
+almost any discussion on many worlds is
+look if every outcome occurs or every
+possible outcome occurs then what should
+they do? What should they care about?
+David, how do you have you ever gotten a
+question like that from your students?
+>> I'm not only have I got that almost all
+the time from students.
+>> What's your response to that? How do you
+view that?
+Yeah, I mean there's a there's a
+difference between things that happen
+due to
+really low probability mechanical events
+that still happen in certain branches
+versus things that happen as a
+consequences of things we naturally
+analyze as my choices. So, um is there a
+branch where I choose to, I don't know,
+pick up this laptop and smash it on the
+ground, let's say. Um no. Um because I
+think my decision not to do that is like
+a really obvious and boring and clear
+act of my rational process is playing
+out. Is there some kind of neurological
+malfunction in my brain which would
+cause a whole bunch of very low
+probability cause a whole bunch of
+neurons to fire that would cause my arms
+to move in such a way that I picked the
+laptop up and smashed it? Yeah, sure. I
+mean almost certainly. And therefore,
+yeah, that's presumably some incredibly
+low weight branch in which that happens.
+But it's not as if there's some sense in
+which I chose that to happen. Um, and if
+you're going to find Everett viable
+anyway, and this is exactly what Emily
+wants to get off the bus, um, then
+you're going to have to have some reason
+to be unconcerned about even extremely
+bad things happening in
+exceptionally low weight branches.
+You're more or less generally have to be
+committed to a kind of strategy that
+crudely speaking treats exceptionally
+low weight branches as the kind of thing
+I just don't need to worry about. Um,
+and there are plenty of deep and
+interesting philosophical issues as to
+why you should make that commitment. And
+again, if you're sufficiently convinced
+of your prior and you don't think it can
+be done, then you might get you might
+reject Everett entirely on those
+grounds. But conditional on accepting
+effort in the first place, you're going
+to be committed to the idea that you
+don't much care if bad things happen in
+incredibly lowweight branches. So
+there's no particular reason, I'd say,
+to care differently or in some
+qualitatively different sense in ever
+than in the non ever case.
+Emily, does this have any bearing on
+your Castanza observers? Do you know
+what I'm referring to?
+>> Oh, Jacob's Jacob's concerns are
+observers. Yes. Um,
+uh, yes. This is this is a reference to
+a television show which I've never seen
+so I can't explain the name but um uh
+the concern observers are precisely
+supposed to be the the
+lowweight ones and in particular uh
+observers who are I think reasoning in
+uh ways that are not rational at all or
+not rational by any sort of constraints
+that we would consider uh consider to be
+normal constraints of rationality but
+who nonetheless end up being successful
+because unlikely things keep happening
+on that branch. Um so the the concerns
+observers were supposed to be an
+objection uh relating to the idea that
+there are sort of plausible constraints
+of rationality in every universe because
+u that there seem to be some sort of
+kind of confounding observers who act
+irrationally and nonetheless succeed and
+if you don't know you're not one of
+those ones why should you be rational
+>> so the joke just for those who are
+watching and are wondering what the heck
+a castanza observer is my understanding
+is that it's it's referencing Seinfeld
+where George Castanza in one of the
+episodes does the opposite of what his
+mind tells him to do. So he's going to
+go against reason and it actually works
+out for him and much of the time it's
+just by blind luck and Emily I think you
+were saying that in the everian I don't
+know what to call it the interpretation
+in in the everian picture in the everian
+picture there are some branches where
+you as an agent can reason badly and
+everything still what is it then
+everything still works out it's not
+exactly that sorry what was it
+>> yeah well be because and there's some
+sense there's some branch adittly with
+very low weight in which basically
+anything will happen in the Everett
+story. There's going to be some branches
+in which uh observers are doing things
+we would consider quintessentially
+irrational but where they are
+nonetheless wildly successful in all
+their endeavors and it all works out
+very well for them. Um and so the
+thought was that the existence of such
+observers is supposed to put pressure on
+the idea that constraints of rationality
+uh can uh push us in the evolution story
+to assign certain to to treat the
+weights as as credences or as
+probabilities in certain senses because
+uh the existence of those observers in
+the first place place is going to
+undermine any constraints of rationality
+you might put forth.
+>> That's a it's a strange line. I mean,
+you know, it can't be disqualifying of a
+theory. It just allows for people who
+behave very irrationally, but
+nonetheless things work out. There are
+actual people like that. Some of them
+are in high office.
+>> Yes, that's true. [laughter]
+Uh I I I mean, I think the thought is
+that
+in the usual world, we we would expect
+maybe being optimistic, but we would
+expect that if you act irrationally a
+lot, you you will be, you know, punished
+for your crimes against rationality and
+things will go badly for you. at least
+with some high probability. And the
+worry is that if you don't have a
+pre-existing uh probability style
+interpretation of the BR branch weights,
+then you don't have any reason to sort
+of rule out those cases or think that
+they're unlikely in any sense. And so
+therefore, there's it's not clear why
+you would expect any constraints of
+rationality to be relevant to you. But
+it's a strange I mean look this is
+getting into the weeds of the
+rationality stuff but I mean at some
+level the it's not quite clear even what
+it means to say constraints of
+rationality are not available to you. I
+mean the the the way decision theoretic
+representation theorems generally work
+is not that they give positive arguments
+that some specific strategy is
+irrational.
+>> Yeah. They just establish that you know
+they establish a class of strategies
+such that if you're outside that class
+of strategies then you're committed to
+things that you will yourself
+acceptational
+egot things although it can get
+sophisticated.
+>> Um so the for the form of those results
+is a lot more you know categorical than
+that. I mean I mean is it is it the case
+none should should one then have pause
+in that framework of the fact that the
+agents are irrational and get lucky.
+Well I mean again you've established
+that you don't much care about them
+because of how low their branch rate is.
+Um so I mean it's I'm not directly
+familiar with the form of the objection
+so I might be doing Jacob's position
+justice but that's that's part of the
+form of the concern. And look, it's also
+true that in any
+any sufficiently large class of
+observers is going to have features like
+this. I mean, again, even our even our
+actual world is like that. I mean,
+people buy lottery tickets. This is
+irrational that some of them win and get
+very rich. Um, it's there's always and
+it's not as if there's a well, I mean,
+you'd be sympathetic to this. It's not
+as if there's a good probabilistic
+argument to say that I'm not one of
+them. I mean, I might be able to say
+that I, you know, my for any given
+lottery ticket I'm holding right now, I
+can say I'm it's very unlikely to win.
+But if I just sort of sit back and think
+what I think about the fact that I share
+the world with observers, some of whom
+are going to do irrational stuff and get
+lucky from it, well, you know, I mean,
+good for them.
+>> Yeah. No, I think the the concern was
+more that if you look take a Dutchbook
+style argument for example, the Dutch
+book argument is predicated on the
+thought that certain certain types of
+behavior are irrational because they
+they will deterministically or with very
+high probability lead to bad losses. Um
+the thought is that uh in an everate
+style universe if you take these sort of
+maverick branches seriously then perhaps
+the Dutch book argument should not have
+the same force because you could act in
+this irrational way and then there could
+be just some weird freak event and you
+won't you'll be given you won't lose
+money even though you technically should
+given it the way the bet was set up. And
+the thought is that if you don't have
+some prior reason for ruling out that
+kind of possibility or seeing it as very
+unlikely or having a reason to disregard
+it, then you don't get to use these
+constraints of rationality and then you
+can't use them to constrain the branch
+weights and in a way that would give a
+argument for the probabistic treatment
+of them.
+>> I see. But I mean it's not obvious that
+the I mean this is in your own argument,
+but it's not obvious the idealization is
+any more unreasonable here in the Ever
+case. I mean Dut a Dutch book
+deterministically causes you to lose
+money. It's not just like with
+probability. Yeah.
+Does the realization of a Dutch book in
+the real world require some
+idealization? Yeah, of course it does.
+But that's true. Dutch books in the non
+everettian case as well. Um uh you can
+certainly I don't think it would be
+difficult to get a Dutch book at the
+level that such that if you if you
+assume no intervention from outside, you
+can get the probabilities down to the
+point to which we're talking about
+fluctuations or something rather than
+just like low weight ordinary
+probabilities. Yeah, I think this comes
+down to a question about what sort of
+justifies the use of idealizations of
+various kinds. And I think in the
+background of this argument is a thought
+that what justifies the use of
+idealization is that with high
+probability what really happens is going
+to be like close to what the
+idealization suggests. And so the worry
+is that if you don't have that probistic
+concept sort of and at the get-go, then
+you don't have a good reason to think
+the idealization is telling you anything
+useful and so you shouldn't be using it.
+>> Okay. I I mean dialectically I think
+that objection lives earlier or should
+live earlier. I mean if you you there's
+a an established set of arguments that
+people like Tebo and um Dave Baker have
+used that's basically saying look the
+entire appeal to decoherence as a way of
+understanding branching structure
+presupposes that we can use the mod
+squareed amplitude metric as a metric of
+approximation. M
+>> um and that assumption explained uh
+relies on the probability interpretation
+and so there's circularity. I mean uh
+that's I think an interesting objection.
+I don't think it ultimately succeeds but
+the reasons are subtle and fairly
+contestable. Um I sort of think by the
+time if you if you've already got to the
+level at which you've got a branching
+structure and you're discussing um
+decision strategy, you must have solved
+that problem anyway. Um, so it's odd to
+I'm not sure that the the problem could
+recur at that level. I mean, that's
+probably just to say if somebody had
+that constant concern, they should
+probably just move their objection back
+to the branching structure in the first
+place.
+>> Yeah. I mean, I think there's a there's
+a real sense in which the branching
+structure is is
+can be extracted out in a way that
+doesn't necessarily depend on an
+idealization. But then there's a
+question about whether it can be given
+any particular kind of interpretation in
+terms of what we should expect to
+experience or see. And so I think uh in
+some sense those those two objections
+are closely connected to each other and
+they're both trying to understand to
+what extent are we justified in
+interpreting this mathematical structure
+in a certain way.
+>> Yeah, I get Kurt here. Note that if
+you'd rather listen to toe, we're on
+Spotify, iTunes, everywhere with a
+podcast catcher. You can just search my
+name or theories of everything and also
+remember to hit subscribe. Can I ask why
+you're not a cubist?
+>> Um, I don't think it succeeds in being a
+coherent explanation of quantum
+mechanics. I think it's an interesting
+exploration of how to think about
+um various stylized quantum systems in
+the context of quantum information.
+um it lacks the resources at present and
+doesn't have an obvious route to get
+them to describe most of the actual
+applications that we make of quantum
+mechanics. So if I want to understand
+the EPR experiment or bell inequality
+violation locality
+maybe you're prepared to accept that
+cubism does that if you want to
+understand why helium 4 and helium 3 are
+super fluid at different temperatures
+cubism which is an inherently quantum
+mechanical thing cubism has got nothing.
+So my my basically requirement of
+interpretation of quantum mechanics um
+you know nothing much. It should just
+explain all of all of known physics. Um
+[laughter]
+uh and cubism is very badly short of
+that. It explain it it tries to explain
+the abstract quantum formalism but
+doesn't succeed or really try to explain
+any of the concrete realizations of that
+formalism. That's that's my concern with
+it.
+>> Yeah. Yeah, I mean I think there's a
+central core of a good idea in cubism
+because you know I think it's based on
+the observation that quantum mechanics
+is a formalism that we have designed for
+ourselves to use in certain contexts and
+of course that's true. Uh one should
+take that into account when thinking
+about quantum mechanics. I think cubism
+just takes it to an extreme that becomes
+incoherent. Um you know I think the case
+I like to think about and a central
+commitment of cubis cubism is that two
+different observers can assign different
+quantum states to the same system and
+neither of them can ever be judged right
+or wrong. And in particular, two
+different observers, there's no
+restrictions on that. So they can assign
+orthogonal states to the same system and
+neither of them can be right or wrong.
+And so uh if you imagine a situation
+where you know you and I assign
+different states to the system, you
+might think we could just measure the
+system and find out who's who's right.
+The cubists can't allow that that
+procedure will allow us to determine who
+was right. So either they have to say
+it's impossible for us to talk to each
+other and find out what the and sort of
+agree on what the measurement said. So
+that leads down the route of all these
+interceptivity problems. Uh the
+alternative is to say uh that we can do
+the measurement and we can both share
+the result but we're just not allowed to
+use the result of the measurement to
+conclude anything about what the correct
+state of the system was. If you say that
+then you kind of cut off the the the the
+means that we have to make empirical
+connections between the formalism of
+quantum mechanics and observed results.
+You just wouldn't be able to use any
+observed results to conclude anything
+about what states are correct or whether
+your evolution equations are correct or
+anything anything that you might want to
+try to verify about the formalism. So
+either way, there just seems to be
+really serious problems to understanding
+how the cubist view can make make sense
+of the connections between the actual
+observations we've made that have led us
+to arrive at quantum mechanics and the
+formalism itself.
+>> How good do you think that core good
+idea really is? I mean, yeah, sure, we
+came up with quantum mechanics as a
+formalism to describe observations, but
+we came up with classical mechanics did
+as well. You know, I mean,
+>> I mean, obviously, it's always there
+always an open possibility that whatever
+formalism we came out up with encoded
+our um experience and maybe the point is
+that there are sort of somewhat more
+hints of that in quantum mechanics than
+classicalally.
+>> Yeah, I mean I think the cubists are
+right to draw attention to the fact that
+uh quantum mechanics has been designed
+from a standpoint and incorporates
+various aspects of that standpoint and
+that that's an important thing to think
+about when interpreting it. Um uh and
+you know I I because I think relational
+approaches are plausible. think the idea
+that uh states are in some sense
+relative to a context or to an observer
+or something has some merit. Uh but I
+think taking it to the degree where
+there are just no facts at all about
+what the right states are and nobody can
+ever correct anyone else about that. I
+think that that is obviously going too
+far and doesn't do justice to the way in
+which the formula is actually actually
+used.
+>> I see. I I I guess my worry is just I
+I'm reluctant to have this suppose
+there's any good inference just from the
+fact that something was designed from
+our standpoint to anything very much
+again. I mean general relativity was
+designed from our standpoint but I don't
+feel desperately inclined to have an
+epistemic interpretation of gravity
+waves on those grounds.
+>> Yeah. And I I I don't necessarily think
+that's a justification for epistemic
+interpretation. And I think that's a
+justification for perhaps thinking more
+more carefully than we had in the past
+about the ways in which our embodied
+standpoint might have influenced the way
+in which quantum mechanics has been
+formulated.
+>> Okay. I mean maybe you're more
+sympathetic than I am to to the fact
+that we should indeed do that for
+classical mechanics. Yeah. Yeah. Fair
+enough.
+>> A few months ago I was speaking to
+philosopher JB Manek. He's a philosopher
+of general relativity. And then he was
+telling me about the difference in style
+between himself and his adviser
+Malamment. That had me thinking about
+the differences in style between
+philosophers of physics in general, not
+just in GR.
+>> So, I'm curious, how is it that you all
+see your own style? How do you tackle
+problems? How do you decide what counts
+as progress, etc.?
+>> Gosh. Um, well, I'm I guess the style
+that I do is partly informed by the fact
+that I was originally a physicist. I
+mean my PhD was in physics and so um you
+know I think my my motivation has has
+always been been similar to to the
+physicists um and so the philosophy that
+I do even when it is quite on a quite
+philosophical topics I think for me is
+is motivated by wanting to understand
+what's going on with the physics and
+have better ways of sort of talking
+about what's happening with the physics
+with the hope of sort of being part of
+the advance of physics Um, I think there
+are other approaches to the philosophy
+of physics which are much more
+interested in taking what we know about
+physics and using that to answer
+philosophical questions that have been
+around for a long time or to get a new
+view on those types of things. Um, and
+whereas yeah, I think I'm I'm more on
+the side of trying to use sort of the
+philosophical styles of thinking to
+clarify ideas about physics. So, I guess
+that's one one difference to some other
+types of ways of doing the subject.
+David um my approach philosophy physics
+uh is really extremely
+conservative is perhaps the right
+starting point. A quite large fraction
+of philosophy of physics is people
+coming in who for one reason or other
+are dissatisfied with various aspects of
+the mainstream in physics and in various
+ways want to push against it. And you
+see that again and again and again. you
+see the widespread support for modifying
+quantum mechanics to solve the
+measurement problem. Um or for um
+minority approaches in quantum gravity
+or minority approaches in um in
+statistical mechanics or mathematical
+reformulations of of quantum field
+theory or statistical mechanics or etc
+etc etc etc. Um, I'm
+very keen on contemporary physics. Um,
+and very keen on trying to
+approach it with a much stronger sense
+of,
+you know, trying extremely hard to make
+sense of it as is. Um, partly just
+because I think that's ironically a
+somewhat niche activity in
+psychological. [laughter]
+Um I mean this has changed a little bit
+but I used to say that my my specialty
+was the narrow niche area of mainstream
+physics. Um and I'm also interested in
+exploring
+if I say the messy practice of actual
+physics then colleagues of mine who are
+closer to labs and experiments will
+object. I guess I mean the messy
+practice of high theory. So I'm
+interested in understanding physics very
+much at the abstract theoretical level
+rather than at the level of the lab
+practitioner. But I'm interested in
+studying it at the level of mathematical
+rigor and approximation and
+tangle if you like that um one finds in
+in mainstream
+uh you know theoretical physics
+activity. Whereas a lot of the
+trajectory in philosophy of physics has
+either been has to go to the historical
+record
+um and look at how these these ideas
+developed historically or to look at
+extremely pure precise rigorous
+mathematical codifications of these
+things or to explore sort of dissident
+um programs. I think all of those are
+well modulate some of the distant
+programs. Most of those are extremely
+worthwhile things to do, but they're not
+the style of how I am interested in
+doing things. Um,
+are there any philosophical problems
+outside of physics that interest you
+both? David, we'll start with you.
+>> Um, I mean, there's interest in
+interest, isn't there? I mean, I, you
+know, many things interest me. Um yeah,
+I'm interested in American politics and
+dinosaurs um and planetary science and
+um uh computer role playing games and so
+on. Um in terms of my professional
+research interests, um
+not a lot but not nothing. I mean, some
+of the stuff you were talking about
+about scientific realism goes a little
+bit beyond core physics, although it's
+still very physics grounded. And I am
+still I got involved in various
+questions in decision theory off the
+back of um
+uh the work I was doing the ever
+interpretation and I have some level of
+interest in those questions even outside
+the um many worlds context. I've done a
+little bit of published work in in those
+areas. Um, I'm sort of on the edge of
+having research interests in philosophy
+of mind, though again they sort of flow
+into my physics and structural realism
+interests.
+>> Yeah, I mean somewhat similar. Uh, yes,
+there are many areas of philosophy that
+I am interested in, but I'm not
+competent to work in. Um, uh, I I mean,
+I do work in a variety of areas of
+philosophy outside of strict philosophy
+of physics because they end up kind of
+bearing on things I'm interested in in
+the philosophy of physics. So I've
+worked on the philosophy of lawood
+because I'm interested in the way it
+relates to things I think about in
+physics with relation to the role of
+time and I worked on selflocation
+because it ties into the ever
+interpretation and cosmology and I
+worked on um a few sort of philosophy of
+mind style things because I think it is
+relevant to concerns I have about time
+and the experience of time in physics.
+So yeah I mean all of these things stem
+from the the work that I do in physics
+but I end up going a bit beyond it
+sometimes.
+Now to close, as you mentioned, you all
+speak often to each other and at great
+length and you all have different styles
+and strengths. So what is it, David,
+that you respect about Emily's style and
+strength or admire even and Emily
+respectively to to David?
+>> Oh goodness. Um, I mean, I think there's
+a
+admirable intellectual honesty in
+recognizing
+how severely difficult various moves are
+going to be and not kind of being in
+denial to that and taking entirely
+seriously
+the physics problems there while still
+having the courage of one's convictions
+to say, "Yes,
+um uh
+this is extremely difficult work but
+nonetheless it has to be done because
+the arguments for it are compelling.
+>> Uh yeah I think as as David says his
+work takes seriously physics as it
+actually is and tries to understand and
+clarify issues in it and to have a
+better sense of what that what's going
+on in the physics and what that tells us
+about philosophy. I I I like that. I
+find that very helpful. I find very
+clarifying to read read that stuff and
+it certainly improves my own
+understanding of what's going on. Um,
+and I think I I personally am more
+willing to alter things, but I think
+nonetheless is really important if
+you're going to do that to really
+understand what's actually happening and
+why it's happening. I find Damon's work
+very helpful for that.
+Well, I admire both of you and every
+time I speak with each of you, I realize
+how how little I know and how much
+farther I have to go and I feel like a
+fool, but I learn so much and I
+appreciate you both tremendously. Thank
+you.
+>> Well, thank you Christopher.
+>> Thanks.
+>> Hi there, Kurt here. If you'd like more
+content from Theories of Everything and
+the very best listening experience, then
+be sure to check out my Substack at
+kurtjimong.org.
+org. Some of the top perks are that
+every week you get brand new episodes
+ahead of time. You also get bonus
+written content exclusively for our
+members. That's cur t a i mu n g a
+l.org. You can also just search my name
+and the word substack on Google. Since I
+started that Substack, it somehow
+already became number two in the science
+category. Now, Substack, for those who
+are unfamiliar, is like a newsletter,
+one that's beautifully formatted.
+There's zero spam. This is the best
+place to follow the content of this
+channel that isn't anywhere else. It's
+not on YouTube. It's not on Patreon.
+It's exclusive to the Substack. It's
+free. There are ways for you to support
+me on Substack if you want, and you'll
+get special bonuses if you do. Several
+people ask me like, "Hey Kurt, you've
+spoken to so many people in the field of
+theoretical physics, of philosophy, of
+consciousness. What are your thoughts,
+man?" Well, while I remain impartial in
+interviews, this Substack is a way to
+peer into my present deliberations on
+these topics, and it's the perfect way
+to support me directly. Kurtjongle.org
+or or search Kurtjungle Substack on
+Google. Oh, and I've received several
+messages, emails, and comments from
+professors and researchers saying that
+they recommend Theories of Everything to
+their students. That's fantastic. If
+you're a professor or a lecturer or what
+have you and there's a particular
+standout episode that students can
+benefit from or your friends, please do
+share. And of course, a huge thank you
+to our advertising sponsor, The
+Economist. Visit economist.com/toe
+to get a massive discount on their
+annual subscription. I subscribe to The
+Economist and you'll love it as well.
+Toe is actually the only podcast that
+they currently partner with, so it's a
+huge honor for me. And for you, you're
+getting an exclusive discount. That's
+economist.com/toe.
+And finally, you should know this
+podcast is on iTunes, it's on Spotify,
+it's on all the audio platforms. All you
+have to do is type in theories of
+everything and you'll find it. I know my
+last name is complicated, so maybe you
+don't want to type in Jiongle, but you
+can type in theories of everything and
+you'll find it. Personally, I gain from
+re-watching lectures and podcasts. I
+also read in the comment that toll
+listeners also gain from replaying. So,
+how about instead you relisten on one of
+those platforms like iTunes, Spotify,
+Google Podcasts, whatever podcast
+catcher you use, I'm there with you.
+Thank you for listening.

@@ -1,0 +1,5072 @@
+But notice the deep problems were about
+spooky action at a distance, not
+particularly about determinism. I'm
+really going to try to do this once
+[music] properly from beginning to end.
+What's going on with EPR? What's going
+on with Bell?
+>> This is Tim Maudlin, Professor of
+Philosophy at New York University and
+one of the world's leading philosophers
+of physics. Today, I'm thrilled to bring
+you a lecture with the breathing room it
+requires to explain quantum physics and
+what Bell did with zero background
+knowledge.
+>> [music]
+>> I've been told I have an unlimited
+amount of time.
+>> On this channel, I, Curt J. Mengel,
+interview researchers regarding their
+theories of reality with rigor and
+technical depth.
+>> Unfortunately, most people haven't
+understood the EPR paper.
+>> This is to set the record straight once
+and for all on what?
+>> The great ironic reversal at the end is
+that Bell undermines Einstein's
+fundamental thesis that there's no
+[music] action at a distance, but he
+undermines it using Einstein's own
+tools.
+>> Professor, welcome. I'm super excited.
+Thank you for coming.
+>> Um I'm very glad to be here.
+>> So this title, okay, as far as I can
+see, EPR Bell, the completeness of the
+wave function, spooky action at a
+distance, and all that. That's the title
+of this. Take it away. The title of the
+YouTube video may be something that can
+fit into the character
+>> Wow.
+>> count of the YouTube video.
+>> And I went to all that trouble.
+Uh okay, so let me explain to anybody
+watching this what this is. It's not a
+kind of normal back and forth
+conversation designed that way. It was
+supposed to be
+a real careful presentation
+uh a century of Bell's theorem
+and then a little bit on the problems
+that arise because of Bell's theorem.
+And in preparing for this, I thought,
+all right, I have a kind of I've been
+told I have
+an unlimited amount of time, which is
+unlike what I normally have. Usually,
+you have to squeeze it down. And I
+thought, all right, if I really do have
+a lot of time, I'm really going to try
+to do this once properly
+from beginning to end.
+What's going on with EPR? What's going
+on with Bell? What Einstein was
+thinking? What Bell was thinking? Other
+things that happened in the meantime.
+The logic of Bell's argument and the
+conclusions of it. So, that's what this
+is all about.
+I should say that because I want this to
+be ab- absolutely clear,
+uh I've essentially written everything
+out.
+>> Perfect.
+>> And it's going to be a little boring cuz
+I'm going to be more or less reading
+what's on the screen, uh unless I I riff
+on something or if Kurt has some
+something he wants to interrupt me about
+and ask me about, which is fine.
+Uh but don't be surprised that that's
+what's going on. Okay? So, should we
+begin?
+>> Please.
+>> Okay. So, this comes in various acts,
+historical acts. I think there'll be
+some history here that almost nobody
+listening to this is aware of.
+Historians of physics are aware of it,
+but it's not usually talked about. So,
+we're going to start 1905,
+the honest mirabilis, when Einstein
+developed and proved that there were
+atoms and developed the special theory
+of relativity and proved E equals MC
+squared, and on top of that, really
+began quantum theory with his paper on
+the photoelectric effect. So, let's just
+begin there.
+So, although Planck is usually credited
+with being the originator of quantum
+theory because of work he did on uh
+thermal radiation and blackbody
+radiation in 1900,
+I think it's really not fair to say that
+Planck began what became what we now
+think of as as quantum theory. Why? He
+was doing some statistical calculations
+in a normal way for a classical
+physicist doing statistical
+calculations. He knew what he was trying
+to get. He was trying to get a certain
+spectrum of radiation for black body
+radiation.
+He found that
+he could get the right answer out if
+instead of taking a limit
+going to zero,
+which is what you normally do, he
+stopped at a certain point.
+And so he stopped and that point had
+little regions of phase space which were
+characterized by this Planck constant H.
+He knew that gave him the result he
+wanted. It's not clear that he thought
+that what he was doing was quantizing
+anything. It's not clear that he had any
+real physical hypothesis about what he
+was doing. He just noticed that it
+worked.
+So, when you really ask who really
+proposed quantization of a classical
+quantity, it's Einstein in 1905. Now,
+what was Einstein worried about? He
+wasn't worried about black body
+radiation. He was worried about the
+photoelectric effect. And the
+photoelectric effect was a known
+property of certain metals that when
+light fell on it,
+it created a current, an electrical
+current, and it was known how that
+current was related to the light.
+And it's a very surprising way that it's
+related to the light. I mean, it's not
+surprising from a classical perspective
+that
+light on a metal might start a current.
+It's obviously delivering energy to the
+metal and you need to deliver energy to
+the metal intuitively to knock electrons
+free and get a current going.
+But the way that that depend that that
+energy
+translated into current was very
+surprising. So, let's go through the
+surprise.
+Classically, you think of light as an
+electromagnetic wave and it's
+characterized by a frequency and an
+amplitude. The frequency tells you
+essentially what the color of the light
+is and the amplitude tells you what the
+brightness of the light is. And
+classically when you attribute energy to
+an electromagnetic wave, it depends on
+both the frequency and on the amplitude.
+So, you can increase the energy by
+increasing the frequency and you can
+increase the energy by increasing the
+amplitude by making it brighter.
+So, you would think that if light
+falling on a metal is creating a
+current, you could increase the current
+either by changing the frequency and
+making it higher or by changing the
+amplitude and making it brighter.
+But, it actually turns out it doesn't
+work like that.
+Um the dependency of the current doesn't
+go like that. Instead, what happens?
+Well, there's a critical frequency of
+light.
+Uh a critical color as it were.
+And as long as the light is below that
+frequency, no current flows at all, no
+matter how bright the light is.
+And as soon as it goes above that
+frequency, you start to get current.
+Uh so, the current isn't just a function
+of the delivered energy, right? You if
+you make it brighter if it's below the
+frequency and you make it bright
+brighter, you do deliver more energy and
+the and the metal will heat up.
+But, what you won't get is this
+electrical current. Once you get above
+that frequency, as you increase the
+brightness, you increase the current.
+So, the classical model of light as an
+electromagnetic wave doesn't have any
+obvious way of making sense of that kind
+of data. So, Einstein noticed that you
+can make sense of it if you have a kind
+of really quantum hypothesis or
+discretization
+hypothesis, you say it looks like
+the light is delivering energy
+to the metal
+in discrete small packets.
+And the amount of energy in each one of
+those packets is a function of the
+frequency. As you increase the
+frequency, you increase the energy of
+each packet. And as you increase the
+brightness, you increase the number of
+packets.
+So, to that extent, it looks like the
+light is delivering energy more like
+particles would.
+More like a set of particles. If the
+particles don't individually don't have
+enough energy, if none of them has
+enough energy to dislodge an electron as
+it were, then it doesn't matter how many
+of them you throw at it, it's not going
+to get a current. And as soon as you
+have even one that's above that
+threshold, then you will start to get a
+current.
+Uh so, this picture of
+energy being delivered in quanta or
+packets in discrete
+units is
+suggested by the way the photoelectric
+effect works.
+And the hypothesis of how
+the
+frequency of the light is connected to
+this energy of these quanta is given by
+the famous formula E = h new. So, there
+we have Planck's constant again. Planck,
+the one Planck discovered in his
+calculations, is now showing up and
+connecting together
+the frequency of the light to the energy
+of these quanta, right? These quanta of
+energy. And then,
+you would say that would explain
+why below a critical new, you just don't
+get any current at all. Cuz cuz the
+quanta are not delivering each each
+individual quantum is not delivering
+enough energy to dislodge an electron.
+And that is that is the quantum
+hypothesis as it appears here. Now,
+notice
+what's quantized here isn't really
+energy.
+A
+photon or a quantum of light can have
+any energy you like. You just have to
+pick the right new, right? There's a
+continuum of different frequencies, and
+each frequency gives you an energy that
+gives you a continuum of possible
+energies of photons.
+It's rather that at a fixed frequency,
+the energy is seems to be delivered in
+these discrete packets,
+each of which has an energy that's
+determined by the frequency.
+Okay, so what's this kind of like? Um
+this was a tremendous surprise for
+people who thought of light as a wave,
+because if you think if light's like a
+wave, like a water wave hitting the
+beach, that of course carries energy,
+and as it hits the beach, it distributes
+that energy, but it distributes the
+energy equally across the beach. If the
+beach is made of pebbles, and a wave
+wave crashes on it, all the pebbles get
+jostled a little bit. But this is like a
+wave comes in,
+and a few pebbles get shot way up,
+get a whole lot of energy, and the other
+one's nothing.
+Like the energy is not being equally
+distributed across the beach.
+And it's more like people are shooting
+bullets the beach, right? You should
+imagine a bunch of people with guns
+firing bullets at the beach. Then, if a
+pebble gets hit, it will jump up, and if
+it doesn't, it won't. And you don't
+expect the energy to be distributed
+evenly.
+Um so you get this kind of particulate
+model that seems to be connected with
+this behavior.
+And
+uh as I say, the the model is like this
+bullet model, and you can go further.
+You can say, "Well, if you're shooting
+bullets, and it takes a certain amount
+of energy, minimum amount of energy to
+dislodge a pebble,
+then if your ammunition is too weak, and
+individual bullets don't deliver that,
+you'll get no effect. But as soon as you
+upgrade the ammunition, which would
+would the equivalent of upgrading the
+frequency,
+Now they do have enough. Once you get
+beyond the critical threshold, suddenly
+the rocks will start to jump.
+Um
+and the more bullets that are being
+shot, the more rocks will jump. That's
+like the brightness.
+So
+what happens is in this in this 1905
+paper, when Einstein tries to account
+for the photoelectric effect, he
+introduces a kind of wave-particle
+duality, right? And certainly he says
+that the energy of the wave seems to be
+delivered more the way energy would be
+delivered by a particle than it would be
+by a classical a classical wave.
+Um now there are still wave
+characteristics and there were wave
+characteristics in Einstein's theory.
+The actual calculation is rather
+complicated, but part of it was these
+particle-like this particle-like
+behavior of the light. Um you still of
+course need some wave characteristics of
+light because light does behave like a
+wave. It refracts, it interferes, it
+does all sorts of things that when there
+was the original debate between the
+corpuscularians like Newton and the wave
+theorists, the wave theorists won that
+debate, classical debate, because light
+does
+display wave-like characteristics of
+interference and refraction and so on.
+Uh so then you have this idea of
+wave-particle duality already is there
+in 1905. Light is in a certain respect
+behaving like a wave and in some other
+respect behaving like a particle. All
+right. I'm sorry.
+>> Would you say that it's a wave-particle
+duality or would you say that it's more
+like the quantum object has wave
+characteristics and particle
+characteristics, but that duality isn't
+quite the correct term in the way that
+we use dualities in math and physics
+otherwise?
+Like a co-vector is dual to a vector or
+something.
+>> Yeah, it's
+Yeah, it's certainly not a technical
+notion of duality as would be used in
+math. So, yeah, that's the the the word
+isn't supposed to
+connote that when I when I'm using it
+here. And I think when people started
+talking about it, I don't think they had
+a a strict mathematical understanding.
+Um all they meant was
+somehow this thing is in certain ways
+behaving like a wave and in other ways
+behaving like a particle. That's all.
+>> Well, one of the ways that it could be
+saved is if this is true that it either
+is going to behave like a particle or
+it's going to behave like a wave. It
+never behaves like both. That whenever
+it's behaving like a particle, then it's
+behaving like a particle but not a wave.
+So, I've heard some people say that. I'm
+sure the audience have heard other
+lecturers say that or popularizers of
+science. Is that correct?
+>> I I would say nobody takes would would
+take that That's a kind of Jekyll and
+Hyde picture, right? I mean, there's one
+guy and sometimes he behaves like Jekyll
+and the other times he behaves very
+differently like Hyde. Um
+and and he switches between the two,
+right? It's really quite dramatic when
+he switches between Jekyll and Hyde. I
+don't think anybody thought that was
+going on. That it sometimes is just a
+particle and at other times is just a
+wave and it somehow switches between the
+two.
+I It would just be a crazy to try to
+make such a theory. Um
+the the the the the claim that I made,
+which is that in certain ways you have a
+single thing
+and in certain ways
+its behavior is characteristic of waves
+and in other ways of particles. That is
+going to be true at all times. It's not
+like there's a trigger that switches it
+from particle mode to wave mode, right?
+I mean, you could imagine such a theory.
+Again, imagine anybody taking it
+seriously. I mean, that's just kind of
+crazy, right? What would the trigger be?
+Some people heard that from the double
+slit. I'm just trying to cuz I know the
+audience may be thinking, but but I've
+seen other popularizations or other
+animations of this and that that if you
+look if you do have the which way
+information, then it starts to act like
+a particle. And if you don't, then it
+starts to act like a wave.
+>> Yeah, okay. So, I'll
+I'll even dunk a little bit on my friend
+>> to preempt what the audience may be
+thinking just so that you can dispel any
+incorrect notions from popularization.
+>> No, no, no, this is fine. This is good.
+Look, I can dunk a bit on my friend Sean
+Carroll who tried to do something which
+you shouldn't try to do, which is reduce
+quantum theory to five words.
+>> [laughter]
+>> And his five words were
+don't look wave, look particle.
+And that sort of suggests this Jekyll
+and Hyde thing, but the trigger is being
+looked at.
+And that's just of course lunacy, right?
+Because what do you mean looking at a
+you know, looking at a What do you mean
+by looking at a particle? I mean, the
+whole thing makes no sense, and I'm sure
+Sean would not defend it. He you know,
+trying to reduce any theory to five
+words is not a great idea.
+Um
+the
+the this this thing about which way
+information and so on and double slit
+and why the interference goes away,
+all of that is explained in a perfectly
+comprehensible
+just by looking at Schrödinger evolution
+of the wave function and the Schrödinger
+evolution is always wave. Schrödinger's
+equation is a wave equation, and it
+governs the wave function as a wave.
+And it explains
+why the interference goes away when you
+change the physical situation
+in certain ways.
+I subscribe to The Economist. Their
+science and their AI coverage is among
+the best I found anywhere. And I say
+that as someone who reads plenty of it.
+I'll give you some examples. They just
+ran an analysis on how attitudes towards
+science are changing in American
+politics and what this means for
+research and funding in scientific
+institutions moving forward. This sort
+of high-quality reporting is fantastic.
+They even covered how dark energy may be
+weakening over time. Now, if that holds
+up, it completely changes our
+understanding of the universe's fate. If
+you watch this channel, those are
+exactly the kinds of questions that we
+explore every week. I subscribe to The
+Economist because their science and
+their AI reporting regularly surprises
+me with how deep it goes. And they're
+also, of course, known for global
+affairs, both political and economic
+reporting. They are top-tier and
+interestingly and flatteringly, TOE is
+one of the only podcasts that The
+Economist partners with. So, as a
+listener, you get an exclusive 35% off.
+That's not a deal that they have just
+anywhere. Head to economist.com/toe
+to subscribe. That's economist.com/toe
+for 35%
+off.
+>> People characterize those ways as giving
+me which way information or whatever.
+That's just that that just leads you in
+the wrong direction. You make certain
+physical changes to situation. You plug
+Schrodinger's equation in. You see what
+happens and you notice that in a in in
+fact, in a continuous way
+the interference slowly degrades.
+Which if you thought either it's a
+particle or it's a wave, well, how can
+there be this kind of continuum between
+the two behaviors, right? There's a
+continuum between the behavior where you
+get have sharp interference bands and
+you have don't have interference bands.
+Um so, no. That that Jekyll and Hyde
+kind of picture is clearly incorrect.
+And I don't think anybody would defend
+it who was serious about it.
+Um
+I should say it puzzled Bell, and he
+said he was always puzzled
+about once they noticed that there was
+both this wave-like behavior and this
+particle-like behavior.
+And then they started worrying, well, is
+it a wave or is it a particle or is it a
+wave-icle or whatever, that it didn't
+occur to them, he says, the obvious
+solution, maybe there's both a wave and
+a particle, right? It The thing behaves
+somewhat like a wave cuz there is a
+wave, and it behaves somewhat like a
+particle cuz there is a particle, and
+they're both there.
+Um
+that's the pilot wave picture that we're
+going to talk about later. And it's an
+obvious way of explaining why you have
+both of these sorts of characteristics.
+Um not the only way, but that's an
+obvious way to do it. Great.
+But as I say, if someone were to try to
+really make physics out of the idea that
+that photon at sometimes is in particle
+mode and at other times is in wave mode,
+and they then have would have to give
+you an account of when it does what, and
+good luck with that.
+That's not going to be a serious theory.
+Anyway, you you had both of these
+characteristics, and and and Einstein
+solves the problem of the photoelectric
+effect by attributing
+particle-like behavior to things that
+were classically waves.
+So it occurs to de Broglie, a very young
+guy,
+well, turnabout's fair play,
+um
+why don't we think maybe things we think
+of classically as particles can display
+wave behavior, right? Just
+And that then he started talking about
+matter waves.
+Um so again, you have an electron,
+classically it's a particle, classically
+it's always somewhere, it moves around
+in some continuous way, it's not like a
+wave, it's It's spread out, it doesn't
+interfere, or anything like that. And de
+Broglie says, "Well, if you took
+classical
+electromagnetic waves and gave them
+particle-like behavior, why don't I take
+classical particles and give them some
+wave-like behavior?"
+Uh and he then made some you you then
+need a way again to link what will the
+wave behavior be? What kind of wave
+should I associate with these particles?
+And de Broglie, as we'll see, taking
+Einstein as his model,
+said, "All right, I can make that
+linkage
+using Planck's constant. So,
+one of them is this lambda equals h over
+p. Lambda, if if something's going to be
+a wave, it has to have a wavelength,
+lambda.
+And
+de Broglie said, "Okay,
+a classical particle has a momentum p.
+So, let me just say that lambda equals h
+over p. There's
+Planck's constant again, right? Now, I
+can say if class if in a classical
+situation, I would say this particle has
+such and such a momentum, I can say,
+"Well, then I expect it to to
+display wave behavior that would be
+associated with a wave of wavelength
+lambda."
+And what about but a wave has both a
+wavelength and a frequency? I need a new
+So, there he used the same one that
+Einstein used. E equals h new.
+Of course, Einstein was going the other
+direction. Einstein was saying, "Well, I
+know my light has frequency new,
+what is the energy of these quanta?"
+And de Broglie is saying, "Well, my
+particle has energy, like 1/2 mv
+squared, classical energy.
+>> Mhm.
+>> If I want to associate a frequency with
+it, what will it be? I'll use the same
+equation, right? But now I'm putting in
+the E and deriving the new. So, he he
+says, "If I take a classical particle,
+which would have
+a momentum and an energy,
+I have two equations that will give me
+a frequency and a and a wavelength.
+And then I can think about the the
+behavior of waves with that frequency
+and wavelength, right?
+Um
+and that then led to people actually
+looking for interference behavior,
+wave-like behavior of electrons.
+And you you sort of see how de Broglie
+got there.
+So let's just recap where we are, right?
+We're only in 1924. This is actually
+before what's normally called the birth
+of the new quantum theory,
+which is
+25, 26.
+And already de Broglie and Einstein back
+in 1905 have laid the foundations of the
+new quantum theory.
+What's called the breakthrough of
+Heisenberg, which is now 1925, was the
+matrix mechanics. And what I've given
+you has no matrices in it in any obvious
+way. And it's just very different from
+what Heisenberg was doing.
+And I don't want to go into what
+Heisenberg was doing. I mean, it was
+clear and it was something else, but I'm
+telling trying to tell a reasonably
+smooth story.
+And the story gets smooth when after
+Heisenberg
+develops the matrix mechanics,
+Schrödinger develops what's called wave
+mechanics 1926.
+And then there were various proofs that
+at least in certain circumstances the
+two theories gave the same predictions.
+So they were generally considered to be
+just different mathematical
+presentations of the same theory.
+And furthermore,
+because people with classical training
+were very good at working with waves and
+really hadn't learned to work with
+matrices,
+pretty much everybody started working
+with Schrödinger's presentation in terms
+of wave mechanics,
+um rather than with the matrix
+mechanics.
+So,
+we're now in 1927.
+The new quantum theory is certainly in
+place and people were talking about it.
+We have Schrödinger's
+wave mechanics, which it which involves
+the introduction of the wave function
+that we're all familiar with, which is a
+complex-valued function, which he didn't
+like using complex values. He was a
+little upset that he had to do it, but
+he was forced into it. A complex-valued
+function
+over the configuration space of a
+system. So, that's what the
+mathematically what the wave function
+is.
+And Schrödinger specified its dynamics
+in what we call Schrödinger's equation.
+And that dynamics is a wave dynamics.
+So, the wave function
+governed by Schrödinger's equation
+is going to evolve in a wave-like way.
+There'll be interference. There'll be
+spreading. Uh there'll be refraction,
+essentially refraction-like behavior.
+All the things you would associate with
+wave behavior.
+Nobody quite knew what to do with this
+wave function until Born came along and
+gave it this probabilistic
+interpretation, where he said, "Well,
+what we're going to do with the wave
+function is square it,
+and then treat those numbers as
+probabilities for measurement outcomes."
+>> Mhm.
+>> Um that's where the probabilism comes
+into standard quantum mechanics, the
+failure of determinism. You say the
+theory no longer gives strict
+predictions about what's going to
+happen. It merely gives you different
+possibilities and assigns probabilities
+to them.
+And during this period, Bohr and
+Heisenberg are working together to lay
+down principles of what's usually called
+the Copenhagen interpretation or the
+Copenhagen school.
+And the main
+principle of that school we want to
+focus on is the insistence that the
+quantum mechanical description, the wave
+function of a system,
+is complete.
+It tells you everything there is
+physically about the system.
+And that this
+randomness
+or probability that's introduced by
+Born's rule reflects an actual
+failure of determinism in nature. Nature
+itself is not deterministic.
+And
+Bohr was very insistent that
+they had passed a threshold from
+classical physics that you couldn't go
+back over. You're giving up determinism.
+You're giving up
+uh
+the ability to visualize what's going
+on. What Bohr was very insistent on
+that. And in so far as you think you
+need to visualize things to understand
+them, you're giving up on understanding.
+But Bohr kept saying, "But we've reached
+the end of the road. I mean, this theory
+is the final theory.
+And the reason you don't have a good
+time understanding it is your problem,
+not nature's problem."
+>> For Schrödinger, he proposes this wave
+function equation.
+>> Mhm.
+>> Most students, when they're taught
+quantum mechanics, they're taught the
+Born rule along with the Schrödinger
+equation.
+>> Mhm.
+>> So, it's difficult to think what what
+would the Schrödinger equation be doing
+without the Born rule? Like, what did
+Schrödinger think the wave function was?
+And then, did Born only invent that
+because of single particles? Cuz then
+you have to make sense of dots that are
+appearing on the screen, or like, how
+could those two ever be separated?
+>> that's a That's a very good question.
+Schrödinger, I believe, didn't
+particularly like Born's suggestion when
+he made it. Um
+I- I- if you if you're if you're
+tracking
+the development
+and you follow the development I gave
+you, where
+de Broglie makes this suggestion that we
+ought to start treating
+matter particles
+using these wave characteristics and
+then we have wave equations for them.
+Um
+what
+what really happened is that if you if
+you read Schrödinger's big paper, it's a
+four-part paper
+when he introduced the make the wave
+mechanics. And what he does in the first
+three parts is all stationary or static
+situations.
+Okay?
+So, they're the kinds of situations
+where
+nothing is changing in the environment.
+And
+you're looking for what we call eigen
+states or certain kind of stationary
+solutions
+to these equations. For what purpose?
+Well, in the case of for example, the
+one that that really got this going for
+Bohr in the case of atoms
+you wanted to know what are the energy
+levels of the different that are
+available to electrons.
+Because the picture was that electrons
+in an atom can only be in certain energy
+states.
+And
+if they jump up from a lower one to a
+higher one, they have to absorb a
+certain amount of energy and if they
+decay down, they emit energy in terms of
+light.
+And that was supposed to explain the
+atomic spectra that you could see,
+right? You just see that the light
+coming from the sun or the light coming
+from, you know, a neon tube or whatever
+um is not a uniform spectrum. It has
+very definite bands where the light is
+being
+produced.
+And the old quantum theory, which is
+what preceded
+1925 and so on, this is 1915, Bohr is
+laying down these rules
+for the orbits that electrons can be in,
+thinking of the orbits as planets, as
+really good old little particles in
+planetary orbits, and you restrict the
+orbits in certain ways that have to do
+with
+waves, getting waves to fit around these
+orbits.
+That gives you a set of orbits, and that
+gives you these transitions, what these
+transitions are possible, and that gives
+you the spectra of light. Okay?
+That's essentially for what they're
+doing a static situation.
+You're just solving for stationary
+solutions to your equations.
+And then what's important about the
+equations is what energies you associate
+them with.
+Right?
+>> [snorts]
+>> Now, you can do all that without using
+Bohr's rule.
+Nothing about Bohr's rule, nothing about
+probabilities there at all. It's just
+can I get the spectra right?
+So, that's a kind of example of what you
+could do
+uh in a you know, in a static situation,
+what are their probabilities of anyway?
+As it were in a static situation,
+nothing's changing.
+Um Right, right. So, there is a lot that
+you could do. Now, in fact, what what
+Schrödinger does in that paper is the
+first three sections, he's just dealing
+with these stationary solutions.
+And the wave function he uses is real.
+It's not complex. It's a real-valued
+function.
+And then he says, "Well,
+what happens if the situation isn't
+stationary? What happens if there's
+something that's being changed? If I've
+got some electric field or something,
+magnetic field, and it's it's it's
+varying."
+Then he said, "I'm He's forced into it
+more or less. He's unhappy about it.
+He's explicitly unhappy about it. He
+says, "Well,
+I'm going to now use a complex function.
+I'm going to the values of the function
+are not going to be real numbers
+anymore. They're going to be complex
+numbers."
+It was the only way he could think of to
+deal with this this non-stationary
+situation.
+Um
+when we learn quantum mechanics, as you
+say, when a student learns it, the first
+thing they're told is the wave function
+is a complex function.
+>> Mhm.
+>> So, we start at a position where
+Schrödinger just barely got to and
+wasn't happy about. He was hoping to
+replace that complex function with a
+real function.
+Uh he says so. He just couldn't figure
+out how to do it.
+So, you you know, the the Born's
+coming into this and suggesting squaring
+this complex function, first of all, why
+why square it? Squaring the complex
+function and then treating that those
+numbers as probabilities, that's kind of
+completely out of left field.
+Um
+but of course, for many purposes, it
+worked.
+So, that's why the situation was so
+confusing.
+Nobody really understood what was going
+on and and and
+when
+I don't know what Born exactly thought,
+but when when when certainly Bohr
+insisted that these probabilities, when
+you got them, were fundamental, that
+they reflected indeterminacy innate
+indeterminism in nature itself.
+And
+Schrödinger was upset about that. I
+mean, Pauli was upset about that. This
+that did not go over well.
+>> [sighs and gasps]
+>> Um so, it it was a very confused
+situation.
+Okay.
+So, there we are in 1927. This stuff has
+come out and at the fifth Solvay
+conference,
+all the big shots, as we know, get
+together and have a nice photograph
+taken of them all together.
+And there was a lot of discussion of the
+quantum theory, and in that discussion,
+Einstein
+first raises objections
+to the quantum theory as it's being
+exposited
+by Bohr and Heisenberg.
+And these objections are very important.
+They tell you what was on Einstein's
+mind from the beginning. So, we're in
+1927.
+People knew you could use Born's rule
+together with the wave function,
+together with the Schrödinger equation,
+and make some statistical predictions.
+All right? You use the Schrödinger
+equation to evolve the wave function,
+you squared the wave function to extract
+some probabilities, you use those
+probabilities
+to make statistical predictions.
+And it worked. Um
+and
+even though
+the new quantum theory, again, is
+attributed to Heisenberg in the matrix
+mechanics,
+really, even by 1927, I think people
+were mostly working with the Schrödinger
+wave mechanics picture.
+And so, Einstein is focused down on the
+wave function.
+Cuz this is now, if you use the
+Schrödinger presentation,
+the central object you're using to
+describe your system is a wave function.
+So, he's very focused down on the wave
+function.
+And
+he notices that one in the same
+mathematical object can be used to
+represent
+a physical system with different
+physical meanings.
+All right? With different physical
+interpretations or understandings of
+what's being represented. said it, and
+he's very clear about it. And he says,
+"Sometimes,
+when we describe something, the
+description is a merely statistical one.
+That is, we're not describing an
+individual system, we're describing an
+ensemble, usually a kind of ideal
+infinite ensemble of systems."
+And he
+thought that that's the natural way to
+understand this Schrödinger wave.
+And he was worried but he was very
+worried about about how Bohr was trying
+to understand it. Um and so
+he was he's really is focused down on
+this very simple question.
+When I write down a wave function
+is that supposed to describe a single
+particle
+or only a collection of particles, a
+large collection of particles?
+All right. So, the second would be a
+statistical understanding.
+And he raised some problems about this
+with an example which in which I think
+most people don't know, but if you don't
+understand this example, you won't see
+where Einstein is coming from that
+involved a pinhole and a hemispherical
+detector. Okay? So, at the Solvay
+conference and we have
+records of the discussions at the
+conference. So, this was not
+you know, Einstein giving a formal
+presentation. It's just him him raising
+objections. And so, he imagines this
+situation where you have a a beam of say
+electrons and they're being shot at
+barrier with a pinhole in it with a very
+small hole in it and beyond the pinhole
+there's a screen. And not just a screen
+but a hemispherical screen. So, the
+picture is you've got this screen with a
+hole in it and then around centered
+around that hole is a large
+hemispherical screen where the screen is
+the same distance in all directions.
+Okay? That's going to be kind of
+important.
+And we all know that that the idea was
+from de Broglie that gee, the particles,
+the electrons have associated wave wave
+behavior. They have frequencies and they
+have wavelengths and they'll behave the
+way water waves or, you know,
+electromagnetic waves do. Well, what do
+they do?
+Um
+when you shoot a a wave through a small
+hole, it diffracts. What comes out the
+other end is a wave like a semi-circular
+wave or an expanding wave in water, a
+semi-circular wave in another dimension
+you get a a growing hemispherical wave.
+Because the wave diffracts and as it
+were comes out of the pinhole going in
+all the different directions.
+So here's a transcript of that
+discussion. This is a transcript in the
+recent book by Anthony Valentini and
+Guido Bacchialupi about
+the Solvay conference. And I'm just
+going to read this, right? If I can.
+So Einstein, despite being conscious of
+the fact that I've not entered deeply
+enough into the essence of quantum
+mechanics, nevertheless I want to
+present here some general remarks.
+One can take two positions toward the
+theory with respect to its
+postulated domain of validity, which I
+wish to characterize with the aid of a
+simple example.
+Let S be a screen provided with a small
+opening O. Figure two, we'll see figure
+two in a minute. And P, a hemispherical
+photographic film of large radius.
+Electrons impinge on S in the direction
+of the arrows. Some of these go through
+O and because of the smallness of O and
+the speed of the particles are dispersed
+uniformly over the directions of the
+hemisphere and act on the film.
+Both ways of conceiving the theory now
+have the following in common.
+There are de Broglie waves which impinge
+approximately normally on S and are
+diffracted at O. So this is again de
+Broglie introduces this idea that even
+electrons will exhibit wave behavior.
+Behind S there's a sphere there are
+spherical waves which reach the screen P
+and whose intensity at P is responsible
+for what happens at P.
+So there's the picture. There's figure
+two. You see the electrons coming in,
+you see the little hole O, you see the
+arrows going out in all directions
+toward the hemispherical screen which is
+equidistant away, right? We can
+characterize the two points of view as
+follows. So Einstein says, "Look, what
+we're agreed as it were mathematically
+that part of the description, but
+physically what what are we talking
+about here? What what exactly does this
+wave function represent?"
+And he gives you two
+conceptions. Conception one,
+the de Broglie-Schrodinger waves
+do not correspond to a single electron,
+right? The de Broglie-Schrodinger waves
+is what we would call the wave function.
+But to a cloud of electrons extended in
+space, the theory gives no information
+about individual processes, but only
+about the ensemble of an infinity of
+elementary processes. So you imagine,
+you know, you're shooting these
+electrons at this pinhole and imagine
+that it they just each one gets somehow
+diffracted or shot off out of the
+pinhole in different directions. But if
+I shoot a million of them and I just
+follow that cloud of electrons as it
+were, then the whole cloud will then
+spread out hemispherically, right?
+That's conception one.
+Conception two,
+the theory claims to be a complete
+theory of individual processes. Notice
+the word complete there.
+>> Mhm.
+>> Right? And notice the word individual.
+Right? The the theory purports to tell
+us
+everything about the individual
+processes, about an individual electron.
+Each particle
+directed toward the screen so far as can
+be determined by its position and speed
+is described by a packet of the de
+Broglie-Schrodinger waves of short
+wavelength and small angular width.
+This wave packet is diffracted
+and after diffraction partly reaches the
+film P in a state of resolution.
+Well, by which I think he means by a
+state of resolution that it's been
+thinned out as you would imagine.
+You shoot this wave in, it comes out in
+all directions, and it thins out as it
+as it goes out, and by the time it hits
+this hemispherical screen, it's rather
+thin,
+right? And it'll get thinner and thinner
+the further the screen is.
+Okay?
+According to the first purely
+statistical point of view, psi squared
+expresses the probability that there
+exists at the point considered a
+particular particle of the cloud, for
+example, at a given point of the screen.
+So, again, you now have psi squared at
+the screen. You can you square psi, it's
+actually going to be pretty uniform
+across the screen. And you say, "But
+what is that number?" You know, Born
+tells me it's a probability. The
+probability of what? And Einstein says,
+"Well, if I have this large collection
+of particles,
+and you just, as it were, arbitrarily
+pick a particle,
+you can think of that as the probability
+that that particle is somewhere there
+near the screen,
+right?
+According to the second conception, too,
+psi squared expresses the probability
+that at a given instant the same
+particle is present at a given point,
+for example, on the screen, right? So,
+he's saying just shoot a single particle
+through. In the second conception, as
+this spreads out,
+it represents the particle itself, that
+single particle, in some sense,
+spreading out, and the probability is
+the probability of some kind of action
+of that particle on the screen.
+Here, the theory refers to an individual
+process, and claims to describe
+everything that is governed by laws. So,
+again, the two points. In conception
+two,
+the wave function describes a single
+individual system, and furthermore, is a
+complete description of it. It describes
+everything about it.
+So, if the wave spreads out, then the
+particle spreads out. The second
+conception goes further than the first
+in the sense that all the information
+resulting from one results also from the
+theory by virtue of two, but the
+converse is not true.
+It is only by virtue of two, by the
+second conception, right, that the wave
+function describes individual systems
+and is complete. It's only by virtue of
+two that the theory contains the
+consequence that the conservation laws
+are valid for the elementary process.
+It's only from two that the theory can
+derive the result of the experiment of
+Geiger and Bothe, and can explain the
+fact that in the Wilson cloud chamber
+the droplets stemming from a alpha
+particle are situated on very nearly on
+continuous lines. Why? Because
+you're you're trying to explain single
+continuous lines through a cloud
+chamber, then you're talking about a
+single particle and what it's doing.
+You're not talking about a collection.
+You're talking about what a single
+particle is doing.
+>> Mhm.
+>> But on the other hand, and this is the
+main point.
+On the other hand, I have objections to
+make to conception two.
+The scattered wave directed toward P
+does not show any privileged direction.
+If psi squared were simply regarded as
+the probability that at a certain point
+a given particle is found at a given
+time, it could happen that the same
+elementary process produces an action in
+two or several places on the screen.
+Right? Why? Well, you've got this single
+particle, send it through, it's
+spreading out.
+Okay. So, suppose I I say this this wave
+completely describes a single particle.
+The wave goes through the hole and
+spreads out uniformly in all directions
+toward the screen.
+And that's supposed to represent that it
+is physically possible for that single
+particle to interact with all these
+different points on the screen
+where where the wave is reaching.
+Right?
+But then he says, "But then why can't
+the particle interact at more than one
+place? Why can't it interact over here
+cuz the wave got there and interact over
+here cuz the wave got there?"
+Right?
+How could you avoid if if the particle
+itself is as it were thinning out and
+spreading out in all different
+directions, how can you avoid it
+acting
+at different points on the screen? And
+again, if you're talking about a
+collection of particles,
+then you've no problem cuz you say,
+"Well, some of them can interact over
+here and some of them can interact over
+here." But for a single particle,
+what could that mean?
+>> Right.
+>> He says, "But that interpretation,
+according to which psi squared expresses
+the probability that this particle,
+notice that this, we're talking about a
+single particle, is found at a given
+point, assumes an entirely peculiar
+mechanism of action at a distance
+which prevents the wave, continuously
+distributed in space, from producing an
+action in two places on the screen. That
+peculiar mechanism of action at a
+distance is what we call collapse of the
+wave function."
+That is,
+in that theory,
+you say, "All right, if a spot forms
+here on the screen, that's one thing.
+But that formation of the spot
+also has an effect
+of destroying, eliminating the wave
+function everywhere else, at every other
+point of the screen,
+where it had reached."
+Right? And according to this theory, it
+did reach there, right? Even for a
+single particle, the wave function got
+to the other parts of the screen. Why
+don't they ever
+create a second spot? Because as soon as
+the first spot forms, something happens
+that annihilates
+the rest of the wave function. That's
+collapse of the wave function. And he
+says, "That's action at a distance."
+Right? Because the formation of the spot
+over here
+is causing the physical wave over here
+to go to zero.
+Instantly.
+And globally.
+Cuz if that change didn't happen
+instantly and globally, then sometimes
+we'd get two spots.
+>> Or three or more, etc.
+>> Or three or four. Exactly.
+And you never do.
+>> Yeah, right.
+>> You only ever get one spot.
+In my opinion,
+one can move uh
+remove this objection only in the
+following way. One does not describe the
+process solely by the Schrodinger wave,
+but at the same time one localize the
+particle
+uh
+Sorry, during the during the
+propagation. I think that Mr. de Broglie
+is right to search in this direction.
+If one works solely with the Schrodinger
+waves, interpretation two of psi squared
+implies to my mind a contradiction with
+the postulate of relativity. And that's
+cuz of the spooky action at a distance.
+Right? Because you need this
+instantaneous change in the wave
+function. The collapse is global and
+instantaneous, and that violates
+relativity.
+So, Einstein already in 1927
+is worried about spooky action at a
+distance. He's worried about the
+completeness of the wave function.
+And he's sympathetic
+to de Broglie,
+who says the wave function isn't
+complete.
+The wave function doesn't tell you
+everything. In addition to the wave
+function, there's this particle.
+And the particle is always somewhere,
+and it's always moving in some
+direction.
+And therefore, if the particle is headed
+in this direction to the screen, no spot
+will form
+on the other part of the screen.
+>> So, this demonstrates an understanding
+of quantum mechanics, but the first
+sentence he said, if I could read it
+correctly had said something like
+despite the fact that I haven't ventured
+deeply into the essence of quantum
+mechanics. Like what did Einstein mean?
+Was he just being humble or what?
+>> I I couldn't say. I think
+my this is a guess. My guess is, you
+know, Heisenberg especially the matrix
+mechanics this was very unfamiliar
+mathematics.
+You know, Schrödinger was less
+unfamiliar cuz they were used to dealing
+with wave equations and solving them. My
+guess is that, you know, he just hadn't
+felt like he had mastered
+what Heisenberg had done and so on.
+>> I see.
+>> Uh
+but, you know, whatever you know, maybe
+he was just being humble.
+But you can see
+his worry is already there in 1927.
+>> Mhm.
+>> And the worry is against a conception
+in which A
+the wave function is complete. It tells
+you everything about the an individual
+system. It's not a statistical
+description description of an individual
+system and it's complete and in order to
+avoid problems it has to collapse.
+Right? In order for this thing to work
+it has to collapse and the collapses
+look like they violate relativity and
+they're uh
+because they would have to be
+instantaneous and global faster than
+light.
+At least that's what I assume he means
+by that.
+So again, this this is an episode that
+everybody should know.
+And I don't think that many people do. I
+mean for historians know about it.
+But it doesn't get the play that other
+episodes do.
+And it just shows how quickly Einstein
+grasped the fundamentals of Bohr's
+understanding of quantum theory and had
+deep problems about it.
+But notice the deep problems were
+about
+spooky action at a distance.
+Not particularly about determinism. I
+mean, he doesn't mention that he doesn't
+like indeterminism. What he mentions is
+he doesn't like this instantaneous weird
+collapse of the wave function.
+>> Mhm.
+>> Okay?
+Notice this example involves only a
+single particle.
+Not a pair of particles or anything. And
+so there's nothing about entanglement
+and so on. But he's already on to this
+idea that that that this wave function
+could not provide a complete description
+of the individual system.
+Uh if it did, as I say, the collapse of
+the wave function would then have to be
+a real physical change. It would have to
+be instantaneous, and it would have to
+violate relativity.
+So we have
+again, spooky action at a distance.
+Already 1927's, he's worried about that.
+Now, all of these worries
+about
+action at a distance, violations of
+relativity, and so on are connected to
+conception two.
+Not to conception one.
+So he again, he's saying I've got a
+mathematical formalism here, sure.
+But that doesn't tell me how to
+understand it as a physical theory.
+And
+Bohr is pushing conception two
+explicitly.
+The wave function is complete, and it
+does describe an individual system.
+And Einstein
+Einstein is very worried. Now, notice
+this very important point.
+Einstein's worry about relativity here
+has nothing to do with superluminal
+signaling.
+You only have a single particle, and in
+this situation, there's no suggestion
+that somehow anybody could use this
+collapse of the wave function to send
+signals.
+I mean, in this case, the collapse would
+be associated with just a spot forming
+somewhere on the screen.
+That's it. And nobody has any control
+over where that's going to form.
+So, the issue of signaling isn't there.
+And so, Einstein isn't thinking of
+relativity as about signaling.
+Which it isn't.
+So, people who think, "Oh, I can solve
+all the problems of relativity by just
+proving that you can't send superluminal
+signals." miss the point.
+If Einstein thought that was the
+problem, he wouldn't thought have
+thought there was a problem 1927 with
+the single particle example.
+All right? And there are also people who
+somehow think, "Oh, action at a distance
+has to be some very special thing." And
+you have to take action very seriously
+and so on. But, this when I Einstein
+really talks about action at a distance
+here, and again, the action is just the
+sudden change of the wave function
+itself.
+That's the you know, that the fact that
+the spot forming here has the collateral
+instantaneous effect of annihilating the
+wave function elsewhere. That for
+Einstein is action at a distance. Yeah,
+nothing to do with superluminal
+signaling.
+But, he says it looks like it's
+incompatible with relativity, which you
+see why. Because
+in relativity, you can't even define an
+instantaneous change. Because there's no
+such thing as as an instant of time.
+>> Mhm.
+>> In relativity, there's no objective
+simultaneity.
+When people worry So, when you just look
+at the collapse of the wave function,
+you say, "Well, let me take that
+collapse seriously." Which you would
+have to if you thought the wave function
+was complete. Immediately, you're going
+to say, "Gee, that looks spooky. That
+looks That looks non-relativistic."
+The The normal reaction to that is
+people say, "No, no, no, no. The
+collapse of the wave function isn't a
+physical change. It's just an updating.
+It's like Bayesian updating. It's
+changing not the physical world,
+changing your beliefs about the physical
+world cuz you got new information about
+it, right?" And this has been a standard
+thing of of people
+trying to defang the collapse
+by interpreting as merely epistemic, as
+updating.
+But Einstein's very clear here. This is
+a complaint about conception two.
+And in conception two,
+it can't be updating because you said
+the wave function was complete.
+And if the wave function is complete,
+there's no new information to update on.
+What's you know, what's saying the that
+wave function is con- provides a
+complete description of the individual
+electron means there are no other facts
+about the
+individual electron that you could come
+to know.
+Right? Because if you know the wave
+function, the wave function's complete,
+you know everything.
+So, it is the nature of conception two
+that precludes
+thinking of collapse merely
+epistemically.
+And of course, what Einstein is really
+objecting to is is conception two.
+Now, here's something de Broglie said.
+Well, no, not something de Broglie said.
+Okay, so he praises, right? We saw that
+Einstein knows that de Broglie has been
+playing with a theory, the pilot wave
+theory,
+where there is a wave and there is a
+particle. And that was Bell
+says at one point, he doesn't understand
+why everybody was worried about wave or
+particle, wave or particle, and why they
+just didn't think wave and particle,
+which is what de Broglie thought.
+Yes, there is a wave
+and it
+follows a wave equation. And also,
+there's a particle.
+And
+the wave guides the particle. The wave
+determines where the particle goes.
+Right? That's the basic idea of the
+pilot wave theory.
+If you take that view,
+then rel- you're not in any issue about
+relativity
+because
+it's essentially when the when the spot
+forms on the screen, you do get new
+information. You get information about
+where the particle was. The particle was
+going in some direction from the pinhole
+to the screen all the time. It's going
+the the entire time it's following some
+trajectory and you don't know what it is
+and you can't figure out just from the
+wave function what it is.
+So, if you want collapses
+to just be epistemic updating,
+then you need new information you can
+update on.
+And if you have both a wave and a
+particle,
+then even if you know the wave, you can
+update on the position of the particle.
+And and none of that requires spooky
+action at a distance or anything
+mysterious.
+When a spot forms somewhere on the
+screen, it's because a little bit before
+it formed, the particle was very near
+that location headed in the direction of
+the screen. That's not mysterious and
+that doesn't involve spooky action at a
+distance. It just involves particles
+forming spots where they actually hit
+the screen.
+It's because you don't know that
+location
+of the particle
+that you can update on it without that
+being a physical change.
+All right? And then the fact that the
+the chance of a spot forming elsewhere
+immediately is reduced to zero, again,
+that's not a physical change. It's just
+you realizing that in fact, because the
+particle was headed this way, it had no
+chance of forming a spot over that way.
+There, you can make the collapses merely
+epistemic or merely updating or
+Bayesian.
+But the point is if you want to do that
+with collapses, you got to have
+something to update on.
+And if the wave function is complete,
+you don't have anything to update on cuz
+you already know everything.
+So, you can take de Broglie's route,
+which Einstein was impressed with and he
+thought he was on the right track, but
+to do it, you have to deny the
+completeness of the wave function and
+therefore you have to deny the entire
+Copenhagen approach
+cuz that's what Bohr and Heisenberg were
+insisting that the wave function was
+complete and that the theory could not
+be improved upon by adding any more
+physical structure.
+What we called hidden variables.
+Right? And if they do that, then they're
+stuck with the collapses as real
+physical changes, which is the way it
+comes out in von Neumann's mathematical
+principles of quantum mechanics.
+Um and that sudden collapse, which is in
+that book,
+is instantaneous and global.
+And so you see why Einstein would think
+it violates relativity, and
+independently of anything about sending
+signals or anything else.
+Any physical change that's instantaneous
+and global, you can't make sense of in
+relativity.
+But of course, what Einstein saw was
+that if you think of that
+actual experiment where you're just
+shooting these electrons and these spots
+are forming, there's nothing in the
+phenomena that suggests anything
+like that going on. There's nothing in
+the phenomena that demand any kind of
+spooky action at a distance. The natural
+assumption is just the particles are
+going through the hole and different
+ones are going off in different
+directions.
+And so we could give, and anybody could
+do this off the top of their head, what
+we would call a local relativistic no
+action at a distance model of the
+experiment, um which is that yes, a
+particle gets shot, it's traveling along
+a definite trajectory, maybe it's
+accompanied by a wave that's guiding it,
+fine. When it gets to the pinhole, some
+of the particles go through and their
+waves interact with the pinhole somehow,
+and the result of that is to shoot the
+particle off in different directions in
+different experiments, and then the
+distribution over many experiments is of
+spots forming in all these different
+places.
+Uh and this is the kind of thing that
+Bell would have said, "Why didn't they
+Why didn't they all jump on that idea?
+You don't have to decide between
+particle and wave, you just postulate
+there's both particle and wave.
+>> Mhm.
+Kurt here, note that if you'd rather
+listen to TOE, we're on Spotify, iTunes,
+everywhere with a podcast catcher. You
+can just search my name or Theories of
+Everything, and also remember to hit
+subscribe.
+At this point, would positing particle
+and a wave also entail a preferred
+foliation or a time slice that's
+preferred?
+>> At this point, it wouldn't because we're
+only dealing with a single particle.
+And a single particle wave function is
+just defined on regular physical space.
+And the Schrödinger equation, which
+would govern the dynamics of that wave,
+that single particle wave, that doesn't
+have to violate or you can use the Dirac
+equation. I mean, they they they they
+knew you could have relativistic
+versions of the Schrödinger equation,
+right? You had the Dirac equation.
+So, you can do that relativistically.
+And if if you just have this particle
+that's as it were accompanying the wave
+that's accompanying the particle and
+sort of guiding the particle, all of
+that can be local and you don't need any
+spooky action at a distance to do that.
+So, for a single particle system,
+there's no obvious threat at all to
+relativity
+in this picture.
+Now, we're going to get to multiple
+particle systems soon. Then there is
+going to be, you know, but for the
+single particle also, and again, you
+start with this single particle example
+of the pinhole.
+So, Einstein thinking about that
+wouldn't have thought, "Gosh, if I put
+in a particle that's moving, that's
+going to be a threat to relativity. Why
+would it be?" Okay?
+Um so, anyway, I'm I'm not going to read
+I mean, I have this all written out, but
+now I'll just People can go read it. You
+know, the steps are you shoot the
+particle with the spin it's at the
+pinhole, it's following a definite
+trajectory. When it reaches the pinhole,
+it either goes through or doesn't and
+the the little wave with it maybe
+interacts, but that can all be local and
+nice. And then it comes out the other
+end. If it goes through, it comes out
+the other end and can be refracted or
+shot off in different directions. Then
+from the pin hole to the screen, it
+pretty much propagates classically,
+inertially, straight line trajectory to
+the screen. Why think anything else,
+right? Um and then when it gets to the
+screen, okay, the particle hits the
+screen, interacts with the screen and
+forms a dot where it hits it. But where
+it hits it is already decided as soon as
+it comes out of the pin hole, right?
+Where it Where it hits is not decided at
+the last moment when it gets there.
+Where it hits is decided when it leaves
+the pin hole. It's headed in some
+direction. It just could goes that way.
+And that kind of theory would account
+for all the phenomena without any
+spooky action at a distance, anything
+like that, right?
+Um it would give the the pin hole would
+essentially randomize the direction of
+the outgoing particle,
+probably because of the fine dynamics of
+the interaction with the pin hole. Maybe
+you could add something stochastic
+there. It doesn't matter. Then it just
+travels off along the along to the
+screen and then it forms dots where it
+hits. And so none of these interactions
+would require any non-locality, action
+at a distance. No threats are raised to
+relativity.
+Right? So that's just what we were
+talking about.
+>> This word local and non-local has come
+up many times. Are there different kinds
+of locality such that Einstein would
+have been okay with non-locality of a
+type B, but not of a type A, or what
+have you? Or does local always refer to
+the same thing?
+>> there are you can make fine distinctions
+between different types of locality.
+Einstein does so.
+Uh and he likes all of them.
+>> [laughter]
+>> Okay, I mean
+>> Okay.
+>> Um, and and he says, so so let me just
+make two two distinctions.
+One we might call ontological locality,
+which means
+the physical state of the world can be
+completely expressed if you just give me
+the physical state of each of take the
+entire universe and break it down into
+tiny little regions that slightly
+overlap.
+Okay, but tiny regions as small as you
+like.
+And for each little region tell me
+what's going on there. So you tell me
+what's going on here, what's going on
+here, what's going on here.
+And they slightly overlap so you can
+match them up around the edges. For
+those people who know general
+relativity, this is like having a chart.
+An atlas of charts to cover it.
+If it if a theory is ontologically local
+then by telling me what's going on in
+each individual little region without
+mentioning anything else outside that
+region
+but by covering the entire thing with
+these little regions [clears throat]
+I then nail down the entire physical
+state.
+Okay? So that the whole the entire
+physical state of the universe is as
+were nothing in over and above
+the little physical states of the little
+pieces.
+So we can call that ontological
+locality.
+All of classical physics had that.
+Right? I mean, you think of a uh
+Maxwellian electric field. How do I
+specify the state of the field? I tell
+you what it is here, I tell you what it
+is here, I tell you what it is here,
+right? For all the little regions I just
+tell you how strong is the electric
+field and in what direction is it
+pointing?
+And if I tell you that for all the
+little regions, I've nailed it down.
+That's it. There's nothing else to say.
+Okay?
+So Einstein
+recognized that the field theory
+as developed by
+Maxwell and so on was a really
+ontologically local theory. These fields
+were local objects
+that had local
+quantities.
+And you could ask, you could point your
+finger in space and say, "What is the
+value of it here? What is the value of
+it here?" Okay? And that's all there was
+to it.
+Einstein certainly believed that.
+He also believed in what we can call
+dynamical locality. This is the no
+action at a distance point.
+Which is that
+if something happens in this little
+region
+the only way it can have an influence
+elsewhere is for something to propagate
+at some speed less than the speed of
+light in relativity. Something to
+propagate with some speed from here to
+where it's going to have its effect.
+>> Mhm.
+>> Right? It can't have an instantaneous
+effect far away. That's the no action at
+a distance. That's a different kind of
+non-locality. That's dynamical
+non-locality. That's the one I'm talking
+about here. When he worries about action
+at a distance, he's worried about
+dynamical non-locality. He sort of took
+ontological locality for granted. He I
+don't know that he even talks about it
+that much. But there's a a wonderful
+um
+place where Einstein is talking very
+explicitly about how in the field theory
+things get more and more local cuz you
+can as it were take a microscope and
+focus into smaller and smaller regions
+of space-time. And in each little
+region, it not only has its own little
+physical state but the laws themselves
+apply just in that region. You can just
+check in that region, do the laws apply?
+Why? Cuz the laws are given by
+differential equations.
+>> Mhm.
+>> Local differential equations.
+Right? The the the laws of of uh elect-
+electromagnetism
+explain how the electric field right
+here is going to change merely in terms
+of the nearby electric and magnetic
+fields, nothing else.
+So, you can you can just focus down on
+little pieces and not only do they have
+their own
+physical states, but but in that little
+region you can check do the laws of
+physics hold there. And there's nothing
+for the laws of physics to hold
+everywhere except for it to hold in all
+the little regions.
+Now, if there were action at a distance,
+that wouldn't be true.
+Right? If I If by snapping my fingers I
+could make something happen far away by
+law,
+then if I'm watching far away and
+suddenly that thing happens and I say,
+"Gee, I wonder if if that happened by
+the laws of physics." I'd say, "I don't
+know. I have to check far away and see
+if somebody snapped their fingers."
+Right? I have to check everywhere.
+>> Mhm. Right, right, right.
+>> Because the laws themselves would
+postulate this spooky action at a
+distance. So, to know if the laws are
+being satisfied, I'd have to check
+everywhere.
+That That's a problem. And Einstein saw
+that as a problem. He didn't He didn't
+deny that that kind of action at a
+distance was logically possible, but he
+did think that you couldn't do science
+in such a world.
+Because there would be nothing like a
+isolated system you could experiment on.
+Or quasi isolated system.
+We can isolate little systems because
+they're local and because we can kind of
+shield them from outside influences
+coming from the outside, which have to
+come in continuously through the walls,
+right?
+So, Einstein really believed in both of
+those kinds of locality.
+But the one of interest here is the
+dynamical one.
+This you know, so we have this like very
+modest little theory that can explain
+the phenomena, which is that these spots
+form all over the screen one by one. Uh
+it in a very everyday way, maybe it
+involves a little wave that goes along
+with the particle. We we need to explain
+the diffraction that happens at the at
+the pinhole, but everything else is just
+the particles going this way and then it
+and then it shoots out that way or that
+way or that way. And and and certainly
+there's nothing that would even vaguely
+threaten relativity and all that. So,
+what about this wave that's traveling
+out in all directions, right? That's not
+the whole story. That's not complete. On
+if we do this over and over again many,
+many times and we have an ensemble of
+particles and not a single particle,
+then if we were to watch that ensemble
+as it were all of their trajectories
+overlaid on each other, exactly what we
+would see is a whole bunch of particles
+going in, hitting the pinhole, and then
+spreading out in a hemispherically
+uh uh expanding way,
+right?
+And so that would kind of look like what
+the wave function does. So that would
+suggest that the wave function is not
+really
+uh a description of an individual
+system, but it's some kind of
+statistical description of a large
+collection,
+ideally infinite collection, infinite
+collection of systems.
+Um
+but
+if you say that,
+then immediately you're going to say the
+wave function's not complete, right? It
+certainly not doesn't give you a
+complete description of an individual
+particle.
+It's just a kind of averaged out
+description of a whole collection of
+particles.
+And so in the case of the pinhole,
+we get this moral,
+which is that even though it seems to
+Einstein that Bohr and Heisenberg have
+committed themselves
+to this weird action at a distance
+associated with wave collapse,
+and they've committed themselves to that
+by insisting the wave function is a
+complete description of an individual
+system,
+uh
+that you don't need to do anything like
+that. right?
+That that that that commitment of the
+that that they're getting spooky action
+at a distance not out of the phenomena
+at all. They're getting it out of this
+dogmatic
+attachment to the idea that quantum
+mechanics as it as it existed at that
+time was the end of physics was the
+final theory.
+Right? And of course, he he thinks, you
+know, that's silly.
+Right? He's you know, why would you do
+that? Why would you adopt convention two
+and get this weird consequence when you
+don't have to do that. Um
+and
+I think what if you want to understand
+Einstein, what happened to Einstein
+afterwards was that he just couldn't
+I think he thought in 1927 these are
+powerful powerful objections to what
+Bohr and Heisenberg were pushing.
+And they didn't pay any attention. They
+didn't they didn't stop them. They
+didn't say, "Oh yeah, we made a
+mistake."
+They continued to insist that the wave
+function is complete. They continue to
+insist, you know,
+um
+Now,
+there's another
+worry that Einstein has about this,
+which comes in the
+record
+right after what I read. So, this is the
+next thing he says, and I just want to
+note it here.
+It involves systems that have not a
+single particle, which everything we've
+done up until now is a single particle,
+but systems with two particles.
+So, he says, "I should also like to
+point out briefly two arguments which
+seem to me to speak against the point of
+view two.
+This view is essentially tied to a
+multi-dimensional representation,
+{parentheses} configuration space,
+since only this mode of representation
+makes possible the interpretation of psi
+squared
+peculiar to conception two.
+Now, it seems to me that objections of
+principle opposed to this
+multi-dimensional representation.
+So, again, let's stop for a minute. He
+says, "Once you move I I said before if
+you have only a single particle, the
+wave function is just defined on
+physical space and it kind of behaves
+like a water wave or an electromagnetic
+wave
+familiar from classical physics.
+When you have two particles,
+mathematically the wave function psi is
+not defined on physical space anymore.
+It's defined on configuration space.
+And whereas physical if physical space
+has three dimensions, the configuration
+space for two particles has six
+dimensions and for three particles has
+nine dimensions and for four particles
+has 12 dimensions.
+>> Mhm.
+>> A single point in configuration space
+represents the entire configuration of
+that set of particles. A single point in
+configuration space specifies where each
+of the particles is.
+And so, if you only have one particle,
+okay, you're just pointing out a point
+in space. If you have two, you need two
+points. If you have three, you need
+three points and so on.
+Now, conception two wants the wave
+function to be complete
+and that that's really giving you the
+deep physical picture of the of the
+system.
+So, he says, "It seems to me that
+objections of principle can be opposed
+to this multi-dimensional
+representation. In this representation,
+indeed, two configurations of a system
+that are distinguished only by the
+permutation of two particles of the same
+species are represented by different
+points in configuration space. Okay,
+that's a that's a technical issue we
+could go into and there are ways around
+that. But, it's the second one I want to
+point out, which is not accord with the
+new results in statistics. I mean, this
+has to do with
+Bose-Einstein statistics, but let's not
+worry about that. The furthermore part
+is interesting. Furthermore, the feature
+of forces acting only at small spatial
+distances
+finds a less natural expression in
+configuration space than in the space of
+three or four dimensions.
+So again, what's he worried about there?
+He again has this idea of locality, that
+forces only act
+between nearby things.
+Right? Forces don't act immediately
+between distant things. But distant
+What? Distant in physical space.
+>> Uh-huh.
+>> But he says if you're not doing this in
+physical space, but you're doing it in
+configuration space,
+it's harder to even
+specify what you mean by forces acting
+only at a small spatial distance.
+It's as if spooky action at a distance
+in physical space is almost going to be
+hard to avoid if your theory is stated
+in configuration space.
+Einstein seems to see that.
+And that's going to be the key to what's
+going to happen.
+>> And briefly speaking, what's the
+difference between a configuration space
+in quantum mechanics versus a classical
+configuration space of Hamiltonian
+dynamics
+>> Mathematically nothing at all.
+Nothing.
+You have a configuration space, you can
+write down Hamiltonian dynamics in
+configuration space. That's just a
+mathematical trick.
+That is, instead of specifying, say,
+where eight particles are in
+three-dimensional space, you represent
+that configuration by a single point in
+a 24-dimensional space.
+Why? Cuz I need 24 numbers. I need three
+numbers for each of my eight eight
+particles.
+Configuration space is a classical
+notion. It's used all over classical
+mechanics. It's used all over
+Hamiltonian mechanics.
+And the configuration space, well, the
+mathematical thing they used in quantum
+mechanics was the classical
+configuration space.
+It wasn't phase space, I should mention
+that. In phase space, a point in phase
+space specifies not only the positions
+but also the momenta of all the
+particles. So, it has six dimensions for
+every particle. But, configuration space
+has only three.
+But, it it is that very configuration
+space mathematically
+that Schrödinger put his wave function
+on.
+Right? The wave function was a complex
+function on classical configuration
+space.
+>> What I mean to say is is there something
+in particular about the way that
+configuration space is being used in the
+quantum case where Einstein's objections
+bite more so than in the classical case?
+Is it because the classical case can
+then be translated back to Newtonian
+dynamics on 3D whereas the quantum one
+doesn't seem to be able to
+>> well, let me say this. Look, in in
+classical physics, the use of these
+high-dimensional abstract spaces was
+merely a mathematical convenience.
+The real physics was stated in physical
+space.
+The Newtonian force laws, I mean, take
+take Newtonian force of gravity. 1 over
+r squared. What's r? The distance
+between these two particles in physical
+space.
+Right?
+In physical space.
+So, of course, you have these force laws
+and they're stated in terms of things
+being nearer or far from each other in
+physical space. That's this kind of
+locality, dynamical locality.
+You can take those laws and then express
+them
+on a single high-dimensional space
+mathematically, but that's just a
+different mathematical way of presenting
+the very same theory.
+You're going from this theory initially
+stated in physical space to a
+high-dimensional abstract
+representation. The problem in quantum
+mechanics is that you're starting with a
+high-dimensional abstract thing, but
+you're not sure what it's an abstract
+representation of.
+Right? And the question is can I go back
+down?
+And and give myself a picture of things
+going on in physical space.
+>> Mhm.
+>> And the answer is it's not obvious how
+you do that, and it's certainly not
+obvious given what they're doing that if
+you do that, you're going to end up with
+a dynamically local theory.
+Where where the only effects are by
+nearby things in physical space.
+So, Einstein was worried about that,
+too. Einstein had this worry in 1927. He
+saw, as soon as I go from one particle
+to two, things get really screwy here.
+Because I'm treating the wave function
+as fundamental.
+And not just as a convenience to
+represent something that's better
+represented on physical space.
+Okay? Okay, I'm now saying what I just
+said. Of course, you know, these
+configuration spaces as abstract objects
+were used all the time in classical
+mechanics. People knew all about them,
+and they were used to using them. And
+Hamiltonian mechanics was stated was was
+written in terms of functions on
+configuration space, on phase space,
+really.
+But that it was just considered to be a
+mathematical convenience.
+When conception two takes the wave
+function seriously as fundamental.
+And complete.
+Right?
+Then that's a new situation. The space
+it's
+defined on would seem to take on an
+entirely new
+significance.
+That it does in classical mechanics,
+where you understand that the real
+physics is all can be specified just in
+terms of things going on in physical
+space.
+Okay, so.
+After the Solvay conference, where are
+we?
+Um Einstein is frustrated clearly with
+Bohr and Heisenberg, with conception
+two. He thought he'd given very powerful
+arguments against conception two.
+But
+Copenhagen didn't change their minds,
+right?
+Um he of course never claimed to show
+that the Copenhagen interpretation was
+inconsistent or made the wrong
+predictions or anything, what he showed
+in 1927 was that it was unnecessarily
+committed to spooky action at a
+distance, right? Instantaneous changes
+in the state of a particle because you
+would instantaneous changes in the wave
+function and the wave function was
+supposed to be a complete representation
+of the state of the particle.
+Um
+the 1927 argument involves only a single
+particle, but already Einstein's worried
+about multi-particle systems.
+Um
+Now, like this is a very quick thing.
+Notice his complaint against conception
+two was about spooky action at
+instantaneous action at distance threat
+to relativity.
+Uh he didn't mention indeterminism
+there.
+Einstein popularly is presented as if
+what really worried him about quantum
+theory was indeterminism.
+What really, you know, I mean, he talks
+about spooky action at distance, but
+then also fundamental indeterminism,
+this God plays dice stuff.
+But notice if you start in '27, you
+don't really see him complaining about
+indeterminism. You see him complaining
+about spooky action at distance. And he
+does that just with the simple example.
+Um now, you could promote the argument
+in '27 into a conclusion of
+indeterminism, and this is just the
+side, by using what's called Curie's
+principle, Pierre Curie.
+And Curie said, "Look, suppose I have a
+system that has some symmetry and the
+laws respect the symmetry, then if it
+has a symmetry at any time, it has a
+symmetry at all times." And here we're
+assuming if we assume the wave function
+is complete in the pinhole situation,
+the entire situation, the physical
+situation has a symmetry around this
+axis that goes through the pinhole,
+and the wave function would also have
+that symmetry or could have that
+symmetry,
+and that would tell you that it it if it
+evolves deterministically,
+it always has to have that symmetry. I
+mean, Curie's principles for
+deterministic theories.
+But, we know that at the end of the
+experiment, we break the symmetry. That
+is, a spot forms here, or forms there,
+or forms there.
+And that breaks the symmetry. So, then
+by Curie's principle, you could say, "If
+you want to maintain that the wave
+function is complete, you have to be
+committed to indeterminism."
+Um and then God would have to play dice.
+Now, Einstein doesn't make that
+argument. You could make that argument.
+And you can see how some of these
+considerations might lead you to see the
+role of indeterminism in the standard
+theory.
+End of Act One. Okay.
+Act Two, eight years later, EPR
+argument. Again,
+Einstein, I think if you read Einstein's
+comments, they're very powerful. As far
+as I know, they didn't have a lot of
+effect. Then, what happens? In 1935,
+Einstein, Podolsky, and Rosen produce a
+paper,
+which is making basically exactly the
+same points that Einstein was making in
+'27,
+but in a way that appeared to them to be
+rhetorically sharper.
+Um and it involves now a system of a
+pair of particles, rather than a single
+particle. So, this issue of the wave
+function being on configuration space
+sort of does come into it. Um at least,
+you know, this is a something that's
+going to be used to make this more
+powerful. So,
+now I'm just repeating what we said. For
+a single system, the configuration for a
+single particle, configuration space is
+three-dimensional because the
+configuration of a single particle is
+just indicating where it is in space.
+So, you just point to a point in space
+of space is three-dimensional, that's
+what you got.
+If you have a pair of particles, then
+you indicate the configuration by
+telling me where both particles are. So,
+now I have to give you two points. I
+have to give you six numbers, as it
+were. You have a six-dimensional space.
+Not only is the wave function in the EPR
+paper defined on the six-dimensional
+space,
+it is a highly entangled wave function,
+what we would call an highly entangled
+wave function between the two particles.
+Um Einstein doesn't say that cuz the
+term entanglement had not yet been
+invented. It was invented by Schrödinger
+later in 1935 after he reads the EPR
+paper. But but [clears throat] that is a
+fact about that particular thing, and
+we'll talk about that.
+What's the advantage of having two
+particles? Well, one advantage is that I
+can take one particle and send it to
+Alice over here, and another particle
+and send it to Bob way over there.
+And because Alice and Bob now each have
+a particle to play with,
+and they can be put in their labs
+arbitrarily far apart,
+this worry about spooky action at a
+distance is very easy to understand.
+Can it be that anything that happens in
+Alice's lab influences the state of
+affairs in Bob's physically or the other
+way around?
+Right? That would be clearly spooky
+action at a distance in Einstein's mind.
+Now, there are three parts of the EPR
+argument. I want to triage this and keep
+them separate.
+There's the conceptual part where they
+introduce some terminology, and they lay
+out what they mean by words, and they
+lay out some principles, right? I think
+all of that is exactly right.
+There's then a logical aspect. How does
+the argument unfold? What steps do they
+go through?
+I think the argument was unnecessarily
+complicated. I think you can give a
+simpler, more direct argument to the
+conclusion they come to.
+And I will do that. And I'll mention how
+they, I think, make it more complicated
+than it needs to be.
+I think it can be improved in that
+respect.
+>> Mhm.
+>> Then there are some technical aspects
+because of the particular example they
+use
+that are mathematical problems.
+I I'm not going to go into those at all.
+Um but they're there. I'm just
+mentioning it. Later we're going to
+change the example in a way that gets
+rid of those technical problems. So they
+won't bother us. The The The The
+experiment The The EPR argument is not
+affected by these technical
+considerations.
+Okay.
+Let's start at the beginning. We want to
+understand EPR. Again, what's the title?
+Can quantum mechanical description of
+physical reality be considered complete?
+The very same question Einstein raised
+in 1927. Still on that. Is the wave
+function complete?
+Right? That's the focus of the paper.
+The quantum mechanical description he's
+referring to there is the wave function.
+The setting of this whole thing again is
+in Schrödinger's wave mechanics.
+The issue of completeness was already
+raised in '27 and now they're even more
+careful to explain what they mean by a
+complete description. This is part of
+the conceptual being conceptually clear.
+I think Einstein was just frustrated
+because he tried to get these points
+across and they wouldn't go across. So
+they're trying to be very careful.
+So here's the quote. Now some quotes
+from the paper.
+In attempting to judge the success of a
+physical theory, we may ask ourselves
+two questions. One, is the theory
+correct?
+And two, is the description given by the
+theory complete?
+It's only in the case in which positive
+answers may be given to both of these
+questions that the concepts of the
+theory may be said to be satisfactory.
+The correctness of the theory is judged
+by the degree of agreement between the
+conclusions of the theory and human
+experience. So that's what we would call
+empirical success, right? Fitting
+experiment, fitting the data, getting
+the data right, making correct
+predictions. That's correctness.
+This experience
+empirical experience, which alone
+enables us to make inferences about
+reality in physics, in physics takes the
+form of experiment and measurement.
+It is the second question, not the one
+about correctness, right? So, they're
+not questioning the predictions of
+standard quantum mechanics.
+It is the second question which we wish
+to consider here as applied to quantum
+mechanics. Is it complete? And they
+have to define what they mean by
+completeness. Whatever the meaning
+assigned to the term complete, the
+following requirement for a complete
+theory seems to be a necessary one.
+Every element of the physical reality
+must have a counterpart in the physical
+theory.
+Right? Think of the mathematical theory
+or whatever.
+We shall call this the condition of
+completeness.
+Right? If there's an If there's
+something in physical reality that's not
+represented in your theory,
+then your theory's not complete, right?
+You haven't You haven't [laughter]
+Your theory doesn't describe all of
+physical reality. And they said you
+could get That has to be right. The
+second question is this easily answered
+as soon as we're able to decide what are
+the elements of physical reality. Now,
+you see you have another problem, right?
+To be complete, the theory has to
+describe every piece of physical
+reality. How do I know I've got a piece
+of physical reality?
+So,
+they're going to answer that question by
+providing a criterion
+of physical reality.
+And again, many people, I think, do not
+understand what a criterion is, although
+they're perfectly clear about this.
+Okay? So, let's just again go slowly.
+A criterion is not a definition.
+Right? A definition is supposed to give
+you necessary and sufficient conditions
+for something.
+A criterion just gives you sufficient
+conditions,
+not ne- not necessary conditions.
+It's just if something meets the
+criterion, you know it's of that sort.
+But if it doesn't meet the criterion,
+you don't know it isn't of that sort,
+right?
+But it's enough, right? Meeting the
+criterion is enough.
+Again, from the paper.
+The elements of physical reality cannot
+be determined by a priori philosophical
+considerations, right? We can't figure
+out what the world is made of just by
+thinking,
+but must be found by an appeal to the
+results of experiments and measurements.
+A comprehensive definition of reality
+is, however, unnecessary for our
+purpose. So, they're not going to try
+and define what it takes to be real.
+We shall be satisfied with the following
+criterion,
+which we regard as being reasonable.
+Here's the criterion, and in in italics.
+If,
+without in any way disturbing a system,
+notice that, that's absolutely
+essential, if,
+without in any way disturbing a system,
+we can predict with certainty, that is,
+with probability equal to unity, the
+value of a physical quantity,
+then there exists an element of physical
+reality corresponding to this physical
+quantity.
+So, suppose I have a system,
+and I can, without any way disturbing
+the system, I can somehow predict, say
+the outcome of an experiment. I'm going
+to I'm going to weigh it, or I'm going
+to, you know,
+uh it's do do it a momentum measurement,
+or whatever. If I'm able, before that
+experiment is done, to predict with
+absolute certainty and accuracy how
+that's going to come out,
+then there must be an element of
+physical reality in the system
+that corresponds to that, right? There
+must be something in the system that's
+resulting in it doing that.
+That seems
+really hard to deny.
+It seems to us that this criterion,
+while far from exhausting all the
+possible ways of recognizing a physical
+reality,
+at least provides us with one such way
+whenever the conditions set down in it
+occur, regarded not as a necessary, but
+merely as a sufficient condition of
+reality. This criterion is in agreement
+with classical as well as quantum
+mechanical ideas of reality. I'll say a
+word cuz he they go on and explain the
+second part. When they say this is
+accepted even in quantum mechanics, what
+do they have in mind? They have in mind
+this. Everybody says if a system's in an
+eigenstate
+of an operator, like the momentum
+operator, the position operator,
+whatever, if the wave function is in an
+eigenstate,
+which means you can predict with
+certainty
+what
+a measurement of that will give you,
+then the system has that quantity,
+right? It has that momentum.
+>> Mhm.
+>> And he says that's true that's as true
+in quantum mechanics as anywhere else.
+People take the ability from the
+from the
+theoretical description to make a
+perfect prediction
+to be a sign that the system itself has
+the corresponding property.
+So, let's just look at these These are
+the pieces of the conceptual apparatus,
+and I think they're perfect, right? I
+mean, how could you deny when they say
+for whatever you mean by a complete
+physical theory, it better be that every
+aspect of physical reality is
+represented in the theory. Right? If
+you've left something out, you've left
+something out, and then it's not
+complete. So,
+I I think that again, how could you
+complain about that?
+Of course, you can give incomplete
+descriptions. When you When we describe
+a a glass of water just by its
+temperature,
+that's not a complete description. It
+just gives you a statistical average,
+right? There are lots of different
+specific ways the glass of water could
+be at micro level
+that result in exactly the same
+temperature.
+So, that's an incomplete description. To
+get to a complete description, you have
+to go down to all the fine details and
+get all nail down everything that's
+there.
+Right?
+A fundamental theory purports to give a
+complete description. If you're If you
+admit that your theory is not complete,
+you're admitting it's not fundamental.
+You're admitting that somehow you're
+only describing this in a coarse-grained
+way, that maybe there are interesting
+things to say about it in this at this
+level of description, but it's not the
+end of physics cuz the physics has to go
+down into the details.
+People who don't like the conclusion of
+the EPR argument, and there are a lot of
+them,
+uh they have to find something to
+complain about, right?
+So, often they pick on the criterion of
+physical reality. They say, "Oh, I'm
+going to get out of their argument by
+just denying the criterion."
+Um but I think if you think about it,
+you can't coherently deny the criterion.
+It is in in a philosopher's terminology
+analytic.
+Um it follows just from the meanings of
+the words in it.
+So, let's see why. The condition is if I
+can accurately predict the outcome of an
+experiment on a system without in any
+way disturbing the system,
+what does that mean? Without in any way
+altering its physical state. That's the
+criterion. I Whatever I do to make this
+prediction, it cannot change the
+physical state of the system.
+So,
+suppose I do this thing that doesn't at
+all disturb the system, and now I can
+predict what it's going to do.
+Then you say, "All right, there must be
+an element of physical reality
+in the system that's making it do that."
+Right?
+How can you deny that? I mean, you you
+know, look, you know it's it's on
+something's assuring it's going to do
+that. It has to be its physical state.
+Um but if I Now, suppose I do this
+without in any way disturbing the
+system. Then that means that before I
+did whatever I did, the system was
+already in that state. I didn't change
+the state. Even before I was able to
+make the prediction, even before I did
+whatever it was that allowed me to make
+the prediction, the system already had
+that property. Why?
+Because I know after I do it, it has the
+property, and by definition, I didn't
+disturb it.
+So, by definition, it had the property
+before I did it.
+Right? If it didn't have the property
+before, but it did have the property
+after, then I disturbed it.
+Mhm. Right? This is just analytic.
+So, I just don't see how
+one can question this criterion.
+Now, notice the criterion doesn't even
+demand that I actually make the
+prediction. It's just that I be in a
+situation where I could make the
+prediction without disturbing it. If
+that's even possible,
+then there must be some element of
+reality in the system.
+Right?
+Because you're saying that the system
+what its situation is independent of
+what I do. It's independent of my making
+the prediction or not making the
+prediction or whatever. If it's just
+possible for me to do this, then there
+must be an element of reality in the
+system.
+Um I think that's correct. I think
+that's accurate. I think it works in
+modal logic. I think everything's okay
+with it.
+I don't think you think you're going to
+get out of this by denying the criterion
+of reality.
+And that's what I'm saying here. If it's
+if it's really an analytic criterion,
+you can't say I'm going to avoid the
+conclusion of this argument by denying
+the criterion. That's just incoherent.
+Um
+what grounds could one possibly have for
+denying
+this criterion,
+right? That that he they give.
+Now,
+there is a place, and really throughout
+the EPR argument,
+where they appeal to a
+a principle of no action at a distance,
+no spooky action at a distance.
+The appeal is tacit.
+They don't come out and say it,
+but it's clear
+that they use it.
+And so, I want to be explicit about it.
+So again, we now have two particles.
+>> Sure.
+>> Send one to Alice, send one to Bob.
+Alice and Bob can do whatever
+experiments they want on their
+particles, right?
+And their labs can be situated as far
+apart as I like. They could be a hundred
+billion light-years away as far as we're
+concerned, right? They're They're just
+They They They are separated. They're
+also separated in a way that uh
+Alice's experiment can be done at what
+we call space-like separation from Bob,
+so that even light couldn't get from one
+to the other in time
+to influence it, okay?
+So, that's the situation. Claim:
+In such a case, whatever Alice does or
+whatever happens in her lab does not
+disturb Bob's particle or the state of
+the situation physical state in Bob's
+lab, and vice versa.
+Right? If we separate these particles,
+we put them in the separate labs, we
+take them very far apart, Alice can do
+whatever she wants, Bob can do whatever
+he wants, neither will disturb the
+other's physical state.
+All right?
+>> Okay. Now, this is important because the
+listener may think, "Well, wouldn't
+Heisenberg, listening to the previous
+slide, raise his hand and say, 'Well,
+Einstein, your antecedent, namely that
+if you don't disturb the system, then
+so-and-so, that will never obtain
+because of my uncertainty principle.'"
+Well, that's not true if you're at
+different space-time points.
+>> Yeah, I'm not I mean, the
+I mean, I'm not sure why he would bring
+up the uncertainty principle here,
+because we're just talking about two
+different particles.
+Right? We're talking about Alice doing
+something to one particle and Bob doing
+something to an entirely different
+particle. So, the the the uncertainty
+principle doesn't even apply. That
+really applies to
+predictions about a single particle.
+Right? I can't simultaneously predict
+accurately its position and its
+momentum, for example.
+And the better I can predict the one,
+the worse I can predict the other. But
+that's just a claim about individual
+particles. This is a claim about
+the goings-on in one lab not disturbing
+the physical state in a very, very, very
+distant lab.
+So, why why why would even the
+uncertainty principle come up here?
+Right? Um I mean, it's true the
+uncertainty principle was when people
+when when when Heisenberg and Bohr
+talked about this, they always talked
+about, "Oh, if I do an experiment like
+an electron microscope or whatever,
+then
+when I probe the particle, I disturb the
+particle or something like that, right?
+I disturb the target.
+But we're not talking about whether
+Alice's actions disturb Alice's
+particle.
+Sure, maybe they do. Or Bob's actions
+disturb Bob's particle. Probably they
+do.
+It's do Alice's actions disturb Bob's
+particle [laughter] way over there?
+>> Right.
+>> Right, you're right.
+>> That would be spooky action at a
+distance.
+Right? This is the This is the tacit
+assumption they're making that because
+they can separate
+Alice and Bob away from each other as
+far as they like,
+they are justified in saying that
+anything Alice does, any outcome in her
+lab, whatever, does not disturb Bob's
+physical situation.
+Anything Bob does, any outcome in his
+lab, does not disturb Alice's physical
+situation.
+Now, you could blankly deny that.
+But then you would just have to say,
+"No, I do think what Alice does disturbs
+Bob's physical situation, and that is
+spooky action at a distance." Then
+you're just saying, "No, I'm I'm I'm
+down with spooky action at a distance,
+right?" You could do that. EPR don't
+even imagine anybody would do that.
+It never occurs to them that anybody
+would do that. [laughter]
+It seems crazy to them.
+And and you know, Einstein I think never
+it never occurred to him that any of his
+opponents would simply blankly say,
+"Yes, we believe in spooky action at a
+distance."
+If you do,
+notice what happens. Well, let me finish
+it here. So, what EPR assume in their
+argument is that what we call space-like
+separation or anyway separating Alice
+and Bob very far from each other
+ensure causal isolation
+of the experiments from each other,
+right? Nothing going on in Alice's lab
+influences or changes the physical state
+in Bob's. Nothing going on in Bob's lab
+influences or changes the physical state
+in Alice's.
+You could just deny that, right?
+And sign on to it and say, "No, what
+Alice does messes up Bob or what Bob
+does messes up Alice."
+Um
+if you say that, then
+the EPR criterion of reality just
+doesn't apply. It's not that the
+criterion's wrong, it just doesn't apply
+cuz the criterion requires
+that you make the prediction without
+disturbing the system you're predicting
+about.
+What EPR assume is that anything Alice
+does will not disturb Bob's particle and
+anything Bob does will not disturb
+Alice's particle.
+Uh if you deny that, then again, it's
+not that you're saying the criterion is
+wrong, you're just saying the criterion
+doesn't apply by signing on to spooky
+action at a distance.
+>> Mhm.
+>> Okay?
+Then you shouldn't deny it.
+Right? In other words, if that were
+Heisenberg's position, if Heisenberg
+said, "But wait, Einstein, I already
+believe that something Alice does here
+can influence Bob's thing way over
+there."
+Then he should just say, "No, I believe
+in spooky action at a distance." right?
+I accept it.
+>> Mhm.
+>> But that's one thing he never did and
+Bohr never did.
+They never just said, "Yes, we believe
+in spooky action at a distance."
+>> I know you covered this earlier, but
+just to hammer the point home, many
+people think that well, we get around
+Einstein's objections because you're not
+able to signal, you're not able to send
+information. So, you're saying, "No,
+Einstein still had objections even
+without that."
+>> nothing he said has anything to do with
+signaling.
+And as I say, when he worried about
+about this sudden change in the collapse
+of the wave function even in 1927, the
+issue wasn't signaling. He didn't think,
+"Oh gosh, you could use that to signal."
+It has nothing to do with signaling.
+Signaling is a red herring.
+And it's a dangerous red herring because
+people think
+that oh, if you can't signal, then no
+problem.
+But Einstein's objections were never
+of the form I think using quantum
+mechanics, you could superluminally
+signal. I mean, if he thought that, he
+would say, "Well, go do this experiment
+and see if you could do it."
+That was never his worry.
+That's just
+That's a straw man, right?
+Einstein does not require the ability to
+signal in order to say there's
+superluminal there's action at a
+distance.
+>> Now, what about this? What if someone
+says, "Okay, forget about Einstein
+himself, the man. What about special
+relativity, the theory as such? Does
+special relativity
+allow for superluminal non-signaling?
+But this allows superluminal
+>> so
+look, this is a good excellent question.
+Um the first book I wrote, Quantum
+Nonlocality and Relativity, is exactly
+on this question, namely everybody
+thinks relativity prevents something
+from going faster than light.
+Or almost everybody.
+But what?
+What is it prevent from going faster
+than light? Does it prevent particles
+from going faster than light? Does it
+prevent energy from going faster than
+light? Does it prevent causation from
+going faster than light? Does it prevent
+signals from going faster than light? Or
+does it prevent nothing from going
+faster than light? I mean, I In my book,
+I have a chapter on each of these
+positions.
+And the answer is
+there's no
+canonical answer here.
+But certainly, it is absolutely clear
+Einstein didn't think the issue was
+signaling.
+Cuz if he thought the issue was
+signaling, he wouldn't be worried about
+relativity in all these cases where
+there's no possibility of signaling.
+I mean, if the wave function collapse is
+a real physical process,
+and by the spot forming here on the
+hemispherical screen, the physical
+situation everywhere else changes, for
+Einstein, that's spooky action at a
+distance, but you can't use that to
+signal.
+Cuz you've no control over anything.
+Right? To signal, you have to control
+something.
+You have to have the the sender of the
+signal has to have something under their
+free control.
+And the receiver of the signal has to
+have something they can observe that
+will go differently depending on what
+the sender does.
+That's just the definition of signaling.
+And none of that is at play here.
+There's no suggestion that's an issue
+here. But but man, action at a distance
+is an issue here.
+That just proves that Einstein didn't
+think of it in terms of signaling.
+100% he didn't think of it that way. And
+you shouldn't.
+>> Got it.
+>> Okay?
+And therefore, even if you can prove you
+can't signal faster than light in a
+theory, that doesn't prove the theory's
+relativistic.
+Okay? That's what people That's the
+mistake people make, and all these
+people doing quantum field theory and
+appealing to the equal time commutation
+relations. I don't know. I don't want to
+go into all that. That's all that same
+mistake. It's all that mistake. It's
+that mistake that they're saying, "Oh,
+gee, we can't signal. Therefore, this is
+relativistic." Nope, doesn't follow.
+Just doesn't follow.
+Anyway,
+in the EPR, they write down a state for
+this joint system of two particles.
+Because it's a two particles, you notice
+big psi, that's the entire state of the
+joint system,
+has an X1 and an X2. Those are two
+variables.
+Each three-dimensional, right? So, it
+would be six-dimensional. X1 ranges is
+over all of three-dimensional space. X2
+ranges over all of three-dimensional
+space.
+The wave function is assigned, its
+values are assigned
+to pairs of positions, one for X1 and
+the other for X2.
+To configurations. That's why the wave
+function is defined on configuration
+space.
+So, they write down this wave function.
+It's there in front of you. It's the
+integral from minus infinity to infinity
+to blah blah blah.
+I'll talk for a minute about this thing.
+You'll notice it's an integral DP. It's
+an integral over all possible momenta.
+All momenta from negative to positive
+infinity.
+You'll also notice that it has in the in
+the formula, there's X1, X2, and then
+there's an X0.
+That's a little confusing cuz X0 isn't a
+variable, right? X1 and X2 are
+variables, and X0 is just a constant.
+So, you they he shouldn't have used X,
+right? They shouldn't have used X. That
+was a bad idea. Um, the constant is not
+going to play any important role here,
+and I won't talk about it. This is where
+there technical details about the
+mathematics of this that we could go
+into, but that they don't make any
+difference in the end.
+Okay.
+Uh, but X1 is spatial variable
+pertaining to particle one. X2 is a
+spatial variable pertaining to particle
+two.
+And X0 is just a constant, so we'll
+ignore it. So, let's just I mean, look
+at this state for those of you who know
+a little calculus, can integrate.
+That sigma calculus thing is saying add
+up all of these contributions.
+Different contributions for different
+values of P cuz you'll notice P is
+sitting there. It's E to the
+2 pi I over H X1 minus X2 plus X0 that
+whole thing times P.
+And you're integrating that over all
+possible values of P.
+>> Mhm.
+>> Okay? So you can think of that as adding
+a bunch of little pieces, one piece for
+each different possible value of P.
+So uh what is being added here? Well, if
+we just forget about the constant. I
+just don't want to deal with that X0.
+You're adding up a bunch of pieces that
+have this form that I have here. E to
+the 2 pi I over H
+X1 minus X2
+that whole thing times P.
+And that, if you remember how exponents
+goes, can more
+usefully be written just as a product.
+E to the 2 pi I over H X1 times P
+E to the 2 pi I over H X2 times negative
+P, right? One times P, one times
+negative P.
+And
+that state that I just wrote there, that
+single state is what's called a product
+state.
+Because you'll notice it's just taking a
+part of it that's merely a function of
+X1
+and multiplying it by another part
+that's merely a function of X2. And
+that's it. So you can separate as it
+were the X1 part from the X2 part.
+And each of those pieces are what we
+call momentum eigenstate. So each piece
+is what you'd use to represent a
+particle that definitely has the
+momentum P
+in terms of X1
+and definitely has the momentum minus P
+in terms of X2.
+Okay? So that state
+represents a situation
+where particle one
+quantum mechanically is in an
+eigenstate, it has definitely momentum P
+the other particle X2 definitely has
+momentum minus P.
+Therefore, that's a state where the
+total momentum of both particles is
+zero, right? Because P plus minus P is
+zero.
+So, that state is an eigenstate of total
+momentum zero.
+So, I hope anybody who knows quantum
+mechanics can see that's that what that
+state is. But, remember the EPR state
+isn't that state. The EPR state is what
+you get when you integrate, I'll go
+back, when you integrate over all the
+possible values of P.
+States that look like that.
+So, it's what we call a superposition.
+The EPR state is a superposition of all
+these different states,
+each of which has zero total momentum.
+Okay?
+So, we see that this joint state has
+zero total momentum, and the EPR state
+is built out only of states like that.
+So, only out of states that have zero
+momentum.
+So, the EPR state has zero is is an
+eigenstate of zero total momentum.
+If you know quantum mechanics, you're
+following what I'm saying.
+However, because of this integration,
+the EPR state is not an eigenstate for
+either particle one or particle two. So,
+in in the EPR state, we would say
+particle one has no particular momentum,
+no definite momentum at all.
+Particle two has no definite momentum at
+all. It's not an eigenstate.
+Nonetheless, the joint system of one and
+two
+definitely has zero momentum.
+Okay?
+That's the standard way we would talk
+about that state.
+Now, pause for reflection.
+I'm giving you the Copenhagen story
+here, right? The Copenhagen story is
+systems only have physical features when
+they're in the appropriate eigenstate of
+the associated operators.
+That's a weird situation that I just
+described, right?
+Cuz you say, look,
+uh cuz in the Copenhagen view, the only
+systems that have momenta at all are in
+eigen states. If you're not in an eigen
+state, you just don't have that
+property. If you're not in an eigen
+state of position, you just don't have a
+position. Right?
+And
+the we saw the reality criterion demands
+that if you are in an eigen state, so
+you can predict the outcome of a
+momentum measurement, then yes, you have
+a momentum, right? There's an element of
+physical reality.
+Um and if you could de- make that
+prediction without deter- dis-
+disturbing the system, you have, you
+know, you actually have a momentum.
+But according to Co- Copenhagen, it's
+not merely that those particles have
+momenta, but that only those particles
+have momenta. The only particles that
+have momenta are ones that are in eigen
+states. If you're not in an eigen state,
+you just don't have a momentum.
+And therefore, according to Copenhagen,
+neither particle in the EPR state has a
+momentum.
+>> Mhm.
+>> And that, I say, is a curious state of
+affairs, right?
+So, if I'm Bohr, I'm going to have to
+say particle one has no momentum.
+Particle two has no momentum.
+But nonetheless, the joint system of
+particle one and particle two taken
+together does have a definite momentum,
+namely zero.
+Furthermore, you could say, well, we can
+verify that claim, verify empirically
+verify total momentum zero. How? Have
+Alice and Bob both do momentum
+measurements.
+And what you'll find is that
+even though you can't predict what Alice
+will get, and you can't predict what Bob
+will get,
+you can predict that Alice will get
+exactly the opposite of what Bob gets.
+If Alice gets P, Bob gets minus P,
+whatever P is. And when we add them up,
+we'll get zero.
+Right?
+And that's true. That's That's That's a
+prediction of quantum mechanics. So,
+that's a strange situation, right?
+That's a very weird situation
+of
+a large system, and in not just large,
+but remember the system consisting of
+particle one and particle two is
+spatially separated. Particle one's way
+over here, and particle two's way over
+there.
+That the state of that joint system is
+not determined by according to
+Copenhagen by the individual states of
+its parts.
+That's a strange
+Now,
+we accept that. So, we accept this
+prediction. If both Alice and Bob make
+position make momentum measurements,
+initially knowing the EPR state, we
+can't predict what either one will get,
+but we can predict they'll get opposite
+results.
+I say, what what we've now noticed, and
+this is not controversial,
+is enough to reach the EPR conclusion.
+Right? We've done enough.
+When I say we've done enough, notice I
+haven't mentioned position at all here.
+I'm just talking about momentum.
+Why have we done enough?
+>> Mhm.
+>> Okay. So, the logical situation is this.
+Um
+And again, this is not the way they run
+the argument, but from their principles,
+you can run the argument this way, and I
+think they should have.
+Uh once we know that the total momentum
+is going to always come out to be zero.
+Right? Why didn't they run it this way?
+Okay, I mean, maybe I I could make
+guesses, but let me not. Here's the
+argument.
+We create a pair of particles in the EPR
+state. We send them off, one to Alice,
+one to Bob. Alice and Bob are both going
+to make
+momentum measurements.
+Now, what we know,
+and they're going to carry out their
+experiments very far apart in space-like
+separation. Even light couldn't get from
+from to the other, and so on.
+They both know, Alice and Bob both know
+that the particles were prepared in the
+EPR state, right? They're aware of that.
+That's fine. We can tell them
+beforehand.
+Question.
+>> Okay.
+>> Can Alice predict,
+without in any way disturbing Bob's
+particle,
+what the outcome of a momentum
+measurement on his particle will be? Can
+Alice, without disturbing Bob's
+particle,
+accurately predict the outcome of his
+momentum measurement?
+Well,
+we're assuming the accuracy of quantum
+theory,
+and
+certainly we know that Alice can get
+herself in a position where she can
+accurately predict the outcome of Bob's
+measurement by measuring her own
+particle, right? Whatever number she
+gets for a momentum, she's going to say,
+"Well, Bob's going to get minus that."
+Because we know the total momentum is
+zero.
+So, in fact, she can She certainly can
+get in a position to accurately predict
+the outcome of his experiment.
+The question now is, right?
+Did she, in doing that, did she disturb
+Bob's particle?
+Remember, all she did was measure the
+momentum of her particle.
+Now, it's here where the locality
+assumption of EPR comes in tacitly. They
+think, of course, she didn't. She's way
+over there. He's way over there.
+Nothing she did changed his state.
+What she did put her in a position to
+make that prediction, but it did disturb
+his state, right? But, if that's true,
+then
+Right, here's where the fundamental
+tacit locality assumption of the EPR
+argument comes in. And it's so it's so
+seems so obvious to to them, they don't
+even mention it explicitly.
+Right?
+That what Alice does in her lab can't
+disturb
+Bob's physical situation.
+That would be spooky action at a
+distance. If we accept that,
+then we say Alice is able to predict the
+outcome of Bob's experiment without
+disturbing his particle, so there must
+be an element of physical reality in his
+particle that determines what the
+outcome will be, right? Then we just
+apply the reality criterion and we say,
+"There must be something in Bob's
+particle that determines the momentum
+that's going to come out." Right? But
+now we're done. Why? Because the EPR
+state doesn't tell me what that value
+is. It doesn't represent that You know,
+I just argued there must be an element
+of reality,
+which is the momentum of Bob's particle,
+but the EPR state doesn't
+tell me what that is, so it omits that.
+Right? Therefore, the EPR state isn't
+complete. There must be more to the
+world than is given by that wave
+function.
+Right?
+I In fact, I mean, the Copenhagen view
+says something even weirder in a way.
+The Copenhagen view says, "When we send
+these two particles out, one goes to
+Alice, one goes to Bob. Neither has a
+momentum."
+Now, Alice makes her measurement and and
+and discovers or anyway gets an an
+outcome of some momentum for her
+particle. She can now predict Bob's.
+>> Mhm.
+>> Furthermore, because she did that, she
+collapsed the wave function
+and Bob's particle went from having no
+momentum at all to now having a
+momentum.
+>> Right.
+>> Because of what she did.
+That's spooky action at a distance in
+spades, man.
+I mean, that's as spooky as you can get
+as far as Einstein goes. He thinks
+that's crazy. So, if you just assume
+that Alice's experiment doesn't disturb
+the physical state of Bob's particle,
+then we get their conclusion, the
+quantum description is incomplete, QED.
+>> Done. Yes.
+>> Notice I never mentioned position from
+beginning to end. I was just working
+with momentum here.
+Just working with momentum. Argument
+over.
+>> Mhm.
+>> Now, they don't do it that So, you know,
+the the you you've got what it went into
+this, the reality criterion, the
+assumption of no spooky action at a
+distance, and the accuracy of the
+quantum mechanical predictions. That's
+all we used. We derived the
+incompleteness of the quantum
+description.
+Since the reality criterion is analytic,
+you can't deny that. You have only two
+options, accept the quantum description
+is incomplete, or accept that Alice's
+operations in her lab do disturb the
+physical state of Bob's particle. That
+is, accept spooky action at a distance.
+So, those are your two options. Either
+you admit it's incomplete, or you accept
+spooky action at a distance.
+Um Einstein thought between those two,
+it's obvious. Spooky action at a
+distance is crazy. Just deny that that
+quantum mechanics is complete.
+Now, that's not what I just did is not
+what EPR do.
+What do they do? They do what I just
+did, but they repeat it for position.
+They do it for momentum, just the way I
+did it. And then they say, "By the way,
+if Alice, instead of measuring the
+position of her particle uh the momentum
+of her particle, decides to measure its
+position,
+then she can accurately predict the
+outcome of a position measurement that
+Bob will make."
+>> Uh
+>> That the very same argument that proves
+that Bob's particle already had a
+momentum
+can be used to prove it already has a
+position.
+Right? And therefore,
+in reality, Bob's particle has both a
+momentum and a position.
+Right?
+That makes it even worse for Copenhagen.
+Because there is no
+quantum state that describes a definite
+position and a definite momentum at the
+same time to a particle. No such
+wave function exists. No wave function
+is simultaneously an eigenstate of the
+position operator and an eigenstate of
+the momentum operator. That's
+impossible. That's mathematically
+impossible.
+So, if you think the wave function is
+complete and you think that the
+condition for having
+a property is that you're in an
+eigenstate,
+you can't accept that there particles
+that have positions and momenta at the
+same time.
+Now, you might wonder I just I gave you
+an argument for the correlation momenta.
+It came because the total momentum is
+zero, right?
+The technical thing is it's not obvious
+at all, looking at the EPR state, why it
+would have this feature that
+also if if Alice measures position at a
+moment
+and Bob measures position of his
+particle at a moment, that they'll be
+perfectly correlated. That each one from
+their result can accurately predict the
+other's result.
+That's true, but it's not obvious. And
+it's a little Technically, it's even a
+little hard to get your hands around cuz
+you have to use
+cuz
+there are no really position eigen
+states. They're really delta functions,
+which aren't functions. They're
+distributions and things get
+complicated, okay?
+Uh and I'm not going to go into any of
+that. It doesn't really matter.
+I'll give you a quick intuitive
+argument. I don't know if this is really
+how accurate it even is, but it's a way
+of thinking about it. Why would you
+expect that if Alice and Bob make
+position measurements at exactly the
+same time
+that each can predict the position of
+the other's particle?
+Well, suppose these particles were shot
+out at Alice and Bob at some pre
+pre-established moment, right? They were
+sent out from a central source and Alice
+and Bob are equally far away.
+Then, if if they as it were got very
+different distances from the source,
+measuring their positions at the same
+time,
+they would infer that they had different
+momenta, right? That their momenta total
+momentum wasn't zero. Why? Because you
+normally Actually, the way you measure
+momentum is by measuring the position at
+a time,
+knowing when the particle was released,
+taking distance over time and getting a
+velocity, and then multiplying by the
+multiplying by the mass and getting a
+momentum.
+>> Uh-huh.
+>> So, if the position measurements were
+like completely uncorrelated, then they
+would also say the momentums can't be as
+correlated as this we claim they are.
+Right? So, anyway, I think it's maybe
+not that surprising that somehow you
+would have this perfect correlation
+between position measurements taken at
+the same time.
+Um anyway,
+what what EPR do is they prove it for
+momentum, and then they prove it for
+position, and then they say, "Look,
+Bob's particle has to have both There
+must be an element of reality of Bob's
+particle for its momentum and an element
+of reality for its position, and that's
+even impossible to represent quantum
+mechanically."
+Um
+So, here's what they say at the end of
+the paper. "Previously, we proved that
+either one, the quantum mechanical
+description of reality given by the wave
+function is not complete, or two, when
+the operators corresponding to two
+physical quantities do not commute, the
+two quantities cannot have simultaneous
+reality."
+And now, what they think they do is
+they've proven that
+even though momentum operator and
+position operator don't commute,
+the momentum and position do have
+simultaneous reality.
+Right? Starting then with the assumption
+that the wave function does give a
+complete description of the physical
+reality, we arrived at the conclusion
+that the two physical quantities with
+non-commuting operators can have
+physical reality. And again, tacitly
+they're using the no action at a
+distance principle to say that what one
+experimenter does does not disturb the
+other.
+Thus, the negation of one leads to the
+negation of the only other alternative
+two. We are thus forced to conclude that
+the quantum mechanical description of
+physical reality given by wave functions
+is not complete.
+Bad. QED, right? Quantum state is not
+complete. As I say, you could get there
+quicker and easier just focusing on
+momentum, but okay, they did it their
+way.
+One could object to this conclusion on
+the grounds
+that our criterion of reality is not
+sufficiently restrictive.
+Indeed, one would not arrive at our
+conclusion if one insisted that two or
+more physical quantities can be regarded
+as simultaneous elements of reality only
+when they can be simultaneously measured
+or predicted. Right? That you have to be
+able If you want to say they
+simultaneously exist, then you have to
+be able to simultaneously predict or
+measure them.
+On this point of view, since either one
+of either one or the other, but not both
+simultaneously of the quantities P and Q
+can be predicted, they are not
+simultaneously real, right?
+This makes the reality of P and Q depend
+on the process of measurement carried
+out in the first system, which does not
+disturb the second second system in any
+way. Notice again, their point is
+what's real according to this criterion
+in Bob's lab depends on what Alice does,
+but they say what Alice does does not
+disturb the second system in any way. No
+reasonable definition of reality could
+be expected to permit this.
+So, they just reject that.
+That's not the right way to think about
+things. It's not a matter of prediction.
+It's not a matter of what you can
+predict. It's a matter of what's there.
+And you can get a handle on what's there
+by figuring out what you can predict
+without disturbing.
+And if you you then need a criterion for
+not disturbing, and that's no spooky
+action at a distance.
+What about determinism in the EPR
+argument? And there's a reason I'm going
+into this, which will come up in a
+minute.
+As we said, Einstein usually associate
+two complaints about quantum theory to
+him. No spooky action at a distance and
+God does not play dice, right?
+And
+we've seen exactly where the no action
+at a distance demand
+comes in and centrally in the EPR
+argument, right? It's
+by appealing to no action at a distance
+that you argue there's no disturbance
+and by arguing there's no disturbance,
+you argue there's an element of reality.
+So, that's there. What about
+determinism?
+Somehow do they tacitly assume
+determinism somewhere in this argument?
+The answer is no.
+And it's really important that the
+answer is no. So, here's a quote from
+John Bell in this wonderful paper
+Bertlmann socks and the nature of
+reality.
+It's important to note
+that to the limited degree to which
+determinism plays a role in the EPR
+argument, it is not assumed but
+inferred.
+What is held sacred is the principle of
+local causality, no action at a
+distance.
+Of course, mere correlation between
+distant events does not imply action at
+a distance,
+but only a correlation between the
+signals reaching the two places.
+The signals in the idealized example of
+Bohm, which we'll get to in a minute,
+must be sufficient to determine whether
+the particles go up or down. For any
+residual indeterminism could only spoil
+the perfect correlation.
+But here's the important point. It is
+remarkably difficult to get this point
+across that determinism is not a
+presupposition of the analysis. There's
+a widespread erroneous conviction that
+for Einstein determinism was always a
+sacred principle.
+The quotability of his famous God does
+not play dice is not helped in this
+respect.
+Among those who had great difficulty
+seeing Einstein's position was Bohr.
+Pauli tried to help him out in a letter
+of 1954.
+So, here's the quote from Pauli's
+letter.
+I was unable to recognize Einstein
+whenever you talked about him either in
+your letter or your manuscript. It
+seemed to me you directed some doving
+Einstein for yourself, which you then
+knocked down with great pomp.
+In particular, Einstein does not
+consider the concept of determinism to
+be as fundamental as it is frequently
+held to be. As he hold told me
+emphatically many times, he disputes
+that he uses it as a criterion for the
+admissibility of a theory, the question
+is it rigorously deterministic.
+He was not at all annoyed with you, but
+only said you were a person who will not
+listen, right?
+And you can imagine he was annoyed, and
+he probably was annoyed, right? He's
+keeps trying Einstein has been trying to
+explain
+for years what his objection is, and
+people keep attributing him positions he
+does not hold.
+Um and this is one.
+I'm the EPR argument nowhere assumes
+determinism.
+It infers it. So, is what you mean to
+say that Look, Einstein doesn't start
+with determinism, he ends with it as a
+conclusion, not as an ingredient in the
+input. It's deduced.
+>> that that No, that in the argument,
+okay, EPR give an argument, it has
+certain premises.
+Among those premises is not that the
+theory must be deterministic.
+Okay? But at the end of the argument,
+you reach the conclusion
+that if the theory is to be local, it
+must be deterministic.
+From the assumption of locality,
+you infer the necessity of determinism.
+But you don't go into the game assuming
+determinism.
+Okay? I mean, we'll get to that in a
+minute. Here's the end of this quote.
+All right, so so again, there were the
+the the the end of the quote from Bell.
+Born
+had particular difficulty with the
+Einstein-Podolsky-Rosen argument. Here's
+the summing up long afterwards when he
+edited the Einstein-Bohr correspondence.
+So, this is now a a quote from Bohr.
+The root of the difference between
+Einstein and me
+was the axiom that events which happen
+at different places A and B are
+independent of one another in the sense
+that an observation on the state of
+affairs B cannot teach us anything about
+the state of affairs A. So that's key
+thought Einstein held that
+that if if two events happen in
+different places then seeing the one
+gives you no information about the
+other.
+And Bell says, this is a classic line,
+misunderstanding could hardly be more
+complete.
+Einstein had no difficulty accepting
+that affairs in different places could
+be correlated. What he could not accept
+was that an intervention at one place
+could influence immediately affairs in
+the other, right? That's spooky action
+at a distance.
+Now, the EPR argument runs logically on
+the existence of perfect correlations
+between the outcome of the experiment in
+Alice's lab and the outcome of the
+experiment in Bob's lab. And I will just
+call such perfect correlations EPR
+correlations cuz they're the
+correlations that show up in that paper.
+Given the definitions in the paper, they
+have to be perfect for two reasons,
+right? The first reason is that the
+criterion of reality requires Alice to
+be able to quote predict with certainty,
+that is with probability equal to unity,
+the outcome of Bob's experiment.
+And then with the condition the writer
+that she in no way disturb the physical
+state in Bob's lab. So the criterion of
+reality, again, it's not a definition,
+just a criterion, very very narrow
+criterion, requires perfect
+predictability. And perfect
+predictability requires perfect
+correlation. It means that given the
+outcome in Alice's lab, there is only
+one outcome that could occur in Bob's
+lab, right? Um and that's true because
+of the
+total momentum thing.
+Uh but if you think about the logic of
+the argument, it's pretty clear that
+that perfect predictability
+you could run the argument with a weaker
+condition, right? If you just If you
+just allow these correlations to go from
+perfect correlations to almost perfect
+correlations to a strong correlations,
+the basic logic of the argument isn't
+going to change.
+Okay?
+Um,
+that that that you you would still you
+you Einstein would still say, "Look,
+something's wrong here if you think the
+wave function is complete."
+Now,
+when you have these perfect
+correlations, so one thing to say is
+when you have these perfect
+correlations, there is nothing weird
+about the correlations. They're
+everyday. They're obvious. They happen
+all the time. That's why when Born says
+Einstein couldn't accept that
+by finding out something in one
+location, you can you can determine
+something about a different location. He
+says, "Of course Einstein accepts that."
+So, we have these trivial examples.
+Everybody uses these. Take a dollar
+bill, tear it in half, shuffle them
+between your back, put them in two
+envelopes, send one envelope off to
+Alice, one off to Bob, right? That's the
+preparation procedure.
+Alice and Bob both know the preparation
+procedure.
+They obviously have no idea when they
+get the envelopes which half is in their
+envelope.
+But of course, when Alice opens her
+envelope and sees the right half, she
+immediately knows that Bob is going to
+see the left half when he opens his
+envelope, right? He She can now
+perfectly predict what he's going to
+see.
+And in doing so, she doesn't disturb the
+state of Bob's envelope at all, right?
+That's a trivial example.
+Um,
+Bell talks about the example of
+Bertlmann's socks.
+So, Reinhard Bertlmann, apparently, and
+this is true, he always wore socks of
+mismatching colors, different colors.
+You could never predict on a given day
+what color sock he would have on any
+foot,
+but as soon as you could see that his
+right sock was pink,
+you could immediately, this is by
+standard Bayesian conditionalization,
+infer that the other sock is not pink.
+Another trivial example of a
+>> Mhm.
+>> perfect anti-correlation.
+And
+if you obviously seeing one sock doesn't
+affect the other, right?
+And if you think that that's all that's
+going on with collapse of the wave
+function is Bayesian conditioning is
+updating on new data, then you say, of
+course the collapse of the wave function
+is not a physical change. It's just an
+epistemic one. It's just a change in my
+knowledge. It's not a change in the
+world.
+>> Sorry, quick question. Why did Bell have
+to go to Bertlmann socks and not just
+regular socks? Was it because he wanted
+to show an anti-correlation?
+>> No, well, I think because Bertlmann was
+a funny guy and he was a friend of his.
+>> [laughter]
+>> I I don't think there's any deep reason.
+Of course, you could you you could make
+the same point by saying every day
+Bertlmann puts on different colored
+socks, but you're never sure whether
+they'll both be red or both be green,
+right? It would make the same point.
+I think it's just Bertlmann was a funny
+guy, right? And he was a friend of
+>> I see.
+>> I I think you you know, he was he was
+there was a this was actually it may
+have been the conference was a tribute
+to Bertlmann, I'm not sure. Anyway, he
+even draws a little a beautiful little
+drawing of Bertlmann in the paper. I
+mean, his own hand sketch of Bertlmann.
+I think he was just just a friendly
+thing.
+>> Uh-huh.
+>> Um
+what do these trivial examples show?
+They show nothing much of interest,
+right? Certainly they show that these
+kinds of perfect correlations between
+distant systems,
+uh unlike what Born said, uh they don't
+show anything, right? [laughter] It's
+there's nothing wrong with them. Um they
+don't suggest in any way that there's
+spooky action at a distance, just that
+there are correlations between different
+system between distant systems.
+Also trivial in these cases that the
+criterion of reality
+uh
+you works here, right? Once you see one
+sock, you can predict about the other
+one. Once you see one half of the dollar
+bill, you can predict about the other
+one without in any way disturbing it.
+>> Mhm.
+>> What follows? It follows that there's an
+element of reality that determines the
+outcome, which is
+which half is was actually in
+Bertlmann's envelope all along, right?
+That's an element of reality. Or which
+color did Bertlmann's sock have all
+along,
+right? That's an element of reality.
+So, sure, you can apply the If you
+thought you had a description, a
+complete description, physical
+description of the world, and it didn't
+mention the colors of Bertlmann's socks,
+you're just saying, "Well, no, it's not
+a complete description. You left
+something out."
+In these trivial examples, the
+preparation procedure, you can describe
+it, but it's incomplete,
+right? It doesn't tell you exactly what
+the preparation does. When you put the
+halves of dollar bill in the envelopes,
+one half goes in one and one half goes
+in the other, and the preparation
+procedure doesn't tell you which goes in
+which. And when Bertlmann gets up, all
+you said is that he puts on different
+colored socks, but you didn't say which
+colored sock goes on which foot. So,
+those are incomplete descriptions. And
+that's why, because they're incomplete,
+that you can update on new information,
+because you start out without complete
+information.
+If you thought the wave function was
+complete, then if you knew the wave
+function, you have complete information.
+And you can't update on anything, cuz
+there's nothing to update on.
+So, in the trivial cases, these
+correlations are already fixed at the
+source in an everyday way.
+So, is this a paradox? And again, this
+is uh
+uh
+uh a point we'll see that Bell makes.
+People talk about the EPR paradox. Even
+Bell's paper is on the Einstein on the
+paradox of Einstein, Podolsky, and
+Rosen.
+Is it a paradox? What does paradox mean?
+Usually, a paradox is an argument whose
+conclusion
+is contrary to common opinions. In
+Greek, the doxa are the opinions of
+everyday folk.
+>> Mhm.
+>> Or at least against some kind of
+reasonable expectation, right? It's only
+paradoxical if the conclusion is
+surprising.
+But, you know, that there are these
+correlations is not paradoxical between
+what Bob sees and Alice sees and the
+momentum, that's not paradoxical.
+And the actual conclusion of the paper
+is that the quantum mechanical
+description
+is is incomplete, that the wave function
+is incomplete. That doesn't violate any
+widely held opinions or any common
+sense, right? I mean, most people have
+no views on that. It's not like they
+say, "Oh my god, we thought quantum
+mechanics was complete." Um
+so to say that it isn't, that's not
+paradoxical. It's just an observation,
+right?
+>> [laughter]
+>> Calling it a paradox is a very strange
+right? It What it What What the
+conclusion violates is not common sense
+and not com- widely held opinion and not
+something that seems obvious. What it
+The The only thing it actually
+rejects is Bohr and Copenhagen school
+dogma.
+The dogma that the wave function is
+complete.
+That that's the end of physics, that
+there's nothing more to say.
+So it helps to call it a paradox cuz it
+sort of suggests that there's something
+paradoxical about it. What's paradoxical
+is actually the Copenhagen view. That's
+paradoxical.
+So here's again from Bertlmann's socks.
+Bell says, "It is in the context of
+discussions like these that one must
+envision the discussions of the
+Einstein-Podolsky-Rosen correlations.
+Then it's a little less unintelligible
+that the EPR paper caused such a fuss
+and that the dust has not settled even
+now.
+It's as if we'd come
+to deny the reality of Bertlmann's socks
+or at least of their colors when not
+looked at.
+And as if a child had asked, "How come
+the socks always choose different colors
+when they are looked at? How does the
+second sock know what the first sock has
+done?"
+Right? I mean, this is just beautiful.
+There's nothing paradoxical about
+Bertlmann wearing different colored
+socks. There's something really
+paradoxical about saying, "Before you
+looked at them, the socks didn't have
+any colors."
+>> Mhm.
+>> And you're looking [clears throat] at
+them
+brought the colors into existence.
+Right? That's weird in itself, but it's
+even weirder if the two socks, looked at
+by two different people in two different
+places, always choose different colors.
+How do they know?
+How does one sock know what the other
+sock has done?
+Paradox indeed. But for the others, not
+for EPR. EPR did not use
+the word paradox.
+They were with the man in the street in
+this business, right? These correlations
+simply showed that the quantum theorists
+were hasty, too hasty in dismissing the
+reality of the microscopic world.
+>> Mhm.
+>> Which is, of course, what they like to
+do. In particular, Jordan had been wrong
+in supposing that nothing was real or
+fixed in the world before observation.
+For after observing only one particle,
+the result of subsequently observing the
+other, possibly very remote place, is
+immediately predictable. Could it be
+that the first observation somehow fixes
+what was unfixed or makes real what was
+unreal? Not only for the the the near
+particle, but also for the remote one.
+Right? You see the spooky action at a
+distance in that view. That observation
+creates reality, which is what you hear
+about quantum theory all the time.
+Here's the end of this quote. For EPR,
+that would have been an unthinkable
+spooky action at a distance. To avoid
+such action at a distance, they have to
+attribute to the space-time regions in
+question real properties in advance of
+observation, correlated properties that
+predetermine the outcomes of these
+particular observations.
+Right? Since
+these real properties, fixed in advance
+of observation are not contained in the
+quantum formalism, that formalism for
+EPR is incomplete.
+And it may be correct as far as it goes,
+but the usual quantum formalism cannot
+be the whole story.
+That's the argument. And it's absolutely
+right. And you'll notice where the
+determinism comes in. The determinism
+comes in
+because if the correlations are to be
+perfect,
+then the previous states
+of the
+of the objects have to determine the
+outcomes. If there was any chanciness
+there, then the two distant objects
+couldn't track each other in what they
+do.
+Okay?
+Now,
+there's a comment that people often make
+here. I'll call it the conservation law
+gambit.
+And they say, "Look, um
+we've got this correlation between the
+momentum measurements made by Alice and
+Bob, uh and that's there's an easy
+explanation for that. It's conservation
+of momentum, right?"
+>> Mhm. [clears throat]
+>> Because we know the total momentum of
+the system is zero, and we know momentum
+is conserved, so obviously the system
+always has zero momentum, so obviously
+whatever momentum Alice gets, Bob will
+get the opposite, right? And the
+explanation, as it were, is the
+conservation of momentum.
+Why is that a big deal? People I've
+heard people say this, right? What's so
+puzzling about that?
+And that just misses the point,
+right? Because the the the the global
+conservation law in this case does not
+follow from a local conservation law. In
+classical physics, global momentum is
+just the sum of local momenta. And what
+the
+global momentum is at all times is just
+the sum of all the local momenta of the
+particles.
+But here, if the wave function is
+complete, neither particle has a
+momentum.
+So, you can't think that the total
+momentum is the sum of theirs. They
+don't have momentum.
+Right? That doesn't happen in classical
+physics.
+So,
+if they don't have both pre-measurement
+momenta, then we have this puzzle both
+of how you get any outcome on either
+side,
+it somehow has to be brought into
+existence.
+It's not discovered, it's brought into
+existence. Right. But then, in addition,
+the opposite momentum has to suddenly be
+brought into existence on the other
+side, 100 million miles away.
+That's spooky action at a distance.
+Now, as I say, these arguments I'll go
+over this quickly. I this is uh
+these arguments are running on perfect
+EPR correlations.
+Uh
+you could relax them. You could demand
+not that you be able to perfectly
+predict, but I don't know, say predict
+with 95% accuracy, something like that.
+And you could make equally plausible
+arguments, and it's not as if the
+perfection of the correlations is the
+logical backbone. You you know, if you
+can go What what's What is the logical
+backbone of the argument? Um
+the perfect correlations as I say are
+assumed in two places. One is where you
+say I have to be able to predict with
+certainty
+what happens.
+And the other is where we just said
+because the
+correlations are perfect, if you have a
+local theory, it must be deterministic.
+It must be
+that the state of the particles entering
+the labs
+absolutely determines what the outcomes
+will be.
+And the reason for that is that if they
+didn't,
+then
+how could you be sure that the two
+outcomes will always give you opposite
+results? Suppose I have a stochastic
+theory, an indeterministic theory.
+Then you can kind of run the same
+argument. You don't require that by not
+obse- not disturbing the system you make
+perfect predictions, you just uh oh
+anyway, this is Bell just makes this
+point here. Again, I'll repeat it. The
+about why you infer determinism, not
+assume it. Sure. Of course, mere
+correlation between distant events does
+not imply action at distance, but only
+correlation between the signals reaching
+the two uh
+In the ideal examples of Bohm, they must
+be the signals must be sufficient to
+determine the particles go up or down.
+For any residual indeterminism
+could uh
+only spoil the perfect correlation. You
+just wouldn't get the perfect
+correlation in a local theory if it
+wasn't deterministic. So, you do the
+inference to determinism only goes
+through in the case of perfect
+correlations.
+The original EPR argument
+is formulated
+by appeal to perfect correlations
+between the outcomes that Alice gets and
+the outcomes that Bob gets
+both for momentum and for position,
+although as I said, really momentum
+would would do the job.
+Um one might think that yeah, but that's
+very idealized in a real-life situation,
+you'll never get perfect correlations.
+But if you think about the logic of the
+argument, you can see that you can
+reduce
+reduce it to imperfect correlations in a
+pretty simple way and draw exactly the
+same conclusions. Because what's really
+going on is the question
+can the wave function be complete?
+If by doing something that in no way
+disturbs another system
+I can at least make better predictions
+about it. Maybe not perfect predictions.
+But can I improve my predictions about
+it?
+Can I can I say with more accuracy what
+it might do?
+If I can
+then again, if I haven't disturbed the
+system,
+then I didn't know something initially
+about the system. I've learned something
+that must have already been there about
+the system.
+So, let's just walk through quickly this
+case of hybrid imperfect correlations.
+You need to relax the reality criterion
+a bit and and you can make the argument
+go through.
+As I say, the key to the right reality
+criterion is that whatever you do to
+improve your predictions has to not
+disturb the system you're predicting
+about. And the assumption is because
+Alice and Bob are so separated, nothing
+any either one does disturbs the
+physical state of the other. It's that
+distance
+between them and the timing of the
+experiments cuz they can do them at
+space-like separation, so that not even
+light could send a signal from one to
+the other about what what was being done
+in the lab and what the outcome was.
+That's the worry that Einstein has about
+about relativity. So, we can reformulate
+this in terms of what we would in in
+modern information theory, which didn't
+exist at the time, in terms of Shannon
+information.
+Right? The real question is
+what Alice does and what she sees, does
+that give her Shannon information about
+Bob's system?
+Which is really just a matter of saying,
+does that allow her to improve her
+predictions about Bob's system?
+If she can do that without disturbing
+his system, then her initial
+representation of the system must have
+been incomplete. It could be improved.
+And you'll notice that if I put this in
+terms of Shannon information and just
+making better predictions, more accurate
+predictions, more precise predictions,
+even if they're not perfect predictions,
+then we don't have to worry about having
+these perfect EPR correlations.
+Um
+there must be if she doesn't disturb his
+system in whatever she does, then she's
+learned something about his system. And
+if she's learned something about his
+system, then there must be stuff about
+his system she didn't know, but she knew
+its wave function, right? She knew its
+quantum state. So that the quantum state
+has to be incomplete.
+>> Right, right.
+>> So in in in that case,
+we again get the same conclusion of the
+incompleteness of the wave function
+without this very strong requirement of
+perfect prediction. Notice that what
+happens is because we don't require
+perfect prediction here, we also do not
+infer determinism.
+So this was part of Bell's point that
+EPR don't assume determinism, they infer
+it.
+And for that inference to go through,
+they needed perfect correlations. If you
+weaken it to less than perfect
+correlations, you still get the
+incompleteness of the wave function, but
+you do not you you are not able to infer
+that the underlying dynamics has to be
+deterministic. That's just to recover
+perfect correlations. Okay?
+So again, the key to the whole argument
+is that the
+spatial
+separation between Alice's lab and Bob's
+lab
+affects a causal isolation between
+what's happening in those two labs
+during the courses of their experiments.
+Deny that, you can deny it,
+but if you deny it, you're just signing
+on to spooky action at a distance in in
+Einstein's sense. And to repeat
+something we said a minute ago,
+none of that suggests that you can
+signal from one lab to the other.
+Doesn't require that any kind of
+signaling
+protocol exist.
+It's rather just the fact that you can
+improve the the
+of your knowledge without disturbing the
+system.
+If you want to deny that, then you say I
+am disturbing the system. And if you're
+disturbing the system, that's spooky
+action at a distance whether or not that
+disturbance allows you to signal.
+So, you have what we would call local
+indeterministic theories.
+They still obey no spooky action at a
+distance. They're still local, but
+they're not deterministic. So, assuming
+locality, assuming determinism are
+different things.
+What would happen in a local
+indeterministic theory, for example, you
+might say, "Well, when Alice does her
+experiment, there's some chance, 90%
+chance it turns out this way, 10% chance
+it turns out another fundamental
+chance." Same thing for Bob.
+But, they're local because which way
+Alice's turns out has no influence or
+doesn't allow you to predict better what
+will happen to Bob's. Which way Bob's
+turns out does not allow you to improve
+your predictions about Alice. That would
+mean that these statistical spreads
+between the two systems are
+statistically independent of each other.
+Neither gives information about the
+other. That would be a local
+indeterministic theory, and that proves
+that the locality assumption is not per
+se an assumption of determinism. It only
+allows you to infer determinism if you
+have perfect correlations. So, in sum,
+finally, although the EPR argument
+from no action at a distance and perfect
+correlations to the incompleteness of
+quantum mechanical description
+uh is valid, good argument, it's sound,
+and it's simple,
+right? Not very complicated.
+The same argument of structure
+can be uh worked
+given no action at a distance
+and less than perfect correlations. If
+Alice's predictions for Bob can just be
+improved by her observations.
+And if so, then
+and the physics is local, then the
+initial description she had must have
+been incomplete.
+That argument yields the conclusion that
+we want or that EPR wanted of the
+incompleteness of the quantum
+description from no action at a distance
+uh
+uh with without entailing determinism.
+That only follows if we have perfect
+correlations.
+One thing that comes up a lot in
+discussions of Bell's theorem and EPR is
+a condition that's called counterfactual
+definiteness or CFD sometimes.
+>> Mhm.
+>> People claim that that it is a
+fundamental assumption of EPR or a
+fundamental assumption of Bell
+at the beginning
+>> Mhm.
+>> that
+things are counterfactually definite.
+What definite What does that mean?
+A theory supports counterfactual
+definiteness if the theory allows you to
+assert with perfect confidence
+a counterfactual claim about what would
+have happened
+in a particular experimental situation
+had it been different from what it
+actually was.
+So, counterfactual for those who don't
+know is short for contrary to fact
+conditional.
+A conditional is an if-then
+and it's contrary to fact if the if part
+isn't what actually happened but what
+could have happened.
+Right? If I had dropped the the the
+bowl, it would have broken. That's a
+counterfactual claim.
+>> If you did not step on the computer,
+it wouldn't have broken.
+>> Yep.
+Exactly.
+That one's true, too.
+>> joke for those who are
+>> Yeah. That one's true, too.
+>> Uh
+>> We use these counterfactual conditionals
+all the time in everyday life. We take
+them to have definite truth values. When
+you say, "Gee, you could have saved that
+person if you you know, if only you'd
+gotten up and and thrown them the rope,
+that's a that's a counterfactual
+conditional. It's saying if the if
+reality had been different in this way,
+it would have been different in that
+way. So, these are just kind of
+very common things. And it's it's
+sometimes asserted that there's a tacit
+assumption
+in the EPR argument or in Bell's
+argument
+that there's counterfactual
+definiteness, that all of these
+counterfactuals have definite truth
+conditions.
+Now, what I want to point out here is
+that's not true. That's just not true.
+And then people say, "Oh, I can get out
+of these arguments by denying
+counterfactual definiteness." It's not
+true. Neither argument assumes
+counterfactual definiteness. In fact,
+counterfactual definiteness is just the
+same as determinism.
+Right? I can I can tell you what would
+have happened had things been different
+if I use a theory that's deterministic.
+Cuz then I say if I fill in the details
+enough, the theory will tell me what
+would have happened.
+>> Mhm.
+>> But if the theory isn't deterministic,
+if it's just probabilistic, the theory
+won't tell me what would have happened.
+It'll just tell me what might have
+happened.
+So, the assumption of of counterfactual
+definiteness is just a fancy way of
+saying they assume determinism.
+>> You said something super interesting.
+What could have happened is different
+than what might have happened?
+>> Sure, because in it it it it
+Well, not what could have happened, what
+would have happened is different from
+what might have happened.
+Okay. So, sup- suppose I have a
+deterministic theory.
+And I ask, "Well, what would have
+happened if I had dropped the ball?"
+And someone says, "Well, according to
+the theory, it would have fallen to the
+ground and broken." Yeah, that would
+have happened. Now, suppose I have an
+indeterministic theory, right? I have
+coins that that have irreducible
+chances, 90% chance it comes heads and
+10% chance it comes tails.
+I say, "Well, but I don't flip the coin,
+right?" I say, "But what would have
+happened if I had flipped the coin?"
+>> Yes, yes.
+>> Then the right thing to say is, "Well, I
+can't tell you exactly what would have
+happened." I said it might have come
+tails and it might have come heads.
+Right? There's no definite fact if the
+fundamental dynamics is indeterministic
+about what would have happened had
+things been different. Usually, there
+there's a range of ways it might have
+played out if things had been different.
+Because the indeterminism in the theory
+allows for different outcomes.
+Right?
+So, the assumption of counterfactual
+determinateness is the assumption of
+determinism.
+But what I've argued and what Bell
+argued over and over is that EPR do not
+assume determinism.
+They infer it. So, they don't assume
+counterfactual definiteness.
+In so far as they get it, they infer it
+from the perfect correlations.
+And so, you can't defeat the argument by
+saying, "Well, I just don't believe in
+counterfactual definiteness." The way
+you can't defeat the argument by saying,
+"Well, I just don't believe in
+determinism." Cuz it never runs on
+determinism. It runs on no action at a
+distance.
+It runs on no spooky action at a
+distance.
+>> Yes, yeah. And we just I noticed
+verbiage. You just you said it runs on
+no action at a distance and then you
+said {dot} {dot} {dot} it runs on no
+spooky action at a distance. But to
+Einstein, isn't all action at a distance
+a spooky action?
+>> The spooky is Yeah, the spooky is just a
+rhetorical.
+>> Okay.
+>> Spooky is just rhetorical. It's not as
+if Einstein would have said, "Oh,
+there's good action at a distance and
+there's spooky action at a distance."
+>> [laughter]
+>> And I'm okay with good action. No, no,
+it's a spooky Spooky just it is a way of
+saying he thinks action at a distance is
+physically, you know, is not something
+he's willing to accept in a physical
+theory.
+Yeah.
+>> Got it.
+>> People bring up this counterfactual
+definiteness.
+And when they are doing it, they're it's
+just a roundabout way it using
+unfamiliar terminology to talk about
+determinism.
+And what they say is that the arguments
+assume presume counterfactual
+definiteness, which is a sort of
+roundabout way of saying they presume
+determinism and it's false. Neither
+Bell's argument
+does not presume determinism.
+Because of the perfect correlations, EPR
+are able to infer determinism in a local
+theory. So, that's just to keep people
+from being confused about this
+terminology that shows up in the
+literature a lot. It's just a
+distraction.
+In summary, I think we are almost there.
+So, the EPR argument from runs from
+causal locality, again no action at
+distance, to the incompleteness of the
+quantum mechanical description. That
+argument is valid. Good logical
+argument. In response to it
+uh sorry, Bohr and company had only two
+logically pertinent responses.
+There were only two things they could
+do. Either they embrace the action at
+distance as real, novel, unexpected
+physical discovery.
+They could do that.
+Or they could concede that the quantum
+mechanical formalism they used does not
+supply a complete physical description
+of a system. Those are the only options.
+And for sure they didn't embrace that
+there was action at distance.
+Actually, they all and they also didn't
+say that the quantum mechanical
+description is incomplete, right? So, of
+the two logically possible responses,
+they took neither.
+And it's very hard to understand what it
+is they were claiming. And particularly,
+Bohr writes a response
+immediately after the EPR paper comes
+out in 1935. He writes a response and
+it's an incoherent mess. Like, nobody
+understands
+that paper. I mean, there's a little
+story about I I have wasted so much
+time, but I'll tell you a little story.
+When I learned this stuff, everybody in
+my my of my age, we got a big red book
+called quantum theory quantum theory and
+measurement that was edited by Wheeler
+and Zurek, and it contained
+reproductions of all these
+foundational papers. They weren't
+re-typeset or anything, they were just
+copied and thrown into this big fat
+book.
+>> Interesting.
+>> And it contained the EPR paper, of
+course. It contained Bohr's response,
+and everybody read that. Um many years
+later
+after I had read it and so on, I was
+talking to Shelly Goldstein, and Shelly
+said, "By the way, did you ever notice
+that in that book two pages in Bohr's
+response have been switched? They're out
+of order."
+And I said, "No, I didn't notice that."
+And I talked to other people, and nobody
+noticed that.
+>> Huh.
+>> And if you try to read it, you turn the
+page, and the sentence isn't even
+grammatical.
+>> [snorts]
+>> Um why didn't we notice? Cuz nobody's
+following it. Nobody It's It doesn't
+have a logical flow. It doesn't have a
+clear through line.
+It just is words, right? It's just Bohr
+producing words that you can't follow.
+Um uh Bell Bell himself talks about not
+being able to understand Bohr in an
+appendix, appendix one to to this paper,
+um
+Ertlmann socks.
+So, what we have is What is the EPR
+argument do? It assumes local causality,
+no action at a distance.
+It then argues that the that if you
+assume that the quantum mechanical
+description of a system cannot be
+complete, there's more actual physics
+that needs to be done.
+How do Bohr and company respond to this?
+Well, one thing they could have done is
+just accept the spooky action at a
+distance. They could have said, "No, we
+think that Alice doing something in her
+lab does disturb the physical state of
+Bob in his lab." That would certainly
+answer the argument. Um but they don't
+do that.
+And the only other logically possible
+option for them is to admit that the
+quantum description of the system is
+incomplete, and they don't do that
+either. The problem is they don't really
+do anything coherent. Uh Bohr in
+particular immediately tries to reply to
+the EPR argument and
+write something that gets published in
+the same journal that the EPR paper was.
+Nobody can understand it.
+They
+conclusion of the argument
+is that if you have a causally local
+theory
+and it predicts these kinds of distant
+perfect EPR correlations
+then inferred, not assumed from the
+beginning, it must be a deterministic
+theory.
+And so if you want to maintain causal
+locality, which is what Einstein wanted
+you had better
+go for determinism. It's the only thing
+that's going to work to return these
+perfect correlations, right? But if you
+say, "Look, I just don't believe they're
+perfect correlations. I don't think any
+of the correlations you see in the lab
+are perfect."
+Even though quantum mechanics predicts
+perfect correlations here, that wouldn't
+even solve the problem because it's not
+that you need the perfect correlations
+to make trouble for the completeness of
+quantum theory. It's really enough that
+Alice can do something that improves her
+predictions for Bob. Uh
+it's it's not that you can it's
+certainly not that you can answer EPR by
+saying I believe in indeterminism cuz it
+was never an assumption of determinism
+in the thing.
+Now, how does the EPR paper get
+received?
+>> Mhm.
+>> Um he's been Einstein has been
+complaining since 1927 about these very
+same things. Quantum theory is not
+complete and so on.
+You might think it wouldn't have any
+effect. It's just people would say,
+"There's Einstein again making the same
+old complaints."
+But in fact, that's that that's not at
+all true. Switching from the single
+particle case that we saw in 1927 to the
+two-particle cases where I can send one
+to Alice and one to Bob, completely
+changed the rhetorical force of the
+argument. Um Rosenfeld, who's Bohr's
+associate, later reports the following.
+This is a quote. This onslaught came
+upon us
+as a bolt from the blue.
+Right? They weren't expecting anything
+like this. The effect on Bohr was
+remarkable. As soon as he had heard my
+report of Einstein's argument,
+everything else was abandoned. We have
+to clear up such a misunderstanding at
+once. We should reply by taking up the
+same example and showing the right way
+to speak about it. In great excitement,
+Bohr immediately started dictating to me
+the outline of such a reply. Very soon,
+however, he became hesitant. No, that's
+wrong, too. We must try over again. We
+must make it quite clear. And so, it
+went on for a while with growing wonder
+at the unexpected subtlety of the
+argument. And whatever Bohr thought he
+had as an answer to this, when he
+himself tried to articulate it, he
+couldn't.
+>> Uh-huh.
+>> Bohr later himself wrote,
+due to the lucidity and apparently
+incontestable character of the argument,
+the paper of Einstein, Podolsky, and
+Rosen created a stir among physicists
+and has played a large role in general
+philosophical discussion. Certainly, the
+issues are of a very subtle character
+and suited to emphasize how far in
+quantum theory we are beyond the reach
+of pictorial visualization. Notice that,
+pictorial visualization.
+Um
+uh Bohr loved that word, visualization,
+Anschauunglichkeit
+in German.
+And probably because it's a a word that
+Kant used a lot. Kant was very worried
+about Anschauunglichkeit and visualizing
+things. And space is the form of outer
+intuition, if you know your Kant. Um but
+I think what should be clear is that
+the EPR our argument has absolutely
+nothing to do with visualization, right?
+They don't ask you to visualize
+anything.
+All they ask you to do is is accept that
+what Alice does in her lab doesn't
+disturb Bob's particle, what Bob does in
+his lab doesn't disturb Alice's
+particle. You don't have to visualize a
+thing.
+>> Mhm.
+>> So, this appeal to visualization again
+is Bohr just falling back on a bunch of
+ideas that has been bouncing around in
+his head forever and not responding to
+the argument. Um, so Bohr writes this
+response. It's it's it's published in
+Physical Review where the EPR one was
+published.
+He recycles in that paper some standard
+stuff that he'd said before about single
+particles in measuring position and
+momentum on single particles,
+which isn't to the point because you
+have two particles and the issue isn't
+whether Alice measuring the position of
+her particle disturbs the momentum of
+her particle, it's whether Alice
+measuring the momentum of her particle
+disturbs the momentum of Bob's particle.
+That's a very different, you know,
+issue. A lot of what Bohr writes in that
+paper is not to the point. Bell himself
+just tries to parse what Bohr is saying
+at in appendix one to Bertlmann's socks
+and he gives up. He says, "I can't make
+any sense out of this." Bohr himself
+says he was never satisfied with his own
+response and he was still working on it
+when Einstein died.
+Schrödinger's response is really
+interesting.
+>> Mhm.
+>> In 1935, Schrödinger writes a paper, The
+Present Situation in Quantum Mechanics,
+which everybody knows is the cat paper.
+That paper is written because of EPR. In
+In footnote seven,
+uh, he writes,
+"Einstein-Podolsky-Rosen."
+He cites the paper and he says, "The
+appearance of this work
+motivated the present, shall I say,
+lecture or general confession."
+Very interesting response, right?
+I mean, Schrödinger's responding to EPR
+and he's not saying I'm going to lecture
+you, I'm going to confess something.
+He appreciated the argument.
+And he appreciated the role that
+entanglement plays in the argument,
+which I think even EPR didn't really
+appreciate.
+In that paper,
+Schrödinger introduces the term
+Verschrankung, which we
+translate entanglement.
+So, everything to do with entanglement
+starts with EPR.
+The importance of it, the physical
+significance of it, and so on. I'm out
+of that paper. There we go. Okay. So, we
+got to the end of Act Two. We will now
+have a break and then we'll come back
+for a short interlude.
+Uh and then we'll get on to Bell's
+theorem, which is actually supposed to
+be the subject of this entire
+But, you can't understand Bell. You
+cannot understand Bell without
+understanding EPR.
+>> This is a great place to have an
+intermission.
+The audience will absorb all of this.
+They want you to say, let's imagine you
+were able to do also Act Three. So, this
+was all one long movie.
+This is to set the record straight once
+and for all on what? I'm getting you to
+say this so that the audience, as they
+watch Act One and Two, since it's going
+to be its own video that they're
+watching right now, that they can think,
+okay, given that that's where this is
+going, I also have a couple questions.
+Let me write them in the comments and
+maybe
+Tim would hopefully be able to answer
+that in Act Three as well.
+>> So, our main point, what we're trying to
+get to is the significance of Bell's
+theorem.
+But, Bell's paper is called on the
+paradox of Einstein-Podolsky-Rosen,
+right? So, he starts, his starting point
+is that you've read and understood the
+EPR paper.
+Unfortunately, most people haven't read
+and many people who have read haven't
+understood the EPR paper.
+So, if you want to understand Bell, you
+have to start by understanding EPR.
+And, you know, where we're going to end
+up is seeing how Bell begins where
+Einstein left off,
+and then ironically runs an argument to
+the conclusion
+that Einstein was wrong about spooky
+action at a distance. That you can't get
+away from it. That you need it.
+That no local theory in Einstein's sense
+can work, can make the right
+predictions.
+So, you know, the the great ironic
+reversal at the end is that Bell
+undermines Einstein's fundamental thesis
+that there's no action at a distance.
+But, he undermines it using Einstein's
+own tools out of EPR.
+And so, you have to understand what they
+did, and what their
+argument was based on.
+Because if you want to reject Bell's
+conclusion, you got to reject something.
+And people unfortunately think they can
+get out of Bell's conclusion by saying,
+"Well, I just don't believe in
+determinism." or something like that.
+But, that's no good, cuz it was never an
+assumption.
+So, that's where we're going with all
+this.
+>> Perfect. Thank you so much. I appreciate
+you spending so much time with me. I
+understand it's extremely late where you
+are. We'll finish up on another day.
+Thank you. Okay.
+Hi there, Curt here. If you'd like more
+content from Theories of Everything and
+the very best listening experience, then
+be sure to check out my Substack at
+curtjaimungal.org.
+Some of the top perks are that every
+week you get brand new episodes ahead of
+time. You also get bonus written content
+exclusively for our members. That's c u
+r
+j a i m u n g a l.org. You can also just
+search my name and the word Substack on
+Google. Since I started that Substack,
+it somehow already became number two in
+the science category. Now, Substack, for
+those who are unfamiliar, is like a
+newsletter, one that's beautifully
+formatted. There's zero spam. This is
+the best place to follow the content of
+this channel that isn't anywhere else.
+It's not on YouTube. It's not on
+Patreon. It's exclusive to the Substack.
+It's free. There are ways for you to
+support me on Substack if you want, and
+you'll get special bonuses if you do.
+Several people ask me, like, "Hey, Kurt,
+you've spoken to so many people in the
+fields of theoretical physics, of
+philosophy, of consciousness. What are
+your thoughts, man?" Well, while I
+remain impartial in interviews, this
+Substack is a way to peer into my
+present deliberations on these topics.
+And it's the perfect way to support me
+directly. kurtjaimungal.org,
+or search kurtjaimungal Substack on
+Google. Oh, and I've received several
+messages, emails, and comments from
+professors and researchers saying that
+they recommend Theories of Everything to
+their students. That's fantastic. If
+you're a professor or a lecturer or what
+have you, and there's a particular
+standout episode that students can
+benefit from or your friends, please do
+share. And of course, a huge thank you
+to our advertising sponsor, The
+Economist. Visit economist.com/toe,
+t o e, to get a massive discount on
+their annual subscription. I subscribe
+to The Economist, and you'll love it as
+well. TOE is actually the only podcast
+that they currently partner with, so
+it's a huge honor for me. And for you,
+you're getting an exclusive discount.
+That's economist.com/toe,
+t o e. And finally, you should know this
+podcast is on iTunes, it's on Spotify,
+it's on all the audio platforms. All you
+have to do is type in Theories of
+Everything and you'll find it. I know my
+last name is complicated, so maybe you
+don't want to type in Jaimungal, but you
+can type in Theories of Everything and
+you'll find it. Personally, I gain from
+rewatching lectures and podcasts. I also
+read in the comment that TOE listeners
+also gain from replaying. So, how about
+instead you re-listen on one of those
+platforms, like iTunes, Spotify, Google
+Podcasts, whatever podcast catcher you
+use, I'm there with you. Thank you for
+listening.

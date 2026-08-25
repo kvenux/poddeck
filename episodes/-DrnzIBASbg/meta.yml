@@ -1,0 +1,30 @@
+id: -DrnzIBASbg
+source: mlops-community
+title: "Reading Group July 2026 - Loop Engineering"
+guest: "Arthur, Val, Spar & MLOps.community members"
+guest_role: "MLOps practitioners and community panelists"
+published: 2026-08
+duration: "56m"
+url: https://youtube.com/watch?v=-DrnzIBASbg
+thumbnail: https://img.youtube.com/vi/-DrnzIBASbg/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - coding-agents
+  - productivity
+  - panel
+  - engineer
+  - technical
+  - quick-take
+summary: |
+  这场 MLOps.community 读书会把 loop engineering 从流行词拆成可运行的工程结构：
+  观察、评估、验证、修复、停止条件与持久化学习。Arthur 分享生产 harness 的返工与信任问题，
+  Val 展示双层 coding-agent loop，圆桌进一步讨论 token 成本、并发边界和内置 goal/loop 命令。
+core_ideas:
+  - 工程对象从 prompt、context、harness 继续外移到可自我验证和优化的反馈回路
+  - 质量必须先拆成可执行约束，测试还要配套 enforcement 才能真正生效
+  - preparation、programmatic tests、独立 reviewer 和 retry 上限构成 inner loop
+  - issue webhook、定时 audit 与持久化 learnings 构成 outer loop
+  - observability 与 evaluation 是 looping 的前置基础，更多 agent 本身不会带来持续改善
+  - token、并发、权限与人工批准共同定义自动化的安全和成本边界
+base: /episodes/-DrnzIBASbg/

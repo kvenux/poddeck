@@ -1,0 +1,21 @@
+id: UwxxlTNPjWo
+source: latent-space
+title: "The Future of AI Infra: from Kubernetes to Agent Sandboxes — Akshat Bubna, Modal CTO"
+guest: "Akshat Bubna"
+guest_role: "Modal CTO"
+published: 2026-07
+duration: "~59m"
+url: https://youtube.com/watch?v=UwxxlTNPjWo
+thumbnail: https://img.youtube.com/vi/UwxxlTNPjWo/maxresdefault.jpg
+status: generated
+tags: [coding-agents, ai-products, hardware, interview, engineer, quick-take, technical, strategic]
+summary: |
+  Akshat Bubna 从 workload shape 出发，解释 Modal 为什么把弹性推理、post-training、batch 与 agent sandboxes 建在一套自配置 runtime 上。对谈深入 speculative decoding、GPU snapshot、17 家云供应商之上的可靠性层、私有网络与 RDMA，并讨论 DX 转向 AX 后的可观测性、产品反馈和硬安全边界。
+core_ideas:
+  - Kubernetes 面向稳态服务的默认假设，很难直接承接频繁归零、跨区域且使用异构计算的 AI workloads
+  - typed decorator 把运行环境与代码放在一起，也缩小了 coding agent 需要理解和修改的配置表面积
+  - sandbox 从 2023 年的隔离执行 primitive，演化为 RL rollout 与 production agent 的 compute boundary
+  - speculative decoding 的关键变量是 draft token 的 accept length，大模型仍负责最终验证
+  - 跨 17 家云供应商的容量池需要独立的调度、地域选择与 reliability layer
+  - LLM 可以参与软策略判断，但文件、网络、凭证与执行权限仍需要系统强制的 hard guardrails
+base: /episodes/UwxxlTNPjWo/

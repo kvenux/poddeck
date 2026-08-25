@@ -1,19 +1,83 @@
 source: xiaojun
-refreshed_at: 2026-06-02T00:38:29.819Z
+refreshed_at: 2026-08-24T11:08:16.982Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 20
-done: 3
-pending: 5
+total_candidates: 26
+done: 8
+pending: 7
 episodes:
-  - id: fww9LN9baKQ
-    title: 147. 和蚂蚁灵波沈宇军聊：机器人原生基础模型、大脑和本体的关系、预训练与数据scale up、老师汤晓鸥
-    duration: 6774
-    upload_date: "20260722"
-    url: https://youtube.com/watch?v=fww9LN9baKQ
+  - id: UTDalAEU274
+    title: 151. 17岁被2026年ICML收录论文的小少年：我bet开心！开心！开心！
+    duration: 4190
+    upload_date: "20260819"
+    url: https://youtube.com/watch?v=UTDalAEU274
     status: generated
-    priority: 0
+    priority: 1
+  - id: zawGTDLtWFY
+    title: "NVIDIA VP Ming-Yu Liu: Cosmos 3, World Models, Kung Fu, What Jensen Taught Me"
+    duration: 12973
+    upload_date: "20260813"
+    url: https://youtube.com/watch?v=zawGTDLtWFY
+    status: generated
+    priority: 1
+  - id: Cj_kb9nlAlE
+    title: 150. 对英伟达研究副总裁刘洺堉的4小时访谈：功夫、Cosmos 3、开源世界模型、黄仁勋、你不需要击败所有对手
+    duration: 12973
+    upload_date: "20260812"
+    url: https://youtube.com/watch?v=Cj_kb9nlAlE
+    status: generated
+    priority: 1
+  - id: H3Gs4QUHvA4
+    title: 149. 亲历中美neo labs资本狂潮，和清华刘子鸣聊：AI for AI、机制可解释性和Max Tegmark
+    duration: 6035
+    upload_date: "20260731"
+    url: https://youtube.com/watch?v=H3Gs4QUHvA4
+    status: generated
+    priority: 1
     category: ai-tech
+  - id: ifniRXf467I
+    title: "You Kaichao: vLLM, Open-Source Infra, Model Co-Design & Journey from Community to Startup"
+    duration: 10743
+    upload_date: "20260728"
+    url: https://youtube.com/watch?v=ifniRXf467I
+    status: generated
+    priority: 1
+  - id: ffdR5fZTC5E
+    title: 148. 对游凯超3小时访谈：开源Infra、和模型Co-design 、“如果vLLM失败，我们会后悔一辈子”
+    duration: 7597
+    upload_date: "20260728"
+    url: https://youtube.com/watch?v=ffdR5fZTC5E
+    status: generated
+    priority: 1
+    category: ai-tech
+  - id: dPXZrTw-Hgk
+    title: "Kay Ke: Inside Physical Intelligence's Open-Source Robot Models and the Robotics Landscape"
+    duration: 13572
+    upload_date: "20260716"
+    url: https://youtube.com/watch?v=dPXZrTw-Hgk
+    status: generated
+    priority: 1
+  - id: ghKTtfM-R6g
+    title: 146. 对Physical Intelligence柯丽一鸣4小时访谈：Pi的开源模型研究，机器人的江湖、族谱与主角
+    duration: 13684
+    upload_date: "20260716"
+    url: https://youtube.com/watch?v=ghKTtfM-R6g
+    status: generated
+    priority: 1
+  - id: ABtf0yehi1I
+    title: 145. 口述SpaceX开发史：和前高管洪力德聊，马斯克用人观、最大IPO、太空与AI、人类文明扩张前奏？
+    duration: 10886
+    upload_date: "20260612"
+    url: https://youtube.com/watch?v=ABtf0yehi1I
+    status: pending
+    priority: 1
+  - id: RjHGZKiWpak
+    title: 144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式
+    duration: 13132
+    upload_date: "20260608"
+    url: https://youtube.com/watch?v=RjHGZKiWpak
+    status: pending
+    priority: 1
   - id: rUjaLPE3mME
     title: "He Xiaopeng: Robot IRON's Birth, The Accident, GX, His Big Bet & Swimming in Blood"
     duration: 5172
@@ -57,13 +121,6 @@ episodes:
     duration: 12996
     upload_date: "20260424"
     url: https://youtube.com/watch?v=vG1RBqn1sG4
-    status: skipped
-    priority: 1
-  - id: bv8ghyTFF9w
-    title: 137. 对洪乐潼的4小时访谈：AI for Math、把数学变成Lean、数学天书中的证明、直觉、被创造与被发现的
-    duration: 15857
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=bv8ghyTFF9w
     status: skipped
     priority: 1
   - id: u1Lzp-7Ybn8
@@ -136,19 +193,3 @@ episodes:
     url: https://youtube.com/watch?v=9zSMTUUEfmU
     status: skipped
     priority: 1
-  - id: a93FT2340c0
-    title: 145. SpaceX 口述史：太空与 AI、人类文明扩张的前奏
-    duration: 10804
-    upload_date: "20260615"
-    url: https://youtube.com/watch?v=a93FT2340c0
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: kBsqirnWTpI
-    title: 144. 安克/阳萌：消费电子的死与生、第三品类、端侧模型、产品哲学
-    duration: 13052
-    upload_date: "20260608"
-    url: https://youtube.com/watch?v=kBsqirnWTpI
-    status: generated
-    priority: 1
-    category: update-2026-06-16

@@ -1,0 +1,22 @@
+id: ghKTtfM-R6g
+source: xiaojun
+category: ai-tech
+title: "146. 对Physical Intelligence柯丽一鸣4小时访谈：Pi的开源模型研究，机器人的江湖、族谱与主角"
+guest: "柯丽一鸣"
+guest_role: "Physical Intelligence 研究员"
+published: 2026-07
+duration: "约228分钟"
+url: https://youtube.com/watch?v=ghKTtfM-R6g
+thumbnail: https://img.youtube.com/vi/ghKTtfM-R6g/maxresdefault.jpg
+status: generated
+tags: [ai-research, robotics, startup, interview, researcher, deep-dive, technical, strategic]
+summary: |
+  柯丽一鸣从信息学竞赛、传统机器人实验室与筷子机器人讲起，梳理规划控制和机器学习两条族谱如何汇流成今天的通用机器人大脑。对谈重点拆解 PI 从 π₀ 的能力、π₀.₅ 的泛化到 π*₀.₆ 的性能主线，并延伸到真机数据、强化学习、人形路线、中美硬件产业链与机器人自我组装的长期想象。
+core_ideas:
+  - PI 的三代主线依次回答机器人能不能做、能不能迁移、能不能把任务做到更快更好
+  - 传统规划控制提供真机完成度与物理洞察，机器学习负责改变跨任务扩展的投入产出曲线
+  - 通用机器人大脑不等于人形大脑，同一模型应能从不同本体的数据中学习并操纵多种机器
+  - 真机经验数据、错误修正与结果归因构成从部署回到训练的强化学习闭环
+  - 泛化与特定任务性能互相增益，机器人评测因此是多环境、多指标、多系统约束的矩阵
+  - 中国硬件供应链与美国模型研究各有直接优势，最终必须在软硬件联合迭代中相遇
+base: /episodes/ghKTtfM-R6g/

@@ -1,0 +1,28 @@
+id: KpOW9Pk4BUs
+source: latent-space
+title: "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins — Joon Sung Park, Simile AI"
+guest: "Joon Sung Park"
+guest_role: "Simile AI co-founder and CEO"
+published: 2026-08
+duration: "≈ 1h 11 min"
+url: https://youtube.com/watch?v=KpOW9Pk4BUs
+thumbnail: https://img.youtube.com/vi/KpOW9Pk4BUs/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - ai-products
+  - startup
+  - interview
+  - founder
+  - technical
+summary: |
+  Joon Sung Park 从 Smallville 的 generative agents 出发，解释 Simile 如何用深度访谈、观察行为与随机对照试验建立可验证的数字孪生。
+  对谈从 1,000 人研究的 85% 相对准确度，推进到多 agent 社会、80 亿人模拟，以及用反事实路径改善现实决策的长期愿景。
+core_ideas:
+  - 行为模型的目标不是给出最理性的答案，而是保留来源个体的偏差、习惯与低效率选择
+  - 深度访谈提供人物纹理，观察数据提供基准率，随机对照试验提供因果机制
+  - 模拟与预测的差别在于前者展示通往目标的多步干预路径
+  - 1,000 人数字孪生研究用两周后的真人回答验证模型，并达到相对于个人自我重复的 85% 准确度
+  - 扩展到 80 亿人需要同时扩展模型、agent、互动环境与社会层面的验证
+  - 社会模拟的承诺是让被决策影响的人群持续出现在决策过程中
+base: /episodes/KpOW9Pk4BUs/

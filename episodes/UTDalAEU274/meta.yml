@@ -1,0 +1,26 @@
+id: UTDalAEU274
+source: xiaojun
+title: "151. 17岁被2026年ICML收录论文的小少年：我bet开心！开心！开心！"
+guest: "苏庭灏（Jonathan）"
+guest_role: "17岁高中生 · 独立AI研究者"
+published: 2026-08
+duration: "70分钟"
+url: https://youtube.com/watch?v=UTDalAEU274
+thumbnail: https://img.youtube.com/vi/UTDalAEU274/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - productivity
+  - interview
+  - researcher
+  - technical
+summary: |
+  17岁的苏庭灏独立学习预训练、反复做小模型实验，并以注意力机制论文进入 ICML 2026 Main Track。这期对谈也记录了一个 AI 原住民更深的困惑：当机器可能做得更好，学习、职业与人生意义如何重新成立。
+core_ideas:
+  - 通过30天每日读论文、从零写Transformer和高频小模型实验形成研究直觉
+  - 把个人算力约束转化为更短反馈周期，而不是放弃预训练研究
+  - 注意力论文把首层投影服务当前层与后续层的职责拆开
+  - AI节省学习时间，也会放大动机、自律和注意力管理的差异
+  - 当AI压缩职业与贡献路径，年轻人的成就感和意义感会先受到冲击
+  - 在ICML与乡村支教两个世界之间，把开心与真实的人际连接留在中心
+base: /episodes/UTDalAEU274/

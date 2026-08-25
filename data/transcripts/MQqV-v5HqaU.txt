@@ -1,0 +1,1566 @@
+That's exactly what's going on right now
+which is basically that service-based
+architecture s SOA you know um where
+we've switched from this idea that we
+had to go ahead and originally it was
+one central command to understand what
+the budget was and now that got pushed
+down to developers because the
+developers could actually then care
+understand and help control that token
+is the exact same thing 100%
+I will have you know I'm still waiting
+for the coffee from Taiwan that you
+promised you were going to send me after
+that blog post you wrote
+>> and and I'm glad you're recording it to
+basically make sure that I'm hell
+>> this is accountability 101.
+>> Yeah, this is No, no, you're right. I'm
+wrong. The problem is that I'm actually
+not going this summer um unfortunately.
+But if when I do, yes, there is a
+specific set of farmers and a specific
+set of places that I want to go to and
+it's actually interesting enough related
+to agents and we will get into that when
+you're ready to go. But it's actually
+related to agents, my friend.
+>> Are are those some of your agentic
+workflows that you've got going on
+finding different micro thinkas around
+the world? Not just that, but also which
+regions in Taiwan versus which regions
+in Japan or Korea specifically for
+matcha and [ __ ] like that?
+>> What how
+h how are you getting agents to do this
+research? Is it just like exploring the
+>> Yeah, it's exploring. So So basically,
+okay, so we're probably jumping ahead,
+but like I'm using Omnigent uh Poly
+Debbie, excuse me. That's the one where
+basically they debate each other, right?
+And so this case it's basically my chat
+GBT you know 55 versus my claw opus 47
+right and they basically debate each
+other and so basically I start I I
+already have enough like agentic memory
+and skills MDs and all this other [ __ ]
+that provide like a lot a huge
+background on what I'm specifically
+looking for anyways right so if you go
+to my blog you the day.com blog the
+personal one you'll remember that
+there's this one as long Taiwanese blo
+blog about Taiwanese coffee,
+>> right? It was supposed to be
+>> Yeah. Yeah. Exactly. Yeah. It it was
+supposed to be small and then it turned
+out to just basically be this long diet
+tribe that went from like here are all
+the great coffee shops in Taiwan to like
+let me go visit a farmer in Taiwan in
+Nanto province and Nanto county
+specifically to go ahead and understand
+how he's growing the beans and how like
+yeah like how it used to be bidlan
+leaves right and then how the Taiwanese
+government was switching over to
+convince people not to do grow binan
+leaves because binlan is a it's like a
+like cigarettes people get super
+addicted to it but also the leaves are
+huge So the water actually uh degrades
+the land underneath it. So the Taiwanese
+government's trying to convince people
+to grow coffee. Well, the this is
+already too long, but the TLDDR version
+of this is that Nanto County is actually
+famous for growing tea and first before
+growing coffee. So I've been actually
+using Omni to find me specific regions
+in Nanto to grow matcha.
+Oo
+wait with the intention of you going
+there and then growing matcha or
+partnering
+>> or working with the farmers working the
+farmers in that area to grow the matcha.
+And so some interesting tidbits is that
+um the oxidize when you when you working
+when you pick the leaves right it it can
+oxidize really fast. So you actually
+have to steam and dry them immediately.
+So, so the problem like Japan and Korea
+they both have the infrastructure set up
+that next to where the leaf picking is
+actually happening they can immediately
+deal with the steaming and drying. Okay.
+And um
+>> of the leaves um for example it's this
+is a good setup for coffee because um
+coffee in the coffee regions they know
+there's like bourbon style, honey style,
+whatever else, but it's all about drying
+the coffee beans after you pick them and
+how do you do it correctly, right? And
+so the for ulong and other types of teas
+in Taiwan, they're all set. That's
+Nanto's famous for that for that
+producing amazing like for example
+Joshua tea like they're they're great at
+that stuff. But for teas that oxidize
+fast like um they they don't have the
+infrastructure yet. And so the idea is
+to actually ensure that they have the
+the steaming and the drying technology
+there right away. Number one. But then
+is there an area in Taiwan that actually
+can actually handle the how to deal with
+oxidized tea? Basically like once you've
+dried, how do you process it? There's
+only one area in Taiwan that actually
+knows how to do it. It's a it's a it's a
+region called Sunga, which is near
+Bancha. Bunch is like a major city in
+Taiwan.
+>> Yeah.
+>> Okay. And so, ironically, it's an area
+that I've been trying to convince my
+family to move to. Like in other words,
+like like to stay in Taiwan just because
+I love the area a lot. It's got it's got
+a lot of great cycling, dude. Like this
+the cycling there is gorgeous. There's a
+lot of really really painfully painful
+hills. It's amazing. So, so, so I'm
+basically getting the agents to debate
+with each other to get me to dive in.
+And so it's showing me which areas of
+sunshaw I can work with specifically uh
+which um with farmers which small
+distributors I can work with to
+basically figure out how to go ahead and
+have them process the oxidized tea as
+well.
+>> Yeah.
+>> So it's like if if I'm actually ever
+decide that I want to go into that
+business then the idea is like Yeah.
+Yeah. Like obviously it's a side
+business but
+>> as you can tell I'm just a tiny bit OCD
+on stuff like this and just just a
+little bit.
+>> Pretty deep.
+>> Yeah. Yeah. Just just a little bit. So
+because of that then the idea is like
+the one of my fun projects when if I'm
+not cycling would be like okay let's
+figure out how to actually
+>> like grow high quality matcha. So
+obviously Japan has the lead. Korea
+infrastructure is amazing in typical
+fashion that Korea does. And so for me
+I'm like huh can I do this in Taiwan?
+Because the the final tip is Taiwan
+nanto elevation is typically isn't high
+enough to grow some of the very
+interesting coffee beans yet
+>> it does.
+>> So for some reason it works even though
+it shouldn't.
+>> Exactly.
+>> And you have the theory that that also
+can translate to matcha.
+>> Matcha.
+>> Exactly. And now with these agents
+debating each other, that's just giving
+you all the context that you would need
+if you want to pull the trigger and say,
+"Okay, I'm going to go do it." Now I've
+got all the information I need. I can
+point another agent at it and say, "Read
+through this context and then give me
+what I need."
+>> Yeah. So I save obviously all the uh all
+like it's the old like build skills or
+build an agentic memory to store all the
+stuff so I have a reference point
+because there's only so much context you
+can compress before the thing blows up
+right but don't forget it's like things
+like okay cool now I have a general idea
+of what's going on but then how do I
+foresee argument my mad's horrible okay
+let's be very clear it is disgustingly
+bad okay um my at the time 5-year-old
+when we were in Taiwan makes fun of my
+Chinese accent and she's it's fair. It's
+fair game. It's not even like No, that's
+true. Right. Because my my Mandarin
+sounds like I'm speaking like Cantonese.
+Like I have a Cantonese accent,
+Mandarin. And mainly because I've
+learned most of my Mandarin by watching
+Jackie Chan movies that were dubbed into
+Mandarin.
+>> And so they had a Cantonese speaker
+speaking Mandarin. And that's how I
+actually learned a lot of my Mandarin.
+It I wish I was joking. This is
+completely freaking true. Okay. So, and
+so in other words, no, I'm I'm bad.
+Okay. And so now I need to go ahead and
+mess around with agents to go ahead and
+read Mandarin properly. And a lot of
+it's handwritten, not digitized, because
+we're talking small farmer, small
+distributors, right? So, this is when I
+start switching over to the uh the
+Deepseek models, except now here we get
+into this. the DeepSseek models and all
+the Chinese open source models are
+great, but they're for simplified
+Chinese, not for traditional Chinese and
+traditional Chinese because there's
+actually there's actually more context.
+So, you actually need more tokens in
+order to process the same amount of
+Chinese characters
+>> for traditional Chinese versus
+simplified Chinese. Okay, I I forget the
+name of it, but there's a really good
+cool researcher. She had done all um all
+this research about creating Taiwanese
+specific models. All right. uh LMS and
+how that it was actually required more
+context required more tokens to process
+this in essence the same amount of words
+and so there was some I forgot who did
+it but there was some person was
+actually trying to do like no no we'll
+translate the the traditional Chinese to
+simplified Chinese
+>> run against the LMS that way and then
+translate it back and because then
+there'll be less tokens required and the
+translation actually is relatively
+straightforward it's just a direct
+mapping in a lot cases. You don't like
+need thinking in that case. It's like
+no,
+>> here's a simplified version. Here's a
+traditional version. So, uh I'm actually
+still testing that out. I I screwed up
+my installations of those models. Why?
+Because my man sucks. I think that's a
+recurring theme here. But the idea is
+that I'm I'm trying out different things
+like that because then that's the whole
+point. like how do I then
+work with
+the traditional farmer,
+the traditional distributor with the
+ones that actually have real
+longevity and real knowledge of the
+topic, right? And so, so part of the
+reason I bring this up, by the way, is
+just because a lot of people talk about
+how AI agents are removing jobs, right?
+And and there's obviously validity to
+that statement by every stretch of
+imagination. But I keep trying to remind
+people it's like, yeah, but it's like
+every other technology we have. It also
+introduces new jobs.
+>> It also introduces a way for us to
+rediscover things that we forgot using
+this small example of like this my
+obsession with matcha or my obsession
+with tea or coffee in general, right?
+No, just any obsession I have. Right.
+>> And now you ask an agent to go do these
+things that you probably would have
+never gotten around to doing. No,
+because think about how much research
+can how to horrible my mandrin is,
+right? And so instead, I'm having fun
+being a geek again, but then I'm also
+connecting with
+>> old farmers.
+>> I'm connecting with old distributors.
+Like, this is [ __ ] sweet. Like, just
+so in other words, I get to go ahead and
+work with people that normally I
+wouldn't even have a clue to where to
+even start now.
+>> Yeah.
+>> Right. Which is which is say that's
+that's cool.
+>> Yeah,
+>> that is very cool. that. And so you've
+got these uh you mentioned there's the
+setup where the agents will debate each
+other and they're debating each other
+just because you're saying, "Hey, look,
+>> give me a reason not to do this." Like
+try and find
+>> No, it's not even that. No, no, no, no.
+It's it's actually better than that.
+It's not like because most of the time,
+at least with the prompts I use or the
+context I'm using, it's not about doing
+or not doing. No. Uh you you've known me
+not enough demetrius.
+I'm always going to go do it. Right.
+Right. My my problem isn't am I going to
+do it or not. My problem is like am I
+going to basically slam into a wall or
+how thick that wall is when I slam into
+it. Right. That that's usually my
+problem. So So
+you can tell like basically how I look
+at the tech is actually you can still
+look at it from an optimistic
+perspective, right? And so for me it's
+not about like should I do it or not?
+Should I do it? It's more like what's
+the right way to do it? Like, and so in
+other words, as you can probably hear or
+tell from the way I'm describing
+everything, my obsession is high
+quality.
+Going back to the roots of actual like
+tea making, right? I'm not an expert in
+that at all, but I respect
+the quality. I respect the art. I
+respect the cultural significance of of
+it. That that I can say.
+>> Yeah, I can vibe with that.
+>> Right. And so because of that then the
+idea is that what I'm asking the agents
+is basically look I'm giving the agents
+that context. So then way they're
+debating with each other like oh well
+then what region of Taiwan am I looking
+at? What's the elevation? What's the pH?
+What's the soil quality? Am I dealing
+with lots of for example like the theory
+is if we were to grow matcha in Taiwan
+it would be more floral based especially
+in Nanto county why because um that's
+what Nanto is famous for like their teas
+have a lot of floral a lot of luchi like
+so for example that coffee that coffee
+blog that I I sent you right that one
+his coffee beans were notori famous
+notorious is the wrong word famous
+partially because uh there was um h very
+strong very very strong hints of luchi
+in the coffee beans themselves, right?
+And the reason why is because literally
+the re le luchi were growing wild in his
+coffee fart. So literally like no joke
+when we got there to try out the coffee
+um the grandma was literally just giving
+us lies for free and she's like don't
+you want us to pay for them? No, no,
+they they grow everywhere. They're
+literally a weed at this point. think
+I'm like I've never heard lies referred
+to as weeds but okay like right but
+that's literally the context is like oh
+find be able to find cool things like
+that and so that's the that's the
+attempt to discover that's the attempt
+to like try to like somebody like myself
+who has the obsession of it or the
+OCDness but not necessarily the
+knowledge the letting the two systems
+debate with each other provide me the
+additional information to say to know
+what other questions questions to ask.
+>> Yeah, because when you read through that
+debate, then you go, "Oh, I didn't even
+think about that."
+>> Right.
+>> That is a such a great trick that I
+recognize. And you know what? I one of
+the actually toys that I've been making
+and I don't know why this isn't a common
+UX for dealing with agents is I now have
+created a
+little widget that you can highlight any
+piece of text whether you're inside of
+the chat window with the agents or
+you're on a website and it will pop up a
+little prompt box and it will read the
+context of whatever the either the
+paragraph or the whole page that you're
+on and you can prompt whatever ask a
+question to it just about because a lot
+of times what I recognize with myself is
+that I don't want to continue this
+conversation in the actual chat that I'm
+having. I want to shoot off and do this
+on a different thread because it's just
+like something that isn't necessarily
+needed to pollute this conversation with
+the agent that I'm having, but I still
+want to know like, hey, that you you
+referenced this thing here. What does
+that mean? Go deeper. Give me more
+context on this specific thing, but not
+in the main chat. So, it's like little
+sidebar conversations. And I've got this
+uh I I use this tool called clearance to
+read like markdown files. And so now I
+created a little right-hand sidebar
+where you can have a side chat with an
+agent. Okay. I I know this is definitely
+wasn't done on purpose for everybody
+that's listening to us right now, but
+you you wonderful segue to omni by the
+way because
+>> no good because Okay. So for example, I
+did this already. So I f when I first
+started asking the question about
+matchas and things like that like what
+regions I learned a lot about more about
+the regions of Japan for starters and
+then the regions of Korea. All right.
+But then
+remember my end goal was to figure out
+if I could do it in Nanto County in
+Taiwan. All right. But of course I as
+I'm to your point I'm learning more
+about these regions in Japan and these
+regions in Korea. I'm like, "Oh, this is
+really cool." So, I want to know more.
+But now, so I really wish there was a
+way to fork my conversation.
+>> Yes, that's it.
+>> So, Omni has the ability for me to fork.
+So, that's what I did. I basically had
+the conversation, I forked it off, then
+I allowed myself to continue one
+conversation specifically about the
+Japan and Korea areas while the other
+one, the the main line, I just
+redirected to Nanto County. And so they
+both had the original context by which
+we uh we had the conversation with. But
+now I could have two very separate
+conversations so I could learn more.
+Why? Because uh I'm fortunate enough for
+because I live in Seattle um no I'm not
+being paid for this but there's direct
+on Alaska Airlines
+from Seattle to Tokyo, Seattle to soul
+now. So I'm going so yeah. So I
+hopefully maybe they'll give me
+something for that. But in the reality
+of that,
+>> yeah, this reason I called that out is
+sponsored by
+>> Right. But
+>> no, it's not. I wish I'm not that we're
+we're both not big. We're both not big
+enough for that. Right. But
+>> Exactly. We need to become the true
+travel bloggers.
+>> Exactly. Yeah. We're just We're not
+We're not travel influencers, so
+unfortunately that's not going to work.
+But not yet.
+>> The There you go. True point taken.
+Yeah. We have goals, right? But
+nevertheless,
+>> the idea being now I'll go directly to
+Korea. I'll go directly to Japan so I
+can explore the regions myself.
+>> Yeah.
+>> So that's why I started going down. So I
+forked the conversation specifically so
+I could go do that. Yeah.
+>> But I don't understand why that isn't a
+common UX pattern with these agents. And
+specifically for me, it's like I have
+this one sentence or these five words
+that appear together in my context and I
+want to fork them out and have a
+separate thread on that specific piece
+like explain more. But I haven't seen
+any of the labs create this as a
+integral part of how we interact with
+agents. And so it it makes me think like
+maybe I'm the only one who cares about
+that.
+>> No, no, no, no, no, no, no, no, no.
+You're you're look
+when we started all this this entire AI
+community, right? Think about how chat
+windows are still the even after all
+this time, chat windows are still the
+way we work with things. Even our
+sticking when we decide to use CLI and
+terminals, it's still basically a CLI
+chat window. That's basically all it is
+for all intents and purposes, right?
+Just that we might have some JSON stuff
+shoved in there now. That's that's the
+extent of the difference, right?
+>> Um
+>> the reason lies because
+and you actually see harnesses like
+being created right now like a bunch of
+startups, a bunch even the major labs,
+they all create harnesses themselves,
+right? And the reason why is because
+like look up to this point and and this
+is this is like our definitely our
+learnings within data bricks itself,
+right?
+We all had like five terminal windows
+open, six browser windows open.
+>> Yeah,
+>> we're all going back and forth, back and
+forth.
+You
+deep dive on a particular topic. I'm
+coding something for Delta Rust, right?
+Like so I can get off of tea for a
+second, right? So I'm co I'm coding
+something for Delta Rust. I'm trying to
+understand the latest version of Arrow
+and Dataf Fusion because they keep
+changing uh hats off to the community.
+This is not a complaint. This is just
+but they do they do change things. So
+we're trying to keep Delta Rust up to
+date, right? And so when we're trying to
+make those changes then I need to run
+some terminal windows to ah I need to
+figure out what's the current version.
+Another terminal set is uh creating the
+test harnesses that I want to go create.
+Another browser window is giving me oh
+what's the latest security context?
+What's the latest like you know uh uh uh
+security alerts associated to each and
+every one of the 20 different
+dependencies we have that that we have
+to go through, right? And and what are
+you doing? You're opening multiple
+windows and you're losing context. No
+pun intended, right? Um, and
+you you're you're losing all of the
+connections because you've got so many
+windows, so many terminal windows open,
+right? So, you know how Amazon
+made the the idea of like the each team
+should only have like two pizza boxes,
+right?
+>> Yep.
+>> All right. The whole reason that was
+created was because it was the idea that
+each team should only have five to seven
+people reporting to it. Okay. So each
+manager should only have five to seven
+because anything greater than that they
+basically start losing context and again
+pun intended. Okay. Well this was
+determined not Amazon might have made it
+famous but it was actually a military
+thing like military military command in
+terms of units teams understood that
+each commander could only
+logistically handle five to seven people
+reporting to them in order to be
+effective. Right? And so I'm not
+military, but I I am uh I used to be
+King County um um uh um ops um um the um
+search and rescue ops. Excuse me. I'm
+trying I'm trying to remember SNR like
+this is how tired I am. Okay, dude. Uh
+search and rescue operations. So we
+learned that from so SNR ops learned
+that from obviously military and then
+the idea is that this is a a time value
+tradition like an understanding and so
+so in the tech world everybody thought
+about two pizza boxes but basically this
+is a well understood um logistical
+structure within the military. Okay. And
+so cool.
+The reason I bring that up is because
+well then in a lot of ways if you
+consider an agent almost like a junior
+developer that you're managing
+>> Mhm.
+>> Once you go beyond five
+>> Yeah. Yeah.
+>> Once you go with seven, you're losing
+track of everything, right? And so more
+than anything else, the things like to
+your point exactly about I want to go
+off and do that.
+It's actually going to make you lose
+context even more so. Right. Part of the
+reason why we we had [ __ ] had basically
+built this idea of forking was actually
+not originally that idea you talked
+about by the way like to be very clear
+like it was more about literally we're
+coding so you fork so that way you can
+literally go ahead and try out different
+ideas
+>> but had the initial same context
+>> but to your point exactly coding and
+actually having a real conversation
+isn't actually that much different
+coding happens to be just around code
+but it's still an abstraction layer
+Right? And so conversations are just
+another abstraction layer. Like
+everyone's like, "Well, Cody, no, that's
+real code." I'm like, "No. Are you
+writing this thing in binary or
+assembly?" No. Okay. Well, then stop
+talking to me. It's an abstraction
+layer. Okay. And so the idea is that if
+you've got all these different things
+floating around, right, you will lose
+context. You will not remember why you
+asked it in the first place. So there's
+so there's a lot of research being done
+by the labs and to an extent even a lot
+of the harnesses which is like how do
+you
+>> basically have now an agent fleet and
+the fleet manage itself
+>> right
+>> and there's various like by the time
+this podcast comes out which is only a
+week or two I'm sure everything will
+change so I'm not going to bother with
+the pretense of knowing what's going to
+happen with fleets but irrelevant of
+whether you you called the fleet or you
+talk about an agent or there's some
+other layer
+the the whole reason we built what we
+built was because we understood that
+this is going to be a problem either way
+and just as importantly or if nota many
+cases more importantly
+the models keep changing
+>> the harnesses keep changing I want to be
+able to go ahead and move all that
+context all the age into memory all that
+configuration
+>> I don't want to rebuild it so now I can
+use the latest open AI model or the
+latest deepseeek model or the latest
+anthropic model or whatever it is I'm
+using. I want this one layer that says
+whatever harness you're using, whatever
+model you're using, it'll flow through
+irrelevant.
+Where I get a little bit confused there
+is the harnesses are optimized for
+certain models, right? I guess if you're
+building a harness, you're building it
+for a model and there's certain things
+that the labs are going to be doing on
+their own. That's like the inner harness
+and then you have the outer harness. And
+the inner harness, they're rlinging that
+model so that it works really well with
+their harness.
+>> Oh, 100%.
+>> How do you like envision these hot swaps
+in a world where you know that?
+>> Oh, because that that's actually why we
+value Omnigen as an open source project
+to begin with, right? Because the idea
+is that like for example even just
+building it we noticed for example
+what deems to be simple but actually
+changes people's workflows is like uh
+approvals like the approval process
+I'm not going to get this quite right so
+I'm going to stay vague so that way I
+can I can not make it sound like one's
+better than the other because that's not
+true at all. Okay, just but the process
+is slightly different between
+harness A and harness B and the process
+is slightly different between model A
+and model B just to be very vague. So
+that way again I'm not calling anybody
+out, right? And again it's not even
+calling because like I said it's not
+like one's better or one's worse. It's
+just purely they're different. That's
+all this is. Okay. So if you look in the
+Omni codebase that's we actually reflect
+that,
+right? And so then that way we're
+actually leveraging
+what model A or harness A is really good
+at because like the creation object
+isn't about going ahead and saying we're
+a better harness than everybody else.
+We're not. No, that's why we call
+ourselves a metahartist because we're
+saying, "No, no, we're on top of this."
+So that way you, the individual, the
+person that's using these things, all
+that configuration, all that context,
+all that agent memory that is portable,
+that you have control over, that you can
+flow, right? You could compose these
+different ideas where basically I want
+to go ahead and run like just to be a
+little bit more specific now for sake of
+argument I was using Opus 4.8
+actually 4.7
+a real example to generate the
+>> better to be truthful also I'm glad I
+glad I have a kindred spirit here I've
+been way more 4.8 8 is not I'm not
+stoked.
+>> Yeah. Yeah. Yeah. Yeah. Yeah. That's a
+whole other thing. But let's not debate
+that. Okay. I don't want to throw a kick
+in my ass. Okay. Right. All right. But
+I'm using open source stuff and then but
+then I was using GBD 5.4 at the time to
+do the test cases and [ __ ] yeah. Like it
+was wonderful because then I got the two
+using Poly to debate each other in terms
+of high quality coding and then I and
+then I got one to actually go ahead and
+generate the test cases for me as well
+which is amazing right and then maybe a
+week later I would have switched over to
+say you know what chat GVD 5.5 I like
+their code base a little better so I'm
+using that now I'll stick to 47 for the
+um of to debate it I'll use maybe sonnet
+to to go ahead and do the the test cases
+because those are relatively easier to
+once you put the original template. I
+don't actually need something as
+powerful to generate the test cases. I
+just need to sort of update them. So
+this is perfectly fine. Um and then when
+you know when Fable and all that stuff
+came out that rewrote everything and
+then Fable got removed and that rewrote
+everything, right? The whole point is
+that I'm just using Omni so I didn't
+care. I just
+redirected it and like hell I'm using Pi
+for a bunch of my test cases now because
+it's cheap. Like really dirt cheap. So
+I'm like, why not? It's really good, so
+just use that in some cases. Right? So
+that's more or less the point. Like it
+just gives you that flexibility to say
+like, okay, you start off with everybody
+telling you you're supposed to use the
+most advanced one. And I get it that
+you're tempted to do that. And if you if
+you're allowed to maxing, you will do
+that, right? But the reality is this
+stuff's starting to get expensive,
+>> right?
+>> Prices are going up or discounts are
+going down or both, right? And so my
+take on the whole thing is like okay
+well then
+try to find the right model or the right
+harness for the job. And so maybe even
+if you are initially using the more
+advanced models to build it a lot of the
+maintenance doesn't require the most
+advanced models at all. In fact the most
+advanced models more times than not
+actually make things literally more
+complicated. Like you're going I only
+needed simple test cases. I didn't need
+this gargantuan thing that is impossible
+for me to read. Right? That's a feature,
+not a bug. That's why Anthropic's worth
+its whatever trillion dollars.
+>> They are very
+>> But see, that's why in the end, you get
+my drift, right? Like it's it's about
+going ahead and then because after all,
+like I I'm definitely not meaning to get
+in the debate just right now, but like
+during, for example, DNA summit during
+the open lakehouse contributors um uh
+meeting, right? Uh one of the sessions
+that I actually end up uh helping to
+lead was the deal with coding AI slop,
+right? And one of the call outs that we
+had um because the way we run open lake
+house was very much in the vein of like
+yeah I might have led the discussion but
+it was meant for everybody to chat. I'm
+not interested in like me telling people
+what to do. That's not interesting at
+all. I'm look we we're getting all these
+people in the the open lakehouse and the
+AI community specifically to go debate
+like like we're working on competing
+projects whatever I don't care but like
+we all are suffering from same version
+of of insanity in one for or another. So
+can we help each other out on that part
+at least, right? And so for example,
+there was a whole debate like on the on
+various distribution lists including
+like Apache iceberg on the Delta list,
+whatever. I was like created by versus
+assisted by. So created by is the person
+who did it, assisted by is like it's
+Opus 47 or Sonnet or whatever it is that
+you were using at the time, right? And
+the call out more than anything else
+unequivocally was that
+you needed to
+in the end everybody agrees with the
+idea that it is still the individual the
+user that is the one that
+submitted the code that there still is
+from a TLDDR perspective who's the neck
+you're going to choke it's not I'm not
+choking the neck of an agent I'm not
+choking the neck of anthropic I'm
+choking the neck of the person that's
+contributing the code right
+>> and so ultimately
+like whatever we're phrasing as in terms
+of creative biases by or anything else
+the point is that me the developer
+whether it's developing code or
+developing a business project or
+whatever it is you devel
+you it's still the person that's making
+that decision that ultimately succeeds
+or fails so whether it's the the code
+for delta rust or whether it's you know
+figuring out which region of nonto
+county that I'm I want to grow matcha
+leaf Ultimately, it's like it's me,
+right? The onus has to be on me alone,
+right? And so, knowing how to
+follow a thread, knowing what these
+harnesses can do, knowing that you can
+move your context, your thought
+processes across the different models,
+so that way you yourself can succeed.
+Ultimately, that's it. And and I think
+you to be, you and I have actually had
+this conversation on the side. You've
+also did do this as part of your own set
+of podcasts where ultimately the main
+reason people fail when they're using
+agents is because they they zero shot it
+and they have no context applied at all.
+They there's no free thinking. So people
+are like going, "Well, of course it's
+garbage that came out of it." I'm like,
+"Yeah, so that means these agents suck."
+I'm like, "Well, it's the old garbage
+in, garbage out." Like, if you if you're
+not putting any effort into this, it's
+it's going to be garbage coming out.
+Doesn't matter how good the agent is. It
+doesn't m matter how good the model is.
+>> Mhm. Have you been playing with the
+different because basically what I
+understand is hey you bring your own
+model and you can bring your own harness
+and then you have this meta harness
+above it
+>> that is unopinionated and it's like cool
+you want to come with your open claw
+over here and then your
+>> you want to come with your Hermes you
+want to toss an integration with a llama
+have fun at it by all means yeah
+>> how have you and How have you been
+seeing that working? And like is there a
+world where you're recognizing that now
+what is important is understanding what
+each one of these is best at it. We
+built Omn about two weeks by the way to
+give you some context. All right. Again,
+pun intended. Um
+we literally used OmniTent to help build
+Omnagget. Okay. Like so everything you
+see we we basically use itself to
+basically build it improve it the whole
+kitten kaboodleoodle. The reason I bring
+that up is because look, we have a ton
+of benchmarks, right? But before the two
+weeks, we data bricks engineering
+product, we we were we were all
+suffering from the same thing, right? We
+were suffering from like which model
+should we use this week? Should I use
+Kimmy now? Should I use right should I
+be looking more into the open source
+ones, right? should like so if you like
+if you look at data bricks itself right
+you'll notice that there's a whole bunch
+of different models like that all
+natively run within data bricks uh
+they're all governed that's great I love
+that fact but then exactly to your point
+I don't know which one's better and so
+yeah if you even go to the data website
+we actually have this thing where we
+update monthly I forget the exact URL
+but basically we say like here's the
+best ones based on what we see this
+month right and then we'll up it's like
+for documentation for debate, for
+financial, like whatever. We just we
+actually write down all the stuffs
+because we're like this is what we think
+in real world scenarios. And you'll
+notice that the real world scenarios
+often do not match benchmarks.
+>> Yeah.
+>> Right. And so that's what got us to
+build Omni in the first place because we
+were basically we actually had a version
+of Omni internally. We obviously can't
+share that one but but basically we used
+that as our starting point mainly
+because we were recognizing that every
+single engineer needed the ability to
+have that flexibility to switch
+right because they realized that maybe
+that particular codebase that they were
+working on was better with X while
+different team same org hell same team
+like same division everything realizing
+oh no but I'm doing why and it's better
+with this. And so the idea of us trying
+to dictate you're supposed to only use
+one like we never were going to do that
+in the first place just because of the
+nature of data bricks. But like it just
+the whole thing fell on its face almost
+immediately. And so what we did
+>> the model provider could be down which
+we see all the time.
+>> Oh my goodness. Yeah. Yeah. Yeah. Claude
+was just down yesterday. So I was when I
+was just trying to run my stuff. So
+fortunately, not a big deal. Flip it. It
+automatically flipped over to Codeex and
+all right, I'm back up and running.
+Yippy Ka barely barely a blip of the
+whole thing, right? But
+>> the so ultimately it was more like,
+okay, do I have the flexibility to
+change? Do I have the flexibility to to
+all but also not to change but control
+my costs?
+>> So like within we actually have policies
+put right in there which you say, okay,
+policies as simple as like okay, can I
+run this command? Okay, that's one of
+them. But like like a shell command,
+right? For example, you and I were
+joking about how just starting off you
+had run a skill that basically shut off
+your redirect to your browser, right?
+Well, guess what? Like Alun has it built
+in where you have a policy that says no,
+you actually have to prove such things.
+So it can't do that, right? But also
+even budgets which is like, okay, if
+this thing's going to cost you at more
+than X dollars or X cents or whatever it
+is, guess what? You have to prove before
+you're allowed running it, right? So ju
+just things like that which allow you to
+have control over the situation. And
+then the final little tidbit is that
+inside of it all the conversations you
+and I have just had right the one thing
+is that it's a I'm still very like the
+uh or uh developer centric right but in
+order to be successful more times than
+not what we have to do is we have to
+work with your team. You want to share
+your learnings for your team. And so
+that's the the kudigra for omniv which
+is like okay it's like a Google doc type
+interface where basically now hey I ran
+this agent or had this poly do this
+particular debate
+why don't you take a look you know team
+leader x and then not only can they see
+what's being generated they can then
+themselves run
+>> on that session themselves because you
+shared it with them and they can run the
+session say wait can you run this
+particular test did Did you take account
+of X? Did you take account of like the
+new updated uh data fusion or whatever
+else that you need to do? Right. And
+then basically now that process
+continues on. So you're actually sharing
+the workload together so the teams can
+actually work together really well.
+>> Right. Yeah. That is so cool. And
+actually a funny thing that you were
+mentioning, another one of my little
+side projects, toy projects that I'm
+creating for myself is a widget that
+goes up into the corner of your screen
+and it just calculates how much money
+you've spent.
+>> There you go.
+>> By day or by week, and every time you
+hit another $100 increment, it goes
+cha-ching and confetti goes everywhere.
+And this there's a
+>> dude you should so do a PR into OmniT to
+do that. Seriously, because we already
+have the basis for calculation. Do a PR,
+baby. Like I will
+>> use use OmniTit to create the PR for you
+because that's all I've done.
+>> Yeah. You know what else I did though? I
+put a little GIF. So all of a sudden a
+gift pops up of like uh someone making
+it rain.
+>> Make it rain.
+>> Like five different random gifts that
+you can get and it's like making it
+rain. And so you
+recognized and I created this with
+because I was at FinOps X which is this
+whole conference around budgets and all
+they care about are tokconomics. That's
+the whole thing now. Nobody cares about
+dashboards for cloud spins.
+>> Oh god yeah 100% dude. Yeah,
+>> we got that figured out right. All they
+care about are tokconomics and how
+people are spending their tokens. And
+what I realized is that a lot of folks
+are creating dashboards so that their
+CFOs or whoever in the finance
+department can see how much the
+engineers themselves are spending. But
+what I didn't see a lot of is pushing
+that visibility onto the end users. And
+I'm like, if I knew that I was spending
+a,000 bucks a day, I might be a little
+bit more conscientious about the cost.
+So call out wonderful call out like so I
+still remember because I'm I'm a
+longtime Microsoft guy okay before all
+this and then when we switched to cloud
+the whole premise is that like this idea
+of capex to opex right like we're
+changing capital expenditures to opex in
+that process of opex it was the into
+devops meaning that the developers
+actually had to understand how much
+money they were spending on the
+infrastructure that they're building
+>> right so if there weren't like
+needlessly running a small query and
+spinning up a a 50 node Hadoop cluster
+when their laptop could have solved the
+problem, right? So that's exactly what's
+going on right now which is basically
+that service-based architecture s SOA
+you know um we're we've switched from
+this idea that we had to go ahead and
+originally it was one central command to
+understand what the budget was and now
+that got pushed down to developers
+because the developers could actually
+then care understand and help control
+that
+>> tokconomics is the exact same thing
+100%.
+That's so true. It's the same motion and
+you're just we're reliving it. But it's
+a little bit different now because what
+is funny and I think one of the hardest
+questions that I saw people struggling
+with at the event was how do you know
+what token spend is valuable versus
+wasteful?
+>> Yeah.
+And so there's all kinds of tricks that
+you can do on these like these details.
+And one of them being, hey, choose a
+different model. If it's not that big of
+or complex of a problem, just use a
+better model. Use an open source model.
+Use whatever. But still, you have
+certain engineers that are burning a ton
+of tokens.
+And for some sub set of those engineers,
+that burn is worth it. And then for
+another subset of those engineers, that
+burn is not worth it. And it's like what
+are they getting done?
+>> No, no, 100%. So this goes back to the
+idea where it's actually just like with
+the switch from capex to opex, right?
+You actually need both. You need to give
+the developers the tools to understand
+what they're doing and what the spend
+is, but you also need to have some
+central governance story so you can
+understand what's going on, right? Like
+so like you've I've come to you we've
+actually had this conversations like why
+do we have you know for example uni
+catalog and why did we data bricks
+introduce uni aa gateway that's the
+whole point it's two sides of the same
+coin like omnigen is there for the
+developer so that they themselves
+understand they themselves can apply
+policies but then we have uni get way
+for a centralized form which says hey
+look yeah you can use
+opus 4748 whichever one you're doing 47
+Right.
+>> Y
+>> but
+wait like for example if you were to
+look at my questions especially in terms
+of when I was still beginning with
+Almond when I was testing it out there
+would be an absurd number of which bagel
+is better Montreal versus New York right
+and so if I was the central person
+they'd be like no this Denny guy we we
+got to this is a ridiculous amount of
+tokens being spent on this particular
+question. Okay especially because
+everybody knows Montreal bagels are
+veterans. Yes I say it. All right. But
+but but you get my drift. Like obviously
+there was a reason for why I did it. But
+if I still do it today, oh my goodness.
+Yeah. They would just lock into Union.
+No. Like no, you're not allowed doing
+this.
+>> Shifting budget over to
+>> Yeah. They're shifting budgets. They're
+like, okay. Like, no, Denny, you're
+allowed using pie. You're you're allowed
+using like you're maybe if we're if if
+there if you're lucky, we'll let you use
+Kibby just for the sake of doing it. But
+not even a later version, Kimmy. Like an
+older version, right? But like Opus. Oh,
+hell no. We're never going to let you
+use that. So,
+>> you know what? on this idea of choosing
+the models and choosing the harnesses
+and all of that. Where I see the biggest
+friction is when I have to manually
+make the decision because I am a little
+bit lazy and I just kind of go with
+whatever I've got on, you know, and so
+I'm not going to, especially if it's my
+company's money in a way, I'm going to
+be like, ah, whatever. Let's see if it
+works. I could just blow the money and
+ask the bagel question again.
+>> I'm not going to be like, "Ah, let's use
+the smallest model. It doesn't work."
+And then I'm going to go back and try
+and go to the next smallest and cheapest
+and then it still doesn't work. And then
+I've wasted time, which is the whole
+reason I thought I was using these
+coding agents was to save myself time.
+And so it's like I see that I will
+overcompensate with bigger models
+just for the fear of a smaller model
+it's probably not going to be able to
+get this even though it totally will get
+it like it's like oh you just changed
+some names in the codebase and it went
+through and you know like controlf you
+did not need 4.7 for that
+>> right so I don't think that's completely
+solved yet because this is sort of like
+exact same idea like the journey from
+capex to topics like we don't know when
+when one should be applied where like
+like in other words preventing you from
+using it in the first place is very
+limiting. We don't want to do that but
+we also don't want to get to a point
+where you've blown a million tokens for
+>> which color of mauve is the best. Okay.
+>> Yeah.
+>> Right. Um, and so
+I we're at a point where especially with
+meta harnesses and especially with
+things like UNI gateway that now we at
+least have visibility and some form of
+control.
+Um, one of the things that we've been
+experimenting on and you're going to see
+some of it show up actually in OB
+itself. Uh, because we've been
+experimenting internally first because
+we want to see how many engineers are
+going to kill us, right?
+um is the idea of where do we auto
+choose for you based on the questions
+that's being asked right but that's
+itself is hard and that itself may
+require us to use an LM to make the
+choice so do we just shift the token
+usage that way right but this is where
+like a old good oldfashioned machine
+learning may kick in for us again
+>> yeah you get a little
+>> you know how RL's back in vogue again
+which is it never should have not been
+in vogue by the way but you get my trip
+right's back in vogue it's Oh, that's
+cheaper. That's faster. That's better.
+Yeah, we've been saying this pretty much
+the entire time, guys. But yeah, so goes
+back to the same idea. Machine learning
+is back in vocal. No, a lot of these
+types of questions though, like in terms
+of the complexity of the question, you
+can literally use good oldfashioned
+machine learning to make the choices. So
+that's why I'm saying we can we're
+definitely seeing trends like that to
+help with that process. And ultimately,
+however it's done, the key thing to your
+point is like is that for example with
+Omen, there isn't changing the codebase
+to choose. It's literally click and it
+automatically chooses for and it you
+have the the dropown list of which one
+to go with in the first place for
+starters. And so what we're hoping for
+is by the time we're done with
+everything is that once we get into some
+good patterns around that,
+we actually tell you up front, we're
+going to switch to Model X,
+>> here's the reason why, and let it run,
+>> right?
+>> Well, as long as it if it fails, it will
+retry with a better model, then I'm
+stoked because I don't have to spend my
+time being like, ah, this doesn't really
+look that good.
+>> Right. Right. Right. Right. But then it
+goes back to like this is why we like
+Paulie so much and and Debbie because
+there's different versions of what it
+means to say it doesn't work if you get
+my drift,
+>> right? So that's why we like the idea of
+the the agents debating each other
+because then
+>> you can walk away, let the two agents
+fight each other out and basically
+Yeah. because they have enough context,
+they have enough memory, they can
+actually figure out, okay, there there's
+a reasonable assertion here that
+actually because they're debating each
+other, you will get a result that
+actually works or at least even if it
+doesn't work, at least now you have the
+basis of why it doesn't work. So it le
+because in the end especially with how
+powerful a lot of these open source
+models are these days for me a lot of
+time it's ne it's less about which model
+I'm using nowadays and it's a lot more
+about did I provide the data the context
+the background
+>> the configuration
+>> the big thing is did I set up the
+correct loops did I give it what it
+needed to just be able to run for an
+hour
+>> so that I don't have to come back and
+that is One of them I think that's a
+great point is being able to debate and
+recognize what good looks like so that
+you can trust okay it's a smaller
+cheaper model but I know that
+the debate is going to happen and if it
+doesn't pass the sniff test then it will
+go back and it will loop again
+>> right and then this goes and why do we
+see yet another resurgence of eval all
+over again
+>> for precisely we're still talking about
+eval
+>> we have to Because in the end there has
+to be some numerical there has to be a
+number that allows us to state if what
+was created actually per evaluation
+actually is it's the old definition what
+is good it goes back to that definition
+over and over again right and so in the
+end like I said it's it's becoming more
+and more obvious that it's less about
+the models this is not a knock on any of
+the models just they're all really good
+now at the point that's what I'm just
+trying to get at and it's much more
+about okay now that I know the model's
+Good. What else is missing? And then the
+EV valves will actually help us figure
+that out.
+>> Yeah.
+>> Yeah.
+>> Yeah. That how can I make this harness
+topnotch?
+>> Exactly. 100%.
+>> I think the auto model choosing is the
+way to go because if it is left on to
+the developer, they're never going to
+choose a shitty model or
+>> No, no. They're always going to choose
+the best model because it's a
+psychological thing. You're like, "Ah, I
+need to do this because what if it
+encounters something in this run that it
+needs the power? Let's just let's do it
+just in case it's a few extra cents or
+dollars depending on what
+>> Yeah. I mean, if a few extra cents,
+we're probably okay with it. It's the
+few extra dollars or hundreds of dollars
+>> and unequivocally. No, you're not wrong.
+I You're absolutely right.
+>> And I think like this is part of that
+story for us. Like it's that's part of
+the story why we made it open source
+because we're going look we're not
+pretending we have all the answers.
+We're just pretending we're just stating
+the fact that this is the problem we
+faced internally.
+>> We want to share this with the world so
+that way y'all can
+>> like we can all work together to get to
+that solution that you're talking about
+which is like yeah how do we do a proper
+auto model right? How do we how do we do
+a proper thing? So that is absolutely
+100% vendor agnostic.
+How you know what I had a question with
+because certain harnesses have certain
+ways of expressing their harness, right?
+And I'm thinking specifically like in
+Hermes and Open Claw, you have the soul,
+but then in Cloud Code, you don't have
+that. How does this meta harness of omni
+agent act when you're running these
+different
+shapes? So the the TLDDR is that the
+root you you remember the DSPI project,
+right?
+>> Yeah.
+>> Right. The root of a lot of our
+learnings is basic from DSPI in the
+first place which is the idea of how do
+you how do I go ahead and allow myself
+to functionally run these queries
+against all these different models that
+actually instinct that actually have
+different ways of running in the first
+place,
+>> right? Different parameters, different
+weights, different everything, right? Um
+and so with that the TLDDR is
+we started looking at the systems that
+we're integrating with and we tried our
+best to basically take an account of
+each one and so that way any integration
+we have basically takes an account of
+like what each one is strong at at the
+code level right at the config level
+>> but the I it would be remiss with if I
+didn't also basically mention the fact
+like that's actually why we're reaching
+out to a lot of these both the model
+makers and also the harness makers
+because we're going look we're not
+pretending we got it right. We're
+pretending we got a good start. That's
+all we're saying right? We'd love to
+work with you to make sure we have
+configured it the best to represent you
+know your particular model your
+particular harness the best because yeah
+we're we we're not pretending we
+understand it all. We're just simply
+saying that as you can probably guess
+we've used a lot of them.
+>> Yeah. So we we've incorporated as much
+of that knowledge as we possibly can,
+but that still doesn't replace the fact
+that there are people in these other
+who've created the hardnesses themselves
+or created the models themselves. They
+would know better than us. Fair. And
+again, why is an open source project? So
+you get to look at the code, tell us
+what we screwed up on. We want to go
+ahead and work with you to figure out
+how to make it better. Simple as that. H
+you you know what get gives me this like
+visual in my head of almost
+like you have your different harnesses
+and so uh the outer harness we could
+consider like the MCP servers that I set
+up maybe I do memory in a certain way
+etc etc and then you've got the meta
+harness which is the it's outside of all
+these
+outer harnesses And that is where you
+have this way to almost like be an
+overlord of all your agents.
+So like if you're looking at a a
+circular thing like the inner harness
+and the outer harness basically outside
+layer of the onion. Yeah. Yeah. Yeah.
+>> Yeah. Exactly. It's it's the onion or
+it's the earth with the different like
+rocks that you
+>> core mental shelf. Yeah. The magma
+>> all of that. So that's kind of how I I
+visualize it. Is that the way that you
+would
+>> Is that a good way of thinking of it?
+>> Oh, absolutely. I mean, look, everything
+we do
+business-wise, development wise,
+whatever else we we're always trying to
+figure out ways to abstract it,
+>> right? The reason for the abstraction is
+because it gives us flexibility. It
+gives us open standards. It gives us the
+ability to go ahead and like simplify
+said business logic, right? In so that
+way you're able to focus on the real
+problem, not on the little problem. I
+mean, if if you and I were having
+discussion
+five years ago when Chat GBD just came
+out, right? You and I would have
+definitely been
+debating on things like what were the
+weights,
+>> what were the hyperparameters used,
+>> what's the prompt,
+>> right? Right. We are we still having
+those debates now. Some damn good AI
+researchers, of course they are because
+they're trying to improve the models,
+right? But you and I as users of these
+systems, we're not having that debate
+anymore. We were barely qualified to
+have that debate then. We're certainly
+not qualified to have that debate now.
+Right? And so, but what what can we do?
+We can talk about like how to
+effectively use agents, right? Well,
+remember what I just said, effectively
+use agents, not effectively use LMS,
+right? Because we've already accepted
+the fact that like whether it was called
+compound AI systems before or whatever
+else afterwards. The reality is like the
+agent is basically not just the LM, it's
+actually a lot of the things that are
+around it as well, right? And then us
+saying harnesses. Yes, exactly to your
+point. like whether it's an MCP server,
+it's a CLI, it's reading a a JSON from
+somewhere, an XML from somewhere,
+hitting a database, whatever, whatever
+it's doing, doesn't matter, right? The
+point is that we're trying to figure out
+how to make these things portable and
+stateful. Well, guess what? That is an
+old-fashioned
+business database problem that we've
+been doing since the 60s, right? Like,
+why are databases back? Like why why do
+we talk about like serverless Postgress?
+Why data bricks talk about lakebased and
+neon? Why? Because literally we have to
+have cheap stateful memory for these
+agents to run right as simple as that,
+right? Well then if I have cheap
+stateful then I'm like okay what's
+stateful? The best thing is a database.
+Cool. Why is poster SQL? Why is there
+resurgence? I I would argue there never
+was a drop in the first place. That's
+what I would argue actually. But
+irrelevant of like you want to call
+resurgence or not, the premise is that I
+need something that's trustworthy that
+can keep state. That's it. That that and
+so that's never left us. And I mean like
+remember I was like former SQL server.
+So like I'm going yeah like the database
+is still there. It's no matter what
+we've done, no matter how much we've
+talked about lakeouses, which obviously
+I'm a big fan of. We're talking about
+agents which is the the two these days.
+we still need something called state.
+Well, that state is databases and then
+guess what? That's if you can make it
+cheaper, you're more successful. Well,
+that's how these agents have run. That's
+how all these systems work where we're
+just abstracting it away and then
+storing what needs to be stored, i.e.
+state so that way you can be effective.
+And so everything when it comes to like
+how we started with databases before BI
+ETL pipelines it's the same action plan
+right with agents right now which is
+like how do I modulize this how do I
+make it portable
+and then for a bunch of us how do I make
+it open so that way it's easy for you to
+move from one to the other
+Baby,

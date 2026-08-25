@@ -1,30 +1,78 @@
 source: lennys-podcast
-refreshed_at: 2026-06-02T00:38:29.665Z
+refreshed_at: 2026-08-24T11:08:16.675Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 14
-done: 7
-pending: 6
+total_candidates: 13
+done: 9
+pending: 3
 episodes:
-  - id: tivaWTTVRhY
-    title: How Anthropic builds products like Claude Code before the AI models are ready | Dianne Penn
-    duration: 5100
-    upload_date: "20260726"
-    url: https://youtube.com/watch?v=tivaWTTVRhY
+  - id: YS9In813jJ0
+    title: 84 minutes of enterprise sales alpha | Jen Abel
+    duration: 5097
+    upload_date: "20260823"
+    url: https://youtube.com/watch?v=YS9In813jJ0
     status: generated
-    priority: 0
-    category: ai-tech
+    priority: 1
+  - id: BV0hy6NET-U
+    title: "Chatbots are not the final interface: OpenAI’s Head of Design on what’s next | Ian Silber"
+    duration: 4324
+    upload_date: "20260816"
+    url: https://youtube.com/watch?v=BV0hy6NET-U
+    status: generated
+    priority: 1
+  - id: zegYJ6dhIg4
+    title: The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor
+    duration: 5446
+    upload_date: "20260809"
+    url: https://youtube.com/watch?v=zegYJ6dhIg4
+    status: generated
+    priority: 1
+  - id: ruvis-VWg2s
+    title: This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)
+    duration: 5098
+    upload_date: "20260802"
+    url: https://youtube.com/watch?v=ruvis-VWg2s
+    status: generated
+    priority: 1
+  - id: t0GiTyz4syY
+    title: Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)
+    duration: 4327
+    upload_date: "20260719"
+    url: https://youtube.com/watch?v=t0GiTyz4syY
+    status: generated
+    priority: 1
+  - id: _cmpIveXnvE
+    title: Why the AI’s honeymoon is ending (and tech workers are feeling it) | Noam Segal
+    duration: 5789
+    upload_date: "20260712"
+    url: https://youtube.com/watch?v=_cmpIveXnvE
+    status: generated
+    priority: 1
+  - id: yQ_EWmtfWvQ
+    title: The rise of taste, human authenticity and judgment in an AI world | Adam Mosseri (Head of IG)
+    duration: 4109
+    upload_date: "20260709"
+    url: https://youtube.com/watch?v=yQ_EWmtfWvQ
+    status: generated
+    priority: 1
+  - id: P3KDebPTUrw
+    title: Why OpenAI is merging Codex and ChatGPT and the future of knowledge work | Andrew Ambrosino
+    duration: 4196
+    upload_date: "20260628"
+    url: https://youtube.com/watch?v=P3KDebPTUrw
+    status: generated
+    priority: 1
   - id: PoJ1vTdHpks
     title: How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries
-    duration: 5963
-    upload_date: "20260101"
+    duration: 5962
+    upload_date: "20260510"
     url: https://youtube.com/watch?v=PoJ1vTdHpks
     status: pending
     priority: 1
   - id: mCO-D3pkviM
     title: "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)"
-    duration: 5243
-    upload_date: "20260101"
+    duration: 5242
+    upload_date: "20260502"
     url: https://youtube.com/watch?v=mCO-D3pkviM
     status: blocked
     priority: 1
@@ -32,82 +80,21 @@ episodes:
   - id: -7Yol5vX5xw
     title: How to win when software is not a moat | Evan Spiegel (Snapchat CEO)
     duration: 4225
-    upload_date: "20260101"
+    upload_date: "20260426"
     url: https://youtube.com/watch?v=-7Yol5vX5xw
     status: pending
     priority: 1
   - id: _rcniEb9bLw
     title: The real AI revolution isn’t software. It’s farms, mines, and trucks. | Qasar Younis
     duration: 5064
-    upload_date: "20260101"
+    upload_date: "20260308"
     url: https://youtube.com/watch?v=_rcniEb9bLw
     status: generated
     priority: 1
   - id: twzLDx9iers
     title: "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham"
-    duration: 5517
-    upload_date: "20260101"
+    duration: 5516
+    upload_date: "20260104"
     url: https://youtube.com/watch?v=twzLDx9iers
     status: pending
     priority: 1
-  - id: O_W76LR77Vw
-    title: “I deliberately understaff every project” | Leadership lessons from Rippling’s $16B journey
-    duration: 5777
-    upload_date: "20260101"
-    url: https://youtube.com/watch?v=O_W76LR77Vw
-    status: pending
-    priority: 1
-  - id: J9982NLmTXg
-    title: Why securing AI is harder than anyone expected and guardrails are failing | HackAPrompt CEO
-    duration: 5561
-    upload_date: "20260101"
-    url: https://youtube.com/watch?v=J9982NLmTXg
-    status: pending
-    priority: 1
-  - id: 6qAB6aUMIeA
-    title: The new AI growth playbook for 2026 | How Lovable hit $200M ARR in one year
-    duration: 5516
-    upload_date: "20260101"
-    url: https://youtube.com/watch?v=6qAB6aUMIeA
-    status: pending
-    priority: 1
-  - id: RJjl1TwyfWM
-    title: "Tony Fadell: How to build real taste (and why AI makes it more valuable)"
-    duration: 5707
-    upload_date: "20260607"
-    url: https://youtube.com/watch?v=RJjl1TwyfWM
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: 4D3hDmGhFhA
-    title: "AI predictions: Job markets, Codex beats Claude, and the death of org charts — Dan Shipper"
-    duration: 5646
-    upload_date: "20260528"
-    url: https://youtube.com/watch?v=4D3hDmGhFhA
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: BD3vLtWhT5A
-    title: The most rational take on AI you'll hear this year
-    duration: 4790
-    upload_date: "20260531"
-    url: https://youtube.com/watch?v=BD3vLtWhT5A
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: Ybrl4FYM57c
-    title: What happens after coding is solved? — Fiona Fung (Claude Code & Cowork)
-    duration: 5925
-    upload_date: "20260621"
-    url: https://youtube.com/watch?v=Ybrl4FYM57c
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: 7eh9C3TUotc
-    title: The hidden pattern behind successful products — Mark Pincus
-    duration: 5963
-    upload_date: "20260614"
-    url: https://youtube.com/watch?v=7eh9C3TUotc
-    status: generated
-    priority: 1
-    category: update-2026-06-27

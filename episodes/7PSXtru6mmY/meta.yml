@@ -1,0 +1,30 @@
+id: 7PSXtru6mmY
+source: latent-space
+title: "Next 100x in AI: Inference, Networking, & Self-Optimizing Models — Philip Kiely & Ali Taha, Baseten"
+guest: "Philip Kiely & Ali Taha"
+guest_role: "Baseten inference engineers"
+published: 2026-08
+duration: "1h43m"
+url: https://youtube.com/watch?v=7PSXtru6mmY
+thumbnail: https://img.youtube.com/vi/7PSXtru6mmY/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - hardware
+  - chips
+  - interview
+  - engineer
+  - technical
+  - strategic
+summary: |
+  Philip Kiely 与 Ali Taha 从一条 200,000-token 请求出发，拆解 cache-aware routing、
+  prefill/decode 解耦、投机解码、量化、并行和跨节点 KV cache 搬运。对谈进一步讨论
+  视频推理的注意力瓶颈，以及训练、推理与模型自优化逐渐形成反馈闭环的可能路径。
+core_ideas:
+  - 长上下文推理首先是缓存、路由与 KV 搬运问题，单卡计算只是其中一环
+  - 量化、投机解码、PD disaggregation 与运行时优化叠加，才形成倍数级性能提升
+  - 生产级模型支持还包括量化校准、speculator、架构适配、真实流量测试与长期修复
+  - 推理工程正从 CUDA kernel 扩展到 CPU、GPU、NIC、存储与集群调度的系统协同
+  - 视频 diffusion 的时空 token 规模使长序列注意力迅速失控，混合 autoregressive 与 diffusion 是候选方向
+  - 产品 traces、训练 rollouts 与模型生成 kernels 正把训练和推理连接成持续改进循环
+base: /episodes/7PSXtru6mmY/

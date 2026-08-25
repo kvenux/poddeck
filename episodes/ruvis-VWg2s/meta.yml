@@ -1,0 +1,29 @@
+id: ruvis-VWg2s
+source: lennys-podcast
+category: ai-tech
+title: "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)"
+guest: "Tom Verrilli"
+guest_role: "Chief Product Officer at Whatnot"
+published: 2026-08
+duration: "1h25m"
+url: https://youtube.com/watch?v=ruvis-VWg2s
+thumbnail: https://img.youtube.com/vi/ruvis-VWg2s/maxresdefault.jpg
+status: generated
+tags:
+  - product-management
+  - productivity
+  - startup
+  - ai-products
+  - interview
+  - product-lead
+  - strategic
+summary: |
+  Whatnot CPO Tom Verrilli 解释了为什么产品管理不应成为每支工程团队的默认配置：PM 应围绕公司级问题流动，资深管理者继续做 IC，一线团队则保留直接理解用户与做出取舍的练习。AI 让数据、代码和用户现场更容易被同时看见，但真正被放大的仍是判断力、系统思考和对 ground truth 的追问。
+core_ideas:
+  - PM 是靠练习形成的专业手艺，但过度专业化会削弱工程师和设计师的产品判断
+  - Whatnot 每半年先定义公司必须完成的结果，再把约 21 至 22 名 PM 分配给具体问题
+  - 招聘降权 alignment 与 stakeholder politics，升权宏观系统感、微观执行和案例 defend
+  - 产品经理和高层重新回到 IC，产品经理管理者约九成以上时间仍在做一线工作
+  - AI 把数据分析、代码理解和实时用户观察压缩进同一反馈循环，但不替代质量责任
+  - 手风琴式工作法要求团队在系统级思考和最小版本交付之间持续往返
+base: /episodes/ruvis-VWg2s/

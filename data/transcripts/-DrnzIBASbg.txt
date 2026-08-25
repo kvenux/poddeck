@@ -1,0 +1,1393 @@
+Good morning everybody. We have a very
+interesting topic today on loop
+engineering and it's going to be a very
+hands-on session in terms of we're all
+going to be chatting about real world
+experiences. All the speakers are we all
+have a little bit of time to talk. I
+will let Spar take you through who's
+going to speak when and then we're going
+to open it up for you to do the same.
+There has been talk in Spar. I don't
+know if we agreed on this to have a
+follow-on session where people could
+take the ideas from here, implement
+them, and then we come back and actually
+let people show what they've done just
+the way we're about to. Um, have we
+decided to do that as a follow on?
+>> I am not a
+>> Okay, then leave that alone. But if
+people are interested in doing that, put
+your notes in the comments section and
+we will see what the vote is. So the
+guiding principles today for a very
+hands-on session is
+you are we all are here to learn. We all
+are here to contribute
+and basically the more you put in the
+more uh you will get out of the session.
+So we have some rules. Number one, this
+is a no judgment zone. That is no one
+should be afraid to ask a dumb question
+because there are no dumb questions. And
+let me tell you something, you'll find
+out in my presentation. I'm probably the
+master of dumb questions. Okay? So, it's
+as much giving me freedom to ask a dumb
+question as all of you. But the fact is
+there are no dumb questions. This is a
+safe zone, no judgment zone. And so,
+everybody please realize that and bring
+that attitude to the table. There is a
+document. It is in the chat and I will
+put it. in the slack and I will put that
+in the chat as well where we take Q&A.
+It's all based on first come first
+serve. So it's like a stack, right? The
+first person's question gets answered
+and we move on from there. And so you
+can find that document um as soon as I
+chat put it in the chat or you can find
+it in the Slack for the reading group.
+And that's basically it. So feel free to
+ask questions and sparse let them know
+if they can interrupt us. I don't know
+I'm happy to be interrupted but not sure
+everyone is. So go ahead and take it
+away.
+>> Oh sure. Thank you very much father for
+that.
+I think it's more of the way how I
+believe it's more of a interactive
+session. Not exactly when the speaker
+starts but in between when they give
+some inputs maybe let's have more of an
+interactive session today.
+So starting off with some uh today we
+are going to talk about something that
+really interesting and that is the loop.
+Every time I go on the Twitter I go on
+the X I hear the same thing again and
+again.
+I don't write prompts anymore. I write
+loops
+and before we dive deeper into this
+thing the way how we are going to set up
+the agenda for this thing is the first
+is to understand what exactly are we
+talking about here when we say loop
+engine how we exactly go
+the reason why we do that because we
+want everyone to start from the same
+page that would be the second part or
+the second segment of the session for
+today where we would have some really
+great practitioners who come and share
+their experience on how they started to
+build some of these systems, what are
+the good things that they have done and
+where you can improve to make your
+systems better and then finally it would
+be more of an open discussion where
+everyone can pitch in share their own
+thoughts and share their experiences.
+Now coming back exactly to what where we
+started. I don't write prompt anymore. I
+don't prompt my cloud. My job is to
+write loops.
+Is this a new buzz word in the town or
+is it some sort of a fundamental shift
+that we have to understand start with
+the journey that brought us here. We
+wanted to solve our software problems
+and to industrialize the process of how
+we do the software development. We
+started with prompt engine. It solve one
+problem that expo then expose new ones.
+Move to context engineering. It solves
+some of the problems. Then again new
+problems emerge. Then harness
+engineering and then finally the loop
+engineering.
+The whole
+higher vision that we are talking about
+is we are industrializing this process
+of software development. We started with
+it promps and now we are moving towards
+building these software factories. But
+how did we exactly came to this point?
+Let's understand a brief of the journey.
+First came the prompt.
+We started to define the prompts and
+give it an ability to think. We give we
+give an input, it thinks about it and it
+gives us an output and you were very
+fine what exactly does happen
+which brought to one of the problems
+that when you're looking for complicated
+workflows what if prompt or the model is
+not the problem but model having the
+right information is the problem.
+That brought us to the second part of
+the engineering that we sometimes call
+the context engineering. Now to solve
+this problem we gave the tools the
+instructions
+everything to the model and we thought
+our problem of building this software
+factories of automated software develop
+is done is fully solved. But still it
+brought us to new problems that whatever
+software we built we build in these
+environments production environments
+that we have and even in the context
+engineering we were still verifying what
+is happening in every turn. Sure we were
+able to see a few things which were
+working but still for working and
+automating these long horizon tasks we
+are not yet there. And then finally came
+something that we all talked about a lot
+harness engineering.
+Now we not only gave the model the
+internals but we also gave the model the
+external environment the whole
+scaffolding for the model or the system
+to being able to do everything by
+itself. And this was like being blown
+away what claude code is able to do or
+some of these harnesses are able to do
+that you give them a task and sometimes
+they do that uh cognitive planning they
+do some sort of a uh higher gal folding
+and in the end give you the code give
+you the full-blown feature still the
+issue with this is we were we are still
+verifying what is happening after turn
+after every turn we see if it's right if
+it's wrong. If it's not right, then we
+fix it. Repeat the whole process. But
+this is where things started to get
+interesting. We started to see few
+things we have started to do on repeat.
+We made skills for that. We made sub
+aents for that. We started to have
+initial versions of work.
+Then finally
+gained the point where we realize what
+we make the loop or the feedback loop
+smart enough that it can verify and
+optimize itself. That is where we start
+with looping it.
+Now the model is not the only thing
+that's smart. It's a feedback loop that
+is smart enough that it can verify and
+optimize itself such that finally at the
+end of the day we are getting a
+full-blown feature or a full-blown
+product and that's where we start to
+industrialize the whole software
+engineering. It's an era of building
+software factories
+and here we are no longer verifying what
+exactly is happening. we have shifted
+the parcel or the main thing to the
+verifier or or the optimizer of the
+feedback that we have and system is now
+so good that we have built this feedback
+loop into the system. Now in today's
+session we have some really interesting
+people who have not only read about it
+but who has started to implement these
+things in the production environments
+that they are working on and they'll be
+sharing some of the great insights of
+how they did it and how we all can get
+started.
+So let me call upon the first
+practitioner that we have right now
+within us Arthur to the stage.
+All right, let me share my screen. I'm
+going to blow through this pretty
+quickly and if you have any questions
+and also I am just now hitting the
+button to put two documents into the
+Slack channel, reading group channel
+that are for you to keep that may be
+helpful to you. They're my working
+documents, but I think you'll find them
+interesting and they can work as
+examples for you. Now, what I'm going to
+do is I'm going to talk about where I
+started because unless I talk about
+where I've been, it's hard for you to
+understand where I'm going. Secondly,
+I'll talk about my plan and then from
+that I'm going to talk about what I've
+already learned. I haven't finished this
+yet. I'm in the midst. I started last
+Wednesday when we were doing this
+session and said I would go as far as I
+could go in the time that we had. So,
+let me start with some numbers.
+109,895.
+That is the number of lines of code that
+Claude, not me, has written since
+January 1 when I started my project.
+Now, I am not a production grade coder.
+I've been a chief product and
+engineering officer. I'm a data
+scientist. I write in Python, but I have
+never written production grade
+enterprise code myself. And as a result,
+but I'm building a production-grade
+platform to run for hundreds of
+thousands of people. It has an SDK. It
+has APIs. It's got all sorts of fancy
+architecture.
+And so it needs to be stable. It needs
+to be scalable. And it needs to be
+secure. And I certainly have never done
+that. And I don't know that I can trust
+Claude or anyone in LLM to do that. And
+so I've had to depend on my harness to
+make sure that that's the case. All
+right. Now, I'm going to take you
+through the evolution of that harness
+very quickly because of time. And I'm
+going to talk about where we're going
+from here. But there's some other
+numbers.
+1233. That is the number of hours that I
+put into this since January 1. That
+means I've written 89 lines of code per
+hour. Now, I have no idea if that's good
+or bad, but I bet the enterprise folks
+who've worked in big enterprise
+engineering teams, if they only wrote 89
+lines of code per hour, they probably
+wouldn't have a job in a year. So, I
+feel slow and I also feel burdened and I
+want to go faster. All right. So, let me
+tell you how I evolved the harness. And
+I'm going to go through this very
+quickly and stop on only a couple of
+points because I want to share a couple
+of things that I think may help you. I
+started with a very simple site just to
+test things. It was a file upload site.
+I did vibe coding. And by the way, you
+may think of me as a vibe coder. If I
+am, I'm a pretty damn sophisticated vibe
+cober coder, but I just did this the way
+you do. Threw it out there. Did it
+without a spec. Got it built and merged
+and pushed. Great. Except what I learned
+was that Claude while writing code for
+the next thing I wanted fixed would very
+easily break what has already done. So
+lesson number one is you needed
+regression testing up front. And so we
+did that and I evolved with putting in
+architectural plans. Then I had to do
+validation testing and the reason is I
+was writing along and for example I
+noticed that Claude was hard coding
+variables. Okay. And it's like, hey, I'm
+not the greatest coder in the world, but
+I know that a variable like that should
+be in a config file that I can easily
+change and is used in all places. And I
+thought Claude knew how to do this. So
+now I'm starting to have to write
+validation tests. I'm writing them as
+Python tests and going forward. And then
+I get into more formal ticket
+management, typical board management,
+deciding epics. What I found was that my
+epics, and I'm still finding this, that
+we get in the middle of them and they
+grow. things I didn't anticipate, things
+I find that Claude did wrong, and
+suddenly this epic gets pretty big and
+breaks lean principles, and this is one
+of the things that I really want to fix.
+So, as I built the validation,
+at one point, Claude is still doing dumb
+stuff, and I'm seeing stuff that I don't
+like. So, I said, "Time out. There must
+be software that's out there open source
+for a QA platform. There must be best
+practices. Let's go research that." And
+so what I'm going to do here is bring up
+a what is somewhat of an eye chart. And
+I hope you can see this because I'm
+having to work over here. And what I did
+is I built a And this is the doc one of
+the documents in the in the um uh chat.
+Um I looked at two things. What did I
+want to QA for? What are the things I
+was worried about? And you can see on
+the list sort of what they are. um and I
+can hardly see them but this is the list
+of things like maintainability is one
+and then these are the steps in the
+process where I wanted to implement
+those chain implement those quality
+controls and so what I ended up with and
+this is a bit of an eye chart don't
+worry about it is this is the steps in
+the process these are the things I
+wanted to optimize for these are the
+code packages that I found that would
+solve the problem at that particular
+step I spent two weeks taking that and
+putting all of those code packages in
+and putting the processes in. The yellow
+ones haven't been done yet, but the
+green ones are actually in place. And
+the problem that I found is I put it in
+place. I put it at push and push would
+just like die. So, where I was was this
+issue of the QA harness that I took two
+weeks to build and it blew up my
+process, my push process, and I'm just
+starting timing again. So I had to pull
+it out. I do run it manually now with a
+little bit of changes. So that was um
+and I need to bring this up over here.
+Sorry. That was uh one of the learnings.
+And then I was still getting code that
+I'd find things that were wrong. And
+this is one of the most important things
+that I've done is to create a dialectic
+where Gemini reviews Claude's code in an
+ant and adversarial way. And what they
+do is they, you know, Gemini is very
+arrogant. It'll say, "Oh, Claude doesn't
+know what the hell he's doing." Not that
+quite that way, but pretty close. And
+they'll argue until they reach
+consensus. And that made it get better
+code. Definitely more stable and more
+scalable. And what I ended up doing is
+automating that. And now I use Gemini
+and Fable. And I mention this because
+Gemini and Fable work at two different
+levels. Gemini is very good at the lower
+level of architectural review and
+implementation review. And Fable's much
+better at the big picture. And what I'm
+finding now is between the two of them,
+I get even better results by having all
+three of them doing it. Yeah, it's a
+little expensive. And I don't let I
+mentioned before in the chat that I do
+not let these guys go off and run
+totally automated and I won't for a
+while because yes, a couple of days ago,
+Fable ran started 75 freaking agents in
+parallel and burned through all my
+tokens in about 10 minutes. And that's a
+lesson learned. That's why I don't trust
+them. So then at the end I'd get code
+that came out and I'd put it into then a
+postc code review before push and let
+Gemini look at it and now Fable and they
+would come back with 10 things and I'd
+end up in this loop where I had to go
+back redo it go back redo it and then we
+go to push and even then there are some
+things that I have to redo. So this is
+my process today. Don't worry too much
+about it. I'll leave it up here for a
+moment. All right, but it's a 14step
+process. It's well documented. It's well
+defined. It's there's it is architected
+and is explained in detail in some of my
+architecture documents. And I am a manic
+person about documentation in case you
+can't tell. So the problem is it is
+still hugely painful and errorprone. I
+mean driving me utterly nuts. And if you
+knew the number of f-bombs I have thrown
+at Claude, if I ever did that to a real
+employee, I'd be fired in 30 seconds.
+What I need is a self-evolving platform
+to help me optimize, speed my process,
+and reduce my stress because the stress
+uh ask my wife when I come out of these
+things. I I am literally the other
+morning at 6:00 a.m. she was asleep. Her
+ba bedroom's like right there and I was
+about to shout to the world. I had to do
+it silently. Trust me, that is very
+stressful. So,
+what do I want to optimize now? I'm
+going to actually show you a different
+page because I think it's easier to see
+it there.
+Here, I hopefully blow this up a little
+bit. And so,
+um, the number one thing I care about is
+this code issue, this rework after I get
+ready to push where this code loop keeps
+coming back with the code review. I want
+the code right first time every time.
+And then there are 10 other things that
+are what I want to optimize for and
+they're here on the list. And some of
+them you may recognize like
+instrumentation should always ship with
+the code. And Claude is very bad about
+following that rule even though it's in
+his instructions. Okay. Before I could
+start Oh, here's the optimization loop.
+So my design debates that I talked to
+you about at the beginning the
+architectural implementation plans those
+are all documented in a file called
+integ implementation in a folder those
+go in as signals my code reviews now I'm
+keeping in the same folder they go in
+there's also telemetry I have built some
+and feedback that goes in and now we go
+to recognizing issues diagnosing them
+this is the loop proposing approving
+them I have to still manually approve
+integrate them measure and come back and
+At some point, this is going to get very
+um I'm not writing code. I'm not writing
+harness code. It'll write itself, but
+I'm not there yet. And I never will
+trust, at least not anytime soon, trust
+the AIS to work totally without me. And
+this is the point I'm going to come to
+in a minute. This is the real pain point
+is how you write the code and the
+integration code while you have to build
+a business. I'm only one person. So, how
+does that how did I do do both at the
+same time? So the other thing you have
+to do first I say I want quality code
+what is quality you know right quality
+can mean different things to different
+people and you have to define it for you
+okay so for me it's architecturally my
+code has to meet best practices in the
+industry a b this thing we have called
+our hexogonal architecture that our
+thing is built on it's the highle
+architecture it has to have separation
+of database layer from logic layer from
+presentation layer you think that's I
+mean I'm again not the great programmer
+and I think about that my first business
+cla did not do that it was like duh why
+didn't you do that so I have to have
+that as a guideline there's this thing
+called miso level architecture the
+middle level etc I won't go into the
+details then follows code at a level
+deep code level best practices and this
+comes back to is my existing platform
+complete you saw that it isn't but are
+any of those yellow items are they
+really so important I need to stop now
+and put them in rather than keeping
+going. Um, it has to follow the design
+in the relevant architecture docs
+because I have a whole set of
+architecture docs. Then it has to follow
+the implementation plans and then whoops
+it can't miss. This is the problem.
+There are related issues that start to
+pop up in the middle of my epics. I told
+you that. And it's like no that
+shouldn't happen. You should identify
+all of those up front so that once we
+get into the epic it just flows and it's
+driving me utterly nuts. Then the code
+has to behave as expected. Obviously, it
+has to be clean, well documented,
+maintainable, and easily explainable to
+you if you were to come in and look at
+the code for the first time. I'm looking
+for a VP of head of engineering to
+partner with me, by the way. Anybody's
+interested, come talk to me. Um, and
+then it also has to be selfch check. It
+has to ship both with its tests and with
+the instrumentation and dentry and other
+things. and the UI. We have UX
+guidelines, believe it or not, or I do,
+and it has to follow those. So, here are
+the lessons that I have learned so far
+for what I've gotten through in the last
+week. First of all, like I said,
+identify what you want to optimize very
+clearly in as much detail as possible.
+Identify what quality means to you and
+your code. Third, and this is what
+starts to happen. You have to identify
+your failure modes that need to be
+handled. And what happens, you start
+this process, you start finding them.
+You start being aware of them. You need
+to keep them somewhere so you can make
+sure that they get fed back into the
+loop. And now I'm going to show you one
+other
+uh document, which again is somewhat
+chart, but this is the document I put
+into the Slack as well. And if you come
+down here,
+this is my design document that I'm
+using as a guide. And in this, let me
+blow up this.
+These are the examples that I find. So
+this is where I put my my problem
+children. And you can see it's listed by
+what area it covers. It captures what is
+the problem, what it thinks the problem
+was the cause, and then how we're going
+to handle it. And those are three things
+you should capture. Those three things
+you should capture for everything that
+you find and categorize them because
+you're going to come back and try to fix
+those because now what you're going to
+do
+is by the way before we go to the next
+step is you probably already have built
+a great deal of this. I went to do this
+in the document that you saw and Claude
+said, "Oh, you already built a lot of
+this." I was like, "Oh, wow. I'm smarter
+than I thought." And so there you go. Um
+and it's about building a loop now. So
+most of you have already built a lot of
+this. So then you write the plan. That's
+what I put into the Slack and what I
+just showed you. And that's where these
+failures come in because you can now
+identify very clearly each failure mode
+to create a detailed set of
+implementation approaches and options
+that you will then come back and work
+through. You need to have very clear
+metrics of success. What is success for
+that loop? And identify the enforce.
+This is really important. Identify the
+enforcement mechanisms for each loop.
+Cloud is great at building things like
+tests and then it fails to build the
+rest of it which is the enforcement that
+actually makes sure it runs. I've been
+through this so many times. I'm so
+pulling my hair out. And then issues for
+implementation you there. It's not one
+loop, it's multiple loops. Do one at a
+time. Go for your optimization. And more
+importantly, this is the one that's
+really scared me. Going back to my point
+about integration,
+in the last two days or three days, I
+have written more QA tickets around the
+things I found that are wrong as I've
+been building the loops than I've
+actually written tickets for the code.
+Just like when you write code and you
+put it into QA, you get the expansion of
+tickets and then it shrinks before
+release. It's exactly the same thing
+here. Now, I don't know how I'm going to
+handle all those tickets. It's one of
+those things I have to work through, but
+it will happen to you and you need to
+come prepared for that. I am done. I'm
+sorry that I had the interruption. I
+hope I didn't run too long and I'll turn
+it over back to uh Spar.
+>> Hey, I think we're we're gonna
+transition to Val. I think you also have
+a demo you want to show.
+>> Yeah, we'll share my screen.
+Welcome, David.
+Glad you made it.
+>> So, while
+um Arthur had like his
+real life experience of uh building
+these loops, I'm just going to share
+some toy experiments I've been doing in
+order to kind of understand this topic a
+bit better. And um
+uh
+I'll just walk through it and hopefully
+you will get some insight into into the
+topic if you if you haven't been working
+on it every day since January like some
+of us. Um
+so what is it about? uh loop engineering
+can be viewed as automating the human in
+the loop and the development of coding
+agents in the last couple of years has
+like been a lot due to this. So
+we originally or like couple years ago
+would maybe ask uh chat TV for coding
+assistants and then we'd copy paste the
+code and integrate ourselves and we got
+systems like cursor
+but and we do individual
+u individual
+coding tasks but we were always really
+managing it and then more recently
+people started using quad code and other
+similar systems where a lot of this has
+been automated. Um, so I decided to try
+to like do this myself using some open
+codes which is an open source cloud
+something similar to cloud code
+um where I added some loops around uh
+code coding agent and an outer loop
+around the whole thing. I'll show you
+here. The goal is to take away the tasks
+that the human in the loop usually
+handles
+and giving it to the system. What I did
+was I tested on the deep software
+engineering benchmark. It's what they
+use to evaluate coding agents like the
+usually comparing models but here I keep
+the same model but just tried a couple
+of different kind of orchestration
+systems around it or like I thought of
+it as loops where you have like review
+and uh
+so it's basically things that I think
+cloud code does behind the scenes but I
+was just tinkering with it and deepsw s
+task is um a benchmark of real GitHub
+tasks where you have a repo with uh an
+issue that needs to be fixed and we have
+that as like labelled data we because we
+it problem has been fixed by developers
+and it's made into a benchmark where
+where you can evaluate the agent and how
+good it is at patching the issue
+and so part of all this I start to think
+of coding agents in some abstract way. I
+like to think of it in terms of just a
+controller. There's like a system and
+you have a controller that wants to
+steer the system towards a specific goal
+and the controller which is the coding
+agent can make observations of the
+system. It gets feedback from testing
+and makes actions on the system to try
+to steer it in the right direction. And
+uh
+um
+yeah, some simplified things for me
+doing it this way instead of just
+thinking of
+code agents and all their jargon.
+What about the loops? So when you want
+to work on an issue in your codebase,
+you first need to discover it. You know,
+it's discovered somehow. And that's
+something you can automate by having a
+review agent. uh review the repo and
+find the problem
+and once you have the issue you to like
+observe
+the the system figure out what's wrong
+with it make a plan and then there's the
+implementation loop where you implement
+verify review and repair again and again
+and finally confirm it
+and what I would do in the past is you
+know make the plan probably with
+assistance with the coding agents uh
+agents assistance and then leave the
+implementation step to the
+coding agent and then verify myself.
+But in this experiment I'm trying to
+automate that. like to enforce a
+planning step in the beginning which I
+call prepar preparation
+uh row here where there's we use open
+code to
+make the plan
+and make it testable in a programmatic
+way
+and then we can also use open code code
+to uh run this loop of repairing
+verifying and reviewing using an
+independent reviewer
+and
+Yeah, open code was cool. I hadn't used
+it before. You can set permissions for
+the agents. We have a special research
+agent, implementation agent, and a
+review agent. They have uh
+these gift permissions where you can
+make sure that the
+agents do only what they are supposed to
+do. Maybe they're only reading and
+writing documentation, not editing.
+and uh put all of this into the
+control flow around the coding agents
+where first there's a prep preparation
+exploration phase where a permission
+locked agent reads the repository and
+writes a machine readable plan before
+any code is changed
+where you know the the controller needs
+a good map of the system before it tries
+to steer it the right way and uh this
+improved the results a bit on the deep
+software engineering uh task that I
+tried. This is not like a proper
+scientific experiments with reliable
+results more just tinkering and
+understanding a bit how you can add
+control flows and loops around coding
+agents.
+So don't have like a proper scientific
+results here but that helped in my
+tests.
+And then there's the verification loop
+where instead of me asking the agent to
+verify the results being in the loop
+like he codes something
+I had programmatic tests generated by
+the agent
+and um then
+I had an independent review run by a
+separate agent to tell if the step which
+is currently being implemented you know
+the feature involves maybe five
+different steps. to finish, but it would
+check every time uh if if the step is
+ready and uh repair what needs to be
+repaired.
+And thought it was kind of cool to have
+this just control flow or like coding on
+top of agents. Instead of function
+calling, you have this agent tasks like
+first you make a plan uh based on the
+task specifications.
+Then for every step of the plan you
+implement,
+verify,
+observe and retry can have set
+limitations on how often you you reach
+to not like spin it on forever
+resulting in a
+updated repo that's
+probably fixed or hopefully fixed
+depending on the complexity of the task.
+And but to make it fully like what we
+usually call loop engineering. Now I
+added this outer loop on top of it
+because now I had this
+system that could do some coding
+uh using some like loops and control
+flow and verifications that I didn't
+need to touch.
+Uh but the the deepsw sme benchmark
+which I made it from is like um made to
+fix issues and get that but issues they
+pop all the time and so I played around
+with posting like a
+first like a web hook that listens to
+listens to a github's issues. If issue
+comes in comes in it would trigger the
+quoting agent loop to try to fix it.
+And then I made like an audit agent that
+discovers issues which you could run
+like uh every day or something to
+discover issues with the repo and
+address the issues and note down the
+learnings. That's an important part of
+building these loops is to persist some
+uh learnings every time. So it is
+somewhat continuous and it improves.
+Um
+and I guess this is what people are
+doing. This was in the
+Okay. U reading material we looked at
+for the for the loop engineering from
+Entropic where u you have this audit
+agent that
+discovers issues. It can be run on a
+scheduleuler, takes the issue and
+possible learnings from the past,
+puts it through the loop workflow to try
+to fix it and uh would finally push it.
+And that's about it. I was trying to
+have results comparing it this to like
+this vanilla
+way of just asking deepseeek to fix the
+problem but uh fortunately don't have
+scientific results
+and anyway this is me hopefully
+shed some light on the problem or the
+concept where you have loops around
+loopy workflows around coding hs
+with verification. We need to have the
+independent verification and review
+and um
+have a way to have a machine readable
+plan with machine readable tests and
+goals that you can verify.
+Um that's all for now.
+Valar, are you going to share your
+slides because these slides are really
+important. I think they're 10x better
+than mine. Can you put them in the slack
+or you know whatever you want to do
+because I people would like to have
+>> Yes. And that's another thing I've
+gotten used to doing is having claws
+generate HTML presentations makes them
+like
+pretty neat. Uh I think I can share this
+link.
+You know now I'm just asking somewhere
+in here while we're having the next
+speaker if we could do it that would be
+great. Yeah, I'll do it. And um
+do we now go into just a dialogue? We
+have 50 minutes left or do we have more
+stuff planned?
+>> Who is that?
+>> Who's next?
+>> I think that's about it though. Um
+Scarf, I don't know if there's anything
+that you wanted to talk about
+specifically about some of your
+experiences and the work that you guys
+are doing within your work or we can
+kind of just jump into questions.
+>> Uh yes, David, maybe I'll try to give a
+short quick three to five minutes. Yeah,
+go for it. Okay. All right.
+For us, we have started to build some
+sort of a early loops in the work that
+we are doing and what we realize the
+hardness that we have and the technical
+infrastructure that we have built was
+not enough for building these loopase
+infrastructure.
+And for getting started with this
+loopase infrastructure, we have to build
+a few layers of our own. Once everything
+was done, we built this observability
+layer.
+which gives us bird eye view very zoomed
+out view very zoomed in view of what
+exactly is happening in our system once
+we have that observability our systems
+or the agents that we are running they
+were able to understand what is
+happening at what place the second layer
+that we built on top of those was the
+eval layer now eval layer is very
+important I'll come to the fact why
+exactly is that and then finally what's
+observability we have evaluation We
+build this looping infrastructure on top
+of it and the way we started with it is
+building these inner loops and at some
+point we'll go towards the outer loops
+for us inner loops are somewhat LLM
+based and outer loops are somewhat
+deterministic or design based and now
+coming on to the different aspects of
+these layers the one thing that we
+realize even if we have built these
+loops if even if we spend more and more
+agents the output it doesn't get better
+with time It's the more doesn't make
+better. And the reason is everything
+boils down to the ir layer that we have.
+If you have everything in place, the
+systems needs to understand what to
+measure up, how to evaluate it and how
+to determine our system is improving
+over time. And once we understand those
+things, then we have to communicate not
+in a human way but in an LLM friendly
+way or agent friendly way. So that
+process stuff understands. Spar do you
+have see you're showing
+>> no I think Arthur I think in the
+>> okay
+>> in the sense of time maybe I won't be
+sharing the slides but uh the concept
+that I was telling about is observ
+building these layers observability
+evaluation and looping on top of those
+gives us a better control over the loops
+that we built and it helps us making a
+system more automated with
+And this is how we are starting to build
+the inner loop. And a lot of people when
+they talk about loop some things people
+already do that having these skills
+having these sub aents it's how then
+automate some inner inner part of the
+workflows that they have.
+Uh and while building this we have a lot
+of uh pitfalls that we ran into again
+and again. highlighting some of those
+who are mentioned by part one and if
+anyone wants to discuss I'll end back at
+the end of the session and share those
+maybe David we can go on with the next
+part of the
+>> yeah so I think that closes it out the
+goal was to like kind of like you know
+set like a shared mental model for
+everybody to understand like as you're
+starting to hear about loop engineering
+and whatnot like what does that mean
+where is that coming from even though
+there's a lot of things that you
+probably have been doing in your
+day-to-day workflows that kind of map
+back to these but now we're in more of
+let's formalize it stage and then um
+thank you Val, thank you Arthur, thank
+you Spar for kind of like just showing
+some demonstrations of you know what are
+the things that you're working with
+whether it's projects or in um your
+professional life uh that kind of
+demonstrate some of these things and the
+challenges that you're coming up with.
+And the last part of this what we want
+to do is kind of pivot this into the
+open discussion part. So if there's any
+questions in the group of or just things
+that like have been your experiences to
+give everybody like an opportunity to
+chat which is the whole goal of these
+conversations.
+>> David
+>> do this we have question we have
+questions in the word doc.
+>> Cool.
+>> And you want to just open do an open
+discussion first
+>> or you want do we could do part of the
+questions and make those as part of the
+open discussion. Right. So I guess we
+can kick those off. Um, and by the way,
+like this is meant to be like not like,
+hey, host have answers and then guests
+have questions. It's more of, you know,
+if you hear something that has a
+question and you think there's an
+interesting answer that you have, just
+raise your hand and you kind of
+contribute too. This is meant to be more
+of a round table.
+>> Um,
+>> I think the first question is really
+important.
+>> Yeah, go for it.
+>> You line the Jim who asked it, are you
+on? And could you please ask the
+question of the team in the group? Let's
+have a conversation on this one. This is
+one that I'm sure is on everybody's
+mind.
+Kim, you there?
+>> I see anyone named Jim here anymore.
+>> All right, then I'll ask the question.
+His question was really critical, which
+is doesn't loop engineering have huge
+burning costs relative to the way we do
+it today. I'm asking the question. I
+have my own answer. I want other people
+on this call. I want to learn from you.
+Tell me how you're handling this issue.
+You can raise your hands or you just say
+you want to talk.
+Personally, for my exper experiment in
+open code, I was using a free version of
+Deep Seek Flush version before. So, it's
+both. It's a cheaper model than using um
+you know, Cloud Opus or Fable. And and
+in my particular case, it was being
+given away for free. It would have cost
+probably a bunch of money to run coding
+agents running task. It was like
+millions and millions of tokens. But
+like of one thing is to use the cheaper
+uh open source models, but obviously
+that's not the whole answer. Just my two
+cents.
+Yeah, I think uh this is an interesting
+convers like the point that came up at a
+lot of our conversations internally too
+is um you know as you're you're getting
+to like building out those harnesses on
+your loop and figuring out like what are
+your breaking conditions and starting to
+kind of configure that as part of like
+each agent run right like number of
+loops etc ticks that's going to go
+through. Um for example like on tool
+calls like you know are people using
+like length views or anything that
+they're emitting um you know log runs to
+to also query against to get a better
+sense of like you know how much tokens
+are you burning or like what's the cost
+of this particular workflow and run and
+thinking about those as like SLAs's or
+SLI. Um so kind of curious if anybody on
+the call has been kind of experimenting
+with any of this and or avoiding jumping
+into it because you're not trying to
+like you know run through your GCP
+budget a day. Yes. So my uh thing is
+what like Arthur said that's what I
+started. So basically my thing is the
+task has to be like a binary tree task
+sir. That's my is shin interfere with uh
+whatever is happening. So let's say we
+got a front end you got a back end and
+you got a database layer. These three
+are different layers. These are not like
+same layer. So database architecture is
+the most critical part and what business
+it is solving.
+database should also tell what
+businesses is solving and the interface
+of it like what the properties are what
+they do
+then most important is I don't think in
+coding even if you have a very powerful
+system
+max two agents and front end max two
+agents at back end not more than that
+because it's a generative technology the
+probability increases a lot so it is
+always evaluating what changes it has
+done so let's say this file changed five
+lines then it will get confused what
+happened and when it gets confused if
+the loop is running it will create chaos
+>> right
+>> doesn't matter it's
+>> doesn't matter it's fable G gl GLM 5.2
+to or anything model difference doesn't
+matter that much so you have to be very
+very careful
+and one more thing I have found is in
+scaffolding create a scaffolding and
+tell it what each component it is so it
+will not create let's say extra new
+component for uh let's say anything it
+is because it always doesn't follow the
+MD variable doesn't matter it's fable
+max or fable in my view is not that good
+of a model actually because It it
+hallucinates a lot. It thinks everything
+you are asking is illegal.
+>> Yeah, that's true.
+>> That is true.
+>> Lot. So I was like trying to create a
+face uh verification app on it. So they
+gave me Yeah. So gap is doesn't matter
+if it's a six-month model also will work
+very well if you have given. So like
+other thing is what like I like the
+thing was on task. So what I found is
+there is a limit. Let's say let's say I
+created a real estate agent only. So spr
+engineering matters a lot more than
+because it has to know what is going. So
+uh like uh so it can so then things can
+be let's say practical acronym. So let's
+say I'm searching for New York City.
+Anybody can type NYC. So you will have
+to give it on some properties. What does
+that mean? NYC means new
+something like it you have to give it
+and on those properties you have to fix
+it and the prompt that there is it
+should have okay you should ask this and
+that and that and it should not be more
+than 8 to 10 things so let's say when
+somebody is asking for something there's
+a limit okay it will ask the price it
+will do on that basis it will do you can
+run parallelly many things like this so
+this task will be fully automated let's
+say thousand people ask it a million
+People ask when their complexity starts
+happening let's say thinking about a law
+or anything then human intervention is
+required loop there is a limit because
+once it gets a little off it will get
+off a little very easily
+with you and if you do not have long
+traces you will find the report very
+convincing that it is very good of a
+report there is nothing wrong with it
+everything is fine and when you go to
+the market you will have a problem so
+That from what I have found
+uh it really happens in my experience.
+>> Those are all really good thoughts tan
+they reflect some of my experience but
+I'm going to let other people talk
+because I do have one thing to add to
+this a very practical suggestion.
+Anybody else have thoughts beyond tan?
+uh I want to add is on what T and Adhar
+you mentioned. So for us we started to
+run in a lot of these things and what we
+did is we created some sort of reputable
+variant. Now even before our agent or
+any of the loop starts working it tries
+to verify all the assumptions that are
+made. So ideally before even starting it
+might burn two or 3x the total tokens
+that we are going to use. But as soon as
+the system starts writing code, starts
+doing things it at least in the starting
+50% of the cases it doesn't go wrong.
+The stronger rebutal we have the more
+tokens it takes at the start the but
+easier it makes our whole pipeline
+that is the planning mode that is the
+most important part
+>> I wouldn't even say the planning mode
+but we have built an anti to the
+planning that even in the planning thing
+how exactly you have your own
+independent verifier because as humans
+you look at things from a different
+perspective let's say I'm an architect I
+want to keep my technical debt as low as
+possible
+Okay,
+>> those are the properties or dimensions
+that have defined in those agent and
+that keeps the cost of like running into
+loops again and again lower.
+>> Yeah. Yeah.
+>> Templates are also we can template of a
+back end like back end some kind of
+template on a template for a front end
+that also works for you. uh some kind of
+components you have already built that
+can also help in future for it PB.
+What does fable do is basically it tries
+to view the design what is running in
+co-work mode and then basically it does
+the design on it. So if you have already
+in place in kind of some of MD format
+follow that a lot better. So you can
+have certain templates but let's say
+your company has some kind of a
+like a framework for some kind of back
+end and front end actually reduces
+hallucination let's say if you're
+starting a new project or something else
+also that's from my experience I have
+found actually helps uh doesn't have to
+make a lot of assumptions then
+all right let me add one thing then
+we'll go to the next question so the my
+dialectic that I mentioned this
+adversarial review um it's sort of a
+loop, right? Because it's automated and
+it runs on its own. I put in a m a piece
+of code that actually shows me after it
+runs how many tokens have been used. So
+if I were an enterprise doing this, I
+would have the code automatically
+generate that to a log file or to some
+report that I could look at for any
+group using the loop and then I would
+optimize it. So what I'm going to do for
+my loop engineering is I'm going to put
+that at every stage of that measurement
+at every stage and look at it and as as
+I go through it and start to see what's
+going on I will try and optimize it. My
+better optimization is go to open source
+but for now I want the higherend paid
+versions. So, if you do that, you can
+start to see where you're burning
+tokens, what kind of questions are
+burning the most tokens, and then figure
+out how to change your prompts to reduce
+it. Now, you can only go so far, Tanme,
+and frankly, if you ask me if it's worth
+the number of tokens, even if you burn a
+few extra, my answer is given what I've
+accomplished, um, I would argue that
+it's well worth the cost for the few
+extra tokens. But I understand where
+you're coming from.
+Okay, next question. Sorry, I forgot.
+Um, let's go to the third question. How
+has any of this different from goalgo
+command? I have no clue because I
+haven't used the goal command. So, does
+anyone first of all know what that is? I
+think you probably do.
+>> During that's right, go
+pickers during my talk.
+There's a goal command in cloud code and
+um I don't know how it works but it's
+probably similar to what I was doing
+where you have but there's different
+types of goals. So you can have like a
+goal evaluated via LLM which can be some
+kind of abstract go then you can have
+like programmatic formal verification of
+the thing and that's the more maybe more
+important one to be able to generate
+formal way to verify that the goal is
+there. I don't know if they do that in
+cloud code. I didn't like manage to do
+that really well in my tinkering with my
+open code stuff, but that seems like
+>> important thing.
+>> Yeah, my understanding is the same if uh
+if you're using claude and you use the
+goal command. Um it it kind of goes
+through those same steps um that are
+critical. You'll have a sub agent that's
+the verifier that they use a smaller
+model on and that'll essentially kind of
+compare like look at the output to
+ultimately optimize towards the goal
+that you're defining for it. They also
+have like a loop command, right? And the
+I think codeex has like its own version
+of these things. Now you have like
+automations and whatnot that you could
+define where you put these things on
+schedules and whatnot. But um yeah,
+those are those attempts to kind of like
+uh featurize them within uh the existing
+uh whatever your coding agent or
+preference tool is at the end of the
+day.
+>> Will it work to do this David or anyone
+else? Please people if you use this that
+we want to hear the experience. I'm I'm
+curious if it does the level of
+sophistication that I need it to do.
+>> Yeah. Um I that's where it's like I feel
+like if you're your average user, you're
+just kind of going through this and like
+using say cloud code for example of you
+know you're working on a work task, it
+makes kind of sense just to throw it in
+there and help it kind of like you step
+away hopefully come back and review it.
+You're still that kind of like piece in
+the middle. So I don't think it really
+gets to like the loop engineering piece
+where ideally you're kind of like having
+a Ralph loop that runs and you're
+keeping state from the previous thing to
+kind of hopefully continue to just like
+run this on some some cycle. But I think
+for a subset of tasks that you're
+probably working with every day. Um it's
+a perfectly good tool to to try to
+incorporate if you're building a system
+and you want to incorporate these into a
+system. I think that can sell a little
+bit towards the architecture and
+everything that we're talking about.
+Does anyone else on the call, not the
+speakers, have any experience with slash
+goal and its use for a loop engineering?
+Because I really, this is a great
+question. If you can build use a
+built-in tool, why not?
+Leo, you got anything? I see you're on
+the line.
+By the way, I asked Leo to come in and
+review my harness and see how I can get
+faster on top of doing all this other
+work. So I have very strong interest in
+hearing what Leah has to say.
+>> Um might be much boring while you all
+has been
+in a quad day. Foul
+>> I don't think cursor has anything for
+us. If you bring your own tool then
+that's actually pretty useful for it on
+how to keep through. And I think just
+like the planning and I don't know I
+think everything is a loop like just
+like how you I don't know like crew AI
+had everything langraph has been out for
+a while and that you know had agentics
+in the loop and it's just more as a lot
+of models become better at tool caller
+that the variety of models that you can
+pass things off to has grown. So um
+nothing too specific but roll has been
+useful on and off
+>> they have increased basically the
+thinking time. So they got two three
+modes for it. There is another that was
+released I'm forgetting the name of it.
+So what that does it means longer
+actually. So it does better. So they
+have found that basically if you
+increase the thinking time but evas has
+to be in place otherwise it will not run
+very well. can be bad also for each if
+the ul is not there get hope and what
+happens most thing is
+anthropic models have a thinking command
+in so when you give it prompt you have
+thinking this kind of stuff claude is
+very well built for that so that's why
+it runs very well
+if you can do it for other models also
+it will run open likes agents MD others
+also like agents MD open source models
+also they like have followed that also
+funny thing is every model tells you
+gives you uh reference to open AI and
+claude always even open source when they
+are giving you reference for anything
+also so that's what they have done with
+goals actually and claude cordex also
+has done that's it not much more
+difference
+>> okay we are at time we're five minutes
+over um I'm happy to let it go on but I
+think we should probably be good about
+time and let people do their thing. Um,
+I don't know about you guys, even as one
+of the presenters, I learned a
+tremendous amount this morning from this
+session. So, I want to thank our
+speakers. I want to thank all of you who
+participated. Tanme, Leah, great to have
+you chat. I wish more people would jump
+in in the future and we'll let you go
+from here. So, thank you everybody and
+talk to you at the next reading session.
+Thank you. So, thank
+you.

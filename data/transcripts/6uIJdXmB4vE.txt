@@ -1,0 +1,2563 @@
+We're living in crazy times. It's not
+going to be business as usual.
+>> This is an exclusive. Jacob Simmerman's
+first podcast. 10 days prior to filming
+this, he was awarded the Fields Medal,
+math's highest honor. That same day on
+stage, he announced [music] he's leaving
+temporarily to open AI and AI safety.
+>> I'm definitely grieving. I think he's
+going to hit math.
+>> That medal was for minimality, taming
+some monsters of geometry and analysis
+partially. This is the territory I
+explored with Edward Frankle on the
+Langland's program. Since most other
+interviews will dwell there, we decided
+to talk about something different.
+>> Part of me thought I would be in
+academia forever.
+>> On this channel, I, Kircha Mungle,
+interview researchers regarding their
+theories of reality with rigor and
+technical depth. We talk about so much
+in this episode, such as how AI is
+revolutionizing math potentially to its
+own death, what advice Jacob has for
+students graduating in fields where AI
+may be displacing them, and along the
+way, we bond over our shared comedy
+past, my standup and his improv, and of
+course, the University of Toronto. I
+think I'm leaving to do what I think is
+most important.
+You're grieving.
+>> Yeah. Uh, a little bit. I've talked
+about
+um how math is changing. You know,
+there's uh AI is affecting many
+different things uh about our world. One
+of those that's happening quicker is
+mathematics. That's a little bit
+counterintuitive I think to many people
+including me earlier on because
+one would sort of expect what humans
+find easier to be affected more quickly
+and math is generally seen to be one of
+the harder topics to broach but um
+because math is a closed system you can
+sort of think about math with just your
+mind you don't need experiments you
+don't need materials um AI has gotten
+very good at it in fact just I think two
+days ago uh OpenAI released the solution
+to 10 more conjectures. I don't know
+most of them very well. You know, one of
+them non-self groups, the construction
+of those is a very big deal. Um so yeah,
+there's something about,
+you know, math itself is going to go
+through a very exciting time hopefully
+because we're going to be able to do it
+in a much more powerful way. But
+mathematicians such as myself are used
+to a certain working style. And a lot of
+my working identity is tied to sort of
+having year-long projects, decade long
+projects sometimes, working at the
+edges, slowly figuring things out,
+having those aha moments, and I think
+that's going to go away. So, there's
+something about that that I think I'm
+definitely grieving.
+>> Are you concerned more for
+mathematicians than mathematics?
+>> Yes, at the moment I think mathematics
+is going to have to change. uh but I do
+think we'll navigate that change at the
+moment. I think as far as the field is
+concerned, it's more the people
+especially the young people who are
+going in sort of looking to do a PhD and
+to go about their business as usual in
+terms of the profession and I think
+that's being upended.
+>> So what's going to happen to math in
+four years? Is there going to be an AI
+fields medalist?
+>> No, there's two things about the
+question. One is that four years seems
+like an insanely long time to me. Uh AI
+is changing so fast that even
+speculating two years from now seems
+very very difficult. So uh I don't know
+is the main answer and I don't know how
+society will react because of when I
+when I've been saying these predictions
+of mine for a while now that AI is going
+to become robustly superhuman at the act
+of doing mathematics as we do it today.
+People often label me a pessimist or or
+they infer certain values I have about
+math. And really all I'm all all I'm
+saying is that I think this will happen
+and how society chooses to react is both
+a harder question and it's also not set
+in stone. We have the power to decide.
+Um so I'm involved in certain workshops
+in fact one next week where uh bringing
+together mathematicians of various
+levels doing various types of work to
+try and figure out how to restructure
+the field what it's going to look like
+going forward.
+Um, I think I mean it's so hard to
+speculate because when you speculate
+about the future, you're almost always
+wrong. Uh, but within that I think
+there's going to be a transitionary
+period where we're going to have to
+uh deal with the fact that AI is going
+to produce results faster than we know
+what to do with them. We're going to
+need to figure out how to categorize
+them. We're going to need to figure out
+where to point, you know, this immense
+power we're going to we're going to
+have. Um, and then I I can't imagine
+that we don't have something like an
+automated machine or an AI system just
+running math all the time. At least one,
+you know, looking making conjectures,
+solving problems, categorizing them,
+running them up, making definitions,
+just plucking it away, and just working
+at making math better and better. Uh,
+there's probably other parts to it, but
+yeah, hard to say.
+>> Did you watch the Odyssey?
+>> No, I didn't. Uh, and please, you know
+what happened, but please, no spoilers.
+>> I'm the same. I won't even see the
+poster. I don't even want to know who's
+in it. I don't want to know the genre.
+If there's a film that I like,
+>> I just want to see it. No spoilers at
+all.
+>> But have you seen Have you seen Epic the
+Musical? Have you heard Epic the
+Musical? Oh, I recommend it. It's a
+purely audio version
+>> of the Odyssey. Uh, it's very Anyways,
+it's very, very good. Back to your
+question. [laughter]
+>> Well, apparently the Greeks around the
+time of Odysius or maybe 400 years
+after, I forget. Mhm.
+>> They thought that the relics that they
+see around were so grand it couldn't
+have been manufactured by man. So they
+thought giants created much of what they
+saw.
+>> Mhm.
+>> Now what I'm wondering is a lean proof
+that you can't understand that no
+mathematician can understand. Is that a
+proof or is that the same thing as just
+it's being created by beings beyond us?
+There's sort of very interesting
+questions with AI around consciousness
+for example and around the nature of
+self and stuff like that. And that's a
+that's a very important and interesting
+conversation. I feel like it's being too
+tied in to the question of capabilities
+and concrete technical work and you know
+advance advancements um the sort of
+scientific process. So in terms of the
+proofs, one thing I'll say is
+it just has not been the case that these
+the machines are writing proofs that we
+can't understand. They're all uh
+building off of human work very much so
+like they never come from scratch so far
+and all their ideas while clever are
+very much things that we're sort of used
+to seeing. Um they're a bit more
+disorganized. So you know they they they
+the AI systems so far don't write up
+math work as well as humans. So there's
+a substantial process in rewriting. Um,
+but there's this question like you said,
+if somebody solves Remon, you know, and
+the proof is a billion lines of
+technically correct but impossible to
+decipher code, what do we do?
+>> Um, I I don't know in that case, but
+it's just not the world we're seeing. In
+fact, it seems like
+it's so hard to to say definitively, but
+um I feel like what we've seen should be
+a slight Beijian update towards the idea
+that human cognition is not as arbitrary
+as you may have thought. like it seems
+like the patterns that we notice and the
+way that we choose to approach subjects
+maybe just is sort of the canonical way
+to think or at least in part. Um now is
+there's counter arguments because the
+systems are also trained in our language
+and whatever. Um nonetheless I feel like
+it's a slight update there. So if they
+start printing out incomprehensible
+proofs I think it'll depend very much on
+what that looks like. Uh for the moment
+though it's just not one of the issues.
+I think a bigger issue is that they'll
+start turning out in principle
+comprehensible proofs but in a much
+faster rate than we can keep up with.
+Like even now, I mean, you know, I've
+been a professional mathematician for 20
+years. Um, I know my little corner
+pretty well. These 10 proofs open the
+eye released. I can't understand any of
+them. Not because it's magic, just
+because I can't understand most math
+proofs that aren't in my field without
+devoting a lot of time to them. So, if I
+picked one of them and I spent a few
+weeks and I really digested it, then I I
+probably could. Um, but uh but it takes
+time, takes work, takes effort. Right
+now, humans have this like huge division
+of labor because math is so broad that
+we're experts in our own little corners.
+And um it's funny within my field, if
+somebody proves something outstanding,
+they can communicate to me the main idea
+in maybe five minutes,
+>> right? like if somebody solves Remon
+right now and it's using anything like
+the usual methods, they can probably
+talk to me for like maybe 20 minutes and
+then I'll be able to reconstruct the
+proof. Uh because the language and the
+ideas are so shared. Um on the other
+hand, if somebody saw something in
+another field far away, we got to spend
+a long time sort of bridging that gap.
+So we're kind of spread very thin
+mathematicians across the domain of math
+as we know it so far. So I think I think
+what's going to likely happen is that AI
+will just start doing what humans would
+have done eventually but so much faster
+that it'll look like if I want to
+understand the math I'll be like okay
+well there's like you know 10,000
+results in this field which became five
+other fields and there's 500 results
+here and there if I want to any one of
+them I can if I want to get summaries I
+can but I just don't have the time then
+I have to start thinking how do we how
+do we organize this you know how do I
+get the main ideas Um, and I don't know
+what the answer to that sort of looks
+like.
+>> So, we both have a background in comedy.
+And Seinfeld said when someone was
+asking him, "Hey, what's it like to
+perform at a club versus at a stadium?"
+>> So, 100 versus 10,000 people. He said
+when you're treading water, it makes no
+difference if it's 5 m deep versus 5 km
+deep. There's just some threshold beyond
+which it's beyond you.
+>> Yes.
+currently on the archive even on your
+own in your own sub field I'm sure it's
+just beyond you to keep up with your own
+field so what is it then that AI is
+going to do that that makes it much
+different you have to start categorizing
+>> yeah so it turns out that that's that
+could be the case but it's not so I I
+basically know all the work being done
+in my you know few little fields like um
+unlikely intersections I don't know
+everything I'm not an expert in
+everything but but nothing will surprise
+me if I see a paper I can look at it and
+be like, "Okay, they're doing something
+like this."
+>> Mh.
+>> Um, I've got it all categorized. Number
+theory is wider than that. So, there's
+definitely work in number theory that,
+you know, is less familiar to me. But
+even there, I I kind of have a sense, I
+feel, of the main projects, you know,
+what they're doing, how they're coming
+at it. Um, so it's just not the case
+right now that I'm overwhelmed in my
+field. Um, if that starts happening,
+like I think what might start happening
+is
+how should I say I got my my award for
+for basically two lines of work. Uh, the
+Andre conjecture and the Griffith
+conjecture. Okay, that's two problems.
+Andreort I spent about 12 years on maybe
+13. Griffith I spent about five years on
+and that's you know I imported some work
+that I had done before. So if you count
+that then maybe 10 as well. Mh.
+>> So that's two project I spent 10 years
+on and I had those 10 years to basically
+get oriented, you know, kind of spread
+my arms a little bit, take my time,
+really get to know what's going on. Um,
+if projects start speeding up to the
+point where something like that takes,
+you know, a month or a week, then I have
+to reorient every week and I just I
+can't do that. I don't have the skill.
+>> I know you said predicting even two
+years out is difficult, but we can
+imagine that GPT6 is going to be
+slightly higher IQ or whatever is the
+domain that you measure it by for sure
+>> for math and for for or whatever other
+domains. So let's imagine GP GPT6 comes
+out one month from now. Let's imagine
+next year we have GPT7. What does that
+look like for mathematicians?
+[sighs]
+I
+>> mean that part is fairly I don't think
+I'm saying anything controversial by
+saying GPT7's coming out one year from
+now.
+>> Sure. Um
+yeah, I I think so. I certainly think
+what's going to start happening is that
+um I don't know exactly which GPT it is
+or cla or whatever,
+>> but I I think we're going to get to the
+point where
+>> um there'll be a brief period where
+mathematicians solve problems in large
+part by prompting LLM and then probably
+also adding our own expertise to it.
+Right now like I've worked a bit with LM
+throughout as they've improved the past
+two years. Recently I had a proof and
+found a mistake but it couldn't fix it
+but I could fix it. So there was like a
+real collaboration there. I think
+that'll change pretty soon. I think uh
+my part is going to be very small and um
+I think there'll be a period where we
+try to get the LLM to answer our
+favorite questions to finish up our
+research projects to explore more beyond
+what we've explored
+and then I I don't know there will be a
+lot of tumult I think because a lot of
+our systems are broken already now you
+know how do you assign credit for
+something an LM does that's not the most
+important question I think but it is an
+important question and it's causing a
+lot of havoc. Um, what do you teach your
+PhD students exactly? Because the
+problem solving skill
+um and people have people are unhappy
+when I focus on problem solving so much.
+Um, but you know problem solving skill,
+the theory building skill, the making
+skill.
+>> Why are people happier?
+>> There's a sort of a this I'm more of a
+problem solver. I've always come at math
+through having a concrete sort of
+mystery and trying to figure it out. Um,
+math is not just that. It's often um
+trying to categorize things the best
+way, come up with the right definition,
+ask the right question. Um, I'm of the
+opinion those are all more or less
+interchangeable skills.
+>> Or do you mean to say that the
+definitions are in service to the
+problem solving?
+>> Yeah, there's sort I would say there's
+sort of a cycle there where to solve
+something, you look for the best
+definitions. the best definitions you
+make them to sort of address the
+mysteries that you want solved and
+there's sort of a variety of
+perspectives and some people think
+there's a bigger division than than I do
+and that problem solving is like people
+you know have said um and I don't know
+it's on Twitter or you know organ it's
+hard to get a a poll of actual
+mathematicians but but I've heard it
+said that like quite often that um
+problem solving is a pretty small part
+of math know mostly what we do is try to
+understand and problem solving is sort
+of
+um
+an ancillary part of that or something.
+I disagree. I think problem solving is
+pretty central to math that exists right
+now. But regardless, whether they're one
+thing or whether they're a few different
+skills, I think it'll be the case that
+uh for a while, we'll start being like
+after the phase where they get better
+than us, you know, we collaborate and
+they get better than us at that. So, we
+just promise them and then we decide
+what we want solved. And I think people
+will start, you know, asking, well, I
+don't know, is this connection true? Is
+that connection true? what's the right
+way to think of this pi homology theory
+you know what's the right way to think
+of this class of number theoretic
+questions or whatnot and then we'll sort
+of keep zooming out like cool now that
+we can make theories super quickly do we
+want to make a meta theory do you want
+to understand where it's all leading one
+thing I'm excited about potentially is
+tightening the loop between pure math
+and applications because right now
+you know pure math sort of does its
+thing for aesthetic considerations
+mostly like mathematicians want to solve
+mysteries for the sake of mysteries.
+It's curiositydriven re research. Um
+pure mathematician
+>> um most of them at least. And um then
+the idea and in practice this happens
+though you can argue about how much down
+the line and it's often decades one math
+uh theory that was very much pure and
+just for its own curiosity sake was it
+was explored becomes applicable to to
+something practical. You know this
+happened with like information theory
+entropy. It happens with physics now and
+then you know physically some theory and
+it imports something like or whatever
+else.
+>> Sure.
+>> Um that takes decades right now or at
+least years. That could happen much
+faster. It could start being the case
+that physicists are like man something's
+not right. And the AI is like oh cool we
+need a math theory for this. Let me go
+and do it. Um you even now in our world
+of GPT and Claude and the AI
+advancements what I'm saying sounds like
+science fiction. And many people kind of
+dismiss me when I say it because it's
+unreasonable. But I I think we got to
+get used to the fact that sort of
+science fictiony elements are going to
+start happening faster and fast. Not all
+of them, but uh a lot of them. Yeah.
+>> Chess didn't collapse when Deep Blue
+came out. I mean, there was grieving in
+the community of chess,
+>> but chess is still going strong. So,
+what's the parallel here? What's the
+difference between chess and math?
+>> Chess was always fundamentally about um
+human ability. you know, it's how good
+are humans at chess. Um, let's
+appreciate the sort of brilliant moves.
+And yeah, I I play chess well enough to
+enjoy uh watching all these tournaments,
+though I not well enough to appreciate
+them truly.
+>> And by nature, it's competitive.
+>> By nature, it's competitive, right?
+>> It's I think it's debatable how solo it
+is because even though the players are
+trying to win very much, they're sort of
+creating these beautiful works of art in
+these chess games together. Um, and sort
+of competition is the the medium through
+which is brought about. But you know, a
+lot of my friends like just looking
+through chess games and and me too like
+when you get fun interesting positions,
+it's fun to appreciate. So I can debate
+how solo it is. In math though, that's
+sort of not primarily how we think of
+math. We think of math as we have these
+mysteries and we want to solve them. And
+and look, I shouldn't have said that. I
+sort of
+I I actually am averse to when people
+say that math is fundamentally for this
+or that and mathematicians do math
+because of this or that. I think there's
+many reasons why we do math uh and it's
+different for different people and
+they're all valid. You know, however you
+choose to approach the subject is is
+useful and valid. Society of course
+wants math for a certain reason. That's
+to gain understanding and we shouldn't
+lose track of that. But mathematicians
+have many different things they get from
+it. But I think it's unviable as a
+position to say that all we want for
+math is to see who the best
+mathematicians are. I mean we we we
+definitely value mathematics for the
+theories we generate for the
+understanding we gain from it which was
+never true for chess. Chess was always
+you know a game for humans and exercise
+for humans. Um so I think there's
+important differences between the two. I
+think it's going to hit math. My
+understanding is the chess community was
+was hit a bit in how they prepare and
+stuff. the nature of the game changed
+but by and large sort of business and us
+business as usual you know you still
+train train a bit differently and then
+at the board you still have your skills
+and all that stuff I think math is is
+going to change in a more radical way
+so something just happened recently the
+economist sat down with Elon Musk who
+told him that AI will surpass human
+intelligence within 5 years and then in
+10 humans won't be running the world it
+went viral and I recommend you check it
+out see the economist is more than a
+magazine Actually, I subscribe to The
+Economist's annual subscription. Their
+science and AI coverage is among the
+best that I found anywhere. And I say
+that as someone who reads plenty of it.
+They even covered how dark energy may be
+weakening with time. If that holds up,
+it completely changes our understanding
+of the universe's fate. Those are
+exactly the kinds of questions that we
+explore every week on this channel. Now,
+The Economist is of course known for
+global affairs, both political and
+economic reporting. Interestingly and
+flatteringly, TOE is one of the only
+podcasts that The Economist partners
+with. So, as a Toe listener, you get
+their summer sale, 50% off the annual
+subscription, but only until August
+17th, 2026. That's not a deal they have
+just anywhere. Head to economist.com/toe
+to subscribe. That's economist.com/toe
+for 50% off the annual subscription.
+Someone asked, "Is a proof almost like a
+tree in in the forest? Is a proof still
+a proof if no one understands it?
+Suppose it has a lean certificate.
+[gasps]
+Um
+I I think it's one of these cases where
+in a sense yes and a sense no. It's sort
+of you know what is a proof?
+If you if you I mean there's a sense in
+which yes a proof is a statement you
+know a theorem is a statement in first
+order logic or DFC or however you want
+to formalize it and the proof is a
+sequence of deductions that that that
+lead you to get there. So in some sense
+I think a sense that's very much alive
+the answer is yes like I think pretty
+soon we're going to have proofs no one
+understands and they're going to underly
+mathematics and based that mathematics
+other things are going to work. So you
+know does a train run even if no one
+understands the mechanics by which it it
+runs. Yes it does. I mean you can look
+at it run. So I think that's going to
+happen. Um a proof also definitely plays
+the role
+of conveying understanding to the
+community and and you know facilitating
+a shared understanding and from that
+perspective uh it's a more complicated
+question. Now already now
+I mean a lot of my theorems that I have
+proven I don't understand all the steps
+to meaning that you couldn't
+recapitulate them on the spot but if you
+were to go back
+>> no meaning more than that meaning that I
+have used um other theorems that are
+very much accepted by the community to
+which I usually know the main ideas but
+not even always I mean ominity you know
+this thing from logic and model theory
+that I've used continuing traditional
+white people using
+um is something which I'm very
+comfortable using. I kind of know
+loosely how they prove that tourism
+instructors are om or minimal but I
+definitely don't know the proofs and I
+definitely couldn't recreate them. Like
+maybe I could if I spent years on it but
+it would take me years. It's not like
+it's something that I can't do on the
+spot. I just can't do it. I rely on
+other people who have done it as a step.
+So does that mean that I don't
+understand my own work? I mean in some
+sense I understand the pieces of it that
+I contributed. You know there's there's
+bits that I really thought hard about
+which I understand very very well but do
+I understand from first principles? No.
+So we're already living in this world
+where like what is understanding?
+Typically for a working mathematician
+you take a problem and you try to
+isolate the parts of it that people are
+actively working on and the background
+you just kind of accept as background. I
+mean you slowly over time want to keep
+adding to your sort of repository of
+knowledge. actually um Fefferman uh
+Charles Fefferman a very proud
+mathematician he came to see me when I
+was in undergradu
+a little bit it was very kind of him I
+really appreciated it and I asked him
+some question like this I was like so do
+you know you know you have to know
+everything from scratch like and he was
+like no no no look there's always stuff
+that you know fully from scratch
+>> there's stuff you've kind of heard about
+and know roughly how it worked and all
+the details and then there's stuff
+you've sort of heard about maybe can
+name some words but you really you know,
+you can't flesh it out at all. And he
+was like, those are all always going to
+exist and um it's fine to have them all
+as long as that first one keeps growing.
+The stuff you know from the beginning
+and like super well, you have to keep
+having that increase. You don't want to
+rely too many black boxes. So, it's
+already the case that like you work on
+the things that need working on and
+understand the things that need
+understanding. This is going to become
+much more prominent in the world in a
+few years, the world of mathematics. Uh,
+but it's definitely something that's
+already here.
+>> What are some of your ideas about
+categories? About categorizing, not
+category theory.
+>> Uhhuh.
+>> About categorizing math.
+>> Oh, categorizing math. I first of all, I
+want to start saying like I'm really not
+and I'm not being, you know, this is not
+faux humility. I am like not the best
+person to think about this. Uh, it's
+just not what I'm trained in and it's
+not what I spend my time thinking about.
+Um,
+the
+The way I think about it now and this is
+really from thinking about it quite
+recently in terms of like what
+mathematicians are going to do and what
+math is going to be for is there are
+sort of two I think roles that math
+plays. One is um identifying interesting
+structures that exist in the universe
+sort of you know in pure thought. a lot
+of math. Math is really fun for
+mathematicians. For me, I find math
+really fun because by nature, you study
+the things that are most interesting.
+Like is the study of puzzles and which
+puzzles do you work on? The ones that
+have the most structure, the ones that
+have the most mystery, that bring about
+the most fun, the most aesthetics. So,
+you know, other fields like physics and
+chemistry and they're wonderful fields
+obviously and they interact with the
+real world and there's a huge benefit
+there. They have their own pluses but
+they are limited in terms of bring your
+creativity by what actually exists in
+the world and math is only limited by
+what makes sense. Um so part of math is
+just trying to figure out you know um
+what structures can exist in the world.
+Now part of math another part of math is
+trying to explain make concrete
+um notions which we we only sort of
+fuzzily have understood thus far.
+Topology is a great example of this,
+right? Topology is like you want
+understand the shape of something, but
+you don't really want to care about this
+about stretching or bending. You want to
+just know kind of the shapes. What does
+that mean? We eventually come up with,
+you know, we play with definitions. One
+of them works better than others. We use
+what open and closed sets. And that
+brings to light a whole bunch of tools.
+And you know, you know, a theory is
+successful. One way of knowing a theory
+is successful is when the rigor outgrows
+the intuition. you have justified the
+intuition and the rigor is so solid that
+you can use it to test your intuition
+against and refine it and throw away bad
+intuition. Um that's when you've really
+achieved something. Um so in terms of
+categorizing math uh in the future like
+how we organize it I think there are
+these two divisions there's divisions by
+uh applicability you know there's a big
+physics right now is a big open problem
+in many ways like we've achieved so much
+but I'm talking beyond my my expertise
+here but my understanding is theoretical
+physics at least is ex is going through
+a rough time to some extent we have all
+these theories we have a hard time
+testing them we have a hard time making
+the math work out as clinically as we
+want. Um, so that's one place where
+we'll see like right now it's not clear
+if AI can help with that, but I suspect
+it can. Um, there's many different
+like what we do in general. We think
+about the things that that seem tangible
+and practical, you know, like in in
+chemistry and uh and physics, there's
+many problems we don't attempt
+mathematical precision for because it's
+too difficult. This year actually one of
+the fields medalist Udang won uh his
+prize for um I'm going to get this a
+little bit wrong but he derived a a
+global property of behavior from a
+statistical sort of rigorously a
+statistical limit of the underlying
+interaction between the particles uh the
+Bolzman equations
+>> um which is really cool uh and in the
+past that was too hard we sort of we
+kind of assume we had like heristic
+ideas but we didn't actually know how to
+go from the other so if we can do that
+to a much larger scale we might be able
+to approach more fundamental questions
+of physics and maybe tie quantum
+mechanics and gravity and have
+engineering applications and again I'm
+talking way way beyond my expertise here
+but stuff like that I think becomes in
+reach a tricky part about physics
+compared to math and computer science
+most people think physics is reality we
+say okay well this is a physical object
+and and so the bare metal of of the
+world is physical and then you think
+well why is it the case that if someone
+hands you theory, a physics theory.
+They're like, "Here's my theory of
+everything. I've solved quantum gravity
+or whatever it is."
+>> It requires an expert to go through. Why
+does it why is it different than say
+math? Math requires just a lean
+certificate for these AI proofs. Like
+one thing that you learn very quickly
+about lean is um if you formalize a lean
+proof you have to check that the
+statement is correct cuz you know you
+have theorem and you write some lean
+code and meanwhile we want to know that
+whatever all all broxins are fluxins you
+know there's a conjecture and then
+somebody writes some some some symbols
+down and it's up to us to check that
+what's written down really does say that
+broxins are fluxins. and not something
+else. And that might seem trivial, but
+it's not as trivial as it seems. Like
+you can only check
+um that what is in the the program is
+correct line by line, but uh but humans
+have to certify that what's being
+modeled by the code that we're
+interested in.
+>> So in physics, it's kind of um
+it's the same idea that we have a
+physical world want to understand. And
+so before you can input it into math,
+which ultimately, you know, once you
+have a theory, you can. It might be hard
+but in principle you can. You have to
+make sure that you're modeling the right
+thing. So if someone gives you a physics
+theory, you I think have to it depends
+on what they're sort of giving you. Are
+they giving you intuitions which they
+argue are extremely plausible and
+correspond very well to the kind of
+mysteries we're seeing, the phenomena
+we're seeing. Are they literally taking
+a model of physics, an underlying
+theory, and deriving some consequences?
+If they're doing the former then we have
+to think it's doing the latter then you
+can plug it into lean and and see what
+happens. Yeah.
+>> Oh gosh. Okay. So earlier you mentioned
+something about intuition versus rigor.
+You said okay we can rigorize some
+intuition and then we can do some sort
+of have some feedback loop and refine
+our own intuition. Now if if intuitions
+are are blurry and illdefined then how
+do we know we've properly defined this
+cloudiness?
+[sighs]
+>> We don't. I mean we don't. It's not
+clear there is something to it, right?
+Like intuitions are higher order
+heristics and um practically what
+happens is you try a bunch of
+formalizations. Eventually you get one
+and it feels right.
+>> Right.
+>> And you sort of test it on all your
+different intuitions and hopefully all
+of them either get um formalized in a
+way which feels satisfying or get
+contradicted in a way which feels
+satisfying. You know, you might have
+some vague ideas. You might formalize
+it, get a counter example, and you can
+get two reactions to that at least. One
+reaction is like, that counter example
+is silly. It's not really what I'm
+talking about. I think we have the wrong
+definition. And the other one is like,
+oh crap, yeah, I was wrong. Like my
+intuition is is uh misplaced. And now
+upon sort of integrating this counter
+example, I have updated my intuition.
+Um, so intuitions are
+one way to think about them. They're
+sort of pointers hopefully towards
+actual um more well- definfined theories
+in the world and we've properly realized
+them when it feels like we have when the
+understanding we have sort of matches
+our intuitive sense. Maybe this is a
+foolish question but let's imagine
+someone's explaining something to you
+something some proof doesn't matter some
+concept in math and then you say I don't
+quite get that can you explain this what
+about this and blah blah blah at some
+point you say ah I understand
+>> okay what does understanding mean
+>> yeah now I say it's foolish because I
+imagine you could say it depends I
+understand it enough for this purpose
+but not for so and so or it's a matter
+of degree but there seems to be a moment
+where it clicks and all of a sudden you
+say I understand.
+>> Yeah,
+>> seems like a step change.
+>> Yeah, this happens all the time. Um,
+first of all, we use shorthand, you
+know, hyperaggressively when discussing
+math, we we don't stop to properly
+ground everything because there's not
+enough time. Um, you have to find short
+hands to think about things. So, often
+when someone's explaining something,
+like when a collaborator explains some
+idea, they will use few words that
+aren't all the detail. They're just few
+words and I literally don't understand.
+I'm like, I literally don't know what
+you mean. And we'll they'll literally
+they'll say things like, "No, no, no,
+no. X is a variety. It's not a sheath."
+And they'll be like, "Oh, oh, okay. Now
+I get it." So, a lot of it's actually
+getting the um sometimes for me,
+I carry around, I'm sure many
+mathematicians do, but I hesitate to say
+all, but many of us of us carry around
+um toy problems, toy examples in our
+heads. Like, what does it mean to
+understand? We use the word
+understanding a lot,
+>> but it's a very complicated word. It's a
+very complicated concept. what does it
+mean to understand something? Um, you
+know, some some teachers worry that uh
+students will be able to compute any
+integral by memorizing, but they haven't
+really understood integration. And I
+sort of challenge that notion. If you
+can integrate any function, surely
+there's some kind of understanding
+there. I mean, there there's no magic to
+understanding. Um so
+I think a concrete way to measure
+understanding
+is um can you apply a certain concept to
+various situations of interest. So
+algebraic geometry, Hodgej theory,
+number theory, representation theory, we
+all carry around examples in our heads
+um of sort of mathematical constructions
+and universes where um we can quickly
+test out what's going we know that you
+know in this in this one example that I
+have proving some result is tricky. you
+know the the world has decided that it
+is tricky and if you're going to give me
+a method that can more generally then
+I'm going to test it out here and if it
+can work here then I believe you that
+something interesting is happening and
+if it can then I'm skeptical. Um so one
+thing that that's happening when
+someone's explaining something like I
+don't get it is me trying to take what
+they're saying and apply it to my
+internal picture and then when I say I
+get it it's like okay I see how this bit
+works and and then I've decided that I
+that I got it. It's very rare, at least
+for me, um I think for other
+mathematicians as well, but it's very
+rare for me to fully work through the
+details of something uh until you get to
+the actual writing stage where you write
+the paper. Uh it's just not how you
+work. It's just not that convincing.
+Like being able to do something in
+generality in practice ends up being
+again for me a worse test of
+understanding than if if I can do my
+four favorite examples. Sorry. What's
+the worst test of understanding?
+>> Being able to write down some proof in
+general or some concept in general terms
+because you're likely to make mistakes
+there too. You know, you're not you're
+not seeing as clearly when you're a
+student often. You think more general
+equals better. And you know, you're
+seeing deeper and further if you're
+using tools that are more abstract and
+scenarios that are more abstract. And
+then you know there's some truth to that
+but there's a lot of truth to also
+there's a lot of benefit to just
+sticking to your favorite examples and
+being able to test things literally on
+cases you can work out by hand.
+>> So we went to the same university for
+undergrad correct. Yeah.
+>> Yeah.
+>> So there's Matt 308. I don't know if you
+remember that.
+>> It's a logic logic course.
+>> Okay.
+>> And at least when I was there the final
+exam was you have to prove girdles
+incompleteness theorem from scratch or
+whatever scratch means.
+>> That's right.
+>> I didn't find that it gave me much. I
+mean it actually did give me plenty of
+intricate understanding of Gle's theorem
+but
+>> or theorems but I don't know if that was
+the most efficient way
+>> incompleteness thems
+provability
+>> yeah I don't know what to say about that
+there's like
+there's a couple things one is that
+sometimes the intuition is clear you
+have to formalize still and you you look
+for formalizations that are as neat as
+possible, but they don't super exist. So
+like Girdle encoding and girdle
+numberings, the clean recursion stuff,
+it's not my field. I' I've worked in it,
+but it's not my field exactly. So, you
+know, I I'm probably not the most
+proficient person in it. I've never
+found a formalization that I've been
+super comfortable with. Even though I
+feel like I understand the big picture
+ideas, my intuition about the big
+picture behavior is pretty good. working
+with the nitty-gritty of it I'm just not
+so comfortable with. And so that's one
+way in which actually working through
+like the complete proof and writing it
+down doesn't feel like it's super
+satisfying my intuition. Um
+so that's one way. Another way is
+another another thing I want to say is
+that like
+math is big. Even little parts of math
+are big and it's just hard for us humans
+to remember a lot of things at once. So
+there's various proofs I just can't keep
+in my head at once. And I think Gerles
+and the is probably one of them. Like I
+can definitely write it down. You know,
+if you give me 20 minutes, I can write
+it down or whatever. Um,
+>> you mean the theorem or the proof?
+>> The proof. Um,
+>> like a sketch of the proof or the full
+proof?
+>> No, probably a sketch. I mean, a sketch,
+but a a sketch that's enough to, you
+know, satisfy people. [laughter] Um, but
+I don't feel it's a it's a different
+exercise to do that and to sort of have
+it all loaded up into your head at once.
+And I think that's actually a pretty
+important differentiator between
+some of the really top experts and
+subjects is they have some of these
+proofs really loaded up in their head.
+these concepts are really short for
+them. Whereas for me uh or other, you
+know, my patients that aren't as
+proficient. Um it's it's more of a
+workmanlike sort of process where you
+sort of pull up the right you go your
+flip book and you go step by step.
+>> Yeah. Okay. So I was going to ask you if
+that was particular to model theory or
+if that also applies to say unlikely
+intersections. Do you also not know the
+nitty-gritty details or is it also just
+a facet of the nitty-gritty details
+being tedious and so all you have to do
+is verify once and then you get the gist
+and then you move on. You actually don't
+like the specific details. It depends.
+Um the work that I actually have done I
+I think I understand
+very very concisely like very well I
+would say um for the unlike injection
+stuff in particular there's newer work
+now like the field doesn't stop you know
+you solve something hooray but then
+people move on super quickly and if you
+don't keep up then you get left behind
+right now there's a bunch of work being
+done with G functions actually something
+Andre of the Android conjecture wrote
+about way back uh which now is really
+being developed uh into much more of a
+method. And I haven't like I've kept
+I've had students who who know it a lot
+better than than I do now actually. Uh
+which is great. That's always your hope
+for a student. Um and I kind of
+understand it, but I definitely have not
+put in the work. Like I'm sure if I sit
+down and spend a month and really go
+through it to the point where like I
+want to use this, I would sort of go
+over proofs again and again. I would try
+to make examples that can fail. I'd be
+like, why does this prove X but not Y?
+But I really need this step. All that
+stuff. And I'm sure I would shorten it a
+lot more and I would need to do that in
+order to work at sort of a top level in
+the field.
+Earlier when I was talking about chess
+and I was saying it's a competitive
+sport and it's not as much of a
+community as as math.
+>> Would you say that
+>> Oh gosh, where was I going? Okay. Well,
+see improv. Let's let's go here. Okay.
+All right. Let's do this. Let's do this.
+See, I like standup. I like standup
+because So, I used to do standup. You do
+and used to. Yes.
+>> There's a joke from Mitch Hedber that
+said, "I used to do drugs. I still do,
+but I used to."
+>> Yes. Yes. Yes.
+>> So, improv, you do. And And you still
+Okay.
+>> Well, anyhow, I like standup for the
+reasons that Colin Quinn, I don't know
+if you know who that is. He's a standup
+comedian said he likes it. It's It's
+solo. He said it's like Mike Tyson in
+your shorts and shoes and that's it.
+>> Yeah.
+>> And math is a community effort, or some
+people say it is. And improv is
+definitely you're not supposed to be as
+selfish. In standup, you're just purely
+selfish. In fact, I think Larry David
+said he liked standup because I mean,
+sorry, he killed at improv, but he
+wasn't liked by the other people there
+because he can kill at the expense of
+other people and make you want to do
+that. Yeah. Yeah. You don't want to do
+that.
+>> Um, that's interesting. Um, I find
+myself thinking about the what you just
+said about math being
+a collab. Math is like both in my
+opinion very collaborative and also very
+solo in some sense. like your confusions
+are your own and your your friends help
+you resolve them of course
+but
+there is a there is some yeah I don't
+know there's something very solo about
+math as well I came from a very like I
+came from math competitions um they
+played a big part of mathematical
+development um I think they taught me a
+lot very grateful
+for the experience having had them um
+and that's again like you train together
+with your friends, but you're there
+alone for like 4 and a half hours
+working. And so I came from very
+competitive perspective to it.
+Definitely my math career, I started out
+being more solo. And you know, now I
+never work alone. I always work with
+somebody because it's more fun. Uh, and
+it's better. It's just it just works
+better. As far as improv, I I definitely
+love the fact that improv is
+collaborative. That was a huge draw for
+me when I started doing it.
+>> Like, man, this is great. No one's
+competing. We're fully trying to be
+empathetic with each other and listen
+and make each other look good. Um, I
+also loved how off the cuff it is
+because math is so slow.
+You know, you'll think about the same
+example and the same theorem and the
+same thing you're stuck on for like
+years sometimes, certainly months. And
+there's a joy in that, but
+there's also, you know, there's
+something you're not experiencing.
+There's a lack there as well. So improv
+being going off the cuff and just sort
+of living in the moment and not having
+homework. I really like that part of
+improv. It's just not a it's not a chore
+at all. And I love math, but there is a
+lot of homework in [laughter] math. You
+constantly have to go and like read
+papers, make sure that you understand
+this, make sure you're on top of that.
+So that was a big draw for me, which is
+why I don't feel the same way about
+standup. Like standup is both alone, as
+you say. Um, it's not off the cuff. Like
+stand up, you have to get a lot of
+improvisers do stand up and they're
+like, "Oh, I see. I'll never get good at
+this because you have to do the same set
+over and over and over again." And as an
+improviser, most of the time, and people
+vary, of course, but most improvisers,
+they tell some jokes that work and
+they're like, "Great, now I'm going to
+tell new jokes, right?" And like, "No,
+no, no. You have to tell the set again
+and again and again until it's perfect."
+Um, and that part of it doesn't give the
+same official. And also it's not um
+it's not as it's not as it's not as fun
+in some ways because again it's
+homework. It's a chore. You have to
+memorize your set. You have to memorize
+your reactions. You have to but you'll
+find fun various. I'm not trying to diss
+at all. I'm just saying from my
+perspective why why I was so much more
+um into improv. In a way it was a huge
+break from math for me and continues to
+be like it's very dual to how I work.
+what what I said somewhat recently I
+quotified and I really like uh to me it
+feels true like in math I'm constantly
+trying to gain as much control as I can
+like I really view math as like I'm
+trying to conquer a sort of a a branch
+of mathematics not in the sense of
+proving everything but like make
+everything as simple as possible I want
+there to be no mystery left I want to be
+able to handle every concept to apply
+every technique and in improv there's
+it's so much about giving up control um
+that it was sort of a nice missing
+ingredient for me in my life.
+>> Okay, let's have some fun. What am I
+missing? I went to one improv class. And
+then I was expecting it to be like how
+Steve Carell is and and you
+[clears throat] go on stage and you have
+some fun, but then they did some they
+said, "Okay, we're going to go like this
+>> and then you say I I don't know what it
+was. I I just remember I remember
+feeling like a fool and and I didn't I
+didn't like it, but what am I missing?
+What about that exercise? Do you know
+that exercise? Is that a standard one?"
+>> Sure. Zip zap or or name? There's a lot
+of clapping exercise in improv. Um,
+well, first of all, I would say you
+should probably try a few more classes
+if you want if you want to get into
+improv. I'm a big believer that anything
+you want to learn, I think that things
+require effort to find the fun and joy
+in them. So, if you try something once
+and you don't like it, you know,
+>> I didn't give it a fair shot,
+>> but I mean, fair is fair. You know, I'm
+not saying you have to try improv, but I
+think there's a good chance if you kept
+going back, you would find it. In terms
+of looking silly, it's definitely true
+in improv that if you don't like looking
+silly, you're gonna have a hard time at
+the beginning. It's a lot of it is about
+shedding your ego. And uh
+>> yeah, we had to pretend to be some
+animal. We all chose different animals.
+>> Embarrassment and shame are like the
+death of comedy is what they say. So uh
+if you know improv, if people think
+improv is about deceit, they think it's
+about being very quickwitted. I mean, it
+helps certainly everything, but improv
+is much more about being empathetic and
+fully present and listening. If you
+really listen to your partner and react
+to what they're saying honestly, the
+scene usually goes very well. Uh, you
+don't have to be super clever. Um, but
+yeah, you you it definitely encourages
+vulnerability and openness and empathy
+in terms of what Steve Carell and people
+are doing. It's funny because Steve
+Carell looks silly all the time, doesn't
+he? I mean, he's [laughter]
+>> he he does that. Yeah. I'm not sure I
+answered your question at all. That's
+fine. That's good. The improv. [snorts]
+>> That's right.
+>> Okay. So, let's stick on this
+competitive aspect of math.
+>> Sure.
+>> Even though there's a community, there's
+also a competitive aspect. Something
+that I see when a new model gets
+released, they say, "Oh, and we've been
+working by the way with mathematicians
+or something like that." And then I
+wonder how do other mathematicians view
+this? Because look, the difference
+between Opus 4 and Fable 5 is quite
+large. So, suppose Opus 4 was out and
+you had access to Fable 5 and and you're
+one of the top mathematicians. That's
+why Anthropic in this case came to you
+and said, "Hey, do you want to test out
+our model?" Doesn't that give you an
+advantage? And then if you're already at
+the top of your field, why do you need
+that advantage? And do other
+mathematicians look at look at others
+and say, "That's not fair. Look, what
+the heck are you doing? You're giving
+someone the most brilliant graduous
+thousand brilliant grad students for two
+weeks or sometimes a month?" Yeah. And
+unlimited tokens, unlimited compute.
+>> Sure. I've heard people say that. Um or
+again, I've read on Twitter. No, I've
+heard people say that. Um,
+sorry, that's legit. That's that's
+perfectly fair. Um, I think it's
+complicated. I mean, it's already true
+that I mean, if you do if you do good
+work or you're seen to do good work, you
+get to go to the best places, the best
+places have the best people. So, now
+you're collaborating with people who are
+typically, you know, more proficient or
+have had more success, more ideas maybe,
+and you're going to keep doing better.
+So, it's sort of it's always been the
+case. I think in every field like in
+other fields more than that if you're
+doing well in physics you'll get
+experimental physics you get more grants
+you can run more experiments you're
+going to keep doing better um so it's
+always true that success begets more
+success um I'm not saying that's how it
+should be I'm I'm not advocating
+anything with policy policies are hard
+it's much easier to point out the flaws
+in how to do things than um than come up
+with a good system that's something I
+find a lot actually about the AI
+discussion in general is I mean people
+are I'm glad people are worried about AI
+and that they're thinking about it very
+critically. Um I think that's a very
+good thing but I see a lot of comments
+both again on on on social media and
+also talking to people sort of
+criticizing
+you know oh AI is being controlled by
+this group or that group and it's being
+used in this way and that's not fair and
+that not fair. Whenever you have
+something new coming into the world, you
+you have to decide where the power goes.
+You have to decide how to how to how to
+um disseminate it amongst whatever your
+society. And where does it go? Well, it
+can go to companies, but companies have
+profit incentives. Go to government, but
+government can become authoritarian.
+They can um
+>> they can enact much deeper abuses than
+than other members. So where do you want
+sort of the power to go? Um, I'm not
+saying I have the answer again, but I I
+see a lot of sort of negative comments
+of the form, well, you can't do this
+because that has this side effect.
+>> And this idea of like
+again, I'm not even I'm not even
+criticizing that because it's good to
+point out flaws and whoever is winning
+should have a critical eye towards them.
+But, but I think people often don't
+think through the alternatives and they
+kind of imagine that what's happening
+now was terrible. If we just changed
+things would work super well. AI is a
+very difficult problem. Um I think
+there's a lot of lowhanging fruit to be
+improved and I hope we improve that. But
+even if we all you know in the best case
+of all of us working together with full
+cooperation and stuff it's it's hard to
+decide how to how to handle it well. So
+to come back to your question of how to
+use it well for math. Yeah. I don't
+know. Um right now it's being given to
+the best researchers.
+Why is going to be best reachers? I I
+don't know. Like I'm not involved with
+that at all. I would assume part of the
+reason is
+you can't you know for whatever resource
+limitation it's hard to give to
+everybody and so they pick who to give
+it to and how do you do that but we
+typically do things meritocratically and
+what's our best approximation to
+meritocracy it's the research is doing
+well right now does it give them a
+further leg up absolutely should we stop
+that and instead make it available to
+everyone or it's a rotating system maybe
+I don't have a a strong I should think
+about it more before talking about that
+>> have you found that your colleagues are
+more skeptical of AI than you think they
+should be with concerns that you think
+are not concerns. So for instance, when
+I was speaking to Roger Penrose, he was
+saying AI, oh yes, it couldn't get
+strawberry correct. Yeah.
+>> And and I was I was saying, yes, that
+that's true, but that was many years
+ago. Yeah.
+>> But that was enough to turn him off. And
+of course, skills are difficult to
+acquire as you're older. And he's 95
+now.
+>> But yeah, he's a pretty amazing person.
+>> So sharp. Crazy.
+>> Holy moly, man. He's very sharp. Yeah.
+>> Okay. Okay. But anyhow, are you
+surprised at the slow adoption of your
+colleagues with AI or No,
+>> it definitely has been the case. I mean,
+I've been talking about this publicly
+for at least about 2 years. Um, and you
+know, I wasn't for two decades. I've had
+friends around me like I've been near
+and like observing and I've had friends
+who were in the AI community, AI safety
+and the rationalist community and stuff,
+people talking about AI and I've been
+sort of dismissive of it for a while.
+So, I don't feel like I have I'm not
+criticizing anybody. It takes you
+however long it takes you. But 2016 is
+when I started coming around and then
+soon as KGBT came out. Actually called a
+friend of mine and I was like, "You were
+right. I was wrong. This is going to be
+the big deal of our lifetimes." Um yeah,
+I still think people are being overly
+skeptical of it. Um
+I don't know. It's It's hard, right?
+Orienting the world is hard. I try to be
+compassionate to everyone. Um and I
+don't say that derogatorily. I mean, I
+make mistakes all the time. Um it's so
+easy to jump down someone's throat
+especially like when someone's wrong in
+retrospect you can be like well you
+should have applied this uristic like
+well okay in this circumstance but how
+many times has somebody said x or y will
+be the next big thing and they were
+wrong right it's legitimately hard to
+judge this stuff
+>> I do think there's some amount of
+motivated reasoning stemming from the
+fact that like if AI becomes for example
+super good at math like I say we started
+with you know very very flashily we
+started with the fact that I'm grieving
+uh and and I think there is something to
+grieve there and people and more than
+that people are worried about their jobs
+people are worried about their sense of
+meaning you know these are serious
+issues that I think I see people being
+dismissive all the time of this concern
+or that concern like mathematicians some
+of them are legitimately like worried
+they're posting like you know what am I
+going to do I I've been doing this my
+whole life and now what and and some
+people a lot of people respond sort of
+vitriolically with like math was never
+for you. It was for everybody. And you
+know, who cares about mathematicians
+doing their job? This is what's
+important. It's like
+>> it's all important. I mean, we we all
+orient life the best way we can. And
+this is a big loss for the
+mathematicians currently exist for
+society not do something that's better
+for the majority of people because
+mathematicians will lose their jobs. No,
+that's not a good enough reason. But
+does that mean we have to respond with
+vitrio and not compassion? I don't think
+so either. Do you think mathematicians
+would lose their jobs or that less would
+be given new jobs? I don't know. I was
+speaking I was speaking a little quickly
+there. Um I don't know what will happen
+to jobs in general. Jobs is a
+complicated question because it's not
+it's it's not going to stop at math.
+Other fields are being automated. It'll
+be automated as well. Like math is one
+of the first of the chopping block in
+some sense. Um but but it's going to
+continue well beyond math. I don't know
+if they'll lose their job. I just meant
+that they'll lose the job in the sense
+of like what they're doing right now.
+And I think what we like we all identify
+with our work. I mean maybe not all but
+a lot of us you know for better or worse
+a lot of us identify with what we
+contribute towards society or what we
+achieve and that's a big part of the
+sense of meaning that we all get right
+and we all want meaning and like the
+meaning mathematicians have gotten the
+way they oriented around that a lot of
+us is going to shift is going to
+radically change. Um, and it's hard.
+It's just it's hard to it's hard to
+adapt to that. So, Tobias Osborne is a
+physicist. Many people who watch this
+channel may know him from his lectures
+on QFT or or formal field theory. He has
+some great lecture series on there on
+YouTube. and he wrote a LinkedIn post
+recently where he said that some of the
+lowhanging fruit in quantum information
+theory people are sending out swarms of
+agents to actually check for open
+conjectures maybe solving one to five of
+them per day just spending maybe $10,000
+a week or so just sending out some
+swarms so Tobias was saying that there's
+an inflationary area
+>> what he means is when the Spanish
+gallions flooded Europe with the silver
+of the Americans of the Americas Spain
+didn't get rich it got inflation so
+abundance changes value systems. When
+everyone knows your paper was generated
+in an afternoon with a single prompt, no
+one's impressed any longer. I felt this
+myself after producing a master's grade
+result with an accompanying lean proof
+in a single weekend last November. I
+instantly devalued the contribution. So,
+a weekend of work is not 6 months of
+concerted effort. Honestly, how much
+credit do you assign someone who's
+prompted a chatbot to prove conjecture
+X? Try hard. Don't stop until you're
+done. Then he says, "The new equilibrium
+is this, that given that it's easy to
+launch agent swarms, it's ridiculously
+hard to craft clean, compelling
+definitions that organize a rapidly
+growing field, value will shift to
+theory builders, people who absorb vast
+amounts of discordant information and
+create clarity through organizing
+principles and definitions that agent
+swarms can build on." Then I commented,
+I just want to know what you think.
+Well, my my immediate reaction when I
+hear that is like he might be right, but
+and I don't know this I don't know this
+person so so I don't mean to beical but
+like anybody claiming that like was the
+new equilibrium value will shift to X.
+I I just find it strange that they're so
+confident that AIs won't also be able to
+do X. So what does he say like value
+will shift to organizing this into good
+definitions that are easier to digest?
+What you just feel like the immediate
+question why won't AIS be able to do it
+either right away or through training
+because once they get there like right
+now they're hard to practice but once
+they you know get to the point like he's
+claiming they will and I agree of
+rapidly solving conjectures get more
+information we can then start training
+them on distilling into a good format
+how long will that new equilibrium that
+he's suggesting last I don't know where
+the confidence is coming from I left a
+comment also which pretty much agrees
+with yours I said thank you Tobias I'm
+curious so what happens when interesting
+conjectures compelling definitions
+becomes promptable also promptable in an
+afternoon I think the concern is that
+whatever we place in the new equilibrium
+it seems that soon relatively shortly
+will also be promptable anyhow I think
+that's what people are thinking about
+just
+>> yeah exactly like I feel like there
+there's a lot of people saying well
+here's the role humans will play and
+there's a role to play it's it's a very
+difficult question for whatever role you
+think humans will play you can just ask
+yourself why won't AI be able to do this
+as well Tim Gow actually recently wrote
+a post that I really really liked
+responding to the Leiden declaration
+>> which he didn't sign and he explains his
+his reason for not signing it and and
+he's not adversarial at all um which
+which I strongly approve. I don't think
+being adversarial right where to go. I
+didn't mean to be adversarial just now
+about about his comments. I just meant
+to say my reaction to them. But but I
+really agree with his thoughts. He sort
+of he he really grapples with the
+difficulty here Tim Garver does of of
+understanding where a stable equilibrium
+exists because it's very plausible that
+for whatever role imagine humans doing
+AI will supersede their ability. Now
+maybe humans will start playing roles
+at which they are not the best at which
+AIs would be better but we want to
+organize society such that humans have
+this role. I think that's fine. Um I
+think that unrestricted optimization
+is not going to be a sustainable
+strategy going forward. I think we're
+going to have to impose
+other restrictions on that. I think you
+know uncontrolled
+just continuously making the AI smarter
+and seeding control to them
+um the moment they s they uh super feed
+humans in ability I think it's a very
+risky proposition I think it's something
+we're going to have to grapple with uh
+very strongly so
+yeah that's sort of a question I I don't
+know the answer that's something that I
+I want to see more people thinking about
+both in terms of like what a future
+looks like when AIs uh are better than
+us at more and more and more tasks at
+more and more zoomed out level
+abstractions and we we find it hard to
+find a role for us that AIs can't become
+better on. So a role that we should
+occupy purely based on ability and also
+for
+sort of what a potentially responsible
+social policy looks like in in that
+world. um how do we want to structure
+society? Where do we want the limits to
+be? What do we want human roles to be?
+Not because not just because you know of
+capitalistic sort of concerns where like
+we're best at this of course we'll do
+this but just because well we're humans
+and we're making a world for humans to a
+large extent and how do we structure
+that? almost any question about the
+future. It's so uncertain as as we
+started this conversation about four
+years from now the Fields Medal. He said
+even two years from now like who the
+heck knows?
+>> Sure.
+>> But there's got to be some meta answer
+that is okay we don't know. So then the
+answer is that we first need to gain
+awareness about that this is an issue
+and then number two maybe debate or
+something like that. Not without having
+an answer. The answer is well we all
+actually come with our own answers and
+fight it out or something like that. So
+what is the meta answer? No, I
+completely agree. Um I I think I think
+it starts with everyone talking about
+this more uh and proposing their own
+answers and um I think we we we're
+seeing this now a bit but we start
+seeing
+um think tanks or other you know
+corporations show up who with proposals
+and the government appoints some sort of
+group to think through it themselves
+like the meta engineer like you say is
+all of us trying to think through it now
+before it hits us like a train because
+we won't just naturally fall into a good
+equilibrium. It'll happen. It's more
+likely to happen if we sort of even like
+you say, even though it's hard to figure
+out now, we we scope out what it might
+look like. We hedge our bets and then as
+we get closer and we start seeing what
+the world looks more looks like more and
+more and we sort of tailor it towards
+something that we want, you know, like
+even now, I mean, everyone forgets, I
+think, not everyone, but a lot of people
+forget how crazy this world currently is
+from the perspective of 10 years ago.
+Like we have magic systems.
+>> Even [clears throat] five years ago,
+>> five years ago, we have genies that can
+can do not everything, but so many
+things that we would have thought to be
+impossible, would have laughed at
+broadly in society 10 years ago. Again,
+not everybody, but most people. Kurt
+here. Note that if you'd rather listen
+to toe, we're on Spotify, iTunes,
+everywhere with a podcast catcher. You
+can just search my name or theories of
+everything. And also remember to hit
+subscribe. Can you explain what the
+lightening declaration is for those who
+aren't familiar?
+>> So the light declaration is a group of
+mathematicians sort of got together to
+um think through the implications of AI
+and math and they put forward sort of a
+statement for um I forget exactly what
+it says but but sort of for how to use
+AI responsibly in math and what they
+think some risks are going forward. And
+incidentally, like there's a I have a
+lot of disagreements with them, but I
+think what they talk what they um say
+about the potential risks of AI and math
+and the potential sort of safeguards we
+put in place, I think is very important.
+I think they they run the money as far
+as that's concerned.
+>> But Jacob didn't sign it.
+>> I actually wasn't invited to [laughter]
+>> I never had the chance to sign it. I
+would not have signed it, though. No, I
+I disagree with with too much of what it
+says.
+>> Ah, okay. because the IMU signed it and
+they've gilded you. They gave you the
+Fields Medal and you're saying I
+wouldn't sign what you what you proved
+but but please I'll take the medal.
+>> I'm not I'm not all my opinions are my
+own but [laughter] uh if you're
+suggesting that I can't accept anything
+from anybody unless I agree with all
+their opinions.
+>> I am suggesting that [laughter]
+>> you took some my food and I don't agree
+with everything.
+>> I respectfully disagree and I'm happy to
+leave. So it's nice.
+>> Okay. So the Fields Medal says
+apparently it says on the front and the
+back something like
+>> Cool. I had my sister-in-law translate
+it. Uh, I forgot though.
+>> One was
+>> one be better than you were yesterday.
+Something like that.
+>> Yeah, that's right.
+>> And then the next one is master of the
+world.
+>> It's like transcend the world or
+something. Yeah, it's pretty cool.
+>> Mhm.
+>> Which one's easier?
+>> Um, well, I think improving yourself is
+probably easier than transcending the
+world. That one seems like a a big pill
+to swallow. Um, no, but I mean, I mean,
+what you're getting is the Fields Medal
+is is awarded to encourage future
+achievement. That's partly why it's
+underfooted. Now, of course, the reasons
+for awarding it were decided 100 years
+ago and they've sort of naturally
+morphed into their own thing. The Fields
+Medal now was not what it was intended
+to be way back and that's due to some
+interesting historical coincidences. Um
+but as far as furthering future
+achievement um I'm definitely trying to
+use
+you know this opportunity to very
+grateful for to to work on what I think
+is the most important problem which is
+AI safety and that's not I think
+I don't think that's a particularly
+innovative or or weird you know unusual
+take. I think many people have realized
+long before I have that AI safety is is
+the most or one of the most important
+problems over time. And I think many
+others will realize it uh shortly. Um I
+you know I want to encourage
+mathematicians. I have a web page
+actually if you could link it in your
+your thing called math forafafety.org
+where um I try to make it a little bit
+easier for mathematicians in particular
+to go into the field of AI safety. If
+anyone else finds it useful that's
+great. It's not meant to be exclusive,
+but it was written sort of in mind with
+magnificent background because I think
+um that there's a lot of work to do uh
+from a lot of different you know parts
+of society kind of society has to make
+its own large scale Manhattan project.
+We need more theory work. We need more
+governance work. We need more social
+work to sort of navigate this
+transition. I think if we don't [sighs]
+again I think it's not going to fall
+into our lap. If we don't start doing it
+now, we'll definitely fall into some
+kind of equilibrium, but it might not be
+as uh as good as I think if we if we
+give ourselves time to orient.
+>> Are you allowed to say what your job is
+at open air?
+>> Well, it's not really anything yet. I
+haven't started. Um it's I'm on the AI
+safety team, which you know, AI safety
+is a broad list of things. We'll see
+exactly what it is that I um end up
+doing.
+Um but yeah I think it's important to
+again to have a healthy ecosystem of
+people working on AI safety. I think the
+companies are part the more distributed
+power is I think the better. I think the
+companies part to play. I think I want
+people working in government work like
+the UK has a very very impressive
+institute called the AISI institute the
+artificial intelligence I believe
+security institute maybe safety
+institute one of those two u they do a
+ton of work they foster grants they have
+mentorship programs they work with the
+American labs they work with the UK um
+incredible work and then there's all
+sorts of groups sort of independent
+nonprofit organizations other companies
+that are working on understanding the
+eyes better so we can mitigate them or
+creating infrastructure like from
+verification other to to allow us to
+deal with this with these things better.
+Um I don't want anybody to go into I
+don't want everybody to go into one
+place. I think uh I think diversity is
+really important here.
+>> You mean you're at the peak of your
+field and so some people see that it's
+almost like curl. I mean it's different
+different but
+>> Oh really? It's like from I don't feel
+like it's like at all going
+>> you're at the top of your field and then
+you are leaving academia at least
+temporarily to go into industry.
+Yeah.
+I mean,
+we're living in crazy times. [laughter]
+Uh, I think I'm leaving to do what I
+think is most important. Um,
+yeah. I don't know. Do you have a more I
+mean, yeah, to me it feels I'm happy to
+talk more about it, but if you have a a
+concrete sort of objection or question,
+I'd love to hear it. Yeah.
+>> Um, I'm still invol like I still love
+math. I'm still spending some time doing
+it, much less now. But, you know, I
+really care about the problems that I'm
+involved in. Um, I have a lot of
+curiosity about them. Like, if AI comes
+uh in a few years like I'm expecting it
+to and is able to whatever.
+>> Wait, what do you mean AI comes in a few
+AGI AGI
+>> if if the systems sort of arrive in a
+few years which are better than
+mathematicians like I expect them to be
+>> problem? They can solve my problems. I I
+will definitely be very curious to see
+the solutions
+>> and to and to understand that stuff.
+There's a different question of like how
+curious will I be to invest in the next
+set of questions because you know
+there's definitely going to be next
+questions like math is not going to run
+out of questions and AI even though I
+better than humans is also going to have
+its limits like we're going to come up
+with questions I expect that that the AI
+is going to be stumped by if we haven't
+already. Um but there's something to
+like yeah how invested do you get in
+these questions given that you're not
+the one working on them anymore. It's a
+different it's a different experience.
+Was it a harsh decision to to make this
+transition?
+>> Sure, a huge decision. I mean, I part of
+me thought I would be an academia
+forever. Like, it's a very be
+mathematician forever. It's a very
+comfortable life being a mathematician.
+Um,
+>> once you've managed to sort of become,
+you know, a tenure professor or
+whatever, until then, it's a [laughter]
+lot of anxiety.
+>> Sure.
+>> Uh, but once you're there,
+>> just that small hurdle. Yeah.
+>> Just a small hurdle. Yeah. But once
+you're there, you know, you you never
+basically have to retire. Retiring means
+you get to think more. um you the longer
+you do it usually the more comfortable
+you are in a field you sort of you keep
+accumulating expertise knowledge and
+little pieces here and there get to work
+with young people that's very satisfying
+um I if I didn't think we're about to
+enter a very turbulent
+transition
+um and I was confident that everything
+was going to go well I'd almost
+certainly just stay and just stay in
+academia
+>> you said something earlier about improv
+you went into it because of the empathy
+>> the empathy aspect. And then something
+I've noticed with you is that you you
+are highly empathetic.
+>> In fact, you said that you no longer are
+taking new students because you're
+unclear about the ethics of what are
+they signing up for? Is there some
+implicit contract that they have with me
+where I'm saying, "Hey, most likely
+you'll be able to get a job and I
+actually don't know. I as Jacob don't
+know what job market's going to be in
+two years."
+>> Yeah. I'm not thinking students I
+studying students who weren't very um AI
+focused um because I think that whatever
+happens in a few years it's going to be
+centered around AI. It's not going to be
+business as usual. Um not centered
+around AI but like involving AI in a
+very deeply integrated sort of level.
+And yeah, it's exactly what you're
+saying. I I don't feel I I don't feel um
+confident pointing them towards a career
+that will exist and and giving them s in
+the way that I'm sort of I I'm used to
+training people for you know if
+mathematicians keep existing as a career
+which I hope it does and I think in some
+ways it does in some way it will um but
+I just don't think the kind of training
+that'll be useful for it will be what
+we're doing now you know um so
+so yeah I've been encouraging people to
+to pivot. People have been talking to me
+a lot about like my views about AI and
+math and and look, I have a lot of
+uncertainty. Um,
+but
+I think when I think when things are
+uncertain, you hedge. And I think when a
+big new player comes in like AI, you
+start getting oriented around I think
+getting oriented around stuff sometimes
+not valued enough in our in our
+discourse. Maybe maybe just an acade
+academic problem. I'm not sure an
+academia problem but people sort of talk
+about AI like well if it gets big then
+I'll sort of get into it then it's like
+well it's hard to just up and engage
+with something like the AI systems now
+if you I encourage people to engage with
+them because even though they'll change
+and the specific skills that you that
+you'll need will probably change a bit
+there's something there's some sort of
+generalizable skills that I think will
+stay the same so like one thing I
+remember happening to me is the first
+time I used I think I think it was Cloud
+Code, I'm not sure, one of these coding
+agents. And I was like, I'm going to try
+it. I'm going to make a game. There was
+this typing game when I was a kid. I
+learned to type. There were these like
+aliens descending and they had letters
+on them and I had to like press a letter
+for the lowest alien to make that alien
+blow up and, you know, the levels got
+progressively faster. You learn more and
+more keys, whatever, that kind of thing.
+And I couldn't find for some reason the
+typing games have gotten much worse in
+my opinion. Now they're all the graphics
+are better, but the games educational
+content is worse. So for my for my
+nieces, I was like, "Okay, I'm going to
+make this game. It'll be fun for me,
+too." So I sat down and I was like,
+"Cool, you and I sort of cloud code are
+going to think about it together, make a
+design plan, then you'll do the coding."
+And I typed in what I wanted. And it
+gave me back like 15 files and it was
+like great, I've got the game, what
+should we do next? And it was
+overwhelming. Like first of all, I
+didn't know that good, but second of
+all, I was like, "I don't know. I need a
+minute. Yeah,
+>> I'm not I'm not used to getting results.
+Like I thought we were going to this
+would happen on week three or something,
+right?
+>> Um and it wasn't perfect and it needed,
+you know, it it made some silly
+decisions that I had to correct. Um, and
+we collaborated for a bit, but like six
+hours later, I had everything. And I had
+the game, it had graphics, it it had
+good sounds, it looked good, you know, I
+have it on GitHub, which I don't know
+how to use,
+>> but so now I use all the time, you know,
+and it's always telling me, you know,
+don't worry, I've organized I've
+organized your GitHub well. And I'm
+like, [laughter] great, thank you. Um,
+and so the experience of I want to take
+on a project and getting back results
+that quickly and having to sort of
+digest it all and decide what I want to
+do next. Even though, you know, I
+started reading the files and I was
+like, this is pointless. I don't I I
+don't have time to read these files and
+like they're in JavaScript. I don't know
+JavaScript that well. I'm going to learn
+JavaScript to read these files to make
+sure it's doing what I wanted to do.
+Like it's not productive. It's not
+practical anymore.
+>> And so this idea of like you have to be
+a manager now. Mhm.
+>> Like [clears throat] we're all managers
+to some extent, but the extent to which
+we're we're managers, the the level
+which a career is like relevant to us
+all has really increased. Um so that's
+one thing that you will learn now if you
+start engaging with AI systems. Likewise
+with math like the system will get
+better. But the experience of here's a
+problem. Oh, you can actually just do
+this. There are certain pieces to the
+problem that I can just get back and the
+speed at which I'm progressing in
+developing this theory is just much
+higher than before. That's an experience
+that's worth having. So the the biggest
+piece of advice I have, not that you
+asked, but the biggest piece of advice
+for people is sort of get oriented, get
+those experiences as much as you can now
+so that when they become truly
+necessary, you're not playing catch-up.
+>> My biggest piece of advice to you is the
+next time you tell that story, make sure
+it's it's codeex. It's not anthropic. I
+[laughter] just don't want you to get in
+any trouble.
+>> Okay? I stay plugged into the AI news
+and the AI industry and software
+engineers and something that I see is
+that they say that the programmers
+firstly you don't need to know how to
+program anymore which is quite odd that
+you don't need to know it and they say
+that they haven't actually even Karpathy
+says he hasn't touched code in
+>> code yeah
+>> in quite some time now they say that
+what they what they are are more like
+project managers
+>> yes
+>> and it's a different skill set and some
+of them loved actually going through and
+tinkering and fine-tuning and coming up
+with extremely efficient solutions. But
+now that it's inefficient to come up
+with some efficient solution, you just
+ask the AI and the AI can come up with
+10 more features.
+>> That's right.
+>> And prototype something rapidly. Okay,
+maybe I shouldn't say this. I was going
+to say Romanagan with Claude like what
+happens,
+>> but maybe I should say codeex.
+>> Sure, [laughter]
+whatever.
+>> I doubt I doubt everyone's that sensive
+about it, but okay.
+>> Yeah. So, you can't quite know the
+future. And I I guess this question is
+also about that, but what's lurking in
+the background is the 19-year-old
+vonoyman or someone who is a 19-year-old
+who wants to get into math, maybe
+physics, maybe computer science, but
+let's just stick with pure math.
+>> Sure.
+>> What would you say? You have a daughter
+who's who's quite young, so she's not at
+this stage. But let's you could even
+imagine that she's 19 and
+>> she wants to follow in her father's
+footsteps.
+>> What would I say? Well, she's young
+enough that again by the time she makes
+a decision, it it will have either a lot
+more or a lot less clarity. I think more
+one way or the other. Um, so that's
+something I'm putting off for now.
+People who are now who are young who do
+ask me this question. Um, look, I I
+always tell people to um even now like
+to pursue their passion. If someone
+really likes math, you know, engage with
+math, learn math. Now, having said that,
+how do you engage with it and how do you
+learn it? So when we say that like
+mathematicians will stop doing what
+they're doing. Most people now who are
+doing mathematics who are engaging with
+it are not professional research
+mathematicians. Um they're kids playing
+with math there. Engineers using math
+for for something else. People doing
+math just for fun. Um I knew a poet a
+writer in uh in undergrad who was doing
+math because he he found it beautiful
+and he was quite good. Um and and he
+enjoyed a lot. and like engaging with
+math is definitely not going anywhere
+and people should keep doing that in
+terms of angling for a career and making
+it your only focus. I would advise them
+to hedge more. So engage with math but
+again don't lose don't sort of close
+your eyes, put your head down and hope
+the AI buzz dies down and we'll get back
+to business as usual. Hedge your bets.
+Learn about the world, learn about AI,
+learn about things are changing. um
+I mean I guess learn computer science to
+some extent like I I don't know exactly
+but you know people like all sorts of
+things that end up becoming not their
+profession or at least not not their
+profession by itself in a pure way.
+>> Um and I think pure math is is something
+which is
+which is very tumultuous now as a field
+to go into. I often like pure math in
+general has been I tell all my students
+before I before I do any math with them
+so they know this isn't a reflection on
+their ability. I tell them that there's
+a lot more grad students going into math
+than there are jobs for mathematicians.
+This is just fact. So most people who go
+into math as grad students do not end up
+getting a tenure job. Um
+so that's already true and you should
+already kind of be hedging a little bit.
+Now it depends of course and in order to
+succeed you got to spend a lot of time
+on math. So you don't want to at the
+moment you don't you don't want to
+diversify too much at risk of you know
+becoming a jack of all trades and master
+of none or something because math
+requires a lot of focus.
+>> Um at the same time it's you know it's
+good to keep aware of of of the facts. I
+think to the extent it's already been
+true it's going to become a lot more
+true now.
+>> How has AI or LLMs let's say helped you
+learn quicker? I mean, how have they not
+is kind of the answer now. Like
+everything I want to every single time
+I'm engaging with something new, I I go
+to NOM and I ask it to teach me, you
+know, every time if my sync is broken, I
+take a picture and I'm like, what's
+going on here? Mhm.
+>> Um, whenever I learn about,
+you know, I want to learn how some
+country works, some political situation,
+some history, I ask Loom's everything
+all the time. Um, it's kind of like
+asking how does Google help you in
+Wikipedia. Like it's it's my starting
+point for everything. Now, it's my
+starting point, which means it's not the
+only thing I use, you know? I I
+especially in the current world just the
+LMS have limitations at a certain point
+it becomes counterproductive
+and also you sort of start disengaging
+your brain
+um when you use them too much.
+>> Yeah. So my brother's at uft. He's a
+prof of math finance.
+>> And he said that he's noticed his
+students that they don't sit with not
+knowing the answer to something for
+longer than 20 seconds or 2 minutes or
+something like that and they quickly
+check
+>> what an LLM.
+>> It's funny. This is already a pro like
+when I so I thought about your math
+class at UFT and the classes where I had
+a midterm
+um the students did far better on the
+final as a result. What I would always
+do is have a midterm and then uh the
+grade for your midterm would be the the
+max of how you did in your midterm and
+how you did on the final. So if you did
+poorly you can sort of append it with
+the final. Um, and inevitably, so I
+start teaching a class and I always tell
+the students, "Here's homework. Now,
+please, at least for some of them, like
+put away the book, sit down for 30
+minutes and try it for yourself just to
+assess what your actual abilities are
+because it's very hard to to get an
+honest assessment, and not trick
+yourself when you're constantly glancing
+over at the right steps, the right
+ideas. So, just really do it to get a
+sense of where you are, these are your
+weaknesses, and you can work on them."
+And of course, nobody ever did it. And
+then the midterm happened. Everybody did
+terribly. Everybody was shocked that it
+turns out when the book's not there,
+they do so much worse. But the lesson is
+learned. And [laughter] then for the
+final, they sort of they've internalized
+it. So now they actually do the step of,
+you know, taking an hour going through
+the question by themselves. They see
+where they're weak. They work on it and
+they get better. Um, this already is a
+thing in our world. Now it's it's worse
+with LLM. this particular kind of
+dependency that can foster of like not
+sitting with with with the answer. But I
+I'm personally not so worried about this
+facet of it. Maybe naively, but like we
+have very good reward systems and tests.
+Like if students start use the OM the
+time, then during the exam or some
+application where they aren't right
+there, the OM they will do worse and the
+signal is very clear that you're looking
+at an F or whatever it is the grade you
+didn't want to get.
+>> So you see it as somewhat it weeds
+people out. I think people are I think
+addiction isn't as
+um
+how do I put that? It's a serious
+problem but people can resist and people
+can orient around what they need to do.
+Like people are smart. I really believe
+people are smart. Like people in math
+class who do poorly in math class, you
+know, they're often made fun of by sort
+of uh mathematicians or you know
+teachers who get frustrated and stuff. A
+lot of those people don't need to do
+very well. They're there because it's a
+requirement and they don't care and so
+they do the bare minimum and they're
+doing what they need to do. I mean, you
+know, they have their goals and their
+lives and whatnot. People who need to do
+well take it much more seriously and
+they study more appropriately. Now, if
+certain skills actually become useless,
+you know, like log tables aren't
+something anyone ever does anymore and
+they don't need to and we don't go
+around making, you know, fun of people
+for not knowing their log tables. If
+somebody can't multiply on one-digit
+numbers, that typically does hurt them.
+Like it's impractical to go around
+typing 6* 8 into a calculator. It will
+in a lot of professions straight up hurt
+your performance, right? Um and people
+learn that. And if it were practical to
+learn multiplication of two-digit
+numbers, people would also learn that.
+But it's not it's not necessary. People
+don't need to know it. It's fine if we
+don't need to know integration anymore
+or you know engineers don't need to to
+to know their trigonometry or whatever
+it is that'll be fine. We'll just
+actually stop using it. So this
+particular problem of like people will
+stop using their brains to their own
+detriment.
+I don't view it as as as big of a
+problem as I think some other people do.
+Wait, is the reason you don't think it's
+a problem some historical analysis that
+look we used to scoff at the
+calculators? the calculators were going
+to diminish people's brains and but
+every technology comes out and we think
+that it's going to harm the next
+generation and it doesn't is it because
+of that or
+>> that's that's part of the reason other
+reasons I think we have a lot of
+evidence that people act according to
+their incentives and I think if you know
+if you have a generation of people who
+use LMS and then need to do a certain
+task without the LMS there and it hurts
+their performance people will notice
+that and they will adapt I just I think
+there's a lot of evidence that people
+adapt
+to perform as they need to. Not
+everybody, of course. Some people will
+fall prey to this sort of trap, but I
+just don't see it as as big of a deal as
+as everybody else does, I think.
+>> What are you excited about?
+>> Boy, so much. I mean,
+again, I speak mostly about the risks of
+AI and the need for AI safety concern
+because I think that's what's needed
+right now. But the promise is enormous.
+I mean there's
+so many pract like I I
+love to learn personally. I love to gain
+proficiency and skill. Um I would love
+to if I felt everything was good just
+have my own AI tutor explain
+chemistry to me for example to a level
+that I can sort of you know understand
+the mathematics of chemistry of physics
+playing musical instruments. Um, I want
+to play video games designed by AI. I
+want to um create D&D games that AI
+really helps with actually cuz a lot of
+the work gets shortened tremendously.
+[gasps] Um, I write musicals. I like
+writing. I think AI is not there yet,
+but when it becomes a good writing
+assistant, some of the the fun parts
+that I basically basically I think we
+can get to a world where anything that
+you find fun you can focus on and you're
+not going to be bottlenecked by the
+necessary sort of skill gaps that you
+have and need to overcome. Like somebody
+might find pieces of math fun, but they
+have to learn multiplication, they have
+to practice their analysis, they have
+to, you know, do all that stuff and they
+don't want to. and that's fair and right
+now you can't like I like playing
+guitar. Um but even I like I'm not a
+huge fan of practicing my scales and
+stuff like that but already in our world
+I can compose music because I go on
+Logic Pro just type in the notes you
+know or I play them and whatever I I I
+adjust all the stuff um and it sounds
+good and that's the way I can engage. So
+I think we're going to have so much more
+surface area to engage on things that
+were previously blocked off because AI
+is going to enable us to do that. This
+is not even talking about potential, you
+know, qualitative improvements in in the
+human experience, which who knows are
+sort of in the realm of sci-fi, even
+though sci-fi is rapidly approaching.
+>> Thank you so much for coming over, man.
+>> I appreciate it. We're out.
+>> Oh, by the way, while we were editing
+this podcast, funnily enough, we found
+this from Tobias Osborne.
+>> Have you ever done a podcast?
+>> Never. This is like a first time for me.
+I'm a complete virgin. So, I don't know
+if you know this guy. He does this
+Theory of Everything channel. Um,
+>> yeah, I think he's in Toronto.
+>> Yeah, I think he's in Canada, right?
+>> Yeah.
+>> Um, and he's invited me way at the
+beginning of his channel to do a podcast
+or an interview with him. And this guy's
+really grown. Like, he's like he's
+interviewing like serious serious people
+now. He still occasionally asks me, "Do
+I want to come on the channel?" And I
+like I don't know cuz he also has he's
+he's pretty hard, right, in his in his
+interviewing. He um dives deep. He goes
+[laughter] hard and I'm not sure I'm
+quite ready for that.
+>> That was from a couple years ago. And
+Tobias, just so you know, I'd still love
+to have you on.
+>> Hi there, Kurt here. If you'd like more
+content from Theories of Everything and
+the very best listening experience, then
+be sure to check out my Substack at
+kurtjongle.org.
+Some of the top perks are that every
+week you get brand new episodes ahead of
+time. You also get bonus written content
+exclusively for our members. That's c u
+r t j a i m u n g a l.org. You can also
+just search my name and the word
+Substack on Google. Since I started that
+Substack, it somehow already became
+number two in the science category. Now,
+Substack, for those who are unfamiliar,
+is like a newsletter, one that's
+beautifully formatted. There's zero
+spam. This is the best place to follow
+the content of this channel that isn't
+anywhere else. It's not on YouTube. It's
+not on Patreon. It's exclusive to the
+Substack. It's free. There are ways for
+you to support me on Substack if you
+want, and you'll get special bonuses if
+you do. Several people ask me like,
+"Hey, Kurt, you've spoken to so many
+people in the field of theoretical
+physics, of philosophy, of
+consciousness. What are your thoughts,
+man?" Well, while I remain impartial in
+interviews, this Substack is a way to
+peer into my present deliberations on
+these topics and it's the perfect way to
+support me directly. kurtjongle.org
+or search kurtjungle substack on Google.
+Oh, and I've received several messages,
+emails, and comments from professors and
+researchers saying that they recommend
+Theories of Everything to their
+students. That's fantastic. If you're a
+professor or a lecturer or what have you
+and there's a particular standout
+episode that students can benefit from
+or your friends, please do share. And of
+course, a huge thank you to our
+advertising sponsor, The Economist.
+Visit economist.com/toe
+to get a massive discount on their
+annual subscription. I subscribe to The
+Economist and you'll love it as well.
+toe is actually the only podcast that
+they currently partner with. So, it's a
+huge honor for me and for you. You're
+getting an exclusive discount. That's
+economist.com/toe.
+And finally, you should know this
+podcast is on iTunes. It's on Spotify.
+It's on all the audio platforms. All you
+have to do is type in theories of
+everything and you'll find it. I know my
+last name is complicated so maybe you
+don't want to type in jaungle but you
+can type in theories of everything and
+you'll find it. Personally I gain from
+re-watching lectures and podcasts. I
+also read in the comment that toll
+listeners also gain from replaying. So
+how about instead you relisten on one of
+those platforms like iTunes, Spotify,
+Google podcasts. Whatever podcast
+catcher you use, I'm there with you.
+Thank you for listening.

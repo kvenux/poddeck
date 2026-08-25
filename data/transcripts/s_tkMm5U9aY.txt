@@ -1,0 +1,5047 @@
+A famous immunologist in the 1970s
+drew this parallel in wartime and said
+in World War II submarines had two sets
+of books. One of them was a book that
+gave them the sound profile of all the
+US submarines. And so they could listen
+to the whir of the engines and if they
+heard a whir of the engine that had the
+certain cycle of a General you know,
+Motors engine, they wouldn't fire. So
+that's the sort of like self, I know
+what self is. And then they had another
+book that was the engine sounds of the
+known diesel engines of whatever engines
+of the German submarines. And if they
+heard that then they absolutely would
+fire.
+And that's a self versus non-self
+discrimination problem just like the
+immune system has to do.
+But what I bring you with it aging is
+this concept that as you get weirder and
+different and your your body is getting
+like more complex
+then as those books, you know, start to
+have every possible possibly every
+possible permutation of every
+biomolecule could could could be made by
+your body at that point. And then a
+virus doesn't necessarily have anything
+unique about it.
+>> Welcome to the Huberman Lab Podcast
+where we discuss science [music]
+and science-based tools for everyday
+life.
+>> [music]
+>> I'm Andrew Huberman and I'm a professor
+of neurobiology and ophthalmology at
+Stanford School of Medicine. My guest
+today is Dr. Max Krummel, a professor
+and leading expert in immunology and
+cancer biology at the University of
+California, San Francisco.
+Today we discuss your immune system, how
+it works, what it needs to function at
+its best, and how things like aging,
+vaccines, sleep, and even your thoughts
+and emotions shape immune function. For
+instance, most everybody knows that
+being sleep deprived makes you more
+prone to getting sick. But why? Meaning
+mechanistically why? Well, it turns out
+there's a specific set of cells that
+need to migrate in a particular way
+during sleep and we talk about how you
+can reinforce that process in ways other
+than sleep. We also discuss incredible
+findings that certain brain states and
+memories can be associated with an
+immune system status you had when those
+memories formed and evidence that just
+recalling those memories, thinking about
+where you were, what you were feeling at
+those times when the memories formed,
+can activate your immune system in the
+same way, which is remarkable.
+We also have a very candid discussion
+about vaccines and medications more
+broadly. You'll notice that Dr. Cromer
+is incredibly balanced throughout
+today's conversation, and yet he's also
+willing to state his views very clearly.
+So, it provides a very rich discussion
+about vaccines and all the rest. Indeed,
+thanks to Max's incredible breadth of
+understanding of immunology and much
+more, and his ability to break down
+complex topics and make them accessible,
+plus his genuine care for public
+education and science, today's is a
+truly special and important episode to
+educate and inform you in actionable
+ways. I should also mention that Dr.
+Cromer has an incredible zero-cost
+Substack. It's called The Immune Beyond.
+You can access it by going to the
+immunebeyond all one word {dot} substack
+{dot} com, and there he teaches about
+science and more. Again, it's awesome,
+it's free, so definitely check it out.
+Before we begin, I'd like to emphasize
+that this podcast is separate from my
+teaching and research roles at Stanford.
+It is, however, part of my desire and
+effort to bring zero-cost to consumer
+information about science and
+science-related tools to the general
+public. In keeping with that theme,
+today's episode does include sponsors.
+And now for my discussion with Dr. Max
+Cromer.
+Dr. Max Cromer, welcome.
+>> Thanks.
+>> Most everybody, including me, has heard
+of this thing we call the immune system,
+and most people just think, "Okay, this
+is the thing that when I'm rested keeps
+me from getting sick,
+and when I'm not as well rested, I tend
+to get more sick, and there are these
+airborne things, and we can get sick,
+and there's like funguses and viruses
+and and I think that's probably what
+most people understand, and they
+probably also understand that there are
+like cells and T cells and B cells, but
+if we want to think about a little bit
+of the history of our understanding of
+the immune system and what we understand
+now, maybe you could orient us because
+in reading your work prior to this
+discussion, I'm realizing that
+this is a very recent field, and also
+there's still a lot that we do not
+understand.
+>> When I started immunology, sort of 30
+years ago,
+I was rotating in labs at Berkeley,
+where I think you were at Berkeley as
+well.
+And one of the transcription factor
+biologists, you know, mentor said, "You
+know, why do you want to work in
+immunology? It's not really a field."
+And so at the time it was kind of true,
+you know, everything was about DNAs,
+cloning. We still, you know, it's
+obviously still a lot about molecular
+biology what we do.
+But you know, at the time it was pretty
+simple. We thought of the immune system
+as something that
+on the one hand it had to come into play
+when you saw a virus or something
+foreign.
+Um and otherwise it generally had to be
+quiescent and kind of leave you alone. I
+think cancer immunotherapy changed that
+a lot. That that gave us the idea that
+you could tune its reactivity, so that
+you could get to the point where if you
+gave an immunotherapy, what it was
+actually doing was raising the threshold
+if when a T cell would activate,
+and allowing T cells that might be just
+letting the tumor get by,
+get they they'd be able to go and go
+after that tumor and and and kill it.
+I think that changed the spectrum to a
+certain degree where we suddenly
+thought, "Okay, this isn't just a just
+a, you know, foreign versus self thing,
+because it's a tumor is kind of not
+exactly self, but it's it's actually
+it's also not foreign. It was once you.
+It's a cell that's kind of evolved."
+So I think tumor immunology really
+changed our perspective on that, you
+know, to the point where we now think of
+it as a as a tunable system.
+But then I think, you know, a lot has
+happened in the last 20 years. There's
+been a lot of excitement about cancer
+immunotherapy because well, we're we're
+curing people with cancer,
+which really wasn't done before. And
+you're now in the space where um the
+immune system is showing all these other
+roles. I mean, you know it in the in the
+nervous system, the brain, there's
+microglia that do various functions,
+cleaning up, etc.
+But it's in your gut. It's allowing
+microbes to live in you,
+but it's titrating them. It's keeping
+them there in the kind of like the right
+quantity. So, it's kind of guarding
+yourself. It's uh you know, it sits in
+your liver
+regulating how how much you metabolize.
+There's a collection of cells there.
+Um it's in your heart. It's you know,
+regulating cardiomyocyte function. Uh
+those are the the muscle cells of your
+heart.
+Uh they have to be cleaned up from time
+to time. So, there's a set of immune
+cells that will help get rid of their
+byproducts in the in the in the heart.
+So, it has all these additional
+functions that kind of before where
+where lost in the in the just you know,
+the foreign battle against the foreign.
+And now we have this kind of perspective
+of the system that measures us all the
+time. It measures everything about us
+and it exists in some ways. I think it's
+to to help us be who we are. You know,
+and that's hopefully that's you as a
+healthy person. You know, in chronic
+disease unfortunately it can be part of
+the problem where it becomes part of the
+things that's letting the chronic thing
+whether it's a tumor
+or kidney disease or what have you. It
+can it can actually help perpetuate it
+because well, it's you know, in some
+ways it's trying its best. But it's
+applying the wrong program to the wrong
+situation.
+>> Come on.
+>> So, yeah, it's it's changed a ton.
+I'll give you another little funny story
+which is that that you know, when I
+first came to immunology
+again we had the story like you know,
+you know, mentor who says you know, this
+isn't really a field. The year was like
+I came into the field in 1989 and that's
+right at the peak of AIDS. And um
+AIDS was like as as a biologist was
+really because you know, the the HIV
+virus infects T cells. So, your body is
+filled with 10 to the 11th or so T
+cells. Like a ton of different kinds of
+T cells.
+And you had a you had a subset of T
+cells that are called CD4 T cells.
+They're kind of a flavor of T cells.
+And the virus gets rid of those. So, HIV
+virus will infect the CD4 T cells and
+then then you end up with not having
+them.
+And the the manifestations of AIDS for
+those who weren't around during it, was
+it was just a ton of different
+opportunistic infections. So, like soil
+bacteria that you and I, you know, fight
+off without even thinking about it,
+would would would kill people. But, so
+too would you see you saw people with
+Kaposi's sarcoma. You saw like a
+opportunistic like where, you know,
+cancers emerging.
+Um, and you just saw all these kind of
+manifestations of where the immune
+system was important. Demencias
+in in people with HIV as well. You know,
+it was a really accent time on how many
+different things the immune system might
+be important for. So, regardless of
+whether, you know, it was a field or
+not, it was clearly important. And it
+was all these things we didn't know
+about it that like fueled the
+discoveries that have led to where we
+are right now. And some of those, I you
+know, I think it's worth pointing out,
+were just these curiosity questions.
+Like, what are these cells? Like, they
+were hard to study it in the beginning,
+you know, they they don't live, you
+know, it's it's sometimes hard to keep
+cells out of out of a out of a human
+body alive.
+So, you know, there's there's issues
+about you know, how do you keep these
+things alive in the very first place?
+And then and then what what kinds of
+things, you know, trigger them to do
+stuff and you got to make reagents to
+test those, you know, ideas you might
+have about what they might do. It was a
+long haul, I think, to get ourselves
+together where we now have a pretty good
+understanding of all the molecules and
+the cell types and the and the behaviors
+that they can engage in. And it just
+gets more compli you know, more more
+complex and more like rich as we
+understand that they're basically every
+single T cell in your body is like a
+free agent and they're part of a sensory
+system. Each one can measure
+the concentration of a of a
+set of biomolecules, proteins. They
+form of peptides. They can measure that.
+And each one then can say that's out of
+range or that's in range. So, it's like
+you have like 10 to the 11th little
+sensors going around you
+curating you.
+You know, making sure you're the right
+thing. And if they see something that's
+out of range,
+they can do something about it. You
+know, like the whole thing is
+magnificent.
+>> It is magnificent. Do you mind if we
+take a developmental
+perspective on this for a second and
+then I have a basic health question. The
+developmental perspective is
+I think most of us either remember or
+have observed that when
+humans are young
+they get sick a lot more.
+Presumably that's because their immune
+system isn't as well developed, but
+kids tend to get sick and then get over
+being sick pretty quickly.
+>> Yeah.
+>> Maybe you could describe what's going on
+there.
+>> Yeah.
+>> And it also is the case that you know
+as we get older
+much older in fact,
+last quarter of life, let's say, people
+tend to get sick more.
+What's going on in terms of immune
+system function
+or is there something more broadly
+happening at level of just kind of
+energetics, mitochondrial function? Very
+curious about this.
+>> If I can take a step even further back
+I'll ask you a question of like who are
+you? And I don't mean that like in a
+personal sense, but I can you know talk
+about that too if you want. But the more
+of the question is like at at some point
+where does your body end and where does
+the world outside start?
+And one of the things that you know you
+start to realize if you look in a
+microscope is that we're covered with
+microbes all of our surface.
+We're covered with microbes all the way
+in our gut. In fact, we can't you know
+you can't digest you've probably heard
+this before, but you can't digest animal
+fats if it weren't for the bugs the
+bacteria in your gut. They make some of
+the key components of of bile acids that
+allow you to digest animal fats. So you
+need this system that's around you. So
+you aren't just the cell like if you
+learn biology you've got the again we're
+going to go way back. There's the egg
+and the sperm and they fertilize and now
+you got this this this cell that starts
+to divide and gives rise to every other
+cell in our body. So you might say that
+your body is just that collection of
+cells.
+>> [snorts]
+>> But in fact it's it's it's it's absorbed
+a lot of viruses and and bacteria from
+our environment.
+And you know to go into that really
+briefly, that's really important because
+we only have 20,000 genes in our genome.
+So there's only so much in a given life
+that we can do with those genes. And so,
+by absorbing all kinds of other species
+onto us, we get their genomes. So, like
+you said like I was saying the the
+bacteria in your gut can now help you
+absorb nutrients that you wouldn't
+otherwise. If you eat sushi, you know,
+you've heard this probably, right? You
+get you get bacteria in your gut that
+can help you absorb the the the
+seaweed.
+You know, nutrients from seaweed.
+So, so taking this into your question,
+you know, when you're first born, you've
+never really seen anything. And so, two
+things are are I I think
+worth pointing out at the early phase of
+life. One of them is for the first 6
+months or so, your immune system is
+pretty poor at being trained on things.
+And it's presumably we presume that for
+those first 6 months that's because your
+body's developing so fast that if you
+were to have a super active immune
+system, you might actually find yourself
+attacking yourself. You might think that
+you're foreign because some genes turn
+on during development and then all of a
+sudden you're, you know, your your
+immune system's like, "Oh, I I see
+something different and now I need to
+react."
+So, that's well known and that's that's
+one of the reasons why some childhood
+vaccinations, they're really important
+to protect kids in long over life, why
+they aren't given until you're 6 months
+or or or older.
+But, I think to your point, one of the
+things that's happening with kids is
+that they then then as they go into
+their like into their 10 and you're
+talking about they get sick a lot, they
+just haven't seen a lot of these bugs
+before. So, they don't have an immune
+system that knows what flu is.
+Cuz they've never seen it the body's
+never that body kids body has never seen
+flu before. So, every single virus and
+pathogen that hits it is going to elicit
+some of you know, some amount of
+illness.
+But, then they have a very strong immune
+system it reacts and you know, gets rid
+of that.
+With the exception of the ones that are
+you know, are those those certain
+viruses and bacteria as mumps, measles,
+rubella that are they're lethal and
+that's why we immunize as we said. And
+that's those are things that your immune
+system if they get too much of those,
+kids will die. And so, it's better to
+protect them with a vaccine.
+All right, so that's the front end,
+right? The front end has this initial,
+you know, immunosuppression, then just
+exposure to all these things that are in
+our environment and you and I take on as
+part of our genomes, but we have to get
+a we have to reach a detente with some
+of them. You know, we have to get to the
+point where the immune system can kind
+of like fire back when they show up if
+they're bad and and and allow them to
+live in us if they're good with us. And
+so I think that's what's happening a lot
+in those first years of life and you
+know, you can see that both in the form
+of you know, kid getting sick a lot, but
+you'll also see that their guts develop
+way diverse microbiome. You know, they
+they allow a whole bunch of things that
+come in from the outside and are
+acceptable and are quite good for you.
+So that's the front end and the back end
+of life, it's a little bit more
+complicated, but I'll tell you I'll tell
+you two things that I think are
+important. On the one hand is the idea
+that is is the is the fact that a lot of
+your cells in general become less
+functional including immune cells.
+And you get less cells produced and and
+that might just be because, you know, we
+were never selected as organisms to live
+as long as we do right now. That's the
+one idea of aging right here.
+>> We know that that we just were supposed
+to be dead by 70.
+>> Well, no, but we do know that that we
+can reproduce and and you know, pass on
+our genes successfully already when
+we're 16. So, you know, the the
+selective pressure to pass on your genes
+if you imagine that's how genetic
+evolution happens is that you pass on
+your genes as being successful.
+You can already do that at 16 and
+anything after that is just cream of the
+crop, but um you know, at some point
+maybe there's no selection. So we don't
+know that, but it's it's a reasonable
+hypothesis to say there wasn't any real
+selective pressure for passing on genes
+that do anything past when you're
+actually having kids.
+>> The psychologist would tell us that uh
+the wisdom of people, you know, 60, 70,
+80 and beyond is useful for um groups of
+humans that live in, you know, you know,
+villages of a hundred or so people cuz
+they can give information to younger
+people that is on the periodicity of
+like every 5 to 10 years, maybe every 30
+years.
+But that's a just-so story, right? That
+I mean
+>> It's a nice just-so story.
+>> I like
+>> too and I and the I think genome uh
+geneticist will refer to this as like
+the grandfather effect where genes may
+be selected for and maybe they're mostly
+about you know, genes that make us
+social in the and for for for the
+elderly that do you know, they're going
+to have effects on the fitness of their
+grandchildren, which is their genes.
+>> Mhm.
+>> And so this yeah, I think there's
+something to be said for that in in
+conceptual space. I don't know if I can
+prove it to you that that's
+>> It's a tough experiment to do.
+>> It's a really tough experiment to have
+two villages where they you know,
+grandparents are eliminated or like kept
+you know, it's
+both non-ethical and also non-ethical.
+>> Right.
+>> But we're talking about the aging immune
+system and I think I think there's two
+things that again come to this question
+that I was asking like who are you?
+Um and I was saying okay, well, in aging
+you have this issue that the immune
+system is is tapering in its efficacy.
+It's many of the cells that you you
+know, you've been holding your whole
+life start to to literally they die off.
+But there's another thing, which is I
+think a lot of people don't realize when
+you say when you you
+basic biology would say the sperm you
+know, like uh fertilize the egg so you
+got your mom's genes and your dad's
+genes. So you got
+23 chromosomes from your mom, 23
+chromosomes from your dad.
+And and and at least in when you're
+first born, every cell is a clone that
+has the exactly the same information.
+But DNA replication and and DNA sort of
+like fidelity isn't perfect. Like they
+say that on your skin, the cells of your
+skin may have somewhere between 10 and
+30,000 mutations per cell per day.
+Just from like basic sun exposure. And
+it's that that's higher than some of the
+other organs, but the basic idea is that
+your DNA you know, it's susceptible to
+UV radiation. That's one of the reasons
+we put on sunscreen.
+>> [gasps]
+>> But what it what it practically means
+and no matter what number you put in
+there, whether it's 10,000 mutations per
+day or remember the the genomes are
+huge, right? So 10,000 mutations out of
+terabytes of of of
+information still is only a certain
+number, but do that over every over over
+years. And the main thing is that
+that means is that every cell in your
+body is no longer identical to the one
+next to it because this one got
+different mutations on day one, this one
+got some mutations on day two. And
+slowly but surely, you are becoming like
+a mosaic.
+And I say mosaic, you know, because like
+the tile you see in Morocco, you know,
+very intricate designs. Because if you
+actually, you know, start to look into
+tissue, you know, you'll find that
+certain clones, certain mutations do
+make certain cells more fit. And they're
+the ones that if you scratch yourself
+and a cell has to like some some new has
+to cell has to form, they might be the
+fittest to fill that void.
+>> [laughter]
+>> And there's one of the other clones over
+here that had got a different mutation
+may not be fit to fill that clone in. So
+you you you end up with this pastiche of
+who you are. So now, again, I ask you
+like who are you now? So if I want to
+defend against something
+that looks different.
+What if everything looks different? What
+if every cell is different from every
+other cell?
+It's it's it Okay, you want to you want
+another analogy?
+>> I would like another analogy. The only
+exception that I can think of to this,
+and I could be wrong, is that our
+neurons,
+our central nervous system neurons, our
+brain and spinal cord, most all of them
+are the same ones that we were born
+with.
+>> Same cells, but they don't
+>> Same cells, but they're So you're saying
+mutations are constantly occurring in
+the neurons as well.
+>> So there's there's this It is
+fascinating, by the way, that neurons
+live that long. And, you know, hair
+cells, they they say that the the
+proteins in our in our hair hair cells
+over here are the same exact molecules,
+atoms, as we had when we were born. So
+there's there's some cells that are long
+there, but in their nuclei, the DNA
+that's encoding who they are, who those
+cells are, is subject to mutation
+ongoing. And it depends on how deep they
+are. Like the We tend to think that one
+of the reasons that immune stem cells
+live in our bone marrows, you know, our
+long bones are hollow. And in there is
+the source of the immune system's, you
+know, revitalization. It's the stem
+cells that make more white blood cells.
+We'd like to think that they live in
+there because it protects them from
+radiation.
+They they they they they hang out in
+stem cells are, you know, the the bone
+actually serves not only a structural
+purpose in our body, but they it's a
+cavity in which things can live.
+>> Keep it away from
+>> from UV
+>> solar radiation solar radiation
+>> away from chemical cues in the
+environment that can mutate.
+>> Sequester your stem cells.
+And um
+>> Don't burn them.
+>> Yeah.
+>> That kind of thing.
+>> Yeah.
+>> Yeah.
+>> Likewise, the neurons in the in the uh
+inside of the skull
+>> Yeah.
+>> and the spinal cord
+>> are protected.
+>> Um they're protected.
+>> Yeah.
+>> And uh that's interesting.
+>> Yeah.
+>> Yeah.
+>> I would like to take a quick break and
+acknowledge one of our sponsors, Joovv.
+Joovv makes medical-grade red light
+therapy devices.
+Now, if there's one thing that I have
+consistently emphasized on this podcast,
+is the incredible impact that light can
+have on our biology and our health.
+Now, in addition to sunlight, which I've
+talked about a lot on this podcast, red
+light, near infrared, and infrared light
+have been specifically shown to have
+positive effects on improving numerous
+aspects of cellular and organ health.
+These include faster muscle recovery,
+improved skin health, wound healing,
+improvements in acne, reduced pain and
+inflammation, improved mitochondrial
+function, and even improvements in
+vision. Nowadays, there are a lot of red
+light devices out there. But what sets
+Joovv lights apart, and why they're my
+preferred red light therapy device, is
+that they use clinically proven
+wavelengths, meaning they use the
+specific wavelengths of red light, near
+infrared, and infrared light in
+combination to trigger the optimal
+cellular adaptations. Personally, I use
+the Joovv whole body panel about three
+to four times a week, usually for about
+10 to 20 minutes per session, and I use
+the Joovv handheld light both at home
+and when I travel. If you would like to
+try Joovv, they're offering up to $400
+off select products for listeners of
+this podcast. To learn more, visit
+Joovv, spelled j o o v v.com/huberman.
+Again, that's j o o v v.com/huberman.
+Today's episode is also brought to us by
+Eight Sleep. Eight Sleep makes smart
+mattress covers with cooling, heating,
+and sleep tracking capacity. One of the
+best ways to ensure you get a great
+night's sleep, is to make sure that the
+temperature of your sleeping environment
+is correct. And that's because in order
+to fall asleep and stay deeply asleep,
+your body temperature actually has to
+drop by about 1 to 3°. And in order to
+wake up feeling refreshed and energized,
+your body temperature actually has to
+increase by about 1 to 3°. Eight Sleep
+automatically regulates the temperature
+of your bed throughout the night
+according to your unique needs. I've
+been sleeping on an Eight Sleep mattress
+cover for nearly 5 years now, and it has
+completely transformed and improved the
+quality of my sleep. The latest Eight
+Sleep model is the Pod 5. This is what
+I'm now sleeping on, and I absolutely
+love it. It has so many incredible
+features. For instance, the Pod 5 has a
+feature called Autopilot, which is an AI
+engine that learns your sleep patterns
+and then adjusts the temperature of your
+sleeping environment across different
+sleep stages. It'll even elevate your
+head if you're snoring, and it makes
+other shifts to optimize your sleep. If
+you'd like to try Eight Sleep, go to
+eightsleep.com/huberman
+to get up to $350 off the new Pod 5.
+Eight Sleep ships to many countries
+worldwide, including Mexico and the UAE.
+Again, that's eightsleep.com/huberman
+to save up to $350.
+>> Sometimes I tend to send to the immune
+system you want to defend it like you
+want to defend a a nation. And you want
+to defend it from outsiders. And I've
+just told you a story that's if you want
+to take a political statement from it's
+pro-immigration because all these
+bacteria that live on us are actually
+bringing us goods. And they they do a
+lot of
+>> lost half the audience.
+>> I'm
+>> No, I'm just kidding. I'm totally
+joking.
+>> We we're a we're a bipartisan audience.
+I'm
+totally joking.
+>> I'm totally joking.
+>> It's the argument for, you know, why why
+certain
+you know, influx of of of
+in this case organisms under us or you
+know, create a more robust, you know,
+person than we were before.
+But I want to give you this this story
+that one of a famous immunologist in the
+1970s
+drew this parallel in wartime and said
+in you know, World War II
+submarines would be underneath the ocean
+and they'd be traveling around
+and they would if they could if they
+heard another submarine, they would
+scuttle the missiles and the torpedoes
+because that could be the enemy and the
+enemy could fire at them.
+>> [snorts]
+>> And so they had two sets of books
+that they used. Uh one of them was a
+book that gave them the sound profile of
+all let's say it's a US of all the US
+submarines. And so they could listen to
+the whir of the engines and if they
+heard a whir of the engine that had a
+certain cycle of a general you know
+motors engine, they wouldn't fire. So
+that's the sort of like self I know what
+self is.
+And then they had another book that was
+the engine sounds of the known diesel
+engines of whatever engines of the
+German
+uh you know submarines. And if they
+heard that then they absolutely would
+fire. And that's a self versus non-self
+discrimination problem just like the
+immune system has to do.
+But what I bring you with it aging is
+this concept that as you get weirder and
+different and your your body is getting
+like more complex,
+then that as those books, you know,
+start to have every possible possibly
+every possible permutation of every
+biomolecule could could could be made by
+your body at that point. And then a
+virus doesn't necessarily have anything
+unique about it. A virus is also going
+to make proteins and that's your immune
+system can see the viral proteins and
+say
+a new thing has come in and that's you
+know that's out of range and now I need
+to mount that a T cell response against
+this. I need to make the you know the
+bring in the troops.
+But with aging we have this this kind of
+you know us diverging problem.
+So that this you know this system that's
+supposed to sense us
+is just you know has a lot of cosmic
+background. That's a lot of noise in it.
+And so I think it I think that's one of
+the reasons why we also have issue when
+we're aging. And it's I think it's also
+one of the issue reasons why cancer is
+more prevalent in later life.
+For I mean there's two parts to that.
+One is of course you've accumulated
+mutations in your cells that could be
+cancerous.
+But also the immune system has been
+seeing those and all the various
+different accumulations of them and ones
+like them you know over these years to
+the point where the weird doesn't look
+that weird anymore. You you like a
+cancer that is different than you,
+it's not that much different than like
+another cell over here that's gone, you
+know, like and it's just happily making
+skin and isn't cancerous, but you know,
+it's it's it's got some differences.
+>> What about the argument that there's so
+much cellular turnover
+that um
+the cells that accumulate these
+mutations are being eliminated. You're
+saying because they're clonal, they're
+producing
+different they become different they
+produce cells that are also different
+and then they die. Is this Is that the
+way it works?
+>> Yeah, and I think I think you're you are
+bringing something that's also true,
+which is that all the time I think the
+immune system is defending us against,
+you know, mutations. So, one example
+that everybody sees when they get to be
+about 40 or or 50 is is little these
+white spots on your skin. And we we
+think that those are places where the
+immune system has sensed a collection of
+cells that were precancerous, maybe they
+were even beginning of cancer, and has
+wiped them out. And and so there you
+know,
+a lot of the origin of cancers in skin
+is is melan and then producing cells
+like melana, you know, melanoma is skin
+is what we call skin cancer.
+Um those melanocytes that that white
+area that's been wiped of a whole
+collection of melanocytes and that's why
+it's, you know, it's it's white
+>> [snorts]
+>> instead of as dark as your as your rest
+of your skin.
+So, you know, to that extent the idea
+that the immune system is is pruning you
+all the time is, you know, there's it
+looks like there's pretty good evidence
+for that.
+Um
+and the question is when does something
+become dangerous?
+As that's that's that you know, that's
+fundamentally the question with cancer
+and these sorts of things. If If you
+said, "I want to actually have the
+fittest cells in my skin
+to uh fill in a gap if I scratch
+myself." I would like to have cells that
+quickly replicate just like maybe in
+kids. Kids heal so ridiculously quickly,
+right?
+>> Because they have an abundance of these
+cells that
+>> I think I think they're they're they're
+wound healing. I mean, there's there's a
+group out of Stanford that studies this,
+but essentially, you know, wound healing
+in in in young is quite quite a bit
+faster and more efficient and and
+there's many levels of that. There's
+many levels of that, yeah.
+>> But um yeah, remarkably faster. And if
+you're a parent, you've seen this, you
+know, you
+cut yourself in the same day as a kid,
+your kid cut yourself and they're
+they're 3 days later they can't even
+find it on them. And you know, like 4
+weeks later you're still like kind of,
+you know, scabs or something. But I was
+just coming to the point that if you do
+that and and you want this do you want
+you maybe you want that to fill back in
+because you know, certainly out in the
+wild having an open wound is a bad
+thing. So you'd like to you know,
+quickly.
+Well, if a mutation has happened that
+fills that cell in quick more quickly,
+that is almost by definition a mutation
+that's let that cell divide faster.
+Well, what is cancer?
+It's cells that divide faster. So in
+some sense, all these advances in your
+life were winners win by filling in the
+space left by cells that die is
+selecting for cells that get a little
+out of range with growth. And they may
+be a little bit better at growing.
+And then again, there's a quick question
+it's like, well, how much better do you
+want that? You want it to like help you,
+but at some point you don't want it to
+basically form a lesion and will grow
+grow grow grow grow and go other places
+and grow, which is called metastasis in
+cancer, which is how most people die.
+To me, the the issue of self and
+non-self is one of the ones that's been
+with immunology for a very long time.
+And again, it's way richer than we
+thought about, I think, in the 1990s or
+2000s. But you know, and then at the
+same time, the idea of what you can do
+with that information is also I call
+this kind of a new immunity. Immunity
+used to be like a fuel gauge. You'd say
+it was low for self, then it was really
+high against viruses and it was like a
+fuel gauge you know, now it's really
+hot. And what we originally thought we
+were doing with cancer immunotherapy was
+making it just hotter generally.
+But now you realize that in between like
+the immune system not caring about
+something at all and and going and you
+know, like releasing all its fury on
+something are all these other things it
+can do with the information it gathers
+in there. And that's what I was saying,
+you know, it can it can like quarantine
+bacteria. It's not going to kill them.
+It's it's in that zone. The bacteria, as
+long as they're in the right zone,
+there's not too many of them, there's
+not too a of them. Immune immune can
+actually help them be there. It can
+produce things that like either titrates
+them out of circulation or keeps them
+there.
+You know, in all these other studies,
+like I say, in the heart and the you
+could almost any organ and and you know,
+your immune system is consistently
+present and it's consistently measuring
+you. And the you again is this complex
+you. It's not just what came from the
+egg, it's the you that's you right now,
+including all the mutations that you
+might have accrued and all the bacteria
+and and the and the viruses, you know,
+we have a lot of viruses in our bodies
+that we tend to think that at the end of
+a of a illness that we've gone back to
+our pure state. This may come from
+religion, you know, that we were born
+pure and if God had made us correctly,
+then we would be pure at the end of
+things.
+And you know, that would be pure
+immunity which would purify us of
+things.
+But the more we look, the more we find
+that every virus leaves a little
+evidence of a little bit of itself.
+And then there's a then there's the goal
+for the immune system to kind of
+quarantine that. To say this, you know,
+maybe we don't want to kill every one of
+our cells to get rid of every virus
+that's infected one of our cells.
+We need to leave some of those alive. We
+don't like for example, in in herpes
+virus infection, it infects the nerves
+and when people have you know,
+emergence, they they get nerve pain and
+worse. A lot of that is caused by the
+immune system reacting to the virus
+trying to get out
+and then killing off neurons. So the the
+the it's immunopathology. The immune
+system is called causing as much of the
+damage and problem as the virus is. And
+it's the failure of that detente and
+when certain viruses are just sitting in
+us, we're perfectly fine. You know, we
+have viruses in your RNA. As long as
+they're laying dormant, our immune
+system can say, "Okay, I'm going to just
+hang out here and if anything bad
+happens, I'm going to squelch that."
+But it's not like we've been purified.
+You know, that's a reality that's a
+little bit too bad, but you know, it's
+also one where you say again, if if the
+goal of us is to make it to 30, let's
+say you get a
+bad or an early liver infection of a HCV
+or HBV.
+If the immune system can just let that
+be, you're not going to destroy your own
+liver and you'll live to produce and
+your genes will get passed on. On the
+other hand, if you mount out a massive
+immune response, you know, you went all
+the way in the fuel gauge to the right,
+your immune system can kill you. It
+absolutely can. You know, it's
+can kill any cell it wants. So, so that
+that that again, that idea that the
+space in between is the one that we
+actually are starting to understand that
+has all these specialized roles
+that are not always about getting rid of
+things at all cost.
+>> This raises a question for me and
+obviously I'm not an immunologist, but
+it seems like one
+>> You're going to be one by the end of
+today.
+>> I hope so.
+I like the sound of that.
+Um as will the audience. One potentially
+useful
+strategy the immune system could have,
+perhaps, would be rather than to decide
+to launch an attack on a particular cell
+because it's mutated and different um
+enough to assess
+how many cells throughout the body or
+even just get a local average of how
+many cells have similar mutations or
+just are different, right? So that if we
+are indeed born pure um in the
+biological sense, um [laughter]
+let's just keep it there for the sake of
+today's discussion. And, you know, by
+time we are um you know, 32 years old,
+we are a mosaic of mutations. As it it
+appears we are. If the immune system
+could surveil multiple regions in the
+body, maybe compare organs or maybe keep
+it within organ system and say, you
+know,
+the number of of mutated cells or not
+pure me cells would be one way to do it
+more simply, perhaps, has exceeded a
+certain threshold measured I don't know,
+like enough receptors have something in
+them that the cell goes, "Okay, you know
+what? I'm going to fight."
+>> Yeah. Right? In the same way that, you
+know, soldiers, you know, they might
+hear a shot whiz by, but then do they
+necessarily reveal their location and
+launch an attack? No, but but if it's uh
+of an
+of an attack, they'll uh fight back.
+>> Yeah.
+>> It seems like there should be some way
+to that the immune system could quantify
+either body wide or or local organ or or
+over some period of time they could
+integrate over time. I have to imagine
+that such a mechanism exists.
+>> You're coming from neurobiology as I
+know, and so there is that in
+neurobiology of accommodation, right? If
+I always tell the story of I went to
+this little village in in France called
+Époisses.
+If you know the name, Époisses is a kind
+of a famous cheese that they make in
+this town, and it's super stinky.
+And they make it only in that town, and
+they make a lot of it in that town. And
+so when you drive into that town, it's
+like somebody has the worst foot odor.
+It's striking. It really hits you.
+But after being in the town for like an
+hour,
+>> Mhm.
+>> you don't notice it.
+>> Yeah.
+>> And that's neuronal accommodation, where
+your nervous does the same kind of thing
+you're talking about, where the you
+know, the
+uh sensors in your nose can become
+They're like, okay, I've seen it, I've
+seen it. Now it's not anymore. And And
+so I'm going to tune that out because
+then your nose has the potential to
+smell other dangers or other stuff,
+right?
+So that's the nervous system. And I I
+think you're exactly right where you're
+going with this is And we think this is
+true that the immune system
+is it you know, for danger, it's looking
+for something that you would call like a
+it's how it's seen the signal over time.
+So a virus may you know, the Let's Let's
+say your T cell recognize a virus.
+Well, you're looking for something that
+you've had nothing of before. And then
+all of a sudden the virus comes in and
+starts replicating, and you have a lot
+of it. And then at some point, if you
+get rid of it, it'll come back down to
+next to nothing. And in that period you
+mounted a an immune response,
+[clears throat] and you learn it, and so
+the next time around you'll be faster to
+respond to it, and keep you from getting
+sick.
+That's one kind of signal.
+But self can have either one of two
+signals, I think. One of them is that
+you've had it your entire life.
+So that amount of protein, maybe it's a
+maybe it's insulin, you know, which we
+think in general, you know, it has a
+little bit of signal up and down as you
+have a sugar, but there's a range for
+that. And so your body gets to used to
+that range, and the T cells that see
+insulin, they are very low. They're
+going to only be very very low reactive
+to that. And there's there's a whole
+story behind that. But basically,
+they're going to see that level.
+But you can also have things that the
+immune system is going to want to treat
+like self that maybe do a slow rise.
+They don't have this peak that you have
+with viruses. So like a a mutant cell,
+and maybe it's just a tiny tiny bit
+above normal
+for months. And then it makes two copies
+of itself. And now it's a little bit
+higher than normal. The immune system
+is, you know, has I think one of the
+deficits with cancer is exactly that.
+That things that you do, and and this is
+sort of like I tried to live my life a
+little bit this way, but it's not
+validated by any, you know, any
+experimental stuff. It is the idea that
+whatever you are
+is what the immune system is going to
+help you be.
+If it if it's if it's a slow direction
+this way, it's going to it's going to be
+okay with that. What it doesn't like is
+like big spikes. And and and and and
+that's maybe the signal that you're
+asking about. Like could you actually
+get to the point where you'd be
+reactive? The problem with cancer is
+that it is, you know, the slow and
+nefarious. It grows over time. And it
+and and I think we're made to absorb
+slow change. Mhm. Because if it's not
+causing us to be sick yesterday and a
+little bit more of it isn't causing us
+to be sick today,
+then it's probably just a developmental
+change. Maybe it's a new bacteria. Maybe
+it's a new, you know, that that that's
+commensal. As as long as it doesn't
+accompany, again, viruses have two
+features in common. One one is the spike
+of of, you know, appearance. But they
+also cause damage in that window. And so
+you have like these cues that I think
+the immune system, and I say the immune
+system because it's some cells are going
+to see the damage and some cells are
+going to see the the additional proteins
+that come in. And and then they exchange
+information just like your brain, you
+know, we
+you can talk about the fact that the
+brain has this wired, you know, set of
+cells that are wired in space. They're
+you know, across your body from your
+brain all the way to a muscle, let's
+say.
+The immune system has this collection of
+cells that are they're literally
+crawling around us right now. And we
+used to do we still do a lot of imaging.
+If you look in a a of skin, you can see
+the cells of the immune system are
+really really surveying us. They're
+crawling around.
+But they get together like neurons and
+they can form synapses and one can say
+to another one, "This is what I saw."
+And then the other says, "Oh, you saw
+that? Well, I you know, I'm just seeing
+this." And they can, you know, form a
+cluster of cells that basically get
+together like a neural little mini brain
+in our tissue and they can say, "This is
+bad. We got to do something about that."
+But I think the slow burn doesn't do
+that. The slow burn is one of the ones
+where the cells are like, "Yeah,
+yeah, it's not that bad."
+>> I realize this perhaps is not your
+immediate area of research, but recently
+I've been seeing a lot more interest
+in the thymus.
+>> Mhm.
+>> This organ that we have when we're young
+and it disappears as we get older and
+there's a lot of interest in the thymus.
+Maybe
+because [snorts] we've never covered the
+thymus on this podcast in any amount of
+detail. If you could just educate us a
+bit what it is, what it does, and why it
+might be interesting as a as a
+therapeutic. I mean, maybe we in a few
+years we'll all be banking our thymic
+cells.
+Maybe we will be I know some people are
+already injecting non-FDA approved
+peptides that come from the thymus. I'm
+not recommending anyone do that, but
+people are already doing it because
+that's the the internet in 2026.
+What's the thymus? What does it do? Why
+this interest?
+>> Yeah. Well, I can back up one step and
+I've I've used the word T cell before.
+And T cell originally was thymus cell.
+So
+for those that maybe don't, you know,
+have gone to had blood taken, you know,
+you if you have blood taken in a
+hospital whatever, you'll you'll get red
+blood cells and those are the cells that
+carry oxygen around your body and then
+you have white blood cells that come in
+two flavors. Two main Well, they come in
+multiple flavors, but we'll for the
+moment we'll talk about two. One one are
+called B cells and one are called T
+cells. And T cells were named because of
+the thymus. So the thymus is this funny
+organ
+and it has a funny history. In fact, I'm
+I'm writing these substacks these days
+and
+I'm writing one that's supposed to be
+released tomorrow about the thymus
+because it you know, uh
+it really should have gotten the Nobel
+Prize. There's a There's a who's alive,
+he's like 97 years old in in Australia
+who did this saw that did this
+remarkable kind of experiment.
+There was this time when kids that had
+heart issues
+would come in for surgeries
+and they would discover this enormous
+white whitish organ as a growth
+near the heart as they were taking the
+body, you know, they're they're cutting
+open.
+And all the autopsies up to that point
+had been done mostly with adults. And in
+adults, there's only this small little
+thing there.
+And so they're like, "Oh my god, part of
+the heart thing is this overgrown
+thing." They didn't really know what it
+did.
+>> [snorts]
+>> And so they would remove it. And uh the
+kids then go home and they it was
+usually exploratory heart surgery, but
+kids would go home
+and uh far from you know, dying of heart
+disease, many of them would die from
+like opportunistic infections. They'd
+get all these infections, they'd get flu
+and and cetera. And so there was this
+hint that maybe this removal had taken
+out a critical part of your immune
+system, had made it so you were super
+susceptible to bacteria.
+And so this guy named Jacques Miller
+who's
+this this nice 70-year-old codger in in
+Australia.
+At the time he was in in England and he
+basically took a bunch of mice and and
+when they're newborn he removed their
+thymus, the same same little whitish
+organ.
+And sure enough, those mice were they
+they basically grew up okay, but then
+they all would succumb to bacterial
+infections. And in fact, a few of them
+even got tumors, which was kind of noted
+at the time but forgot.
+And the reason why that is is because
+the thymus is the place that makes all
+your T cells.
+And it and it comes from a kind of
+convoluted pathway. You remember how we
+were talking about how the stem cells of
+your immune system lives in your bone?
+Well, there's stem cells that live in
+your bone and they travel through your
+bone through your blood to the thymus
+and become T cells.
+And [snorts] the the reason they need to
+do that is that the thymus is this kind
+of super special place that is able to
+present to them to show them all of the
+genes in your genome in various
+different ways.
+And so the T cells that come in there,
+they're T cells are developing and they
+each have a possible 10 to the 11th
+different kinds of receptors to smell
+different things.
+And you don't want any of them to come
+out that are too reactive to you. So,
+you don't want to you don't want to
+produce T cells that are going to go off
+and
+kill your pancreas or, you know, kill
+your big toe or anything, right? You
+want to you want to maintain like
+tolerance. So, you want to make sure
+that you don't make the immune system
+that's too harsh. So, the the thymus has
+the the role of producing T cells,
+but also of educating them in some ways
+of only letting the ones that come out
+have that have sensors that are
+correctly tuned
+to to let you be you in that way.
+Now, [snorts] to the point about the the
+story and you were asking about aging is
+that is that in kids those are really
+big because at that point we're talking
+about the developing immune system. It
+has to
+go from like, you know, living under the
+veil of your mother's immunity
+and then it needs to let some
+development happen and then it needs to
+burst out and start to be able to react
+against whatever bacteria and viruses
+you're going to see over life. So, your
+thymus has this huge output. So, as a
+like between
+>> [snorts]
+>> really from, you know, three to six
+months old and, you know, into your into
+your four or five years age and but
+tapering, your body makes tons of T
+cells and it's because of probably what
+you're talking about. You're getting
+exposed to all kinds of different back
+bacteria and viruses and so you need to
+make that make that collection of immune
+cells that both some of them, you know,
+see self at low levels, but then they
+also can maybe react against different
+things in the environment, including the
+ones you need to defend against.
+Then what happens is because again, I
+think we're not needing that later and
+maybe we don't even want that, the
+thymus involutes. It gets super super
+small. So, that in aged people it's like
+tiny.
+>> [snorts]
+>> And um
+and so it's not putting out new T cells.
+And so, the reason why there's interest
+in like these peptides, but all these
+other approaches to like revitalize the
+thymus is that like in cancer, for
+example,
+wouldn't you like to have a whole bunch
+of new T cells that could come into in
+into you, flood in there with exactly
+the specificity for the for the tumor?
+The tumor has managed to teach all of
+your normal cells and other T cells in
+your body that it's normal. Maybe you
+need a source of new material to come in
+and do that.
+And there's really two ways I think you
+you mentioned you talked to Alex Marson
+not so long ago, and he I'm sure he
+would have talked about engineering
+cells that you can engineer on the
+outside and give them specificity.
+But [snorts] the sort of like if you
+will the more natural route to that
+might be to to let the thymus make you
+some more T cells, and and make sure
+that as they come out you make sure that
+they can react against this tumor or
+whatever it is you need to defend
+against. It's always been a fascinating
+organ from the sense that it's the
+origin of all the cell types that we
+care about, and the T cells in that
+case. But it does have this like aging
+hit, you know, this sort of aging effect
+that seems to make us a little bit more
+susceptible to things later in life. And
+you know, again we could argue about
+what whether there was a big
+evolutionary design behind doing that,
+or whether there just wasn't needed.
+Because if you've got you get to 30 and
+you died of an arrow wound, you know,
+you know,
+and but you've given your genes, you're
+you're a winner in the evolutionary
+sense.
+You know.
+>> I love this uh
+uh this stance on well, if you've
+already reproduced, I'll just I'll give
+a brief uh vignette. Uh we were
+introduced by our uh mutual friend uh
+David Feldheim, who's a a phenomenal
+developmental biologist from UC Santa
+Cruz, and his wife Sophie Salama is also
+phenomenal biologist, a mutual friend.
+And years ago I was in Dave's lab
+because we're long-time collaborators
+and published a bunch of papers
+together, and uh
+he was doing some injections. I'm going
+to get you in trouble, Dave. He doesn't
+do this any longer.
+>> Yeah, I'm going to I'm going to join him
+to get you in trouble cuz we
+>> doing some injections, and he might have
+been using might have been using
+carbocyanide dyes.
+This was kind of conventional tool bag.
+You put a little crystal in a piece of
+tissue that's fixed tissue, so it's not
+a live animal or anything. And then you
+put it in the fridge, and then the
+fluorescent dye would label a set of
+neurons in a pathway. And um
+and I walked over and I I saw Dave doing
+this, and he wasn't wearing any gloves.
+And I thought, these are carbocyanide
+dyes.
+>> With cyanide being the
+>> being the being the
+And I said um
+Dave,
+uh
+don't you want to put on gloves? And he
+literally looked up from the microscope
+and he I'll never forget and he said
+I've already successfully reproduced.
+And he went back to doing it. And it's
+his lab. So and everyone else was
+following safety protocol. Don't go
+after him. He doesn't do this any
+longer, folks. But um there's an
+interesting mindset among you because he
+comes from cell biology.
+>> Yeah, yeah.
+>> Randy Schekman's lab.
+>> Nobel Prize in Nobel Prize
+>> joining laboratories as graduate
+student. So I I find it remarkable that
+this this stance of well, if you've
+already successfully reproduced, you
+really aren't needed. But um his kids
+are now graduated or in college. So
+there is this thing about raising the
+young, too. And not just creating them
+and then dying.
+>> Agreed. I think there's a fitness
+associated with being older than that.
+And And again, when I say that this it
+is maybe just taking this from a purely
+like what would have been the source of
+what we are today? You know, what would
+have been the selective pressures on
+them? And it would have been a little
+bit like Dave is saying, you got to you
+know, the selective pressure is to get
+your
+uh you know, for it for for my genes to
+be passed on, my offspring have to be
+born.
+And then have to get to some age because
+most humans are born pretty incapable
+for a period. It's not like giraffes
+where they drop off and then you know,
+drop out and within an hour they're
+running.
+Um
+>> [clears throat]
+>> so that that that period of of raising
+children, I think creates more pressure
+in in humans to to to you know, to
+successfully be healthy longer.
+But I guess just you know, that maybe a
+negative viewpoint and then maybe
+but that concept that maybe there isn't
+as much pressure for you to be healthy.
+And And going with this is the idea that
+some of the things that we want to be
+super efficient early on might actually
+be bad for us as we get Like I'm like I
+like I think this issue that I that I
+brought up of our mosaics is is a is a
+real confounder of everything because
+that creates something that is
+quite hard to defend against, I think,
+that that that that aging backdrop. Um,
+and uh, you know, some of the immune
+system that is really going to be
+important to just be super reactive
+early on may have some, you know,
+compensatory problems when in faced with
+that new reality of a 50-year-old or
+70-year-old or whatever. It looks quite,
+you know, looks quite more complex, but
+you would have you would have definitely
+wanted in gene space, you know, in that
+gene space
+what genes you have to select for, you
+know, an immune system, let's say, or
+even just your body system that makes
+sure that you get to 30, let's say, are
+you. And and it's again, you know,
+there's That isn't to say that we can't
+overcome some of those deficiencies if
+we understand them.
+But here's my plug for basic research is
+that to understand them we have to ask
+some to some questions that are almost
+90% of them are going to be dead ends.
+You know, you can hypothesize it's one
+thing, but you got to do the experiment
+to like eliminate that. And this is one
+of the things that people I don't think
+always understand about science is that
+for all the discoveries that, you know,
+I've made or other people have made
+there were hundreds [snorts] and
+hundreds of like disappointments.
+You know, and you'll recognize this
+where you you just go home from the lab
+at the end of the day and you've, you
+know, you've you've done everything
+right
+but the answer isn't the one you isn't
+the right one.
+>> Yeah, one control experiment can nuke
+your whole project.
+>> Well, there's that.
+There's obviously that you have to do
+the experiment well and have a control,
+but but the answer just could be not the
+one you thought. And and you know, we
+can only imagine stuff
+and then try and see if it's true and or
+or or more importantly try to prove that
+it's not true. That's what the better
+experiments that kind of we we call them
+killer experiments, right? The ones that
+going to kill the kill the idea if
+they're wrong. If the idea is wrong, but
+it's killer because it if it's turns out
+the way you hope it will.
+You know, again, when we get to some of
+these aging things, you know, there's a
+lot of there's a lot of intuition that
+we all can put into this whether we're
+like
+professional scientists or at-home
+scientists.
+But it's really hard to say that
+intuition, like your idea about how the
+way the world should work is in fact the
+way the world does work.
+You know, that that I
+I wish that because of your age certain
+things would happen. That's that's a
+that's lovely, but it could be super
+maybe the word is baroque, you know,
+like
+>> [clears throat]
+>> it should the whole system could be
+you know, configured in a completely
+weird way that doesn't really initially
+make intuitive sense to us.
+And that's also why some of those
+discoveries are so big to us. We're
+like, "Oh my god, I didn't realize that
+this system that seemed like it might be
+kind of simple is so complicated. The
+world is so strange."
+>> Well, when I started in neurobiology,
+the brain the actually the entire
+central nervous system was considered an
+immune privileged organ.
+>> Yes.
+>> There weren't supposed to be immune
+cells there. And thanks to the beautiful
+work of Carla Shatz with the major
+histocompatibility complex work and
+Ben Barres
+>> Ben Barres
+>> and I'm failing to mention all their
+scientific offspring Steven Chala
+Erdoglu like and on and on. It take the
+rest of the episode to name all all of
+Ben's scientific offspring and Carla's
+too.
+>> And you and being you.
+>> Right, I didn't work on those issues,
+but
+but I was in those labs when it was
+happening. We now know that the immune
+system is actively alive in the central
+nervous system throughout the whole
+lifespan serving critical roles.
+>> Yeah.
+>> There are two things that
+well, three really that that are
+somewhat practical questions. I'll start
+with the most basic one. Why is it at a
+mechanistic level that if you miss
+a night or two of sleep that your immune
+system seems so less effective in
+fighting off off infections. Do we know
+what's happening? Is it like you've got
+so much adenosine which is the sleepy
+molecule and and [clears throat]
+like that that adenosine inhibits T-cell
+function or something? Do we actually
+know? Because I think all of us are
+familiar with the fact that if we we
+don't sleep well or enough for a couple
+of nights, we're much more susceptible
+to getting sick.
+>> Yeah.
+>> Is there a mechanistic understanding of
+why that's so?
+>> I think there are bits and pieces of it.
+I think
+some some really nice work shows that at
+night a few wacky things when you're
+asleep a few what you might have thought
+would be wacky things happen and and one
+of them is that a lot of your immune
+cells clear back to the bone marrow.
+And and your tissues become populated
+with a bunch of neutrophils that come
+out of the bone marrow and and seem to
+be you know depositing collagen around
+your body and and so there's a lot of
+things that I think are reparative about
+sleep. I thought about this a lot in my
+own life as probably you have with sleep
+as to one one of the questions of course
+is why do we bother to have sleep? And
+and I guess I can only imagine it's
+because our you know we've created these
+these bodies of ours are so capable and
+they're so energetically and you know
+you know um
+consumptive and they make all these
+byproducts during the day that that that
+some point you just need a
+clean up phase and that's that's one
+interpretation of sleep is just need to
+reset.
+So the immune system is definitely
+resetting and and you know there's as I
+say there's evidence that a lot of the
+cells go kind of quiescent into the
+tissues and they they leave you alone
+for those reparative processes and
+actually allow those
+You know in terms of the data on there
+there's a there's a lot of studies that
+are being done and and I can't say that
+I've come to a a conclusion about that.
+This is this comes in the question of
+like is it known
+or do I do I not know it or is it does
+nobody know it? And I'd say this is
+might be one of these areas where about
+10 factions of people know it but they
+don't agree.
+>> Mhm.
+>> You know so there's variations on things
+but I I think the data for example that
+immune cells dive into the bone marrow
+at night is pretty solid.
+>> That makes sense. What they're doing and
+why that's important in the long sense
+of like what you're talking about
+everything from well but I think it's
+>> You know the things that happen
+overnight you're you're definitely your
+cognition improves. Is that immune or is
+that neuronal or both? I think it's
+both.
+>> Something in the lymph plumbing immune
+system. One thing that's just striking
+like that is undeniable is probably the
+best way to put it is
+everybody has bags under their eyes and
+looks like when they are sleep
+deprived. They sleep for a night or two
+and it
+goes away. That's clearly accumulation
+of lymph. We we actually know that.
+That's just lymph fluid that's not being
+cleared, and it might not even be the
+brain's glymphatic clearance system.
+It's just There's a bunch of lymph
+pooling under your eyes. That's why you
+look like
+>> Yeah.
+>> And then you sleep for two nights
+well, and then you look better again.
+And the eyes get glassy. We know that
+the eyes get glassy when we're sleep
+deprived. That's also a
+lymphatic clearance issue. This is well
+established. Like so there's some things
+that are just like plumbing works better
+when we sleep and get up again. There's
+something literally about lying down and
+getting up.
+But that to me can't explain the the
+immune
+thing entirely because like the
+lymphatic system is like
+among other things, you know, immune
+surveillance, but
+I mean, one night's lou- lousy sleep and
+the person coughing across the room gets
+you sick often.
+But when you're well rested, you
+actually feel this robustness like, man,
+like, okay, I'm going to might wash my
+hands or just kind of avoid them, and
+you're good.
+>> Yeah.
+>> So it's it's I mean, it's an an
+incredible effect one way or the other.
+>> Again, I don't know the degree to which
+we can nail down, you know, which which
+part of things that are happening is
+which. I always like the story that that
+the There's macrophages, immune cells,
+in your eye that are basically clearing
+the clearing the lens.
+You know, so there's there's all these
+like
+places where it's doing little clean up
+that you can imagine that if the the
+thing it's trying to get rid of is
+granularity, that that you need to have
+sleep where you just aren't making more
+granularity so that it can
+you know, it's sort of like when you
+wash your car windshield, you do it
+completely at that point. And you But
+you can't be driving with flies hitting
+you. That would would right?
+>> [laughter]
+>> Or you you'll never clear
+You know, so I think there's certain
+elements of some of these clean up
+processes that happen best when you're
+not getting things, you know, you know,
+dirty or again, I think a lot of what
+we're talking about is byproducts of our
+energetics that leave, you know, some
+damage behind it. I think we just use a
+lot of ATP and we do a lot of stuff as
+our body's in the in the sleep is this
+time where you cannot be you know you
+know producing more of that and get
+ahead of the curve on cleaning things up
+a bit. I'm like pulling into a gas
+station clean off your windshield.
+>> I'd like to take a quick break and
+acknowledge our sponsor AG1.
+I'm excited to share the AG1 has just
+launched their newest formulation AG1
+Pro. AG1 Pro takes the clinically backed
+AG1 formula which is a blend of
+vitamins, minerals, probiotics and
+adaptogens and adds three important new
+ingredients creatine monohydrate,
+calcium HMB and zinc carnosine. Each
+serving has 5 grams of creatine
+monohydrate to support muscle strength
+and performance as well as brain health.
+Calcium HMB to support muscle recovery
+and reduce muscle breakdown and zinc
+carnosine to support and improve the
+lining of your gut. All three of these
+ingredients have compelling science to
+support them and therefore I love seeing
+them added to the existing AG1 formula.
+As most of you know I've been taking AG1
+every day for nearly 14 years now. I
+started taking it long before I even
+knew what a podcast was. It's a great
+product and it's now made even better
+with a new AG1 Pro formula. If you would
+like to try AG1 Pro you can go to
+drinkAG1.com/huberman
+to get a special offer. AG1 is giving
+away a free bottle of omega-3 coenzyme
+Q10 with your first subscription. Again
+go to drinkAG1.com/huberman
+to get a free bottle of omega-3 coenzyme
+Q10 with your first AG1 subscription.
+>> This thymus thing is really intriguing
+and I know a lot of people who um
+opted to bank their child's umbilical
+cord in the hopes that the stem cells
+from the umbilical cord will someday be
+useful.
+>> Yeah.
+>> How invasive is it and or should we be
+uh
+banking thymic cells?
+>> Mhm.
+>> Uh because these seem like incredibly
+valuable cells for their ability to
+immune surveil and create kind of the
+perfect situation using our own
+endogenous T cells to battle infections.
+I mean I kind of wish I I a little like
+chunk of my thymus
+>> Yeah.
+>> um in a minus 80 freezer someplace so
+that when I'm 85 years old
+>> You might be able to exploit
+>> um I might be able to exploit that.
+>> Yeah.
+Well, I'll I'll say that the umbilical
+cord one is is pretty straightforward.
+It's you know, the umbilical cord is
+being essentially discarded anyway.
+And it contains a lot of as you know,
+bone marrow stem cells that um the
+utility of those is a little different
+than the thymus. The utility of of
+banking that material and banking just
+means you put it into a vial small
+little you know, small little vial with
+a lot of media and you set it in a very
+very cold environment for whenever you
+might need it.
+Is that if you need to have a bone
+marrow transplant. So for example, if
+you have a tumor of the bone marrow
+system
+you can subject yourself to radiation
+and wipe out all that tumor cells, but
+you'll wipe out all the stem cells. But
+if you get this vial here, you've got a
+little replacement.
+>> Has that ever been done successfully?
+>> Yeah, yeah, you can do
+>> So are there are there are there kids
+are there kids or adults that are alive
+today because they banked their
+umbilical cord?
+>> But certainly companies sell access to
+that.
+>> has to pay to keep the freezers on
+backup generators and things like that.
+So people invest time and money into
+this idea.
+>> Yeah.
+>> Is is there a
+walking, talking, breathing human who
+would be otherwise dead, would otherwise
+be dead, excuse me, because they they
+paid money to bank their their umbilical
+cord?
+>> It's a really good question. I don't
+know the answer to that question.
+>> I guess the parents paid.
+>> I can tell you and this will be just
+like this is this is the depths of to
+which you're you're describing uh
+Dave Feldtman injecting a you know, a
+mouse is that in mice this is true. That
+if you take you know, bone marrow stem
+cells you can reconstitute a mouse with
+a blood blood cancer and you can do
+that.
+I'm sure you can do it in humans too. I
+have zero doubt that it also works. I
+don't know whether those companies have
+done that. It's that's just actually
+something where I
+>> Cuz this this is offered in mass now.
+>> Yeah. Yeah, when when it is
+>> When a baby is born they say, "Do you
+want to Do you want to keep the
+umbilical cord?"
+>> Honestly, honestly, I would do it
+because it's one of those situations
+where if it's not too exp- well, I don't
+know if it you know, depends on your
+your how much money you have to spend
+because the the cost is within within
+the noise, yeah.
+So, it's one of those ones where you
+particularly if you when you have kids,
+there's this whole aspect of like I
+would like to protect them from anything
+that could come their way and and and
+I think this would if if they happen to
+have a a childhood leukemia, this would
+this would cure it.
+>> Which is an incredible statement if you
+think about it, even if it hasn't been
+done successfully yet. You didn't say it
+might be able to lead to a cure
+>> No, it would.
+>> by virtue of a new technology. You said
+it would cure it.
+>> Yeah.
+>> I mean, that's a big statement.
+>> Yeah.
+>> You can tell I'm ratcheting up from like
+sleep to banking thymus and umbilical
+cord. Now, I'm going to go to the sort
+of next level, which is
+not just in the Bay Area. A lot of
+people
+however starting to think about oh,
+maybe I make some induced pluripotent
+stem cells from a fibroblast from one of
+my skin cells, put the so-called
+Yamanaka factors on, revert that to
+stemness and then I might be able to
+grow a new pancreas or study my
+you know, whatever organs in the
+so-called organoids, whatever they're
+referred to.
+>> Yep.
+>> But I learned today from you
+that if I take that fibroblast now, that
+fibroblast might not be completely
+Andrew Huberman as I know him to be
+genetically. [clears throat]
+It's actually could have some
+mutations.
+That seems important to compare against
+a sort of
+a standard cell. I don't want to grow
+organ- organoids from a
+from an IPS
+environment that
+carries mutations. That that seems like
+a bad idea.
+>> Yeah.
+>> Because then anything I would I'm not
+talking about transplanting in those
+organoids. I'm talking about studying
+them, thinking I'm getting information
+about them. People are doing this and
+thinking oh, I'm
+seeing what drugs are effective in
+treating
+you know, a liver disease [snorts] or a
+heart disease, but if those are mutant
+cells, that's a lousy experiment.
+>> Yeah, I wouldn't I wouldn't say they're
+likely to be mutant cells for that
+reason. I think the biggest question
+would be whether your induction of them
+to become the organ that you you know
+want was successful was replicating the
+actual organ itself. So, you're you're
+referencing these things called
+organoids, which are
+collections of cells from a
+body of a human, for example, that are
+are induced with various different
+factors to grow to resemble maybe an
+organ a particular organ.
+You know, I think all of us have little
+doubt in this this is the source of the
+California Institute for Regenerative
+Medicine that making stem cells that can
+become particular organs will at someday
+happen.
+We will figure all these things out.
+I I I believe in science. I believe in
+our ability to sort of like test, learn,
+test, learn, test, learn.
+How soon, you know, that becomes useful
+is a bigger question. If you take out
+your fibroblast today,
+that might only cure you someday in the
+future. And meanwhile, you may die of
+that thing that you wish you had the
+stem cells in it because it's not yet
+ready. The technology and the
+understanding isn't yet ready.
+But the other problem with those is you
+probably will die from something else.
+You get hit by a car, you know.
+>> [laughter]
+>> It won't help you that you've got those
+things back. So, I think in some of
+these cases like overemphasizing, this
+might be your point about the storage of
+of umbilical cords, is like at what
+point is that a high odds situation
+where you your kid needs it and you have
+it stored away versus all the other
+things fates that can befall us as
+humans
+that have nothing to do with it, you
+know, you know, stem cells from the bone
+marrow.
+And and to me that's that's a point
+where you could spend your life worrying
+about how you're going to die.
+And and maybe that's not a good way to
+live.
+>> Well, certainly not how I live. Right
+now, there's a lot of
+kind of excitement and attention around
+so-called longevity and
+at the extremes of never dying or living
+to be 120, which seems to be the
+perhaps the genetic limit currently.
+It's not my fascination. I'm more
+interested in living in the years I've
+got as it seems you all do.
+Vital, healthy, you know, being able to
+move, sense, and and think.
+[clears throat] Seems like and remember,
+you know, those seem like the critical
+ones.
+>> You know, you know, a month ago you
+mentioned the concept of like removing a
+bit of thymus and I I think that the
+issues with for me with that are are,
+you know, it's an invasive surgery and
+like if you were to take out thymus, it
+would It's not clear to me that it's the
+thymus that you need. You might be able
+to I mean, the fact you can make thymic
+the the So, the the thymus is both the
+cells that come into it from the bone
+marrow. So, it as an organ it has
+contents.
+But, its structure are some thymic
+epithelial cells that a kind of cell
+that make a matrix that all those cells
+live in and they get educated in.
+And um there's definitely, you know,
+pretty strong work that says that you
+can create sort of a thymic epithelium
+that will do some of this work. But,
+whether, you know,
+a guy at home could
+>> [laughter]
+>> could hold on to the thymic cells and we
+would be in a position to do something
+important for longevity in our lifetime,
+I don't know. I
+honestly don't know. Some things in my
+career, I've seen things happen really
+fast. So fast that almost like you
+didn't realize that you're doing it.
+You're like, "Oh my god, we've got a
+cure for cancer. That's great. Okay,
+let's go on and do the next thing." Two
+things that So, you're like you know,
+you know, the California Institute for
+Regenerative Medicine, they we thought
+that we would have some stem cell
+therapies, you know, within the seven or
+eight year window of that bond, first
+bond, and then there's a second bond. We
+didn't really get very many out of that.
+We learned a lot and that is the risk
+about stem cell biology. About stem cell
+about biology and that is the risk we
+take when we do research. You know,
+we're talking a moment ago about how
+many times you might be in a lab
+spending hundreds of hours and not
+getting anything that you understand and
+then in one hour and you understand
+everything because, you know, so all of
+a sudden all those failures make us make
+sense. I think when we get into some of
+the stem cell biology, it's it's
+intuitive and it's almost certainly true
+that we will have some of these things.
+Whether we will have them in time for
+like you or me,
+I I don't know.
+I just don't know [clears throat] and I
+I think that's true of a lot of these
+things.
+Say, "Oh, you know, we we seem to be
+right on the cusp right now, for
+example, in in cancer therapy. We've
+been on the cusp for 10 or 15 years of
+these things called CAR-Ts." and Alex
+will told you about these where you
+engineer your T cells and you get you
+give them special receptors that can get
+them to go into to eliminate tumors.
+But for whatever reason, they haven't
+worked in patients. They haven't worked.
+They haven't worked. They haven't
+worked. And T cell the immune system
+gets turned off. These cells don't make
+it. They don't fail they fail to
+eliminate the tumor.
+We will figure that out. But we've been
+thinking we've figured it out, you know,
+for the first 5 or 10 years. And it's
+it's you know, that gets frustrating.
+And I think it gets frustrating for
+people that are like waiting for it to
+um on the outside like, "Why can't you
+solve this?" And you're like, "Well,
+because the universe isn't always
+configured how we think it is." And
+that's discovery. That's the problem of
+discovery. If we knew what we needed to
+do, we would engineer it and it would
+work.
+>> Yeah. I um This is an important
+discussion that we haven't spent enough
+time on in this podcast that I think is
+a very important for people to hear. And
+I have some thoughts about it, but I I'd
+love for any disagreements. I'm not
+looking for
+um just agreements, but yeah.
+So, my observation from a couple decades
+or more doing science and then mainly
+shifting to podcasting, but
+this is what I do. I talk with great
+scientists. So, that's the podcast.
+[clears throat] I'm very immersed in
+like what's happening right at the
+cutting edge and um because of great
+guests like you. You know, my my sense
+is that in every field there's been like
+this kind of steady pressure like water
+on rock pressure. Like, "Okay, we're
+going to understand like salamanders
+regenerate. Wouldn't it be great if we
+could do that, too? Cut off a limb, it
+could grow back." Okay, amazing. I think
+it's like Elly Tanaka's work has just
+shown that. You're like, "Wow, this
+would be incredible for amputees and
+brain regeneration and
+>> Right.
+>> But then it never really transfers. Or
+like, "Oh, we're going to figure out
+ways to get genes into cells. We're
+going to electroporate liposomes. We're
+going to use a calcium phosphate like
+great research tools. Tons of things
+happen. Then it's like, "We're going to
+modify genes. Zinc finger nuclease." All
+this Okay, CRISPR, boom. And one thing
+just breaks through and goes so much
+further. And even though, you know, the
+ethics are questionable, there are
+babies that have
+deliberately induced uh gene alterations
+for with CRISPR, a sickle cell anemia
+treatments as well. It's a more
+benevolent example, but
+then the person who went rogue and just
+kind of did this in humans in China. But
+CRISPR just kind of broke through it
+all.
+This The excitement about stem cells led
+to like yeah, I mean even initiatives at
+the legislative level and like all these
+labs working on things. And then as you
+said, it's kind of like
+run up against the dam.
+>> Yeah.
+>> But I feel like in 10 years
+some or all of that information will be
+extremely relevant when one thing will
+just like leap out of bacteria or like
+grasshoppers, no pun intended with the
+grasshoppers. But the the last example
+would be, you know, for years it was
+like the country's getting fatter, the
+the country's getting obese. What are we
+going to do? Do calories matter? Of
+course calories matter. This kind of
+thing energy, you know, laws of
+thermodynamics still apply. And then all
+of a sudden
+this freaking Gila monster biologist
+>> Yeah, yeah.
+>> tells people what they already knew
+because the GLP-1s were already being
+used as a drug, just not at
+significantly high levels. And all of a
+sudden we have a
+imperfect, but very important more or
+less
+dare I say cure
+>> Yeah.
+>> for obesity. It's got problems, there's
+muscle wasting, you know, there could be
+other issues, apathy, etc. I'm not I'm
+not trying to discount any of that. But
+I feel like that's the way science
+works. It's like steady pressure, steady
+pressure, steady pressure, frustration,
+and then something comes out of nowhere.
+And it almost seems prerequisite to have
+all those years of frustration and
+failure.
+>> Yeah.
+>> And then and you say, "Well, couldn't we
+have just gotten CRISPR first or the
+GLP-1s first? Like why did we go through
+all these, you know, billions of dollars
+of expenditures, time, energy?"
+>> Yeah.
+>> I don't know. I feel like there's some
+natural order to this and and I just
+just would like your thoughts on it. I
+feel like it's
+necessary, but not sufficient to have
+lots and lots and lots of failures.
+>> Yeah. And I think it's necessary and and
+necessary, absolutely necessary, to
+study things that are just at some point
+curiosities. And that sounds like
+science is about trivia.
+But you know, you you gave the example
+clip one, somebody was just curious as
+to why Gila monsters it was
+the feature was that Gila monsters can
+go into you know, dormancy for like 10
+months, not eat,
+and then come out. And like how do they
+manage that? And so that's that was just
+like what is that? What is it what
+causes that?
+CRISPR, you know, that was people were
+studying like how do bacteria defend
+against other bacteria? Well, they use
+this it turns out there's this enzyme
+and it
+remembers the sequence of this one
+bacteria that has come and invaded you
+before and then can like modify the
+genome and get rid of it and like kill
+it. Well, that same you know, that same
+enzyme then be which we now use for all
+this human engineering came out of a
+basic like how do bacteria defend
+themselves? It's not anything about like
+you know, modifying sickle cell anemia.
+It was about how does the world work? My
+career is exactly as long as is the as
+the lifespan of of this this field we
+call cancer immunotherapy. I did the
+first immunotherapy experiment. I
+injected a mouse with an antibody that
+I'd made. It was against a molecules on
+T cells.
+And I shown already in the lab that that
+molecule caused the T cells to get more
+activated when you blocked it. And and
+we did a series of like other mouse
+experiments of like all kinds of
+diseases and it you know, kept humming
+up the T cells and then and you know,
+Jim I I got that I said we got some
+tumors in the fridge and so we set up
+that experiment. And you know, you
+injected this antibody and the tumors
+melted. Well, that was the start of
+cancer immunotherapy really that's
+that's this that's the origin of
+>> experiment for which let's just be
+direct here that your your advisor won
+the Nobel Prize.
+>> Correct. Correct.
+>> Did you at least get to attend the
+ceremony?
+>> Yeah. Yeah.
+>> Oh, well, that was that was a little
+thing.
+>> This is how science works.
+>> Doesn't matter who did the experiment.
+>> Yeah.
+>> Matters what lab you're in.
+>> Yeah, you guys didn't you didn't get to
+go learn. The the after parties were
+good. Uh, but I guess I'm not not take
+you back like
+we weren't trying to cure cancer when we
+started this. I did the thesis project
+when I went into Jim this is my my
+mentor at that point.
+The discussion was like, well, there's
+some molecules on T cells and and I said
+you know, we we knew from AIDS and a few
+other things that T cells were
+important. So, So was the attraction and
+though you had people say, "Why would
+you do immunology?" Well, they seem to
+be interested. And there was a molecule
+and it was like, "Well, yeah, let's just
+see what it does." And once you saw you
+could turn things off, then everything
+became possible, right? Now you study
+immune system you could dial up. You
+could say, "Well, if I could dial up,
+well, what will happen to vaccination?"
+Well, it got better. What will happen
+to, you know, multiple sclerosis? The
+disease got worse. You know, what will
+happen to cancer? Ooh, we can start to
+have an effect on it. And and and you
+know,
+the X-ray, you know, the people were
+studying physics and then it turns out
+to be that that they were like, "Oh, I
+can measure I can I can measure bone."
+And that's how we use X-rays now, like
+to to you know, so there's all these
+examples that everything you know, like
+the big things often come from these
+orthogonal directions and then we
+realize what it might mean.
+And I think you have to start there,
+otherwise you'll just plow this
+direction and you'll hit those walls
+because you don't have to work around it
+comes with some orthogonal piece of
+information. Orthogonal meaning at right
+angles, right? So, you know, again,
+CRISPR came from bacteria, but it's
+really useful in us as an engineering
+tool. But we wouldn't have known that if
+somebody hadn't been out there sort of
+saying, "Okay, well, how do how do
+bacteria do it? You know, how do they
+defend themselves?" Oh, they use this
+enzyme. And I think that's a really
+important message that that dispels this
+idea that everything is sort of like
+basically just easy for us to engineer.
+Yes, once you have the CRISPR tool it
+becomes actually kind of easy to do some
+really cool things with it and still
+creative. But the fundamental leap that
+you're describing, I don't think in many
+of those cases that people were kind of
+conceiving when they were in in the
+first dregs of doing it
+that this would become an industry.
+You know, this would become a whole
+thing. And and maybe that's important
+because you need to foster that. If if
+everybody always thought they were doing
+it to build a company and, you know,
+sell a product or something, then then I
+don't think we would do the things that
+get us new. You know, that's that's all
+that's all kind of what we already know.
+That's human knowledge. We want to build
+human knowledge. And to build human
+knowledge we got to go off piste. You
+can't ski on the slope. You got to be
+like in the trees and maybe and bump
+your head a bunch of times. I I think
+that's the reality and it's like you got
+a lot of people out there that are that
+are that have decided to do that for a
+life because it's a it's a it's a chance
+to like solve a puzzle. It's like
+there's there's puzzles about how the
+world works. And if you've ever done a
+jigsaw puzzle you find there's always
+like the oh, you get in and especially
+in the end you're like how do you know
+what pieces come together to do it? I
+think that's what makes this whole
+science thing really fun. It's that's
+the that's the reward. Is that you get
+the puzzle piece in and you're like oh,
+I you know, it makes sense that now I
+know what I've been building I've been
+building this puzzle.
+And and then you go back and you do it
+again because that's really satisfying
+at the end of it even though, you know,
+you know, again with the family puzzle
+the first parts are so hard. Thousand
+pieces and you can you maybe find the
+edge.
+But the intervening where there's like
+all clouds super hard. And and I think
+that's that's that is what science is a
+lot about. Is is doing that and then
+realizing what the picture is.
+You know, what is that picture of it?
+And then and then all the you know, the
+brakes are are off.
+I often tell people that if if an if an
+experiment if an experiment you'll do in
+lab has a 10% chance of yielding
+anything interesting, you got to do at
+least 10, you know, to even meet
+fundamental stats. You actually have to
+do quite quite a few more.
+So, that's where it's not a it's not a
+cost-effective thing if you
+it's it's really difficult to be a
+scientist because there's no quid pro
+quo. There's no there's nothing to say
+if you put in 5 hours that you'll get
+five units of goodness of of knowledge
+out of it. A lot of times you get zero.
+And and but then sometimes you put five
+in you get 500.
+>> Right.
+>> And and those are the jackpot moments.
+>> It's like life.
+>> It's like life. It really is. It's
+like yeah.
+>> that anyone who's considering a PhD, we
+had a call in from audience recently and
+someone said they're finishing
+undergraduate. They want to go the
+finishing graduate school. Should they
+go the research route? They want to do a
+post doc. And I'm like yes, yes, and
+yes. I rather than answer publicly I
+decided to just have a call with this
+individual because it's a rather niche
+question, but I mean also just in
+training your
+reward system to work for 5 years on
+something is so valuable, especially in
+this day and age, cuz everything else
+feels like it comes at like warp speed.
+>> Yeah.
+It's like clicks.
+>> Yeah, like and um
+to just put steady pressure on something
+with all the failures and all the things
+and then to finally complete something,
+it's a lot of people think it'll be
+underwhelming. I think I think quite the
+opposite.
+>> Yeah. Yeah.
+>> It's like anyone that's like done a
+triathlon or
+>> Well, you know
+>> raise raise a kid or done a
+>> You're like, oh my goodness.
+>> Yeah.
+>> And that never ends, right? There's
+nothing better than these long-term
+investments.
+>> Yeah.
+>> Nothing.
+>> Yeah. When they break through that way
+you're like your analogy, when you break
+through that dam or when you realize
+sometimes that you broken through the
+dam. And that's that's one of the funny
+things about I think science and maybe
+it's true in triathlons and stuff too,
+where you realize that you've all of a
+sudden got somewhere.
+>> I haven't done a triathlon, so I have to
+be fair. Rob, our producer sitting to
+our left as he has done many Iron Mans.
+And he has that mindset.
+>> Yeah.
+>> Just steady pressure. I mean, his
+relationship to work and effort is
+remarkable because he burns so little
+energy worrying about things that we
+refer to as in the left column, like the
+stuff you can't impact and just focusing
+on what you can impact. And so, a lot of
+it is about learning energetic control.
+Like doing science that is or anything
+is about what not to think about, what
+not what to force yourself not to do or
+think about.
+>> If I may, I'd like to shift us to this
+very interesting area of immunology and
+biology, which you refer to as spatial
+biology.
+>> Okay.
+>> And I'm going to pose a question that
+may or may not fit with
+>> Um
+>> this framework, but either way I'd like
+to like you to educate us on it.
+I'm fascinated by these old kind of
+barbaric experiments in medicine.
+Um wonderful book, by the way, folks is
+the Prince of Medicine about Galen, if
+you ever want to learn about how we
+learned about medicine back when it was
+truly barbaric. It was like
+surgeries done on
+warriors and without anesthesia and
+we've known for a long time that if uh
+somebody god forbid has a finger lopped
+off or a hand lopped off that might
+actually be a worthwhile investment to
+make an incision in the gut and stuff
+that thing in the gut to keep it warm
+and keep the tissue viable for
+regeneration once you try and put put it
+back on. Turns out that's true.
+>> Is that true?
+>> Yeah, there's a bunch of juicy stuff in
+the in the gut that maybe it's the
+warmth, maybe it's
+the immune system.
+>> Okay.
+>> Maybe it's the lack of infection from
+being inside as opposed to outside the
+body. Who knows?
+>> Gut you mean the intestine or you mean
+the stomach?
+>> Within the stomach, yeah.
+>> The stomach itself.
+>> Yeah, I'm not suggesting anyone do this
+experiment. As I started reading into
+this, I discovered that there are a lot
+of really cool experiments not just in
+re-
+limb or tissue preservation and and
+restoration. Like for instance,
+I've talked many times on this podcast
+about the fact that above our
+the roof of our mouth, we have this
+small cluster of neurons the
+suprachiasmatic nucleus organizes the
+circadian rhythms of every cell in our
+body from the genetic to the transmitter
+level peptides, etc. Keeps us
+sleep-wake cycles, does all the
+organization that we need
+>> Yeah.
+>> for circadian rhythms. So much so
+that you can take just one subpopulation
+of these neurons, the calbindin
+expressing suprachiasmatic nucleus
+neurons. It's like
+5% of the total neurons in this already
+tiny cluster of neurons
+and you can transplant them
+pretty much anywhere
+and certainly in the brain and you'll
+restore the circadian rhythm of an
+arrhythmic
+animal.
+>> Okay.
+>> So that tells you a lot of cool things.
+It says, "Okay, there's probably
+something that's secreted or
+but like these cells are that important
+and it doesn't really matter where they
+are
+>> Mhm.
+>> at least in the brain, they can do what
+they need to do, which is super cool.
+>> Yeah.
+>> And then I started reading about, "Oh,
+like you could actually take perhaps
+like a little bit of pancreatic tissue
+and like stuff it in the you know, under
+the skin."
+>> You mean the kidney capsule?
+>> It's not ideal, but you get some
+function back.
+>> Mhm.
+>> So I'm fascinated by this because we
+like to think that the organization of
+our organs is so critical.
+>> Yeah.
+>> But maybe they just need to be there.
+Now, no one should test this hypothesis
+unless they have to. But when we think
+about the immune system,
+you describe the function of the thymus
+beautifully. You talked about the bone
+marrow. But you also talked about the
+massive migration of these cells that
+are working in this network.
+>> Mhm.
+>> How important is spatial
+compartmentalization of these cells? Or
+is the rule eliminate spatial
+compartmentalization in order to make
+the immune system function at its best?
+And there's a very specific practical
+question which I'm asking this, but I'm
+just going to tuck that away to pique
+people's interest and I'll get to it.
+But this is relevant to how we
+to decision important decisions that we
+make, I believe.
+>> The answer is yes and yes. You know,
+it's it's both. So, although I described
+the immune system in the earlier part of
+this discussion as super migratory and
+you know, hitches a ride in the blood,
+gets into tissues, it travels through
+your lymphatics. There are these things
+called lymph nodes down the lymphatic
+tubing which for those of you who don't
+know, lymphatics are like drainage. It's
+how you drain the the fluid back out of
+your tissue.
+>> [snorts]
+>> So, [clears throat] although there's you
+know, these mass migration of cells,
+there's also in like even just in T
+cells, there's T cells that lodge in
+particular settings and they you know,
+act to protect that tissue and they
+and they're resident cells of those
+tissues. They never leave.
+And um so, both are true. You have you
+know, parts of your immune system that
+are you know, protective or or like
+nurturing of particular areas and then
+there's ones that are circulating and
+can hit any any spot.
+You know, going back to your idea of
+organs and such being moved, I think
+there's two components to that that you
+might be thinking about. One of them is
+the question of whether the organ can
+survive in the new space.
+Like does it have the growth factors and
+the blood flow and the and lymphatic
+outflow and maybe even some neuronal
+activity that you know, makes that
+tissue work.
+So, so that's where like if you take the
+pancreas, you you famously put it
+underneath the kidney capsule. Kidney
+has kind of like a skin around it. You
+can tuck some some some pancreatic cells
+in there. And they're super happy. They
+love that. They get all the blood flow
+they need and it seems to be just right
+for them.
+But, if you've got somebody with
+diabetes, for example, and you try to
+put new pancreatic cells in anywhere in
+their body, the immune system will
+attack it just as it did the first that
+it did.
+Diabetes, for those who don't know, type
+1 diabetes or is caused by the immune
+system that gets
+too active against the pancreas. It's
+autoimmunity. It's where it's now saying
+the pancreas is is not self. It's
+something foreign and it wipes it out
+and that's the source of what I said
+earlier, like your immune system can be
+quite dangerous.
+So, like when you talk about this
+concept of like spatial, um there's a
+few things to bring in. One is this the
+organ. Can the organ get what it needs?
+And then does the immune system accept
+it in some ways in that environment? And
+that's where like some some of your
+immune system that lives spatially in
+certain areas is going to be very like
+defensive against whatever it's, you
+know, specific against in that area, but
+may not care what's happening elsewhere
+because those cells just aren't It's not
+like the brain where you like if I I do
+something here, it's sensed in my brain.
+Immune system that if it does if the
+cells don't migrate, they don't have
+really a lot of ways to communicate.
+Like they can they can just hitch some
+signals on neurons.
+And that's a really interesting we could
+talk about the the capacity for your
+brain and
+you know, the insular cortex. There's a
+great set of stories emerging about how
+your insular cortex can program your
+immune state into organs and can via via
+the vagus can can can essentially
+program immune system.
+>> of of calm or stress or by thoughts
+themselves?
+>> Well, the the one the latter one is the
+one that gets me super excited about the
+possibility that you could have triggers
+for thoughts that So, the insular
+cortex, as I understand it, you know,
+it's a source of some of our moral
+decision-making. It's also the the
+thought to be the part of our brain
+where if you cut your hand and and I see
+it bleeding, I can feel it in my hand. I
+oh wow, you know, I can sense and you
+can sense each other's pain. It's a set
+set that there's very nice uh Israeli
+group that did this Royce lab that did
+very nice study where they induced into
+the guts of of mice
+inflammatory bowel disease. They fed
+them a really kind of weird sugar that
+causes them the bowel to puncture and
+then they get they get a really bad, you
+know, stomach ache. Um,
+a stomach ache and
+inflammatory bowel disease, diarrhea.
+And um, and in that period they used,
+you know, you know what dreads are. So
+they they marked uh, for the for the
+crowd it's they used they they used they
+used a way to to mark all the neurons
+that were firing during that period in
+the insular cortex. And then later they
+could fire them like after the mouse had
+recovered and the they saw evidence that
+the immune system was resetting up
+itself in the gut as if it had just been
+punctured, you know, like with a
+and the cues for that in that case were
+a drug.
+But we know that we can, you know, cue
+the insular cortex like me watching you
+do things.
+So it's always it's made me wonder
+whether, you know, like some of the
+things we we smell cut grass and we can
+we're, you know, instantly take us back
+to a whole bunch of thoughts about how
+we were when we were kids and maybe even
+make you feel a little like that.
+Whether there's aspects to this to which
+are, you know, our ability of our
+thoughts to control that region are are
+going to be revealed to, you know, to
+have potential that you could train uh,
+you know, train yourself to to, you
+know, to bring up an immune state in a
+particular tissue.
+>> Um, just so I'm we make sure everyone's
+on on board what you just described cuz
+there's a lot there. If I understand
+correctly,
+we know that the nervous system can do
+contextual learning. Like if it like if
+if an animal or or human, let's just
+keep it a human, gets um, shocked,
+scared, or traumatized in a given region
+yeah, or even I've had friends visit San
+Francisco and get their cars broken into
+and their computers stolen, you can
+develop a context context-dependent or
+and or place-dependent memory where you
+kind of don't like San Francisco as much
+even though the rest of the trip was
+awesome. That's a pretty broad
+interpretation. Or um, you have a great
+experience someplace and you actually
+really love San Francisco because you
+met your future spouse there or you just
+had a particularly awesome experience
+there. Even if it was just in one part,
+you might feel better about your
+computer getting stolen anyway. Okay.
+Insula seems like a you know, let's take
+the positive example. Let's keep it
+positive for a moment. I think what
+you're describing is that if we remember
+the positive thing, if there was a
+positive immune status
+>> associated with that.
+>> The immune system is also part of that
+contextual memory. And so [snorts]
+merely by recalling the positive or
+negative, but in this case positive
+memory, we can also we recall not just
+the memory, but also the body state and
+the body state includes the immune
+status that accompanied the positive
+or negative event.
+>> That's what these studies are starting
+to emerge and
+>> That's cool. That's really cool because
+we've heard for so long that like we
+know that chronic stress impedes
+immunity. We also know that acute stress
+boosts it. And that's something that,
+you know, with all due respect to my
+colleagues who've focused on the ill
+effects of chronically elevated
+cortisol, like the the
+the immune-enhancing effects of acute
+cortisol and stress are are really
+important and and I think they've been
+overlooked. But I love this because one
+of the problems {slash} luxuries that I
+I have is I sit sort of at the interface
+between like real science and biology
+and like what most people perceive as
+complete nonsense whackiness.
+But more and more we're finding that's
+within the complete nonsense whackiness
+there are kernels of truth like that you
+can actually meditate your way into a
+better state which helps serve your
+immune system and so on and so on. And
+that's seeming less and less wacky even
+outside California because of studies
+like the one you described.
+>> One of my friends who's a faculty down
+at NYU, we were talking about the same
+study and he was like, "That may be what
+meditation is doing." Cuz it may be
+allowing your brain to, you know,
+communicate and reset um you know,
+less inflammatory states
+>> Mhm. across your body because of this
+axis. And the study was really I think
+it was you know there's still work to be
+done in it but the you know the the
+fundamentals of it was in the actual
+event there were certain cells that
+would accumulate in there and then in
+the induced event when you made the the
+brain fire again of this mouse you would
+see you know not as profound but you saw
+this this evidence of these same sorts
+of cells accumulating there as if they
+you know they're ready for that
+inflammation. And I think what we're
+talking about is the idea that you could
+have that go both directions and that
+again you know the concept of I mean I'm
+sure you've talked about this before of
+of meditation where the
+idea is that you um you know you you
+it's one of the ways that you can
+control your autonomous nervous system
+is through is through your breath
+>> Mhm.
+>> um that happens with meditation. I think
+that to me there's something intuitive
+about that but you know I I just an hour
+ago warned you about the problem of
+science being intuitive that some things
+that make they sort of make a great
+story in our minds that don't turn out
+to be true but the the data on this
+insular cortex thing is starting to look
+like it's a real thing. Like there's
+there's a real connection between some
+of the peripheral states and and like a
+regions of the brain.
+And however those are triggered now
+maybe
+you know again I've I've often thought
+well maybe when you're healthy you
+should smell like mint and then when you
+want to be healthy again like you know
+there's it's it's it's kind of crazy
+thoughts but but again there's an
+element of that that's intuitive too
+where you say oh that seems to be the
+case. My mom makes me a comfort meal. Is
+it really the meal settling in or is it
+just the that the sensations that make
+me feel like you know less you know but
+I was stressed in one sense
+>> Mhm.
+>> but maybe also on to this point and
+literally resetting your tissue.
+>> I'd like to take a quick break and
+acknowledge our sponsor Function.
+Function provides over 160 advanced lab
+tests to give you a clear snapshot of
+your bodily health.
+This snapshot gives you insights into
+your heart health your hormone health
+autoimmune function nutrient levels and
+much more. They've also recently added
+access to advanced MRI and CT scans.
+Function not only provides testing of
+over 160 biomarkers key to your physical
+and mental health, it also analyzes
+these results and provides
+recommendations for improving your
+health from top doctors. For example, in
+a recent test with Function, I learned
+that some of my blood lipids were
+slightly out of range. As a result, I
+decided to start supplementing with
+nattokinase, which can naturally help
+reduce LDL cholesterol, and it did. In a
+follow-up test, I could confirm that
+this strategy worked. My blood lipids
+are now back exactly where I want them.
+Comprehensive lab testing of the sort
+that Function offers is just so
+important for health. I mean, how else
+are you going to know what's going on
+under the hood? And while I've been
+doing blood work for years, it used to
+be time-consuming, complicated, and
+expensive. In fact, I used to spend
+thousands of dollars per year trying to
+get this kind of data, and the data,
+frankly, were not all that good. But now
+with Function, it's extremely easy and
+affordable. A Function membership is
+only a dollar a day, $365 a year. And if
+you think about the information it
+provides, and the health challenges it
+helps you avoid, and the proactive
+things that it can do for you to enhance
+your health, I truly look at it as a
+savings. To learn more, visit
+functionhealth.com/huberman,
+and use the code Huberman for a $50
+credit towards your membership. Again,
+that's functionhealth.com/huberman.
+I'm always struck by um extremes of
+personality, but in both directions. So,
+there are these [clears throat] people
+who just say like, "I don't get sick."
+>> Mhm.
+>> And they don't get sick, and it's super
+frustrating. Because I'm not one of
+these people that's very sickly, but I
+occasionally get like a sniffle or a
+cold or something. You know, less and
+less with each year, because I do feel
+like pay more attention to the sleep
+piece.
+>> Mhm. Mhm.
+>> Um then I certainly than I did when I
+was a graduate student, post-doc, or
+junior professor. Yeah. But there does
+seem to be this {quote} {unquote}
+positive, or let's just call it a
+reinforced mindset, as opposed like
+[clears throat] an immune reinforcement
+associated with mindset, because
+um some people will say like I I just
+always get sick and I believe them. They
+always seem sick. But it could be that
+um you get sick in
+in a given environment once and then you
+you just decide that you're sickly. So
+then
+you know
+could be that the immune system is
+listening to these thoughts but not in
+the form of words. I think this is where
+like it gets hokey for people like real
+biologists and and physicians like yeah,
+you got to be kidding me. Like
+but cuz immune cells don't listen to
+thoughts. They listen to brain states.
+>> Triggers of some sort.
+>> Triggers of some sort, right? Um and
+then there's like as humans we have this
+obsession with language that makes it
+seem like you can you know write
+affirmations and then it's the word
+content but it's the feeling state
+associated with that that
+>> Probably
+>> level makes total sense.
+>> Yeah.
+>> So it's we were talking about spatial
+biology and the fact that you can tuck
+some pancreas in the kidney and unless
+say someone has type 1 diabetes
+>> Mhm.
+>> a lot of the functions of the pancreas
+can
+>> can still function.
+>> or
+transplantation of these clock neurons
+and clearly there are limits to this but
+in the context of the immune system
+I'm wondering
+can we take a little bit of thymic
+tissue
+bank it and then just later like
+put it in a slow release capsule
+under our skin of our hand. You know
+like and that might sound crazy but I
+have friends one of whom might be at
+Neuralink [clears throat] now who
+actually embedded a little radio
+receiver under his hand to be able to
+open his
+um it locks at his home and his car and
+his wife might have one also and like
+that might sound really like Bay Area
+like future tech kind of wacky
+biohacking.
+>> Yeah.
+>> But
+if I knew that I could be much healthier
+like taking a few thymic cells and in a
+you know a sterile capsule and sliding
+it under the skin, you know. People get
+their ears pierced with you know
+>> Right. Right. Right.
+>> less less invasive uh procedures. Why
+not?
+>> Well, I mean the question is why would
+that you know is that likely to work?
+You're basically, remember how we were
+just talking about if I do 10
+experiments, one might work.
+Yours isn't a bad idea, but you know, is
+there, it's it's more than likely that
+one of the nine out of 10, I would
+guess.
+>> Sure. Is there a correlate from any
+studies on animals?
+We know that in a lot of studies of
+cancer and tumors, I used to see these
+mice down in the vivarium. They would
+slide tumors under the skin and study
+them and give animals drugs or give
+animals stuff. And
+tumors are happy to thrive in novel
+environments. So why wouldn't healthy
+cells?
+>> No, I think you can. I think one of the
+things that comes into play a little bit
+about that that's more about, you know,
+um,
+replacing an organ with one that might
+be better is that at some point if you
+come in, so one of the the challenges of
+tissue engineering is if you want to
+bring in new genes,
+the vector, the material that the the
+the the the surrounding, whether you're
+bringing it using a virus to you know,
+to bring it into those cells that you're
+going to now put into the person,
+whether it's a virus or a a small piece
+of DNA called plasmid,
+you effectively are giving that a new
+bit of identity.
+And when that when you go to transplant
+that organ back in, it's seen as
+foreign. And it's it's just like you
+just put an infected cell in you, you
+know, as far as the immune system knows,
+all of a sudden there's a cell with a
+huge number of new things being
+expressed, and some of them viral,
+literally.
+So, you know, that's a that represents
+an issue, I think, when we talk about
+any kind of, you know, sort of
+engineering at the
+you know, the moment is is if you
+engineer a system to be maybe better,
+the immune system isn't necessarily
+going to want better.
+And and so you have to overcome this
+issue of tolerance maybe at the same
+time. And and and again, that's why that
+particular experiment, depending on what
+you're putting under the kidney capsule
+or whatever, it matters what the immune
+state is and what that thing is as to
+whether your immune system's going to
+let it fly.
+>> I'm not considering doing this. I just I
+I think we are I don't know how old you
+are, but I I can guess based on some of
+mutual friends we have, but I'm guessing
+that a lot of people
+who are able to understand speech,
+they're old enough to understand speech,
+are thinking that in our lifetime
+we are going to be able to use our own
+cells or peptides or synthetic versions
+of peptides from our own cells and and
+so forth to to overcome a lot of the
+issues that our parents and grandparents
+were not able to overcome.
+>> You know, with regards to like the
+peptide side of things and even the
+cells, and this is maybe where you're
+going with space, is that context does
+matter
+for the immune system. So
+and and it matters for all biological
+systems. I'll just give you an example.
+We did a study of of wound healing
+some years ago.
+And if you have a wound in a mouse
+that's maybe just a like you know, if
+you ever have a melanoma removed, they
+do a punch biopsy. It's a little circle.
+So you can do that in the back of a
+mouse and then you can watch the wound
+healing happen.
+The there's zones within there where
+certain biology is really important to
+be happening. And then so so so imagine
+the the wound is like this and it's
+open. The cells like one layer back are
+doing certain things, but the other ones
+behind that are also induced to do
+something. The wound isn't just
+this area. It's it's actually sensed all
+like a gradient almost like the neurons.
+And so these cells need to do different
+things than these cells. So if you
+wanted to administer some, you know,
+like like a peptide or even just a cell
+type, you have to be a little bit
+conscious of like where it's going to do
+the work you want it to do. And the
+natural system does that naturally. Like
+the cells on the inside actually
+instruct the cells one layer back.
+But you don't necessarily want everybody
+getting the same signal. So like
+development happens that way. You know
+about gradients and we talked about this
+earlier that there's gradients. So So I
+think one of the tricks that we don't
+really understand about this is when is
+something good for a process and when is
+it only good when it's given in the
+right dose at the right time?
+And I think that's one of the tricks
+about some of these things. And
+again, that's where, you know, both in
+the lab and you know, like I I would say
+that more so ever in in in our lives,
+you know, we're seeing, you know, people
+kind of like experimenting with things
+on themselves.
+And one of the sad parts about this, we
+don't capture a lot of data therefore,
+you know, cuz it's not seen as a study
+and we can't say everybody that took
+this gets this result and and then you
+have this rise of things on the internet
+of of anecdotes that become seen as
+data. Like I took this thing and this
+happened. And that's, you know, I I can
+drink this drink and it doesn't mean
+great happen to me or something bad
+happen to me. It might have nothing
+>> to do with the drink, right?
+>> You know, that that issue is one that I
+think it's really um
+is really critical in in this in this
+window of time right now. And
+I don't know what you think about the
+idea that people, you know, do
+experiments on themselves. I I think we
+all want to improve ourselves. We all do
+all I would do some kind of experiments
+ourselves. Like you read a book, you're
+trying to improve yourself, right? Um
+the physical one gets a bit tricky when
+you know, you're not sure whether
+something's going to be dangerous or
+not. But
+>> I'm not and I'm not promoting that
+people do this. I think that of course
+you wouldn't would want to see
+preclinical, clinical and and other
+um trials for this.
+>> I think I would personally. I mean, just
+personally.
+>> I'm I there are a few areas well where I
+am um a bit more adventurous, but for
+the most part I'm I like, you know,
+based on my training and background,
+[clears throat] I have to orient toward,
+you know, I I'd like a bunch of Let me
+put it this way. I'd like to a bunch of
+other people to do it first.
+>> Yeah. Yeah.
+>> Like who It's fun to be first unless
+you're doing something really stupid and
+that can get you killed, in which case
+like let other people go first.
+>> Yeah. Well, I think a good example that
+right now is and this is you know, sort
+of nationwide or even international, is
+vaccine hesitancy. I know this is a
+touchy topic, so we can
+>> No, but you can feel free
+>> open. Well, I'll just point out that
+that the one group that's completely, no
+matter whether they're hesitant against
+childhood vaccines and the number of
+them we get and the the fact that the
+government makes you take them and these
+sorts of things,
+if those people have cancer,
+they're very interested in vaccines cuz
+it's a there's really good data that you
+can promote more immune cells against
+the um tumor by
+making a vaccine that consists of some
+of the proteins and peptides that are
+unique to the tumor and did not
+different from you. And you introduce
+those as if you would introduce the
+virus or anything in a in a childhood
+vaccine, similar concept. Um just
+different
+peptides. They're peptides from the
+tumor. And and in those situations, it's
+context, right? So if if you and I had
+cancer and we don't have the the
+conventional cures are not going to work
+on us. We know there we know statistics
+really well. Chemo is not very good for
+a lot of chemo and cancers and but it's
+the only thing we got. But if you have
+access to something that's relatively
+new and particularly vaccines despite
+what, you know, some people worry about,
+they're
+pretty safe. Um and so the the certain
+die versus try out a vaccine drives a
+lot of people to be interested in
+vaccines. And I would say yeah, in that
+case, it's a really, you know, you can
+see where people's is their their
+question about whether they're going to
+try something or not is very context
+dependent.
+>> Very. I think uh I don't want to go too
+deep into the vaccine debate and I don't
+want to be a spokesperson for either
+side because that's not my role today,
+but
+>> Yeah.
+>> I think that the
+um
+the what you refer to as vaccine
+hesitancy actually comes back to an
+earlier issue that maybe you'd be
+willing to comment on.
+>> Sure.
+>> Um which is I think there are a very
+large number of people for whom they are
+neither anti-vaccine
+nor super pro, but they are um they're
+asking about timing and combinations.
+>> Agreed.
+>> They're saying, "Okay, listen." And we
+had Jay Bhattacharya on here and I've
+had
+several others who said, "Maybe there
+should be an investigation of the
+spacing of these things. How many? Um
+how critical it is to do at a given age,
+you know, um
+and on and on." We could pick any
+vaccine for that reason. And as an
+immunologist,
+do any of those questions make sense to
+ask? I mean, I could see how, you know,
+bombarding the immune the young immune
+system with a lot of vaccines is a very
+different thing than spacing out the uh
+delivery of those vaccines. Yeah. I'm
+not saying don't give them all. I'm
+saying
+over what time window does one give
+them?
+>> Yeah.
+>> I think a lot of people many more people
+are asking that question.
+>> Yeah.
+>> It's just a quieter murmur
+than our um
+saying, "Listen, we don't want to take
+any of these things."
+>> Yeah.
+>> Or we don't want our kids to take any of
+these.
+>> I agree with that, too. And I I think
+there's some fair aspect to which most
+of these vaccines were not studied in
+the context when they were studied of of
+what it does, you know, in in in com- in
+in combination and in in these sorts of
+timings.
+The fact is that, you know, the the
+evidence that there's any that there's
+bad things happening doesn't look to me,
+you know, tremendously strong. It's
+almost like anecdotal sort of
+information.
+>> So, unless it's your kid.
+>> Unless it's your kid, in which case
+you're going to look for an explanation.
+So, I I don't know.
+>> Just being fair as long as we're
+admitting psychology as a factor.
+>> Yeah.
+>> Yeah.
+>> Yeah. So,
+there there's fairness on both sides of
+that discussion. And I think
+I think that almost certainly where we
+are now, there's probably ways to put
+together vaccines and
+certainly more convenient ways. It's I I
+I as as a parent I I actually had
+something very similar where I delayed,
+you know, my first daughter's one of her
+vaccines. Partly because I know that
+that as a, you know, like there's a
+certain element to which when we design
+a protocol, like the the protocol for
+immunotherapy of cancer for patients was
+was actually based a little bit on the
+mouse work a lot on the mouse work that
+I did. You can imagine that mice and
+humans are quite different. But, that is
+the protocol. Protocol is protocol, and
+that's how it's done in medicine. And
+that's because you have a fairly good
+sense of the safety of it because of
+statistics.
+But, that isn't to say that it's the
+only protocol that would work. And I
+think you're getting at this concept of
+like could there be at least a more
+convenient one?
+>> Or one that's the safest.
+>> Or safest, or even one that is less
+disruptive to the lives of the children
+and the parents. I We we delayed one of
+our kids' vaccines, you know, by just a
+month or something because uh she had
+not been feeling well.
+Just straight up. And And it is true,
+you know. And I'd say that a couple of
+vaccines have come out there I've had
+recently, shingles one is a good
+example. I had a other day is knocked me
+completely out. And then you know, it's
+very very heavily advented, so it's
+clearly it's you know, it's having a
+Um does it does it need to be? You know,
+I actually don't know. I don't know what
+studies were done. And and there's kind
+of an aspect to which you know, I don't
+know that we're all um being shielded
+from the information, but I don't know
+that we all know how to read the
+information about how these regimens
+were chosen.
+>> Mhm.
+>> Um some of them are chosen by competing
+pharma pharma companies that each make
+their own you know, materials and
+you know, I again I think there's a
+there's a lot in this question. I don't
+know how much of it also represents
+the one problem of science that I could
+talk about is this um this issue that's
+a lot of science treat science as a kind
+of a papacy. Like we know the language,
+we know the facts and and we probably
+don't have time to tell you why we think
+this and where where the holes are.
+>> Excuse me for interrupting, but you
+know, a huge
+basis of this podcast is to counter
+exactly that.
+>> I mean I know all these incredibly
+smart, incredibly well-meaning
+people who have lives of their own,
+health lives of their own, health
+challenges of their own, kids of their
+own
+and on and on and no one was hearing
+from them.
+>> Yeah.
+>> It it was and as things get more
+politicized, there's less incentive to
+give nuance. I actually really
+appreciate you providing some nuance on
+the I mean it's clear where you stand on
+vaccines generally based on what you've
+said, but you're you're offering um
+perhaps the opportunity for or better
+understanding and certainly of the
+information.
+>> Yeah.
+>> Yeah. I mean it's it's a huge problem.
+>> Yeah. Well, I guess it's it's one of
+those ones that I can only speak about
+what I did. Right? As a as a as a human.
+When I had kids and I looked at the data
+and I have probably better capacity than
+some anyways to read it and
+look at risk versus harm, you know, the
+percentages of these things. I
+absolutely you know, vaccinated kids and
+that was it seemed like it seems even
+now like a a reasonable no-brainer. But
+I just told you too that I I asked to go
+off protocol
+because at some point I know these
+protocols have a little bit of like
+again, they were designed on a one
+study. It doesn't mean that it doesn't
+work if you wait another month. In fact,
+if you do if you've done enough mouse
+experiences I have, you know that when
+you vaccinate on a slightly different
+schedule, you can still end up with the
+same outcome. You know, that is
+protection.
+You know, with slightly different
+schedules. It's not that convenient for
+doctors and hospitals and and even
+sometimes for patients to get off on,
+you know, like weird schedule and then
+you forget a dose and then it isn't as
+effective, right? So, there's there's
+efficacy that comes with, you know,
+trying to follow the protocol and
+because the protocol has
+some convenience built into it, that
+means you're going to do it. It's um
+it's like it's like brushing your teeth
+in the morning. You do it in the morning
+and evening is when you do it. And so,
+you'll do it twice a day.
+So, there's a lot in this. I mean, you
+know, there's a lot of politics I think
+involved in in vaccine too that relates
+to the question of like what point can
+the government do tell you what to do,
+which is, you know, it's it's a it's a
+surrogate question to the vaccine one.
+Where vaccine is, you know, if there's a
+harm, who gets to choose with the harm
+and benefit and then
+how resources are given out for like
+schools and you know, we know all these
+we know all these sort of nuances. From
+the science standpoint, I don't think
+you want to wipe out the baby with the
+bathwater. I don't think you personally
+like I wouldn't not immunize my kids.
+Could there be additional studies about
+the combination of these into like fewer
+shots? I think so.
+See why not. Here's where you get the
+financial rise. What's the benefit to
+any pharma company of doing that?
+>> Well, I think this is again, I I have
+[clears throat] to be careful that I
+don't place myself into an advocacy
+group that I'm not.
+I'm I look at everything on a
+case-by-case basis.
+I really try to do that. But the you
+know, and I've
+tried to be in recent years more open to
+the to at least understanding what the
+anti-big pharma stance is really about.
+You know, it comes up a lot around
+SSRIs, but you talk to somebody with
+clinical grade OCD and they will tell
+you that SSRIs saved their life.
+>> Mhm.
+>> So, you go, "Okay, well, you know, so we
+can say all we want about pharma." Are
+you talking about people getting in
+taking insulin or you know, until
+recently the GLPs were mostly available
+through pharma. Now, they're sort of
+it's kind of wild west. People are
+microdosing them from all sorts of
+compounding pharmacies as their own
+issues and so on.
+>> Yeah.
+>> But, my sense is that the frustration
+around the kind of dictatorial, like,
+you're going to do this at this point
+because this or else, like, you're
+persona non grata.
+>> Mhm.
+>> That kind of like people not people
+being shunned in both directions, in
+either direction, rather. That's
+you know, that that's really the source
+of the problem. There there really
+hasn't ever been a conversation quite
+like this.
+>> Yeah, I agree.
+>> At least not when I've seen publicly.
+Yeah, there are a lot of labs that are
+going to devote themselves to this.
+People will wage the argument that and I
+don't know if this is actually true, but
+that the pharma companies are protected
+against lawsuits about vaccine injuries.
+>> Yeah, yeah.
+>> I mean, I think that probably is
+frustrating to very frustrating, excuse
+me, to a parent whose kid seemed
+essentially fine, got a vaccine and 3
+days later started exhibiting symptoms
+that then set them off on a course that
+was uh really really tragic.
+>> Yeah.
+>> Um and those groups are the ones that
+have
+accumulated the most oomph out there.
+>> Yeah.
+>> And if you think about the those
+parents, totally understandable
+>> Yeah.
+>> why they would feel that way. Whether or
+not the basis of their feelings is
+exactly right, I can't speak to, but you
+can understand if your kid is one way,
+walk out of the doctor's office is is
+another way.
+And you can't do anything about it.
+That's got to be super frustrating. I
+mean, beyond maddening.
+>> And and and and the question is, what
+could you have done differently? I think
+is uh in those situations, having been
+in them, not that exact situation where
+you said, "Oh, now it's done and now I
+can't go backwards."
+>> And you did that to them. This is the
+thing that This is the thing I think
+that is not often discussed is that the
+the parents made that choice on the
+basis of what they thought was the best.
+So that there's a certain um
+guilt slash anger. I mean, there's a
+whole psychology to it that's completely
+understandable.
+>> Yeah.
+>> The kid didn't wander into the clinic.
+>> Yeah. Well, I mean, you know, on the way
+over here, I was thinking about some of
+the things that
+you know, are happening in in uh medical
+space and then you know, you guys have
+obviously from time to time talk about
+peptides and these sorts of things that
+people are using, you know, off-label
+Well, not even off-label, they're just
+from uh wherever, the internet. And you
+know, that I was thinking, well, you
+know, there's a funny thing there
+because the legitimacy of pharma
+companies has sort of
+fallen into even worse straits than
+before because I think it I was thinking
+about this, a lot of it does relate to
+the fact that we are advertised to take
+a lot of things that often aren't, you
+know, the the side effects are worse
+than the than the symptoms that we're
+we're leaving and
+and that sort of uh you know, again, I
+I may find myself like having a bunch of
+colleagues hate me for talking about
+this with you, but I do think it's kind
+of important at some point to surface
+where all this comes from, you know, and
+and and the idea that we can do
+experiments on ourselves, on our own
+bodies, again,
+it's quite different to say read a book.
+Although you can be infected by we
+believe like by, you know, scripture and
+scripture and things and and then your
+behavior.
+But somehow [snorts] in here this idea
+that
+that um you know, we can be told to do
+things by people that aren't quite in
+our best interests.
+I think it opens up the idea that well,
+why why can't I choose my best interest?
+You know, who who are these experts that
+I can't always trust?
+>> What's more American than that after
+all?
+>> it is it is it is part of the pioneering
+spirit. Like if the if the government's
+not going to protect my 40 acres, I got
+to have a gun and protect myself. And
+that's that's been a part of our culture
+for a very long time. And I think this
+idea of individuality plays into this,
+but it could be exacerbated at the
+moment by the by the fact that there you
+know, haven't always been good
+communication with somebody you're
+trying to work out and and and maybe
+even surfacing of these ideas that are
+hard to talk about. Like should we trust
+farm companies? I know a lot of people
+that work for pharma and they really
+they are doing good. They They, you
+know, they're they're like you and me.
+They They really think and they are
+treating disease. They're making really
+good drugs and they do really good
+things. But this is not always true. Not
+just because of, you know, a bunch of
+people doing it, it's not always true
+that the subtle best interest of a
+corporation is the same as the best
+interest of an individual. So, you know,
+we have to surface that those things
+exist. It's not like we have to say that
+it's right or wrong or whatever, but at
+some point those kind of perverse
+incentives exist. I I wonder why, you
+know, like pharma companies haven't um
+gotten better tests for who's going to
+respond to these checkpoint drugs that
+we made. We've had We've had a few
+papers that show who are the responders
+and who are not, but it's still the case
+that if you get to come in with
+melanoma, even though there's only a 50%
+chance you're going to be cured, which
+is great. You You used to be zero
+with these drugs. You still take 100% of
+the market takes that drug.
+Well, because the 50% that aren't going
+to respond, they don't know who they
+are.
+And so everybody takes it. So, the
+companies that sell those have no
+incentive
+to develop a test. Although again, if
+they develop a test that shows who is
+and who isn't going to respond,
+they'll cut their market into 50 in in
+half.
+So, I don't think any pharma executives
+out there going
+But if there's no there's no positive
+incentive to do that study, to study
+those things. And I think it's kind of
+true in some of these other drugs that
+we've been, you know, brought brought
+forward, some of which are better and
+worse than others. We could
+told that this is going to be good for
+us and and we should take it and and
+there's a again, you're you're getting
+into the American kind of like
+mentality, which is a say, well, some
+point if you fool me twice or, you know,
+I'm not going to believe it and and I
+might not believe it against the entire
+spectrum of things called science.
+And the problem is that there's people
+like you and me that are trying to
+actually do and and most of us, I'd say,
+99.9% of us are working our asses off to
+like, you know, figure things out and
+discover stuff that's important for
+mankind.
+And then you have these sort of issues
+that arise and you're like, well, then
+should you distrust as a
+as a as a species, should you distrust
+the entire class of science?
+Probably not. You You just need to maybe
+make it so that knowledge is is freer
+and knowledge is better communicated and
+that and that um and that you do watch
+out for those situations where there
+should be, you know, uh
+and maybe vaccines are one
+we You know, we just need to do
+something sensible like what you're
+describing and just just do a study and
+say let's do that study. And and make
+that very public that we do it and say
+we're going to do that and and and you
+obviously people can sign up for, you
+know, the the you can have this regimen
+or you the old regimen or the new
+regimen and we
+You know, again, I I
+I may be speaking out I don't do
+vaccines. It's not what my lab studies,
+but there could be some sense to saying,
+well, maybe science as a whole could
+take this on and say what would be Maybe
+they Maybe the answer isn't just say no
+vaccines and we we think they do There's
+good evidence that they're protective.
+But to the extent that you're coming at
+it, could we make it less
+Let's Let's do it and let's just do it.
+Let's do that experiment. But I don't
+see that That's one of the things that's
+not happening right now is that nobody's
+actually
+describing an experiment.
+What would be the experiment?
+>> Yeah, well, the discussions haven't
+happened and I should say a couple of
+things. Um first of all, thank you for
+willing to venture into this area. I
+seriously doubt that any of your
+colleagues are going to be upset that
+you're having this conversation. I will
+make sure that anything we put out is in
+context. If anyone cuts a clip, I will
+be the first to dive in there and say
+this is taken out of context.
+But
+I to any people, colleagues or
+otherwise, that would say, "Hey,
+actually this is the wrong stance. You
+don't want to be talking about nuance in
+a time when there's so much threat to
+traditional medicine and vaccines, etc."
+I will say this.
+The idea that you need to push back with
+a with just a fire hose of do this or
+else did not work.
+The pandemic proved that.
+In fact, I think one of the biggest
+mistakes was to have one individual as
+opposed to a panel of people
+with more nuanced communicating public
+health information at that time. Any
+person, scientist, doctor, or otherwise
+who thinks that the way to convince
+people to change their behavior around
+vaccines or anything else is to just ram
+it down the public's throat and say or
+else you're whatever, you're political
+this or you're a fascist or whatever,
+okay? That is proven to be wrong and the
+path forward is really this kind of
+conversation. It's
+highly educated people like yourself in
+the educated in the immune system who
+understand this, who have children, who
+made certain choices saying
+yes and I can understand why you would
+be considering the following questions
+and we should do a study and and in the
+meantime you're not preventing anyone
+from getting vaccines. There's now a
+hunger for more nuanced conversation
+around these things and I think it's the
+right time to have it when we're not in
+the throws of a pandemic.
+>> Yeah.
+>> Yet. Yet. I mean there's some things
+that are on the rise. It is scary. I'll
+I'll be quite blunt.
+You know, the the rise in measles is
+scary. People say, "Well, measles, I
+used to have measles parties." Talk to
+somebody who had massive inflammation
+and brain inflammation from measles, not
+a pretty picture.
+>> No.
+>> Not a pretty picture.
+>> Yeah.
+>> So, I think it's great that these
+conversations are starting
+and it won't be taken out of context.
+>> Yeah, well, I mean on the vaccination
+front, I mean I just wrote a little
+little little sub-cycle so about you
+know, the origins of smallpox and the
+vaccination and I think what's lost in
+those stories is if you look on the
+internet to
+the yeah, so that that's a terrible
+disease. I mean that
+you know, the reality of what we're
+protecting against we haven't there's
+just really hard to to like also have
+that conversation without doing a little
+bit of reading into your history.
+You know, and and I I don't think the
+history books are
+pulling the wool over our eyes by saying
+some of these things were really
+horrendous.
+>> Well, smallpox was dreadful.
+>> So, so there's an element of that though
+that I think you know, that we have to
+make sure that the conversation focuses
+on on what are we what are we trying to
+achieve here?
+And and and sometimes that that question
+is can get lost, but I think man, if my
+kid got smallpox or got measles or got
+mumps and and and and you know, as we
+know like measles is not a a theoretical
+again, you know, it's it's certain that
+that concept uh
+is enough to say well, there is a risk
+of that and that's one where you
+it's like you and you're not teaching
+your kid how to cross the street
+properly if you didn't do that and then
+the kid got hit by a car, you'd just be
+decimated. So,
+you know, just because we haven't seen
+these things for a while doesn't mean
+that they're not still real and I think
+[clears throat] that's also an important
+I think that's what that's me as a
+parent saying like yeah, I did look at
+the history and of these things and they
+really are bad. And so we are you know,
+we are defending against something, but
+you know, is there a better way to do
+it? Uh
+you know, propose experiment. That's
+that's you know,
+I think there's a you know, like cutting
+off you know, the concept of human
+curiosity and science at the legs is
+probably not
+the way to figure out something out from
+my experience. You you you you dive in,
+you think of the experiment that would
+answer the question and you say well,
+that is that the killer experiment for
+this thing?
+Again, I think you look at the numbers
+and the numbers from my this is me as a
+parent looking at the numbers of of you
+know, like the the danger of of of bad
+stuff happening versus the
+the odds of an adverse effect. They
+weren't all that high, but you know,
+again, if you're one of the people that
+even if it is that even if it is caused
+by vaccine, which I don't by the way
+Can I tell you a little story? I believe
+maybe you know this already, but if you
+wanted induce autism in mice, people do
+it by injecting a bacterial infection
+into the mom when she's pregnant.
+Which tells you that an immune challenge
+can affect the neurons of the of a
+developing pup.
+So, it's not outside the realm to say
+that in some situations and adjuvant
+situation again, again, I may regret
+saying this because it's you know, Uh,
+it's to open up a conversation to have
+this, but it's it's not outside the
+bounds to say that a immune insult will
+have influence on neurodevelopment,
+period.
+Is it the source of autistic children?
+Or was it in fact that the mom had
+infection during pregnancy? It's not
+absolutely wacko to think, and you
+should think this is a neurobiologist, I
+think you'll probably agree, to think
+that inflammation, some of the molecules
+of inflammation, will affect
+the the the cells of the brain.
+>> Yeah.
+>> In fact, one of the one of the best
+experience that I love along these
+lines, it's not about about autism at
+all, but it's about
+when you get a flu,
+you tend to go you you tend to feel like
+you want to social isolate yourself.
+At least I do, and most people do, I
+think. They kind of want to crawl in a
+hole. Is that crawl in a hole feel?
+There's an experiment that was done that
+involved injecting gamma interferon,
+which is one of the things your immune
+system makes when it's fighting off an
+infection, into the blood bloodstream of
+a mouse,
+and then just watching it.
+And [snorts] they become,
+uh, you know, socially isolating from
+just the molecule that's made by the
+immune response during
+>> Not even from sick.
+>> Not even being sick. They're not sick.
+Well, they just are given this this cue
+that's part of the systemic immune
+response, and then they
+show the signs of social isolation. And
+the lab that did this, um, also showed
+that the brain has receptors for these
+immune molecules.
+And you know, the simple conclusion of
+that paper is, you know, there's still
+always work to be done, but simple
+conclusion was that the brain could
+sense infection and and it would affect
+behavior.
+>> [snorts]
+>> Um, even in mature you know, in us as
+mature. So, you know, again, there's
+these these ideas that there is there's
+something that I mean, scientists used
+that infection of a mom, you know, to
+lead to neuronal changes that lead us to
+be able to under to study autism in
+later mice. So, there there's definitely
+potential there. I don't know that the
+vaccines and all of them in or whether
+it's a circumstance or whether it's, you
+know, getting the mom actually had a
+fever before and the vaccine now just
+triggered or didn't or just circumstance
+because you give vaccines at 2 years of
+age, which is when autism appears.
+There's all kinds of options, you know,
+and the and and those sort of anecdotes
+of of that and and um
+I just think that that that fact that,
+you know, the way that we study autism
+is by giving a pregnant female mouse
+an infection. It's sort sort of like,
+okay, that's that's important to know.
+>> Mhm.
+>> That work is still ongoing by
+laboratories to understand autism. They
+want to understand the origins of it.
+And maybe it will not turn out to be
+vaccines at all.
+>> Again,
+we we need data.
+>> And and we're in a data
+>> We definitely need data.
+>> We're we're almost in a COVID situation.
+I describe the COVID situation now in
+retrospect as one that is data sparse.
+And this is why I've been trying to work
+on I was telling telling you about this
+project I'm trying to work on
+the publishing problem. But it's not
+it's not just the publishing problem.
+It's how we how we synthesize knowledge.
+That under data sparse circumstances to
+make decisions, I think we're not very
+good at that societally.
+Um and when we have tons of data and it
+says, "Absolutely, if you have cancer or
+you take immunotherapy, then there's a
+50% chance you're going to revive."
+Great. Those stats are solid, they're
+very good, and I would I would take that
+drug every time.
+But if it's sort of a case where you're
+like, "Yeah, there's some things that
+are happening and and and there's some
+other things that happen we don't know."
+You remember the beginning of COVID, we
+talked about it amongst ourselves in the
+lab walls, and we were coming in
+to analyze blood, and it was kind of
+unsafe because we didn't know what was
+safe. We didn't know how it was
+transmitted, we didn't know anything
+about it. It was it could it could we
+get it from blood?
+Um and and that kind of went on for a
+while, right? And this was the source of
+like a lot of confusion that came from
+the medical It was seemed seen as
+confusion that not your face is like, do
+you mask, do you not mask, do you touch,
+do you not touch? I think that's a
+that's a data sparse situation. You
+know, the the data that we had was
+sparse.
+It wasn't a lot of information, and so,
+you know, how do you make a decision
+when you don't have a lot of data?
+>> Well, I think that's the major argument
+when there
+you know, there are people that will
+critique
+people saying, "Okay, your experience is
+anecdote, it's correlative, but then the
+the the what with regard to vaccines and
+autism and other issues, but then the
+pushback is, well, this vaccine, etc.,
+was directionally guided by sparse
+information to begin with under times of
+[clears throat] pressure. There's
+financial incentives. So, it's just this
+ping-pong that goes back and forth. But
+many thousands of parents write to me
+and say, "Should I wait on certain
+vaccines?" And I'm like, "Listen, I am
+not the person to answer that question."
+>> Yeah.
+>> Um but you have every right to ask your
+doctor. Right? But they're not asking
+because they're extremists. They're not
+anti-vaxers. They're asking because they
+love their kids and they've seen enough
+things to call into question the
+incentives. And they just know that the
+conversation cannot be as polarized as
+it's presented to them in re- in
+reality. The the data cannot be as
+polarized as it's been presented.
+>> Yeah, certainly certainly in media some
+of these things get presented quite
+quite um, you know, inflammatory. And
+again, if if if newspapers want to sell
+a newspaper, they show a plane crash.
+Right. So, it's not happening every day,
+but they'll show you
+>> an airline ad in the same issue.
+>> Well, there's that, too.
+>> Yeah, you know. So.
+>> I think one of the interesting things
+that that we could get into is it it is
+that in you in a lot of these studies,
+scientists are there's a motivation to
+to make the most of your result. And
+we've talked about why that's important
+is that if you find something
+orthogonal, CRISPR, checkpoint blockade,
+uh you know, x-rays, you look for that
+orthogonal use for it, right? And you or
+that that orthogonal meaning. That we
+sometimes we call extensibility. Like I
+see that if I if I drop coffee cup on
+the thing that gravity pulls it down.
+Well, then I can learn that it I can
+drop all kinds of thing. I can make
+gravity work for me. You know, it
+becomes a tool.
+And and [snorts] I think one of the
+things that's that that it is lost
+sometimes is that some things are not
+extensible. So, you know, you can
+imagine that like if I if I had
+something that moved makes a cell move,
+that that might screw up the whole
+system forever. But humans and our
+bodies turn out to be remarkably
+resilient. I mean, we can go from minus
+20° to, you know, 110°. We can not eat
+for a long time. You know, all you know,
+all these things don't cause us to fall
+apart. So, if we didn't have resilience,
+I think our species wouldn't exist
+because there's all these pressures and
+all these varieties of life under which
+we lead. And I think a lot of science
+sometimes doesn't, you know, it it and
+and
+from the outside or even as an insider,
+you can read a paper and they they they
+point to why it might be important, but
+they're really doing that to to to to
+garner interest for their story, you
+know, and then say this might be
+important for this, but I haven't shown
+this important for they they don't say
+that's important as it might be
+important. And they're trying to look
+for that that orthogonal or that
+extensibility of it.
+And I think that's kind of important
+also just to go a little bit off this
+topic for a moment in how we think about
+drugging diseases as we go forward. And
+that is to say, we've looked for these
+one-and-done drugs that are you
+take a pill and it cures everything, you
+know, forever. That's sort of found of
+youthish.
+And you know, we found a few of those. I
+would say checkpoint blockade is one of
+those that you can take it and you know,
+in 50% of melanomas, everything the
+tumor goes away and everything's great.
+But most biological systems, if you have
+one button to push, they're super
+non-resilient. A virus can exploit that
+button.
+You know, that that that can cause you
+know, collapse. And so, most things are
+wired like in in really complicated
+ways. And I think what a few of us are
+thinking, this is for cancer in
+particular where you want to get the
+immune state from like you know, where I
+had a little concept of a fuel gauge.
+You want to get it from one position to
+another position. It may not just be
+about a push here. You may have to push
+some cells that way,
+create some new environment that looks
+like development, you know, your cells
+develop through states. And and you push
+the the biological systems to reach this
+new state in a way that doesn't look
+like the linear between like low immune
+reactivity and high reactivity. You
+might have to push it in a serious way
+because resiliency the
+the systems like even in chronic
+disease, but even in health, we're
+pretty resilient. And I think
+you can stand up to a lot of stuff.
+>> Can humans do that
+even in the context of abundant funding
+for basic research? Can what you just
+described actually be tested to the
+point where we can develop things? And
+the analogy here is I had my dad on the
+podcast. He's a theoretical physicist
+and he explained to me that one of the
+most important things you learn in
+physics is that you can't really
+understand quantum mechanics using your
+logical brain. You need the math to
+prove it. And this is when whenever
+somebody he also warned whenever
+somebody says they understand quantum
+stuff you have to ask them to
+demonstrate it for you because these
+people talk quantum because and and we
+make all these assumptions about quantum
+they talk about quantum fields so we
+think they're smart but but the
+theoretical physicists
+and for engineers get you know develop
+all sorts of incredible theorems and
+real experiments and then technologies
+based on
+all of that
+because of the math works not because we
+can conceptualize it and I wonder given
+the complexity of biological systems
+perhaps in 2026 we're running up against
+this barrier where
+by virtue of the sociology of science
+that papers need to have one maybe two
+take home messages by virtue of the fact
+that
+there's a limited amount of funding
+people need to sleep at night and on and
+on that doing the kinds of experiments
+like you described like pushing the
+cells this way nudging them that way and
+then drugging the the outcome in a way
+that is beneficial but not detrimental
+is this a place where machines are going
+to be
+better or at least helpful in doing
+these experiments?
+>> I take the standpoint that AI's and I
+think you know this is back to talking
+about AI experts it's really quite good
+at at producing stuff that is in the
+corpus. The corpus is the knowledge that
+we already have.
+Almost by definition when you're coming
+at that with or something discovery
+you're discovering something it doesn't
+exist in the corpus. You might have
+hints of it there but you still have to
+do experiments at some point. So,
+if I'm going to get an answer, you know,
+the question you're trying to raise, if
+I get a tumor from a patient and I take
+apart all the cells and I look at all
+the genes that are expressed in all the
+different cell types, I can build in
+silico a network where I can look at how
+all those cells are wired together now.
+And I can ask, you know, what would be
+the possible consequence of clipping
+this molecule's ability to touch that
+cell.
+>> [snorts]
+>> That that's that's now in doable,
+but it relies on a area of math that is
+not really AI. It's called machine
+learning, and sometimes these things are
+conflated. But machine learning is
+basically looking to say, what are some
+of the relationships that I can discover
+about,
+you know, the relationship between this
+feature of the cell and this other
+feature of the cell. So, it's it's
+learning about it, and then it's it
+allows you to propose a bunch of
+experiments, but you still kind of have
+to choose and select which ones you're
+going to do. Some experiments are just
+really expensive.
+And that's where you have to have, I
+think, still human judgment that comes
+into that and say, am I going to spend a
+year
+studying this question and we're already
+doing Am I going to study a little bit
+more and try to understand some some
+things in a greater detail than maybe
+the machine learning gave me.
+But it's not clear to me that any
+anywhere right now we can say
+the the corpus of knowledge doesn't have
+a bunch of examples of cures from, you
+know, across from treatments and say,
+oh, all I need to do is match those up,
+which is kind of what AI does when it
+comes to large language models. You
+query it, it looks and statistically it
+says, what are the what are the
+relationships between what you queried
+and what I give you back as an answer.
+And in discovery space, we don't have
+examples of the, you know, the other
+end. We have, you know, sure, I can tell
+you all the things that you could do,
+but, you know, knowing which one is
+going to be orthogonal big big hit isn't
+there. But what I'm talking about a
+little bit is is to just is to take a
+problem apart and say,
+if I have something like I want to
+change something
+in anything. This could be how if I want
+to change the world.
+It's unlikely that any one act will do
+it. The also the world is pretty
+durable. The political systems, despite
+what we think, are somehow semi-stable.
+But a series of of of these nudges
+can create the condition where the last
+one takes you across the border. And I
+think that's what we're going to have to
+do in disease, where we say, "Look,
+nature doesn't necessarily want us
+banging on it. It'll bang back." What in
+fact in fact in fact we need to do is if
+we want this tumor to get eaten cured,
+we need to first let it not look like
+it's a wound that's healing. So, don't
+give it the power of the immune system,
+the positive power. And then get to the
+point where we can say, "Well, now we
+want it to teach the immune system to
+kill it." But we may not be able to do
+that until we kind of dissemble some of
+its defenses. And that's that's a way of
+of, you know, again in this in this kind
+of deep computational space, we end up
+with a lot of feature that tissue of the
+of tissue cells and how they're
+organized and what genes they're
+expressing
+that start to look like Magellan's map
+of the of the of the world that, you
+know, in its early phase it only had
+parts. And then, you know, it starts as
+you explore and you add things to it.
+You know, I think when we start to think
+about how tissues are configured, we're
+starting to be able to see these really
+complicated states where the immune
+system is doing this and
+fibroblasts, certain cells are doing
+this and epithelial cells are doing
+this. And that's a that's a we call them
+archetypes. They're
+>> [snorts]
+>> they're like they're like a way that
+biology organizes itself. And to get
+from one to the next, we need to
+understand how it does it
+developmentally. That would be a really
+nice thing to follow.
+And then we need to give those cues in
+order. And that's where I was coming
+back, you know, when you were talking
+about peptides earlier. I was saying,
+"Well, they may some some of these drugs
+may well work, but I might imagine that
+they might work best if given in the
+right sequence and the time and the
+place."
+And that that's when you really want to
+like hammer to get the system go that,
+but then it might be a connected to
+another one. And we all want to find the
+one thing that like,
+you know, the fountain of youth, the
+thing that cures a disease. And and and
+it's been forever that we've been
+looking for a single, you know, single
+hits one and one and done. But it may be
+a collection of And you know, this is
+probably this is how I live my life for
+health, too. So, there's like collection
+of behaviors and what you eat and sleep
+you get and all these things create and
+partners, you know,
+and yeah, you're
+loves of your life, the the friends you
+have, they're all part of I think this
+this
+and that's getting a little away from
+immunology obviously, but it It's an
+analogy.
+>> Could I ask you a couple of additional
+questions about the immune system?
+>> Yeah, please.
+>> Before we wrap because I know um
+many people are curious about autoimmune
+issues. More and more I
+hear about, you know, I don't know if
+it's chronic fatigue considered an
+autoimmune issue by most. A lot of
+people seem to have chronic fatigue.
+There was a debate, does it really
+exist? For someone who believes they
+have it, they it absolutely exists and
+they're tired. I believe them. I know
+someone who had a myalgia uh recently um
+psoriasis is something that I maybe have
+known to be now
+autoimmune,
+asthma. These are interesting
+conditions, not all of them
+life-threatening, but some of them cause
+a lot of discomfort.
+What is known about the formation of
+autoimmune conditions, either
+inheritance, lifestyle factors, and then
+what excites you about some of the newer
+treatments that might be available or
+currently available for those and other
+things. It's a big question, but
+>> Yeah, it's a big question.
+Well, fundamentally, again, this is I
+think where um
+immune system and you know, our bodies
+have I think they have playbooks like a
+football team or something that they can
+run and they can put players in
+particular configurations. Again, we
+call those archetypes. The immune system
+is trying to do a certain kind of thing.
+It's genetically and through history
+it's wired to work with with cells in
+certain ways.
+And I think if you look at auto
+immunities, there's a there's a view of
+them that they represent a misplaced
+immune system that's
+you know, thinks that it's under attack
+or it thinks that it's
+meant to be doing something that it
+really isn't. And so the origins of some
+of those are genetic, for sure. There's
+um, you know, lupus, there's a familial
+mutation in a a receptor that's on a B
+cell that normally helps turn off the
+immune system.
+And it's defective, and so those those
+people are susceptible to getting
+what are called autoantibodies. That's
+where the B cells, we talked a lot about
+T cells, but B cells are the ones that
+make antibodies, and they're the ones
+that you try to prove
+you know, to jazz up for COVID vaccines.
+You know, those can be overactive, and
+they can be genetically overactive, and
+you know, one wonders why we'd ever have
+such genes and why they'd be propagated
+except that maybe in some sort of
+circumstances you need it when there's a
+big pandemic or something, those people
+might have a particularly good response.
+So there's definitely genetic origins of
+some of these things.
+I think what's you know, what's
+interesting that to some extent is is
+something that you alluded to with
+asthma
+where asthma was one of these things
+that historically would be called an
+allergy, and it still is an allergy and
+where you have, you know, inciting
+things that are grass, pollen, you know,
+these sorts of things.
+But in a lot of these settings, the
+concept that that is is coming in part
+and parcel with, you know, the immune
+system
+recognizing self, you know, is is a is a
+thing. And
+to the degree that we don't understand
+some of the diseases as well as we
+should given the tools we have today,
+there's a lot there's actually work to
+be done in a lot of these areas where
+you say, "What is the immune system up
+to?"
+Like like 10 years ago we might have
+just said, "Well, you know, what is if I
+I might have taken a a lung of a
+asthmatic patient who died and like cut
+it and look at it on a microscope and
+say, 'Oh, yeah, I can really see that
+there's thickening of the airways, and
+that's why that's why they couldn't
+breathe.'"
+But like I'm saying, now we can go into
+those and we can look at every single
+cell and ask how those are wired
+together. Is there only one form of
+asthma? That's no, there's actually
+definitely there's seven or eight. And
+they have And that's why some people
+are, you know, like can take the
+inhalers and it works and other people
+can't. Some people they're very like
+chlorine sensitive. They go to a pool
+and it and and it's just like cold
+sensitive. So, there's there's
+variations on what sets up that
+inflammatory focus. And I would call it
+like an archetype. Some of them have
+lots of cells called eosinophils. Other
+ones have lots of cells called
+neutrophils. So, it's Asthma isn't just
+one disease. It's one symptom failure,
+you know, difficulty breathing, but it
+has many different sort of
+configurations.
+And and I guess I'm I would just say
+that in a lot of this domain, I mean, we
+have a study right now that's looking at
+across a bunch of autoimmunities to
+figure out whether they have things in
+common with each other. And psoriasis is
+one where you start to see, you know,
+variations and lupus for sure and
+inflammatory bowel disease and and and
+you know this in the clinic because
+inflammatory bowel disease, you asked
+about drugs, is a good case where
+there's a couple different drugs that
+for some patients work really well.
+TNF therapy, for example, saying that it
+blocks a cytokine. And some people with
+IBD, this is like really bad diarrhea
+and it's and manifests in very very
+painful um
+you know, some people they there's a So,
+there starts to be classes of patients
+that have responses to these things.
+Those drugs are exciting because they
+say you can modulate this.
+But a little bit like the checkpoint
+drugs, we don't really understand why
+one works in one patient and one
+doesn't. And inflammatory bowel disease
+is an autoimmunity is pretty tricky too
+because people will respond to a drug
+for a while and then they'll stop. And
+then the the doctors just have to do
+this like whack-a-mole thing where they
+try one and it doesn't work, they try
+the next and it doesn't work.
+>> Sounds like psychiatry.
+>> It does Yeah, there's a [laughter] lot
+of It sounds like a
+>> No disrespect to the psychiatrists, but
+>> No, but you're trying to They have a
+hard job, right? I mean
+>> Drugs will work for a while, then they
+don't work. Side effects crop up that
+never existed before. It's it's a tough
+one.
+>> Yeah, agreed. Agreed.
+So, yeah, autoimmunity is a real thing.
+It's it has you know, I think it's
+similar to cancer where we're just
+dealing starting to understand the fact
+that it comes in these different immune
+flavors. And so the drugs that you try
+to use is clearly immune system can do a
+lot of good work for us.
+But what you need to do to it in these
+different sort of archetypal immune
+systems is going to be different. You
+know, you see it's just going to be a
+different football team out there
+playing or they're going to running a
+different play.
+>> If somebody has a mild autoimmune
+condition, like let's say mild
+psoriasis,
+>> Mhm.
+>> does that I've read, but that doesn't
+necessarily mean anything. Um
+I've read that that might confer,
+because it's autoimmune, that might
+confer them with a bit better
+viral and bacterial infection
+resistance. So, you know, there's a
+trade-off there. Like, okay, so scalps
+the cells are like sloughing off and
+like I think it's like interleukin 17 or
+something now. Like the treatment, they
+have some good shampoos for that. So,
+but
+>> And and anti-interleukin 17.
+>> And anti-interleukin 17, but but you
+that individual is
+um be better at fighting out other
+infections. So, you know, given there's
+a anti-interleukin 17 treatment that
+works, cool. Like, no flaky itchy scalp
+and and yet you're more resistant to
+infection. So, you could see how it's
+adaptive in the modern context. And now
+severe psoriasis can be very disruptive
+for people. And people might wonder like
+are we really talking about psoriasis,
+but I think it's sort of a individual
+interesting case point for why
+autoimmunity could actually be useful.
+>> Yeah.
+>> Um it's not always the case that it's
+like there to give us asthma or or flaky
+scalp.
+>> You know, what you could talk about
+there's a lot of disease states, you
+know, the argument for why we would ever
+have a sickle cell gene. This is the one
+that causes people to have hemophilia,
+and it's a lot of sub-Saharan African
+gene people from that origin have this
+is that it's actually defensive against
+malaria. It's you know, it seems to be
+the case that so so having that, I think
+that's is true a lot of these situations
+where the diversity of the human
+population over time, by having some of
+these things that make some people
+hypersensitive to you know
+to maybe bacteria viral infection at the
+cost of
+having things like psoriasis pop up or
+you know various various other auto
+immunities
+is the only way that you know like a a
+billion strong population has to to to
+to move forward and I always give this
+example to cuz I think it's a really
+straightforward one.
+If you take a a flask of bacteria
+and and you put them in glucose which is
+like sugar like you put in your coffee.
+Um maybe sucrose either one. You put
+them in a in a in a simple sugar
+uh and you watch the colony grow. You'll
+get these cells that grow really really
+fast. The bacteria you know becomes
+billions trillions of of individual
+cells but there's almost always some
+just losers that are dividing slowly.
+And it's for whatever reason the system
+always brings us off you know like why
+would you do that? Why would the system
+why why wouldn't just the winners win?
+But if you take a little bit of that
+culture and you put it into galactose
+which is a milk sugar
+often the ones that were winners don't
+win anymore and it's from the loser pool
+that the new ones emerge. And this is a
+case of like you know like a
+crowd
+uh fitness that comes from diversity of
+of genes and so some of these things
+that make some of us susceptible disease
+are also as you're pointing out in other
+situations going to be quite good for
+you and and and that seems unfair at the
+time that you have these kind of bad
+genes but like a different day you would
+have been happy or
+So I think there's a lot to be said and
+and that's also why a lot of the things
+that we look at you know anecdotally
+somebody takes a supplement and it works
+for them.
+I mean I don't know how much you know
+about this literature but the the
+differences in your and my vitamin
+requirements is going to be quite
+profound because the metabolic enzymes
+we have for the vitamins that we might
+take in are going to be different
+between us and so these FDA limits these
+these numbers are averages. Some people
+may need five times that amount of you
+know vitamin X other do may need a
+fifth.
+>> No I think this super critical. The
+supplement world is kind of like
+scattershot. While I appreciate the
+rational grounding in all of it, I I
+think uh
+throughout today's conversation, I think
+that
+I picked up on you know, I the fact that
+we covered things like peptides and
+things like that. And I'm not certain
+about the peptide question across the
+board. It's clear some are beneficial,
+it's clear some are still experimental.
+I'm just a big fan of more data. And
+more data collected the right ways and
+communicate the right ways as the same
+way with the vaccines and all the rest.
+You have an amazing Substack. I know
+that because I've spent time there.
+>> Oh, thanks.
+>> Part of the reason we invited you here
+today is to learn about the immune
+system and we barely talked about
+cancer, I realize. We're going to have
+to get you back to talk about that. But
+you've done an amazing job of educating
+us on the immune system. I really want
+to thank you and speak on behalf of
+many, many people for that. Never before
+has somebody presented in in the ways
+that you have. And as somebody who
+thinks in analogy I and likes to teach
+in analogy, I really appreciate that.
+>> Thanks.
+>> The uh that uh that stance. What
+inspired you to get into
+>> Mhm.
+>> public education about science and
+health before coming on this podcast?
+And by the way, everyone should check
+out Max's Substack. We'll put a link to
+it in the in the show notes. It's it's
+so thoughtful,
+so nuanced, so relevant to all the
+issues that we're talking about if not
+directly then in the in the general
+contour and in some cases directly. And
+I I imagine you're going to continue
+doing this. So what inspired you to do
+it and um
+how can we make sure that you continue
+to do it?
+>> Yeah. Well, thank you for the call out.
+Um
+it is a something I've been trying to
+work on for about 10 years and it it
+really started when um
+a group of us, you know, we're we're
+hanging around after a conference
+and we were talking about some of the
+issues with science and society.
+And there were many. You know, there's
+many. There's there's we've surfaced a
+few of them today. But I think something
+that you guys are working on it is is
+the capacity for everyone else to think
+as a scientist. Like what you can ask
+yourself you know, oh, why don't people
+agree with this data that you show and
+take the action that seems logical?
+But then you present it in such a way
+that they can't, you know, that they did
+two things two things are important
+about it. I think one of them is you if
+you present the information in a format
+that isn't, you know, familiar, you're
+not going to be able to teach anything
+anybody anything about what's important.
+But the other thing is that, you know,
+we were talking we we spent some time
+talking about this and we consulted some
+other folks that are in science comms
+and we realized, you know, the other
+thing is that that that if you say
+you're a scientist,
+it's not a neutral statement.
+Science has a history and history is
+stronger than science actually. So the
+history like, you know, so there's
+there's there's hesitancy among African
+Americans, for example, to take drugs
+because of things of history of
+Tuskegee, which is like 80 years ago.
+All right, you know, however long ago,
+60 years ago. Well, it's it's it's it's
+it's not in their lifetime and in many
+of these people. And so part of the
+realization was like maybe part of what
+we really should be doing as scientists
+is one of part of our job should be to
+figure out how we relate to other
+humans. And it's you know, there's a
+painting of this in the obviously the
+media and and things help this happen
+because it makes it interesting to have
+us, you know, kind of a nerdy scientist
+and and we got all the you can be a
+nerdy scientist. I heard you and you
+know, but also you're a human, you're a
+human being. You have you know, every
+everything foibles too, you know, loves
+and hates and and um
+>> Certainly foibles. I have plenty of
+those. [laughter]
+>> We can get in that after the podcast,
+but but you know, the this concept of if
+we want to relate, um you know, if we
+want to have impact of the work you do,
+if you want it to be relevant, at some
+point you have to the science science as
+a field needs to make sure that it
+doesn't ostracize itself from people.
+And I think one of the issues there
+I'll just use the word ostracize. You
+know, is separate is is this concept
+that we speak in our our vocabulary that
+is gets very precise
+and we forget that, you know, if you
+hear a foreign language and you hear one
+word that you don't recognize it, it
+throws you off for a few sentences. And
+next thing you know, you don't know what
+people are talking about. And I I think
+that concept that that, you know, and
+again, this is where I think bringing it
+down a level and saying, let's give it
+analogy, let's give it That strikes
+[clears throat] me as really, really
+important to the impact that you can
+have with with your science. And and
+that and and that science can have in in
+terms of teaching people what we could
+do better,
+which I think we all want to do.
+But if you end up thinking that science
+is a distrusted, weird collection of
+people that have different motivations
+and um designs, then then you've lost.
+The
+that that the potential for it to do
+good is is gone. So, the Substack came
+about it because I was like, well, I
+need to write as a person a little bit
+more and and tell about some of the
+you know, the the
+time that you spend on this and why it
+matters and what it's like to to do this
+work and and and some respects also what
+it's like to to lose in this, which
+happens way more often than the, you
+know, it's it's like a casino, right? In
+science In science you hear the bells
+and some cool device comes out and it's
+But but there's a bunch of people
+pulling the arm, you know, and they're
+they're they're not winning.
+And so,
+>> Well [laughter] put.
+>> So, I feel like that's kind of an
+important part of this that that Again,
+it's not the glory story always.
+Um you know, the best some of the best
+selling books about science are the
+wins.
+But um you know, that might be more
+relatable at some point to get all of
+it. So, that's kind of what what I was
+trying to put together and and at the
+same time, I think the immune system is
+also just so relevant and so important
+and it's got all these different facets
+and these archetypes and these sorts of
+things that it's doing that we kind of
+scratch the surface today. So, anyway,
+thanks for calling it out. I've been
+working on it for a bit.
+>> Well, I hope you continue to and um
+thank you so much for the work you've
+been doing in your laboratory and all
+the people in your laboratory doing that
+work because now you're the one calling
+the shots while other people do
+experiments, but um for your advocacy
+for science and public education is
+huge. We need more people like you, but
+you certainly put your own unique
+signature on it and the Substack
+reflects that. It's an incredibly
+interesting set of reads
+and people will really learn. So that's
+essential especially in this day and
+age, but even not in this day and age
+science is is just really cool and with
+all the meaningless drivel out there,
+it's nice to go to a place like your
+Substack and
+I'm speaking to the audience now.
+You will learn if you read
+Max's Substack. You will be inspired by
+certain things and I promise you and so
+I'm saying this intentionally mark my
+words at some point some somebody's
+going to contact you that they decided
+to study the immune system or they learn
+something or they explored a a novel
+treatment with their physician in a in a
+given unfortunate or maybe even
+fortunate situation that bettered their
+lives. It's it's incredible what um
+Substacks and conversations like the one
+you've been willing to have today and
+going forward can can really do. So
+thank you so much. Definitely come back
+again and tell us about cancer and other
+other things because I I took us off
+course quite a lot, but I I had a great
+time talking about all of this and I'm
+going to be thinking about a lot of it
+and really appreciate you.
+>> Yeah, well same here. Thanks so much.
+>> Thank you for joining me for today's
+discussion with Dr. Max Crummel. To
+learn more about his work and to find a
+link to his superb Substack, please see
+the links in the show note caption. If
+you're learning from and/or enjoying
+this podcast, please subscribe to our
+YouTube channel. That's a terrific zero
+cost way to support us. In addition,
+please follow the podcast by clicking
+the follow button on both Spotify and
+Apple. And on both Spotify and Apple,
+you can leave us up to a five-star
+review. And you can now leave us
+comments at both Spotify and Apple.
+Please also check out the sponsors
+mentioned at the beginning and
+throughout today's episode. That's the
+best way to support this podcast. If you
+have questions for me or comments about
+the podcast or guests or topics that
+you'd like me to consider for the
+Huberman Lab podcast, please put those
+in the comment section on YouTube. I do
+read all the comments. For those of you
+that haven't heard, I have a new book
+coming out. It's my very first book.
+It's entitled Protocols, an Operating
+Manual for the Human Body. This is a
+book that I've been working on for more
+than 5 years and that's based on more
+than 30 years of research and
+experience. And it covers protocols for
+everything from sleep to exercise, to
+stress control, protocols related to
+focus and motivation. And of course, I
+provide the scientific substantiation
+for the protocols that are included. The
+book is now available by pre-sale at
+protocolsbook.com.
+There you can find links to various
+vendors. You can pick the one that you
+like best. Again, the book is called
+Protocols, an Operating Manual for the
+Human Body. And if you're not already
+following me on social media, I am
+Huberman Lab on all social media
+platforms. So that's Instagram, X,
+Threads, Facebook, and LinkedIn. And on
+all those platforms, I discuss science
+and science-related tools, some of which
+overlaps with the content of the
+Huberman Lab podcast, but much of which
+is distinct from the information on the
+Huberman Lab podcast. Again, it's
+Huberman Lab on all social media
+platforms. And if you haven't already
+subscribed to our Neural Network
+Newsletter, the Neural Network
+Newsletter is a zero-cost monthly
+newsletter that includes podcast
+summaries as well as what we call
+protocols in the form of one to
+three-page PDFs that cover everything
+from how to optimize your sleep, how to
+optimize dopamine, deliberate cold
+exposure. We have a foundational fitness
+protocol that covers cardiovascular
+training and resistance training. All of
+that is available completely zero cost.
+You simply go to hubermanlab.com, go to
+the menu tab in the top right corner,
+scroll down to newsletter, and enter
+your email. And I should emphasize that
+we do not share your email with anybody.
+Thank you once again for joining me for
+today's discussion with Dr. Max Crommel.
+And last but certainly not least, thank
+you for [music] your interest in
+science.
+>> Mhm.

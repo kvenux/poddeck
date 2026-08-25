@@ -1,0 +1,27 @@
+id: H35nVgNGyo8
+source: guigu101
+category: ai-tech
+title: "对话前DeepMind曹原：AI for Science爆发，一个新时代到来了"
+guest: "曹原"
+guest_role: "前 Google DeepMind 资深研究科学家 / Unreasonable Labs AI 联合创始人"
+published: 2026-08
+duration: "≈ 109 min"
+url: https://youtube.com/watch?v=H35nVgNGyo8
+thumbnail: https://img.youtube.com/vi/H35nVgNGyo8/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - interview
+  - researcher
+  - technical
+  - strategic
+summary: |
+  曹原从数学、代码与 Agent 工作流成熟的背景出发，拆解 AI for Science 如何通过提出假设、执行实验、验证结果和反馈更新形成科研闭环。对谈继续追问验证瓶颈、概念抽象、神经符号路线、数学与物理的差异，以及当证明供给过剩后人类仍需承担的定义、理解和价值判断。
+core_ideas:
+  - AI4S 与 AI4AI 是研究目标，RSI 是根据反馈递归改进方案、模型与工作流的方法
+  - 科研闭环的最大工程瓶颈是验证，尤其是从可快速复制的信息世界走向物理实验
+  - 人类仍需定义值得研究的问题，并判断自动生成结果的洞见、意义与可信度
+  - 现有模型擅长在已有表征空间中搜索，创造可跨场景泛化的新概念仍被视为关键难点
+  - 神经符号组合让模型负责生成候选，让规则、形式工具与实验负责约束和验证
+  - Science 不只是 AI 的应用，也能倒逼模型提升推理、记忆、实验与可靠性
+base: /episodes/H35nVgNGyo8/

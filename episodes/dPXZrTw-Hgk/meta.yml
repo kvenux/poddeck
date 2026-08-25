@@ -1,0 +1,21 @@
+id: dPXZrTw-Hgk
+source: xiaojun
+title: "Kay Ke: Inside Physical Intelligence's Open-Source Robot Models and the Robotics Landscape"
+guest: "Kay Ke (柯丽一鸣)"
+guest_role: "Physical Intelligence 研究员"
+published: 2026-07
+duration: "约 3 小时 46 分钟"
+url: https://youtube.com/watch?v=dPXZrTw-Hgk
+thumbnail: https://img.youtube.com/vi/dPXZrTw-Hgk/maxresdefault.jpg
+status: generated
+tags: [robotics, ai-research, hardware, interview, researcher, deep-dive, technical]
+summary: |
+  Kay Ke 从传统机器人、机器学习与强化学习的交汇处，拆解 Physical Intelligence 的 π₀、π₀.₅ 与 π*₀.₆ 三条研究主线。对谈进一步讨论真实机数据、评测、本体形态、中国硬件供应链，以及机器人自我组装所打开的长期想象。
+core_ideas:
+  - PI 的模型主线从能力、泛化推进到性能
+  - 传统规划控制与数据驱动方法正在机器人全栈中汇合
+  - 真实机经验、纠错轨迹与部署数据构成强化学习闭环
+  - 通用机器人脑应能从多种本体与场景中共同获益
+  - 评测、硬件稳定性和家庭长尾任务仍是落地门槛
+  - 中国供应链优势与美国前沿模型研究彼此依赖
+base: /episodes/dPXZrTw-Hgk/

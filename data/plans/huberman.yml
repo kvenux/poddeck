@@ -1,50 +1,137 @@
 source: huberman
-refreshed_at: 2026-04-12T00:23:05.099Z
+refreshed_at: 2026-08-24T11:08:16.816Z
 min_duration: 5400
 min_date: "20260101"
-total_candidates: 15
-done: 4
-pending: 0
+total_candidates: 27
+done: 7
+pending: 11
 episodes:
-  - id: bPd9NnOzx78
-    title: Accelerate Learning & Increase Cognitive Capacity | Dr. Tommy Wood
-    duration: 9700
-    upload_date: "20260720"
-    url: https://youtube.com/watch?v=bPd9NnOzx78
+  - id: P-h5WSQG1Sw
+    title: Neuroscience of Emotions & Tools for Improving Emotion Regulation| Dr. Ralph Adolphs
+    duration: 7770
+    upload_date: "20260817"
+    url: https://youtube.com/watch?v=P-h5WSQG1Sw
     status: generated
-    priority: 0
-    category: ai-tech
-  - id: Tmw2dW0a9DY
-    title: Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner
-    duration: 8419
-    upload_date: "20260406"
-    url: https://youtube.com/watch?v=Tmw2dW0a9DY
-    status: generated
-    category: mind-body
     priority: 1
-  - id: 6-mEiwe2NhE
-    title: How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove
-    duration: 7878
-    upload_date: "20260330"
-    url: https://youtube.com/watch?v=6-mEiwe2NhE
+  - id: N5AQFYtqx8Q
+    title: Using AI to Increase Your Intelligence & Enrich Humanity | Dr. Fei-Fei Li
+    duration: 7693
+    upload_date: "20260810"
+    url: https://youtube.com/watch?v=N5AQFYtqx8Q
     status: generated
-    category: mind-body
     priority: 1
-  - id: C0DMdUqF73Q
-    title: The Best Vitality & Health Protocols | Dr. Rhonda Patrick
-    duration: 12667
-    upload_date: "20260323"
-    url: https://youtube.com/watch?v=C0DMdUqF73Q
+  - id: s_tkMm5U9aY
+    title: How Your Immune System Works & How to Improve It | Dr. Max Krummel
+    duration: 8861
+    upload_date: "20260803"
+    url: https://youtube.com/watch?v=s_tkMm5U9aY
     status: generated
-    category: mind-body
     priority: 1
-  - id: hlOA8ObQJXo
-    title: Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson
-    duration: 9825
-    upload_date: "20260316"
-    url: https://youtube.com/watch?v=hlOA8ObQJXo
-    status: failed
     category: mind-body
+  - id: ssP31IenzYA
+    title: Your Top Health Questions Answered
+    duration: 6254
+    upload_date: "20260727"
+    url: https://youtube.com/watch?v=ssP31IenzYA
+    status: generated
+    priority: 1
+  - id: EIhilBpn8Ow
+    title: How to Improve Your Memory & Cognitive Function at Any Age | Dr. Alan Castel
+    duration: 8919
+    upload_date: "20260713"
+    url: https://youtube.com/watch?v=EIhilBpn8Ow
+    status: generated
+    priority: 1
+  - id: n_qKxNcMvtM
+    title: Raising a Dog & Mastering Calm Assertive Energy | Cesar Millan
+    duration: 9504
+    upload_date: "20260706"
+    url: https://youtube.com/watch?v=n_qKxNcMvtM
+    status: generated
+    priority: 1
+  - id: Zz8chJwh3S4
+    title: Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal
+    duration: 10788
+    upload_date: "20260629"
+    url: https://youtube.com/watch?v=Zz8chJwh3S4
+    status: generated
+    priority: 1
+  - id: CV0GtUlJ6NM
+    title: Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick
+    duration: 10215
+    upload_date: "20260622"
+    url: https://youtube.com/watch?v=CV0GtUlJ6NM
+    status: pending
+    priority: 1
+  - id: baecUt1GaPk
+    title: The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf
+    duration: 10511
+    upload_date: "20260615"
+    url: https://youtube.com/watch?v=baecUt1GaPk
+    status: pending
+    priority: 1
+  - id: jjaFnKtytqI
+    title: Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge
+    duration: 7025
+    upload_date: "20260608"
+    url: https://youtube.com/watch?v=jjaFnKtytqI
+    status: pending
+    priority: 1
+  - id: _DfqnpSbMfE
+    title: "Peptides: The Science, Uses & Safety | Dr. Abud Bakri"
+    duration: 10103
+    upload_date: "20260601"
+    url: https://youtube.com/watch?v=_DfqnpSbMfE
+    status: pending
+    priority: 1
+  - id: s95KFJ2efm4
+    title: Build Muscle, Great Posture & Resilience to Injury | Jeff Cavaliere
+    duration: 8209
+    upload_date: "20260525"
+    url: https://youtube.com/watch?v=s95KFJ2efm4
+    status: pending
+    priority: 1
+  - id: Q2hOryHdgAk
+    title: How to Overcome Social Anxiety | Dr. Nick Epley
+    duration: 9024
+    upload_date: "20260518"
+    url: https://youtube.com/watch?v=Q2hOryHdgAk
+    status: pending
+    priority: 1
+  - id: e89rVf4Pf0k
+    title: Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita
+    duration: 8869
+    upload_date: "20260511"
+    url: https://youtube.com/watch?v=e89rVf4Pf0k
+    status: pending
+    priority: 1
+  - id: cWCs7dxrt-A
+    title: Tools to Bolster Your Mental Health & Confidence | Dr. Paul Conti
+    duration: 7802
+    upload_date: "20260504"
+    url: https://youtube.com/watch?v=cWCs7dxrt-A
+    status: pending
+    priority: 1
+  - id: sQcS6f2qYoQ
+    title: Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway
+    duration: 9351
+    upload_date: "20260427"
+    url: https://youtube.com/watch?v=sQcS6f2qYoQ
+    status: pending
+    priority: 1
+  - id: FBgM7jndkLQ
+    title: How to Better Regulate Your Emotions | Dr. Marc Brackett
+    duration: 8858
+    upload_date: "20260420"
+    url: https://youtube.com/watch?v=FBgM7jndkLQ
+    status: pending
+    priority: 1
+  - id: RTPNJgHeZBI
+    title: How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford
+    duration: 9362
+    upload_date: "20260413"
+    url: https://youtube.com/watch?v=RTPNJgHeZBI
+    status: pending
     priority: 1
   - id: u4VTFb4awrQ
     title: Avoiding, Treating & Curing Cancer | Dr. Alex Marson
@@ -52,77 +139,69 @@ episodes:
     upload_date: "20260309"
     url: https://youtube.com/watch?v=u4VTFb4awrQ
     status: downloaded
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: 9G2MRFs4vac
     title: Unlearn Negative Thoughts & Behaviors Patterns | Dr. Alok Kanojia (Healthy Gamer)
     duration: 11323
     upload_date: "20260302"
     url: https://youtube.com/watch?v=9G2MRFs4vac
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: Ew0-Lg_Evj0
     title: Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray
     duration: 7153
     upload_date: "20260223"
     url: https://youtube.com/watch?v=Ew0-Lg_Evj0
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: _Q4XT82yd-Q
     title: The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple
     duration: 9118
     upload_date: "20260216"
     url: https://youtube.com/watch?v=_Q4XT82yd-Q
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: rAbJC-Qaw7Q
     title: How Genes Shape Your Risk Taking & Morals | Dr. Kathryn Paige Harden
     duration: 9722
     upload_date: "20260209"
     url: https://youtube.com/watch?v=rAbJC-Qaw7Q
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: VPi_eWiaqdg
     title: How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague
     duration: 9685
     upload_date: "20260202"
     url: https://youtube.com/watch?v=VPi_eWiaqdg
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: lEULFeUVYf0
     title: Science & Tools of Learning & Memory | Dr. David Eagleman
     duration: 8652
     upload_date: "20260126"
     url: https://youtube.com/watch?v=lEULFeUVYf0
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body
   - id: qzXU390N3vs
     title: Build Muscle & Strength & Forge Your Life Path | Dorian Yates
     duration: 10044
     upload_date: "20260119"
     url: https://youtube.com/watch?v=qzXU390N3vs
     status: failed
-    category: mind-body
     priority: 1
-  - id: t6RCTP4fc9Q
-    title: How to Overcome Addiction to Substances or Behaviors | Dr. Keith Humphreys
-    duration: 12421
-    upload_date: "20260112"
-    url: https://youtube.com/watch?v=t6RCTP4fc9Q
-    status: failed
     category: mind-body
-    priority: 1
   - id: bdsc3Spm6Sw
     title: Best Ways to Build Better Habits & Break Bad Ones | James Clear
     duration: 9319
     upload_date: "20260105"
     url: https://youtube.com/watch?v=bdsc3Spm6Sw
     status: failed
-    category: mind-body
     priority: 1
+    category: mind-body

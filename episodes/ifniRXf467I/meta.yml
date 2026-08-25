@@ -1,0 +1,30 @@
+id: ifniRXf467I
+source: xiaojun
+title: "You Kaichao: vLLM, Open-Source Infra, Model Co-Design & Journey from Community to Startup"
+guest: "You Kaichao"
+guest_role: "Inferact 联合创始人、首席科学家"
+published: 2026-07
+duration: 10743
+url: https://youtube.com/watch?v=ifniRXf467I
+thumbnail: https://img.youtube.com/vi/ifniRXf467I/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - startup
+  - interview
+  - researcher
+  - engineer
+  - deep-dive
+  - technical
+  - strategic
+summary: |
+  游凯超回顾自己从算法研究转向机器学习系统、加入 vLLM 核心维护团队，并把校园开源项目推进为 Inferact 的过程。
+  对谈进一步拆解 PagedAttention、开源治理、模型与基础设施协同设计，以及 coding agent 时代社区和推理 workload 的变化。
+core_ideas:
+  - vLLM 的价值早已超出 PagedAttention，而在于持续承接快速变化的模型、硬件与推理 workload
+  - 开源项目需要基金会保证长期开放，也需要公司提供稳定人力、法律主体与集群资源
+  - 代码生成变便宜后，维护者最稀缺的是项目上下文、优先级判断与对未来需求的预判
+  - 后摩尔时代要求模型架构、推理引擎、芯片和 harness 共同设计
+  - 游凯超判断开放模型最终会胜出，vLLM 的位置是开放模型世界的通用推理层
+base: /episodes/ifniRXf467I/

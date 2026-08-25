@@ -1,0 +1,20 @@
+id: nilNLfW7izg
+source: guigu101
+title: "SK海力士崛起史：一个荒诞又狗血的财阀故事，如何卡住全球AI的脖子"
+guest: "陈茜、李狄皓"
+guest_role: "硅谷101 主播"
+published: 2026-07
+duration: 50 minutes
+url: https://youtube.com/watch?v=nilNLfW7izg
+thumbnail: https://img.youtube.com/vi/nilNLfW7izg/maxresdefault.jpg
+status: generated
+tags: [hardware, chips, monologue, technical, strategic]
+summary: |
+  这期节目追溯 SK 海力士从韩国财阀现金流、海力士债务危机到押中 HBM 的完整路径，并拆解内存墙、TSV 与 MR-MUF 等关键技术。节目也把离婚案引出的政治资本争议与存储周期风险放回同一张产业地图中，解释技术领先为何仍离不开制造、认证、治理与扩产。
+core_ideas:
+  - SK 的能源与通信现金流，为收购海力士和持续逆周期投资提供了资本基础
+  - 海力士拒绝美光收购并被 SK 接手后，通过 HBM3 与 H100 同步完成地位翻转
+  - HBM 通过 3D 堆叠、TSV 与 MR-MUF 缓解 AI 计算的数据搬运瓶颈
+  - SK 海力士的主供优势来自量产良率、散热、封装协同与客户认证的组合
+  - 极端短缺与激进扩产并存，AI 需求仍无法消除存储行业的周期风险
+base: /episodes/nilNLfW7izg/

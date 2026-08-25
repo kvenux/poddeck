@@ -1,0 +1,27 @@
+id: 89ThCi5qq-A
+source: guigu101
+category: ai-tech
+title: "“消失”的万亿债务：深扒数据中心“影子借贷”、GPU金融化与次贷风险"
+guest: "陈茜"
+guest_role: "《硅谷101》主持人 / 深度产业研究"
+published: 2026-08
+duration: "≈ 53 min"
+url: https://youtube.com/watch?v=89ThCi5qq-A
+thumbnail: https://img.youtube.com/vi/89ThCi5qq-A/maxresdefault.jpg
+status: generated
+tags:
+  - hardware
+  - chips
+  - monologue
+  - investor
+  - strategic
+  - technical
+summary: |
+  《硅谷101》从五大 hyperscaler 回购骤降与资本开支飙升切入，拆解 Meta 的 Hyperion SPV、微软融资租赁、谷歌付款担保、亚马逊与 Oracle 长期租约，说明万亿级 AI 基建义务如何被移出传统债务口径。节目继续追踪 GPU 抵押贷款、ABS、SRT 与私募信贷的资金链，并用真实云收入、抵押品残值和银行体系杠杆检验 AI 次贷危机类比的边界。
+core_ideas:
+  - 数据中心建设速度超过经营现金流增长，五大巨头回购骤降并加速依赖外部资本
+  - 表外不等于无债，SPV、租约、付款担保和残值担保把义务分散到不同主体与附注
+  - Hyperion 的 273 亿美元项目债虽不并入 Meta 报表，偿债现金流与残值风险仍由 Meta 支撑
+  - GPU 正从高息抵押物变成可获投资级评级的新型硬资产，但折旧与贷款久期存在错配
+  - 私募信贷、保险与养老金把 AI 基建风险连接起来，系统性判断最终仍要回到真实现金流
+base: /episodes/89ThCi5qq-A/

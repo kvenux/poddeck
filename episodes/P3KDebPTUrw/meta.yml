@@ -1,0 +1,29 @@
+id: P3KDebPTUrw
+source: lennys-podcast
+title: "Why OpenAI is merging Codex and ChatGPT and the future of knowledge work | Andrew Ambrosino"
+guest: "Andrew Ambrosino"
+guest_role: "OpenAI Codex app product and engineering lead"
+published: 2026-06
+duration: 1h10m
+url: https://youtube.com/watch?v=P3KDebPTUrw
+thumbnail: https://img.youtube.com/vi/P3KDebPTUrw/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - coding-agents
+  - product-management
+  - design
+  - interview
+  - product-lead
+  - technical
+  - strategic
+summary: |
+  Andrew Ambrosino 从 Codex app 团队的内部实践出发，解释当实现成本骤降后，产品工作的瓶颈为何转向品味、筛选、媒介选择和跨团队一致性。对谈也给出了 Codex 与 ChatGPT 合流的产品逻辑：一个面向开发者起步的 agent 工作面，正在通过浏览器、连接器、自动任务和专业软件扩展成知识工作的 home base。
+core_ideas:
+  - 实现和原型变得充裕后，产品工作的稀缺资源转向选择、组合、取舍与整体品味
+  - 文档与原型都没有消失，团队需要按当前要消除的不确定性选择表达媒介
+  - 设计、产品、工程的工作范围更重叠，但专业积累、管理和最佳实践不能被 Builder 标签抹掉
+  - AI 产品规划必须同时管理功能形态与模型能力窗口，远期细节会制造虚假精度
+  - Dogfooding 让 Codex 从编码工具扩张为研究、沟通、自动化和跨应用协调的工作入口
+  - Codex 与 ChatGPT 合流的目标不是重做所有专业软件，而是成为能调用它们的知识工作 home base
+base: /episodes/P3KDebPTUrw/

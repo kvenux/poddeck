@@ -1,0 +1,29 @@
+id: MQqV-v5HqaU
+source: mlops-community
+title: "Omnigent: Composition, Control, and Collaboration for AI Agents"
+guest: "Denny Lee"
+guest_role: "PM Director, Startups & Ecosystem at Databricks"
+published: 2026-07
+duration: "58m"
+url: https://youtube.com/watch?v=MQqV-v5HqaU
+thumbnail: https://img.youtube.com/vi/MQqV-v5HqaU/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - product-lead
+  - interview
+  - technical
+  - strategic
+summary: |
+  Denny Lee 以台湾抹茶研究为入口，解释 Agent 辩论、会话分叉与共享执行如何改变个人和团队的工作流。
+  对谈进一步拆解 Omnigent 的 meta-harness 思路：让模型与 harness 可替换，同时统一管理上下文、策略、预算、协作、评估与持久状态。
+core_ideas:
+  - 双 Agent 辩论的价值是暴露未知问题，并为下一步研究生成更好的问题
+  - 会话分叉让多个探索共享同一起点，却不会互相污染主线上下文
+  - Meta-harness 把上下文、记忆、配置与治理从单一模型和 harness 中解耦
+  - Token 成本需要开发者侧即时可见，也需要组织侧的统一治理与价值判断
+  - 自动模型路由应结合任务复杂度、成本、失败升级与可验证的 eval 闭环
+  - 可移植、可恢复的 Agent 最终依赖便宜、可信、持久的数据库状态层
+base: /episodes/MQqV-v5HqaU/

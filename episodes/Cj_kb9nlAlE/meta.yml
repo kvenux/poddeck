@@ -1,0 +1,30 @@
+id: Cj_kb9nlAlE
+source: xiaojun
+category: ai-tech
+title: "150. 对英伟达研究副总裁刘洺堉的4小时访谈：功夫、Cosmos 3、开源世界模型、黄仁勋、你不需要击败所有对手"
+guest: "刘洺堉"
+guest_role: "英伟达研究副总裁、Cosmos Lab 负责人"
+published: 2026-08
+duration: 12973
+url: https://youtube.com/watch?v=Cj_kb9nlAlE
+thumbnail: https://img.youtube.com/vi/Cj_kb9nlAlE/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - robotics
+  - hardware
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+  - strategic
+summary: |
+  张小珺对英伟达研究副总裁、Cosmos Lab 负责人刘洺堉的长访谈。内容从他二十年的生成模型研究路径出发，深入 Cosmos 3 的统一世界基础模型、Physical AI 的泛化难题，以及英伟达如何用开放模型、组织机制和长期投入共同创造新市场。
+core_ideas:
+  - Cosmos 3 将 Predict、Transfer、Reason、Policy 收敛为统一模型，以语言、视频、音频和动作共同描述物理世界
+  - Physical AI 的核心问题是泛化；Cosmos 通过更好数据、更好起点与更好环境提供帮助
+  - 世界基础模型不是替客户完成全部应用，而是让不同机器人、汽车与工厂团队拥有可继续训练的共同底座
+  - 大模型能力会逐渐趋同，长期差异来自产品整合、部署成本、数据、迭代速度与生态
+  - 大型研究组织必须同时实现目标对齐与一线自主决策，并通过透明信息和快速纠错维持速度
+  - 开源 Cosmos 的商业逻辑是帮助 Physical AI 开发者成功，共同创造新的计算市场
+base: /episodes/Cj_kb9nlAlE/

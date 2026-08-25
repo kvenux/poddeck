@@ -1,24 +1,58 @@
 source: dwarkesh
-refreshed_at: 2026-06-02T00:38:29.637Z
+refreshed_at: 2026-08-24T11:08:16.579Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 2
-done: 1
-pending: 1
+total_candidates: 7
+done: 3
+pending: 4
 episodes:
+  - id: -RXD4bTuFTo
+    title: Ryan Greenblatt – What happens once AI can automate AI research?
+    duration: 7952
+    upload_date: "20260811"
+    url: https://youtube.com/watch?v=-RXD4bTuFTo
+    status: generated
+    priority: 1
+  - id: QbdbAhaJoCQ
+    title: General relativity from first principles – Adam Brown
+    duration: 5904
+    upload_date: "20260710"
+    url: https://youtube.com/watch?v=QbdbAhaJoCQ
+    status: generated
+    priority: 1
+  - id: TfyPshgMbug
+    title: Grant Sanderson (@3blue1brown) – AI disproved a famous math conjecture. Now what?
+    duration: 5619
+    upload_date: "20260630"
+    url: https://youtube.com/watch?v=TfyPshgMbug
+    status: generated
+    priority: 1
+  - id: U1FrhkLQnCI
+    title: Machiavelli is the most misunderstood thinker of all time – Ada Palmer
+    duration: 7700
+    upload_date: "20260616"
+    url: https://youtube.com/watch?v=U1FrhkLQnCI
+    status: pending
+    priority: 1
+  - id: OS1NZLgKM2c
+    title: Sarah Paine - Why Putin and Xi can't escape geography
+    duration: 3727
+    upload_date: "20260609"
+    url: https://youtube.com/watch?v=OS1NZLgKM2c
+    status: pending
+    priority: 1
   - id: oIk3R-sMX5o
     title: Chip design from the bottom up – Reiner Pope
-    duration: 4820
+    duration: 4819
     upload_date: "20260522"
     url: https://youtube.com/watch?v=oIk3R-sMX5o
     status: pending
     priority: 0
     category: ai-tech
-  - id: Jj-kBHzUohs
-    title: The better AI gets, the smaller its share of the economy might get — Alex Imas & Phil Trammell
-    duration: 4568
-    upload_date: "20260604"
-    url: https://youtube.com/watch?v=Jj-kBHzUohs
-    status: generated
+  - id: sRKBGVFVYAw
+    title: David Reich – Bronze Age shock, the Neanderthal puzzle, & the sudden spread of farming
+    duration: 8030
+    upload_date: "20260508"
+    url: https://youtube.com/watch?v=sRKBGVFVYAw
+    status: pending
     priority: 1
-    category: update-2026-06-16

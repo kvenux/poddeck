@@ -1,0 +1,28 @@
+id: jhpmMTus5a0
+source: latent-space
+title: "The AI Memory Problem: Why Long Context Isn’t Enough — Dan Biderman, Engram Co-founder & CEO"
+guest: "Dan Biderman"
+guest_role: "Engram Co-founder & CEO"
+published: 2026-07
+duration: "50m"
+url: https://youtube.com/watch?v=jhpmMTus5a0
+thumbnail: https://img.youtube.com/vi/jhpmMTus5a0/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - startup
+  - interview
+  - ceo
+  - founder
+  - technical
+  - strategic
+summary: |
+  长上下文能容纳更多文本，却无法自动带来稳定的整体推理。Dan Biderman 解释 Engram 如何用 cartridge、参数化记忆与 context management 组合，让企业和个人模型从经验中持续学习，同时保留可审计的文本知识与健康遗忘。
+core_ideas:
+  - 长上下文仍会受到 context rot、重复读取成本与整体推理困难的限制
+  - Cartridge 让模型提前学习语料库，并在推理时加载紧凑的参数化知识
+  - 文本笔记和 RAG 与神经记忆是互补层，而不是互相替代
+  - 企业整体性查询展示了检索单条事实与学习跨文档状态的差异
+  - 长期目标是由用户控制、随协作持续更新的个人化模型权重
+  - 记忆 routing、反馈可信度和百万级 adapter 部署仍是开放问题
+base: /episodes/jhpmMTus5a0/

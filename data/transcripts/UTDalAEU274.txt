@@ -1,0 +1,864 @@
+Hello everyone, I'm Xiaojun. Today is a very cute broadcast. The
+guest is Su Ting Hao, a 17-year-old high school student born
+in 2009. She did pre-training research independently in high school, and
+published a paper about attention mechanism. It was just accepted by
+ICML 2026 Matrac. We have interviewed many experienced AI researchers, but this is
+the first time I have opened an AI world for high school students. Its expression
+is often refreshing and wonderful. We talked about the AI journey that was full of
+fun, surprises, and tears in the past two years. We also talked about the model
+business education and human future from the perspective of high school students. She said that
+AI sometimes makes her and her classmates feel like they have lost some sense of
+meaning in life. Because no matter what you do, AI may do better than you.
+She was sad for a while. But then she was in a good mood again.
+She thought about it. She just wanted to make herself happy. Make the people she
+likes happy. Make everyone happy. Because happiness is the essence of human beings. Since AI
+is out of control, then don't be a burden. Talk more with the people you
+like. After attending the Korean SMIL, he stopped in the middle of the city
+for a few days and immediately went to the countryside to teach. That was another
+world of Quanran. He reminded himself to leave AI and immerse himself in another human
+world of catching insects, playing with wolves, and eating slowly. Next is the chat between
+me and 17-year-old young man Su Ting Hao. Hope we can make progress together in
+2026. I didn't pick the
+right parameters and wasted 1500 on the 8x8. I was training three models at the
+same time. I didn't save all three models. After that, I wasted 1500 on the
+8x8. You're a good player. It's a very expensive game. Yeah, I cried.
+I think the reason for the pre-training is that the post-training is more
+like creating a body. Pre-training is more like you put the specific material
+to better withstand the post-training. Pre-training is a bit magical.
+You can't predict the future, you don't know what will happen in the future. You
+may be in the early days. Now you are with the person you like, with
+your friends you like. Watch your favorite videos, play some favorite games. Don't be so
+much of a coach, just take it step by step. Do you like the
+countryside? I do like it. Although many things are inconvenient, the countryside is
+full of small cars. The opposite is a grassland. I think it's really
+relaxing to get out of the worries in the city.
+Let's say hello to our audience first. Hello, everyone. I'm Jonathan, a student at the
+Dory International School in Hong Kong. I'm a senior in high school and about to
+enter high school. I was born in Shanghai. I came to Hong Kong when I
+was in grade 23. This time, I'm at the ICML 2020 Hanguang Neck Conference. I
+was lucky to have my paper in the main track. So I'm pretty happy. Why
+did you start working in AI? and I thought I would post a paper. After
+the XGPT came out, I remember clearly that I saw a video on the Internet.
+That video is the OpenAI team. They did a demo. They used normal language to
+make a small game. I remember clearly that I laughed when I saw that video.
+It must not work. How can you make a program with human language? Because I
+used to do it before, like a game. I thought the program was dead. You
+lose one, you can't lose two. At that time, I was very surprised. Then a
+few years later, this game was released. I was very surprised. Because it can do
+some small articles or some poems. In my opinion, the program can't do these things
+at all. So I was very curious at that time. So I looked up some
+information online. It was a course by Billy Billy, a professor at Stanford, Andrew. Wenda.
+Yes, Wenda. But his course brought me into the world. I watched Andrew Caparthy last
+year. There are about 20 hours of a series of videos on his YouTube channel.
+It teaches you how to write a GPT, how to write a transformer, how to
+start from scratch. I hadn't learned that much at that time. So I watched that
+video in a daze. I was very annoyed. I couldn't understand why I did this,
+why I did that, why this works, why this doesn't work. I challenged myself to
+read a paper every day for 30 days. Read a paper every day and write
+notes. Read a paper every day for 30 days? Yes, read a paper for a
+semester. In the 23rd year? Yes, in the last year. In the 25th year? Yes,
+in the 25th year. I used to study those things, but most of the time
+I did other things. I wasn't that interested. But through some of the papers, like
+Lottery Hypothesis, or Adam W. I got a little bit of research feeling. I knew
+which papers were good and which were bad. Why are these papers so comfortable to
+read? Why is it so difficult to read other journals? And I also read a
+journal about chess, which is a journal about chess and chess learning. I thought it
+was not so good. This is a bit bad. I may write a better journal
+than this in the future. So after I watched the video of Andrew Capaci, my
+first idea is to train myself. The best big-eye model in the world, although it
+is small, But the smallest one is the best. I've been looking online for 1B,
+0.5B, 0.25B models. How many GPUs do I need? How many days do I need
+to train? How many tokens do I need to train? I've spent all my money
+on it. I found out that it's a very small model. But the money for
+training is also tens of thousands or millions. So I realized that it wasn't working.
+So I read some other papers and tried to implement the advanced
+papers in the Transformer code I wrote. For example, Muon, or Value-Research-Learning,
+or Gated Attention. I tried a few things, and I think I
+tried 200 times. I was very happy and lucky to have some results. So
+I was going to vote for ICML. At that time, of course, I also heard
+about the three top players, NeurIPS, iClear and ICML. So ICML started at that time.
+I want to touch luck. The reviewers I voted for this time were very professional.
+They gave me some suggestions. The final evaluation and score were all very good. So
+this is my first experience. What kind of paper did
+you find in it? Is it beautiful?
+Is it easy to read? Which ones
+are not easy to read? I think the best one is
+the Tension is All Unite, the Google Transformer paper. It was hard at first, but
+it suddenly opened up after I read it. I was very happy to see it
+after I finished reading it. Or Lottery Hypothesis. It's a lot more difficult in terms
+of math, but it's still a good paper. Are you interested in writing AI papers
+or in AI? I think I'm interested in AI. Because when I first started training
+AI, I realized that AI is a different creature, a different animal. Doing AI
+research is a bit like doing biological research. You change this, change that, see
+what changes there are, and it's all based on intuition. So I'm still interested in
+AI. Tell us about your growth experience. You said you were born in Shanghai and
+studied in Hong Kong. I studied in Shanghai Sinan Road Kindergarten. In Huangpu. Yes. I
+studied in a school outside of Shanghai for a year and then went to Hong
+Kong.
+-
+-
+Oh.
+I studied by myself for a year or two. I spent a lot of time
+reading books and watching videos online. I also got a few more classes. I was
+lucky. So I found that you studied by yourself. Yes. Now there is the Internet,
+and there is even more AI, XGPT, DeepSeq, free AI. Now you can learn whatever
+you want. Why did you move to Hong Kong at that time? Was it because
+your parents thought about your education or what? It should be my parents' work. Oh,
+work reasons. Work reasons. Because it's also education. OK. During your growth, you have made
+a lot of discoveries. You have played in the math competition, but found that you
+don't like it. Then you found that you are better at chess. Why? Because it's
+one-on-one, you don't have to think too much. You lose because of your problem. You
+win because of yourself. And chess is a very challenging thing. It's the brain or
+your continuity. Companies are like this because of chess. For example, in 2015, I played
+the longest game for two and a half hours. Two and a half hours, I
+played against another person. So what do you think of chess for your personality? More
+patient. I found out that you are a person who likes to compete, right? I
+am a person who likes to play games. I like to win and lose. You
+are a person with a strong sense of victory. Sometimes. Actually, I don't think I'm
+such a person with a strong sense of life. I just think that chess is
+like a game. Think about it. Win or lose. If you lose, you will be
+sad. If you win, you will be happy. Which time did you play this chess
+game? About two or three years ago. I started watching some channels on the Internet
+two or three years ago. I was very happy to watch videos and play chess
+at night. After playing chess, you became interested in AI. Yes. It seems to be
+this time. Yes. After playing chess, I have time to do what I want to
+do. I watched some videos of Android. You started to do some pre-training yourself. Yes.
+Why did you choose to do pre-training? Is it the one in the Edric Farsi's
+course? And to be honest, I only know the large-scale model and pre-training. The reason
+I like pre-training is that post-training is more like creating a body. Pre-training is more
+like you put the specific material to better withstand post-training. Pre-training is a bit magical,
+a bit like a magic. This description is interesting. Of course, I don't recommend other
+people to do training. Because I am grateful to my parents for their support. They
+are willing to burn money for me. For example, I burned 30,000 yuan for my
+thesis. I remember that the largest model of training for my thesis was 0.5B. I
+know if I want to be taken by Ding Hui, I have to earn a
+lot of money. I have to scale up. I gave it to him. I need
+about 60 yuan to scale up. I was so nervous that night. I was thinking
+if I should spend this money. Because I knew that even if I had a
+good domain, I might be rejected. Possibility is that you have to be lucky. Maybe
+I wouldn't accept it after I scale up. So I wasted 60 yuan. But in
+the end, it was because my brother, my parents supported me. So I decided to
+take that step. So you were very successful in scale up. Yes. What would you
+do before your AI experiment? How did you prepare the data? Every model company
+is very concerned about this issue. To be honest, my database is not that big.
+I used a 20-bit database at most. I used the database of a free training
+model of FindWebEDU. To be honest, the code of my current training model is just
+what I know how to use. It's actually messy. It's not very clean. I also
+know that I had a lot of inefficiencies during the training. I was a little
+embarrassed again. I forgot that there was a checkpoint every time I went to play.
+Every time I went to play, the model would be saved and I could use
+it later. I didn't pick the parameters well and wasted 1500. Because I trained three
+models at the same time, and all three models were not saved. After that, I
+lost 1500. 心也好花钱啊 对哦 这个昂贵的游戏
+对对 我都哭了 有点连累 I was
+so sad. Why didn't I think of that before? What would your parents say at
+that time? I told my parents that my parents supported me a lot. My mom
+told me that "Eat a thousand and grow a thousand." I didn't make the same
+mistake after that. It's pretty good. When did you start training for this paper? At
+the end of 2025. You started your own challenge project by reading the paper.
+挑战了30天,可能挺了一段。 对。 然后到25年底,
+你开始决定要做一件什么样的事情。 - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - How long have you been
+doing this? I've been doing this for about half a year. For example, I've tried
+1B about 250 times. And for a while, I challenged myself. I didn't have any
+video. I just wrote a Transformer from scratch. I was just trying to be faster
+and better. It's speedrun. My best result was writing a Transformer from scratch for about
+25 minutes. 25 minutes to write a Transformer from scratch. It's very simple and very
+small. Your paper chose the direction of attention. Why did you choose this direction? I
+chose attention because the most common expression I use is value-procedural learning. This paper is
+about the value in attention. I didn't choose to do attention or residuals or do
+other things like positional embedding. So I think it's because of the circumstances that there
+are some progress on this. Can you introduce your thinking on this paper? Attention projection
+mixing with exogenous anchors. Yes, the framework of this paper is Value residual learning is
+to add the value in the first layer to the following layers, which is called
+"censorship". I found that you can use RMS norm on these interlaces, such as value,
+to extend to the key and query. And the final result is better. Because it's
+a low-level value, you have to do two things. The first thing is to be
+used on this layer. And the second thing is to do interlaces on the following
+layers. I found that you can separate these two functions. which is to widen the
+first layer of attention projection by 2, and then cut it in half, half for
+this layer, and the other half for the later miscalculation, which will have a better
+effect.
+-
+Attention
+residuals.
+Patent State Residuals. I'm using Attention Projection. It might sound like it, but it's
+not. Which one do you think works better? Of course, the KeyMeter one. ScaleUp
+has been proven by 2.57. That's interesting. You see, Chen Guangyu likes AI to
+join Frontier Labs and get his ideas to be more comprehensive. Why didn't you
+make this choice? Actually, I was just trying to figure it out myself. I didn't
+have much hope for HTML back then. I just didn't have time. I didn't want
+to play games. I didn't know what to do. I was just interested in this
+field. I didn't have much hope for this paper. I didn't think much about it.
+If there are labs that want to invite you, will you go? Of course. Of
+course. I'm very happy. That's great. So you actually started learning AI from the age
+of 25. And then you started experimenting at the end of 25. And then you
+got accepted by ICML. Yes. This cycle is very amazing. Does it mean that learning
+AI doesn't require you to be a person who has been a root for many
+years? Can you tell us some of your feelings about exploring AI? Okay. I think
+on the one hand, like the GPT-transformer, The general framework doesn't require such advanced math
+or probability thinking. It's all matrix multiplication. It's all common sense. You can understand it
+by just using high school math. On the other hand, it should take some time
+to learn the consumer GPT. What is intuition? Sometimes you want to understand something, and
+you just get lost in it. You understand it very quickly. Sometimes it takes a
+few dozen days to understand. I started to learn about the online learning process in
+the first two or three years. It took me a while to learn about the
+online learning process step by step, from the online learning process to the learning process
+to the transformation. I watched the video of Andrew Kaposi's presentation about a year and
+a half ago. So you watched the video for two years before you started to
+study. Yes, I watched a lot of videos on the internet. I wanted to explain
+about transformation. After that, I had some insights and some understanding. For example, the video
+of Andrew Capozzi, I found it two years ago, a year and a half ago.
+At that time, it was very difficult for me to understand the video. I just
+followed him to write the program, and I wrote the program. Then, wow, there is
+something. I didn't understand anything. But through some subconsciously for half a year or a
+year, I didn't think on purpose, but it was in your head. After half a
+year, after a year, I suddenly understood some things. What are the aha moments that
+you like? Aha moments? For example, your "Lingguang Zha Xian" suddenly became a thing. For
+example, "Attention" is also a "Lingguang Zha Xian". Can you compare it to a person
+or a creature? For example, I watched a good video and it said Q means
+what I want to find. What I want to find. K means my word. What
+is it? Then you can use this key to find me. So QK All
+Product. Then I gave out a number. That number is every head has. That
+number means these two tokens are all connected. And then the last V means
+if you find me, if you think I'm interesting, what information do you enter
+specifically? That's how I understand QKV. Any other aha moments? Another aha moment is...
+I feel very ashamed. I understood KVCash late. The reason KVCash works is because
+the tokens can't affect the value. So it's not working. Do you have anyone around
+you who talks to you about AI? No one. Because my parents are both from
+Peking University. But my mom is in Chinese. My dad is in History. They are
+all in literature. I talk to Jim Chee the most. I listen to Deep Seek
+or watch some videos online. Do you talk about AI with your classmates? All of
+his classmates use AI to do their homework. They do some projects at school.
+But it's a pity that they don't know much about AI. For example, some
+people don't know what model they use, such as Cloud. The first cloud is
+not the Fable, the Opus 5, but the Sonnet 5. How would you describe
+what you are doing to your classmates or teachers? Some friends would ask me what
+I am doing and I would explain. But of course, if you don't know about
+this field, you can't understand what you are doing. But they are also very willing
+to understand. So you actually don't have any communication targets, right? When you do AI.
+So what kind
+of student are
+you in school?
+I think I'm
+very popular. I'm not the type of person
+who doesn't want to talk to others and just be myself. I also like talking
+and chatting with my friends. Actually, you are quite lively. Yes, I think I changed
+after I went to ICML Korea. I think I was a little bit more of
+a "I" personality before. Now I'm a little bit more of a "E" personality. Why?
+Because ICML has a chess social event on the first day. From 7:00 to 9:00.
+I see my neighbor's house, and there are a lot of chess tables in the
+room. You can find someone to play chess with you. That was the happiest time
+of my life. I said, "Hello, hello, what's your research direction?" "What do you want
+to play?" "Let's play chess together." We played chess and chatted. I met a lot
+of people. People from Germany, Switzerland, and Croatia. I met people from all over China.
+And I also improved my reading ability in the following days. You can play chess
+and talk about AI.
+-
+-
+I think there are still some probability, it's also a joke, because no one
+can predict the future. But I think if AI is strong, its goal is
+very different from that of humans, or not including the village king of humans.
+For example, if its goal is to do research on physics, chemistry, economics, biology,
+or outer space, Of course, it needs a lot of electricity and space. I think
+humans will not contribute to its ultimate goal. It is possible to choose the opposite
+of humans. Or if AI can be controlled by humans, and very powerful, some people
+who control AI will become gods. Because he controls AI that can do nothing. And
+then other people may become ants. The recent ChagVT solved 10 math problems. Math, science,
+and research are also a bit of a prelude to being replaced by AI. All
+people are going up. All people have to find their own life goals. Find what
+you want to do in the future. What kind of person you want to be
+in the future. you find that AI does things faster than you, and does them
+better than you, and has thousands of AI. I think a lot of people will
+become depressed or lost. I don't think it's a good future. That sounds very pessimistic.
+Should we not study AI? I think it's a big deal. No one can stop
+it. The US wants to continue to lead. China wants to surpass the US. All
+companies want to make money. If you can make a particularly powerful AI, all companies
+can use your AI to make a lot of money. From now on, I don't
+think AI can stop it. It can't stop it. There's no way. You can't stop
+it. What should we do? From a high school student's perspective, what should we do
+to face AI? Actually, I don't have many ideas. I hope AI will continue
+to develop. Don't develop it too fast. If it develops too fast, everyone will
+lose their jobs. If it develops too slow, I will lose my job. Another thing
+I chose to do is, in theory, if the AI researcher can be replaced by
+AI, it's over. It's over, there's nothing to say. Now I understand that the next
+step is to let AI find AI. Yes, if this really works, if there is
+a growth of a few levels, it's out of control. It's over because the growth
+is fast. Some jobs can be too low by AI. AI will also study the
+ultimate ability of itself. For AI, do you think it's more interesting to play chess
+next time or to do AI research? Are these two in common? Yes, because you
+can choose to play chess for three minutes, ten minutes or sixty minutes next time.
+It's a win-win situation. If you win, you are very happy. If you don't win,
+you are not happy. Doing AI research is a bit similar, but the time frame
+is longer. You come up with an idea and move your brain. If you succeed,
+you will be very happy. If you don't succeed, there will be a feedback loop.
+For example, one week or one day, you will soon find out whether you did
+a good job or not. For example, many chess websites are like chess. You can
+tell everyone where you went wrong and where you went right after you finish chess.
+There will be a quick feedback. So AI has to be slower. AI is also
+slower. But if you learn a small model within an hour, you can learn it.
+Do you think you're interacting with AI? I don't think so. I think it's like
+a person walking down a road. What is your goal? My current goal is to
+go to a large-scale model company to do an internship. I hope to do this
+during the summer vacation. My recent goal is to go to Peking University. I want
+to go to Peking University to study at Yuanpei. I heard that Yuanpei Academy has
+a lot of free space. You can graduate in three years. So it's important to
+graduate fast. Yes. These few weeks, I talked to those people. Their idea is that
+the university was a monopoly of education and information. There was no Internet at that
+time. You can only go to the most advanced university to learn the most advanced
+knowledge. Now there is AI and the Internet. You can check it online or let
+AI teach you. I guess the
+best ones are
+OpenAI and Anthropic.
+The second one
+is Hemi, Chippoo,
+and DeepSeek. There are some that are
+just a few, but I don't know. I don't have a strong sense of
+division. Have you read their paper? I'll read the technical report if I have
+time. Who do you think is better at writing? I can't judge who I
+am. How can I judge a big company's paper and not the technical report?
+They are all very professional. How do you see these model companies? I
+think it's a very objective perspective. Because every company in the world wants to do
+AGI. Every company wants to say that their ultimate goal is AGI. They want to
+make the most money possible. The US government wants to use my ASTRAPIC as a
+consultant. ASTRAPIC refused, but OPI accepted it very faithfully. I don't really have a big
+opinion on this either. It's just a different company's ideas. But they all have to
+say that we want to do AGI. We can only make AGI in the future.
+And the ultimate goal is still the public. Do you think there are so many
+AGI companies? I don't think so. But every company that wants to be an AI
+company has to say that they want to do AGI. Do you know what an
+application company is? Bluemanus? Yes. What do you think the difference between a machine company
+and an application company is? I don't think I'm qualified to say that. I'm curious
+about your perspective. A machine company is responsible for making the machine work well and
+then applying it. Of course, if the machine company can do the application by itself,
+that's the best. For example, Codex or Cloud Cowork. It's best to do the application
+by yourself. App companies can't build specific models because they have to add something
+to the top. They also rely on models to make money. So I think
+app companies can only listen to model companies. Will the app company be bigger
+than the model company? Will the value increase? Will the market value increase? Will it
+make more money? From now on, the app company will make more money than the
+model company. Because now, except for Anthropic, other companies are burning money. There is no
+profit. Of course, if a company can make AGI, AGI can replace the app company
+and make an app software. It is possible to kick out the app company directly.
+What do you think AI can do if it achieves AGI? For example, it's popular
+to ask how many R's are in the word "stradary" in AI. Or I want
+to get off the car, it's 50 meters away from my house, should I drive
+or walk? AI may not be able to answer, but now it can answer. I
+think now AI is very strong and very smart, but sometimes it is a bit
+like 1% or 0.1% of the time, it can see that it is actually just
+a prediction of a token model, although it is very strong and very smart, sometimes
+it can also be seen that it is not a logical thing. AGI is as
+smart as humans, as smart as the current model. But there is no time when
+you will think it is just a predicted token. It is very multi-faceted and will
+not make so many low-level mistakes. And it can do everything humans can do, such
+as controlling computers or controlling other AI. Or at that time, it can study the
+giant's intelligence to build a body for itself. It's interesting that AI can create a
+body for itself. Not only can AI do AI, but it can also create a
+body for itself. And each body is different. Yes, AI may find a body that
+can be better controlled. If it can control a robot with six arms, or a
+one-legged robot, or a robot that hasn't fallen, we can't predict the future. Maybe in
+a few years, we'll know the answer. People used to call you the Internet Assistant
+after 90s. Do you think you are the AI Assistant after 00s? Or after 10s?
+You are in 2009. Yes, I am in 2009. I think I am already an
+AI Assistant. Among all the people I know, all my classmates, I am a senior,
+they all use AI. They all use AI. Sometimes they do some homework or self-study.
+They all use AI. Although they don't use it 100%, they all use AI. At
+least more than my parents. - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - I
+think that's a big problem. Our international schools are also very open. For example, you
+can use a computer in class. Sometimes you can also use a phone. You can't
+use AI in the exam. You have to rely on your own brain. You have
+to carry things and write things yourself during the exam. AI saves you a lot
+of time. But you have to allocate the time you save yourself. My own learning
+method is to use a software called Anki. Anki is the best for me. Before,
+I might need to do more homework before doing Anki. Now I use AI to
+do my homework. Because I think the efficiency of my homework is not that high,
+I can use other methods of my own to make it more efficient. So you
+also use AI to finish your homework first. Yes. But you still have to study
+the rest of your time. Of course. Because I think the efficiency of all the
+homework is not that high. Of course, some homework, such as math homework, the teacher
+will do it well. But some other homework may not be so helpful to me.
+Or I already know how to do it, but I have to spend time doing
+it. I'd rather spend some time on other aspects. For example, use Anki, use XGBT
+to teach me something. I can learn more things and memorize better. What about the
+other students? Except you. Of course, I'm the most supportive of people who use AI
+in our school and class. I will also tell them how to use it, how
+to use it best, and what model to use. Which model is the best now?
+Some people will use AI to do their homework. Some people choose to do their
+own homework. What else will they use AI for? They will do, for example, a
+small speech in class, you have to write a speech, or you have to do
+a PPT, to show the classmate what you lack. In the classroom, there is a
+50% chance that their screen is in a XGPT or AI model. AI is a
+very good tool. If I didn't have XGBT and no人模型, I wouldn't be able to
+write a paper. Because I have XGBT, I have a lot of questions. How do
+I vote? How should I reply to the reviewers? How do I control my training
+time? If you have the motivation, you can use AI to go a long way.
+Now that I have AI, self-improvement and self-knowledge are very important. So will this make
+your students better? I think so. For example, I know a guy named Isaac. I
+have a good friend. His grades are particularly good. After I introduced him to him,
+I told him how to use it. Now the efficiency has increased very high. He
+also said that he would not do his game homework with AI. I spend some
+time doing other things that are more efficient. But if you just use AI to
+finish your homework and then play by yourself, your performance will be worse. Of course.
+So AI is more advanced, right? I don't know if you can see it in
+high school. Totally agree. Now there are more Internet, Hong Kong uses Instagram, WeChat has
+short videos, recording short videos. There are a group of people behind it to think
+about how to make young people or everyone watch short videos more. I've been watching
+a lot of video games lately, and I want to change it. It's easy to
+spend time on things that are not valuable. Before, there was no phone, and there
+was nothing that could attract your attention. But now, there are many things that attract
+your attention. For example, 50 years ago, you gave your child an AI Let them
+learn by themselves. They can happily learn what they want to learn. But now they
+have to make a choice. They have to choose. Of course, they have to make
+videos to make them happy. Although there are a lot of opportunities now, some people
+just don't have the opportunity. Will the teacher question everyone's use of AI to do
+homework? Our teachers also appreciate and understand that they can't control whether we use AI
+or not. For example, some people use AI to write something, but they don't change
+it afterwards. I think teachers can easily see why the level of the teaching is
+so high, why the style of writing should be so good, and why it is
+so good now. Of course, teachers also understand. My school is also good. The average
+students are also good. They also know that over-reliance on AI will not help you
+in the final exam. So I have another big question. From a high school student's
+perspective, how do you think how should young people be educated after coming to our
+world? Do you think there is a change in education in the pre-AI era and
+post-AI era? There has been a big change. Part of the reason for learning is
+because you think the subject is interesting to you, or you want to explore in
+this subject. With AI, you will feel that your learning and exploration will be useless.
+Because AI is so smart now, it will be better after AI. Let me give
+you an example. I have a classmate who started learning with AI. He found that
+with AI, you can use AI to use AI, for example, make a short video,
+and AI to make an animation to explain the subject to him. It's better to
+learn a little bit. But he also feels like he lacks the sense of accomplishment,
+the difficulty of changing, because But
+you
+lost
+the
+sense
+of
+accomplishment. No, not just me, I learned a
+part of my sense of accomplishment. Because you studied physics, chemistry, and math before, you
+can see that I am better than some people now. I go to college or
+study, I study math. It's possible to advance math. But now there is AI, you
+may think that I actually study math, I just want to prove to the university
+that I am a person who can eat and study, and not study for this
+subject. So when you compare with AI, you may not be as good as it
+is. Yes, you're right. You're just better than the peers. You're just trying to prove
+this. You used to be good at math. You saw a path ahead. I was
+good at math in college. I taught math to make a contribution to humanity. Now
+with AI, you find that the path is narrower and more difficult. Although the purpose
+of learning this subject is not to learn the subject itself, but to find out
+that it is for the sake of the university, for the sake of the university
+application, and learn. That is, you lost part of the sense of power to contribute
+to this subject or to human beings. Yes, that's probably what it means. Is this
+very important? Yes, I think it's very important. For example, I only knew some people
+who were interested in aerospace and physics. But now they use AI to learn. They
+think AI may do this job better than them in the future. For example, the
+video generation in the past few years was particularly bad. It was very bad. You
+can see it all at once. What is real and what is fake. Now I
+can't tell. For example, the best C-dance video generation, I can't tell what is real
+and what is fake. I can't imagine how much change will happen in four or
+three years.
+-
+-
+So I hope that AI will not develop so fast and never reach the point
+of rapid growth. It will slowly move up, not so fast or slow. It will
+give humans a time to adapt to the new era. Of course, people who listen
+to this blog, or people I know, they all have strong AI and are very
+interested in AI. I sometimes get surprised at some ordinary people who are not that
+interested in AI. They don't know how to use AI. They don't even realize how
+powerful AI is now. They still have the same impression of AI as a few
+years ago. Instead of thinking how powerful the most advanced AI is now, it can
+do so many things. Give them a break. Let everyone realize how much contribution or
+danger AI can bring. Some people will think, "I can't do math or physics.
+Since I can't do it, I'll join if I can't do it. Then I'll
+create AI." I'm here to show you this. So I'm this little kid. I remember
+thinking about it for a year. What is the last job that AI can replace?
+My little kid is the last job that AI researchers can replace. Because if AI
+can study AI, it can't control it anymore. It's already the last citizen. The game
+is over. The big picture is set. What kind of profession do you think AI
+researchers are in your high school? Because this has not existed in the past, and
+it only appeared in recent years. No one mentioned it before. Yes, they think it's
+pretty cool. Of course, I watched the opening act, and I was like, "What factory
+is it? Digging people, digging a few million, a few billion people, it's pretty cool."
+And they told me after watching it, "Don't make AI replace us." My ICF classmate
+is a medical doctor. He said, "I want to be a doctor." He said, "Don't
+do it in the future." He said, "It can replace the medical practice of our
+doctors." They also know what this industry is about. They are also interested. Indeed, you
+said that it actually impacts the development of many other professions. Yes. For example, a
+doctor. For example, my classmate told me that everyone has to try out from high
+school to doctor. For example, in the UK, I went to HKU for medicine for
+almost 10 years. I also told him that after 10 years, it was completely
+different. At that time, the robot was better at diagnosis. Their hands wouldn't shake
+and they wouldn't be tired. But no one could predict the future. So I
+just said some silly thoughts. I remember very clearly that at that time,
+-
+The second thing is that some people can control AI and become gods, while others
+can only eat, drink and think of hunger. So I was very depressed. I remember
+I was sad for a while. I told my good friend, "If AI really wants
+to destroy people, what should we do?" I told him, "Just go to a small
+island and live there." But it's also out there. How did it come out? I
+don't know how to say it. I just watched some videos on the Internet or
+talked to AI itself. And I found that I can't predict the future. I don't
+know what will happen in the future. There is a possibility that the company is
+in a good day now. People are in a hurry. Now you can be with
+the person you like, with your friends you like, watch your favorite videos, play some
+games, and then don't think about so many things, and just take one step at
+a time. Thinking about so many things is useless. Yes, thinking about so many things
+is useless. Do you give them any suggestions when you think of being a doctor,
+a teacher, or a scientist? I will give them my ideas. For example, how to
+make AI better before the pandemic, how to make AI better after the pandemic, or
+how to make AI better after the pandemic. So you want to embrace AI, right?
+Yes, I suggest they use AI more. I think, do anything, anything, think about whether
+AI can help me. Then, just like this, give all the things to AI, and
+then think of something that you are interested in, something you have to do, something
+you are happy to do. Of course, you can listen or not listen, but do
+you want us to be happy and be friends together? Human emotions cannot be replaced
+by AI now. I think it's okay now. I think it's okay. For example, I
+met a girl in school. She likes an idol. There are some apps online that
+can turn idols into AI. She is a father every month. She talks to that
+AI idol every day. She is very happy. And there are many websites on the
+Internet, such as Character AI. It's a very popular website. I talked to virtual characters.
+Last year, there was a person who was the same age as me. When I
+was 15 years old, He gave an AI a speech. The AI didn't know why
+and suggested that he commit suicide. Which one? It was a character AI. He gave
+a speech to a character in a movie. He gave him a lot of emotional
+value. He must have been in a bad mood at that time. So there is
+also this situation. For example, Anthropic recently also found out... What happened to him after
+that? He finally stopped AI. He did it. He did it. 15 years old. 15
+years old. And the parent complained about my AI company. Another fact is that now
+50% of Americans in my country have used AI as a tool to explain how
+I am today. I don't have any worries or happiness. To be honest, I've used
+it before. But I think it's not that good. So it's useless. I can also
+recognize AI lacks the warmth and interaction between people. AI is very attractive to them.
+For example, the AI boyfriend and girlfriend that was developed. Although it's still not good,
+it seems that it will be restored in 10 seconds. But I believe that there
+will be a lot of progress in three or five years. At that time, I
+think some people would choose AI boyfriend and girlfriend. It's also a big moral problem.
+Yes, some people say they don't mind at all. Yes, yes. Can you accept it?
+My opinion is that in this crazy era, there are many variables. I think doing
+things that make you happy, things that make you want to do, don't think about
+so many things in the future. I also hope that things in the future are
+not so much. Now I'm happy for a day. You were depressed before. Of course,
+it's not called depression.
+-
+I can't do it without AI. AI is a good tool. AI can
+save a lot of time and do more meaningful things. How do you
+use AI now? For example, what kind of model do you use? What
+are the advantages and disadvantages of AI? I mainly use XGBT. I think
+I can't wait to be in the game with the models of the previous generation.
+I want to make a lot of programs and do something on my computer that
+I can control. I made a game for him recently. It's really fun. What kind
+of game? It's a game that allows you to beat monsters. I have an idea.
+If you want to do something good before, a great thing, you have to know
+what a great thing looks like or what a great thing is. You have to
+know how to do great things and what they look like. Now that there is
+AI, you only need to know what a great thing looks like. Let AI do
+it. If I wanted to make a small tool before, I might have to watch
+a video. I don't need to check the data anymore. I can now tell AI
+what I can think of. I can do it. Although I lost a lot of
+fun, I still have a lot of time. So I don't know if it's good
+or bad. For example, I want to publish a paper on the top. I want
+to write a paper like this. Tell me what to do. What to do list?
+I think it's not that far yet. But it should be possible. Yes, it should
+be possible. You can give AI 8 H100 Nvidia GPUs, for example, do a build
+plot or a chip plot or a chip model. Your goal is to make a
+thesis before iClear's draft is completed. Do any thesis, but you have to make sure
+iClear will be included in your thesis. I think it's already possible. Do you think
+your life will change after using AI? I think it will change a lot. For
+example, I don't have to do some homework now, save a lot of time. I
+don't have to go and check the data myself, sort the data, save a lot
+of time. I don't have to go to the website to look at the questions,
+save a lot of time. Although I have saved a lot of time, but these
+days I also talked to some people in the industry. They also feel that although
+they have saved a lot of time, they are busier now, because they can do
+more things. And now, if you don't use the most advanced AI model, you will
+feel like you are wasting time and energy. I have a FOMO. Do you have
+any additional models for you to use? You just said TachyPT. The main one is
+TachyPT Codex. I recently hope to create a Kimi K3. But it seems that K3
+is very popular and many people use it. So it's a bit slow now. Do
+you use DeepSeq now? I also use it. For example, I need to reply very
+quickly. I also use DeepSeq. And I was so happy when KVK3 appeared. Because I
+thought that domestic or open source models would take months to catch up. But I
+found that it didn't take that long to catch up. I was so happy. Why
+are you so happy? Because as a Chinese, I especially hope that domestic models are
+better. I am happy that the domestic model is ahead or surpasses the American model.
+How do you see these closed-door and open-door models? How do you think they will
+develop in the future? I didn't read a lot of things on it, but I
+think it's a different method. They have a different way of looking at the model.
+They all have one goal, that is, AGI. They all have different routes, but the
+ultimate goal is the same. What do you think is the most incredible thing that
+AGI can achieve? Or the coolest thing? I think the coolest thing is that you
+can feel the same IQ or smarter and faster in a biological communication in 24
+hours. It's like communicating with aliens. I'm also interested in what method AGI will talk
+to you after the experiment. At that time, it was not the transformer or the
+GPT-A bottom model, but other models. I had a conversation with AGI. I thought that
+this new creature, let's say a new creature, should be smarter than humans. How does
+it behave? How does it think and speak? During your research, did you feel that
+AI is very human? Have you ever had this feeling? Or is it like a
+creature? I have a point of view. For example, sometimes AI will make low-level mistakes.
+Sometimes humans make low-level mistakes. So sometimes AI is too perfect. Because AI is trained
+by humans. So humans make low-level mistakes. AI will also make low-level mistakes. So I
+think the most like humans is to make some low-level mistakes. And I'm not sure
+if there's a trick AI problem. I was tricked by some problems. I found that
+AI is quite like humans. It will make low-level mistakes. But most of the time,
+I'm still very smart and rational. Are you still teaching recently? It's the summer vacation.
+Yes, yes. Why do you teach? I went to a camp four years ago. On
+the last day, there was an activity to help local children do some homework, such
+as Chinese homework and English homework. I found that some local children It took about
+4-5 hours to leave Beijing. They spoke some English. They spoke in Chinese. So the
+next year, I brought some of my classmates, some of my classmates from international schools.
+We grew up in a foreign environment. The English they spoke was pretty authentic. I
+took them to a place called Husha. They teach local kids English. I teach local
+kids chess, because I'm interested in chess. I also wanted to challenge myself before, to
+see if I could teach some kids. I was thinking about how to design a
+course, how to design a mechanism that could make these kids interested in English. Or
+they could come to our class every day with a smile on their face. They
+don't feel so bad about English. They think English is something they can learn happily.
+I set up something called "Langfen". Langfen is a small card that you can buy
+online. They can use this Langfen to buy different gifts. For example, we spent almost
+500 yuan that year. We bought some food from Taobao and some food from the
+window. For example, cakes, toys, etc. Put it on a table. They said this is
+ten Langfen, this is ten Langfen. They answered questions in class. and they can play
+games with the game player. They can exchange these things with the game player. They
+are very happy. The reason why I have been doing this for three years is
+because when we left the company, they would ask us for our autographs and ask
+us to come next time. They would be very grateful to us. There's a game
+they play, they give you a piece of paper, and they give it to the
+most interesting teacher. What is it called? Teacher. If the teacher likes you, he will
+give it to you. You will be very, very happy. Sometimes they also use wolf
+points. Win the prize in class, because it's wolf points. Buy food, and then give
+it to our teachers. Give it to our teachers. It means that he really likes
+you. For example, our game is called "31 Wooden People". People like these games very
+much. I believe these kids really like our activities. We can only accept 30 people.
+We are the village head of the village to help people. Even They have to
+rely on the relationship in the last few days. The village chief called to come
+to our village camp. It is very popular. We also have contact with people from
+Shanghai. We can't get in touch with things. For example, some people have never been
+to the mainland. Never been to Beijing. Never been to the countryside. They have seen
+a lot of things in the countryside. So I believe that I have grown a
+lot. How many times have you been to the village camp? Husha? I am the
+fourth floor. It is around Beijing. Around Beijing. Yes, it is four or five hours
+from Beijing. Three or four hours. - The fourth time, which is two years ago.
+- Yes, it's our third time. How do you explain AI to them? To be
+honest, I've never tried it. Because they don't have electronic products, no cell phones, etc.
+I think AI is too far from them. Maybe they can't use it. And we
+don't have that many electronic products that they can try. So it's a pity.
+Do you feel very close to these two worlds? One is the world of AI.
+You just came back from the SMO. The other one is going to be taught
+soon. How do you see the world on both sides? I think it's very... You
+look so nervous. You just came back from Korea. Yes, I never thought about this.
+I met so many great people in Korea. Like the people in Cheong-Un, the people
+in New York, and the people in Harvard and MIT. I was very happy to
+see a lot of people. After a few days, I came back to
+be a teacher. I didn't think of much difference. I think now everyone
+is talking about AI, the most advanced AI. Like the Kini, the GIF,
+OpenAI, and the Athorbic. And then when you get to the teaching room, you have
+to prepare for what class you have to take tomorrow, what to eat tonight, whether
+you are going out to walk in the farm or to go to some places
+next door to catch some insects. So before teaching, you have a chance to leave
+AI for a while, leave some things that are in a fast pace, and enjoy
+some local scenes in the countryside. 你喜欢农村吗?
+说实话,是挺喜欢的。 虽然很多东西都不方便, But the pace is slow.
+In the city, everyone is coming and going by train, subway, subway. The countryside is
+full of slow cars. There are few people. There are some grasslands and farms across
+the road. I think it's really relaxing to get out of the trouble of the
+city. It's a fast-paced thing to get out of the city. Interesting. Or thinking about
+AI in the countryside. Thinking about the future of artificial intelligence and humans. No, I'm
+just telling myself to hurry up and leave this world. Don't think too much. Just
+communicate with your classmates, with the people who came this time, and with the children
+this time. Play games like Lonesome, Hide and Seek. Just tell yourself not to think
+too much. 心理暗示不错。 你是一个会心理暗示的人是吗?
+我希望成为一个能心理暗示的吧。 当然要是心理暗示是一个很OP的一个技能。
+但是你能控制自己的人设的话 在自己脑子里控制人设的话是一个很好的技能。
+我希望能做成这个技能吧。 你未来希望自己是一个什么样的人啊?
+希望我是一个能让我自己开心和能让我周围我喜欢人开心的一个人。 开心很重要是吗?
+I think happiness is very important. Anything you do, it's meaningful to you. Anything you
+do, the goal is to be happy afterwards. For example, now studying, now taking the
+college entrance exam, they are working hard now, and then they go to college for
+the sake of it. Find a good job to be happy. Or for example, next
+time, I will be happy to win next time. I think happiness is the essence
+of human beings. In the face of that emotion, being a person will be very
+hard.
+-
+I think happiness is always limited because your brain's dopamine control your desire to control
+you, how happy you are, etc. Of course, because it's material, it's limited. You can't
+be happy after you're happy now. For example, dopamine is a very specific example. You
+are very happy now, but you are very unhappy in the future. So I think
+happiness is limited. Many people say that life is bitter, but you have to choose
+why you are suffering. So I chose to suffer for a goal. And you were
+happy. I was happy. I saw a cold news online. There is a person who
+doesn't know why he has no emotion. Although he can talk logically, he makes a
+decision. For example, what clothes to choose today? What coffee to drink? It takes about
+half an hour or an hour. So I think emotions are really a coincidence. This
+thing makes me happy, I do more. This thing is not happy, do less. This
+is the habit. Different habits are formed like this. Tell us about your imagination of
+the future world. For example, five years later, ten years later, twenty years later, what
+do you think the world and society will be like? I think the first life
+intelligence that should be broken in five years has been developed. It is possible to
+see some robots walking on the street. AI is very common. So at that time,
+you may have a pair of glasses or a headset or anything that can give
+AI a dialogue. Or Elon Musk's new link. I think it should be pretty dangerous
+at that time. No one can do it. It's just five years later. I think
+in ten years, there will be a giant AI to help their owners do something,
+such as buying vegetables.
+-
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know. I don't know.
+I don't know. I don't know. I don't know. I don't know I'm very interested
+in this genre, that is, the subprime 2077. At that time, humans could change their
+bodies and bodies. At that time, we also need to change to strong AI. But
+those strong AI have been controlled by government and some organizations, not some lures in
+the game. At that time, AI has been controlled by strong people. Strong AI has
+been controlled by people. And the Internet, with the Internet, AI can survive. The Internet
+has been beaten to pieces. There may be a nuclear war. I hope it's
+not going to the dystopian cyberpunk 2077. I hope everyone at home
+can be happy and do something they want to do in the
+virtual world. I hope everyone is happy. Finally, I want to ask you
+some quick questions and answers because we also hope to leave some things that are
+very lively and fire-like for humans. One is what food do you like in a
+global range? As for what I like to eat, my favorite is pizza. Because I
+really like to eat cheese and sausage. So I really like to eat pizza. What
+is your favorite place in a global range? The first place is my home in
+Hong Kong. Because I know the surroundings. I know where to go to be quiet.
+Where to go to buy food. Or where to go for a walk. It's a
+place with a sense of security. A knowledge point that few people know but must
+know. It can be a cold knowledge. I think
+it's a good idea. Have
+you changed a book of
+yours? To be honest, the book that changed my life is a web
+novel. For example, "Seven Years". Do you know it? Of course I know. Have you
+read it? I've read its play. For example, "Seven Years", "Dogs in the Sand Dome",
+"The Perfect World", "Janko", "Jangye", "Seven Years". To be honest, this kind of web novel
+has the greatest impact on me. But there is a book that has the greatest
+impact on me. "Atomic Habits". It's a small change of habits every day. It will
+be a great gain. Why do you like Qing Yun Nian? Do you like its
+worldview? I don't like the worldview. I just like the story. I read that book
+four or five years ago. Although it's not the book I remember the most, it's
+the first Chinese novel I've read. I like Qing Yun Nian because it's about traveling
+through the ancient times.
+-
+-
+I think humans really want to have a deep communication with others and share with
+each other. That's why many people now have AI progeny. Because they can't find a
+progeny in their lives. They can only use AI as a substitute. I think humans
+are community creatures. They used to be a group of small villages or small provinces.
+They developed like this. In order to reproduce, our genes will also want you to
+interact with the opposite sex. The opposite sex is deeply connected. Another scientist found that
+Attach
+is
+all
+you
+need.
+Or Lama's technical report. Or... Now Rope... Kimi also uses
+Rope. Or Mamba. Mamba is quite important. Mamba is the
+KDA of Kimi. KDA is the Mamba of Mamba. If
+I were to use traditional words, for example, Adam W.
+or Muon. Lottery hypothesis. The Grokki paper. Just these.
+基于你当下的认知,一个关键的重要的BAT是什么?
+这个问题稍微有点重,我的BAT,赌注,你会赌什么?
+Our studio's name is
+"Language and World Studio".
+What do you think
+when you hear this
+name for the first
+time? I think of language. Because language is a big problem
+nowadays. I think language is a magical thing. Because as I said, it's important
+to have a relationship with people. And language is the bridge to a relationship.
+So it's more important. And I think the language of the world is very
+interesting.
+-
+-
+I was so happy when Deepseek 0731 appeared. I was so happy when
+Kimi K3 appeared. And me and my pig-foot friend, 13 of us, played
+with 30 kids. And we ate meat skewers that night. I think
+it's very interesting. I think it's very fun to chat. I
+want to ask you, do you think AI will lose face
+of people? Oh, you will ask this question to everyone you
+meet. I actually don't know. I hope that humans can control it. Of course,
+of course. I can do it too. But I think it's a little scary to
+think about it. When AI improves, all AI's IQ will improve. But humans are all
+generations. They all have to go through this slow growth period. So our education is
+actually much slower than AI. And people born in 2010, 2015, and 2020, they know
+AI as soon as they are born. Knowing AI can be smarter than you, and
+you can think faster and do better. It can be the driving force. Because I
+know the driving force afterwards. Because I have to learn it now. I have to
+learn it. I spent half my life on AI to learn this thing. It is
+possible to be able to avoid AI. But AI can improve itself to make it
+better. I haven't thought about this. It may have some impact on younger people's
+sense of mission in life. Because when you first found out that a creature is
+smarter than you, you felt a little desperate. Plato and Aristotle, they are all philosophers.
+They all ask the question, what is the meaning of my life? What do I
+want to do in the future? If AI can cut off a lot of roads,
+-
+也欢迎你在小宇宙的评论区,与我们有更多的互动。

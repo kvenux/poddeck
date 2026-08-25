@@ -1,35 +1,53 @@
 source: mlops-community
-refreshed_at: 2026-06-02T00:38:30.196Z
+refreshed_at: 2026-08-24T11:08:17.280Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 34
-done: 5
-pending: 27
+total_candidates: 26
+done: 3
+pending: 22
 episodes:
-  - id: 31IS2mnRV6Q
-    title: Sandboxing, Agent Harnesses, and Agent Teamwork
-    duration: 4800
-    upload_date: "20260720"
-    url: https://youtube.com/watch?v=31IS2mnRV6Q
+  - id: -DrnzIBASbg
+    title: Reading Group July 2026 - Loop Engineering
+    duration: 3369
+    upload_date: "20260817"
+    url: https://youtube.com/watch?v=-DrnzIBASbg
     status: generated
-    priority: 0
-    category: ai-tech
-  - id: kDAlW3vRQzI
-    title: "Architecting Modern AI Systems: Platforms, Agents, and Integration"
-    duration: 3419
-    upload_date: "20260528"
-    url: https://youtube.com/watch?v=kDAlW3vRQzI
+    priority: 1
+  - id: LuE1YptpfXs
+    title: Coding Agents Are Secretly General Agents
+    duration: 4322
+    upload_date: "20260723"
+    url: https://youtube.com/watch?v=LuE1YptpfXs
     status: generated
-    priority: 0
-    category: ai-tech
-  - id: hWYhSF6kYEs
-    title: Architecting Modern AI Systems
-    duration: 3417
-    upload_date: "20260528"
-    url: https://youtube.com/watch?v=hWYhSF6kYEs
+    priority: 1
+  - id: MQqV-v5HqaU
+    title: "Omnigent: Composition, Control, and Collaboration for AI Agents"
+    duration: 3496
+    upload_date: "20260715"
+    url: https://youtube.com/watch?v=MQqV-v5HqaU
+    status: generated
+    priority: 1
+  - id: RSs0PDsULJM
+    title: "Logs Are All You Need: Rethinking Observability with AI Agents"
+    duration: 2800
+    upload_date: "20260622"
+    url: https://youtube.com/watch?v=RSs0PDsULJM
     status: pending
-    priority: 0
-    category: ai-tech
+    priority: 1
+  - id: _p_xjaf7XFw
+    title: "Autonomous Agents at Work: From OpenClaw Hype to Enterprise Reality"
+    duration: 2539
+    upload_date: "20260619"
+    url: https://youtube.com/watch?v=_p_xjaf7XFw
+    status: pending
+    priority: 1
+  - id: no_gxL40NC8
+    title: Voice Agent Use Cases
+    duration: 3065
+    upload_date: "20260619"
+    url: https://youtube.com/watch?v=no_gxL40NC8
+    status: pending
+    priority: 1
   - id: dH-1INvvELo
     title: The Latency Goldilocks Zone Explained
     duration: 2893
@@ -46,14 +64,6 @@ episodes:
     status: pending
     priority: 0
     category: ai-tech
-  - id: YInxWv_4N7w
-    title: OpenXData Conference
-    duration: 22290
-    upload_date: "20260429"
-    url: https://youtube.com/watch?v=YInxWv_4N7w
-    status: failed
-    priority: 1
-    category: ai-tech-rest
   - id: wTrv1hMQbVg
     title: How We Cut LLM Latency 70% With TensorRT in Production
     duration: 3920
@@ -70,20 +80,6 @@ episodes:
     status: failed
     priority: 1
     category: ai-tech-rest
-  - id: 7UVZnJ9iHdU
-    title: MCP Dev Summit [Day 2] ft AWS, Docker, & Datadog
-    duration: 32295
-    upload_date: "20260403"
-    url: https://youtube.com/watch?v=7UVZnJ9iHdU
-    status: pending
-    priority: 1
-  - id: jfd1UBEYJs0
-    title: MCP Dev Summit [Day 1] ft. Anthropic, Hugging Face, Open AI & Microsoft
-    duration: 26086
-    upload_date: "20260402"
-    url: https://youtube.com/watch?v=jfd1UBEYJs0
-    status: pending
-    priority: 1
   - id: OYK1-vCbSMU
     title: How to Make a Coding Agent a General Purpose Agent - Harrison Chase
     duration: 2214
@@ -196,62 +192,3 @@ episodes:
     url: https://youtube.com/watch?v=xY1FcjIbErQ
     status: pending
     priority: 1
-  - id: Tq613N0dyI0
-    title: Graph Neural Networks Just Solved Enterprise AI?
-    duration: 2941
-    upload_date: "20260116"
-    url: https://youtube.com/watch?v=Tq613N0dyI0
-    status: pending
-    priority: 1
-  - id: Zs8onmsPJgw
-    title: Real-Time Voice Agents in Production
-    duration: 2536
-    upload_date: "20260112"
-    url: https://youtube.com/watch?v=Zs8onmsPJgw
-    status: pending
-    priority: 1
-  - id: rMhvSkXbv4A
-    title: Tool definitions are the new Prompt Engineering
-    duration: 3431
-    upload_date: "20260109"
-    url: https://youtube.com/watch?v=rMhvSkXbv4A
-    status: pending
-    priority: 1
-  - id: jTmV_jlob5I
-    title: "Enterprise AI Operations: The Missing Piece"
-    duration: 2488
-    upload_date: "20260108"
-    url: https://youtube.com/watch?v=jTmV_jlob5I
-    status: pending
-    priority: 1
-  - id: Wgfi3qWnPgE
-    title: AI REWIND 2025 - MLOps Reading Group Year-end Special
-    duration: 7568
-    upload_date: "20260105"
-    url: https://youtube.com/watch?v=Wgfi3qWnPgE
-    status: pending
-    priority: 1
-  - id: jXtnhyro-QE
-    title: Context Engineering for Coding Agents
-    duration: 8859
-    upload_date: "20260614"
-    url: https://youtube.com/watch?v=jXtnhyro-QE
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: NsLPju6TZVc
-    title: MCP, Agents & the $40M Bet on Multiplayer AI
-    duration: 4846
-    upload_date: "20260612"
-    url: https://youtube.com/watch?v=NsLPju6TZVc
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: 3xZ78HHdqAk
-    title: AI Is Fast. AI Projects Are Slow. Let's Fix That.
-    duration: 3408
-    upload_date: "20260610"
-    url: https://youtube.com/watch?v=3xZ78HHdqAk
-    status: generated
-    priority: 1
-    category: update-2026-06-16

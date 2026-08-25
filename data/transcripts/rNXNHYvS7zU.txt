@@ -1,0 +1,3667 @@
+The missing mass that we've defined as
+the art matter problem isn't missing.
+It's the rest of the visible universe
+and it's been hiding in plain sight.
+It's been there all along. Is the
+graviton then composite or fundamental?
+It's neither. It doesn't exist. Man,
+talk about fighting words. Nature will
+keep you honest.
+>> This is the legendary Professor Philip
+Mannheim, and today I'm excited to bring
+you his first ever podcast. He's been
+working on a theory which solves dark
+matter and quantum gravity
+simultaneously for literally decades.
+You start out with the standard theory.
+It doesn't work for galaxies, so you
+invent dark matter. It doesn't work for
+cosmology. You invent dark energy. It
+doesn't work for quantum theory, so you
+invent string theory. I haven't done
+that. I've just taken the theory and
+I've solved it. On this channel, I, Kurt
+Jaungle, interview researchers regarding
+their theories of reality with rigor and
+technical depth. Today, what the
+professor argues is that we've been
+wrong about dark matter. We also have no
+big bang in the universe. According to
+his theory, add further speculations on
+what collapses the wave function is a
+particle that we don't see. It's one of
+the most startling discoveries in human
+history. I I I can't describe it any
+other way.
+>> Welcome to the story of conformal
+gravity. Professor, what precisely is
+Einstein's theory of gravity? Oh, well,
+I have to give you a somewhat extensive
+answer to that. Um Einstein in the early
+20th century developed what's called the
+special theory of relativity and he was
+dealing with a problem and the problem
+was there was there was Newton's laws of
+motion and there were the Maxwell
+equations of electromagnetism
+and they had different symmetries and
+what Einstein realized was there had to
+be a universal symmetry which we now
+call Lorent invariance which meant
+modifying Newton's law and that you can
+see this very simply. If you take
+Newton's law, it just says u you you you
+apply a force, you get an acceleration.
+Keep on applying the force, the
+acceleration will get bigger and bigger
+and bigger and eventually you'll be able
+to go faster than the speed of light.
+And so something had to change if you
+were not going to be able to go faster
+than the speed of light. So what he did
+was he came up with special relativity
+and in a sense this just generalized
+Galileo's object and Newton's first
+first law of motion that uh there's no
+force fell for uniform velocity and
+Einstein made it for uniform covariant
+velocity and so he finishes up with a
+theory in which observers can move with
+arbitrary speeds but uniformly up to the
+speed of eyes and the physics must be
+the same. Now missing from that were two
+things. One was well what the observer
+is not required to only go at uniform
+velocity. The observer is allowed to
+accelerate and there was another theory
+of Newton's called Newton's law of
+gravity which did not obey the
+relativity principle. So he had he had
+two problems that he had to solve and it
+turns out that the solution to those two
+problems are different even though we
+usually look at Einstein gravity as a
+package and that the first issue was um
+well suppose you take Newton's second
+law of motion force is equal to mass
+times acceleration and you rotate the
+system then you generate a new term and
+M was very concerned about that new term
+and he said, "Well, maybe it's fixed by
+an interaction with the distant stars."
+But what was really happening was that
+Newton's law of motion as just written
+by Newton and it starts out force is
+equal to mass times acceleration, but
+then is generalized to special
+relativity still was not invariant under
+under an arbitrary change in the
+coordinates. So if the observer chose to
+rotate, the physics should not change,
+but the equation changed. And Einstein
+found a way of writing down a more
+general form of Newton's second law of
+motion so that it would not change when
+the observer changed um changed um his
+speed or or rotated and that one is what
+we call the geodeic and let me write it
+state it down m d2x lambda da squ that's
+the generalization to special relativity
+of of Newton's law of motion
+plus gamma lambda mu dx mu d to dx mu
+new d to equals 0 where gamma lambda mu
+is the first derivative of the metric.
+It's called the connection and that
+equation is a general coordinate vector
+and so if you make a transformation that
+equation will transform and will remain
+zero.
+Now it has two features. It's a sum of
+two terms. The acceleration the d2x
+lambda d to squ and the gamma lambda mu
+new dx mu da to dx new da neither term
+is separately a general coordinate
+vector. In other words both of them will
+transform but the combination of them
+with the unique weight
+is plus the connection not plus twice
+the connection
+>> the unique weight will remain invariant.
+And so that answers the question of how
+do you write Newton's law of motion in
+an accelerating coordinate system. Now
+at this stage it's still got nothing to
+do with gravity
+and it's and it's and this is still true
+in flat space and we do it all the time
+when we change from cartisian
+coordinates to polar coordinates that
+suddenly doesn't make spaceime curved.
+So this is simply a property of
+coordinates. But Einstein then
+discovered something quite remarkable.
+Two things that are absolutely
+remarkable. One is if he could get
+gravity to come out of the connection
+term, then because they had the same
+weight, you would get two forms of the
+equivalence principle that the inertial
+mass is equal to the gravitational mass.
+Namely, it's m times that whole function
+d2x lambda da squ plus gamma lambda mu
+da dx mu da and so on. So that would
+guarantee you that the m that appears
+with the acceleration which is called
+the inertial mass and the m that appears
+with what's going to be the gravity the
+connection would be the gravitational
+mass and they would have to be equal
+because if they were not equal that's
+that quantity would not be a general
+coordinate vector. So it has very unique
+weights. He also noticed at least I
+think he did. I don't know if I said so
+was that if you take the connection at
+any given point you can make a
+coordinate transformation that would
+make it zero at a point
+>> at one at any at any given point but it
+would not be zero at the next point but
+at any given point you could make it
+zero. And if that were the gravitational
+field, then you have shown that it's
+equivalent to an acceleration
+at that point. And that was that's what
+we call the equivalence principle. The
+equivalence of gravity and acceleration.
+Now the question is when is it real? If
+you can move it away, how how do you
+know if it's real? And if you read the
+relativity textbook of Adler, Bazan and
+Shifa, they say, well, you might be able
+to transform so that you have a rotating
+flywheel, but a rotating flywheel
+certainly does a lot of damage,
+>> right? So then the question is when is
+it real and when is it and when is it
+just an artifact of making a
+transformation? And the answer is but
+you can't change the second derivative.
+The connection is the first derivative
+of the metric, but making the change in
+the first derivative doesn't change the
+second derivative. So you can't get rid
+of that as well. And the second
+derivative gives you the reman tensor.
+And so the reman tensor by definition of
+a tensor, if it's non zero, there is no
+coordinate transformation that can make
+it zero.
+And therefore what Einstein realized was
+that if gravity was described by the
+reman tensor
+then you would have a general coordinate
+invariant description of gravity.
+So from looking at the geodeic alone you
+learn the metric is the gravitational
+field. the metric couples in a general
+coordinate invariant way and that when
+the geometry is not flat namely when the
+reman tensor is non zero then you have
+an an an effect that we call gravity
+okay now all of that
+is intrinsic to Einstein's program
+and any in my opinion any theory of
+gravity must contain all of those
+ingredients.
+However, what that does not tell you is
+what is the gravitational field. You now
+know that the connection depends on the
+metric. You know that the remanensor
+depends on the metric, but you don't
+know what the reman tensor is. So, you
+need an equation to fix the reman
+tensor.
+And then you will be able to solve the
+theory, get the gravitational field, and
+then you'll be able to determine the
+response of a particle to a
+gravitational field. So that those are
+the steps you need. So how does Einstein
+fix an equation that's going to tell him
+what the metric is? The discovery that
+the metric is the gravitational field,
+in my opinion, is one of the most
+startling discoveries in human history.
+I mean, I I I can't describe it any
+other way. I mean I I was used to
+writing down the line element dword is
+at mu dx mu dx mu is is the the s word
+and he turns at mu which is 1 one one
+minus one he turns it into gravity
+I I mean I've known this for many many
+years and I'm still startled that he was
+able to do that but it doesn't tell you
+what the metric is and he then does the
+following he says well I want to I've
+now answered Question a namely how do we
+describe physics in an accelerating
+coordinate system? But what do I do
+about Newton's law of gravity? Well, if
+you write down Newton's law of gravity,
+you write down the pluson equation deli
+equals row and it's a second derivative.
+And the rement tensor is also a second
+derivative of um of the metric. So if
+the metric is the gravitational field,
+it's very natural to generalize Newton's
+the pluson equation to an accelerating
+coordinate system by using what are
+called the Einstein equations which are
+based on the Richie tensor and the
+Richie scaler using the Einstein tensor.
+So it's it's what you would do if you
+wanted to ask the question which is what
+I believe Einstein asked. What does
+Newton's law of gravity namely the um
+quason's law look like in an
+accelerating coordinate system?
+>> Einstein works that through comes up
+with the Einstein equations and they
+give him two things. They give him one
+is Newton's law and they give the v^2
+over c^² correction and then that is
+tested in the perihelion of mercury and
+in the gravitational bending of light.
+However, it's phen I hate to say this.
+It's phenomenology because he starts out
+with del^ squ= row and works his way up
+to general relativity.
+But why would he choose where did del
+square fals row come from?
+Only only from it only from the
+experience that we previously had of of
+new newton's law of gravity. So it's not
+deriving Newton's law of gravity. It's
+actually finding a generalization of it
+which would hold in an accelerating
+coordinate system and um that was that
+was the steps those were the steps he
+took.
+>> Now just a moment I have a quick
+question. Okay. So what's wrong with
+already knowing where you want to end up
+and then thinking okay I need to make my
+theory such that in some appropriate
+limit I need to end there. That actually
+sounds like good physics cuz it's like
+we know this guy works approximately for
+the majority of cases. Yes,
+>> we should get there.
+>> Okay.
+What I'm saying is it's on a different
+conceptual footing than the equivalence
+principle. General coordinate
+invariance. The metric is the
+gravitational field. The reman tensor
+when it's non zero means there is a
+gravitational field. All of that is
+generic.
+the Einstein equations are specific and
+they're constructed to do a specific
+thing which you're absolutely right at
+that time that was the specific thing he
+wanted to do. There's no no question
+about that. However, we run into a
+problem and the problem is that people
+look at the Einstein theory as a
+package.
+Namely, they don't distinguish between
+accelerating observers and gravitational
+field. And they are different because
+even if there's no gravity, you can
+accelerate in the presence of an
+electromagnetic field. And in fact,
+electromagnetic fields cause
+accelerations. So they all have they all
+have to work. Um so he picks on the
+second order equation because that was
+the one that was there. And when it
+works, everybody said the theory of
+gravity is solved.
+But what I'm trying to show you is that
+there was a flaw. not necessarily a
+super flaw, but there was a step in the
+reasoning that wasn't as secure as
+everything else. Now, what have we done
+when he does this? We call what he did
+general relativity,
+but that's not fair and that's not a
+fair description because special
+relativity means invariance under Lorent
+transformations.
+It doesn't mean any specific equation of
+motion. So general relativity should
+mean invariance under general coordinate
+invariance with the metric being the
+gravitational field.
+That's what it should mean. It should
+not mean and the gravitational field
+obeys the Einstein equations.
+But because he did the two at once and
+because it worked,
+everybody takes the view that that that
+you have you can't touch anything. Now
+let me show you immediately
+where it can go wrong. And the question
+is where did we get pluson's law from?
+Well, Newton gives us a 1 / r potential
+and delt fi is is row. The solution is 1
+/ r. Well, suppose I gave you del 4i=
+row. A fourth order derivative equation.
+The solution is a 1 / r plus an r. If I
+give you del 6fi equals row, I get a 1 /
+r, an r, and an r cubed. In other words,
+Newton's law of motion 1 / r is not
+uniquely tied to the second order plus
+equation.
+But all those other terms, the ones that
+grow like r or grow like r cubed,
+aren't important for the solar system
+because the solar system was still very
+short distance. So those terms could
+always have been there. And you wouldn't
+know from looking at the solar system,
+>> right? It's when we go to galaxies and
+we jump up by a factor of a thousand
+that all of a sudden the question is
+does Newton's law of gravity continue to
+hold untouched or is there something
+else going on which we usually call dark
+matter?
+We meet dark matter in the regime where
+we did not derive the Einstein equations
+in the first place. Namely, it was
+geared to the solar system. But what
+Einstein does by generalizing it to the
+Einstein equations, it then becomes the
+Einstein equations on every scale
+and not just on the solar system. Now
+this objection was raised by Edington in
+about 1920.
+He pointed out he said look
+you can get the Einstein equations by
+varying what's called the Einstein
+Hilbert action which is just the Richie
+scaler. He says well you can also get
+them from varying the Richie scaler
+squared
+but you get these extra terms.
+So you there was nothing unique about
+the second order Passon equation
+and I've been arguing for a long time
+now that if you want to make the claim
+that the universe is full to the brim
+with dark matter you have to find some
+fundamental principle that would tell
+you why you should be using the second
+order parson equation
+and that's the challenge and so that's
+that that's that's where That's where I
+think there's a difficulty in the
+theory. I'm not saying that the universe
+isn't full of dark matter. I mean, that
+doesn't follow from what I've said so
+far. Um, but nonetheless,
+uh, there is this loophole in the way
+that Einstein gravity is constructed. So
+it's it's a theory which tells you um I
+have a very specific equation of motion
+and that's the one that you use and
+that's the one that gives you Newton's
+Newton's law. But what I'm arguing is
+Newton's law was built into it. It it's
+it's output if you had some other reason
+to use the to use the Einstein
+equations. But as long as the way
+Einstein built it up as far as I can see
+is it's Newton's law of twasson's law
+and Newton's law were input. Now can we
+change the Einstein equations? Well of
+course everybody but everybody including
+Einstein changed the Einstein equations
+by adding on a cosmological constant.
+So from the very beginning Einstein was
+saying well it's the the theory is not
+unique. I can add on extra terms. The
+one he added on was the um cosmological
+constant which has had one of the most
+checkered histories
+of anything in physics. But the fact
+that he was able to do it meant that
+what he was working with was not unique.
+>> Right? If it were unique then you either
+would be able to add it or not. You
+would know. But he didn't. He because it
+because the Einstein equations were not
+unique
+that left open the possibility of adding
+on a constant lambda which is the
+cosmological constant that Einstein
+himself did or adding on the Richie
+scaler squared which is what Edington
+did. So there's a lack of uniqueness
+and if my view is that we have to
+resolve this lack of uniqueness one way
+or the other and that will tell us
+whether we should be living in a
+universe with dark matter and dark
+energy and so on. Okay. Now so that's
+Einstein gravity. Now at the same time
+people started to think about the
+quantum version of Einstein gravity and
+here the interesting thing is Einstein
+is responsible basically for quantum
+theory and for gravity and yet when you
+put them together you run into trouble.
+>> It's it's very ironic.
+>> So what is called quantum gravity does
+not mean find me a theory of a a quantum
+theory of gravity. It's finally a theory
+of gravity whose low energy limit is is
+Einstein.
+I remember the doubt before I launched
+this podcast. What if no one shows up?
+Starting anything legitimate and
+seriously feels like a huge leap. And
+Shopify is who I trust. It powers
+millions of businesses from Mattel to
+Gym Shark to people just getting
+started.
+Its checkout is the best converting
+checkout anywhere. It helps customers
+finish and returning buyers have their
+details saved. One tap and done.
+Remember that you're not doing it alone.
+Shopify's AI writes your product
+descriptions. It'll sharpen your photos.
+It'll build your storefront from
+hundreds of templates so you look
+established from day one. And because
+Shopify handles the setup and checkout,
+you get more time to grow and the tools
+to do it. Inventory, payments,
+analytics, they all live under one roof,
+online and in person with award-winning
+support whenever you need it. With
+Shopify, nothing stands between your
+ideas and a real business. So, go make
+it one. Start your free trial at
+shopify.com/theories.
+That's shopify.com/theories
+to start your free trial with Shopify.
+I'm endlessly curious about focus, both
+in my personal life and then for this
+show. For instance, how does the mind
+actually hold on to attention? So, this
+data is what got me and my wife to try
+Ultra. Ultra is a pouch that's
+completely nicotine free, caffeine-f
+free as well. It was built with
+neuroscientists around clinically proven
+neutropics. Infinity, for instance, for
+smooth, clean energy, and elenine for
+calm focus. No nicotine, so no
+withdrawal, no caffeine, so no crash. I
+found them extremely clean and easy to
+use. They come in these little pouches
+here. Ultra says 90% of users saw real
+improvements in focus. In fact, right
+now I have the watermelon flavor right
+here. Practically, it couldn't be
+simpler. You tuck a pouch under your
+lip. There's nothing to brew. There's
+nothing to clean. There's nothing to
+schedule a meeting around. I personally
+keep a tin at my desk and it works
+within 10 minutes. If your afternoons
+could use a Sharper, guilt-free lift
+without the jitter, they're definitely
+worth a try. New customers get 15% off
+with the code TOE at takeulttra.com.
+That's take ultra.com using code TOE and
+tell them we sent you.
+>> So it's find me a quantum theory of
+Einstein gravity but not find me a
+theory of gravity. And the difference
+between those two is something like
+gravity has this set of features. One of
+them being general coariance. Another
+one being we're going to get to this
+richy flatness at say the solar system
+level. Another one being that you want
+it to follows geodessics and so forth.
+And you could also have that it follows
+Einstein's equations, but Einstein's
+equations don't follow from this feature
+list. That's right. They're they're
+independent of that list. Yes. Got it.
+Exactly. That That's very good. So,
+as far as I can see,
+there is a lack of uniqueness in the
+theory of gravity as it's formulated.
+And when people talk about quantum
+gravity, they mean we already know the
+classical theory of gravity and
+therefore we will try to find a quantum
+theory that will have that as its
+classical limit.
+Now we've done that with
+electromagnetism.
+Electromagnetism
+is is a very unusual theory because in
+the following sense is Maxwell writes
+down the Maxwell equations. Maxwell
+doesn't know anything about relativity
+but he writes down the Maxwell
+equations. Einstein comes along
+introduces special relativity and the
+Maxwell equations don't change. Then
+Einstein use introduces general
+coordinate invariance and the Maxwell
+equations still don't change and then
+quantum field theory comes along and the
+Maxwell equations still don't change.
+>> Mhm.
+I mean the most amazing thing is that
+when people write down quantum
+electronics they write down the actual
+action
+using quantum fields but how can they do
+that because I Maxwell didn't derive it
+for quantum fields the answer is the
+quantum electronamics theory happens to
+be reormalizable
+and therefore the output classical
+fields which are really matrix elements
+of the quantum operators will obey the
+same equations.
+So if we wanted to to discover a theory
+of quantum gravity,
+we would try to mimic what we we've
+already successfully done in quantum
+electronamics
+and we would look for a theory whose
+matrix elements,
+gravitational fields whose matrix
+elements would behave as the the
+classical theory that we'd like it to
+behave as.
+So we're we're sort of not doing things
+the right way. And the reason I say that
+is historically we started out with
+classical physics and then got to
+quantum physics. But we now know that's
+the wrong way to go. I mean we always
+say that classical classical physics is
+the limit h bar goes to zero where h is
+plag's constant. But h bar never goes to
+zero. It's what it is. You no there's no
+mechanism to switch it off. What there
+is is a way to get interference so that
+you get you get classical you get
+classical results but nothing to do with
+letting h bar go to zero. So the
+question that I started to think about
+was well in order to get a proper
+quantum theory of gravity we need to
+know what classical limit we're aiming
+for.
+>> Yes. Okay. Whereas
+have done something completely
+different. They say we already know the
+classical limit and we're going to try
+to work work it through. And well, they
+haven't they haven't succeeded is the
+best way to say it. And but I I
+certainly don't say that they've not
+invested an incredible amount of thought
+into it. Let me see if I got this
+straight. There's a symmetry which we're
+going to get to called conformal
+symmetry which you say and your
+colleagues that you and your
+collaborators I mean
+>> yes
+>> will solve the issues of dark matter and
+dark energy twinly as well as QG quantum
+quantum gravity
+>> yes
+>> and that it's not so unnatural so some
+people may look at that and say it's
+contrived but you say no no no let's run
+a thought experiment let's imagine
+Einstein didn't happen but quantum
+theory developed and you have Q of QED
+QCD and so forth And then you think okay
+I don't have this classical gravity
+doesn't exist in this thought
+experiment. You have a wish list as I
+mentioned a feature list of what I want
+gravity to have features I want gravity
+to have general coariance etc etc. But
+you don't have Einstein's field
+equations.
+>> Yes. What would be natural to you
+knowing quantum theory would be to write
+down a a renormalizable yes field
+equation set of field equations and
+something that is
+thrown out called the vile curvature in
+for Einstein is something that you say
+maybe we we don't need to throw it out
+and if we included it
+>> yes
+>> then we not only have this conformal
+symmetry but we have reormalizability we
+have all the best of scenarios which
+also happens as a consequence we're not
+even trying it also explains dark matter
+and dark energy.
+>> Yes.
+>> So, is that roughly correct?
+>> Yes, it it's roughly correct. And you
+you had John Donahghue on your your
+program at one time. John and I have
+both agreed on the following that if
+quantum field theory had been developed
+before Einstein gravity, we would not
+have gone to that particular theory. We
+would have looked for a reormalizable
+field theory from the very beginning
+because SU3 cross SU2 cross U1 the
+strong electromagnetic and weak
+interactions are reormalizable theories.
+So we have to ask why are they
+reormalizable theories
+and we already know that Einstein is the
+Einstein theory is not reormalizable
+and the huge efforts in loop quantum
+gravity in string theory and so on have
+been to try to make it into a consistent
+quantum theory and that's an a very an
+extensive and very committed exercise
+that those people have done But what I
+ask is well can I find a reormalizable
+theory of gravity? Now what makes
+quantum electronamics reormalizable?
+Well the answer is it has a
+dimensionless coupling constant
+whereas Einstein gravity is not
+reormalizable because it has a
+dimensionful
+uh coupling constant. Now we've already
+measured met that with the weak
+interaction. The for fermy fermy wrote
+down the for fermy interaction with g
+fermy that was dimensionful and the
+theory was not reormalizable but we
+discovered we could rewrite it as a
+gauge theory and so we found in the end
+that there was a different formulation
+of the quantum theory that would get us
+back to the for fermy interaction at at
+low momenta momenta much less than the
+mass of the w or the z bzon so that's
+suggesting to us that we shouldn't be
+looking at Einstein gravity as um the
+way we have been we should only be
+looking to see what we get at in in a
+low energy limit. So that was so the
+first question was why is quantum
+electronamics reormalizable and the
+answer is because it's got a
+dimensionless coupling constant but I
+could have given you a maxual action
+which would be instead of it being f mu
+f mu it could have been f mu box f munu
+where box is the second derivative
+that's just as good electronamics
+there's nothing wrong with it it's
+covariant it obeys special relativity
+But it's not reormalizable.
+And the reason it's not reormalizable
+but by adding in the dell squ you have
+to add in something else a coupling
+constant which has a dimension because
+the whole thing has to have the action
+still has to have dimension four. So why
+would we not use del square f mu newu
+del squ f mu for for for
+electromagnetism? And you say it's not
+reormalizable. And I say well um you
+have to decide whether Einstein's lack
+of reormalizability would also exclude
+it. If you want to exclude fu new del^
+squ f mu new because it's not
+reormalizable then you should exclude
+Einstein gravity as well. So you have a
+conundrum. So instead what I realized
+was that anything other than f mu squar
+would not be conformal invariant
+and conformal invariance and in it
+simply says it says you take a triangle
+and you stretch it up then all the
+angles remain the same but if you have a
+little weight hanging on one of the arms
+then as you stretch it up that arm will
+sag and so if you have masses you lose
+the conformal symmetry.
+So when Vile introduced this and it was
+very soon after after Einstein about
+1918 or so the problem with it was well
+things do have mass
+but we learned much much later in the
+1960s with with the development of of
+Goldstone Bzons that mass can come in
+the back door. It it can come in through
+the vacuum. It's not a property of the
+operators or the equations of motion. is
+a property of the states that you
+calculate the operators in. So it's
+possible now that we know about
+spontaneous breakdown it's possible to
+go back and say well now we can have a
+universe which has a conformal limit.
+You see and so if you do that
+you then explain why quantum
+electronamics is reormalizable after
+all.
+Now when you do it for gravity as as you
+noticed
+you're led to fourth order equations of
+motion the reason being is
+each the the reman tensor is two
+derivatives of the metric reman tensor
+squar is four derivatives of the metric.
+The action is integral d4x and therefore
+the coefficient is is dimensionless. Now
+you can have global scale invariance
+which just means you have rich square
+richy tensor squared and reman tensor
+squ or you can have local conformal
+invariance namely that you do this
+locally at every given point of the
+spaceime
+>> then you're led to a unique action which
+is the square of the vile tensor
+and the vile tensor is approximately the
+traceless piece of the reman tensor
+and so you could have this theory which
+would be based on the vile tensor and it
+leads up to fourth order equations and I
+started to think about that that theory
+because conformal symmetry would be
+pointing me in the same direction that
+it's pointing me in SU3 cross SU2 cross
+U1. So that would make gravity as close
+as possible to the standard theory. Um
+people that I spoke to all told me the
+same thing and that was that this theory
+had states of negative norm namely ghost
+states. It was not unitary. It's not
+physical and it can't be allowed.
+Uh I knew that I didn't quite know what
+to do about it. But about I'd been
+working on something else. I've been
+working in particle physics. I'm not I'm
+not a relativist. I'm not an
+astrophysicist. I'm a train I'm a
+particle physicist and I did my first
+posttock in Brussels with Robert Brout
+and France Anglair and they had they
+were manybody theorists and their ideas
+on on what we now call the brow the
+Anglere Higs mechanism came about
+because they knew about Anderson's
+mechanism for for making photons massive
+in in a superconductor. And at the same
+time renormalization group ideas were
+just coming in to into condensed matter
+through the work of of Wilson and
+Kadanov and so on and it was gradually
+being transcribed into uh into particle
+physics. And so I had this training in
+reormalization group and from there from
+Brussels I I came to the institute for
+advanced study in Princeton and at that
+point I asked the following question at
+the phase transition the whole the whole
+system is correlated into long range
+order and that's a scale symmetry you
+have correlation lengths that extend the
+full length of the crystal and that's
+the scale invariance
+but the order parameter is zero.
+the there's no magnetization. The
+magnetization only comes when you go
+below the critical point. But at the
+critical point, which is what the
+condensed matter people were doing, you
+had exactly um scale symmetry. So I
+started to ask the question, well, could
+I get scale symmetry as a way of
+generating masses? Namely, not looking
+at a system at the critical point, but
+looking at a a system at t equals z.
+And I found a dynamical way to do that
+in which I had a conformal symmetry that
+was restored because I was at what's
+called a fix point namely that the
+coupling constant obeyed very spee
+operator and when its dimension And it's
+typically it is dimensions three cuz
+it's three halves for each spinner. When
+it dimension drops to two then the
+theory becomes so infrared divergent
+that it spontaneously breaks and you get
+long range order. And so I had by that
+point I had understood that there was a
+way to get mass generation in a theory
+with no mass scales. Hm.
+So I then pressed on and I I worked on
+Grand Unified theories and so on. And in
+the late 1980s
+I got a
+uh national um Academy of Sciences
+National Research Council fellowship to
+the Godard Space Flight Center in in
+Maryland branch of NASA in Maryland for
+for a year. I went there and I started
+to collaborate with a person called
+Deeos Kazanist. Now Deeos was an
+astrophysicist
+which I was not and he also knew
+relativity which was very helpful. He
+had originally been a student of Dave
+ShraMM at Chicago um Enrico Fermy
+Institute got a position at NASA and he
+had actually discovered inflation before
+goth.
+um he had written a paper that if the
+universe went through a desitter phase
+then there would be no horizon problem.
+Now it's very interesting that I
+mentioned Anglair and browse they at the
+same time working with Edgar Gunig had
+also shown that if the universe went
+through a desitter phase there wouldn't
+be a horizon problem. Alan Guth's work
+came a little bit later, but what he
+showed was that yes, you also solve the
+flatness problem, which by the way, dark
+energy has unsolved, but we'll get back
+to that a bit later perhaps. Um, sorry,
+just a moment. In order to make this
+more comprehensible to people, they may
+be confused at what is renormalization
+exactly. So, can we give a a quick
+threeminut crash course on
+reenormalization, reenormalization
+group,
+>> okay,
+>> which is not precisely the same thing.
+And then also conformal symmetry as
+distinct from just mere scale
+invariance.
+>> Okay. All right. Um reormalization
+is you're faced with the following
+issue. You write down a theory, you take
+the free theory, you quantize it, you
+get an infinite number of modes because
+a field is described at every single
+point of the spaceime. It's it's not
+described on a line. It's all over. And
+therefore in momentum space that means
+an infinite number of modes. And then
+when you start to interact switch on an
+interaction and you interact then you
+can excite every one of these modes
+and that's an that's an that's an
+infinite effect
+because you're swimming over an infinite
+number of modes and that's bad news.
+However, in a reormalizable theory, you
+can redefine the parameters that are
+already in the lrangeian
+to make the reormalized charge the
+reormalized mass in such a way that you
+can cancel those infinities.
+Now, in Einstein gravity that doesn't
+work. You can cancel the infinity first
+order, but then it comes back in second
+order and you you can never catch up
+because it's not a reormalizable theory.
+But reormalizable means that the theory
+can handle
+its infinite modes that you put into it
+by quantizing the theory
+that you that you can do summations over
+modes in such a way that you can still
+get finite answers. I subscribe to the
+economist. Their science and their AI
+coverage is among the best I found
+anywhere. And I say that as someone who
+reads plenty of it. I'll give you some
+examples. They just ran an analysis on
+how attitudes towards science are
+changing in American politics and what
+this means for research and funding in
+scientific institutions moving forward.
+This sort of highquality reporting is
+fantastic. They even covered how dark
+energy may be weakening over time. Now,
+if that holds up, it completely changes
+our understanding of the universe's
+fate. If you watch this channel, those
+are exactly the kinds of questions that
+we explore every week. I subscribe to
+The Economist because their science and
+their AI reporting regularly surprises
+me with how deep it goes. And they're
+also of course known for global affairs,
+both political and economic reporting.
+They are top tier. And interestingly and
+flatteringly, TOE is one of the only
+podcasts that The Economist partners
+with. So as a listener, you get an
+exclusive 35% off. That's not a deal
+that they have just anywhere. Head to
+economist.com/toe
+to subscribe. That's economist.com/toe
+for 35% off. Now, Fineman said it was a
+dopey procedure and and there's some
+ancient views, not ancient, but
+100-year-old views from direct and he
+said that he didn't he saw it as
+sweeping infinities under the rug. But
+it's much more rigorous than that. It's
+become much more rigorous since the 80s.
+So, do you also view it as a trick?
+>> Okay. Um, I I I don't view it as a
+trick, but if we could get that trick to
+work for gravity, I think everyone would
+be happy.
+Um, I I certainly don't think it was a
+trick. Um, DRA actually tried to deal
+with this infinity problem by
+introducing an indefinite metric.
+And I'll I'll come back to that when we
+talk about PT symmetry. Perfect. So
+there actually is a solution to that
+problem. Um PI picked up on it as well.
+And in fact that's how PI got to the pi
+villow regulator which is 1 over k^ 2 -
+m^ 2us 1 over k^ 2 - m prime^ 2. So it's
+a difference of two propagators and pi
+villow is able to do this reormalization
+while while preserving gauge invariance.
+>> Right? But then you've got that minus
+sign which we'll have to deal with and
+there's a lot of story a whole story in
+that.
+>> It's like whack-a-ole. Like you solve
+one problem and then some others creep
+up and you just have to whack them down
+and something else pops up.
+>> Okay. With with the best will in the
+world I would say that dark matter, dark
+energy, string theory, super symmetry,
+extra dimensions, anthropic principle is
+doing exactly what you just said.
+>> Okay. So now conformal symmetry means ah
+okay conformal symmetry it goes like
+this. you can make uh the Lorent group
+has six generators, three boosts and
+three rotations and the prankare group
+adds in four translations. So that 6 + 4
+is 10. You could also make a dilitation
+which is just a one-time stretching
+which gets you to 11. But then there's
+another four transformations you can
+make which are called special conformal
+transformations which involve
+reciprocals of of the coordinates and
+those 15 objects close on a group
+and that group is the conformal group
+and it's the full symmetry of the ly
+cone. Right? In other words, you can see
+why if the light cone says ds^2 is equal
+to zero, then 25 ds^2 is also equal to
+zero. So what you finish up with is the
+light cone has more symmetry than lorent
+and pankor.
+However,
+standard gravity is based on
+making local lorren transformations and
+local um pankorank
+translations.
+but not on making the conformal
+transformations local. That's what Vile
+does. Uh we'll get back to that. So the
+so reormalization
+is a procedure
+which will work and it's fully
+legitimate and people have proven
+rigorous results about whether a theory
+is reormalizable or not. Um what I've
+described for you a moment ago is
+exactly how SU2 crossu1 got off the
+ground.
+It was you replace the germy by the
+exchange of a gauge bzon. You made the
+gauge bzon massive by the angller brow
+higs mechanism and then you had to show
+that the radiative corrections the the
+reormalization loops are under control
+and they were and that's that's why we
+think the theory is correct and it's
+been tested. So it it it's hard to see
+why it would be wrong. So that so that's
+renormalization. Now
+the next question was well when you do
+reormalization
+you have to introduce a scale which is a
+cutoff because you've got this infinite
+number of modes and then you introduce
+what's called a counter term which
+depends on the cutff in the opposite
+way. So it cancels it and a
+reormalizable theory says you can get
+away with a finite number of counter
+terms and always get rid of this lambda.
+But the lamb intrinsically breaks the
+scale because it has a scale. And
+therefore you had a different question
+which was well I've got a lander in
+first order, a lander in second order, a
+lander all the way out to every order.
+Can they organize themselves in such a
+way that that they all cancel each
+other?
+And you can see the following. Let's
+suppose I have a term that goes like e
+to the minus lambda.
+>> Mhm.
+>> It's 1 minus plus lambda^ 2 / 2 minus
+lambda cubed over 3 where all those
+terms have unique coefficients. And if
+everything works out and all the
+coefficients come out the way I just
+described, then that entire sum which
+looks like it's violently divergent will
+go like e to the minus lambda and
+therefore vanish when lambda goes to
+infinity.
+That happens when you have a what's
+called a reormalization group fix point.
+Namely, it's it turns out that it
+controls all of the radiative
+corrections. Each one of those terms
+that lambda lambda square, they're all
+quantum loops and they're called
+radiative corrections. They're all
+controlled in such a way that the sum of
+them is well behaved and in a in a
+crystal at this critical point you ask
+the following question. You have a you
+have a high temperature ferroagnet and
+you lower the temperature. How does it
+know it's supposed to go into into into
+a ferroagnetic phase? How does it know
+it's supposed to produce an order
+parameter? And that is you need a
+cooperation of all of the modes of the
+theory into what's called long range
+order.
+>> Yes.
+>> So, and what made people like Wilson
+really excited was that you could get
+long range order from short-range forces
+that you did not need long range forces
+to get long range order. And that's and
+the best example of that was the icing
+model. And so you have this long range
+symmetry which is a conformal symmetry
+which occurs if you have if you're at a
+fixed point of the reormalization group.
+Now there are two options for this fixed
+point. One is that it's the physical
+coupling constant and that that's an
+idea that goes back to Galman and low in
+quantum electronamics and the other is
+that you go that you asmtote to that
+value and that's that's Wilson's point
+Wilson's point was the the zero of
+what's called the beta function doesn't
+have to be it doesn't doesn't have to be
+the physical coupling constant it can be
+but it it didn't have to be and then
+People discovered that if this funny
+beta function which usually goes like
+this instead went turned down then the
+theory becomes what's called
+asmtotically free and that that was a
+bombshell that was the the work of of
+Dave Pollitzer Frank Wilch and David
+Gross and when they discovered that
+nonabelian gauge theories were
+asmtotically free and at the same time
+Huft and Fel and Velman had shown that
+nonabelian gates theories were
+reormalizable which was not known at the
+time and then Weineberg Salam and Glacia
+had been promoting weak interactions
+based on these nonabelian gauge theories
+and then everything came in the neutral
+currents came in the the W and the Z
+bzons came in and a few years ago the
+Higs bzon came in so everything
+everything comes in and it then looks
+very much as though um the the
+fundamental theory of nature at at least
+for 3 + 2 + 1 is strong electromagnetic
+and weak
+is uh reormalizable gauge theories.
+So at this point and they're all
+reormalizable because they're conformal
+invariant
+except
+there's one snag in the standard theory
+and that is that we write down this
+funny double well potential
+and the double well potential
+you can write it as lambda ph 4 minus
+mu^2 f^ 2 and the minus mu^2 has a scale
+otherwise the potential would wouldn't
+wouldn't go up and come down again. So
+in the standard theory of introducing
+the double well potential you break the
+scale invariance in the lrangeian and
+there's no scale invariance
+however what I had been doing in
+dynamical symmetry breaking with sib
+replacing the scalar field
+then there is scale invariance and it's
+broken in the vacuum
+so I had a different way of approaching
+things and as far as I can see conformal
+symmetry can only be relevant in the
+real world under two circumstances. one
+that we are at a reormalization group
+fixed point so that all those lambda
+lambda squares are all organized
+themselves and two that there is no
+fundamental scalar field there's no
+elementary scalar field that it must be
+a dynamical bound state
+and I've written papers saying the
+diagnostic that we need to identify is
+can we tell if the higs bzon the 125 5G
+that we've discovered is it in the
+elementary lrangeian or is it a dam
+dynamical dam state?
+>> In other words, is the Higs composite?
+>> Yes. Is it composite? So if it's com if
+it's elementary and it goes into the
+fundamental theory, then you no longer
+have scaling variance because of the
+minus mu^2.
+>> So you need mass to be dynamically
+generated. Yes. And if the hicks was
+composite, it would have this dynamical
+generated mass which would have
+conformal invariance. They follow all
+the they follow together. Yes. Now
+if the Higs is elementary and it's in
+the the lrangeian
+then it's the god particle because it
+gives mass to everything. If on the
+other hand it's dynamical
+then the vacuum is the god vacuum
+because the vacuum gives mass to
+everything.
+And so and what's the what's the benefit
+of having a dynamical scalar field? The
+benefit is that you no longer have to
+deal with the hierarchy problem. You see
+the hierarchy problem says the following
+that when you calculate the self energy
+of a scalar field it can emit well we
+say it couples to the firmians so emits
+a firmian and absorbs a firmion and that
+gives a quadratic divergent energy and
+we have to reormalize it down. Now you
+could have said, "Oh, but that also
+happens for photons." But photons has
+gauge invariance and that protects you
+and the scalar field doesn't have any
+any invariance. And so you've you have
+no real way of making its mass um come
+all the way down to 125 GV. There was a
+mechanism that was specified to do that
+which is called super symmetry. But we
+now know from the LHC not having super
+having found any super particles. We
+know that even if super symmetry exists,
+there are no super symmetry particles in
+the same mass region as as the Higs Bzon
+that could solve this hierarchy problem.
+So the failure of the LHC to find super
+symmetry is actually a serious challenge
+for the standard SU3 cross SU2 cross U1
+theory. Now scale and variance could be
+global or local. You could change the
+scale globally just over the whole
+system or you could point by point.
+>> When it's local, it's called conformal
+symmetry. So that's the background that
+I was working in on considering
+conformal symmetry as playing a role in
+mass generation in elementary particle
+physics namely in SU3 cross SU2 cross
+U1.
+Um and I showed that if you do that then
+you get dynamical goldstone bzon uh
+massless particle and you get a
+dynamical hig bzon with the mass and
+that's I've suggested that that should
+be um the the true hicks. Now when I got
+to NASA and I started to collaborate
+with Deos Kazanis, this was in the
+1980s,
+we started to think about the question
+of the cosmological constant.
+Because when if you think of this double
+well potential, the difference between
+the the upper maximum and the lower
+minimum, that's the energy of the vacuum
+and that that is the cosmological
+constant. So when you have spontaneous
+breakdown, you produce a cosmological
+constant even if you didn't have one to
+begin with. In phase transitions, that
+just says you get you you release free
+energy when you make the phase
+transition. And so there's this energy
+that's suddenly appearing. And
+no matter what theory of gravity you
+have, we do know that as the universe
+cools down, it does go through the
+electroeak phase transition. And that's
+at least at a TEV and a TEV is 10^ the
+15° and so a black body would be t 4
+would be 10^ the 60. And so we know that
+we release a cosmological constant which
+is at least 60 orders of magnitude
+bigger than the data could possibly
+support. So that's the cosmological
+constant problem. And super symmetry had
+this wonderful idea. You have a
+contribution from a firmian and
+contribution from a Bzon. Because of
+Fermy statistics, the firm loop has an
+extra minus sign and they cancel. And so
+super symmetry became extremely
+fashionable because it could do that. It
+could it could control the vacuum
+energy. It could control the Higs
+energy. It became
+an ingredient for getting string theory
+down from 26 dimensions to 10
+dimensions. So it becomes the super
+string theory. And of course, super
+particles would be an ideal candidate
+for dark matter.
+So it covers an enormous set of issues
+in particle physics. However, it still
+needs to be found and that's not
+happened.
+So super symmetry has the problem that
+it only controls the cosmological
+constant if the super symmetry is exact.
+Namely, the mass here and the mass there
+cancel.
+>> Mhm. They can't cancel because we know
+the super particles which we haven't
+found must be at least a teev in mass
+and therefore they don't cancel and
+therefore the broken super symmetry
+gives you a very big cosmological
+constant
+and so super symmetry which was a good
+idea in order to control the energy of
+the vacuum really doesn't do it. Okay.
+So Deos Kazanos and I was thinking about
+this in the 1980s. This is long before
+the accelerating universe. That didn't
+occur till 1998.
+And we were looking for a mechanism to
+control the cosmological constant.
+And I realized that there was another
+symmetry beyond super symmetry which is
+conformal symmetry because if it's
+exact, remember the the the
+angles remain the same when you scale
+everything up. And so we started to
+think about the idea that gravity might
+have a conformal symmetry.
+And we realize immediately that the
+action would have to be the square of
+the vile tensor. It would lead us to
+fourth order equations of motion.
+And so we started to work on that. And
+of course
+I was fully aware
+and my colleagues were constantly
+telling me uh don't work on this theory
+because it has a ghost. It's not a
+unitary theory. And I didn't know enough
+to be able to refute them. But I said,
+"Never mind. Let's see if nature likes
+the theory cuz if it does, nature will
+know how to solve the ghost problem even
+if I don't know how to solve it." So
+that was my strategy. So we write down
+this C² theory. This is 1987 1988.
+The equations of motion of fourth order
+derivative equations. They're absolutely
+grotesque.
+In those days, there was no software
+package that you could just open up and
+say, "Give me the vial tensor."
+>> Right?
+>> So, we had to write our own software
+package from scratch. We used a program
+called Maxima, which I don't think
+exists anymore. Um, and it took us four
+months, four months just to get the
+equations correct.
+Now,
+you can see that Deeos and I really
+believe this.
+>> Mhm.
+>> We were going to invest four months. And
+we didn't even know it was going to be
+four. We didn't know it'd be four
+months. It could have been more. And we
+didn't even know we'd succeed.
+But we did succeed. And we got the
+equations exactly. And it only took us
+one afternoon to solve them. And when we
+solve for the geometry outside of a
+static spherically symmetric source, we
+got a one over r potential which we were
+very very excited about because our
+problem had been from the beginning if
+we write down a theory which doesn't
+contain the Einstein Hilbert action
+because G Newton has a scale. How do we
+get one over R?
+And so we we said well at least let's
+try to see if we can get one over R. And
+we did and we got the one over r. But
+because it was a high derivative theory,
+there were other solutions. And the
+second solution that we got was a linear
+potential.
+And we just looked at it and we nearly
+we almost fell through the floor because
+we realized if the one over r is falling
+and the linear potential is rising, the
+average is flat.
+>> Mhm. And we had the opportunity to
+explain flat rotation curves. Now you
+might think linear potentials are bad
+news. But the they're the good news in
+the following sense. If the total
+velocity is flat is constant and the
+Newton piece is falling, which is
+Kepler, then the piece that's missing
+must be rising.
+The piece that's missing isn't flat. the
+piece that's missing is rising because
+it's the rising plus the falling which
+makes the flat. And so we had a chance
+to get the linear potential. Um
+we then realized
+and and we said this in the paper we
+wrote in the astrophysical journal when
+we got the solution we said well if
+linear potentials are important then the
+objects on the other side of the
+universe are putting out their own
+linear potentials and they must be
+affecting local dynamics.
+And that's max principle,
+>> right? And so we finished up
+reinccorporating max principle into
+gravity. It's not there in Einstein
+because Einstein's geometry is
+asmtotically flat. So in the end it
+doesn't satisfy Max principle. But here
+the geometry is not asmtotically flat
+and it does. And so the Max principle in
+our view is there's an interaction
+between the local and the global
+physics. Now, let me ask you a quick
+question.
+>> Sure.
+>> Durk also had a large number hypothesis
+which also connected the global to the
+local.
+>> Yes.
+>> And I'm curious if if your work
+validates his or if it's orthogonal to
+it.
+>> I I'm not I don't know enough to be able
+to answer that. I'm sorry. Um it's
+really a question of why G Newton should
+be so much smaller than let's say the
+electric charge. If you have two
+two objects together a meter apart, the
+electric force between them is 40 orders
+of magnitude bigger than the
+gravitational force. And Draq was trying
+to explain that. I have not been able to
+do that any more than Einstein does it
+because Einstein just says you stick G
+Newton into the equations of motion. It
+doesn't tell you what G Newton to use.
+You just use the one that Caendish had.
+>> Yes.
+>> But but you've assumed the answer in a
+sense. I I I recognize that question.
+and I haven't uh been I haven't thought
+about it.
+>> Ah okay. So what was the next thing that
+you did?
+>> The next thing we did and it's also in
+this paper we wrote back in in the late
+1980s.
+We asked well we live in an expanding
+universe but when we do um galactic
+rotation curves we're looking at the
+behavior of an of a particle moving
+inside a galaxy. So it's in the rest
+frame of the galaxy. So we asked, what
+would the expanding universe look like
+to someone who who's in the rest frame
+of a galaxy?
+And we worked it through and the answer
+was a universal linear potential.
+And so we came up with two linear
+potentials. One that was local that
+we've recovered from the local source
+and the other one of which was global
+which was coming from the rest of the
+universe.
+It took me seven years to untangle those
+two objects because they were both
+linear potentials. But let's go back
+first of all to our our solution that
+for a static spherically symmetric
+source you get a 1 / r and an r. Well, I
+said to you right at the beginning
+that's what you get with del 4i equals
+row. Uh-huh. You see, so the natural
+pluson equation in this theory is the
+fourth order pluson equation, not the
+second order plus equation. And we still
+get the same geometry
+as Einstein for the solar system. So
+let's let's just go back to the solar
+system. Uh what what do we need of a
+physical theory? Well, we say we want to
+recover Einstein, but we don't. Well,
+we'd like to. What we need to discover
+is the Einstein solutions in the region
+where they've been tested. And what's
+been tested in the in in the solar
+system is that the geometry outside the
+sun is rich flat. So we don't actually
+test Einstein's equations. We test the
+solutions to Einstein's equations.
+>> Yes. Exactly. You because Richie flat is
+a solution is the immediate exterior
+solution to Einstein. We do test it in
+the inside when we do cosmology because
+we're inside the universe. But as far as
+the solar system, we're just testing
+outside outside of U Einstein. So what
+we're actually doing is not pluson. It's
+a little plus equation. It's del square
+equals 0. But that equation doesn't make
+any sense unless you have a way to get
+the coefficient of the 1 / r related to
+properties of the interior. So we do
+indirectly test Einstein. We know that
+it's Richie flat which said it's the the
+the metric is one over a constant over r
+but that constant you can only get by
+solving the Einstein equations in the
+interior of the source and then
+balancing them at the uh at at the
+surface but that only gives you that the
+coefficient is the integral of row the
+density over the source. It's one
+particular moment of the source and you
+can't from measuring the moment
+determine the integrant.
+If you wanted to get the integrant,
+you'd have to know all the moments,
+but we only get one. So, so there's
+that's another another flaw in the
+standard discussion is that um the
+geometry outside of the sun is Richie
+flat
+and Richie flat is a solution to
+conformal gravity. Now conformal gravity
+is based on derivatives of the richy
+tens of vanishing.
+So if the richy tensor vanishes then its
+derivative does as well and therefore
+you'll always get back to Einstein's
+solution. But the derivative can vanish
+without the richy tens of vanishing and
+so you get extra solutions like the
+linear one.
+>> Mhm. So physics that's demanded of what
+we know of the solar system is only that
+we have to recover the solutions to
+Einstein gravity in the region where
+they've been tested.
+If we get the equations then of course
+we'll get the solutions for free but we
+don't need the equations. Can we get
+those same solutions with a different
+set of equations? And the answer is yes.
+You could go to fourth order theory,
+but then you will get different
+solutions when you go to larger
+distance.
+And so where where Deeos and I finished,
+we realized that we had found a solution
+to the cosmological constant
+by a symmetry which gave us a chance to
+get a solution to the dark matter
+problem.
+And then we have to do fits to rotation
+curves. And that took me a long time.
+And gradually it emerged I I did most of
+the work with my one-time student James
+O'Brien. It emerged in the end that the
+two linear potentials were both playing
+a role, the interior one and the
+exterior one. And there was a
+competition between them because they
+were pushing in opposite directions. And
+what we found was that we could fit
+138 galaxies, that was how many we were
+known at the time, rotation curves,
+using just that universal linear
+potential coming from cosmology and the
+universal linear potential coming from
+uh the local source.
+And we need a few more things, but we
+needed a one more universal parameter
+coming from clusters of galaxies.
+Um, and we could fit 138 galaxies with
+those fixed parameters, the same
+parameters for every galaxy. Dark matter
+needs two two parameters per galactic
+halo. And so it needs 276 more
+parameters. Fair. And so we could so
+easily have failed
+but it turns out that it that it works.
+Now at the same time I was making a
+slightly different track and that was
+well I showed you that when we change
+the vacuum which we have to in order to
+generate masses then we get a mass scale
+but then I'm going to get a cosmological
+constant
+and that's true. I will get a
+cosmological con I'll induce one by
+dynamics. Now how is it controlled?
+Well, the answer is in the conformal
+theory, the trace of the energy momentum
+tensor is zero.
+And therefore, the trace is controlled
+in such a way that the cosmological
+constant that's induced cannot be any
+bigger or any smaller than everything
+else
+anything else in in the energy momentum
+tensor. In the standard theory, that's
+called the cosmic coincidence. Namely, a
+mega lamb's 7, a mega matter is.3. So,
+they're they're the same today. But the
+point here,
+>> Right. Right. Right? It's it's a natural
+occurrence. Now, there was one piece of
+the story that I left out, and that was
+that in order to get the cosmology to
+look what it looks like in the rest
+frame of the galaxy, I needed the
+cosmology to have negative curvature.
+And then the linear potential would be
+the square root of minus the curvature.
+But the curvature of cosmology is going
+to be uh something like the Hubble
+scale. And therefore this extra linear
+potential was naturally a cosmological
+scale.
+I didn't have to force it. Now in the
+cosmology you have the background and
+you have fluctuations.
+The fluctuations I showed produced a
+quadratic potential but again universal
+because it got nothing to do with the
+local source. And so when I finish up, I
+have a local 1 / r that didn't go away.
+A local linear coming from inside the
+source, a global
+linear, and a global quadratic coming
+from the cosmology and the fluctuations
+in the cosmology.
+>> Mhm. For
+>> and I do three or 4 thousand data
+points.
+>> Wow. Now, why the heck does this work?
+Why does it work? Um if you look at the
+ro if you look at the galaxies and you
+look at v ^2 over c ^2 r that's the
+that's an inverse length
+and you just look what that value is for
+the whole 138 galaxies
+and all of them are coming out to be of
+the order of 10 the minus30 inverse cm
+which is approximately the inverse of
+the Hubble radius written on the data.
+Nothing to do with me. It It's there.
+Now, you may have heard of a theory
+called Mond. That's Mond. That's Mons a
+Z. That's why it works because a Z does
+set the scale of all these galaxies.
+You've had John Muffett on this program.
+His theory log, same story. He has that
+universal acceleration.
+So there's a universal acceleration in
+the data
+and it has nothing to do with me, has
+nothing to do with Mgrim, has nothing to
+do with Moffett. It's it's just there.
+So if it's Lambda CDM, Lambda CDM has to
+explain why there's that universal
+acceleration,
+you see. So where do I finish? Where I
+finish is I've got 138 galaxies.
+Um, I can fit all of them using the
+luminous matter alone, no dark matter.
+And I've replaced dark matter by the
+rest of the universe, the cosmology and
+the fluctuations in the cosmology. So I
+say the missing mass that we've defined
+as the original dark matter problem
+isn't missing. It's the rest of the
+visible universe. And it's been hiding
+in plain sight. It's been there all
+along. You just didn't want to do it
+because you were hung up on one over r.
+You see, the problem with one over r is
+if it's really true and it's one over r
+on all scales. If you have a problem
+here, you can only solve the problem by
+putting matter where the where the
+problem is
+because it's it's still local. Whereas
+if the linear potential, you could put
+matter outside and and and it it can do
+the job. And so that as far as I can see
+that solves the dark matter problem in
+galaxies.
+Kurt here. Note that if you'd rather
+listen to toe, we're on Spotify, iTunes,
+everywhere with a podcast catcher. You
+can just search my name or theories of
+everything. And also remember to hit
+subscribe.
+>> Now your colleagues who are telling you,
+hey, you shouldn't pursue this. There is
+a fatal error, namely negative norms and
+ghosts and so forth.
+>> Yes. Did they prior to them telling you
+this, did they already know about all
+the issues that it could potentially
+solve? So suppose it solves six of the
+major issues, but it has this other
+problem. No.
+>> Did they know about that or did they
+just say it has this other problem?
+>> I I would say I would say that it's
+possible that people realize that
+conformal symmetry would control the
+cosmological constant, but they never
+pursued it because of the the ghost
+issue. So all of all of these things I
+found after the fact
+just because I I I knew enough about
+conformal symmetry that I wanted to
+apply conformal symmetry to gravity. Now
+I did something else and that was if I
+have a space of negative curvature. It
+acts like a con a concave lens. A convex
+lens will pull the light in. A concave
+lens causes light to diverge.
+>> Mh. And so if the universe has negative
+curvature, photons are given a push by
+the geometry and that's the accelerating
+universe.
+>> And so as soon as I heard about the
+accelerating universe, I realized that
+I'd written a paper in 1992 which had
+all this in it, but I had never pursued
+it. And in 1998, as soon as it came out,
+I immediately wrote a paper to show that
+I can fit the accelerating universe data
+without any fine-tuning
+that the cosmo I told told you the
+cosmological constant was under control.
+But it's more
+if the curvature is negative because
+omega lambda plus omega m plus omega k
+is one. If omega k is positive then
+omega lambda has to be less than one
+because it had to be one minus
+something. Therefore what I had already
+realized was the deceleration parameter
+had to lie between 0 and minus one. No
+choice couldn't be anywhere else. If
+it's anywhere else then the theory is
+wrong. So I worked it through. I got an
+expression for the luminosity distance
+versus red shift. I applied it to the
+accelerating universe data and it lies
+right on top of the data with the
+deceleration parameter emerging at the
+one free parameter in the theory as
+minus.37
+right between 0 and minus one. Uhhuh.
+And that and then of course in this
+theory there's no finetuning. So the
+universe always accelerates.
+It doesn't just accelerate very late.
+And so at higher and higher red shift,
+this theory is going to depart from
+standard theory.
+>> Interesting.
+>> And what I've been doing so far is well,
+I've got the background. I've got the
+accelerating universe, but what about
+the fluctuations? And is it really true
+that I can accelerate all the way back
+to last scattering? And I've had a set
+of very good students uh Matthew Phelps
+Sanka Amora Singh Tananiel Lee and
+currently my latest student Daniel
+Norman and I have been working on the
+fluctuations
+and you are fully justified in holding
+up on saying this is great until we were
+to until we can fit fit the
+fluctuations.
+I don't know we will but we're working
+very hard on it. Um nature may be kind.
+Nature may nature may be not kind. All I
+can tell you is Einstein
+uh once said and we we always quote him
+rafin is got uh subtle is the lord but
+he went on to say arbashef
+but he's not vicious
+you see so I think maybe maybe the I've
+gone a long way so maybe all all the
+other pieces will fall in but
+nonetheless that's
+so I've handled two separate problems
+the cosmological constant problem and
+the dogmatter problem. Now let me just
+state there's a lot of question now
+about land the CDM itself and my view is
+if lander CDM is wrong
+at some point it's going to start
+failing to fit data
+and we've seen a little bit of this at
+the moment but not enough we've seen the
+Hubble tension namely
+>> using the land CDM for for the plank
+fluctuation data gives us a value of the
+Hubble parameter which is about 68 km/s
+per mega parc whereas the usual sephiid
+cosmic distance ladder gives us 73 and
+that's a quite a serious uh difference
+it's not much as I'm not in the standard
+camp I don't believe it's big enough to
+say it doesn't work however the other
+issue that's emerging and this is coming
+from Daisy Desi is that it looks like
+dark energy you might depend on red
+shift that it changes with with
+cosmological epoch. Now if that were to
+be the case
+that would be an absolute catastrophe
+for the standard theory because the fact
+that you would then not make dark energy
+a cosmological constant does not mean
+that the cosmological constant problem
+has gone away.
+That was there from that's always been
+there from the very beginning. Why isn't
+it 10 to the 60? Is it plank scale 10
+120? That hasn't gone away.
+>> It's made worse.
+>> Yeah, it's made wor in other words, a
+red shift dependent uh dark energy is is
+really bad news for the cosmological
+constant problem,
+but we'll have to see how how that plays
+out. So, there's something else your
+theory solves, or I wouldn't call it a
+problem per se, but it's more like a
+question. If I recall correctly, it's
+the size of galaxies.
+>> Yes. Okay. So it turns out that I've got
+a linear potential and a quadratic
+potential. They have opposite sign.
+So if the quadratic potential gets too
+big,
+the distance gets too big, the quadratic
+potential becomes negative. But that's
+velocity squared and velocity can't be
+complex. Therefore, galaxies have to
+have a finite size. Now to understand
+this, a one over r potential, whatever
+else you want to say about it, it never
+cuts off.
+It doesn't matter how far away you are
+from the source, there's always going to
+be um there's always going to be a bound
+state possibility.
+But this is giving an actual reason for
+why galaxies have a finite scale. Now,
+since you asked me about this, let me go
+back and uh discuss what what what
+happened with James O'Brien.
+>> Oh, and you should know that I have the
+ability at any point if you wanted to
+show something on screen. You don't have
+to pull it up on your computer now, but
+I can show it for the audience. So, I
+can show finite size length in the in
+the galaxies. I can show curves that you
+said that your your model was able to
+fit the 130 or what have you. So,
+anytime you just let me know and it's on
+screen.
+>> Okay. Um well you can show some rotation
+curves of ours if you want. What had
+happened was this and this was James
+O'Brien's uh PhD thesis with me. Um when
+I had first applied this linear
+potential to galaxies,
+there were only 11 galaxies
+that were known that whose rotation
+curves were well enough studied that you
+could actually do modeling with them.
+And while I said that the linear and the
+the falling and the rising would balance
+as you go out to larger distance the
+linear tens linear must win and
+therefore eventually the rotation curves
+that are flat have to turn up.
+Now you should also know that for dwarf
+galaxies they already are rising.
+It's the bright spirals that are delayed
+from rising because the Newton term is
+so big because it's a big luminous
+galaxy.
+>> So I expected to see this rise
+and James I said James go ahead and find
+some galaxies for me and we'll see what
+they look like. And he found me 138
+galaxies.
+I mean the data for them. I I didn't
+even know they existed but he he found
+them all. And we apply the theory and it
+doesn't work.
+It doesn't work because the rise is not
+there
+in the data. At the point where I
+expected the the everything would rise,
+it doesn't rise.
+And I realized
+we went through the data and we found
+there were 200 points where my theory
+said it should rise and it didn't rise.
+>> That sounds bad.
+>> Yes. And then now you're going to hear
+something quite remarkable. I still had
+one extra term in the theory. That's all
+the quadratic term,
+>> but it's one term with one number and
+it's universal.
+>> Uhhuh.
+>> So I realized what that one term can cut
+down one rise. But it turns out it cut
+down the entire 200.
+>> Yes. Gez.
+In one number, we got 200 points that
+were rising and they all they all curve
+down. And if they keep on curving then
+that's what you said before that
+eventually uh the galaxy would have to
+end.
+>> That is quite remarkable. So what
+occurred to you both when when you were
+able to fit how many 138 you said or 200
+with one parameter?
+>> It was 138 galaxies 200 data points were
+in the um the awkward region. Well we we
+just realized it was correct.
+we realized that there was something
+going on
+in galaxies
+that was being missed in Lambda CDM.
+Now, it may not be that conformal
+gravity is the answer, but what I've
+been saying all along is here's this
+formula with with the linear term, the
+two linear terms, and the quadratic
+term. If you think that lambda CDM is
+the answer, then derive it in lambda CDM
+because it fits the data points.
+that that's that was what I would ask my
+colleagues to do. Um but that's not
+happened. Now Mgrim and John Moffett all
+of us have been saying look we have
+these theories they're the universal
+acceleration parameters. If you don't
+like them derive them in in your theory.
+It's not you shouldn't you shouldn't say
+what we're doing is wrong. You have to
+say that's up to data. and data is
+saying that there's there's a structure
+that's that's currently being missed.
+Okay. Now, by this point,
+I began to think this theory is on the
+right track. It's reormalizable. It
+resolves dark matter. It resolves dark
+energy. And standing in the way of just
+one question, the ghost problem.
+>> Right. Remind me the year at this point.
+Uh this was the year the the year was
+2008 and I'll tell you what happened.
+>> Bender is coming.
+>> Yes. I um had always felt that nature
+knew how to handle this problem even if
+I didn't. And I went to a conference.
+I've known Carl for many many years. And
+he talked about the Lee model. The Lee
+model was introduced by TD Lee in the
+1950s and what it did this was the early
+days of reormalization. It allowed you
+to calculate the reormalized coupling
+constant in a closed form analytically
+which was very very powerful. But as you
+move the parameters all of a sudden you
+discovered that there was a region where
+you suddenly got negative norms.
+And so this was a problem that Powley
+and Chileen and Lee and Heisenberg had
+all worried about but had never come up
+with a solution. Um I had actually
+looked at this problem when I was in
+graduate school. Um there was a theorem
+called the Heisenberg nonlinear spinner
+theory which preceded everything because
+this was still in the 50s and it had an
+indefinite metric. Uhhuh.
+>> And Heisenberg sort of said, well, you
+know, this this solves the scale
+invariance problem of the theory, but it
+it really was was still a problem. And
+Carl had realized that when
+you move the dra the reormalized
+coupling constant to a certain value and
+you got this negative norm. At the same
+time, the bur coupling constant became
+complex
+and the theory was no longer hermission.
+And so everything that you've done was
+presupposing
+that you had a hermission theory.
+And Carl had realized have to give you a
+little bit of background. In 1998 or so,
+Carl and his former student Stefan Bcher
+had been looking at the Hamiltonian P^2
++ iX cubed with an I with a complex I.
+So the potential is complex.
+You would swear
+that the that it must have complex icon
+values.
+You you would absolutely bet any money
+that it has complex icon values. Except
+it doesn't. All of its icon values are
+real. And Stefan and Carl showed that
+using WKB approximation. And then a few
+years later, Dory Dunning and Teo proved
+it as a rigorous theorem that all the
+values of P^2 + IX cub are real.
+Now Carl had
+realized
+that that's a theory where you have a PT
+symmetry. Parity sends x cub to minus x
+cubed and time reversal sends i to minus
+i. So ix cubed is pt symmetric. Now
+vner in 1960 when he introduced time
+reversal had said the following the
+shreddinger equation is iid dt. So if I
+let t go to minus t I won't keep the
+shreddinger equation unless I let at the
+same time i go to minus i.
+So I need an operator that will complex
+conjugate numbers
+not complex conjugate functions because
+we do that all the time when you take
+the emission conjugate but you have to
+conjugate you have to conjugate numbers
+and that's called antilinear
+and what Vner had shown that if you had
+an anti-linear symmetry then the
+anti-linear operator will conjugate E
+into E star because it's a complex cont
+and that means that for every E there
+should be an igon value E
+And so you had two possibilities. E
+equals E star. So the energies are real.
+>> Mhm.
+>> Or the energies are in complex conjugate
+pairs.
+And so once you have PT symmetry then
+you have the possibility of real values
+and the P ^2 + IX cubed has that
+symmetry
+and that's why it values are real. So
+when I got interested in this program
+when Cole gave this talk he said that
+when he uses the PT theory which means
+the following. How do you you construct
+a norm a probability? Usually you say
+you take the cat and direct tells you
+take the hermission conjugate of the cat
+the bra and the bra ket is the
+probability.
+That's not the most general
+what realized is if the Hamiltonian is
+not her mission you take the pt
+conjugate of the k
+and that norm is positive.
+And so when people said that they had a
+negative norm theory, what they meant
+was the direct formula for this for the
+scalar product for the inner product,
+the direct formula was was was giving
+you the negative answer, not the theory.
+You're in the wrong Hilbert space.
+The Hilbert space is dictated. If the
+Hamiltonian is not hermission, then you
+have to use the PT conjugate. I'll come
+back to this in a minute. For
+relativistic, you have to use CPT.
+>> Right? We'll get we'll get to that in a
+moment. So when Carl did that for the
+Lee model, all of a sudden the ghost
+disappeared
+and it was a perfectly consistent
+theory.
+So, I had I hadn't known Carl since
+forever, but we were at a conference
+together and he talked about this and he
+gave a it was in in in Florida at Fort
+Lauderdale run by the University of
+Miami and he talked about this and I
+said to him, Carl, you have a theory
+with a that you have a way to get rid of
+a ghost and I have a theory with a
+ghost. Let's get together.
+So, Carl was at the time was uh was in
+in Los Alamos for the year. So I went to
+Los Alamos
+and we sat down and we solved that
+problem in three days. In three days we
+we we figured out the whole thing. Now
+of course maybe 3 days but we both came
+with with 20 years of prior experience.
+>> Of course.
+>> Yes. But in 3 days we'd realized that
+conformal gravity was a PT theory and
+not a hermission theory.
+And then there was no ghost. Now
+the thing that
+made this work was that going back to
+what I said about quantum electronamics,
+everyone had always taken it as a given
+that whatever the quantum theory of
+gravity was, the Hamiltonian would be
+hermission.
+But it never needed to be hermission.
+Her mission is is is too strong a
+requirement. Now when I started to work
+with Carl I real I realized the
+following.
+I knew a little I knew a little bit
+about this very little but I knew from
+my days as a student that if a
+Hamiltonian is her mission the values
+are real
+but I also knew that that's only one
+way.
+>> Right. Right. You can have something
+that's real that's not her mission.
+Right.
+>> Yes.
+>> When you say her mission do you mean
+self adjoin in its more general form?
+>> Yes. self her mission in the 19th
+century understanding of second order
+differential equations that you can get
+rid of surface terms I see and that's
+exactly that's how Dak arrived at
+hermission quantum mechanics in the
+first place
+and because he he copied what people
+already knew from from the 19th century
+so you can
+it's true and you you said it if the
+Hamiltonian is not mission it does not
+follow that the iggon values are not
+real.
+So I started to think about this and I
+said well if hermaticity is sufficient
+to give a real value what's the
+necessary condition
+so you open a linear algebra book and
+you won't find it
+and the reason is it's not a linear
+condition
+it's an anti-linear condition the theory
+has to have an anti-linear symmetry and
+that's the necessary condition for real
+values.
+And so what this meant was and why I
+think people have never been able to
+make Einstein gravity into a quantum
+theory is beyond the issue of
+reormalizability.
+They're insisting that the Hamiltonian
+be hermission
+because it always has been hermission
+and in the fourth order theory it isn't.
+But it has an anti-linear symmetry and
+that's that's the second flaw. It
+doesn't mean that therefore the
+Hamiltonian is not hermission. But what
+I'm saying is by restricting to her
+mission Hamiltonians you would you're
+looking at too narrow a problem
+because you you it was obvious that the
+metric the classical metric is real and
+therefore the Hamilton must be
+hermission but it doesn't have to be
+hermission for the metric to be real. It
+only has to have an anti-linear
+symmetry.
+Okay, so
+we worked that through and we published
+a paper in physical review letters and
+what we basically had shown was that the
+1 / k^ 2 - 1 over k^ 2 - m^ 2 propagator
+was reormalizable and unitary
+because you were in it looked like you
+see when I when I write to you a
+propagator 1 over k^ 2 - 1 k² - m^ 2
+terms cancelling each other. You see the
+big advantage is they both go like 1
+over k^ squ but with the minus sign the
+net effect is one over k to the 4 and so
+for very high momenta the one that we
+needed the cutoff because we've got all
+these modes now you don't have the now
+you don't have to worry because now
+you've got reormalizability
+and when you had John Donahue on your
+program that's what he was talking about
+was second plus fourth the one of a k
+square comes from the second and the
+other one comes from the fourth order
+and from second plus fourth you have a
+reormalizable theory gravity. But if you
+look at the propagator, you've got the 1
+over k^ 2 and the other one has a minus1
+over k^ 2us m^2. So if you just take the
+normal
+vacuum t5 vacuum for the propagator and
+put in intermediate states, you'd put
+the sum n bra minus the sum mc bra. You
+put it in and you get that propagator
+and you've got states of negative null
+and the theory is not unitary.
+However, you can't do that.
+You can't look at a C number propagator
+and tell me the Hbert space.
+If you know the Hbert space, you can get
+the matrix elements, but you can't from
+the matrix elements get the Hbert space.
+And what Carl and I showed in that
+theory was that when you thought you
+were writing those sum on nn minus sum
+on mm equals 1, you had presupposed that
+those states were normalizable.
+If they were, then that would be
+correct. And what we had showed, and
+this grew out of work that I'd done a
+little bit earlier with Aaron Davidson,
+who was another longtime collaborator of
+mine, he was at Bengorian University. um
+we had shown that the states were not
+normalizable
+and therefore the whole discussion of
+ghosts you were in the wrong hilbert
+space. Now does this also work in QFT?
+So I imagine this works in QM but is
+this
+>> Lawrence
+>> yes of course I mean what Carl and I did
+initially was we did it for quantum
+mechanics. I I long since generalized it
+to quantum field theory. Yes. But it's
+the exactly the same story. Now, we
+discovered that the solution to the
+ghost problem was not that we got rid of
+the ghost, we never got rid of the
+ghost. We just showed that the reasoning
+that caused you to think there was a
+ghost was not valid. Right. Right.
+Right. I mean, everybody that was trying
+to get rid of ghost was adding on terms
+that would cancel something, but you
+never needed to do that because it was
+never the reasoning was wrong. And what
+of course how does it work is instead of
+having vacuum T55 vacuum the left vacuum
+has to be the PT conjugate of the right
+vacuum and not the hermission conjugate
+and then when you put in intermediate
+states it's no longer modulus squared
+and therefore you can get a minus sign
+I mean that that's those are the details
+but the basic point was and the thing
+that saves the theory is that the states
+were not normalizable
+Now Carl had developed a whole apparatus
+for dealing with non-normalizable
+states. Namely, there was a way to
+continue them into the complex plane. So
+if you had think that something that
+went like e to the plus x^2 on the real
+axis, it went like e to the minus x^2 on
+the imaginary axis. And so this theory
+lives on the imaginary axis.
+And of course if people were trying to
+do quantum gravity with everything
+living on the real axis and that's in my
+opinion why they couldn't succeed.
+So so that was the so that was the first
+side of the story was was the PT. Now
+the second side of the story and I
+realized this as soon as I got to know
+about PT was that there was a connection
+to CPT
+and the CPT goes the following.
+The Lorent group breaks up into four
+units, four regions. There's the one
+with the real the real coordinates. Then
+there's the one which is related by par,
+one which is related by time reversal
+and one which is related by par times
+time reversal which is PT. Now
+parity reverses
+the spatial piece. Time reversal
+reverses the time piece. So PT reverses
+all four components of X mu and that's
+Lorent. That's consistent with Lorent.
+And so what you discover is that there's
+an extension of the Lorent group which
+involves a PT transformation into this
+other region where X mu is replaced by
+minus X mu. And that turns out to be the
+covering group of the Lorent group.
+And so if you have that as a symmetry
+then Carl said look PT is natural. It's
+related to the lorren group.
+Hermiticity is a is an artificial
+requirement on on a function. It's a
+mathematical requirement. Symmetry of
+the Lorren group is a physical
+requirement.
+>> So you get vile spinners out of this.
+>> Not yet almost. So that's PT.
+Now you do it for so you did it for
+coordinates. Now you do it for firmians.
+So I did it for firmians didn't work.
+The reason is for firmians p is gamma 0
+and t is gamma 1 gamma 3 but gamma 0
+gamma 1 gamma 3 is not a lorent is is
+not a lorren invariant. You have to
+multiply by gamma 2. Gamma 0 gamma 1
+gamma 3 gamma 2 is commonly called gamma
+5 is a lorren invariant. But gamma 2 is
+charge conjugation.
+So for firmians that transformation is
+CPT,
+not PT.
+And so what I'd realized was was that
+CPT symmetry was intricately connected
+to the complex Lorent group.
+And so if the universe is complex Lorent
+invariant, then CPT
+can follow.
+And then if C is conserved then you're
+back down to PT which is what you get
+for the non-relativistic case. However,
+that's not the whole story.
+And the reason is if I write down
+something like cyosi which is a lorren
+scala, it's a CP CPT invariant
+but it's now got a coefficient.
+How do I make the the the coefficient is
+going to be conjugated by by time
+reversal? So it may not be real. So can
+I make the coefficient real?
+And the answer is yes. If I impose
+probability conservation
+and so I replace the entire discussion
+of CPT theorem by complex Lorent
+invariance plus probability conservation
+gives me CPT.
+Now
+any non-relativistic theory that
+descends from uh relativity
+would automatically have probability
+conservation
+and if you have a non-ermission
+Hamiltonian
+you need to have the CPT conjugate be
+the bra not the hermission conjugate and
+then probabilities conserved.
+So the key feature and I think this is
+what people have missed. The key feature
+of quantum mechanics is not hermiticity
+is probability conservation.
+Hermiticity implies probability
+conservation but probability
+conservation does not imply hermiticity
+any more than herity implies reality but
+reality of values doesn't imply
+hermiticity. So probability conservation
+is in my opinion the most important
+feature of the theory and that's that's
+how the PT works.
+Okay. Now,
+as soon as I started to work with Carl,
+we solved the problem of the ghost and
+now I can tell you why it's guaranteed
+that this is the solution. You take the
+firm and you couple it to geometry
+through the spin connection, which is
+how we describe a propagation of um spin
+a half particles in a gravitational
+field.
+You take the action
+pi bar i gamma mu d mu plus capital
+gamma mu pi that's the coupling of a
+direct firm to the spin connection and
+you do the path integral over s and si
+bar
+you get the c^ 2 action
+you've integrated out the firmians the
+only thing that's left is the metric and
+the metric appears as c^ squ why is it
+c^ squ because the drag action was
+conformal invariant
+with the spin connection. So it was
+already conformal and therefore you
+automatically get um the ced action. So
+now you you've only got two argument.
+There's only two things you can say
+either
+the we know the standard theory doesn't
+have a ghost. Therefore it could the the
+gravity theory could not have one if
+it's induced by integrating out the
+firmians. But if it did, then the entire
+SU3 cross SU2 cross UU1 would collapse
+when it's coupled to gravity.
+So you've only got two choices. Either
+there's no ghost or SU3 cross SU2 cross
+U1 is wrong.
+And there's no reason for a ghost
+because you're starting out in the
+theory which are ghost free the standard
+model and you just integrate out the
+firmians. So in the end there could
+never have been a ghost in the first
+place. But how do you show that there's
+no ghost? You've got to construct the
+Hilbert space and get the um and get the
+bras. The bras are called the dual
+space. And the whole point of these
+theories is that the dual space does not
+have to be the hermission conjugate
+of the
+of the of the cats.
+There's physics is richer than that.
+Quantum mechanics is richer than that.
+And that I think is what Carl has really
+established is quantum mechanics does
+not require the dual space to be the
+hermission conjugate the same the same
+way that Draq originally introduced it.
+It's a richer theory and it's that
+richer theory which works in the fourth
+order case.
+Okay. Now
+when I did this
+I realized that VNA has said there's an
+E and there's an E star.
+Therefore I now have a way to describe
+decays
+because if the energy is complex then
+it's E it's E plus I gamma and then E to
+the I * E plus I gamma gives you E to
+the gamma T which um which can decay. So
+for the first time in my career, I had a
+way of describing decays.
+But you paid a price. You needed both of
+them. You needed that one that grows
+because it's a complex conjugate pair.
+One grows like e to the gamma t and the
+other grow falls like e to the minus
+gamma t. And when you combine them, the
+gamas cancel because you get prob you've
+got to get probability conservation
+because that went into the CPT theorem.
+And therefore each mode the growing mode
+cancels the decaying mode and vice
+versa. So let's let's see how that
+works. We go back to Rutherford.
+Rutherford discussed radioactive decay.
+And you you ask well it's e to the minus
+gamma t. You measure the gamma and you
+measure the half-life. And that's how we
+get we we do half- livives of materials.
+And that looks like it's not unitary
+because emission Hamiltonians don't have
+complex values. So that doesn't look
+like it could possibly be unitary. So
+what's going on? Well, it's decaying
+into something.
+And the decay products are building up.
+As the population of the state that's
+decaying declines, the population of the
+states that it's growing going into
+increases. So one decay is e to the
+minus gamma t and the other one is e to
+the plus gamma t and the total
+population remains fixed.
+So what you really have to do when you
+do decays is you've got to include the
+decay products
+and then you have and then you have CPT
+symmetry.
+Okay. Now I wrote a paper in 2018 in JF
+A. I was discussing all of this and I
+said that if I have
+um with if I have an e to the minus
+gamma t then vner tells us that there's
+a time delay h bar over gamma which is
+just the uncertainty principle. So when
+a particle travels by a square well it's
+it's delayed for a while before it's
+released
+that's and that's called the bright
+vignner formulation of of resonance
+formation. So the physics is the wave is
+held for a while and then it escapes the
+well and then it continues on and it's
+held for a time har over gamma
+time delay.
+But I said, "But there's another one
+with a minus gamma,
+and that gives a time advance, a
+negative time delay, and they're both
+operative."
+And then I saw an an article in a
+strange place, the BBC,
+of work by someone else on that was on
+your program, a Fry Steinberg, who had
+said that when you excite an atom into
+the first excited state, it's supposed
+to decay with a rate h bar over gamma
+where gamma is the radiative width of
+the upper level. But he said it doesn't.
+It decays right away.
+And I wrote a paper which said that the
+reason it's decaying right away is
+because the time delay is canceled by a
+time advance.
+And so the net effect is you have a line
+width but you have a time you have a
+time for the transition which is not
+given by h bar over the line width.
+It's given by h bar over the energy
+difference between the first excited
+first and the excited state. The ground
+state and the excited state. And so when
+I wrote that paper, I began to have some
+confidence
+that the correct way of describing
+decays
+is by having both
+the both modes at once because that's
+what PT symmetry requires.
+If if I may, let me tell you everything
+that I've told you in in in this
+interview
+has solved problems that occurred to me
+when I was a graduate student.
+>> Yes. Yes. And when I was a graduate
+student, I was being taught
+the grand laws of physics. We used a
+textbook by Messier uh which was
+excellent textbook. I I've used it when
+I teach it when I teach quantum
+mechanics. I had an excellent set of
+teachers Carl Levenson, Harry Lipkin,
+Eagle Tali, Amister Shalit. Um and I
+learned a lot of quantum mechanics from
+them. But I also as I was listening to
+them
+uh some things didn't sound right
+and I identified four different things
+well four and a half different things
+that didn't sound right. I'll tell you
+the half in a moment. The half was a
+discussion of the Heisenberg nonlinear
+theory with its indefinite metric which
+I I've told you how to resolve that
+through the work with with Bender. Um
+but the four things the first one was I
+said the following the Hamiltonian
+generates time translations
+parity generates space reflections
+time translations and space reflections
+commute. Doesn't matter which sequence
+you do them because they're acting on
+different things.
+>> Mhm.
+>> And therefore the Hamiltonian must
+commute with par.
+You see? And of course we knew that the
+weak interaction violated par.
+And I was told that there was an answer
+to that question which was originally
+suggested. TD Lee had thought about this
+and he said yes but when par acts on a
+left-handed neutrino
+it doesn't go anywhere because there's
+no right-handed neutrino and therefore
+the HP commutator isn't defined by the
+states. And I had two objections to
+that. One was who said there's no
+right-handed nutrino? We just hadn't
+found one as as of the time that the
+time that parity violation was
+discovered. And the second was there was
+there's a lambda baron which decays into
+a proton plus pi minus and it's parity
+violating and it doesn't involve
+nutrinos. So why should parity be
+violated in processes that don't involve
+neutrinos?
+So I was puzzled by that but I didn't
+know the answer. What did he say when
+you said that to him?
+>> Well, that was Well, I wasn't talking to
+TD Lee. I was just talking to my my
+professors at the Viceman. Oh,
+>> I see.
+>> And um well, they they agreed that there
+was an issue, but I I didn't know how to
+what to do about that. When I started to
+work on dynamical symmetry breaking, it
+occurred to me that par could be
+spontaneously broken,
+namely in the vacuum, not in the lrange.
+But to do that, I'd have to change SU2
+left cross U right cross U1 to SU2 left
+cross SU2 right cross U1. Make it chyro.
+And the only way I can make it chyal
+would be if there were right-handed
+neutrinos and right-handed currents.
+So now I have to spontaneously break it
+down to SU2 left cross U1.
+But it turns out that there was a way to
+do it and that is when you do the durac
+mass it's sy
+which links the right-handed firm with
+the left-handed firm.
+When you look at a myeronomass it's
+transpose CI with C is charge
+conjugation and that mixes right with
+right
+or left with left. So if the
+right-handed neutrinos got a
+myeronomass,
+you would break the right-handed sector,
+the right-handed nutrinos would become
+very heavy. The right-handed currents in
+the SU2 right would become heavy and
+you'd be down down to SU2 left cross one
+and then you could do the standard
+thing. So I realized
+that par is probably a good symmetry in
+the real world and there's another
+reason for doing this and that is if we
+take the strong interaction is QCD QCD
+has a global chyal symmetry
+and some of it is gauged and becomes the
+weak interaction
+but that made no sense to me. If you're
+going to gauge any of it, you'd have to
+gauge all of it.
+And therefore, for me, the weak
+interaction is the gauge of the strong
+interaction chyro symmetry.
+But that requires right-handed nutrinos
+exist.
+So the my my original concern was well
+par would take left-handed to
+right-handed. I said yes, but par gets
+broken even though that the right-handed
+nutrinos are the mechanism for breaking
+the par. And so everything ties
+together. Now it turns out that there's
+some evidence for this now because we
+have we found that the neutrinos that we
+see in nutrino oscillations are massive.
+Now the reason they're massive is if the
+two any states that are degenerate then
+any linear combination of them is is
+still degenerate. Therefore the only way
+you can get nutrino oscillations is if
+they're non- degenerate.
+and therefore at least one of them has
+to be massive if there's an oscillation.
+How would you make them be such small
+masses? Well, there's something called
+the seesaw mechanism which is a feed
+down from grand unified theories through
+the right-handed nutrinos.
+So the these very light particles get
+the square of the direct mass divided by
+the myeronomass of the right-handed
+neutrino. So right-handed nutrinos now
+are very much in vogue. Okay. So that
+was the first issue. The second issue
+was
+something very strange that I could not
+understand. The d the laurent group
+has firm the lens group is the
+fundamental group of nature. Its
+firmians are reducible into a
+right-handed vileon and a left-handed
+vilemion.
+>> So the direct firmian which contains
+both of them is reducible under the
+lorren group. And I could not understand
+how could the Lorent group which is the
+fundamental group of nature be reducible
+under the spin when the spin of half is
+the fundamental building block of
+nature. It didn't make any sense to me
+that something was wrong. But I as a
+grad student I didn't know what what
+else to do. So I I left it there.
+>> Oh wait just a moment. I'm not
+understanding the problem. Tell me the
+problem as you saw it as a grad student.
+Okay. The problem was the left and the
+right-handed firmians
+are independent representations of the
+Lorren group.
+They're not connected. No Lorent
+transformation can take you from one to
+the other.
+>> Mhm.
+>> So if you try to build a theory on
+left-handed firmians or a theory on
+right-handed firmians, those are
+disconnected theories as far as Lorren
+is concerned. But Lorren is the
+fundamental group of the universe at
+least was thought to be at that time.
+And therefore I would have expected that
+the firmians if they're the building
+blocks would have been connected by some
+transformation.
+>> Okay, except I didn't know anything
+about what it might be.
+When I started to work on conformal
+symmetry, I realized I told you the
+conformal group has these four five
+extra operators beyond the quenom
+pankor. Those five transformations mix
+the right and the left-handed firmians.
+In other words,
+the direct
+firmian four component and four cross
+four * 4 is 15 + one and we've got six
+lorren four translations one one
+dilitation and four conformal is 15. The
+draq spinner is the fundamental
+representation of the of the conformal
+group
+and therefore the conformal group which
+I've been using for gravity already I
+discussed that the conformal group must
+be the fundamental theory of the
+universe and it's the symmetry of the
+light cone. why I don't like super
+symmetry is super symmetry is not the
+symmetry of the light cone and that's
+why I didn't like it but conformal
+symmetry is the symmetry of of a light
+cone and therefore furians have to be
+four components and then there have to
+be right-handed neutrinos
+the neutrino could suddenly not be two
+component anymore
+question about right-handed nutrinos
+going way back to when I was in grad
+school gets resolved by the conformal
+true because it says right-handed
+nutrinos must exist.
+>> Now, if we're permitting right-handed
+nutrinos, then how's that not a
+candidate for dark matter? Because
+you're already excluding dark matter or
+salt dark matter.
+>> Oh,
+>> with a parameter.
+>> So, where are these right-handed
+nutrinos then?
+>> Well, okay. For the for the moment, uh
+they're out of reach. Um I'm sorry to
+have to say this and I'm I'm really very
+disappointed.
+um and that is I haven't yet come up
+with a theory that would give me an
+upper bound on the right-handed neutrino
+mass. I've only got lower bounds and
+those lower bounds are not achievable at
+the large collider
+and so that problem still is still open.
+I don't know. um right-handed neutrinos
+as a candidate for dark matter would
+have to have a much much smaller mass.
+They'd have to have maybe a KV mass or
+so on. But
+>> can I ask you a silly question?
+>> Sure.
+>> Of course.
+>> If the Higs is composite,
+>> yes.
+>> Do you believe the graviton then is also
+composite or is fundamental?
+>> It's neither. It doesn't exist.
+>> Man, talk about fighting words.
+Yes, going back to this conformal
+theory,
+when you quantize it,
+you find something very very strange and
+that is it's a fourth order theory. So
+you would say I'm going to have to have
+two gravitons
+because I' I've double the number of
+degrees of freedom. But there's a
+theorem due to Weineberg which says that
+if you have a spin 2 particle, it must
+couple through the Einstein tensor
+and therefore I can't I can't have I
+can't have that that occur. But there's
+a there's an escape clause and the
+escape clause is it requires that the
+the metric of that Hilbert space be
+positive definite.
+>> Now we said a moment ago, oh but I just
+showed you it wasn't negative definite.
+What I didn't tell you because it was
+unrelated at the time, it turns out that
+I get zero norm.
+And so what happens is the graviton
+becomes a zero norm state,
+not a positive norm state. And so you
+have gravitational radiation because
+it's a it's a coariant metric theory.
+But when you quantize the gravitational
+radiation, you don't get a particle.
+But even though we always did that with
+photons because that presupposed that
+you had a Hilbert space of positive
+definite a positive definite norm and
+Carl and I wrote a paper to show that in
+these fourth order theories you can
+actually get zero norm photo gravitons
+and so the result of that is that
+they're not observable. Now I'm going to
+say something which you should never
+quote me on. Well I've written it so
+I'll say it. It's possible that the
+collapse of the wave function is due to
+the emission of the zero norm gravitton
+that we don't connect that we don't uh
+observe.
+But um that's about as far as I've gone
+on.
+>> Well, on that question,
+>> this is interesting. I'm going to get
+you to go a tad further.
+>> Yes.
+>> Because there are two other theorizers
+that I see you be extremely close to.
+One is Tur Rock/Lam Boil which I'm going
+to just place as one theorizer and then
+the other is
+>> Roger Penrose. So taking the symmetries
+of the Ly cone extremely seriously also
+reminds me of Twister theory and then
+the love for conformal symmetry and his
+conformal cyclic cosmology is it also
+has a rhyme there. Now you saying that
+gravity make me connected to collapse
+also has a rhyme with Roger.
+>> Yes, of course. And there are so many
+other rhymes with Turac boil and that
+whole research program as well. So I'm
+wondering what is the relationship
+between these two broader research
+programs? I I have visited Neil and Leam
+in Edinburgh few summers ago and what
+they're doing is they have a CPT
+invariant universe
+which has the universe that we have and
+then there's a mirror there's a mirror
+reflection of it and that can get rid of
+the big bang singularity and that's
+exactly what Roger Penrose is doing as
+well because he has he has a cyclic
+universe and when I first started
+working on conform form of gravity I
+realized that it had a cyclic solution
+you see and that would have been the
+case if the curvature were positive
+but when I finally showed that the
+curvature was negative it's a theory
+which never has a singularity
+and the way the theory solves the
+fatness problem is by never being
+singular
+and so I mean roughly the following you
+write down a dot^2 + k is equal to row
+is the freerman equation
+uh row goes like 1 / a to the 4 1 / a
+the 4 blows up when a is zero a dot
+blows up when a is zero and k is
+irrelevant
+and that's the flatness problem so to
+get around that Allan goth puts has an
+exponential growth before then but what
+I do is I say ah yes but you've got the
+wrong equation it's a dot square plus k
+is equal to minus row and then there's
+no singularity
+and So then you've got one universe that
+lives forever
+with no big bang. And that means that in
+the early universe the the radius is
+finite. So that's a little bit different
+from what Penrose and and Tur Rock and
+Boiler do lean boy are doing.
+>> So there's no period of inflation.
+>> Uh no because you you never needed it
+because the uni if you look at the
+integral of dt over a of t and you take
+t a of t is t to the n. If n is less
+than 1, then the integral of dt / t is t
+is finite
+and that's the horizon.
+If you do dt /t,
+you get log t, which blows up at t
+equals z. If you do dt over e to the ht,
+it also blows up. It it also it also has
+no horizon. So you will get a horizon
+for any theory for which the expansion
+radius is t to a power greater or equal
+to one and exponential is certainly in
+that category.
+So you don't need to be exponential to
+solve the horizon problem and you don't
+need inflation inflation to solve the uh
+the flatness problem.
+Now I said before that inflation in the
+end doesn't solve the flattening problem
+because what it shows is that omega m
+plus omega k plus omega lambda is one
+that omega k is suppressed by this
+exponential expansion in the early
+universe. So you get that omega m plus
+omega lambda is one.
+Fine.
+However before you had lambda you had
+omega m equals 1. And therefore you had
+a prediction that the that the crit that
+the matter density of the universe was
+critical. The critical density being it
+equal to one. But when you have omega m
+plus omega lambda equals 1, you've now
+got a real problem because omega m a
+mega m is redshifting. Omega lambda is
+not. And they have to add up to one
+today. So this the.3 and the 7. So
+somebody had to adjust the very early
+universe 10 billion years ago. So that
+land such that the matter density would
+fall in such a way that it would just be
+catching up with that land would just
+catch up with it today. So you still got
+a finetuning problem which is called the
+cosmic coincidence problem. But
+inflation was introduced to get rid of
+finetuning
+and yet you still have a new you've
+solved the fin.
+So what was thought when the
+accelerating universe was was first
+observed, which was 28 years ago, it was
+thought that something would happen
+before inflation,
+which would be related to quantum
+gravity that would lock you into those
+values so that it would take 10 billion
+years before a mega lander could could
+build up to one.
+And so people looked to string theory to
+um to see if they could solve that
+problem. Can you show that there's a
+string theory very early universe
+pre-inflation which will lock you into
+the right values of omega m and omega
+lambda.
+Now of course that hasn't happened. Um
+people
+always say that string theory can't be
+falsified at ordinary temp at ordinary
+energies. You have to go to plank scale
+energies. But that's not true.
+We know that omega lander is 7. We know
+it's not 10^ the 120.
+Therefore, string theory has to explain
+why it's 7 otherwise it falsified. If
+string theory could come up with a
+number for a mega lambda and it turned
+out not to be 7, then then string theory
+is falsified
+and and that's at ordinary energies. So
+that's that's the challenge for string
+theory is to explain why it's not 10 to
+the 120. And for the moment it looks
+like the more natural thing to occur in
+in string theory is anti-deitter not
+ditter which would make a mealander
+negative.
+Now the there are that's not the only
+thing that can happen but overwhelmingly
+it looks like you get a mealander
+negative. And so that problem uh is
+still there. There's still a fine-tuning
+problem in in inflation even without
+string theory. And
+despite everything, omega m equals.3,
+omega lambda equals 7 really works
+remarkably well for the fluctuations.
+And so if I'm going to be able to get
+anywhere, I've got to I've got to
+recover those results.
+Otherwise, um otherwise I have a theory
+of nothing, not a theory of everything.
+Even with everything else I've done um
+with the dark energy, with the dark
+matter, with with the um w with with
+with the quantum gravity, with the with
+the PT theory, with all of that, I still
+have this problem of the fluctu I still
+have to solve the fluctuation. It's not
+it's not it's not that I can't it's not
+that I've calculated them and it didn't
+work. I I just have this problem that I
+have to do the calculation and that
+that's where I am at the moment. So,
+I've told you about two things that
+bothered me in grad school. the
+commutation of the Hamiltonian with par
+and the issue of the direct firm being
+reducible under the lorren group getting
+me to look for group and right-handed
+neutrinos but there were two other
+things that bothered me what are they
+>> okay we were we were told about the CPT
+theorem and we were told that it was a
+great success because it predicted that
+the K plus lifetime and the K minus
+lifetime were equal
+which they are so particle and
+antiparticle have the same lifetime
+which is a consequence of CPT.
+The only problem that I had with that
+was that the proof of CPT theorem
+required that the Hamiltonian be
+hermission and therefore neither the K
+plus nor the K minus would decay in the
+first place.
+So it just did not make sense to me that
+you could apply a theorem that you only
+establish for hermission Hamiltonians
+that you could apply it to decays.
+Now there was a related problem which is
+the fourth one which is we learned very
+early on that when you look at
+scattering in the scattering amplitude
+you find a cross-section which peaks
+when delta is pi by2 when the phase
+shift is pi by2 and you fit it with a
+bright vignner you continue the bright
+vignner into the complex plane and you
+get a pole and you identify that pole
+with a particle
+and how do we the particle data tables
+contained lots of resonances that have
+been observed by seeing peaks in the
+cross-section.
+Now the problem is
+you can't have an isolated complex
+value.
+You either have none or you have them in
+complex conjugate pairs because of CPT
+>> because because of CPT symmetry.
+So first of all I proved CPT theorem
+without heraticity only using
+probability conservation and then I saw
+that I needed a complex conjugate pair
+of solutions
+and then
+they would be
+they could be iggon states of the
+scattering Hamiltonian
+and now you will immediately ask me well
+don't I then get two resonances well the
+answer is no and it's Going back to what
+we said before, it's 1 /
+e - e1 - i gamma 1 minus 1 / e minus e1
++ i gamma 1. That's the propagator. And
+there's a minus sign in the middle.
+And when you add those two together, you
+just get one resonance where e when e is
+equal to e1.
+But if you added them together, you get
+more you get something totally
+different. So, it's the relative minus
+sign that gives you unarity. Except
+everybody tells you the minus sign means
+it's a ghost, but Carl and I had shown
+it wasn't a ghost in the first place. So
+now we can put in the relative minus
+sign. And that's the Hamilton that's
+exactly the propagator that Dra was
+using
+to try to get to get physics without
+dead wood. I think it was he was trying
+to get better behave behavior
+asmtoically. And um uh Lean Wick did the
+same thing. And so what Carl and I were
+able to show was that even with the
+relative minus sign, you still have
+unitarity.
+And you have to have it because I'm
+getting the complex conjugate pair
+because of probability conservation.
+And so if I have probability
+conservation, I must get unitarity
+because that's what unarity is. It says
+uh you have time independent evolution.
+Um, so all all of those things hang
+together. Um,
+so
+then I I came up with something very
+surprising and I only released this very
+very recently.
+I now go I went to the square well and I
+plotted that propagator that I just gave
+you 1 / E minus E1US I gamma minus 1 / E
+minus E1 plus I gamma.
+took the modulus squared to get the
+cross-section. I plotted the
+cross-section and it's a bell shape.
+Okay,
+>> which is a re which is a resonance and
+it's an exact resonance and you can fit
+it with a bright vignner but you have to
+fit it with a bright vignner with a
+different gamma with a different width
+and that's not the right width and
+that's what people have been doing and
+they've been fitting they've been
+fitting it with it with with this width
+um using the bright vignner and I'm
+saying is that that's not correct
+because the bright vignner was never was
+never an state of the Hamiltonian and
+you can see it in the following way. You
+take the square well. It's got a real
+potential. So you write down the sh the
+the value equation determinant of H
+minus lambda I equals Z.
+H is real if the potential is real. So
+that's a real equation. Real equations
+only have two kinds of solutions. Real
+or complex conjugate pairs.
+Therefore there must be complex
+conjugate pairs.
+And they must combine the way I just
+described with the relative sign in a
+way that still preserves probability
+conservation and give you a normal
+bell-shaped cross-section.
+And that's and that's that's then a real
+life elementary particle. And so what
+you have is you send in a wave you send
+and you get scattering of of two
+particles and then the the Hamilton the
+cross-section grows like e to the plus
+gamma gets to the peak and then it falls
+like e to the minus gamma. So you need
+both effects to produce the one peak and
+that's basically the same thing that I
+was describing about a frame Steinberg's
+uh experiment. It's the same idea. The
+time the time delay and the time advance
+organ cancel each other.
+>> Have you spoken to Steinberg?
+>> Uh no no not not not yet not not as of
+yet. Um so that's so you can see that
+things that I was worried about in
+graduate school um I I discovered that
+that there were actual answers to them
+which were not the answers that could be
+given at the time and that they've
+really tied in w with everything that
+I've been doing and I've really followed
+my nose in a way. Um I wanted to get
+control of the conform of the
+cosmological constant. I went to
+conformal symmetry. I solved the theory.
+I found I could get rid of dark matter.
+I applied it to the accelerating
+universe. I found that I could um I I I
+could fit it without fine-tuning. I
+applied it to the early universe and
+found that I had no horizonal flatness
+problem.
+And then when I quantized it, I found
+that it was a PT theory,
+which again I didn't know at the time I
+started working on it. And all of this
+is just it's sort of flowed
+automatically from from one step to the
+next. Do you have any idea as to how the
+Higs acquires its dynamical mass?
+>> Oh yes. Um okay.
+When you look at electronamics
+with uh a fixed point then you get scale
+invariance with anomalous dimensions.
+And so the firm propagator scales as p ^
+2 to a power. That's what anomalous
+dimensions mean. You get scale in
+variance with a with a power. If that
+power is negative,
+then you can show that the bare mass is
+zero.
+That's the same condition. But as you
+make the power more negative, you make
+the theory more convergent in the
+ultraviolet, but you at the same time
+make it more divergent in the infrared.
+And when it comes down by one whole
+unit, the infrared divergences become so
+severe that they force you into a
+different Hilbert space
+and that's that's the mechanism
+and then the electron mass is dynamical.
+So if you like when I first started
+thinking about this you know there's
+this idea that goes back to point of how
+do you stabilize an elect um an electron
+if it's if its energy if MC² is E^2 over
+R namely if itself energy is entire mass
+and point introduced the point array
+stresses
+those stresses are coming from the
+vacuum
+so in a sense this This dynamical theory
+that I described to you is really a
+theory of of point stresses
+and then and then and then the mass the
+massive electron is stabilized. Now what
+about when it comes to dark matter the
+evidence for it isn't just rotation
+curves
+>> of course. Of course
+>> so what about say collisions galaxy
+collisions or
+>> okay
+>> other structure formations or cluster
+dynamics etc or lensing? Okay, the
+fluctuation theory that I'm working on
+will address the anisotropy in the CMBB
+and will address a large scale
+structure. Whether it'll do it correctly
+remains to be seen. However, the issue
+of gravitational lensing is much more
+subtle. You see, you just take the
+lensing formula in a standard textbook
+like like Weineberg's book that
+presupposes that the light is coming in
+from an asmtotically flat geometry
+because that's a standard Schwarz
+geometric.
+Now if I have a linear potential
+light is not coming in from an
+asmtoically flat geometry and the whole
+calculation has to be revised and
+there's a spirited discussion in the
+literature as to what is the correct
+gravitational lensing formula
+um when you have a non-asintoic
+geometry. Now you might say, "Oh, but
+what about the sun? How how do how do we
+get gravitational bending by the sun?"
+And the answer is we never measure
+gravitational bending by the sun.
+What we do is we measure the light
+without the sun and then 6 months later
+the light passes the sun. We're
+measuring the difference.
+>> Uhhuh. And in the difference the
+background drops out.
+So we're not measuring the trajectory of
+a photon as it goes by the sun. We're
+measuring the change in the trajectory
+as it goes by the sun. Those sounds the
+same. Can you tease out the difference
+for me, please? Okay. The calculation of
+the bending of light by the sun is the
+bending in the local geometry.
+And it's you're doing two measurements.
+One with the sun in the way and the
+other with the sun not in the way. And
+you're measuring the difference.
+>> Mhm.
+>> The difference. It didn't matter what
+was going on away from the sun. That's
+the same in both cases. So it drops out
+in the difference. So the bending by the
+sun is a difference experiment.
+Lensing by a galaxy due to a distant
+quaison the light coming by. It's it's
+you're seeing the entire trajectory.
+>> Okay?
+>> In other words, you can't do the
+experiment with the with with the
+cluster of galaxies out of the way. So
+it's not a difference and that's why
+it's that's that's why it's different
+and that's why it's become so so very
+complicated.
+Um, and I'm I'm fully aware of that.
+Uh, yes, there's there's many more
+things I I I still have to do. Let me
+ask you to wrap up a personal question
+if you don't mind.
+>> Sure.
+>> I'm sure as you're developing this
+theory, as you've have developed this
+along with your collaborators over the
+past couple decades.
+>> Yeah.
+>> That you've encountered criticisms of
+various sorts. Like you mentioned a
+ghost and what about this and what about
+that and what about like some that I've
+thrown at you today. But I'm also
+curious if you've received more than
+just criticism, more like derision that
+what are you doing? You're a fool for
+working on this. This is obviously down
+the wrong path or something like that.
+>> Well,
+maybe.
+>> Well, I don't know if I'll even put this
+part in, but I noticed from running this
+channel that people who have their own
+theory, they tend to look down at other
+theories. It's not just mere critique at
+at some sort of scientific level.
+>> Yes, I I get a lot of resistance. Let me
+put it this way. Everything I've written
+eventually gets published, but it puts a
+demand on my nervous system to get it
+published.
+You see, I mean, in bad enough that I'm
+working on an alternate gravity theory,
+but I've also given up hermiticity.
+So, so I'm getting I'm getting a I'm I'm
+getting flack from every direction. But
+the one thing that saves me is tenure.
+Tenure allows you to work on any problem
+you want. Yeah. But I I've only I've
+followed this theory because in I tried
+to describe it to you in this interview.
+I've just followed the steps one after
+the other and that's where it's led me.
+It's not that I've I've never invented
+anything. I've I've just taken the
+theory and solved it to see what it
+looks like. And I mean, I can tell you
+now, but these some of these things take
+years to figure through,
+but once you figure out it's very simple
+to to describe it, but it's I've not
+gone off in different directions. And
+look, I mean, you start out with the
+standard theory. It doesn't work for
+galaxies, so you invent dark matter. It
+doesn't work for cosmology. You invent
+dark energy. It doesn't work for quantum
+theory, so you invent string theory. But
+you keep on patching it up. I haven't
+done that. I've just taken the theory
+and I've solved it. And and it'll take
+me wherever it'll take me. And I have no
+no control over that. And then I I fit
+data. I mean, I shouldn't be fitting all
+this data if I'm so completely on on the
+wrong track.
+The reason I laughed is just because I
+thought you were going to say, "What
+saved me, Kurt?" And you were going to
+say something ethereal, and you're going
+to say, "The Dax's confidence saved me,"
+or "The Llassian saved me over the
+pluson." Yeah.
+>> Or, "My wife saved me." Or something
+like that. Then he says something
+extremely practical.
+>> That's not true.
+>> Tenure.
+>> That's not so true. Tenure is is the
+thing. I mean, it's
+>> it gives you the freedom to work on
+things that your colleagues don't
+approve of.
+Whereas if you're not tenured and you're
+seeking tenure, you have to work on
+mainstream physics.
+You you will never get hired if you
+don't work on mainstream physics. But
+once you get hired, once you get tenure,
+you're free to work on non- mainstream
+physics. Now, I would not choose to work
+on non- mainstream physics if I didn't
+think the mainstream physics was I
+wouldn't choose to work on non-
+mainstream physics. I didn't think the
+mainstream physics were getting nowhere.
+I mean, you know, you you have the dark
+matter problem, the dark energy problem,
+the quantum gravity problem, and you
+just you proceed as as though you can
+ignore them.
+And I don't understand I I don't
+understand why people would do that.
+But I'll I'll tell you I I'll tell you
+the difficulty that I have and it's
+this. I gave a talk once. I I give talks
+to to community groups. I get gave a
+talk to a middle school some middle
+school children and I asked them who
+knows the name of a scientist. Every
+hand shot up and they all said Einstein.
+And then I said who knows the name of
+another scientist? Total silence.
+And that's that's the danger of of
+challenging Einstein.
+>> But I'm not challenging him. I'm I'm
+taking what he's done and I'm looking at
+where there are issues that could still
+be addressed. I don't mind if you don't
+like what I've done, but you've still
+got to address the issues I've raised.
+Professor, what advice do you have for
+students who are watching?
+>> Uh,
+well,
+don't trust experts.
+You know, Vner was once asked, "What's
+the definition of an expert?" And he
+said, "It's the person who's made the
+most mistakes in the field."
+And I think that's true. I mean, physics
+is we we make mistakes. And and don't be
+worried if you make mistakes. Trust your
+own judgment.
+Uh I also tell everybody um don't work
+on conformal gravity until you get
+tenure.
+>> I think that's the that's the more
+practical advice there. again,
+>> practical advice. But the um
+by the way, I say that a bit cheekily. I
+do hope people look into your theory and
+I'm going to place many of your papers
+on screen and in the description so the
+researchers who are watching can inform
+themselves.
+>> Yes. Okay. Um what I wanted to say was
+while we have this grand dark matter
+edifice
+there's an undercurrent of
+dissatisfaction with it.
+I mean it's it's been going on now for
+40 years and they they keep on not
+finding anything
+and
+uh you know nobody's given up yet. I
+mean there are no there are no time
+limits in physics. It may take a hundred
+years to find it. you know that's the
+way the physics works but nonetheless I
+think that people are dissatisfied
+but not ready to not ready to jump
+and if and if this goes on um
+I mean John Mford and myself um
+Monty Mgram are uh you know we're we're
+really out in left field and uh whether
+people would ever join bonus remains to
+be seen. But we're fairly it's not just
+that we're against dark matter. We have
+developed theories to deal with the
+absence of dark
+and that's the that's it's not just
+words. I mean and you know the standard
+people have have really got to come up
+with with with one of these formulas
+either the MOG or myself or the man
+formula and derive it from lander CDM.
+You can't just say that, you know, what
+we're doing is nonsense. I'm saying
+fine, but the data don't think so.
+And you know, physics, maybe I can give
+another answer to you. In the end,
+physics is an experimental science.
+And I've always said that the number of
+wonderful mathematical theories
+exceeds the number of physically
+relevant theories by n minus one.
+So don't be too seduced by the
+mathematics. You've got to keep data in
+mind. I I when I did my PhD, I did did
+it with um phenomenologist named Oria or
+it was a vitamin institute in Israel and
+that's what I learned from him. Always
+keep an eye on data.
+Nature will tell you what to do. It's
+you you should not you can't proceed
+without nature. Let let me explain. You
+take the rotation group and and it's
+designed for integer spin. Well, it has
+half in half integer spin
+representations,
+but that doesn't mean they exist.
+They may exist, they may not exist. The
+rotation group alone will not force them
+to exist. Uhhuh. You see what does force
+them to exist by the way is the
+conformal group. Uh
+because then four component firmians
+becomes the fundamental representation.
+So mathematics will take you so far and
+that's that's the language of physics.
+That's that's what we do. But you've
+always we should never lose sight of
+data. And that's what I tell my students
+is never lose sight of data.
+Nature will keep you nature will keep
+you honest.
+>> Professor,
+thank you for spending so so much time
+with me.
+>> And I hope you enjoyed it and I know the
+audience enjoyed it.
+>> It was and is an honor. Thank you. Thank
+you very much for inviting me and uh for
+giving me an a chance to explain what
+I'm doing. It's basically my entire
+career. I've been doing this since since
+1972.
+Hi there, Kurt here. If you'd like more
+content from Theories of Everything and
+the very best listening experience, then
+be sure to check out my Substack at
+curtjongle.org.
+Some of the top perks are that every
+week you get brand new episodes ahead of
+time. You also get bonus written content
+exclusively for our members. That's cur
+t a i m u n g a l.org. You can also just
+search my name and the word substack on
+Google. Since I started that Substack,
+it somehow already became number two in
+the science category. Now, Substack, for
+those who are unfamiliar, is like a
+newsletter, one that's beautifully
+formatted. There's zero spam. This is
+the best place to follow the content of
+this channel that isn't anywhere else.
+It's not on YouTube. It's not on
+Patreon. It's exclusive to the Substack.
+It's free. There are ways for you to
+support me on Substack if you want, and
+you'll get special bonuses if you do.
+Several people ask me like, "Hey Kurt,
+you've spoken to so many people in the
+field of theoretical physics, of
+philosophy, of consciousness. What are
+your thoughts, man?" Well, while I
+remain impartial in interviews, this
+Substack is a way to peer into my
+present deliberations on these topics,
+and it's the perfect way to support me
+directly. Kurtjongle.org or or search
+Kurtj Mongle Substack on Google. Oh, and
+I've received several messages, emails,
+and comments from professors and
+researchers saying that they recommend
+Theories of Everything to their
+students. That's fantastic. If you're a
+professor or a lecturer or what have you
+and there's a particular standout
+episode that students can benefit from
+or your friends, please do share. And of
+course, a huge thank you to our
+advertising sponsor, The Economist.
+Visit economist.com/toe
+to get a massive discount on their
+annual subscription. I subscribe to The
+Economist and you'll love it as well.
+Toe is actually the only podcast that
+they currently partner with. So, it's a
+huge honor for me and for you, you're
+getting an exclusive discount. That's
+economist.com/toe.
+And finally, you should know this
+podcast is on iTunes, it's on Spotify,
+it's on all the audio platforms. All you
+have to do is type in theories of
+everything and you'll find it. I know my
+last name is complicated, so maybe you
+don't want to type in Jaungle, but you
+can type in theories of everything and
+you'll find it. Personally, I gain from
+re-watching lectures and podcasts. I
+also read in the comment that toll
+listeners also gain from replaying. So,
+how about instead you relisten on one of
+those platforms like iTunes, Spotify,
+Google Podcasts, whatever podcast
+catcher you use, I'm there with you.
+Thank you for listening.

@@ -1,0 +1,3067 @@
+I think the biggest thing humanity never
+learns is the older generation lamenting
+about the future generation as if the
+future generation doesn't know anything.
+They're rude. They're they're they're
+forgetting the past. But if you look at
+arc of history, of humanity, by and
+large, we advance for the better. Now,
+I'm not denying the atrocities. I'm not
+denying the setbacks. I'm not denying
+this. But fundamentally I'm a optimist
+in humanity. I look at kids, they're
+curious. Of course, they get massively
+entertained by this technology, but they
+also are starting to use it. What I
+worry about are teachers and some
+parents because I think our society
+today and especially Silicon Valley are
+not doing them a service. We're
+forgetting about them.
+Hey everyone. To celebrate the launch of
+my new book entitled Protocols, I'm
+pleased to share that I'll be hosting
+three live events very soon. The first
+live event is in New York City at Radio
+City Music Hall on September 17th. The
+second event is in Los Angeles at the
+Dolby Theater on October 8th. And the
+third live event is in San Francisco at
+the Masonic on October 28th. At each of
+these events, I'll be discussing topics
+from the book and my favorite part,
+taking questions directly from you, the
+audience. To get tickets, you can go to
+hubermanlab.com/events
+and use the code protocols to get early
+access. Again, that's
+hubermanlab.com/events
+and use the code protocols to get early
+access to tickets. Welcome to the
+Hubberman Lab podcast where we discuss
+science [music] and science-based tools
+for everyday life.
+[music]
+I'm Andrew Huberman and I'm a professor
+of neurobiology and opthalmology at
+Stanford School of Medicine. My guest
+today is Dr. Fay Lee, a computer
+scientist and professor at Stanford and
+one of the pioneers and luminaries of
+artificial intelligence and computer
+vision. As you all know, millions of
+people use AI chat bots to look up
+information every single day. And of
+course, many people are concerned about
+AI, where it's going, and how it might
+replace certain human jobs or degrade
+our experience of life in one way or
+another. Today we discuss from a
+neuroscience perspective what
+intelligence really is and the ways that
+AI can and is being used for good
+meaning to truly enhance learning health
+and to enrich rather than diminish the
+human experience. We start off by
+talking about how human brains of all
+ages learn new information. What rules
+the brain follows in that process and
+how AI because it is based on the
+content of the internet both resembles
+and falls short of what human brains can
+learn. and we discuss exciting uses of
+AI and robotics in medicine. To be
+clear, FFE acknowledges and addresses
+the many valid concerns about AI. But as
+the director of the Stanford Institute
+for Human- Centered Artificial
+Intelligence, her goal is to make sure
+that humans and humanity at large are
+represented in where AI goes next. As
+you'll soon hear, Dr. Fa Lee is an
+extraordinary scientist and educator.
+She has been called the godmother of AI
+for her ushering in of AI technologies,
+but also for her insistence that the
+ethics and benevolent uses of AI stay
+central to AI and robotics. So whether
+you are young or old, today's
+conversation will inform and empower you
+to understand and use AI in ways that
+truly benefit you and enrich your life.
+Before we begin, I'd like to emphasize
+that this podcast is separate from my
+teaching and research roles at Stanford.
+It is however part of my desire and
+effort to bring zero cost to consumer
+information about science and science
+related tools to the general public. In
+keeping with that theme, today's episode
+does include sponsors. And now for my
+discussion with Dr. Fay Lee. Dr. Fay
+Lee, welcome.
+>> Thank you. I'm excited to be here,
+Andrew.
+>> Yeah, this is a long time coming. And
+yes,
+>> you are a luminary in this AI field, but
+I also consider you a neuroscientist and
+computer scientist, and we share a
+common path through vision science. And
+so I'd like
+>> and fellow colleagues
+>> and fellow colleagues at Stanford. So
+I'd like to start in vision. What is so
+special about vision and seeing and
+light as it pertains to AI and where
+it's all going? Because I think for most
+people those probably sound like very
+divorced themes but actually that's
+where it all starts.
+>> Yeah. I see vision as a cornerstone of
+intelligence in almost two parallel way.
+One is what evolution has taught us. You
+know what's the evolution of vision and
+animal intelligence and human
+intelligence. The other one is computer
+vision and AI what that relationship is.
+So I'll go into each evolution. I always
+say that 540 million years ago animals
+saw the first light. These are simple
+sea ocean animals, trilobytes and and
+the the cousins. And before that there
+was very little sensing. Uh around that
+same time tactile and haptics was
+starting also to emerge in animal bodies
+but but there was no hearing. There's no
+you know smelling there's no but there's
+absolutely no nervous system. But the
+first photoreceptive
+cells created a evolutionary force that
+propelled animals to evolve because
+sensing the external world changes your
+self-perception changes the way your
+relationship with the external world. To
+put it simply, if you seek you can see
+food, it changes your your life, right?
+from a evolution point of view and you
+become someone else's food and also
+you're actively seeking food. You're
+actively seeking mates and and and all
+that. So really because of sensing and
+perception evolution took a incredibly
+accelerated pace in terms of uh animal
+speciation. Fossil studies have told us
+that 10 million years after the first uh
+light for animals
+was what we call the the big ban of
+evolution or Cambrian explosion of
+animal speciation. And fast forward I
+think vision has always played a huge
+role in not only in the early evolution
+of animals but as well as um advanced
+intelligence and how that emerged. You
+and I are both vision student and and
+scientists. It is estimated half of the
+cortical AC activities in human brain is
+involved in visual function.
+Children were first visual before they
+were verbal in development. So vision
+really to this day plays a central role
+in both the evolution of animal
+intelligence as well as in the daily
+life of human human life. Now in
+parallel, vision as a uh as a discipline
+or as a area of uh artificial
+intelligence was really played a pivotal
+role in what we see as this modern AI
+moment in a couple of ways. First of all
+is the the uh algorithms the neuronet
+network algorithms. Neural network
+algorithms were first computer
+scientists start dabbling that in the
+early 1950s.
+And [snorts] Andrew, you might remember
+what's happening on the neuros side in
+the early 1950s
+is that neuroscientists like Hubo and
+Viso were starting to record visual
+cells in malian brain and starting to
+realize there is a hierarchical
+structure of nervous cells that stack
+against each other and pass
+neuroinformation
+across these hierarchy. And it goes from
+you know collecting light from retina
+all the way to recognizing there is a
+shape in front of you. And that very
+neuro architecture that we see in
+mamalian brain is also part of the
+inspiration of neuronet network
+algorithm. Now today's neuronet network
+algorithm runs on hundreds of billions
+and even trillion of parameters. It has
+the complexity that departs from what we
+recorded in the mamalio uh brain or the
+visual pathway but the origin is very
+close to each other about half a century
+ago um a little more than half a century
+ago. That's one aspect of uh vision's
+contribution to AI. There is another
+aspect of vision's contribution to AI
+that is also pivotal which is through
+big data is that that comes closer to my
+own work is that AI around the century
+was a field of machine learning a lot of
+different labs different research
+scientists were were trying out
+different algorithms and it's not just
+neuronet network there are other methods
+jargon words like Beijian methods,
+support vector machine methods. It
+doesn't matter what these methods are,
+but it's a explorative phase that we're
+trying to get these algorithms to work
+so that we can empower the machine to
+read or to see. A group of us computer
+vision scientists
+were struggling with these algorithms
+and uh I was a very young faculty
+um first year faculty 2006 at Princeton
+and my students and I are looking at
+these algorithms and how little data
+were fed into these algorithms to learn.
+So I turned to cognitive neuroscience
+literature per namely vision literature
+and started to study how much humans
+learn, how much humans can see and the
+numbers were incredible. Humans were by
+age six can learn tens of thousands of
+different object categories and the
+exposure to visual world is also
+massive. Right? babies can see the mo
+most of the time the moment they're
+born. So they're inundated with this big
+data. So we conjectured that the lack of
+data was a huge part of the reason
+that's the lack of progress in AI. So we
+took a departure from everybody else who
+are really focusing only on algorithm
+and said that we need data. we need data
+to drive these algorithms. So long story
+short, we led this um image that project
+that collected the first ever internet
+scale large data set for the field of
+artificial intelligence, but really
+through the field of vision because
+imageet is a collection of 15 million
+images. And the goal of imageet was to
+drive machines to recognize everyday
+objects, you know, microphones, cups,
+chairs. And that work converged with the
+advances in neuronet network algorithm
+as well as in GPU computing. And by 2012
+that work uh that the convergence of the
+three elements of modern AI became the
+defining moment
+of what um what modern AI is. I recall
+somewhere around 2012 it seems there was
+this debate at this vision course at
+Cold Spring Harbor that was held every
+other summer like could a computer learn
+to recognize specific faces as well as
+humans. Now I think most people would
+say computers are actually much better
+at it than humans are even though you
+have these super super recognizer people
+who are exceptional at this.
+>> Could you tell us how is it that this
+technology went from
+a state basically where it would confuse
+you and maybe a a a cousin or or even
+someone that looks somewhat like you
+could
+>> or to the point where uh to the point
+where now it is exquisitely precise.
+>> How do we get here? I want to definitely
+double triple click on the convergence
+of this technology. I think around the
+second decade of 21st century. So like
+you said around 2012
+the the huge convergence was the
+capability of GPU computing which
+basically accelerated or parallelized
+computing so that you can have more
+flops going through algorithms right you
+need that speed then you also have a um
+after many decades of research neuronet
+network algorithm them is getting more
+mature. Um you know starting as we said
+1950s people start to um create these
+very simple algorithm that behaves
+similarly to neurons but much simpler.
+Neurons as you know are very complex but
+here the idea is that you have one unit
+of node that takes some some input and
+outputs another input and within it it's
+just a function a very simple function.
+So you stack them together. That's what
+neuronet network is. But by by the time
+it's in the um after you know around 20
+uh 2010ish the maturity of these
+algorithms have have gotten to a level
+that it's it's becoming really good. But
+also last but not the least the
+recognition of big data. Internet
+definitely fueled that. It made data
+more available. But the reckoning moment
+of wow big data needs to be part of that
+equation. We need to use big data to
+drive these algorithm to learn these
+patterns. So this convergence of these
+three things really set off um the the
+the
+revolution of AI. The specific moment is
+also worth mentioning because you
+mentioned face recognition is this image
+net challenge. My lab put forward that
+starting 2010 after we collected this
+humongous data set, we at that point GPU
+was not yet mature uh and and uh we put
+out a uh public challenge for the
+research community uh for for multiple
+years in a row and invited people to
+solve this major computer vision problem
+called object recognition. The task was
+very easy. We have a data set of a
+thousand different categories of objects
+and this data set is more than a million
+images large. It's what we call the
+testing data set and uh the task for the
+algorithm is I'll show you a picture.
+You have to name the the main objects
+inside and if you guess right you're you
+you get a point. If you guess wrong you
+don't get a point. So that image that
+challenge uh we later a couple of years
+later benchmarked human performance by a
+very smart graduate student at Stanford
+and that was roughly 4%. So random
+chance will be one over a thousand
+>> right? So 4% for humans is not that bad.
+The first few years machines were not as
+good as humans. The turning point was
+2012 the convergence of neuronet network
+image net data set and GPU even that
+year even though the error rate was was
+cut um to oh by the way the human
+performance error rate was 4%. Sorry I I
+need to correct that the error rate was
+cut down to to the teens. It wasn't
+where human performance was. So this is
+looking at images and and assigning a a
+a
+>> one out of a thousand labels.
+>> Got it.
+>> Yeah. But 2012 was so momentous that
+year because the error rate from
+previous algorithm dropped a lot by this
+neuronet network algorithm. And we know
+in the research community when something
+this drastic happens it it means a
+inflection point. But it still took
+another
+three years I remember by 2012 2016 for
+the algorithm to beat humans in in
+naming a thousand objects.
+>> Could I ask you where this 4% error is
+coming from in this very smart graduate
+student? Is it that they don't recognize
+the objects or it's a recognition
+against time pressure? like they have to
+they're being fed images fast enough
+that occasionally they do an incorrect
+assignment.
+>> I don't think the time pressure was the
+main issue even though for a graduate
+student to do this I don't think they
+want to do this forever. Um but I think
+you know the the human brain as you know
+has limited memory whether it's
+long-term or short-term right so
+retaining the patterns of a thousand
+object classes even if some classes
+you're you're familiar is is not that
+easy
+>> you know so so I think there is the
+confusion and and also for example
+different species of dogs gets really
+close.
+>> Mhm.
+>> And that that's a challenge.
+>> I'd like to take a quick break and
+acknowledge our sponsor, Lingo. Lingo is
+an everyday wearable that tracks your
+glucose 24/7. Glucose drives a lot of
+key processes that support energy, body
+composition, and long-term health. When
+glucose is constantly spiking and
+crashing, that's where we can start to
+see metabolic dysfunction. And over
+time, that can even progress to
+pre-diabetes. Right now, about 115
+million adults in the US have
+pre-diabetes. Most don't know it, and a
+higher percentage of men have it than
+women do. Often, there aren't clear
+symptoms of pre-diabetes early on, so
+people don't tend to look into it. But
+the fact is that metabolic health is
+shaping how your body functions every
+day, whether you feel it or not.
+Tracking your glucose with Lingo can
+help you see how food, activity, and
+stress impact your glucose throughout
+the day. I personally have used Lingo
+and it's been an invaluable tool for
+improving my metabolic health. If you
+would like to try Lingo, Hubberman Lab
+listeners in the US and UK can save 10%
+on a four-week plan. Just visit
+hellolingo.com/huberman
+for more information. Terms and
+conditions apply. Again, that's
+hellingo.com/huberman.
+Today's episode is also brought to us by
+Wealthfront. In today's financial
+landscape of constant market shifts and
+chaotic news, it's easy to feel
+uncertain about how to save and invest
+your money. Wealthfront is the solution
+that helps you take control of your
+money while managing risk. For nearly a
+decade, I've trusted Wealthfront to
+navigate this volatility. With the
+Wealthfront cash account, I can earn
+3.3% annual percentage yield or APY on
+my cash from program banks. And I know
+my money is growing until I'm ready to
+spend it or invest it. One of the
+features I love about Wealthfront is
+that I have access to instant no fee
+withdrawals to eligible accounts 24/7.
+That means I can move my money where I
+need it without waiting. And when I'm
+ready to transition from saving to
+investing, Wealthfront lets me
+seamlessly transfer my funds into one of
+their expert-built portfolios. For a
+limited time, Wealthfront is offering
+the Huberman Lab audience an exclusive
+75% APY boost over the base rate for 3
+months, meaning you can get up to 4.05%
+05% variable APY on up to $150,000 in
+deposits. Over 1 million people already
+trust Wealthfront to save more, earn
+more, and build long-term wealth with
+confidence. If you'd like to try
+Wealthfront, you can go to
+wealthfront.com/huberman
+to receive the boost offer and start
+earning 4.05% variable APY today. That's
+wealthfront.com/huberman
+to get started. This is a paid
+testimonial of Wealthfront. Client
+experiences will vary. Wealthfront
+brokerage is not a bank. The base APY is
+as of January 30th, 2026 and subject to
+change. For more information, please see
+the episode description.
+I can see the rationale for doing this
+in the vision domain. But has a similar
+thing been explored with hearing with
+sounds? I mean, it's, you know, as
+humans, we we are amazing at recognizing
+speech inflection, emotional tone,
+things like that. But if I had to
+discriminate, you know, even 15
+different sound frequencies, I can tell
+you as a non-m musician, um, it would be
+very difficult for me.
+>> Absolutely. I think that what you see is
+the floodgate got open and every sub
+area of AI whether it's speech
+recognition sound recognition uh natural
+language processing which more than
+recognition uh vision all areas got
+really a boost in terms of the
+technology we have colleagues at uh
+Stanford who are studying whale sound
+right uh whale songs using machine
+learning and AI AI now and speech
+recognition is another area that did so
+well in the early days of this AI
+revolution and of course the technology
+continues to um advance by the time the
+transformer paper was uh published
+around 2016 2017 it quickly showed that
+it is even more powerful than the early
+imageet AlexNet algorithm there it was
+not the field of computer vision that
+made the next big uh progress. It's the
+field of natural language processing. So
+because the recipe hasn't changed now we
+have a even more powerful neuronet
+network algorithm called transformer but
+we have even more data on the internet
+from at least more readily available
+data on the internet in the form of
+texts and now we have more powerful
+GPUs. So companies like Open AI and
+Google quickly rallied beyond this this
+very important technology and um it
+still took
+about 5 years from
+2017 to 2022 to get to the chat GPT
+moment in natural language. But that's
+yet another step forward. So I think for
+people who are not computer scientists
+nor neuroscientists, the um natural
+human uh experience will perhaps
+resonate with them and and maybe I can
+just frame my question through that
+lens. So when a child learns that
+there's something called a kitty cat,
+they go, "Oh, cat." Then they usually
+drop the kitty part. They may say kitty
+and then they learn cat.
+>> And if they have enough interactions
+with a cat, they'll realize what a cat
+is. Even if they see it from the side,
+from the back, and eventually if they
+see a tail that looks a little bit like
+a cat and it's, you know, behind some
+books, you say, "What is that?" They're
+very likely to say cat. Even if they've
+also seen foxes and other animals with
+tails, just based on their experience,
+they're making a probability judgment.
+And that's essentially what uh AI can
+do. That's essentially what machine
+learning can do. Mhm.
+>> But it seems to me that there's a key
+moment that had to happen in the
+progression of, you know, from
+calculators to the AI we have now to be
+able to see an image of a tail and make
+the reasonable assumption that it's most
+likely a cat if it's indoors or
+something like that because foxes
+generally aren't indoors. This sort of
+thing. So, at what point did machine
+learning and AI gain the ability to do
+kind of contextual learning and come up
+with the most likely assignment of what
+something is? Because it's one thing to
+show apples and bananas and oranges,
+they're all fruit. Okay, you could
+distinguish them. You could distinguish
+those from cars and trucks, etc. But
+this object constancy piece
+>> that if something is moving, you're only
+getting a partial image. This isn't what
+most people think of in terms of
+intelligence, but it's part of what
+makes our brains and the brains of other
+animals, but especially our brains so
+remarkable
+>> and why we consider ourselves
+>> probably the smartest species on earth
+and if not the smartest and certainly
+the best at technology development.
+>> Yeah.
+>> So when did AI achieve this and how was
+that scripted into these computers to
+allow them to do that? So let's just
+take the problem very you you have
+described it so well this problem of
+seeing a glimpse of a cat tail and being
+able to recognize cat right or or or a
+sign of high likelihood there is a cat.
+The interesting thing is Andrew
+generations of
+machine learning computer scientists
+have tried this problem. So before today
+that machines can reliably do it there
+were different algorithm you know you
+can imagine a common sense way of
+thinking about this is oh maybe we
+should recognize all the furniture to
+know it's a indoor so it's unlikely to
+be a fox. So though there are rules like
+that that it was built into uh previous
+generations of algorithms, there are
+also rules like well let's only instead
+of guess it's a cat, let's only guess
+one out of the 10 potential animals, you
+know, cat being one of them. That limits
+the the the the search or guess uh space
+and that would help. So many ideas were
+tried.
+So when was the moment it became much
+more reliable is this current era when
+the huge data that these algorithms have
+learned let's take Gemini or GPD uh have
+learned really created the capability in
+the machines uh uh learned space so much
+knowledge so much pattern that when
+presented with this more or less maybe a
+newish
+photo of a cat's tail sticking outside
+of a bookshelf. That pattern activated
+the learned what we call learned weights
+or learned parameters that put put the
+machine's um assessment or or guess of
+this this object closer to what it has
+seen which is likely to be a cattail or
+or just tail because there's just so
+much data. Got it. This is where Andrew
+as neuroscientists I think we depart
+from human brain because that child who
+learns about what you say kitty cat
+would not have the chance to download
+the internet of images of cat. They
+likely have seen three cats, 10 cats at
+most,
+but yet they're able to identify that
+tail as a cattail instead of a fox tail
+through a different kind of learning
+pathway. These are the mysteries we
+haven't fully solved. But I I do want to
+point out that departure between today's
+AI algorithm that is learned with the
+humongous amount of data versus how uh
+humans have evolved. If we continue to
+um ascend the kind of hierarchy from
+simple object recognition to what you
+and I would call higher order brain
+functions like moving more towards what
+most people they hear the word
+intelligence and they just think oh it
+must be some higher order thing
+creativity imagination. Let's go to um a
+middle step and then a and then a much
+further step out. So staying with the
+cat example, if a computer or a child
+learns to recognize a cat through the
+tail, the whole thing, whatever, and
+they've seen a cat move, it's a very new
+world at that point for that brain, that
+child or that computer
+>> because now
+they know that the cat generally moves
+in the direction of its head, not its
+tail. These are simple simple learning
+rules, right? It might go after mice,
+but it might run from dogs. Maybe yes,
+maybe no, and on and on. And so it seems
+that the next layer up in terms of quote
+unquote intelligence is to assign
+likelihoods of direction to move,
+directions not to move, other objects
+that that object is likely to interact
+with. This all sounds very basic to
+people, but like this is how brains
+learn and this is how machines learn. So
+when was the next sort of big inflection
+in terms of like giving a computer AI um
+a picture of a cat and saying um uh
+animate this cat for me, make it move
+like a cat without giving it any
+specific instructions about how to move
+its limbs etc. But I would imagine that
+was a pretty quick but a but a
+remarkably important transformation in
+this whole thing that we call AI because
+that's what a brain does.
+>> Yeah. So it's it's really funny you
+asked this and you put it beautifully. I
+never thought it to put it in this way
+for a uh public audience but that moment
+came when video become part of the
+training data. So see again I'm going
+back to the training data. So around
+2023 very shortly after uh chatbt moment
+multiple research teams start to put
+video into the training data. Of course,
+I'm not going to get into the nuance
+stuff, the algorithm. There's a little
+bit of uh changes and variations. So,
+remember tw January 2024, Sora
+was released and that's where people see
+a video can be generated literally what
+you just said. People can then type and
+say
+a cat running towards a mouse and then a
+a a few second clip would be generated
+and there would be a cat moving its leg
+in a plausible way running towards the
+mouse. At that time there were still
+mistakes still to even today it's not
+perfect but things gotten have gotten a
+lot better but that opened the floodgate
+of video generation as you described it.
+So what happened there? What happened
+there is actually not as revolutionary
+as you might think because the bottom
+line is it's still data. As a scientist,
+I can tell you there are all kinds of
+algorithm tweaks and changes and
+improvements and and all that. But
+overall, if you zoom out, it's still
+part of this great neuronet network era,
+right? But what happened is that we're
+now able to um process video data in a
+way again some clever engineering
+tokenize it whatever you call it. And
+now we can generate these short clips of
+videos which is frames put together that
+look like plausible cat movement. Now
+you might ask does the algorithm know
+the muscle structure of a cat's legs so
+that when the algorithm shows that the
+cat is mo moving in a plausible way with
+the paws you know in a sequence I would
+say the algorithm doesn't but what it
+does have is so many video especially
+cat on the internet so many videos of
+cat so it learned what it should look
+like so in a way humans do that most of
+us without education would not know the
+how muscles move in cats I still don't
+know you know our colleagues in medical
+school might know but we have just got
+so used to seeing cats moving this ways
+that we have a plausible idea of how
+cats move so that is similar that's how
+similar AI is the it's the statistics
+It's the large amount of data that
+showed you what is the plausible um
+generation of cat movements.
+>> Yeah. So when people have heard almost
+certainly that the brain is a prediction
+machine, it's a learning machine, this
+is exactly what Yes. you're referring
+to.
+>> Yeah.
+>> Let's go to a really far out there
+aspect of brain function that we know
+exists in humans, which is
+>> thoughts
+>> and creativity. M now there are probably
+rules for thoughts and creativity.
+They're a little bit harder to tack down
+than um examples from the visual system.
+Like if it's a tail and it's indoors is
+likely a cat. This kind of thing, but
+they're there. The rules are there.
+>> If you use apple as an example,
+>> we could have gone from lowle seeing an
+apple
+>> to midle seeing apple always drop, not
+fly off. at highest level what is the
+equation that governs the Apple's
+movement
+>> right so that's ascending to like a
+higher order more reductionist analysis
+>> what do you think about the idea that
+while AI is indeed intelligent it can do
+things that brains can do maybe even
+>> well certainly things that individual
+human brains can't do we know this by
+virtue of beating humans at chess and
+this sort of thing
+the idea right now as I understand it is
+that AI is trained on the internet,
+>> images, discussions, videos, songs, but
+that's not all of human cognition,
+right? So, are there aspects of AI that
+are whether or not it's chat or it's
+claude or even the most powerful not yet
+released machine learning and and AI
+tools that don't have access to features
+of human brain function yet because
+they've never been uploaded to the
+internet, at least not in a way that the
+AI can pull out. So, for instance, you
+know, you could put a symphony there and
+it follows certain rules of music and
+mathematics and sound like that that
+makes sense, but you have thoughts all
+day long and I have thoughts all day
+long that don't quite mesh with language
+in a way that I can just type them out
+on the internet. Stay with me here. I
+know this is a long question, but I feel
+like this is the one thing you are
+perfectly poised to answer, and I've
+been waiting to ask you this for a year
+and a half since I saw you in Utah. In
+the world of art, we have this thing
+called abstraction, right? And
+occasionally somebody will come up with
+a painting or a drawing that it doesn't
+look like anything specific. This
+happens in music, too, where you just
+feel something like there's like a
+fundamental rule or an emotion
+associated with it. Like they've tapped
+into some aspect of brain function, but
+you can't say what it is.
+I feel like this is the sort of thing
+that is complicated for AI or for me to
+understand how AI could do because you
+can put that piece of art into AI and
+say, you know, what fundamental feature
+of human uh experience does this reveal
+and it only has access to what's on the
+internet. So, h how can you capture a a
+complex constellation of feelings and
+experience with AI? That seems to be the
+gap for me. And I'm sure we'll get there
+with AI, but I'm not seeing from
+neuroscience to AI in any kind of direct
+way. The same way we could ratchet
+through visual motion, sadness,
+happiness. You could pull out a lot of
+things, but it's hard to get to these
+higher order abstract representations
+that can't be spoken or written down or
+drawn. If I just say, give me your
+example of whatever nostalgia for your
+childhood home. You could write about
+it, but those are just words. It's not I
+can't understand your experience at a
+first person level.
+>> Totally. Andrew, I I know you put a lot
+of thoughts into this question and I
+think it's a very important question and
+let's let's peel this one step at a
+time. First of all, TLDDR short answer
+is I agree with you that we do have to
+be very careful recognizing what AI can
+do, is likely to do, not conjecturing
+over a 100 years or or whatever. I
+recognize what you just said are these
+extremely nuanced personalized
+hard to characterize or not even
+captured human cognitive behaviors and
+because they were not captured they then
+they were not uploaded on the internet
+and we don't have today's AI doesn't
+have a way to do that. So when you call
+internet
+which is the source of AI's data, let's
+be very clear what is internet.
+Internet is not some random thing.
+Internet is the biggest collection of
+human behavior
+in multimodal forms. Let's break it down
+further. Internet has the world's
+population typing on it for many many at
+this point multiple decades. That typing
+is a sensing mechanism that captured
+everything from teenager chit chitchat
+all the way to deep scientific articles
+who dig got digitized and get uploaded.
+Right? So that capturing human language
+is what internet is super good at.
+Then internet captures
+images. How? Because we now have digital
+cameras. That's so prevalent in
+smartphones and digital cameras. So that
+humans love taking photos from, you
+know, the cat in your house to selfies
+to beautiful, you know, BBC captured
+photos. Those also got uploaded in our
+digital sphere. On top of that, there's
+videos. Videos now has sound, has
+movements that also got uploaded to our
+digital sphere. On top of that, there's
+music. We're not even getting into the
+legal discussion of copyrights, but
+let's just table that aside. I'm just
+talking about the forms of data. The
+speeches and and singing and music and
+orchestra that also got uploaded into
+the digital sphere. So now we have
+created this humongous library of human
+knowledge in words, human behavior in
+videos, human expressions or even
+nature's whatever in in sound and now AI
+gets trained on that. That is why it's
+so powerful. This is why especially in
+the words front that AI can recognize
+patterns can can synthesize patterns
+because so much of this is already
+there. But the thing that you just
+talked about that when let's say Picasso
+had that incredibly profound thought
+about that particular way of expressing
+that that portrait of the of the young
+woman that thought has never been
+captured.
+In fact, as neuroscientists, if I ask
+you which brain area did that thought
+come from, you don't know, right? Is it
+Broa? Is it V1? Is it motor? Is it
+preffrontal? We don't know. Maybe it's
+diffused everywhere because that thought
+is so personalized, so special. You can
+call it creativity, you can call it
+emotion, you can call it whatever you
+want. You can call it cat 231 whatever
+name you can give it that thought is not
+captured therefore it's not on the
+internet therefore AI has not seen it
+so that is where humans still remain so
+unique but we also need to give credit
+to AI because AI has learned so many
+things it can combine information in
+highly creative way did you Remember
+move 37?
+>> This is Alph Go. Right.
+>> Right. Move 37 has symbolized AI's
+creativity. I think it's both true but
+can be taken out of context because that
+was a game when Alph Go was plain Lisa
+doll and in I think it's a third game
+out of the five games that Alph Go as a
+computer algorithm made a move that the
+human masters of Go never thought about
+and that is an incredible move right
+because it really humans collect
+collectively these are the masters never
+thought about it. But if you really go
+deep into what AI did there [snorts] it
+was because first of all go is a highly
+mathematical game. It it has very clear
+mathematical objective very clear
+mathematical rules in terms of move. So
+when AI having a bigger compute and um
+ways to retain how many moves it can uh
+it can remember it was able to do things
+that human brains don't typically do. So
+is that called creativity? I think it is
+but we do have to recognize that's a
+special kind of creativity. I was
+talking to a incredible mathematician of
+our time and I was asking him about the
+unsolved problem of mathematics and how
+AI can contribute to that and he was
+very positive. He said there are many
+problems in today's mathematics.
+As hard as they are, even as say a field
+mentalist, I probably have forgotten
+there are known methods in math that can
+solve these problem because I have a
+human brain. I don't remember I I don't
+know all of math's, you know, solutions
+in the past hundreds of years. even if I
+were a a field medalist. So AI can help
+us to solve these problems. But as a
+mathematician, he was also telling me he
+said, I don't know if AI can solve all
+of math problems because some of these
+math problems require solutions that
+have not been invented
+that will push creativity to a whole
+different level. And this is where you
+you know I'm we should be curious is it
+going to be a human creativity or AI
+would go through its iterations of uh of
+improvement and get to a point of
+creativity that humans don't have or is
+it a combined creativity. My current
+conjecture is hybrid is that humans
+working alongside AI would help us to
+solve these problems whose solutions
+have yet to be invented. And then what
+you said especially you touched on
+emotion is even more personalized. This
+is not necessarily logic. This is not
+necessarily deduct deductive reasoning.
+This is maybe Andrew you look at this
+cup and say it's a great cup. What if it
+evoked an emotion in me, a childhood
+moment that a gray cup might mean
+something that only me and my best
+friend share? That is a completely
+inaccessible
+piece of information in my brain that is
+never uploaded on the internet and no
+matter how mighty AI is today cannot
+access that. So that my reaction to this
+cup and potentially what I would do with
+it because of that piece of memory can
+be completely different. You can call it
+creativity. You can call it expression.
+You can call it storytelling. You can
+call it in many ways. But that's where
+it AI cannot access.
+>> I feel like at some point in the not too
+distant future uh computers will have
+access to our brain activity in
+non-invasive ways. M
+>> so you know like I might even imagine in
+5 10 years I'm wearing something on my
+head right now you can't see it
+>> it's a very very fine hairet makes it
+sound like it whatever like some
+electrodes that are just there on the
+outside of my skull not bothering me
+sensing my activity inside the brain
+maybe also sensing my heart rate
+autonomic activity how alert I am and
+comparing that yes to what I'm saying
+and what I'm doing this is all totally
+within reach and it's going to happen
+you and I both know this and it's
+probably already starting to scare
+people, but let's let's let's keep it
+benevolent, right? There's this world
+where a computer that I own and I'm not
+worried about data getting out or
+anything like that. We've can manage
+that problem is sensing all these
+aspects of me and is picking up on the
+fact that yes, what I say might be
+important, but there are aspects of my
+internal state and brain activity that
+I'm not even aware of.
+>> Yeah. and I can decide to collaborate
+with this aspect of me and say, let's
+let's come up with a really interesting
+uh picture that I've never seen before,
+but comes from some experience of mine
+that's important based on whatever like
+and and it could reveal that to me
+because it has access to my
+>> to unconscious features of my brain
+activity. I think this is very likely to
+happen in in the not too distant future.
+And perhaps if people thought about it
+within the bubble of their own
+experience, like this isn't immediately
+going to the internet or it's not going
+to be used against them, you're actually
+learning about yourself,
+>> of course,
+>> and and I feel most people have an
+inherent interest in what's going on for
+them also with other people, thank
+goodness. But
+>> they're I think like amazing. Like I
+would love to know why
+>> I trip up in certain ways and don't have
+the best day or why some days I have the
+best day or where ideas come from in me.
+What states I could, you know, kind of
+elaborate on, but I'm not going to know
+how to do that except okay, one cup of
+coffee good, one and a half a little
+better, two is too much. If I like right
+now, if you think about how primitively
+we go about this, it's kind of crazy.
+It's crazy. And everyone has a different
+method and we all try and get this right
+and then you've aged enough by the time
+you get it right that then you have to
+update it. And like we're probably not
+getting the most out of our biology and
+our brains at all right now.
+>> No, we're not. And this is why I keep
+saying this is why it bothers me when
+people talk about AI. Some people make
+it sound like it's replacing humanity.
+But what we really what you describe is
+about enhancing and augmenting humanity.
+Right. This is where it doesn't even
+have to go as sci-fi as a smart hairet
+uh accessing your brain waves. Just AI
+learning your patterns of writing
+>> can already help you to be you know a
+better communicator, a more effective
+communicator, a more efficient
+communicator and that is an empowering
+capability that we could unleash in
+today's AI. I think one of the most
+important thing Andrew that as a
+neuroscientist
+and also faculty we know is agency is so
+important for humanity. You know that
+boils down to motivation, agency and
+dignity at every individual level. And I
+think we need to recognize that we need
+to think about AI as a tool that helps
+us in our agency. It does it should not
+take away our agency and people who lead
+in today's AI should not try to talk
+like that this this work will take away
+agency from people.
+>> Yeah. I think people who are very
+familiar with the technology whether
+it's computers or it's biology or any
+technology cars for that matter
+we they become such nerds of that thing
+that we forget that
+>> it can be scary to people
+>> and that the languaging around it is
+essential it is.
+>> And I remember a time in the early 90s
+I'm sure you remember this too when
+genetic testing was viewed as this thing
+like would you want to have it? Would
+you want to do a blood test? Because oh
+my goodness, you might see something
+that could really scare you. And that
+discussion is happening now around, you
+know, self-elected MRIs and things like
+that. None of which people have to do.
+>> But I come from the stance like more
+information is better. But I've come to
+understand that not everyone feels that
+way. Some people don't want to know.
+They don't want to know.
+>> Yeah. But they should have the choice.
+In the meantime, we should have enough
+public education and communication to
+let people know the pros and cons, but
+not to deny them the choice and also not
+to take away, you know, um, and and and
+[clears throat]
+say, well, since you don't understand
+this, let me decide for you what's good.
+That is not good, you know, and and the
+rhetoric around AI right now is getting
+really skewed because people who know
+what this is tend to talk down at the
+public. It tend to talk whether the
+motivation is a positive one or negative
+one. it there there's a rhetoric of you
+guys don't know what this is and I will
+tell you allow will make you whether
+happy safe whatever it is and I will
+decide for you these are not healthy and
+not helpful. Yeah, I agree. And I think,
+you know, one of the reasons for
+starting this podcast was to showcase
+the scientists and physicians who really
+have a benevolence about them and they
+have no interest in dumbing things down,
+but they do have an interest in people
+understanding things and many people
+would feel that, you know, health
+information is among the more important
+things to understand. Absolutely.
+>> Well, thankfully you're um you're
+breaking the mold of of the, you know,
+the phenotype you just described. um and
+and there are a few others but you've
+really uh you've been doing this at at
+the highest levels really encouraging
+people to think about the collaboration
+that is AI the the agency that exists
+and whether to use it or not to use it
+and so forth
+>> one of the agency I do think it's
+important for individual humans whether
+you're a student a teacher doctor a
+policy maker is learn about this not
+necessarily learn about how to code I
+don't think that's it's necessary depend
+on your job right So for example, if
+you're artist or if you're a teacher or
+doctor, you don't necessarily need to
+code, but learn about what this l uh
+this technology is, learn about how you
+can use it yourself to empower yourself,
+your [snorts] learning or your work or
+your expression. By learning,
+one feels more in control. By learning,
+you're less scared of trying. And by
+learning, you retain that agency. and
+that dignity because at the end of the
+day, no matter how advanced technology
+is or medicine is, as humans, we want
+that benevolence that helps us to live
+better, keep our dignity, and and make
+our community better.
+>> I'd like to take a quick break and
+acknowledge our sponsor, AG1. I'm
+excited to share that AG1 has just
+launched their newest formulation, AG1
+Pro. AG1 Pro takes the clinically backed
+AG1 formula, which is a blend of
+vitamins, minerals, probiotics, and
+adaptogens, and adds three important new
+ingredients. Creatine monohydrate,
+calcium HMBB, and zinc carnosine. Each
+serving has 5 grams of creatine
+monohydrate to support muscle strength
+and performance, as well as brain
+health. Calcium HMBB to support muscle
+recovery and reduce muscle breakdown,
+and zinc carnosine to support and
+improve the lining of your gut. All
+three of these ingredients have
+compelling science to support them, and
+therefore, I love seeing them added to
+the existing AG1 formula. As most of you
+know, I've been taking AG1 every day for
+nearly 14 years now. I started taking it
+long before I even knew what a podcast
+was. It's a great product, and it's now
+made even better with the new AG1 Pro
+formula. If you would like to try AG1
+Pro, you can go to drinkag1.com/huberman
+to get a special offer. AG1 is giving
+away a free bottle of Omega-3 co-enzyme
+Q10 with your first subscription. Again,
+go to drinkag1.com/huberman
+to get a free bottle of omega-3
+co-enzyme Q10 with your first AG1
+subscription. Today's episode is also
+brought to us by Element. Element is an
+electrolyte drink that has everything
+you need and nothing you don't. That
+means the electrolytes, sodium,
+magnesium, and potassium, all in the
+correct ratios, but no sugar. Proper
+hydration is critical for brain and body
+function. Even a slight degree of
+dehydration can diminish your cognitive
+and physical performance. It's also
+important that you get adequate
+electrolytes. The electrolytes, sodium,
+magnesium, and potassium are vital for
+the functioning of all cells in your
+body, especially your neurons or your
+nerve cells. Drinking element makes it
+very easy to ensure that you're getting
+adequate hydration and adequate
+electrolytes. My days tend to start
+really fast, meaning I have to jump
+right into work or right into exercise.
+So, to make sure that I'm hydrated and I
+have sufficient electrolytes when I
+first wake up in the morning, I drink 16
+to 32 ounces of water with an element
+packet dissolved in it. I also drink
+Element dissolved in water during any
+kind of physical exercise that I'm
+doing, especially on hot days when I'm
+sweating a lot and losing water and
+electrolytes. Element has a bunch of
+great tasting flavors. In fact, I love
+them all. I love the watermelon, the
+raspberry, the citrus, and I really love
+the lemonade flavor. So, if you'd like
+to try Element, you can go to
+drinkelement.com/huberman
+to claim a free element sample pack with
+any purchase. Again, that's
+drinkelement.com/huberman
+to claim a free sample pack. The idea
+that technologies can be connectors as
+opposed to separators, I think, has to
+sit at the center of the discussion.
+Yes. And we all know who they are that
+they're they're several of them. But the
+big names in this field, you know, they
+they are also in a developmental process
+where they're learning how to be public
+facing and it happens very fast. Like,
+you know, the the microscope is on them
+and the cameras are on them and and so
+every every subtle dysfunction is
+magnified. So I like to think that they
+will mature quickly enough to realize
+that and I think they are that some are
+that the public needs to hear the
+correct the true message but in a way
+that makes them understand. That's the
+the kind of dirty secret of medicine and
+academia that you break this mold. I
+like to think I break this mold is that
+there's a power in not sharing how
+things work. Yep.
+>> But it doesn't serve anybody well at the
+end of the day. Like you pull back the
+veil and let people in and people feel
+safer.
+>> Yeah. There's a power in in not sharing.
+There's also a power to say just trust
+me I will tell you and the neither as
+educators that is we don't go to our
+lectures and say just trust me you know
+2 plus 2 equals four. We actually say
+here's how you break it down and learn
+about it so next time you can do it
+yourself. Right. I also think that
+especially you are your podcast is so
+important as part of public
+communication education of knowledge. I
+also think that we need to hear voices
+of different different background,
+right? So because there are plenty of
+scholars, technologists, builders, uh
+thinkers out there who have been dealing
+with AI, using AI, thinking hard about
+how to use AI to empower people, and
+these voices are so important. Well,
+certainly I'll take names of people to
+to host in addition to you, but since uh
+you're here, I'm going to go next to
+something that I think most everybody
+would agree would be a wonderful thing
+if it existed and it's already starting
+to happen, which is the use of AI to
+augment health discovery, treatment of
+disease, and so on. So, using the
+AlphaGo example from before, and people
+surely still remember the cat example,
+those just follow certain rules. Alph Go
+is very complicated set of rules, but if
+you learn them, there's a constrained
+set of rules.
+>> With the cat, it seems unconstrained,
+like infinite possibilities, but it's
+constrained enough that machines and
+humans can learn it really well.
+>> When you start getting into medicine,
+>> there are rules of medicine. There are
+rules of science. You have a question,
+you pose a hypothesis, you test the
+hypothesis, you try and rule out your
+hypo and so on like the the scientific
+method. And in medicine, every field has
+its methods. We observe, we observe
+disease, we observe who recovers, we
+have a case report, we do a randomized
+control trial. So there are rules and
+the internet knows these rules. So LLMs
+can be used to mine health information
+very well because there are constrained
+rules. But I think you and I both know
+because I also consider you a biologist
+that the rules of biology are still
+revealing themselves to us. Which is not
+to say that the dermatologists,
+neurosurgeons, and oncologists don't
+know what they're doing, but they're
+doing what they're doing within a
+constrained set of rules that they
+learned. And even if they continue to
+learn and update them,
+>> it's every month it seems now that a
+discovery comes out that violates the
+rule. Like I learned that action
+potentials are unitary. They always look
+the same. You either fire or not.
+>> But there was a paper not but 12 years
+ago that showed that the shape of an
+action potential can vary quite a lot.
+It was published in Nature. Mhm.
+>> Everyone saw it and then no one wanted
+to deal with it. It's just too much. It
+changes the rule.
+>> Neurons are supposed to be either graded
+or all are one. And the all I mean it's
+in every single textbook. So now if I
+take a bunch of neural activity and I
+give it the rule, oh well you know
+action potentials can be big, they can
+be small in the same neuron. It
+completely confuses everything we
+understand about neuroscience
+>> and it just our understanding of the
+brain just breaks down to zero. Yeah.
+But if you gave AI the rule that it
+could be, you know, a hundred different
+shapes of this signal, well, AI could
+probably do a lot more than even the
+very very best graduate student at dare
+I say Stanford or to be fair MIT or
+Caltech. I don't think it can do it and
+it can do it like in the duration of
+this question, which admittedly is a bit
+long. So, I'd like to get your thoughts
+on how is it that humans in health care,
+the general public and AI can
+collaborate to help solve disease and
+ideally come up with new rules for
+discovery so that we can finally
+understand our biology at a level that
+can really change the course of humanity
+for the better.
+>> Yeah. No, Andrew, this is probably
+perhaps you touch one of the most
+exciting usage of AI, which is
+scientific discovery. And in the case of
+biio medicine, you know, scientific
+discovery directly connects to human
+health and diseases, I think we're we're
+ready for complete re rewriting of how
+scientific discovery can be done because
+for ages, I don't even know how long, it
+relies on smart humans retaining what
+they have learned from other smart
+humans and and and doing things at the
+speed of our own muscles, I guess, you
+know. Most likely of course there's like
+super colliders and and all that but by
+and large the the ways of doing
+scientific discovery
+human brain or scientists brain are the
+only central character in this process.
+Now we have a new tool whose brain that
+can retain humongous amount of
+information can help us synthesize
+knowledge can go across disciplines in
+ways that you and I cannot go. So for
+example we happen to be both in the
+vision neuroscience AI domain.
+I know nothing about you know oactory
+zero like I don't even know how to spell
+most of probably the these words in that
+our colleagues know right so it's so
+hard for our brain but now we have a
+tool that can break open so so I think
+that
+>> we need to change we need to use this
+tool we absolutely I I was just thinking
+150 or I don't know exactly when years
+ago we electricity
+changed everything in in in our life,
+right? I'm sure that's a moment we were
+thinking about how
+the changes, the opportunities, the
+scary moment. I think we have to come to
+reckon that scientific discovery is one
+of the most exciting opportunity for AI
+and for health, right? How information
+can be synthesized, how information can
+be presented not only to clinicians but
+also to patients and how patients can
+participate in that process from
+diagnosis to treatment is also there is
+just so much we can do now. [snorts]
+>> Yeah. I mean AI I won't say AI is better
+than all doctors but AI was able to
+disambiguate vertigo from low blood
+pressure for me a few months back and
+one of the people who got it wrong is a
+ENT who works on the vestibular system
+>> what information did you provide just
+your subjective
+>> my subjective experience over a day or
+two
+>> okay good
+>> um turns out it was a medication that a
+doctor had prescribed me that I had a
+like a mild but adverse event and it's a
+weird thing to step and feel like the
+whole world's dropping down and then
+kind of spinning and I thought my
+goodness like feels like vertigo but I
+remember dizzy and lightheaded or
+different. So I started like looking
+into that and then and um sure enough it
+was a it was a blood pressure issue. It
+brought brought my blood pressure excuse
+me down too low
+>> and but I consult we know some smart
+doctors um none of these were at
+Stanford. I will say that this is the
+truth. But it was
+>> we should just be intellectually honest.
+>> But it's just remarkable. And when I ran
+it back to them, they were like, "That's
+really incredible." You know, had you
+not been on the phone with me and in my
+clinic, I would have been able to do
+some additional testing to be fair. But
+this was zero cost. It took a morning to
+know if I drank some uh electrolytes at
+what I would have thought would be
+excessive level that by two hours later,
+I would be fine. Now, of course, there's
+the possibility of a placebo effect
+here, but two hours later, I was fine.
+>> And so, it's also very consoling to the
+patient
+>> to have this. And so, it's not to say
+don't go to a doctor, but it it's
+incredible. I mean, this exists now.
+>> Doctor can use this tooling. By the way,
+I have a very interesting example. You
+know that we have to reschedule this uh
+our conversation because my father was
+going through a surgery right at
+Stanford uh with an incredible surgeon.
+But the surgery was done by a robot, the
+Davinci robot system because it was a
+liver surgery and the surgeon,
+incredible surgeon was driving the
+robot. So it was a deep human machine
+collaboration. After the surgery, I
+asked the surgeon, I said, "Do you
+imagine if say you've done a million,
+which is impossible for a surgeon, but
+human surgeon, but let's collect all of
+human surgeons uh for for this liver,
+this type of liver surgery data. Can we
+possibly train a automatic AI to do
+this?" The answer was not clear. So we
+went a little bit down the rabbit hole
+because liver is a very complicated
+organ. It's extremely vascular. It has a
+lot of vessels and everybody's liver is
+very different. So given the reality of
+how many patients undergo liver surgery
+per year, even if you aggregate um the
+world's liver patient um surgeries, you
+might not have enough data to train
+these algorithm. So this speaks of a
+very important fact that um AI learns
+from patterns. When the patterns are not
+abundant,
+then we have to be careful. We have to
+know how to use AI or how not to use AI.
+You know in this case that having a
+human collaborating with the robot is
+way better than a underlearned robot
+doing the surgery by itself. But the
+same issue might be true for surgeons
+because how many surgeries a surgeon can
+get trained on. So these are
+opportunities that humans and AI can
+totally collaborate with and might
+reveal the best result. Right now the
+future remains to be seen. Can we create
+a artificial simulation of a liver that
+we can now train infinite possibility?
+These are all incredibly open scientific
+possibilities that is waiting ahead of
+us. But then there are
+uh situations like your situation where
+the vertigo versus low blood pressure
+probably have been reported so many
+times that in the database there's
+enough of that that AI has learned that.
+So we can then now take advantage of
+that for people who don't have immediate
+access to doctors.
+>> Amazing. Is your father's surgery went
+okay?
+>> It did. It actually
+lost
+>> 10x less blood than a typical surgery
+>> uh thanks to the laparoscopic capability
+of a robot surgery.
+>> I'd like to talk a little bit about some
+features that we think are uniquely
+human that may or may not be. You'll
+tell me. These are genuine questions,
+not loaded questions. And then I'd also
+like to get educated on how AI is
+structured to allow these things to
+happen. For instance, intuition. We all
+like to think of intuition as this like
+mystical very like it certainly is
+powerful, but this thing that like we
+own that no one can take from us that
+can't be mimicked kind of thing. But I
+could also break intuition down to be
+well, it's my experience over time. It's
+a data set
+coupled to some bodily and brain
+sensations and some prediction cues like
+the last time I felt this this happened.
+The last two times I felt that things
+didn't work out that way so I'm going to
+go this ways. I mean that you could
+assign these rules to a computer. But
+there are other aspects of our deeper
+self if I can refer to them that way.
+Like we don't know where intuition is
+mapped in the body could do an imaging
+experiment but you're not going to
+collect all the neurons and hormones and
+everything simultaneously. who don't
+really have like a location or even a
+network to to point to like things like
+creativity, intuition, premonition, the
+idea that you know you really sense
+something is coming on but it hasn't
+happened yet.
+What sorts of rules can AI get that
+could give it these sorts of
+capabilities? And here I'm want to talk
+about it in the context if you will of
+energy. So whatever this thing is, it's
+like mitochondria driving cells more
+around one thing versus another, the
+same way fear or happiness would, right?
+We were just talking about energy. But
+within AI systems, and I'm not a
+computer scientist, within AI systems
+and GPUs, can we actually allocate more
+energetic flow through particular
+learning rules? So we could tell maybe
+someday you know based on everything you
+know about
+my sister who I love you know what is
+your intuition about how our uh brother
+sister relationship will evolve over
+time and what is your sense about what
+would be great for us to do perhaps for
+our birthdays this year that's different
+than before giving and it only has
+access to the internet can it actually
+become sort of mindlike or mindbody like
+and come up with a sort of sense of what
+might actually be worthwhile or does it
+just need more and more prompts like
+it's just going to keep asking me
+questions so I'm actually doing the
+work.
+>> Such a interesting question Andrew. So
+um I do want to separate intuition from
+creativity for the sake of argument here
+and maybe we'll come back to merging. So
+let's talk about this intuition of given
+my sibling love
+what's going to happen right is it
+really intuition so today when you go to
+a AI chatbot you're going to prompt you
+know I'm a Stanford professor and a um a
+um neuroscientist
+um give me this information that is
+already called context I don't know if
+you call it intuition but because you
+gave that piece of information. The AI's
+answer for you is already going to be
+different if I type that I'm a 14 year
+old teenager, you know, loving race
+cars. Even if we ask the same question,
+it'll have customized answer. That is a
+mathematical
+I wouldn't call it energy. I want to be
+that is just a mathematical
+uh fact of how these um these algorithms
+takes these context and tailor the the
+the outputs and it's called context.
+It's not that deep in the in computer
+science. That's one type of intuition
+that is fairly shallow because you
+already are able to use language to
+describe it or you can say I'll upload
+an image that that also is is already
+expressable and then AI gets it. The
+deeper intuition you just said is like
+you don't even know where they come
+from, right? Like is it because I smell
+something? Is it hormones? Is it you
+know the the mixture of mood? Is it my
+breakfast?
+That intuition,
+what would AI do with it? That is what I
+would say is inaccessible. There's no
+sensory apparatus yet that can glean
+that data and feed it to
+not only AI cannot even feed it to, you
+know, for example, sometimes as a couple
+you might have moment that you're just
+rubbing each other in the wrong way.
+>> Never. No, I'm just kidding. Yeah, of
+course.
+>> If you're really familiar with each
+other, you kind kind of can sense it,
+but you can't quite tell. Maybe you just
+leave quietly, leave that person alone.
+So that means whatever that intuition
+that person has, they could not even
+express it in words or or a gesture to
+give it to another person to use as a
+piece of information. So when you cannot
+even access that
+neither a human a different human nor a
+machine
+can can do anything about it because
+there's no access to that highly
+individualized intuition.
+There's no technology that can do that
+till you say we put brainwave collectors
+or you know skin conductance
+sensors. I mean by the time we do those
+maybe they become accessible. So we have
+to recognize. So so what I'm trying to
+say here is it's not what's not very
+deep is is the data accessible
+you know either through language or
+through picture or through imaging or
+through brain waves whatever it is it
+needs to be an accessible piece of
+information. If it's accessible
+then
+if we have collected enough of that you
+can train machines with or if a machine
+is well trained it can like you said in
+a private way forget about privacy uh uh
+uh breach but in a private way the
+machine can probably you use it. What
+I'm trying to do, Andrew, here is not to
+make it sound mystical,
+>> but try to give it a scientific
+process to describe if it were to
+happen, how would that happen?
+>> Yeah. Because um pattern recognition
+based on big data sets and rules get us
+a long way is what I'm hearing. And we
+earlier we were talking about where
+doctors fail and robots and machines
+perhaps do better or they collaborate to
+do better than either one alone. You
+know I as a neuroscientist you spend a
+lot of time looking at cells at some
+point in your career. And it's amazing
+how like the electrophysiologists for
+decades if not longer you develop an
+intuition. I'm not really a
+physiologist, but I learned to recognize
+cells based on like kind of these things
+that were not written up in any papers.
+But like if there was kind of a like a
+like a straighter edge along this thing
+and it had a certain shape and
+roundness, like I tell you right now,
+that's a transient offpha cell in the
+retina. Eventually, we we developed
+genetic labels to reveal that that was
+true in every case. But then you also
+saw some that didn't fit the rule.
+Machines can learn that, computers can
+learn that. And with all that
+information from all those papers, now
+we have a pretty good parts list of the
+retina.
+>> Cool. That works. And then you can apply
+rules like they fire this way, they fire
+that way. Okay, I'm good with all of
+that. What I think I was trying to get
+to with intuition, and I probably didn't
+give the best example, is like what are
+some internal states of humans that are
+really hard to imagine machines could
+recapitulate, but perhaps they can like
+motivation. Do machines, do robots get
+motivated? We have rules of motivation.
+Like when I'm really motivated to do
+something, we call that urgency, a state
+of urgency. And I might move faster to
+do it. Less activation energy. You say,
+"Let's go." I stand up a little bit
+faster. Machines could like go quicker
+in a certain direction. But can you say,
+"Hey, I want you to seek this out, but
+with a heightened level of urgency, or
+are they just constrained by the
+mathematical rules they can work with?"
+>> So you could build this in the
+mathematics. So certain things whether
+you call it motivation or in machine
+learning world we call them objective
+functions you can build certain things
+into math for example now you go to say
+JBT it has different mode like think
+deeper mode or or like give me a quick
+answer mode if you don't know how this
+works you're like oh this is interesting
+one has more urgency that gives me a
+quicker answer the other one has to go
+deeper into the search, right? And and
+take longer to give me the answer. So,
+as a human, if you anthropomorph
+anthrop morph morphalize it too much,
+you might call it urg urgency or
+motivation. But the truth is this is
+just a different kind of um objective
+for the uh algorithm. You can say, well,
+the the one that think quicker has a
+time limit or token limit. the one that
+thinks slower can activate a different
+part of the model that would take
+longer. So it become actually
+mathematically very dry and not that
+deep. But for a human you can call that
+motivation or urgency. But let's go
+deeper because you're asking something
+deeper than than that, right? Is that
+there are cognitive states that humans
+you truly just whether it's motivation
+or urgency or fear or love that is very
+hard to access and express. And do
+machines have it today? No. Let's make
+it very clear. we tend to imagine that
+the machines feel or or they're not they
+don't have that data they don't have
+that mathematical objective function so
+they can say when the machine says I'm
+sorry you're so sick today it's very
+different from how your friend says it
+to you because the machine said that
+because it has learned through pattern
+when someone tells it I'm sick you
+should say I'm sorry you're sick instead
+of I'm so glad you're sick because that
+data exists. Whereas your friend who
+hears that, they genuinely want your
+well-being. They love you. They want
+they don't want to see you suffer. They
+have that empathetic
+feel of, "Oh, wow. If you're in pain,
+I've experienced pain." So that's it's
+not mirror neuron, but it's at least a
+memory of what pain means. The machine
+doesn't have any of that. So we do need
+to make sure we differentiate
+uh that. So a lot of what drives human,
+what ticks human, what triggers human is
+doesn't exist in today's machine. We
+operate fundamentally different from
+today's AI and we have to recognize that
+respect that and this is where public
+communication is so important. We cannot
+confuse the public about this.
+I'd like to take a quick break to
+acknowledge one of our sponsors, David.
+David makes protein bars unlike any
+other. Their newest bar, the Bronze Bar,
+has 20 gram of protein, only 150
+calories, and zero gram of sugar. I have
+to say, these are the best tasting
+protein bars I've ever had, and I've
+tried a lot of protein bars over the
+years. These New David bars have a
+marshmallow base, and they're covered in
+chocolate coating, and they're
+absolutely incredible. I of course eat
+regular whole foods. I eat meat,
+chicken, fish, eggs, fruits, vegetables,
+etc. But I also make it a point to eat
+one or two David bars per day as a
+snack, which makes it easy to hit my
+protein goal of one gram of protein per
+pound of body weight. And that allows me
+to take in the protein I need without
+consuming excess calories. I love all
+the David Bronze Bar flavors, including
+cookie dough, caramel chocolate, double
+chocolate, peanut butter chocolate. They
+all actually taste like candy bars.
+Again, they're amazing. But again, they
+have no sugar and they have 20 grams of
+protein with just 150 calories. If you'd
+like to try David, you can go to
+davidprotein.com/huberman.
+Right now, David is offering a deal
+where if you buy four cartons, you get
+the fifth carton for free. You can also
+find David on Amazon or in stores such
+as Target, Walmart, and Kroger. Again,
+to get the fifth carton for free, go to
+davidproin.com/huberman.
+I feel like people assume there's an
+emotion, a person or whatever inside of
+the AI chatbot because we're so language
+oriented. It's talking to us. It's
+writing things to me. And we do that
+more now than we did 30 years ago. Yeah.
+>> Certainly, we've gotten very accustomed
+to receiving communications in fairly
+deprived language. Texts are not like
+extensive pros. Language has changed.
+Modes of communication have changed.
+more deprived as opposed to more
+enriched.
+>> Yeah.
+>> But at some point soon, I'm guessing
+faces are going to start to enter the
+picture.
+>> Uh no pun intended. Um like how far off
+are we from? Like if you or I were to
+text the other person, oh uh see you on
+campus for coffee next week at this
+time.
+>> How soon is it that that text is going
+to be actually a photo or video like
+image of you just talking to me telling
+me that? I mean, this would be trivial
+to do nowadays.
+>> The technology is there. Mhm.
+>> But we have to now look zoom out a
+little bit and look think about the
+social parameters, the legal
+implications. I mean, humans are capable
+of doing a lot of things with our tools,
+but we don't do all of them. For
+example, today any car manufacturer can
+say every Friday the brake doesn't work.
+This is a trivial technology. There's a
+clock in the car's computer and it just
+turns off the brake every Friday. But we
+don't do that because it has deeply bad
+implications to our human society.
+That's where rules comes in, laws come
+in, social norm comes in, morality comes
+in and I think this is where we exit the
+pure technical discussion of AI and need
+to enter the social discussion of AI.
+Mhm. Well, let's do that because one
+thing that I know about biologists or
+technologists is they like to go fast
+cuz it it's exciting. It's the next
+edge, right? I remember long ago I had a
+friend he was studying viruses and ways
+of putting uh these weren't infectious
+disease viruses. These were viral
+vectors for getting genes expressed as
+experimental tools in animals. But there
+came the opportunity to actually put the
+rabies virus, a modified rabies virus
+into Drosophila, into fruit flies.
+>> Oh my god.
+>> Now, that's fine and good in my opinion
+if you are absolutely certain, 100%
+certainty that that is a nonfunctional
+version of the rabies virus because you
+can put other cargo in there and do all
+sorts of important experiments on,
+believe it or not, disease and things
+like that.
+>> But if there's just one fruitly that
+somehow an escaper and you get the
+actual rabies virus.
+>> There's the potential it mates with
+another and then they eventually find
+the others. I don't know if this would
+be a dominant or recessive situation,
+but
+>> now you have fruit flies with rabies and
+those things move really fast. So,
+there's a reason why you don't do that
+experiment.
+>> But it was exciting for them to think
+about and then they got denied, right?
+For good reason. I was grateful, right?
+Go to any biology department, you're
+going to see some fruit flies flying
+around. They love vinegar, by the way.
+you know, so they're coming to your
+salad. But the point here is that
+technologists love to go fast. They love
+sensing that next edge of things. So how
+is it that
+>> between government, the general public,
+technologists, and now I'm just leaving
+out biology here and medicine. How is it
+that that conversation can occur in a
+way that's going to satisfy each of
+those groups enough, not hold us back?
+Because we're also supposedly in an AI
+race right now. So that that warrants
+going faster, not slower. How do you
+think about this?
+>> I mean, Andrew, this is why I returned
+from Google um eight years ago back to
+Stanford and started the human center AI
+institute. These are profound societal
+questions we had to face. And back in
+2018, there was no Chad GPT. But as a AI
+scientist, I knew that this is only
+going to accelerate. This is why I went
+to my colleagues and university
+leadership and say let's put a framework
+but it's not just my framework or
+Stanford's framework. The entire society
+in every way need to wake up to the
+social implication as we have done this
+in h human history whether it was cars
+or airplanes or or or biotech is that
+it's multi-dimensional with
+multistakeholders right there is the
+professional norm for example
+you guys as biologists don't sneak into
+the lab and and try to put rabies into
+drosophilas or fruit flies because
+that's a professional norm and your
+ethical training. There is industry uh
+rules for example IRBs every uh human
+subject experiment today on university
+campuses are subject to the IRB
+regulatory framework so that we can look
+at this and then there are uh laws and
+regulatory laws depending on if it's
+applied to humans versus
+uh crops or or you know so AI has to go
+through the same right we need to have
+our professional norms we need to have
+education computer scientists are not
+educated in ethics and societal studies
+you know they're starting to I mean this
+is why a number of universities
+including Stanford are feverishly
+putting that part of curriculum into our
+education now that those are the norms
+and education but we also should work
+with the government and different kind
+of Governments and society have
+different kind of norms and traditions
+and heritage and look at where the
+regulatory measure should apply AI for
+example crossing biology FDA I think
+that's a very important area to look at
+how AI uh should be used to help but
+also guard rail to harm uh so that we
+can avoid harm. What I would not like to
+see is one person or or a few people
+coming from industry and telling
+everybody what to do. I think that would
+be dangerous because market forces are
+different from uh societal norms and
+culture and heritage are different from
+uh education and ethics and and these
+are multistakeholder
+problems to solve together.
+>> I love that answer and it's something
+that's very very timely right now. Um,
+this aspect of our conversation is
+surely going to expand over time, but
+you bullseyed it. I'd like to get your
+thoughts on how the human brain is being
+shaped on machines and how machines are
+being shaped by our understanding of the
+human brain. So, first question first.
+Many people, parents and kids are
+thinking, oh, like my kid is never going
+to learn anything now. They're just
+going to look everything up on a
+chatbot. But if you look back in the
+history of learning, similar arguments
+were made about calculators um and
+computers and the typewriter and on and
+on. However, it is an interesting
+question that this hardware that we have
+in our heads evolved to process physical
+things in the world, light, sound, it
+smells, etc. And then it got this really
+cool piece up front, the prefrontal
+cortex that can learn learning rules and
+can update those learning rules. So like
+if anything we were gifted with a a
+learning tolearn machine and updating
+learning. So that's how kids can adjust
+and use LLMs. So I as a generation that
+grew up with the personal computer
+showed up. Granted I grew up in Palo
+Alto. It was like here's Pong and
+there's the Apple 2e and like we had and
+I think oh cool like the brain can
+mature around technology collaborate
+with technology in a way that I think my
+life has been greatly enriched by it.
+But I think the smartphone and perhaps
+the camera smartphone combination as
+people like Jonathan hate have pointed
+out
+have created a situation where most
+people like they love these technologies
+for the ease and convenience.
+>> But we're all a little bit more aware
+now or a lot more aware that we're
+giving up something too. Yeah.
+>> And that they're traps that people in
+particular young people can fall down.
+>> Yeah. So what is the very optimistic meh
+and very pessimistic view in your in
+your mind if three if three flavors
+actually exist there of how young brains
+can be enriched are unaffected or can be
+uh harmed by AI as it exists now. Let's
+just kind of stay with what we've got.
+Great question, Andrew. And the answer
+almost fall out of our previous
+conversations because you use the word
+motivation and I was using the word
+agency. The absolute
+bad outcome is that our young
+generation,
+their agency
+and human level motivation of learning
+and living is taken away by tools.
+So doom scrolling,
+passive watching of shorts, all this are
+not helping
+agency, human agency. Learning
+fundamentally respecting the hardware
+you're talking about takes time, takes
+effort, sometimes takes some pain. That
+is just how our brain is. It doesn't
+matter how transistors move, our neurons
+move in certain ways, our chemistry, our
+hormones move in certain way. So for
+young generation, no matter how the
+society will be different, jobs will be
+different, our human body needs to go
+through a deeply developmental phase
+where learning needs to happen. And that
+agency of learning that motivation of
+learning cannot be taken away by anybody
+should not be taken away by humans nor
+should it be taken away by machines.
+That would be my concern which is that
+if AI is not used right the agency and
+motivation is taken away then we are
+left with generations or generations to
+come who have not properly developed the
+brick. The other kind of danger is in
+the name of agency and and uh and
+motivation the tools are denied to our
+students because we're worried you cheat
+or worry you only got your answer from
+Chad GBT. That is very bad as well
+because with the proper agency, proper
+motivation, proper ways of using this
+tool, we can go a lot deeper with AI
+than we have ever learned. I I was just
+thinking about I was a premed student
+for for a while. Man, organic chemistry
+was hard, you know. I remembered trying
+to learn the the molecules, their
+orientations,
+but the TA hours are too short or it
+overlaps with my other class and my
+professors only have certain number of
+office hours. It was just a struggle to
+learn that. Right? If today I were to
+have a AI companion, I would ask so many
+questions about organic chemistry
+because I know what where I'm stuck,
+right? I have the motivation to learn. I
+just need to uh guidance. That would be
+such a powerful tool for me to learn. So
+that we should not deny students from.
+So both things worry me is either
+denying the tool or taking away agency
+and motivation. Of course, the flip side
+is is great is let's find a way to keep
+our children and students motivation and
+agency. Let's find a way to give them
+the access and the right way of using
+these tools. Then this generation, this
+coming generation and many generations
+to come will be way smarter than us
+because they are superpowered.
+>> I love that answer. Um I have great
+faith in neuroplasticity and the younger
+generations too. Yeah, even our own I
+know we're old [laughter] but
+>> not so let's give ourselves some credit
+plasticity does exist throughout the
+lifan
+>> even our own neurop plasticity right
+like I I find AI a great tool for my
+learning
+>> I mean for me it's been a remarkable
+discovery of what it can do
+>> but I I tend to approach it from the
+position of consumer if I know nothing
+about something and from the position of
+creator if I have some
+>> uh knowledge set
+>> inside of whatever it is I'm asking.
+>> Well, I actually have another thing
+because Stefer undergrad taught me
+something last year and I realized
+before Chad GPT sometimes I got lazy. I
+if I have a question I ask the person I
+think is smart next to me. Now I realize
+I should not ask lazy questions because
+it's so much easier to get information
+before you spend somebody else's time to
+ask something that's that's that's too
+lazy. And AI is forcing me not to be too
+lazy.
+>> How essential is the specificity of the
+prompt to getting the best information
+out of AI?
+>> Prompting is very important.
+>> And that's a skill, right?
+>> That is a skill. This is why public
+education is so important. This is why
+education is so important. I would love
+to see our schools K12
+teaching prompting. I here's a quiz. Who
+is humanity's best prompter?
+>> I'm going to flunk this quiz.
+>> Socrates if he were alive
+>> because that is the method of prompting.
+Right? Think about it. What is Socrates
+method is prompting and seeking truth by
+asking questions.
+And we should go back and teaching kids
+that
+>> and taking a walk while you have those
+discussions.
+>> Yes.
+>> Which actually is a a good transition
+perhaps to this notion of embodied AI.
+You know, it's a world apart to attach a
+face speaking to hearing words. Uh my
+good childhood friend um who I hope
+you'll meet soon because you both would
+benefit from the conversation so much
+and I just want to be a fly on the wall.
+Um Dr. Dr. Eddie Changeng, chair of
+neurosurgery, bioengineer, and he
+studies speech and language. He and
+others have figured out the
+transformation of neural activity to
+control of the larynx and ferings. And
+he's brought people essentially out of
+lockedin syndrome so they can speak.
+>> Wow.
+>> For the first time in 10 years, he has
+this patient who was sadly paralyzed and
+he could speak through a computer. He
+has others, many examples of these in
+fact. But the incredible thing is when
+he started putting an iPad next to this
+person who is uh one woman in particular
+who's wheelchair bound, they had a video
+of her at her wedding. So they knew her
+voice. They knew her emotive patterns.
+They knew a bit about how she moved her
+body as well. And she now speaks through
+an iPad next to her frozen real face. M
+>> but she can interact with the world and
+it can interact with her in a completely
+different level of depth
+>> than if it were just a microphone. The
+sort of Stephen Hawking thing
+>> and it's constantly being updated
+through machine learning.
+>> What and now also paying attention to
+the people she's speaking to and their
+responses. I mean this is
+>> this is embodiment. Yes,
+>> it's on a 2D flat 2D screen
+>> admittedly, but this is like a
+exponential leap over just robot sound
+or even accurate sound alone.
+>> It's not just embodiment of people, it's
+embodiment also embodied AI goes into
+robotics. Right? The next frontier of AI
+as I have been saying is beyond language
+because again humans develop first
+preverbally.
+evolution took,
+you know, 500 million years without
+verbal communication
+and uh and also the world would in the
+right version would be a lot better
+place with robots helping humans.
+>> Could you give me some examples? I love
+this idea, but again, I'm I realize I'm
+probably a little too deep into the
+technology rabbit hole and it's probably
+scaring some people. So, robots, we've
+got self-driving cars. Actually, the
+Whimo always stops for me and my puppy.
+My beautiful little six-month old puppy.
+How could you not stop when he wants to
+cross the street? A lot of people won't
+stop. They'll almost run us over in the
+morning. The Whimo is very respectful.
+>> The Whimo has to learn the rules, right?
+>> Exactly. Exactly. So, there's
+benevolence there that doesn't always
+exist in humans, but um where do you
+think this is going to show up first?
+And what's it going to look like if we
+zoom out 12 months from now? 12 months
+is a little bit too fast for robotics.
+>> Two years. Three years.
+>> I would say if we zoom out 30 years.
+>> 30 years.
+>> Okay. I'm not saying that's the first
+time it robots hit the street. We
+already have robotic uh cars. I'm just
+saying it takes longer for especially a
+hardware also involved technology to
+manifest. But I would say hopefully in
+you and my lifetime, I would love to see
+robots being part of
+our society, helping us. For example,
+I'm a single grown-up child taking care
+of two very advanced aged and very sick
+parents and they happen not to speak
+English either. The amount of work I do
+is incredible, right? So I would love to
+have have help. It doesn't take away
+family's responsibility. It doesn't take
+away love. It doesn't take away the
+necessary communication.
+But the physical labor would really
+certain part I would love to get help.
+We live in the state of California. What
+is the one thing we all experience?
+>> Traffic. [laughter]
+>> High taxes. Certain part of certain part
+of California doesn't have traffic but
+wildfires.
+>> Oh wow. Yes.
+>> Right. Who is fighting these wildfires?
+Putting humans in danger of rescue
+natural disaster is not a great idea.
+Right? So my family and my parents
+happen to have have enough means. But I
+was just thinking a elderly living
+alone.
+How do they go get grocery? How do they
+go get medicine? Now, there might be
+some shipping we are starting to see,
+but what if they want to go, you know,
+um um for a walk or want to go to a
+park? So, there are just so many things
+that uh Oh, by the way, you're in the
+school of medicine.
+We don't have an excess of caretakers.
+We have a shortage of caretakers. Our
+nurses are deeply fatigued and
+overworked. I was literally in the
+hospital with my dad for the past month
+and just watching the amount of work
+nurses do. We know that on a given shift
+nurses walk miles to fetch things, get
+medicine. There's just so many. Can you
+imagine robots helping, right? Like so
+there are just so many ways that our
+society can be structured and can
+benefit from uh help.
+>> Oh I I love these examples that you know
+so many spring to mind based on what you
+described. You know crossing guards.
+Yeah. You imagine with video that
+somebody who's you homebound because of
+age or illness could navigate to the
+store and pick things off the shelf. Um
+it doesn't have to be so disconnected
+that they just program and it comes
+back. that could be an option, too.
+>> Yeah, I think that we have to revise our
+notions of what this picture looks like
+because I think there are a couple
+things about robots and computers that
+scare people. Um, one is that is their
+physical hardness,
+>> right? And so the way we share space
+with them is very different than the way
+we share space with other things.
+>> Of course, I'm not thinking, oh, like
+you you cuddle with a with a robot,
+although some people might think that.
+That's not my mindset. But I am thinking
+like, okay, if I had a robot that could
+fold clothes, vacuum, water the plants,
+and feed my fish. Although I like to
+feed my fish myself. I really enjoy it.
+I love seeing them eat. I love being
+tactile, you know, in in literally in
+touch with them. They'll eat from my
+hand.
+>> Does your puppy like your fish?
+>> Uh, he does. He has his own fish tank. I
+just got him some tropical fish. Yeah.
+Right in front of his little
+>> He's taking care of them.
+>> Well, he looks at them. He's not
+equipped to take care of them yet, I
+don't think. [laughter] Unfortunately,
+there's not enough prefrontal cortex in
+him. So, and he's a he's a kind, but
+he's a bulldog mut. They're not the
+smartest breed.
+>> They only have a few learning rules, but
+they're very kind.
+>> Um, but if you want a dog that can take
+care of a fish tank, you probably need
+like a West Highland Terrier or
+something like that. Different, more
+prefrontal cortex.
+>> Take him.
+>> But the idea here is
+>> if one robot is doing one thing and
+another robot is doing another, it feels
+like a lot of hardware in my life. And I
+think that's kind of how people feel.
+>> But you could imagine a multimorphic
+robot. Do you know Baymax?
+>> I don't.
+>> Disney's robot probably 10 years ago, 15
+years ago. It's a Google the image. The
+This is the white medicine robot. A
+healthcare robot that is very not
+fluffy. It's very spongy like it's it's
+feels like a big balloon.
+>> Mhm. Yeah. So, you might like that.
+Yeah. More more contours.
+>> Yeah. Yeah.
+>> And um more multitasking from the same
+robot. feels like a a world that I could
+adjust to more quickly than the idea of
+my world filled with robots.
+>> Yes. Again, Andrew, I think as we
+imagine the future and we talk about how
+we imagine the future, I keep coming
+back to the word agency. Humanity should
+have the agency to decide how we imagine
+this. It cannot just be a company or or
+I don't know an investor decide that the
+the world should be filled with metal
+like robots, right? like our society
+should be collectively
+proactively
+imagining and and one thing I worry in
+this AI rhetoric is that the public is
+put in a position of being reactive
+>> when it feels some people are just
+deciding
+>> and the multistakeholders are not
+participating in this
+designing the future together
+>> like with your example of your father's
+surgery
+to cross the the the robot with the
+physician, right?
+>> If we cross a problem where there's a
+vulnerability with a robot that clearly
+makes things better,
+>> the picture changes Yeah.
+>> in the right direction. So, I'm thinking
+of a few examples off the top of my head
+like um I think most people would agree
+that if their kids could walk themselves
+to school and home, it would be great,
+but you worry about safety. But if a
+robot was really a good guardian of your
+kid to the point where they could alert
+the authorities or maybe even protect
+physically protect your child,
+>> that would be awesome. Give them more
+agency in the world.
+>> You think about um some of the darker
+but nonetheless unfortunately real
+predatory behavior online.
+>> Parents can only oversee their kids
+behavior so much. Kids are only aware of
+so much that's happening. But you could
+imagine uh kind of an avatar in there
+with you that's really advocating for
+you that can spot things and keep
+predators at bay.
+>> Here you go. That's a great startup
+idea.
+>> Like that would be cool. But here's
+what's missing I think from the picture
+>> for me. I remember seeing this
+incredible guy. I know people some say
+he was kind of prickly but this
+incredible guy walking around downtown
+PaloAlto when I was a posttock and when
+I was a kid growing up working at the
+Paltoy and Sport World and that was
+Steve Jobs. no shoes, kind of look like
+a hippie.
+Yes, he shouted at people at work, and
+you know, probably HR wouldn't look too
+kindly upon him nowadays, but he
+understood that these things we call
+computers needed to have rounded edges.
+>> Yes,
+>> they needed to fit kind of seamlessly in
+our pocket. They needed to have Bob
+Dylan on the landing page or whatever so
+that it softened the relationship to
+technology. Some people would say, well,
+it went too far. It was a Trojan horse.
+But I don't think so. somebody who
+really understands human nature to allow
+these like what are clearly going to be
+benevolent collaborations between robots
+and humans to happen because as you've
+pointed out and with total respect to
+the technologists that have built AI and
+the scientists that do amazing science,
+there's a hardness to either the way
+they're being presented or what they're
+capable of sharing that is a real
+separator.
+>> Yes. And I'm not a therapist, but if I
+could like wrap my arms around him, I'd
+be like, "Listen, guys, you're the
+smartest people in the room, guys and
+gals. To be fair, you're the smartest
+people in the room." But people don't
+like you because they don't understand
+you and they're maybe you need a
+collaborator to help you share your
+vision in a way that isn't going to
+allow the press because the media is
+guilty of of building this chasm because
+it's like these technologists, they're
+coming for us. I I think that's I think
+that's a total trick of media, too.
+that's just to put money in their
+pocket. Like there's a lot going on
+right now. So who's the Steve Jobs or
+the Stacy Stacy whoever it's I mean
+could be a man could be a woman. Someone
+who really understands human beings.
+>> Many of them there are many of us you
+know I mean Stanford started human
+center AI institute. Well, there's you.
+There's you.
+>> Okay. But there are many.
+>> Yeah.
+>> There are plenty of entrepreneurs who
+are doing incredible uh startups on AI
+for drug discovery, AI for health care,
+AI for aging, AI for mental health.
+These people care about AI, right? There
+are many designers and and product
+managers who are trying to I I do think
+the megaphone is too much focused on
+people pumping their chest and talking
+about tech in a certain particular way.
+So, you know, even this podcast is is
+making a positive difference, I hope, is
+to to put that human angle, the the the
+rounded human angle, human perspective,
+human human future into these
+conversations. I don't feel despair,
+Andrew. I'm an educator. I'm a builder.
+I'm a technologist. I see many people
+around me, including my entire startup.
+They they these brilliant young
+technologists could join any startup or
+company they want but they come to world
+labs because they want to empower people
+right so I see many people but I don't
+think there's enough you're right I
+don't think the com the public discourse
+is um is balanced right now and there is
+too much extreme rhetoric either in
+terms of extreme doomerism and
+lack of safety like it's just freaking
+people out or extreme utopian as if
+technology can do no run and then that's
+disingenuous people would say well okay
+you're the halves of course you say that
+so I think we should come to the middle
+and talk about what this technology is
+how to use it how we can collectively
+have that agency to guide the future
+Yeah. One thing that was pointed out to
+me by one of my podcast colleagues that
+that was should have been obvious but
+wasn't and and clearly this is something
+that you you uh for lack of a better
+word you embody among many other things
+is people don't really want to hear
+stories about machines. But people love
+hearing that some person cured their
+dog's cancer or their child that was
+experiencing
+>> crazy symptoms. They had no clue. The
+doctors had no clue and their fingertips
+AI
+>> solved the problem.
+>> These are the stories that really need
+amplification because I think that they
+we can relate to them and and they're
+beautiful stories. They're incredible
+stories, but they're not getting nearly
+as much attention as the other stuff.
+Yeah.
+>> And that's a it's a challenge.
+>> Yeah.
+>> You know, traditional media doesn't
+really care about the long arc of
+things. they are on a like a 12 to 24
+hour cycle but other names perhaps of
+like people who are really trying to
+like talk about the benevolent use of AI
+these collaborations that you know we
+should be aware of
+>> Stephan for HI's newsletter our website
+our seminars we uh promote a lot of
+those work
+>> I would love to learn more about your
+startup um because you don't pick
+projects haphazardly so what is the what
+is the project what's the goal
+>> so my startup uh co-founded with um a
+couple of other co-founders is called uh
+World Labs.
+>> We co-ounded it at the beginning of uh
+2024.
+It really is for for me a kind of my
+life's work. You know, we both come from
+vision and the recognition of uh there's
+more beyond language intelligence is
+what really motivated me to to think
+hard about what's the next chapter of AI
+frontier and uh we recognize that
+unlocking spatial and physical
+intelligence is really the next chapter
+that it's not excluding languages of
+course the language technology is
+incredible is where we can um uh devote
+more time to build um models or build
+eventually products that can help
+unlocking capabilities in spatial
+intelligence like generating 3D 4D
+worlds that are um deeply useful for
+creators for robot training for uh
+architecture design design or to en
+enable those interactive environments.
+Whether you're talking about healthcare
+usage or education usage or robotics
+usage or industry usage, these
+capabilities goes beyond language
+>> per se. And uh so World Labs was founded
+based on that premise. We are still a
+young company. We're very much a um a
+model focused company where we're
+building these this foundation model and
+we're started by a lot of PhDs
+but now we we we we're starting to build
+products and uh so it's a it's still the
+beginning. It's very exciting and as a
+technologist I feel deep in my heart I'm
+a builder
+>> you know it's maybe it's because also
+I'm an immigrant so that that
+rolling your sleeves up and just get in
+with the young generation that's so
+incredibly smart and just build
+something from scratch is just so
+exciting.
+>> I recall a time not but what 15 20 years
+ago when there were cars driving around
+>> Oh yeah. taking images
+>> still still driving around
+>> still driving around taking images but I
+imagine that there and there are
+certainly aerial views as well but you
+could imagine little tiny drones like
+the type that could fly through a neuron
+and just kind of look at everything or
+um so to speak or drones picking up
+information about every nook and cranny
+of the fjords in Norway has that been
+done to sort of map the the
+three-dimensional world
+>> first of all let's not make it sound
+scary that drones are [clears throat]
+getting into people's homes and
+properties. I think that the ability to
+capture imageries of the world is really
+rapidly advanced, right? Like our cell
+phones are incredible sensors. They're
+not drones, but people take a lot of
+photos. And of course, our camera
+technology has improved. What World Labs
+is doing is not just taking real world
+images. It's we allow people to imagine
+what's in their mind's eye. As long as
+you could type a sentence or show a
+picture or a sketch of what you imagine,
+we try to turn that into worlds
+>> and environments. Um why is it useful?
+Because uh entertainment industry would
+use it, design industry would use it,
+robotics industry uh very much would use
+it for training environments and and and
+all that. So the combination of
+capturing what's in the real world as
+well as capturing what's in your
+imagined world is the new frontier.
+>> If you don't mind, I'd like to just take
+a couple of more minutes and talk about
+this uh moving from imagination to
+>> something. Because this is Los Angeles,
+it occurred to me that a lot of people
+write scripts
+>> and then they try and get them their
+movie made. Mhm.
+>> But with AI, in theory, you could take a
+script and give it to AI and it could
+make the movie in theory, right? Going
+from words to pictures to video. Um, and
+you could maybe edit it a little bit
+here and there where it needed help, of
+course. Has that been done? Has a a
+successful movie been made start to
+finish using AI?
+>> So, this is a very nuance topic. This is
+where we also get into people's
+weariness of AI and creativity when if
+not careful it might sound like we're
+taking away from storytellers and
+creators job. Right? So, so let's
+separate this job conversation from the
+technology conversation a little bit
+even though they're entangled.
+technology has advanced enough that
+taking scripts and generating shots,
+video shots is is getting really good.
+We have seen short movies even almost
+feature length films being assembled by
+AI AI tools. We have and and there are
+many companies US companies, Asian
+companies creating technology.
+But what remains deeply human and that
+is important is
+every part of storytelling and story
+creation.
+There are humans behind it with their
+unique,
+emotion, story,
+technique,
+how they see the world, how they move
+the cameras, how they characterize pe
+characters. A lot of that is what
+Hollywood and and novel writers is
+about. So how do we meet the human need
+and human
+desire of storytelling with modern tools
+is actually a a challenge because there
+is a fear very much coming from
+Hollywood that AI is taking over and
+storytellers and actors and
+screenwriters the jobs are being
+impacted and I think it is but how is it
+being impacted, what are we doing about
+it? Who is working in a in a
+constructive way? You know, this is not
+my industry per se, but I would love to
+see much more nuanced work
+>> in in this and also nuanced public
+discussion about that. But I do think
+just like healthcare, we were talking
+about how AI can rapidly change and
+disrupt the old ways of doing
+healthcare. I think AI is absolutely
+changing the way we're doing um
+storytelling. So one story speaking of
+which I have a co-founder whose name is
+Ben and Ben and I met with Ben Affleck.
+So I was joking Ben meeting Ben who is
+also thinking very avanguard about using
+AI tools about film making right. So
+having conversations between
+technologists
+and storytellers or movie makers at this
+moment is critical.
+>> Yeah. I feel like in every example of
+technology, there's some crossover point
+that when somebody who's truly an
+insider embraces a technology
+>> and then
+>> it just kind of takes off like
+>> you know uh Steven Spielberg or
+something like that or these probably
+aren't the best examples but like the
+the Steve Jobs Wnjak crossover kind of a
+designer
+technology curious guy and and a real
+forgive me to the Jobs film but a real
+computer scientist. right? That merge
+these collaborations are really key like
+so you need an insider and an outsider
+to do it right because you have to
+understand both cultures and how to
+include
+>> the industry the the people
+>> so I really hope right cuz world labs
+works with VFX industry as well it's so
+important for me that our customers and
+users feel empowered
+>> it's not that technology should be
+taking their jobs away technology should
+be making their jobs better
+superpowering their creativity And
+that's how I I see this technology and
+that's how I would like to work with the
+users and customers.
+>> It's wild to think that, you know, when
+I was a kid on California Avenue in Palo
+Alto, there was this store, Keeblin
+Shucket, and it was just a photograph
+store and camera store. Yes.
+>> You go in there, you got your film
+developed, and there were all these guys
+behind the counter, and they tell you
+all you could rent a longdistance lens
+and this kind of thing. Um, none of that
+exists anymore. or everything went
+digital, you know, but there are still
+camera stores. So, industries can morph.
+They don't always get obliterated.
+>> Yeah, it morphs. People also get
+reskilled, upskilled. You know, we are
+working with a lot of creators who are
+using AI tools because they see where
+technology is going and they want to
+reskill and upskill themselves. So, I
+think moments of change is moment of
+both opportunity and loss. We
+[clears throat] need to really be
+thoughtful about that.
+>> My last question is about the young
+generation. How do they feel about AI?
+Because there is this
+>> How young are you talking about?
+>> I'm talking about kids between the age
+of uh seven and 20.
+>> Okay, that that's literally my kids.
+>> Yeah. So, I might have asked that
+question for a reason. You know, how do
+they feel about it? Are they excited by
+it? Because there is this phenomenon
+where like computers come along and you
+know your handwriting teacher is getting
+nervous that people aren't just typing.
+Now they're all writing with their
+fingertips and no one's going to know
+how to write and we wrote for there's
+these these stories have been around for
+a long time about how we're just going
+to dissolve into a puddle of our own
+neurons if we don't uh embrace the past
+as much as the future. And I like to
+think some of both is what's important.
+But how do the kids feel? What do they
+think? This is actually my pet project
+as a educator and technologist.
+Everywhere I go, I try to talk to to
+students, parents, and teachers because
+I think that is the most forgotten
+population,
+our policy makers and our technologist
+and our investors. They don't talk about
+teachers, parents, and students. They
+all have opinions and they all have
+kids, but they don't talk about it. I
+always have hope for kids. Maybe because
+I'm an educator because I think the
+biggest thing humanity never learns is
+the older generation lamenting about the
+future generation as if the future
+generation doesn't know anything.
+They're rude. They're they're they're
+forgetting the past. But if you look at
+arc of history of humanity, by and
+large, we advance for the better. Now,
+I'm not denying the atrocities. I'm not
+denying the setbacks. I'm not denying
+this but you know humanity there
+fundamentally I'm a optimist in humanity
+right so so that's where I come from so
+if you're a total pessimist maybe we're
+already on the wrong footing but I look
+at kids they're curious that's why
+they're kids they're curious they of
+course they get massively entertained by
+this technology but they also are
+starting to use it what I worry worry
+about our teachers and some parents
+because I think our society today and
+especially Silicon Valley are not doing
+them a service. We're forgetting about
+them. We are lecturing them. We are
+berating them. We are looking down at
+them. They are the most important people
+in our society. We should be talking to
+them. We should be uplifting them. We
+should be supporting them. We should be
+providing resources to them. K12 teacher
+or K16 teachers, they share the most
+important critical burden of our
+society. I'll tell you a real story.
+November
+2022, Chad GPT came out. Obviously, I'm
+an insider in terms of technology, but
+the first thing I did was emailing the
+principal of the elementary school my
+kid was in and said, "I would like to
+come and guest lecture for your students
+and teachers." It's not because I'm so
+special. It's because I want them in
+real time to know what's happening.
+Because nobody, nobody in Silicon
+Valley, no investors, multi-billion
+dollar investment firms or multi-million
+dollar, multi-t trillion dollar
+companies. When chap GBT came out, the
+first thing is what about our teachers
+in the neighborhood? Nobody think like
+that.
+But we need to we need to be talking to
+teachers. We need to show teachers. Of
+course, they're going to ask the
+question about what if kids cheat. It's
+okay. They ask those questions. Let's
+just show them. Let's work with them and
+empower them to come up with ways to
+deal with that. They are smart, too.
+They are eager to change. They're just
+forgotten.
+So, I have hope for kids, but in order
+not to have a blind hope. I think we
+should all remember our teachers and
+help our teachers and parents so that we
+can help our kids.
+I absolutely love that answer and I know
+that sentiment is shared by many many
+people listening. Um, God bless the
+teachers and they need help, support and
+information because now they they turn
+on not yours but most podcasts they're
+just scared.
+They're so scared they hear these
+doomerism.
+They hear the dooms say or they say,
+"Oh, don't worry. It's utopian." Neither
+of these messages can help our teachers
+and if they're not helped, our kids are
+not helped.
+>> Couldn't agree more.
+>> Yeah, couldn't agree more. Fifi, thank
+you so much for taking the time out of
+your incredibly busy schedule. I'm so
+glad to hear your father's okay. And
+that is also part of your schedule,
+taking care of your parents, kids, and
+all the rest to come educate us on this
+thing that's not just important, it's a
+major wedge of where we're at and where
+we're headed. And I I share great
+optimism with caution even more so on
+the basis of what you shared today. And
+also thank you for teaching us more
+neuroscience uh as we went along uh
+because these machines are informed by
+the brain and the brain is informed by
+these machines and this is the world
+we're living in and uh I have great
+optimism in no small part thanks to the
+fact that you exist in this world and
+thank you for taking the time to come
+here to share. I I know many people are
+very grateful. So thank you.
+>> Thank you. Andrew and I really
+appreciated this conversation. It's a
+civilizational moment.
+>> Thank you for joining me for today's
+discussion with Dr. Feay Lee. To learn
+more about her work, please see the
+links in the show note caption. If
+you're learning from and or enjoying
+this podcast, please subscribe to our
+YouTube channel. That's a terrific
+zerocost way to support us. In addition,
+please follow the podcast by clicking
+the follow button on both Spotify and
+Apple. And on both Spotify and Apple,
+you can leave us up to a fivestar
+review. and you can now leave us
+comments at both Spotify and Apple.
+Please also check out the sponsors
+mentioned at the beginning and
+throughout today's episode. That's the
+best way to support this podcast. If you
+have questions for me or comments about
+the podcast or guests or topics that
+you'd like me to consider for the
+Huberman Lab podcast, please put those
+in the comment section on YouTube. I do
+read all the comments. For those of you
+that haven't heard, I have a new book
+coming out. It's my very first book.
+It's entitled Protocols: An Operating
+Manual for the Human Body. This is a
+book that I've been working on for more
+than five years and that's based on more
+than 30 years of research and
+experience. And it covers protocols for
+everything from sleep to exercise to
+stress control protocols related to
+focus and motivation. And of course, I
+provide the scientific substantiation
+for the protocols that are included. The
+book is now available by pre-sale at
+protocolsbook.com.
+There you can find links to various
+vendors. You can pick the one that you
+like best. Again, the book is called
+Protocols, an operating manual for the
+human body. And if you're not already
+following me on social media, I am
+Huberman Lab on all social media
+platforms. So that's Instagram, X,
+Threads, Facebook, and LinkedIn. And on
+all those platforms, I discuss science
+and science related tools, some of which
+overlaps with the content of the
+Hubberman Lab podcast, but much of which
+is distinct from the information on the
+Hubberman Lab podcast. Again, it's
+Huberman Lab on all social media
+platforms. And if you haven't already
+subscribed to our neural network
+newsletter, the neural network
+newsletter is a zerorost monthly
+newsletter that includes podcast
+summaries as well as what we call
+protocols in the form of one to
+three-page PDFs that cover everything
+from how to optimize your sleep, how to
+optimize dopamine, deliberate cold
+exposure. We have a foundational fitness
+protocol that covers cardiovascular
+training and resistance training. All of
+that is available completely zero cost.
+You simply go to hubermanlab.com, go to
+the menu tab in the top right corner,
+scroll down to newsletter, and enter
+your email. And I should emphasize that
+we do not share your email with anybody.
+Thank you once again for joining me for
+today's discussion with Dr. Fay Lee. And
+last, but certainly not least, [music]
+thank you for your interest in science.

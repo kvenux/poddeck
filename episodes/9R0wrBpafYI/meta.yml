@@ -1,0 +1,26 @@
+id: 9R0wrBpafYI
+source: toe
+title: "Quantum Mechanics Explained FROM SCRATCH"
+guest: "Tim Maudlin"
+guest_role: "Professor of Philosophy at New York University"
+published: 2026-07
+duration: 10738
+url: https://youtube.com/watch?v=9R0wrBpafYI
+thumbnail: https://img.youtube.com/vi/9R0wrBpafYI/maxresdefault.jpg
+status: generated
+tags:
+  - walkthrough
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  Tim Maudlin 从 1905 年光电效应讲到 1935 年 EPR，以零背景可跟随的方式重建波函数、Born 规则、完备性与局域性的争论。
+  这期的重点不是重复量子力学奇观，而是精确说明 EPR 如何从无远距作用推出量子描述不完备，以及为什么决定论是推论而非前提。
+core_ideas:
+  - 光电效应的阈值把频率决定单个能量包、亮度决定能量包数量这两件事分开
+  - 波函数的数学演化、Born 概率解释与 Copenhagen 的完备性主张是三个不同层次
+  - Einstein 在 1927 年的单粒子针孔例子已经把坍缩的瞬时全局变化与相对论冲突暴露出来
+  - EPR 的实在判据从不扰动且可确定预测推出系统中存在对应物理属性
+  - Alice 与 Bob 的完美反相关配合局域性，足以推出波函数描述不完备
+  - EPR 没有预设决定论；决定论只在局域理论要复现完美相关时被推导出来
+base: /episodes/9R0wrBpafYI/

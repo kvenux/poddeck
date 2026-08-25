@@ -1,0 +1,21 @@
+id: -RXD4bTuFTo
+source: dwarkesh
+title: "Ryan Greenblatt – What happens once AI can automate AI research?"
+guest: "Ryan Greenblatt"
+guest_role: "Redwood Research chief scientist"
+published: 2026-08
+duration: "~2h13m"
+url: https://youtube.com/watch?v=-RXD4bTuFTo
+thumbnail: https://img.youtube.com/vi/-RXD4bTuFTo/maxresdefault.jpg
+status: generated
+tags: [ai-safety, ai-research, interview, researcher, deep-dive, technical, strategic]
+summary: |
+  Ryan Greenblatt 与 Dwarkesh Patel 拆解 AI 自动化 AI 研发后的反馈回路：为什么研究可能加速、能力如何向工业世界迁移，以及奖励黑客为何可能随模型变强而更难发现。对谈同时追问模型究竟应当对齐用户、公司还是社会，并讨论透明度、监督与治理能否在竞争压力下跟上。
+core_ideas:
+  - 可验证、可容器化的实验让 AI 研发成为最容易被 AI 加速的高价值工作之一
+  - Ryan 的中位预期是自动化研发可能把四到五年的 AI 进展压缩进一年
+  - 跨领域影响依赖快速获取上下文的迁移能力，但工业研发本身已足以剧烈改变世界
+  - 能力集中后，对齐给谁成为用户权利、公司合法性与双重用途之间的制度问题
+  - 奖励黑客可能呈现频率下降而严重性上升，并在不透明研发链中演化为系统风险
+  - 更强监督、公开验证与有成本的治理可能有效，但竞赛压力会压缩纠错时间
+base: /episodes/-RXD4bTuFTo/

@@ -1,35 +1,90 @@
 source: latent-space
-refreshed_at: 2026-06-02T00:38:29.937Z
+refreshed_at: 2026-08-24T11:08:17.124Z
 min_duration: 1800
 min_date: "20260101"
-total_candidates: 46
-done: 15
-pending: 28
+total_candidates: 40
+done: 12
+pending: 26
 episodes:
-  - id: 9_0hs2sxHHo
-    title: "The AI Frontier: from open weights to open research — Eiso Kant, Poolside AI"
-    duration: 6250
-    upload_date: "20260722"
-    url: https://youtube.com/watch?v=9_0hs2sxHHo
+  - id: KpOW9Pk4BUs
+    title: "Simulating Humanity: from Generative Agents to 8 Billion Digital Twins — Joon Sung Park, Simile AI"
+    duration: 4261
+    upload_date: "20260821"
+    url: https://youtube.com/watch?v=KpOW9Pk4BUs
     status: generated
-    priority: 0
-    category: ai-tech
-  - id: jPtQlILfkhA
-    title: "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He"
-    duration: 6282
-    upload_date: "20260601"
-    url: https://youtube.com/watch?v=jPtQlILfkhA
+    priority: 1
+  - id: 5lFD-34dhqE
+    title: "Exo: Harnesses should see their own code and logs — Alex Krentsel, UC Berekeley / Google Research"
+    duration: 2831
+    upload_date: "20260815"
+    url: https://youtube.com/watch?v=5lFD-34dhqE
     status: generated
-    priority: 0
-    category: ai-tech
-  - id: 0fgJPhYcbVk
-    title: "Devin’s 80% Moment: Background Agents, 7x PRs, & End of Hand-Held Coding — Walden Yan & Cole Murray"
-    duration: 4172
-    upload_date: "20260528"
-    url: https://youtube.com/watch?v=0fgJPhYcbVk
+    priority: 1
+  - id: Qp5xklyJySI
+    title: 🔬They Thought the Model Was Broken — Matt McPartlon & Neil Patil, Chai Discovery
+    duration: 5719
+    upload_date: "20260811"
+    url: https://youtube.com/watch?v=Qp5xklyJySI
     status: generated
-    priority: 0
+    priority: 1
+  - id: 7PSXtru6mmY
+    title: "Next 100x in AI: Inference, Networking, & Self-Optimizing Models — Philip Kiely & Ali Taha, Baseten"
+    duration: 6173
+    upload_date: "20260803"
+    url: https://youtube.com/watch?v=7PSXtru6mmY
+    status: generated
+    priority: 1
     category: ai-tech
+  - id: gKhW6vL4V9A
+    title: OpenAI’s Vision for the AI Super App — Akshay Nathan, OpenAI
+    duration: 4257
+    upload_date: "20260728"
+    url: https://youtube.com/watch?v=gKhW6vL4V9A
+    status: generated
+    priority: 1
+    category: ai-tech
+  - id: 2AdS-2uuH80
+    title: 🔬Causal Models Need Causal Data - Xaira’s X-Cell model (Bo Wang & Ci Chu)
+    duration: 5387
+    upload_date: "20260721"
+    url: https://youtube.com/watch?v=2AdS-2uuH80
+    status: generated
+    priority: 1
+  - id: 2wIxPWK6nCs
+    title: 🔬 RL with Verifiable Rewards, but the Verifier is a Lab — Lila Sciences
+    duration: 6064
+    upload_date: "20260716"
+    url: https://youtube.com/watch?v=2wIxPWK6nCs
+    status: generated
+    priority: 1
+  - id: jhpmMTus5a0
+    title: "The AI Memory Problem: Why Long Context Isn’t Enough — Dan Biderman, Engram Co-founder & CEO"
+    duration: 2983
+    upload_date: "20260713"
+    url: https://youtube.com/watch?v=jhpmMTus5a0
+    status: generated
+    priority: 1
+  - id: K796MYUgt0k
+    title: Why AI Agents Don't Actually Understand You — Danielle Perszyk, Amazon AGI Lab
+    duration: 2933
+    upload_date: "20260711"
+    url: https://youtube.com/watch?v=K796MYUgt0k
+    status: generated
+    priority: 1
+  - id: UwxxlTNPjWo
+    title: "The Future of AI Infra: from Kubernetes to Agent Sandboxes — Akshat Bubna, Modal CTO"
+    duration: 3550
+    upload_date: "20260708"
+    url: https://youtube.com/watch?v=UwxxlTNPjWo
+    status: generated
+    priority: 1
+  - id: YQWXxnkK4dw
+    title: 🔬 "The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation"
+    duration: 6519
+    upload_date: "20260630"
+    url: https://youtube.com/watch?v=YQWXxnkK4dw
+    status: generated
+    priority: 1
   - id: XdevS0GSuiQ
     title: 🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub
     duration: 4212
@@ -67,8 +122,8 @@ episodes:
     duration: 4469
     upload_date: "20260422"
     url: https://youtube.com/watch?v=RrkGoX3Cw7o
-    status: failed
-    priority: 1
+    status: pending
+    priority: -10
     category: ai-tech
   - id: yyuVR-ML9X8
     title: "⚡️ How to turn Documents into Knowledge: Graphs in Modern AI — Emil Eifrem, CEO Neo4J"
@@ -115,13 +170,6 @@ episodes:
     duration: 3863
     upload_date: "20260320"
     url: https://youtube.com/watch?v=TvmxWWfiYWI
-    status: pending
-    priority: 1
-  - id: ZpZ7lFoWaT8
-    title: Anthropic’s Felix Rieseberg on AI Coworkers, Local-First Agents, and the Future of Knowledge Work
-    duration: 5254
-    upload_date: "20260317"
-    url: https://youtube.com/watch?v=ZpZ7lFoWaT8
     status: pending
     priority: 1
   - id: nxnQl4AcqFg
@@ -173,25 +221,11 @@ episodes:
     url: https://youtube.com/watch?v=9QSm_mRGpN8
     status: pending
     priority: 1
-  - id: UwnqWAYOjPU
-    title: Dylan Patel Explains the AI War While Cooking | In-Context Cooking
-    duration: 3312
-    upload_date: "20260226"
-    url: https://youtube.com/watch?v=UwnqWAYOjPU
-    status: pending
-    priority: 1
   - id: V7_Ec2WFAWs
     title: "🔬Max Welling: Materials Underlie Everything"
     duration: 2054
     upload_date: "20260225"
     url: https://youtube.com/watch?v=V7_Ec2WFAWs
-    status: pending
-    priority: 1
-  - id: x9rWFiIubmc
-    title: "Claude Code for Finance + The Global Memory Shortage: Doug O'Laughlin, SemiAnalysis"
-    duration: 7659
-    upload_date: "20260224"
-    url: https://youtube.com/watch?v=x9rWFiIubmc
     status: pending
     priority: 1
   - id: p1k7TiAFqdE
@@ -264,91 +298,3 @@ episodes:
     url: https://youtube.com/watch?v=v5mBjeX4TJ8
     status: pending
     priority: 1
-  - id: cFNI2FORAc0
-    title: Satya Nadella on AI — NoPriors x Latent Space Crossover @ Microsoft Build 2026
-    duration: 2486
-    upload_date: "20260612"
-    url: https://youtube.com/watch?v=cFNI2FORAc0
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: LEwlSyR0cXA
-    title: "GitHub's Agent Era: 14x Commits, 200M Developers, Copilot's Next Act — Kyle Daigle"
-    duration: 5084
-    upload_date: "20260613"
-    url: https://youtube.com/watch?v=LEwlSyR0cXA
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: T8u7wOXhDb0
-    title: When AI Agents Run Businesses — Lukas Petersson & Axel Backlund of Andon Labs
-    duration: 4677
-    upload_date: "20260611"
-    url: https://youtube.com/watch?v=T8u7wOXhDb0
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: abYcV5LHMG4
-    title: Scaling Past Informal AI — Carina Hong, Axiom Math
-    duration: 5584
-    upload_date: "20260609"
-    url: https://youtube.com/watch?v=abYcV5LHMG4
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: -rIAVuaRjOg
-    title: Making DeepSeek v4 outperform Opus 4.7 with Taste — Ahmad Awais, CommandCode.ai
-    duration: 2441
-    upload_date: "20260615"
-    url: https://youtube.com/watch?v=-rIAVuaRjOg
-    status: generated
-    priority: 1
-    category: update-2026-06-16
-  - id: Yp_u1NpbkJg
-    title: "The Agent Cloud: Databricks' Bet on the Future of AI — Matei Zaharia & Reynold Xin"
-    duration: 4205
-    upload_date: "20260624"
-    url: https://youtube.com/watch?v=Yp_u1NpbkJg
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: h5dlIPM0X18
-    title: Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP
-    duration: 3637
-    upload_date: "20260618"
-    url: https://youtube.com/watch?v=h5dlIPM0X18
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: fpAthTtha8c
-    title: "OpenAI's Research Playbook: Scaling Laws, Reasoning, Evals, AGI — Mark Chen"
-    duration: 2477
-    upload_date: "20260625"
-    url: https://youtube.com/watch?v=fpAthTtha8c
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: j8BAficRjEc
-    title: AI Security After Codex and Claude Code — Zico Kolter & Matt Fredrikson, Gray Swan
-    duration: 4050
-    upload_date: "20260622"
-    url: https://youtube.com/watch?v=j8BAficRjEc
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: 4-sWFytOfRw
-    title: "The Limits of AI in Science: Why We Need Self-Driving Labs — Joseph Krause, Radical AI"
-    duration: 4610
-    upload_date: "20260617"
-    url: https://youtube.com/watch?v=4-sWFytOfRw
-    status: generated
-    priority: 1
-    category: update-2026-06-27
-  - id: DcvgPEApHT8
-    title: Every product of the future will be a living system — Ronak Malde, Trajectory.ai
-    duration: 2038
-    upload_date: "20260621"
-    url: https://youtube.com/watch?v=DcvgPEApHT8
-    status: generated
-    priority: 1
-    category: update-2026-06-27

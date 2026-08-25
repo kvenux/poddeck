@@ -1,0 +1,29 @@
+id: BV0hy6NET-U
+source: lennys-podcast
+category: ai-tech
+title: "Chatbots are not the final interface: OpenAI’s Head of Design on what’s next | Ian Silber"
+guest: "Ian Silber"
+guest_role: "OpenAI Head of Product Design"
+published: 2026-08
+duration: "~72 min"
+url: https://youtube.com/watch?v=BV0hy6NET-U
+thumbnail: https://img.youtube.com/vi/BV0hy6NET-U/maxresdefault.jpg
+status: generated
+tags:
+  - ai-products
+  - design
+  - product-management
+  - interview
+  - product-lead
+  - strategic
+summary: |
+  OpenAI 产品设计负责人 Ian Silber 从设计师普遍的不安出发，解释 AI 为什么压缩了产出，却没有消除试错、反馈与判断。他进一步展开了角色边界、系统思维、双速设计，以及聊天框如何演化成按意图和上下文变化的自适应界面。
+  这期对谈的核心不是让设计师转行写代码，而是把好奇心、原型能力和人类判断放到新的工具链里。
+core_ideas:
+  - 工程任务被 coding agent 大幅压缩，但设计仍需要方案淘汰、用户反馈与跨团队对齐
+  - PM、设计与工程的边界继续模糊，团队仍需要不同责任与互补专长
+  - AI 能扩大方案空间，人类价值集中在理解需求、发明新交互与形成产品取向
+  - 快速实验与长期打磨需要并存，设计投入应匹配界面的耐久度
+  - 聊天框会从通用输入演化为按意图和上下文变化的专用交互表面
+  - 设计师应以好奇、原型、系统思维和持续修正来适应高速变化
+base: /episodes/BV0hy6NET-U/

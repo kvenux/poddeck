@@ -1,0 +1,21 @@
+id: QbdbAhaJoCQ
+source: dwarkesh
+title: "General relativity from first principles – Adam Brown"
+guest: "Adam Brown"
+guest_role: "Google DeepMind BlueShift lead; former Stanford physicist"
+published: 2026-07
+duration: "~1h38m"
+url: https://youtube.com/watch?v=QbdbAhaJoCQ
+thumbnail: https://img.youtube.com/vi/QbdbAhaJoCQ/maxresdefault.jpg
+status: generated
+tags: [ai-research, interview, researcher, deep-dive, technical]
+summary: |
+  Adam Brown 从光速上限与等效原理出发，逐步解释为何重力应被理解为弯曲时空中的惯性运动，并用 Schwarzschild 解拆开事件视界、时间膨胀与能量红移。对谈进一步追踪黑洞的多通道证据、1919 年日食验证，以及少量经验线索、理论一致性与 AI 科学探索之间的边界。
+core_ideas:
+  - 牛顿的瞬时反平方引力与光速上限冲突，推动 Einstein 寻找相对论性引力理论
+  - 惯性质量与引力质量相等，使重力可以被重新理解为惯性力与时空几何
+  - 物质与能量决定时空曲率，弯曲后的测地线决定自由物体的运动
+  - Schwarzschild 解用同一平方根结构连接事件视界、时间膨胀、红移与能量提取
+  - 恒星轨道、LIGO 引力波与事件视界望远镜从不同机制共同支持黑洞存在
+  - 日食检验展示理论预测如何通过可区分的数值结果获得共识
+base: /episodes/QbdbAhaJoCQ/

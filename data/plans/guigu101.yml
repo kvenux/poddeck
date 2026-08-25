@@ -1,252 +1,66 @@
 source: guigu101
-refreshed_at: 2026-06-20T00:00:00.000Z
+refreshed_at: 2026-08-24T11:08:17.311Z
 min_duration: 1800
-min_date: "20220101"
-total_candidates: 72
-done: 41
-pending: 0
+min_date: "20260101"
+total_candidates: 13
+done: 6
+pending: 4
 episodes:
-  - id: tnvyMcmtAiw
-    title: 对话Vincent Koc：OpenClaw的反思与进化，中国的“小龙虾”狂热，与Agent的下一步
-    duration: 3700
-    upload_date: "20260721"
-    url: https://youtube.com/watch?v=tnvyMcmtAiw
-    status: generated
-    priority: 0
-    category: ai-tech
-  - id: ULi-TCF2cQE
-    title: 美国AI研究员的中国之旅：年轻人，追赶者，算力焦虑与"AGI展示厅" ｜专访Nathan Lambert【101视频播客】
-    duration: 5225
-    upload_date: "20260703"
-    url: https://youtube.com/watch?v=ULi-TCF2cQE
+  - id: 89ThCi5qq-A
+    title: “消失”的万亿债务：深扒数据中心“影子借贷”、GPU金融化与次贷风险
+    duration: 3167
+    upload_date: "20260821"
+    url: https://youtube.com/watch?v=89ThCi5qq-A
     status: generated
     priority: 1
-    category: ai-tech
-  - id: UBwHVneGiXs
-    title: 【硬核】在诉讼与骂名中崛起的英伟达GPU：从未停止过战斗，也没有永远的朋友
-    duration: 3303
-    upload_date: "20230926"
-    url: https://youtube.com/watch?v=UBwHVneGiXs
+  - id: H35nVgNGyo8
+    title: 对话前DeepMind曹原：AI for Science爆发，一个新时代到来了
+    duration: 6561
+    upload_date: "20260815"
+    url: https://youtube.com/watch?v=H35nVgNGyo8
+    status: generated
+    priority: 1
+  - id: l5K_icg5JQA
+    title: 挑战GPU、绕过HBM，深挖史上最大芯片背后的Cerebras
+    duration: 2664
+    upload_date: "20260807"
+    url: https://youtube.com/watch?v=l5K_icg5JQA
+    status: generated
+    priority: 1
+  - id: Hq4jFGd4YxE
+    title: 对话叶奇意：“寻找”月之暗面杨植麟、中国两代AI、十年人才迁徙，与AGI信仰
+    duration: 4224
+    upload_date: "20260728"
+    url: https://youtube.com/watch?v=Hq4jFGd4YxE
+    status: generated
+    priority: 1
+  - id: nilNLfW7izg
+    title: SK海力士崛起史：一个荒诞又狗血的财阀故事，如何卡住全球AI的脖子
+    duration: 2993
+    upload_date: "20260717"
+    url: https://youtube.com/watch?v=nilNLfW7izg
+    status: generated
+    priority: 1
+  - id: i0t3RyLILnw
+    title: 国际足联腐败史：英国老头、足球的权力共生网络与“免死金牌”
+    duration: 2636
+    upload_date: "20260713"
+    url: https://youtube.com/watch?v=i0t3RyLILnw
+    status: generated
+    priority: 1
+  - id: nWc1tpQnhqY
+    title: 对话王熙乔：AI时代的教育者、十年沉浮，与人类文明的下一步
+    duration: 8705
+    upload_date: "20260627"
+    url: https://youtube.com/watch?v=nWc1tpQnhqY
+    status: downloaded
+    priority: 1
+  - id: 1Rh7Zwd7Vx0
+    title: 对话教育大咖：当AI开始重新定义“能力”，教育还会一样吗？
+    duration: 2199
+    upload_date: "20260530"
+    url: https://youtube.com/watch?v=1Rh7Zwd7Vx0
     status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: Tzp0EF-sysI
-    title: 人类会被困在1nm吗？深度解析光刻机与芯片制程的未来【深度】
-    duration: 2675
-    upload_date: "20250808"
-    url: https://youtube.com/watch?v=Tzp0EF-sysI
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: CfxuqbB9dj4
-    title: 傲慢、短视、扼杀创新，垄断巨头英特尔是如何走向倒塌的？【深度】
-    duration: 3016
-    upload_date: "20250123"
-    url: https://youtube.com/watch?v=CfxuqbB9dj4
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: H-G76kecXfY
-    title: 从追缉本·拉登到AI战争，解密Palantir的崛起之路【深度】
-    duration: 2852
-    upload_date: "20250626"
-    url: https://youtube.com/watch?v=H-G76kecXfY
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: b_OpjUz7zN8
-    title: 硅谷视角深聊：DeepSeek的颠覆、冲击、争议和误解【深度】
-    duration: 4833
-    upload_date: "20250211"
-    url: https://youtube.com/watch?v=b_OpjUz7zN8
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 6gosjs_exrU
-    title: 生成式AI这一年：从群雄混战到生态确立，世界已被改变
-    duration: 1952
-    upload_date: "20240104"
-    url: https://youtube.com/watch?v=6gosjs_exrU
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: EsaUQNx59vA
-    title: 专访前FAIR研究总监田渊栋：Meta裁员之后，对AI的一些遗憾与思考【对话】
-    duration: 2349
-    upload_date: "20251111"
-    url: https://youtube.com/watch?v=EsaUQNx59vA
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 6vNxFPRdrgs
-    title: 抢电、圈地、对赌，深聊科技巨头的千亿美元AI能源大战
-    duration: 1820
-    upload_date: "20240511"
-    url: https://youtube.com/watch?v=6vNxFPRdrgs
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: SYuSZIIYOfI
-    title: 全面解析“世界模型”：定义、路线、实践与AGI的更近一步
-    duration: 2975
-    upload_date: "20260306"
-    url: https://youtube.com/watch?v=SYuSZIIYOfI
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: mEnhPDCttBs
-    title: 【深度】OpenAI成长史：顶级资本的冲突与科技大佬们的理想主义
-    duration: 2706
-    upload_date: "20230425"
-    url: https://youtube.com/watch?v=mEnhPDCttBs
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: _f2c0eZ-N7M
-    title: 关税大棒下的苹果：一场全球供应链的迁徙风暴【深度】
-    duration: 1995
-    upload_date: "20250508"
-    url: https://youtube.com/watch?v=_f2c0eZ-N7M
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 1MLCFqyEJsA
-    title: 混乱、分裂、吞并：2024年AI的信仰之战【年终总结】
-    duration: 2669
-    upload_date: "20250106"
-    url: https://youtube.com/watch?v=1MLCFqyEJsA
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: ppRvzPXGpEw
-    title: Token经济学：AI时代的新货币战争
-    duration: 2184
-    upload_date: "20260513"
-    url: https://youtube.com/watch?v=ppRvzPXGpEw
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 8uHur4G1ZVI
-    title: 镜像世界、手机消失、人类爱上AI：“硅谷精神之父”凯文·凯利的2049预言【专访】
-    duration: 2771
-    upload_date: "20250704"
-    url: https://youtube.com/watch?v=8uHur4G1ZVI
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: eAYx6CHstNw
-    title: 对话高通：智能体爆发、6G与Physical AI背后的大赢家
-    duration: 2105
-    upload_date: "20260603"
-    url: https://youtube.com/watch?v=eAYx6CHstNw
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: x2meJPOn9ws
-    title: SpaceX崛起史：一切，为了去火星｜实地探访星舰基地与总部
-    duration: 4533
-    upload_date: "20260611"
-    url: https://youtube.com/watch?v=x2meJPOn9ws
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 5DMVAqQ-dd8
-    title: 亲手帮忙装了台量子计算机，量子时代要来了吗？【深度】
-    duration: 2712
-    upload_date: "20250226"
-    url: https://youtube.com/watch?v=5DMVAqQ-dd8
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: Jy5OozI1zMs
-    title: 自动驾驶的”端到端“AI新春天：依然分裂、冲突、孤注一掷
-    duration: 3102
-    upload_date: "20240913"
-    url: https://youtube.com/watch?v=Jy5OozI1zMs
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: lyAP8bRKUJo
-    title: ARM风云史：软银帝国的最后王牌与孙正义的AI“新饼”
-    duration: 2579
-    upload_date: "20241111"
-    url: https://youtube.com/watch?v=lyAP8bRKUJo
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: LWT4zTP2DDw
-    title: 深聊GPT-5发布：过度营销的反噬与AI技术突破的困局
-    duration: 2180
-    upload_date: "20250811"
-    url: https://youtube.com/watch?v=LWT4zTP2DDw
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 8ndEN6VVlUw
-    title: 英伟达“两个儿子”之战：AI算力的杠杆游戏与潜在泡沫【深度】｜Coreweave｜Nebius｜Neocloud
-    duration: 2249
-    upload_date: "20251023"
-    url: https://youtube.com/watch?v=8ndEN6VVlUw
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: oERpVnnl0NQ
-    title: 平庸且保守，但苹果或是AI落地的最大赢家【深度解读WWDC 2024】
-    duration: 1926
-    upload_date: "20240617"
-    url: https://youtube.com/watch?v=oERpVnnl0NQ
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: tzEWYNQmnmc
-    title: AI救活了一家马桶公司，也点燃了存储芯片超级周期
-    duration: 2348
-    upload_date: "20260410"
-    url: https://youtube.com/watch?v=tzEWYNQmnmc
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: co9aiATA1FU
-    title: 当AI来到华尔街：对冲基金经理们该担心自己的饭碗吗？
-    duration: 2133
-    upload_date: "20250305"
-    url: https://youtube.com/watch?v=co9aiATA1FU
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: 3el8ppdGnSk
-    title: 再聊黄仁勋“量子春晚”：只有混战、没有共识的量子计算界【深度】
-    duration: 3113
-    upload_date: "20250418"
-    url: https://youtube.com/watch?v=3el8ppdGnSk
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: ESXtVv4L5aI
-    title: 对话百度李彦宏：AI价格战开打、大模型闭源、超级应用以及中国市场机会｜Full interview with Robin Li, Baidu's CEO
-    duration: 3597
-    upload_date: "20240711"
-    url: https://youtube.com/watch?v=ESXtVv4L5aI
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: VJgIENvy14k
-    title: 数据中心上太空？新的泡沫，还是下一个金矿？
-    duration: 2052
-    upload_date: "20260207"
-    url: https://youtube.com/watch?v=VJgIENvy14k
-    status: generated
     priority: 1
     category: ai-tech
   - id: cqW_VWYbIcU
@@ -257,368 +71,31 @@ episodes:
     status: skipped
     priority: 1
     category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: 2PSCnOFkR3U
-    title: AI Agent爆发前的黎明：Manus不够好，但天快亮了【深度】
-    duration: 2935
-    upload_date: "20250321"
-    url: https://youtube.com/watch?v=2PSCnOFkR3U
-    status: generated
+  - id: 7D_8zimKtB4
+    title: 探秘全球最大私人金库：黄金东移潮、战争、衰退危机与“Plan B”
+    duration: 2449
+    upload_date: "20260423"
+    url: https://youtube.com/watch?v=7D_8zimKtB4
+    status: pending
     priority: 1
-    category: ai-tech
-  - id: pdcT2jwXP0s
-    title: “再造一个CUDA”：英伟达的第二护城河与“超级碗”阳谋【深度解析GTC 2025】
-    duration: 2459
-    upload_date: "20250327"
-    url: https://youtube.com/watch?v=pdcT2jwXP0s
-    status: generated
+  - id: jnYWv_0MzBw
+    title: 滑雪金融化困局：“天才商业模式”通票的变革与反噬
+    duration: 1859
+    upload_date: "20260318"
+    url: https://youtube.com/watch?v=jnYWv_0MzBw
+    status: pending
     priority: 1
-    category: ai-tech
-  - id: e3kbgjGrjZQ
-    title: 代糖致癌？深聊在禁令、政治和金钱之间反复游走的甜蜜革命｜生物科技特辑（2）
-    duration: 2000
-    upload_date: "20231218"
-    url: https://youtube.com/watch?v=e3kbgjGrjZQ
-    status: skipped
+  - id: j13RPyHHCWk
+    title: 好莱坞的诅咒与Netflix的十年征服史，深扒华纳兄弟收购案始末｜传媒巨头系列
+    duration: 2439
+    upload_date: "20260211"
+    url: https://youtube.com/watch?v=j13RPyHHCWk
+    status: pending
     priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: ZvHIuIIZ3Is
-    title: 揭秘数采工厂：稀缺的机器人数据，到底难在哪儿？｜机器人特辑
-    duration: 2341
-    upload_date: "20260515"
-    url: https://youtube.com/watch?v=ZvHIuIIZ3Is
-    status: generated
+  - id: dOlQZnjMriI
+    title: 专访Bryan Johnson：“换血富豪”的“不死”抗衰实验与商业版图
+    duration: 2910
+    upload_date: "20260105"
+    url: https://youtube.com/watch?v=dOlQZnjMriI
+    status: pending
     priority: 1
-    category: ai-tech
-  - id: 9RMvKWHgyF8
-    title: 当机器人学会开可乐：深聊灵巧手的“不可能三角”与六大技术门派｜机器人特辑
-    duration: 1888
-    upload_date: "20250926"
-    url: https://youtube.com/watch?v=9RMvKWHgyF8
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: Hemlsyob1Ng
-    title: CES 2026：探展50个AI项目背后的泡沫、野心与非共识
-    duration: 2406
-    upload_date: "20260126"
-    url: https://youtube.com/watch?v=Hemlsyob1Ng
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: bO6xBjIx9JQ
-    title: 脑机接口大盘点：从科幻到现实，谁在引领这场“读心术”革命?
-    duration: 2324
-    upload_date: "20260110"
-    url: https://youtube.com/watch?v=bO6xBjIx9JQ
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: g5hw1HZfwTc
-    title: 机器人“大脑”60年进化史：基础模型的五代进化与三大闭源流派｜机器人特辑
-    duration: 2417
-    upload_date: "20260113"
-    url: https://youtube.com/watch?v=g5hw1HZfwTc
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: CIDVbaXWp64
-    title: 硅谷看DeepSeek V4：模型大战、Token Efficiency、算力突围与AGI必经之路【硅谷101视频播客】
-    duration: 4259
-    upload_date: "20260429"
-    url: https://youtube.com/watch?v=CIDVbaXWp64
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: DZIhQeFEdXI
-    title: 拆解机器人“肉身”、量产与供应链：空翻之后，它还要学会接住一片落叶｜机器人特辑
-    duration: 2316
-    upload_date: "20260601"
-    url: https://youtube.com/watch?v=DZIhQeFEdXI
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: w_sqBdgtIHQ
-    title: OpenAI与微软面临决裂？Meta收购Scale AI打响反击战、Labubu爆火的秘密｜101 Weekly
-    duration: 2135
-    upload_date: "20250622"
-    url: https://youtube.com/watch?v=w_sqBdgtIHQ
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 18qSqzTdnbs
-    title: AppLovin撕开巨头裂缝的1000天：AI审判、被做空与Underdog的“弱者之心”【硅谷101专访】
-    duration: 5623
-    upload_date: "20260215"
-    url: https://youtube.com/watch?v=18qSqzTdnbs
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: vZ1kAuU_ogw
-    title: 硅谷教育颠覆者发出警告：AI将淘汰不愿改革的学校｜硅谷101年度线下大会（全英）
-    duration: 2036
-    upload_date: "20251203"
-    url: https://youtube.com/watch?v=vZ1kAuU_ogw
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: M1LpD1Jvt28
-    title: AI语音克隆进入“零样本”时代？解析TTS模型四大流派与问鼎榜首的MiniMax
-    duration: 1990
-    upload_date: "20250529"
-    url: https://youtube.com/watch?v=M1LpD1Jvt28
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: -_JDc0XYsB4
-    title: AI云端狂想曲：亚马逊云科技的算力突围、Agent重构与卓越运营
-    duration: 2032
-    upload_date: "20251216"
-    url: https://youtube.com/watch?v=-_JDc0XYsB4
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: kjqOsLdvSFg
-    title: Physical Intelligence与机器人开源革命：“免费大脑”背后的四派力量与博弈｜机器人特辑
-    duration: 2227
-    upload_date: "20260327"
-    url: https://youtube.com/watch?v=kjqOsLdvSFg
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: JGiguIv6m8s
-    title: 智能体社交革命：AI Agent是怎么来到你我身边的？
-    duration: 2685
-    upload_date: "20260420"
-    url: https://youtube.com/watch?v=JGiguIv6m8s
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: oWO80lkP4bs
-    title: 从Sora展开，全面解读AI视频大模型发展史（上）
-    duration: 2158
-    upload_date: "20240315"
-    url: https://youtube.com/watch?v=oWO80lkP4bs
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: ZDXIUO7CRzo
-    title: 揭秘春晚小品机器人：与松延动力聊对戏、空翻、仿生背后的技术进化｜机器人系列
-    duration: 2234
-    upload_date: "20260221"
-    url: https://youtube.com/watch?v=ZDXIUO7CRzo
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: u4K7Iw41jR0
-    title: 苹果AI困境、特斯拉Robotaxi背水一战和海莉·比伯的10亿美妆战｜101 Weekly
-    duration: 2496
-    upload_date: "20250616"
-    url: https://youtube.com/watch?v=u4K7Iw41jR0
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 2ydjTZeFcnM
-    title: AI“入侵”生物医疗史：从暴力破解到Transformer模型三部曲
-    duration: 2336
-    upload_date: "20241211"
-    url: https://youtube.com/watch?v=2ydjTZeFcnM
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: uCvqXv_FJtI
-    title: "英伟达GTC 2024: 绝对霸主的权力与遥远的野心"
-    duration: 2131
-    upload_date: "20240326"
-    url: https://youtube.com/watch?v=uCvqXv_FJtI
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: F7oNfszczVc
-    title: 再访田渊栋：46.5亿美金估值的RSI，与AI自进化｜Neolabs特辑【101视频播客】
-    duration: 5545
-    upload_date: "20260605"
-    url: https://youtube.com/watch?v=F7oNfszczVc
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 97vn6b2ndJk
-    title: 震动的艺术：AI音乐大模型背后的技术突破、版权诉讼和资本蛋糕
-    duration: 2029
-    upload_date: "20240722"
-    url: https://youtube.com/watch?v=97vn6b2ndJk
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: H9-wmvlW8QI
-    title: “loser文化”到“AI数据金矿”：美国贴吧Reddit的19年爱恨史，及它的AI新资本故事｜Gamestop、Wallstreetbets and meme stocks
-    duration: 2484
-    upload_date: "20240527"
-    url: https://youtube.com/watch?v=H9-wmvlW8QI
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: oet0hNm7ygE
-    title: 假酷炫还是真需求？深度探展CES 2025的AI、AR与机器人热潮【线下探会】
-    duration: 2902
-    upload_date: "20250118"
-    url: https://youtube.com/watch?v=oet0hNm7ygE
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: oU_V5GlHq7I
-    title: 中国机器人的全球化野心、“踢馆”硅谷，及Physical AI的爆发准备：对话魔法原子
-    duration: 2522
-    upload_date: "20260508"
-    url: https://youtube.com/watch?v=oU_V5GlHq7I
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: dLELvoFt_iA
-    title: 【深度】聊聊AI机器人为什么发展如此缓慢【有彩蛋哟🎉】
-    duration: 2480
-    upload_date: "20230601"
-    url: https://youtube.com/watch?v=dLELvoFt_iA
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: GNu8uOJNCAE
-    title: 苹果Vision Pro来了，聊聊科技四巨头的研发与XR行业的兴衰沉浮
-    duration: 2204
-    upload_date: "20230709"
-    url: https://youtube.com/watch?v=GNu8uOJNCAE
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: csHt6O6Tc-w
-    title: 增长、AI以及领导力：专访Airbnb联合创始人兼CEO Brian Chesky
-    duration: 2674
-    upload_date: "20241022"
-    url: https://youtube.com/watch?v=csHt6O6Tc-w
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: sdsiJAyO4Fw
-    title: 从Perplexity对Chrome发起收购要约，深聊新一轮AI浏览器大战【101对话】
-    duration: 3776
-    upload_date: "20250829"
-    url: https://youtube.com/watch?v=sdsiJAyO4Fw
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: rFQRYnNKuVM
-    title: 史诗级反垄断较量：复盘Epic Games与苹果、谷歌诉讼大战始末
-    duration: 1824
-    upload_date: "20240119"
-    url: https://youtube.com/watch?v=rFQRYnNKuVM
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: Xj6W71Gt1-w
-    title: 探展CES 2026：与吉利聊聊开始“读懂”世界的汽车，与Physical AI的“GPT时刻”【赞助】
-    duration: 2135
-    upload_date: "20260120"
-    url: https://youtube.com/watch?v=Xj6W71Gt1-w
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 8pncy425QqQ
-    title: “杭州六小龙”首个IPO、空间智能与AI的下一步：对话群核科技创始人黄晓煌
-    duration: 3294
-    upload_date: "20260417"
-    url: https://youtube.com/watch?v=8pncy425QqQ
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: 1Rh7Zwd7Vx0
-    title: 对话教育大咖：当AI开始重新定义“能力”，教育还会一样吗？
-    duration: 2199
-    upload_date: "20260530"
-    url: https://youtube.com/watch?v=1Rh7Zwd7Vx0
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: hIdvhl8PUwc
-    title: 库克的离场，苹果新AI权力重构与价值观天平｜WWDC26
-    duration: 2587
-    upload_date: "20260618"
-    url: https://youtube.com/watch?v=hIdvhl8PUwc
-    status: generated
-    priority: 1
-    category: ai-tech
-  - id: bnIHrenhFpc
-    title: AI的下一步：强化学习是正确的AGI解法吗？｜硅谷101年度线下大会｜Alignment 2025
-    duration: 2386
-    upload_date: "20251120"
-    url: https://youtube.com/watch?v=bnIHrenhFpc
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: 0ZwlgZCpgyg
-    title: 【对话】携程梁建章：AI时代的旅游业、教育、人口经济与创新
-    duration: 2672
-    upload_date: "20230714"
-    url: https://youtube.com/watch?v=0ZwlgZCpgyg
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: AMHZ7LAmmVE
-    title: 超全CES现场探展：“韩国女团”元宇宙、“AI防打鼾”睡枕、“鸡娃神器”... 深度盘点CES 2024最火黑科技产品
-    duration: 3061
-    upload_date: "20240126"
-    url: https://youtube.com/watch?v=AMHZ7LAmmVE
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: OpP089WElrM
-    title: 【独家采访】ChatGPT与人类未来：AI茧房、安全漏洞与未知的社会形态｜ChatGPT特辑（2）
-    duration: 1890
-    upload_date: "20230228"
-    url: https://youtube.com/watch?v=OpP089WElrM
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: FueX88st2OQ
-    title: 美国硅谷是怎么看人形机器人的｜硅谷101年度线下大会｜Alignment 2025（全英）
-    duration: 1865
-    upload_date: "20251105"
-    url: https://youtube.com/watch?v=FueX88st2OQ
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: 109Qtuj-SVc
-    title: 【对话】苹果摄影师揭秘Midjourney：如何像大师一样AI作画
-    duration: 2132
-    upload_date: "20230821"
-    url: https://youtube.com/watch?v=109Qtuj-SVc
-    status: skipped
-    priority: 1
-    category: ai-tech
-    note: no CC track (burned-in subs) — needs ASR
-  - id: y2bZdXZBeBc
-    title: AI 时代的"超级高中生"、大学外的第三种可能与中国创新教育｜探访北京探月学校
-    duration: 4680
-    upload_date: "20260626"
-    url: https://youtube.com/watch?v=y2bZdXZBeBc
-    status: generated
-    priority: 1
-    category: update-2026-06-27

@@ -1,0 +1,29 @@
+id: H3Gs4QUHvA4
+source: xiaojun
+title: "149. 亲历中美neo labs资本狂潮，和清华刘子鸣聊：AI for AI、机制可解释性和Max Tegmark"
+guest: "刘子鸣"
+guest_role: "清华大学人工智能学院助理教授 · 圆环智能首席科学家"
+published: 2026-07
+duration: "101分钟"
+url: https://youtube.com/watch?v=H3Gs4QUHvA4
+thumbnail: https://img.youtube.com/vi/H3Gs4QUHvA4/maxresdefault.jpg
+status: generated
+tags:
+  - ai-research
+  - interpretability
+  - startup
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+  - strategic
+summary: |
+  刘子鸣从物理学、KAN 与机制可解释性出发，解释了一条非主流的 AI for AI 路线：先结构化研究过程，再用 AI 自动化 Physics of AI。对谈同时拆解了中美 Neo Lab 的兴起、原模型预测训练曲线的技术设想，以及从 Training Copilot 走向 Vibe Training 的产品终局。
+core_ideas:
+  - 从 AI for Physics 转向 Physics of AI，再用 AI 自动化这门科学
+  - KAN 的价值不只是一种架构，而是把模型设计变成可规模化科学的起点
+  - OPHIS 将 Observation、Problem、Hypothesis、Intervention、Speed up 组织成研究语言
+  - 原模型以模型、数据集和优化器为输入，预测训练曲线并筛选候选架构
+  - Physics of AI 要从空间、时间与控制实验三种尺度画清方法的适用条件
+  - 产品路线从 Training Copilot 走向 Autopilot，最终设想是 Vibe Training
+base: /episodes/H3Gs4QUHvA4/

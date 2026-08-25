@@ -1,0 +1,32 @@
+id: YQWXxnkK4dw
+source: latent-space
+title: "🔬 \"The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation\""
+guest: "Evan Feinberg & Sergey Edunov"
+guest_role: "Genesis Molecular AI Founder & CEO · CTO"
+published: 2026-06
+duration: "1h 49min"
+url: https://youtube.com/watch?v=YQWXxnkK4dw
+thumbnail: https://img.youtube.com/vi/YQWXxnkK4dw/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - ai-products
+  - startup
+  - founder
+  - ceo
+  - researcher
+  - interview
+  - technical
+summary: |
+  Evan Feinberg 与 Sergey Edunov 解释了为什么 3D 药物结构预测正在成为扩散模型最活跃的研究前沿之一。
+  对谈从 PEARL 的合成数据、物理先验、推理时 scaling 与 1 Å 精度门槛，延伸到 ADMET、多目标优化、实验反馈和 SAPPHIRE agent。
+  核心判断是：可靠的底层结构与性质模型先跨过实用阈值，自动化药物发现才会放大正价值。
+core_ideas:
+  - PEARL 联合预测蛋白与小分子的 3D complex，并建模 ligand 结合时的蛋白构象适配
+  - 分子版 scaling 由物理合成数据、扩散推理时计算以及 RL 和实验反馈共同组成
+  - 传统 2 Å RMSD 可能让错误结构看起来可信，药物设计需要接近 1 Å 的原子级精度
+  - 结构预测只是起点，候选药还必须同时通过 30 多项 ADMET 和可开发性约束
+  - SAPPHIRE 用 LLM 编排 PEARL、potency、ADMET 与物理工具，但 agent 上限取决于底层模型可靠性
+  - OpenBind 的未见靶点与 induced-fit 任务，更接近真实药物项目所需的外推能力
+base: /episodes/YQWXxnkK4dw/

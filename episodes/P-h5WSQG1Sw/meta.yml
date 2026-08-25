@@ -1,0 +1,26 @@
+id: P-h5WSQG1Sw
+source: huberman
+title: "Neuroscience of Emotions & Tools for Improving Emotion Regulation| Dr. Ralph Adolphs"
+guest: "Dr. Ralph Adolphs"
+guest_role: "Caltech Professor of Psychology, Neuroscience and Biology"
+published: 2026-08
+duration: 2h10m
+url: https://youtube.com/watch?v=P-h5WSQG1Sw
+thumbnail: https://img.youtube.com/vi/P-h5WSQG1Sw/maxresdefault.jpg
+status: generated
+category: science
+tags:
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  Ralph Adolphs 从功能角度拆解情绪：情绪如何在反射与计划之间组织行为，为什么情绪状态能独立于记忆持续，以及主观感受为何不应成为研究动物或 AI 情绪的唯一标准。对谈也追踪了情绪调节、读脸误区、杏仁核病例、身体地图、社会注意与任务切换，并严格区分个案经验、研究证据与尚待验证的假设。
+core_ideas:
+  - 情绪是一类具有优先级、效价、可伸缩性和时间持续性的功能状态
+  - 情绪过程与对情绪的意识体验可以分开研究，功能符合不等于证明主观感受
+  - 情绪调节依赖监测、粒度、策略库与情境切换，越早介入可选路径越多
+  - 静态表情会高估读情绪能力，真实社交更依赖时间序列、个人基线与上下文
+  - 身体情绪地图主要测量概念联想，器官级高维情绪签名仍缺少直接数据
+  - 冰浴、独处与会前静默展示了可训练控制的可能性，但个案迁移和切换收益仍待验证
+base: /episodes/P-h5WSQG1Sw/

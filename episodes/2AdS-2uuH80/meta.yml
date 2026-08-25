@@ -1,0 +1,20 @@
+id: 2AdS-2uuH80
+source: latent-space
+title: "🔬Causal Models Need Causal Data - Xaira’s X-Cell model (Bo Wang & Ci Chu)"
+guest: "Bo Wang & Ci Chu"
+guest_role: "Xaira SVPs, Biomedical AI & AI-enabled Discovery"
+published: 2026-07
+duration: "~90 min"
+url: https://youtube.com/watch?v=2AdS-2uuH80
+thumbnail: https://img.youtube.com/vi/2AdS-2uuH80/maxresdefault.jpg
+status: generated
+tags: [ai-research, interview, researcher, technical]
+summary: |
+  Xaira 的 Bo Wang 与 Ci Chu 解释了为什么能预测细胞干预的因果模型，必须由大规模因果数据驱动。对谈从 Perturb-seq 数据工程、X-Cell 的扩散架构与生物先验，一直讲到跨细胞情境泛化、评测、开放科学和下一代测量瓶颈。
+core_ideas:
+  - 观察型单细胞数据擅长描述与表征，但不足以唯一识别因果方向
+  - Perturb-seq 将 pooled CRISPR 干预与单细胞 RNA 读出组合成二维因果数据
+  - X-Cell 使用扩散式生成与多类生物先验预测干预后的完整转录组状态
+  - 真正的模型价值是泛化到未见过且难以穷举实验的生物情境
+  - 数据质量与情境多样性的贡献先于架构和先验，仍需真实实验验证
+base: /episodes/2AdS-2uuH80/

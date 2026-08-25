@@ -1,0 +1,31 @@
+id: LuE1YptpfXs
+source: mlops-community
+title: "Coding Agents Are Secretly General Agents"
+guest: "Jay Hack"
+guest_role: "ClickUp AI lead and Codegen founder"
+published: 2026-07
+duration: "1h12m"
+url: https://youtube.com/watch?v=LuE1YptpfXs
+thumbnail: https://img.youtube.com/vi/LuE1YptpfXs/maxresdefault.jpg
+status: generated
+tags:
+  - coding-agents
+  - ai-products
+  - productivity
+  - startup
+  - founder
+  - interview
+  - technical
+  - strategic
+summary: |
+  Jay Hack 从 Codegen 的创业与并购经历出发，解释为什么代码领域的编译、单测与性能反馈让 Agent 最先形成可验证闭环，
+  又为什么会写和执行代码的 Agent 能按需创造工具，最终与通用知识工作 Agent 收敛。
+  对谈进一步讨论上下文与软件整合、生成式界面、科研迁移、世界模型、可解释性，以及知识删除和现实执行带来的安全边界。
+core_ideas:
+  - 可编译、可测试、可测性能的反馈让代码成为 RLVR 与自主 Agent 的理想训练场
+  - Coding agent 能在沙箱中制造新工具，因此能力边界可以扩展到长尾知识工作
+  - 通用 Agent 的平台优势来自上下文、交互入口、单位经济与既有分发的组合
+  - 软件生产成本下降会催生 local-first 个人应用与按任务生成的动态界面
+  - 组织数据墙、权限和 work sprawl 会让强模型表现得像不会推理
+  - 世界模型、可解释性、意图对齐与现实执行权限共同决定 Agent 的能力和风险边界
+base: /episodes/LuE1YptpfXs/

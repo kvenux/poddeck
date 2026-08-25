@@ -1,0 +1,20 @@
+id: gKhW6vL4V9A
+source: latent-space
+title: "OpenAI’s Vision for the AI Super App — Akshay Nathan, OpenAI"
+guest: "Akshay Nathan"
+guest_role: "OpenAI Core Product Engineering Lead"
+published: 2026-07
+duration: "约 71 分钟"
+url: https://youtube.com/watch?v=gKhW6vL4V9A
+thumbnail: https://img.youtube.com/vi/gKhW6vL4V9A/maxresdefault.jpg
+status: generated
+tags: [ai-products, productivity, coding-agents, product-management, interview, product-lead, technical, strategic]
+summary: |
+  Akshay Nathan 解释 OpenAI 如何把 Codex 的 agent harness 扩展到 ChatGPT Work，并用共享能力、差异化 UX、artifacts、插件与持久上下文构建面向知识工作的统一入口。访谈也深入讨论了 Sites、subagents、Memory V3、Chronicle，以及 AI 时代团队为什么必须从产出代理指标转向高质量学习闭环。
+core_ideas:
+  - Codex 在非开发者中的采用，推动了从 coding agent 到通用知识工作 agent 的产品扩张
+  - Codex 与 ChatGPT Work 共享底层 harness，但在 diff 展示、sandbox 和用户界面上保留不同默认值
+  - Artifacts 与 Sites 把模型输出变成可检查、可迭代、可协作的工作对象
+  - 插件、持久文件、scheduled tasks 与记忆共同构成 AI 超级应用的核心 primitive
+  - AI 让执行与 motion 变得廉价，团队的新瓶颈转向 ideas、taste 和高质量 at-bats
+base: /episodes/gKhW6vL4V9A/

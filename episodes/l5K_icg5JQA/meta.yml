@@ -1,0 +1,21 @@
+id: l5K_icg5JQA
+source: guigu101
+title: "挑战GPU、绕过HBM，深挖史上最大芯片背后的Cerebras"
+guest: "Greg Diamos、周楠、Angela 等"
+guest_role: "AI 研究员、早期投资人及 Cerebras 产品高管"
+published: 2026-08
+duration: "约 44 分钟"
+url: https://youtube.com/watch?v=l5K_icg5JQA
+thumbnail: https://img.youtube.com/vi/l5K_icg5JQA/maxresdefault.jpg
+status: generated
+tags: [hardware, chips, startup, monologue, researcher, investor, technical, strategic]
+summary: |
+  这期从百度团队早期的 Scaling Law 发现出发，追踪 Cerebras 为什么用整片晶圆重新设计 AI 计算，并如何用微小核心、冗余和动态路由解决良率难题。故事进一步解释国家实验室、G42 与高速推理如何把一项超前技术推向规模商业化，以及 IPO 后供应链、竞争和毛利率带来的现实约束。
+core_ideas:
+  - Scaling Law 让未来算力缺口变得可预测，也催生了重做 AI 计算机的需求
+  - 晶圆级引擎把计算、内存和互联放在同一片硅上，减少跨芯片数据搬运
+  - 微小核心、备用核心和片上动态路由把晶圆缺陷变成可管理的工程问题
+  - 国家实验室证明技术可落地，G42 则带来规模收入与客户集中风险
+  - 推理时代把内存带宽转化为实时交互体验，推动产品从整机转向 API 云服务
+  - IPO 后的关键问题从能否制造转为能否稳定扩产、竞争并盈利
+base: /episodes/l5K_icg5JQA/

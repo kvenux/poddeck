@@ -1,0 +1,26 @@
+id: rNXNHYvS7zU
+source: toe
+title: 'Physicist: "It Was Hiding in Plain Sight"'
+guest: "Philip Mannheim"
+guest_role: "Physicist and professor"
+published: 2026-07
+duration: 9208
+url: https://youtube.com/watch?v=rNXNHYvS7zU
+thumbnail: https://img.youtube.com/vi/rNXNHYvS7zU/maxresdefault.jpg
+status: generated
+tags:
+  - interview
+  - researcher
+  - deep-dive
+  - technical
+summary: |
+  Philip Mannheim 从一般协变与具体场方程的区别出发，解释共形引力为何会产生 1/r 之外的线性势，并用局部与宇宙学贡献重新描述星系旋转曲线。
+  对谈进一步讨论动态质量、宇宙学常数、PT/CPT 对称下的 ghost 问题、零范数引力激发，以及 CMB、结构形成和透镜仍然构成的验证边界。
+core_ideas:
+  - 太阳系对 Einstein 解的成功检验，并不自动证明二阶场方程在所有尺度上唯一
+  - 局域共形对称选择 Weyl 张量平方作用量，并让引力耦合保持无量纲
+  - 四阶方程的 1/r 与线性势，加上宇宙学二次项，可在不引入暗物质晕的情况下拟合旋转曲线
+  - 动态对称破缺让质量来自真空，而不是基本作用量中的显式质量尺度
+  - PT/CPT 对偶空间把四阶理论的负范数诊断改写为 Hilbert 空间选择问题
+  - CMB 涨落、大尺度结构和非渐近平坦透镜是这套理论尚未完成的关键检验
+base: /episodes/rNXNHYvS7zU/

@@ -1,0 +1,29 @@
+id: 2wIxPWK6nCs
+source: latent-space
+title: "🔬 RL with Verifiable Rewards, but the Verifier is a Lab — Lila Sciences"
+guest: "Andy Beam; Rafa Gómez-Bombarelli"
+guest_role: "Lila Sciences CTO; Co-founder & CSO of Physical Sciences"
+published: 2026-07
+duration: "1h41m"
+url: https://youtube.com/watch?v=2wIxPWK6nCs
+thumbnail: https://img.youtube.com/vi/2wIxPWK6nCs/maxresdefault.jpg
+status: generated
+category: ai-tech
+tags:
+  - ai-research
+  - robotics
+  - startup
+  - interview
+  - researcher
+  - engineer
+  - technical
+  - strategic
+summary: |
+  Lila Sciences 把 RL with Verifiable Rewards 从数学和代码推进到真实实验：模型提出问题、调用实验室工具，由自然测量返回奖励与训练数据。Andy Beam 与 Rafa Gómez-Bombarelli 解释柔性实验室、跨域科学 reasoning model、10T 级验证轨迹，以及量子点、CAR-T、材料发现和未来 data-center lab 的现实边界。
+core_ideas:
+  - 实验室是持续生成可验证科学推理数据的 token generator
+  - 仪器节点、运输层与统一 API 让机器人和人都能执行模型指令
+  - 跨生命科学、化学、材料的广度被用于提高迁移与数据效率
+  - CAR-T 与量子点案例展示 model plus platform 如何压缩实验 program
+  - 真正瓶颈仍包括实验 runtime、sim-to-real、仪器接入、安全与训练 MFU
+base: /episodes/2wIxPWK6nCs/
