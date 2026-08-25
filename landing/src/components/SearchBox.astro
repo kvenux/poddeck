@@ -1,6 +1,6 @@
 ---
 import type { EpisodeWithSource } from '../lib/data'
-import { url } from '../lib/url'
+import { mediaUrl, url } from '../lib/url'
 
 interface Props {
   episodes: EpisodeWithSource[]
@@ -20,7 +20,7 @@ const index = episodes.map(e => ({
   tags: e.tags || [],
   summary: (e.summary || '').replace(/\n/g, ' ').slice(0, 200),
   status: e.status,
-  thumbnail: e.thumbnail || `https://img.youtube.com/vi/${e.id}/hqdefault.jpg`,
+  thumbnail: mediaUrl(e.thumbnail || `https://img.youtube.com/vi/${e.id}/hqdefault.jpg`),
   // searchable haystack — lowercase, all fields concatenated
   _hay: [
     e.title,

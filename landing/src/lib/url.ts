@@ -13,3 +13,9 @@ export function url(path: string): string {
   const cleanPath = path.startsWith('/') ? path.slice(1) : path
   return cleanBase + cleanPath
 }
+
+// Keep remote media URLs untouched, but place repo-hosted assets under the
+// configured Astro base path (for example /poddeck/ on GitHub Pages).
+export function mediaUrl(path: string): string {
+  return /^https?:\/\//i.test(path) ? path : url(path)
+}
