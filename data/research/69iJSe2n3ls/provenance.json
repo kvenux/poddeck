@@ -1,0 +1,265 @@
+{
+  "sourceFile": "C:\\Users\\kvenu\\playground\\mybili\\和曾鸣聊产业史观：残酷的真相、会消亡的公司、优秀≠卓越、“OAI、Anth大概率不是原生时代大赢家”.srt",
+  "sha256": "e8e6dc41805575509ec8f5a5108e84f9ce139f7075a0a11c9828c58f6a4abddb",
+  "cues": 2967,
+  "chars": 51380,
+  "originalVideo": "https://www.youtube.com/watch?v=69iJSe2n3ls",
+  "videoDurationSeconds": 9259,
+  "uploadDate": "2026-09-03",
+  "metadataMethod": "yt-dlp flat-playlist for title/id/duration; official channel RSS for upload date",
+  "notes": [
+    "Raw SRT retained unchanged; TXT strips numbering and timestamps, preserves speech and ASR errors.",
+    "Slide prose is editorial paraphrase. Speaker predictions remain attributed.",
+    "Ambiguous ASR numbers and unreliable historical dates omitted."
+  ],
+  "slides": 38,
+  "diagrams": 8,
+  "quoteMatches": [
+    {
+      "label": "反共识的边界",
+      "text": "反共识不一定成功",
+      "line": 146
+    },
+    {
+      "label": "应用的主体",
+      "text": "智能体就是 AI 时代的新应用",
+      "line": 336
+    },
+    {
+      "label": "竞争结构",
+      "text": "同质化是保证可以被替代，差异化是让大家还有钱赚",
+      "line": 737
+    },
+    {
+      "label": "组织的限定",
+      "text": "科层制管理的这种公司制度会衰亡",
+      "line": 14
+    },
+    {
+      "label": "人的动力",
+      "text": "本质上是自驱啊",
+      "line": 1437
+    },
+    {
+      "label": "领导者的自我",
+      "text": "因为事情大于人啊，因为你一定自我很小才能走那么远啊",
+      "line": 1812
+    },
+    {
+      "label": "战略方法",
+      "text": "现在叫战略生成",
+      "line": 2045
+    },
+    {
+      "label": "面对未来",
+      "text": "不确定性就是最大的机会",
+      "line": 2810
+    }
+  ],
+  "pages": [
+    {
+      "slide": 3,
+      "heading": "三个决定，改变了阿里的路径",
+      "transcriptLine": 91,
+      "time": "00:04:31"
+    },
+    {
+      "slide": 4,
+      "heading": "反共识，是卓越的必要条件吗",
+      "transcriptLine": 136,
+      "time": "00:07:01"
+    },
+    {
+      "slide": 5,
+      "heading": "产业化的三个阶段",
+      "transcriptLine": 218,
+      "time": "00:11:27"
+    },
+    {
+      "slide": 6,
+      "heading": "为什么不能跳过应用爆发",
+      "transcriptLine": 260,
+      "time": "00:13:46"
+    },
+    {
+      "slide": 7,
+      "heading": "2026：基础设施收尾，应用开场",
+      "transcriptLine": 290,
+      "time": "00:15:14"
+    },
+    {
+      "slide": 8,
+      "heading": "从分享信息，到分享能力",
+      "transcriptLine": 365,
+      "time": "00:18:59"
+    },
+    {
+      "slide": 9,
+      "heading": "他在等待一个新的浏览器",
+      "transcriptLine": 397,
+      "time": "00:20:37"
+    },
+    {
+      "slide": 10,
+      "heading": "模型公司会走向 AI 云吗",
+      "transcriptLine": 465,
+      "time": "00:24:15"
+    },
+    {
+      "slide": 11,
+      "heading": "领先一轮，不等于赢到终局",
+      "transcriptLine": 523,
+      "time": "00:27:06"
+    },
+    {
+      "slide": 12,
+      "heading": "跨阶段，需要换一套能力",
+      "transcriptLine": 589,
+      "time": "00:30:41"
+    },
+    {
+      "slide": 13,
+      "heading": "基础设施的终局与利润约束",
+      "transcriptLine": 622,
+      "time": "00:32:25"
+    },
+    {
+      "slide": 14,
+      "heading": "智能复利：能力进入自己的主业",
+      "transcriptLine": 660,
+      "time": "00:34:22"
+    },
+    {
+      "slide": 15,
+      "heading": "简单任务，容易被模型覆盖",
+      "transcriptLine": 792,
+      "time": "00:41:08"
+    },
+    {
+      "slide": 16,
+      "heading": "好的切口：现在能进，将来能长",
+      "transcriptLine": 823,
+      "time": "00:42:38"
+    },
+    {
+      "slide": 17,
+      "heading": "应用的护城河，在真实反馈里",
+      "transcriptLine": 871,
+      "time": "00:45:13"
+    },
+    {
+      "slide": 18,
+      "heading": "平台会重新出现，信任更重要",
+      "transcriptLine": 757,
+      "time": "00:39:46"
+    },
+    {
+      "slide": 19,
+      "heading": "Agent OS：意图直接变成结果",
+      "transcriptLine": 991,
+      "time": "00:51:29"
+    },
+    {
+      "slide": 20,
+      "heading": "应用公司要不要训练模型",
+      "transcriptLine": 1184,
+      "time": "01:01:20"
+    },
+    {
+      "slide": 21,
+      "heading": "应用冷淡，为什么他仍乐观",
+      "transcriptLine": 1090,
+      "time": "00:56:23"
+    },
+    {
+      "slide": 22,
+      "heading": "New Labs：新技术，也在试新组织",
+      "transcriptLine": 1280,
+      "time": "01:06:32"
+    },
+    {
+      "slide": 23,
+      "heading": "公司会消亡：消失的是哪一层",
+      "transcriptLine": 1348,
+      "time": "01:10:04"
+    },
+    {
+      "slide": 24,
+      "heading": "组织的基本单元：从岗位到任务",
+      "transcriptLine": 1380,
+      "time": "01:11:44"
+    },
+    {
+      "slide": 25,
+      "heading": "一人公司之后，仍然需要合作",
+      "transcriptLine": 1480,
+      "time": "01:17:05"
+    },
+    {
+      "slide": 26,
+      "heading": "High agency：自己找到成长方向",
+      "transcriptLine": 1437,
+      "time": "01:15:00"
+    },
+    {
+      "slide": 27,
+      "heading": "先谈组织，才能讨论战略怎么生成",
+      "transcriptLine": 1560,
+      "time": "01:21:06"
+    },
+    {
+      "slide": 28,
+      "heading": "优秀依赖正反馈，卓越只能回头看",
+      "transcriptLine": 1772,
+      "time": "01:32:27"
+    },
+    {
+      "slide": 29,
+      "heading": "事情大于人，使命才不是口号",
+      "transcriptLine": 1810,
+      "time": "01:34:33"
+    },
+    {
+      "slide": 30,
+      "heading": "看十年、想三年、干一年",
+      "transcriptLine": 1910,
+      "time": "01:39:46"
+    },
+    {
+      "slide": 31,
+      "heading": "ARR 增长，还要追问天花板",
+      "transcriptLine": 1978,
+      "time": "01:43:41"
+    },
+    {
+      "slide": 32,
+      "heading": "战略生成，需要共享上下文",
+      "transcriptLine": 2036,
+      "time": "01:46:55"
+    },
+    {
+      "slide": 33,
+      "heading": "探索期与执行期，效率含义不同",
+      "transcriptLine": 2165,
+      "time": "01:53:25"
+    },
+    {
+      "slide": 34,
+      "heading": "机器人：两条路，都要过场景这一关",
+      "transcriptLine": 2260,
+      "time": "01:58:31"
+    },
+    {
+      "slide": 35,
+      "heading": "巨头 All in AI，仍不是充分条件",
+      "transcriptLine": 2370,
+      "time": "02:04:09"
+    },
+    {
+      "slide": 36,
+      "heading": "创造力时代：人要学会定义新问题",
+      "transcriptLine": 2660,
+      "time": "02:18:17"
+    }
+  ]
+}

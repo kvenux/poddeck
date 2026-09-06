@@ -1,0 +1,53 @@
+{
+  "slides": 38,
+  "diagrams": 8,
+  "quotesVerified": 8,
+  "visualAudit": "All 38 final PNG pages individually reviewed; cover and two-column spacing corrected.",
+  "domAudit": "38 slides; zero overflow findings",
+  "homepageContainsEpisode": true,
+  "slidesSha256": "29ce48253b76204698c4f1beaf40cfc6d1113383e374cbb0ac528f4f21bab16a",
+  "exportNote": "Theme global pagination stays at 1/38 in print export; interactive navigation is checked separately.",
+  "productionPreview": {
+    "title": "曾鸣：从产业史看 AI 的下一阶段",
+    "next": [
+      "为什么这期值得看"
+    ],
+    "homepageLink": 1,
+    "url": "http://localhost:4173/episodes/69iJSe2n3ls/",
+    "navigationPassed": true
+  },
+  "auditCleanup": "Deletion blocked by automatic policy; PNG audit retained.",
+  "diagramRevision": {
+    "comparedEpisodes": [
+      "3UyitfSbY6c",
+      "a93FT2340c0",
+      "UTDalAEU274"
+    ],
+    "changedSlides": [
+      5,
+      8,
+      12,
+      14,
+      17,
+      19,
+      24,
+      30
+    ],
+    "distinctDiagramStructures": 8,
+    "visualAudit": "All eight revised pages individually inspected; additional spacing fixes re-rendered and checked.",
+    "buildPassed": true,
+    "productionPreviewPassed": true,
+    "layoutAudit": "diagram-layout-audit.json",
+    "note": "Original all-page audit covers unchanged pages; this revision rechecks the eight affected pages."
+  },
+  "diagramSha256": {
+    "concept-1.excalidraw": "1d31354f6446164e2c464ce124fa5d0f4a9ad405f70be529c8ffc87c862dcf73",
+    "concept-2.excalidraw": "9a07c2dc3faf0c792a49a47b4f5082bba03cfd5101e90eb4ad698c90a3fe64a6",
+    "concept-3.excalidraw": "5ec44cebdadb6df91e24fc7da6090e6a739da0b0dabf9f9c36a5dcef753c3ff1",
+    "concept-4.excalidraw": "59407c2c24299cc6509bf114b8c3c1a5647ecce1741b25d4f137be73a42dedb2",
+    "concept-5.excalidraw": "dd143c5efced016c64454f0c1942443cef2106397d38f29c3dde132829ffac1f",
+    "concept-6.excalidraw": "dd74cfda840a27a11b46438f336808a9db8622ebc70dfdcdf252d814946ece38",
+    "concept-7.excalidraw": "634cb8b91b02d2083f5a846059bf4a2aa51220cb2b6accd5bb768576cc31c50e",
+    "concept-8.excalidraw": "8d3ae892671e4104c3aa3316e1ba7e0e3bf6cf1b787d9b146c951df99caf7430"
+  }
+}

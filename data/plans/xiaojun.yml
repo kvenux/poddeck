@@ -2,10 +2,18 @@ source: xiaojun
 refreshed_at: 2026-08-24T11:08:16.982Z
 min_duration: 3600
 min_date: "20260101"
-total_candidates: 26
-done: 8
+total_candidates: 27
+done: 9
 pending: 7
 episodes:
+  - id: 69iJSe2n3ls
+    title: 153. 和曾鸣聊产业史观：残酷的真相、会消亡的公司、优秀≠卓越、“OAI、Anth大概率不是原生时代大赢家”
+    duration: 9259
+    upload_date: "20260903"
+    url: https://www.youtube.com/watch?v=69iJSe2n3ls
+    status: generated
+    category: ai-tech
+    priority: 1
   - id: UTDalAEU274
     title: 151. 17岁被2026年ICML收录论文的小少年：我bet开心！开心！开心！
     duration: 4190

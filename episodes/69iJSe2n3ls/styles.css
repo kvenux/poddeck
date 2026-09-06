@@ -1,0 +1,11 @@
+.slidev-layout h1 { font-size: 30px; line-height: 1.3; margin-bottom: 18px; }
+.slidev-layout h3 { font-size: 18px; line-height: 1.35; margin: 0 0 9px; font-weight: 650; }
+.slidev-layout p { font-size: 17px; line-height: 1.65; margin: 0; }
+.slidev-layout.two-columns { gap: 24px; }
+.slidev-layout.two-columns h1 { font-size: 27px; }
+.slidev-layout.two-columns p { font-size: 15px; line-height: 1.55; }
+.slidev-layout.two-columns h3 { font-size: 16px; margin-bottom: 5px; }
+.slidev-layout.two-columns .p-4 { padding: 12px; }
+
+.slidev-layout.cover h1 { font-size: 38px !important; line-height: 1.4 !important; margin-top: 20px; }
+.slidev-layout.end h1 { font-size: 40px !important; }
