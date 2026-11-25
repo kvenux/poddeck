@@ -15,6 +15,7 @@ on:
 env:
   PODDECK_BASE: /poddeck/
   PODDECK_SITE: https://kvenux.github.io
+  PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: 1
 
 # 同一时间只允许一个 deploy
 concurrency:
