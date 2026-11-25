@@ -1,5 +1,5 @@
 import { existsSync, readFileSync, writeFileSync, mkdirSync, cpSync } from 'node:fs'
-import { join, dirname, resolve } from 'node:path'
+import { join, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import type { EpisodeMeta } from './types.ts'
 
@@ -146,7 +146,12 @@ function escapeHtml(s: string): string {
     .replace(/"/g, '&quot;')
 }
 
+function stripHtmlTags(s: string): string {
+  return s.replace(/<br\s*\/?>/gi, ' · ').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
+}
+
 // Convert Excalidraw JSON into a clean, theme-matched Huashu-Design light SVG
+// Preserves exact element z-order, handles negative widths, prevents text clipping/overlap
 function renderExcalidrawToSvg(filePath: string, theme: ThemeSpec): string {
   if (!existsSync(filePath)) return ''
   let data: { elements?: any[] }
@@ -175,6 +180,31 @@ function renderExcalidrawToSvg(filePath: string, theme: ThemeSpec): string {
         maxX = Math.max(maxX, x + px)
         maxY = Math.max(maxY, y + py)
       }
+    } else if (el.type === 'text') {
+      const rawText = String(el.text || el.originalText || '')
+      const fs = Math.max(12, Math.min(24, (Number(el.fontSize) || 16) * 0.88))
+      const lines = rawText.split(/\r?\n/)
+      const maxLineUnits = Math.max(...lines.map((l) => {
+        let u = 0
+        for (const ch of l) u += ch.charCodeAt(0) > 255 ? 1.05 : 0.6
+        return u
+      }), 1)
+      const estW = Math.max(Math.abs(w), maxLineUnits * fs)
+      const estH = Math.max(Math.abs(h), lines.length * fs * 1.3)
+      const align = el.textAlign || 'left'
+      if (align === 'center') {
+        const cx = x + w / 2
+        minX = Math.min(minX, cx - estW / 2)
+        maxX = Math.max(maxX, cx + estW / 2)
+      } else if (align === 'right') {
+        minX = Math.min(minX, x + w - estW)
+        maxX = Math.max(maxX, x + w)
+      } else {
+        minX = Math.min(minX, x)
+        maxX = Math.max(maxX, x + estW)
+      }
+      minY = Math.min(minY, y)
+      maxY = Math.max(maxY, y + estH)
     } else {
       minX = Math.min(minX, x, x + w)
       minY = Math.min(minY, y, y + h)
@@ -184,13 +214,12 @@ function renderExcalidrawToSvg(filePath: string, theme: ThemeSpec): string {
   }
 
   if (!Number.isFinite(minX)) return ''
-  const pad = 36
+  const pad = 48
   const vx = Math.floor(minX - pad)
   const vy = Math.floor(minY - pad)
-  const vw = Math.max(200, Math.ceil(maxX - minX + pad * 2))
-  const vh = Math.max(140, Math.ceil(maxY - minY + pad * 2))
+  const vw = Math.max(220, Math.ceil(maxX - minX + pad * 2))
+  const vh = Math.max(160, Math.ceil(maxY - minY + pad * 2))
 
-  // Map Excalidraw rainbow fills onto unified light theme tokens
   const mapFill = (bg?: string): string => {
     if (!bg || bg === 'transparent') return 'none'
     const low = bg.toLowerCase()
@@ -213,74 +242,80 @@ function renderExcalidrawToSvg(filePath: string, theme: ThemeSpec): string {
   }
 
   const markerId = `arr-${Math.abs(vx * 31 + vy * 17 + elements.length)}`
+  const markerWarnId = `arrw-${Math.abs(vx * 31 + vy * 17 + elements.length)}`
   const parts: string[] = [
-    `<svg viewBox="${vx} ${vy} ${vw} ${vh}" xmlns="http://www.w3.org/2000/svg" class="hs-excalidraw-svg">`,
-    `<defs><marker id="${markerId}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9 z" fill="${theme.accent}"/></marker></defs>`,
+    `<svg viewBox="${vx} ${vy} ${vw} ${vh}" width="${vw}" height="${vh}" xmlns="http://www.w3.org/2000/svg" class="hs-excalidraw-svg">`,
+    `<defs>` +
+      `<marker id="${markerId}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9 z" fill="${theme.accent}"/></marker>` +
+      `<marker id="${markerWarnId}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 1 1 L 9 5 L 1 9 z" fill="${theme.warn}"/></marker>` +
+    `</defs>`,
     `<rect x="${vx}" y="${vy}" width="${vw}" height="${vh}" fill="${theme.card}" stroke="${theme.line}" stroke-width="1.5"/>`,
   ]
 
-  // Render shapes first, then lines/arrows, then text on top
-  const shapes = elements.filter((e) => e.type === 'rectangle' || e.type === 'ellipse' || e.type === 'diamond')
-  const connectors = elements.filter((e) => e.type === 'arrow' || e.type === 'line')
-  const texts = elements.filter((e) => e.type === 'text')
-
-  for (const el of shapes) {
-    const x = Number(el.x) || 0
-    const y = Number(el.y) || 0
-    const w = Math.abs(Number(el.width) || 0)
-    const h = Math.abs(Number(el.height) || 0)
-    const fill = mapFill(el.backgroundColor)
-    const stroke = mapStroke(el.strokeColor)
-    const sw = Math.max(1.5, Math.min(3, Number(el.strokeWidth) || 2))
-    const dash = el.strokeStyle === 'dashed' ? ' stroke-dasharray="8 6"' : el.strokeStyle === 'dotted' ? ' stroke-dasharray="3 4"' : ''
-    if (el.type === 'rectangle') {
-      const rx = el.roundness ? 6 : 0
-      parts.push(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
-    } else if (el.type === 'ellipse') {
-      parts.push(`<ellipse cx="${x + w / 2}" cy="${y + h / 2}" rx="${w / 2}" ry="${h / 2}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
-    } else if (el.type === 'diamond') {
-      const pts = `${x + w / 2},${y} ${x + w},${y + h / 2} ${x + w / 2},${y + h} ${x},${y + h / 2}`
-      parts.push(`<polygon points="${pts}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
+  // Preserve original JSON z-order for shapes & connectors, render text cleanly with soft halo
+  for (const el of elements) {
+    if (el.type === 'rectangle' || el.type === 'ellipse' || el.type === 'diamond') {
+      const rawX = Number(el.x) || 0
+      const rawY = Number(el.y) || 0
+      const rawW = Number(el.width) || 0
+      const rawH = Number(el.height) || 0
+      const x = rawW < 0 ? rawX + rawW : rawX
+      const y = rawH < 0 ? rawY + rawH : rawY
+      const w = Math.abs(rawW)
+      const h = Math.abs(rawH)
+      const fill = mapFill(el.backgroundColor)
+      const stroke = mapStroke(el.strokeColor)
+      const sw = Math.max(1.5, Math.min(2.8, Number(el.strokeWidth) || 2))
+      const dash = el.strokeStyle === 'dashed' ? ' stroke-dasharray="8 6"' : el.strokeStyle === 'dotted' ? ' stroke-dasharray="3 4"' : ''
+      if (el.type === 'rectangle') {
+        const rx = el.roundness ? 6 : 0
+        parts.push(`<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
+      } else if (el.type === 'ellipse') {
+        parts.push(`<ellipse cx="${x + w / 2}" cy="${y + h / 2}" rx="${w / 2}" ry="${h / 2}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
+      } else if (el.type === 'diamond') {
+        const pts = `${x + w / 2},${y} ${x + w},${y + h / 2} ${x + w / 2},${y + h} ${x},${y + h / 2}`
+        parts.push(`<polygon points="${pts}" fill="${fill}" stroke="${stroke}" stroke-width="${sw}"${dash}/>`)
+      }
+    } else if (el.type === 'arrow' || el.type === 'line') {
+      if (!Array.isArray(el.points) || el.points.length < 2) continue
+      const x = Number(el.x) || 0
+      const y = Number(el.y) || 0
+      const d = el.points
+        .map(([px, py]: [number, number], idx: number) => `${idx === 0 ? 'M' : 'L'} ${(x + px).toFixed(1)} ${(y + py).toFixed(1)}`)
+        .join(' ')
+      const stroke = mapStroke(el.strokeColor)
+      const isWarn = stroke === theme.warn
+      const mid = isWarn ? markerWarnId : markerId
+      const sw = Math.max(1.8, Math.min(2.8, Number(el.strokeWidth) || 2))
+      const dash = el.strokeStyle === 'dashed' ? ' stroke-dasharray="8 6"' : ''
+      const endMark = el.type === 'arrow' && el.endArrowhead !== null ? ` marker-end="url(#${mid})"` : ''
+      const startMark = el.type === 'arrow' && el.startArrowhead ? ` marker-start="url(#${mid})"` : ''
+      parts.push(`<path d="${d}" fill="none" stroke="${stroke}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"${dash}${startMark}${endMark}/>`)
+    } else if (el.type === 'text') {
+      const rawText = String(el.text || el.originalText || '').trim()
+      if (!rawText) continue
+      const x = Number(el.x) || 0
+      const y = Number(el.y) || 0
+      const w = Number(el.width) || 120
+      const h = Number(el.height) || 24
+      // Slightly tighter scale (0.86x) so CJK glyphs never spill past original Excalidraw bounds
+      const fs = Math.max(12, Math.min(23, Math.round((Number(el.fontSize) || 16) * 0.86)))
+      const align = el.textAlign || 'left'
+      const anchor = align === 'center' ? 'middle' : align === 'right' ? 'end' : 'start'
+      const tx = align === 'center' ? x + w / 2 : align === 'right' ? x + w : x
+      const lines = rawText.split(/\r?\n/)
+      const lh = fs * 1.28
+      const totalH = lines.length * lh
+      const startY = y + (h - totalH) / 2 + fs * 0.88
+      const fill = el.strokeColor && el.strokeColor.toLowerCase() !== '#1e1e1e' ? mapStroke(el.strokeColor) : theme.ink
+      const weight = fs >= 19 ? 700 : 500
+      const tspans = lines
+        .map((line, i) => `<tspan x="${tx.toFixed(1)}" dy="${i === 0 ? 0 : lh.toFixed(1)}">${escapeHtml(line)}</tspan>`)
+        .join('')
+      parts.push(
+        `<text x="${tx.toFixed(1)}" y="${startY.toFixed(1)}" font-family="Inter, Noto Sans SC, sans-serif" font-size="${fs}" font-weight="${weight}" fill="${fill}" text-anchor="${anchor}" paint-order="stroke" stroke="${theme.card}" stroke-width="3.5" stroke-linejoin="round">${tspans}</text>`
+      )
     }
-  }
-
-  for (const el of connectors) {
-    if (!Array.isArray(el.points) || el.points.length < 2) continue
-    const x = Number(el.x) || 0
-    const y = Number(el.y) || 0
-    const d = el.points
-      .map(([px, py]: [number, number], idx: number) => `${idx === 0 ? 'M' : 'L'} ${(x + px).toFixed(1)} ${(y + py).toFixed(1)}`)
-      .join(' ')
-    const stroke = mapStroke(el.strokeColor)
-    const sw = Math.max(1.8, Math.min(3, Number(el.strokeWidth) || 2))
-    const dash = el.strokeStyle === 'dashed' ? ' stroke-dasharray="8 6"' : ''
-    const endMark = el.type === 'arrow' && el.endArrowhead !== null ? ` marker-end="url(#${markerId})"` : ''
-    const startMark = el.type === 'arrow' && el.startArrowhead ? ` marker-start="url(#${markerId})"` : ''
-    parts.push(`<path d="${d}" fill="none" stroke="${stroke}" stroke-width="${sw}" stroke-linecap="round" stroke-linejoin="round"${dash}${startMark}${endMark}/>`)
-  }
-
-  for (const el of texts) {
-    const rawText = String(el.text || el.originalText || '').trim()
-    if (!rawText) continue
-    const x = Number(el.x) || 0
-    const y = Number(el.y) || 0
-    const w = Number(el.width) || 120
-    const h = Number(el.height) || 24
-    const fs = Math.max(14, Math.min(26, Number(el.fontSize) || 17))
-    const align = el.textAlign || 'left'
-    const anchor = align === 'center' ? 'middle' : align === 'right' ? 'end' : 'start'
-    const tx = align === 'center' ? x + w / 2 : align === 'right' ? x + w : x
-    const lines = rawText.split(/\r?\n/)
-    const lh = fs * 1.32
-    const totalH = lines.length * lh
-    const startY = y + (h - totalH) / 2 + fs * 0.9
-    const fill = el.strokeColor && el.strokeColor.toLowerCase() !== '#1e1e1e' ? mapStroke(el.strokeColor) : theme.ink
-    const tspans = lines
-      .map((line, i) => `<tspan x="${tx.toFixed(1)}" dy="${i === 0 ? 0 : lh.toFixed(1)}">${escapeHtml(line)}</tspan>`)
-      .join('')
-    parts.push(
-      `<text x="${tx.toFixed(1)}" y="${startY.toFixed(1)}" font-family="Inter, Noto Sans SC, sans-serif" font-size="${fs}" font-weight="${fs >= 20 ? 700 : 500}" fill="${fill}" text-anchor="${anchor}">${tspans}</text>`
-    )
   }
 
   parts.push('</svg>')
@@ -297,7 +332,6 @@ function splitSlidevMarkdown(md: string): RawSlide[] {
   const slides: RawSlide[] = []
   let i = 0
 
-  // Skip initial deck frontmatter
   if (lines[0]?.trim() === '---') {
     i = 1
     while (i < lines.length && lines[i].trim() !== '---') i++
@@ -306,6 +340,7 @@ function splitSlidevMarkdown(md: string): RawSlide[] {
 
   let buf: string[] = []
   let currentLayout: string | undefined
+  let inCode = false
 
   const flush = () => {
     const joined = buf.join('\n').trim()
@@ -315,8 +350,14 @@ function splitSlidevMarkdown(md: string): RawSlide[] {
   }
 
   while (i < lines.length) {
-    if (lines[i].trim() === '---') {
-      // Check if next few lines are per-slide frontmatter
+    const trimmed = lines[i].trim()
+    if (trimmed.startsWith('```')) {
+      inCode = !inCode
+      buf.push(lines[i])
+      i++
+      continue
+    }
+    if (!inCode && trimmed === '---') {
       let j = i + 1
       let fmEnd = -1
       let isFm = false
@@ -357,8 +398,11 @@ function stripLeadingEmoji(text: string): string {
 }
 
 function renderInlineMarkdown(s: string): string {
-  // Preserve inline HTML tags while converting markdown bold/italic/code/links
   let out = s
+  out = out.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, (_m, alt, src) => {
+    const cleanSrc = src.startsWith('/') ? `.${src}` : src
+    return `<img src="${cleanSrc}" alt="${escapeHtml(alt)}" />`
+  })
   out = out.replace(/`([^`]+)`/g, '<code class="hs-code">$1</code>')
   out = out.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
   out = out.replace(/(?<!\*)\*([^*]+)\*(?!\*)/g, '<em>$1</em>')
@@ -366,11 +410,10 @@ function renderInlineMarkdown(s: string): string {
   return out
 }
 
-// Transform Slidev rainbow Tailwind classes into clean Huashu-Design classes
 function sanitizeClassAttr(cls: string): string {
   const tokens = cls.split(/\s+/).filter(Boolean)
   const out: string[] = []
-  const hasRainbowBg = tokens.some((t) => /^bg-(blue|green|red|orange|purple|yellow|amber|indigo|pink|teal|cyan|emerald|rose|violet)-(50|100|200)$/.test(t))
+  const hasRainbowBg = tokens.some((t) => /^bg-(blue|green|red|orange|purple|yellow|amber|indigo|pink|teal|cyan|emerald|rose|violet|gray|slate)-(50|100|200)$/.test(t))
   const hasBorderAccent = tokens.some((t) => /^border-(l-4|2|blue|green|red|orange|purple|yellow|amber|indigo|pink)/.test(t))
   const isRed = tokens.some((t) => /red|rose/.test(t))
   const isGreenOrBlue = tokens.some((t) => /green|emerald|teal|blue/.test(t))
@@ -390,10 +433,13 @@ function sanitizeClassAttr(cls: string): string {
 
   for (const t of tokens) {
     if (t === 'grid') out.push('hs-grid')
+    else if (t === 'flex') out.push('hs-flex')
     else if (t === 'grid-cols-1') out.push('hs-cols-1')
     else if (t === 'grid-cols-2') out.push('hs-cols-2')
     else if (t === 'grid-cols-3') out.push('hs-cols-3')
     else if (t === 'grid-cols-4') out.push('hs-cols-4')
+    else if (t === 'grid-cols-5') out.push('hs-cols-5')
+    else if (t === 'grid-cols-6') out.push('hs-cols-6')
     else if (t === 'text-center') out.push('hs-center')
     else if (t === 'italic') out.push('hs-italic')
     else if (t === 'font-bold') out.push('hs-bold')
@@ -419,21 +465,28 @@ function renderMarkdownBlock(md: string, epDir: string, theme: ThemeSpec): strin
     return svg ? `<div class="hs-diagram">${svg}</div>` : ''
   })
 
-  // 2. Sanitize <div class="..."> and <span class="...">
+  // 2. Fix root-relative <img src="/foo.png"> → ./foo.png so it resolves under /poddeck/episodes/<id>/
+  text = text.replace(/<img([^>]*?)\bsrc=["']\/([^"']+)["']/gi, '<img$1src="./$2"')
+
+  // 3. Sanitize <div class="..."> and <span class="...">
   text = text.replace(/<(div|span|p)\s+class="([^"]*)"([^>]*)>/g, (_m, tag, cls, rest) => {
     const clean = sanitizeClassAttr(cls)
     return clean ? `<${tag} class="${clean}"${rest}>` : `<${tag}${rest}>`
   })
 
-  // 3. Process line by line for headings, lists, blockquotes, tables, paragraphs
+  // 4. Process line by line
   const lines = text.split(/\r?\n/)
   const out: string[] = []
   let inUl = false
+  let inOl = false
   let inTable = false
   let tableHeaderDone = false
+  let inCode = false
+  let codeLines: string[] = []
 
   const closeLists = () => {
     if (inUl) { out.push('</ul>'); inUl = false }
+    if (inOl) { out.push('</ol>'); inOl = false }
     if (inTable) { out.push('</tbody></table>'); inTable = false; tableHeaderDone = false }
   }
 
@@ -441,13 +494,31 @@ function renderMarkdownBlock(md: string, epDir: string, theme: ThemeSpec): strin
     const line = lines[i]
     const trimmed = line.trim()
 
+    // Fenced code blocks
+    if (trimmed.startsWith('```')) {
+      if (!inCode) {
+        closeLists()
+        inCode = true
+        codeLines = []
+      } else {
+        out.push(`<pre class="hs-pre"><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`)
+        inCode = false
+        codeLines = []
+      }
+      continue
+    }
+    if (inCode) {
+      codeLines.push(line)
+      continue
+    }
+
     if (!trimmed) {
       closeLists()
       continue
     }
 
-    // HTML tag lines pass through directly
-    if (/^<\/?(div|section|svg|img|table|tr|td|th|thead|tbody|figure|figcaption|br|hr|style|script)\b/i.test(trimmed)) {
+    // HTML & SVG tag lines pass through directly
+    if (/^<\/?(div|section|svg|path|rect|circle|ellipse|line|polyline|polygon|g|defs|marker|text|tspan|img|table|tr|td|th|thead|tbody|figure|figcaption|br|hr|style|script|pre|code|ul|ol|li)\b/i.test(trimmed)) {
       closeLists()
       out.push(trimmed)
       continue
@@ -456,6 +527,7 @@ function renderMarkdownBlock(md: string, epDir: string, theme: ThemeSpec): strin
     // Markdown table
     if (trimmed.startsWith('|') && trimmed.endsWith('|')) {
       if (inUl) { out.push('</ul>'); inUl = false }
+      if (inOl) { out.push('</ol>'); inOl = false }
       const cells = trimmed.slice(1, -1).split('|').map((c) => c.trim())
       if (cells.every((c) => /^[-:]+$/.test(c))) continue
       if (!inTable) {
@@ -496,21 +568,29 @@ function renderMarkdownBlock(md: string, epDir: string, theme: ThemeSpec): strin
     // Unordered list
     const liMatch = trimmed.match(/^[-*]\s+(.+)$/)
     if (liMatch) {
+      if (inOl) { out.push('</ol>'); inOl = false }
       if (!inUl) { out.push('<ul class="hs-list">'); inUl = true }
       out.push(`<li>${renderInlineMarkdown(liMatch[1])}</li>`)
       continue
     }
 
-    // Regular paragraph
+    // Ordered list
+    const olMatch = trimmed.match(/^\d+\.\s+(.+)$/)
+    if (olMatch) {
+      if (inUl) { out.push('</ul>'); inUl = false }
+      if (!inOl) { out.push('<ol class="hs-ol">'); inOl = true }
+      out.push(`<li>${renderInlineMarkdown(olMatch[1])}</li>`)
+      continue
+    }
+
     closeLists()
     out.push(`<p class="hs-p">${renderInlineMarkdown(trimmed)}</p>`)
   }
   closeLists()
+  if (inCode && codeLines.length > 0) {
+    out.push(`<pre class="hs-pre"><code>${escapeHtml(codeLines.join('\n'))}</code></pre>`)
+  }
   return out.join('\n')
-}
-
-function stripHtmlTags(s: string): string {
-  return s.replace(/<br\s*\/?>/gi, ' · ').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
 }
 
 function buildCoverSlide(meta: EpisodeMeta, firstSlideRaw: string, theme: ThemeSpec): string {
@@ -521,9 +601,12 @@ function buildCoverSlide(meta: EpisodeMeta, firstSlideRaw: string, theme: ThemeS
   const rawSub = lines.find((l) => l.startsWith('## ') || l.startsWith('### '))?.replace(/^#{2,3}\s+/, '')
     || (meta.summary ? meta.summary.split(/[。\n]/)[0].trim() : '')
   const subtitle = stripHtmlTags(rawSub)
+
   const fallbackUri = getFallbackCoverDataUri(theme.fallbackCover)
-  const thumb = meta.thumbnail || fallbackUri
-  const onErrorAttr = fallbackUri ? ` onerror="this.onerror=null;this.src='${fallbackUri}'"` : ''
+  const rawThumb = meta.thumbnail || ''
+  // Smart thumbnail chain: maxresdefault -> hqdefault -> bundled Huashu editorial illustration
+  const hqThumb = rawThumb.includes('maxresdefault.jpg') ? rawThumb.replace('maxresdefault.jpg', 'hqdefault.jpg') : ''
+  const thumb = rawThumb || fallbackUri
   const guestLine = [meta.guest, meta.guest_role].filter(Boolean).join(' · ')
   const pubLine = [meta.source?.toUpperCase(), meta.published].filter(Boolean).join(' · ')
 
@@ -537,7 +620,7 @@ function buildCoverSlide(meta: EpisodeMeta, firstSlideRaw: string, theme: ThemeS
     <div class="cover-split">
       <div class="cover-text">
         <div class="kicker">${escapeHtml(meta.source ? meta.source.toUpperCase() + ' · EPISODE DECK' : 'PODDECK MONOGRAPH')}</div>
-        <h1 class="cover-h1">${escapeHtml(stripLeadingEmoji(h1))}</h1>
+        <h1 class="cover-h1">${escapeHtml(h1)}</h1>
         ${subtitle ? `<p class="cover-sub">${escapeHtml(subtitle)}</p>` : ''}
         <div class="cover-meta">
           ${guestLine ? `<div class="cover-guest">${escapeHtml(guestLine)}</div>` : ''}
@@ -546,7 +629,7 @@ function buildCoverSlide(meta: EpisodeMeta, firstSlideRaw: string, theme: ThemeS
       </div>
       <div class="cover-visual">
         <div class="cover-plate">
-          <img src="${thumb}" alt="${escapeHtml(title)}"${onErrorAttr} />
+          <img class="hs-cover-img" src="${thumb}" data-hq="${hqThumb}" data-fallback="${fallbackUri}" alt="${escapeHtml(title)}" />
         </div>
       </div>
     </div>
@@ -569,11 +652,10 @@ function buildContentSlide(slide: RawSlide, idx: number, meta: EpisodeMeta, epDi
 </section>`
   }
 
-  // Extract first H1 as slide header so two-cols splits align cleanly under the title
   const raw = slide.raw
   const hasTwoCols = slide.layout === 'two-cols' || raw.includes('::right::')
   const charCount = raw.replace(/<[^>]+>/g, '').length
-  const denseClass = charCount > 520 ? ' is-dense' : ''
+  const denseClass = charCount > 460 ? ' is-dense' : ''
 
   let bodyHtml = ''
   if (hasTwoCols && raw.includes('::right::')) {
@@ -589,7 +671,7 @@ function buildContentSlide(slide: RawSlide, idx: number, meta: EpisodeMeta, epDi
 <section>
   <div class="slide${denseClass}">
     <div class="masthead">
-      <span>${escapeHtml(stripLeadingEmoji(meta.title || meta.id).slice(0, 64))}</span>
+      <span>${escapeHtml(stripHtmlTags(stripLeadingEmoji(meta.title || meta.id)).slice(0, 64))}</span>
       <span class="topic">${escapeHtml(theme.label)}</span>
     </div>
     <div class="slide-body">
@@ -625,6 +707,67 @@ export function injectBackHomeLink(html: string, siteBase: string): string {
 </style>`
   return html.replace('</body>', `${pill}\n</body>`)
 }
+
+// Runtime helpers embedded into every compiled deck:
+// 1. Auto-fallback cover image (handles both 404 errors and YouTube 120x90 gray placeholder)
+// 2. Auto-2-col layout for quote-heavy slides (5+ stacked quotes)
+// 3. Zero-overflow auto-fit guard for any extra-dense slide
+const RUNTIME_GUARD_JS = `
+(function() {
+  // 1. Cover image fallback (handles 404 + YouTube 120x90 gray placeholder)
+  function checkCover(img) {
+    const hq = img.getAttribute('data-hq');
+    const fb = img.getAttribute('data-fallback');
+    const isBroken = !img.complete || img.naturalWidth === 0 || (img.naturalWidth <= 120 && img.naturalHeight <= 90);
+    if (!isBroken) return;
+    if (hq && img.src !== hq && !img.dataset.triedHq) {
+      img.dataset.triedHq = '1';
+      img.src = hq;
+    } else if (fb && img.src !== fb) {
+      img.src = fb;
+    }
+  }
+  document.querySelectorAll('img.hs-cover-img').forEach(img => {
+    img.addEventListener('error', () => checkCover(img));
+    img.addEventListener('load', () => checkCover(img));
+    if (img.complete) checkCover(img);
+  });
+
+  // 2. Upgrade dense quote stacks (>=5 quotes) into 2-column grid
+  document.querySelectorAll('.hs-stack').forEach(stack => {
+    const quotes = stack.querySelectorAll(':scope > .hs-quote');
+    if (quotes.length >= 5) {
+      stack.classList.add('hs-quote-grid-2');
+    }
+  });
+
+  // 3. Auto-fit guard so no slide ever clips or overflows 1920x1080
+  function fitActiveSlide() {
+    const body = document.querySelector('deck-stage > section.active .slide-body');
+    if (!body) return;
+    const inner = body.firstElementChild;
+    if (!inner) return;
+    inner.style.transform = '';
+    inner.style.transformOrigin = '';
+    inner.style.width = '';
+    const availH = body.clientHeight - 40;
+    const needH = inner.scrollHeight;
+    if (availH > 0 && needH > availH) {
+      const ratio = Math.max(0.54, availH / needH);
+      inner.style.transformOrigin = 'top left';
+      inner.style.transform = 'scale(' + ratio.toFixed(4) + ')';
+      inner.style.width = (100 / ratio).toFixed(2) + '%';
+    }
+  }
+  window.addEventListener('message', (e) => {
+    if (e.data && typeof e.data.slideIndexChanged === 'number') {
+      requestAnimationFrame(fitActiveSlide);
+    }
+  });
+  window.addEventListener('load', () => setTimeout(fitActiveSlide, 60));
+  setTimeout(fitActiveSlide, 120);
+})();
+`
 
 export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, siteBase: string): string {
   const slidesPath = join(epDir, 'slides.md')
@@ -675,7 +818,7 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
   .slide {
     width: 1920px;
     height: 1080px;
-    padding: 64px 96px 68px;
+    padding: 60px 96px 72px;
     display: flex;
     flex-direction: column;
     background: var(--bg);
@@ -717,7 +860,7 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
   }
   .cover-h1 {
     font-family: var(--title-font);
-    font-size: 74px;
+    font-size: 72px;
     font-weight: 900;
     line-height: 1.12;
     letter-spacing: -0.025em;
@@ -760,13 +903,13 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
     display: block;
   }
 
-  /* Content layout */
+  /* Content layout: flex-start + safe auto-centering via margin */
   .slide-body {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-top: 26px;
+    justify-content: flex-start;
+    padding-top: 28px;
     min-height: 0;
     overflow: hidden;
   }
@@ -774,13 +917,14 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
     display: flex;
     flex-direction: column;
     gap: 16px;
+    margin: auto 0;
   }
   .two-cols {
     display: grid;
     grid-template-columns: 1.04fr 0.96fr;
     gap: 56px;
     align-items: center;
-    height: 100%;
+    margin: auto 0;
   }
   .col-left, .col-right {
     display: flex;
@@ -792,33 +936,17 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
   /* Typography */
   .hs-h1 {
     font-family: var(--title-font);
-    font-size: 52px;
+    font-size: 50px;
     font-weight: 900;
     line-height: 1.16;
     letter-spacing: -0.02em;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     color: var(--ink);
   }
-  .hs-h2 {
-    font-family: var(--title-font);
-    font-size: 34px;
-    font-weight: 800;
-    line-height: 1.25;
-    color: var(--ink);
-  }
-  .hs-h3 {
-    font-size: 26px;
-    font-weight: 800;
-    line-height: 1.3;
-    margin-bottom: 8px;
-    color: var(--ink);
-  }
-  .hs-p {
-    font-size: 24px;
-    line-height: 1.56;
-    color: var(--ink);
-  }
-  .hs-muted { color: var(--muted); font-size: 21px; }
+  .hs-h2 { font-family: var(--title-font); font-size: 34px; font-weight: 800; line-height: 1.25; color: var(--ink); }
+  .hs-h3 { font-size: 25px; font-weight: 800; line-height: 1.3; margin-bottom: 6px; color: var(--ink); }
+  .hs-p { font-size: 24px; line-height: 1.54; color: var(--ink); }
+  .hs-muted { color: var(--muted); font-size: 20px; }
   .hs-italic { font-style: italic; }
   .hs-bold { font-weight: 700; }
   .hs-center { text-align: center; }
@@ -829,20 +957,22 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
     color: var(--accent);
     padding: 2px 8px;
   }
+  .hs-pre {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--accent);
+    padding: 20px 24px;
+    font-family: var(--mono);
+    font-size: 19px;
+    line-height: 1.5;
+    overflow: hidden;
+    white-space: pre-wrap;
+    color: var(--ink);
+  }
 
   /* Lists */
-  .hs-list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .hs-list li {
-    font-size: 24px;
-    line-height: 1.52;
-    padding-left: 24px;
-    position: relative;
-  }
+  .hs-list { list-style: none; display: flex; flex-direction: column; gap: 13px; }
+  .hs-list li { font-size: 24px; line-height: 1.5; padding-left: 24px; position: relative; }
   .hs-list li::before {
     content: '';
     position: absolute;
@@ -852,65 +982,67 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
     height: 8px;
     background: var(--accent);
   }
+  .hs-ol { padding-left: 44px; list-style-position: outside; display: flex; flex-direction: column; gap: 12px; }
+  .hs-ol li { font-size: 24px; line-height: 1.5; color: var(--ink); }
+  .hs-ol li::marker { color: var(--accent); font-weight: 800; font-family: var(--mono); }
 
-  /* Grids & Clean Architectural Cards (Zero rainbow slop) */
-  .hs-grid { display: grid; gap: 24px; align-items: stretch; }
-  .hs-cols-1 { grid-template-columns: 1fr; gap: 16px; }
+  /* Grids & Clean Architectural Cards */
+  .hs-grid { display: grid; gap: 22px; align-items: stretch; }
+  .hs-flex { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; width: 100%; }
+  .hs-flex > .hs-diagram { width: 100%; flex: 1 1 100%; }
+  .hs-cols-1 { grid-template-columns: 1fr; gap: 14px; }
   .hs-cols-2 { grid-template-columns: repeat(2, 1fr); }
   .hs-cols-3 { grid-template-columns: repeat(3, 1fr); }
   .hs-cols-4 { grid-template-columns: repeat(4, 1fr); }
+  .hs-cols-5 { grid-template-columns: repeat(5, 1fr); }
+  .hs-cols-6 { grid-template-columns: repeat(6, 1fr); }
   .hs-stack { display: flex; flex-direction: column; gap: 14px; }
+  .hs-quote-grid-2 { display: grid !important; grid-template-columns: 1fr 1fr; gap: 18px 24px; }
   .hs-mt-sm { margin-top: 10px; }
-  .hs-mt-lg { margin-top: 20px; }
+  .hs-mt-lg { margin-top: 18px; }
   .hs-mb-sm { margin-bottom: 8px; }
 
   .hs-card {
     background: var(--card);
     border: 1px solid var(--line);
     border-top: 3px solid var(--ink);
-    padding: 24px 28px;
+    padding: 22px 26px;
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
-  .hs-card-accent {
-    background: var(--card);
-    border-top-color: var(--accent);
-  }
-  .hs-card-warn {
-    background: var(--card);
-    border-top-color: var(--warn);
-  }
-  .hs-card .hs-p, .hs-card li { font-size: 22px; line-height: 1.5; color: var(--muted); }
+  .hs-card-accent { background: var(--card); border-top-color: var(--accent); }
+  .hs-card-warn { background: var(--card); border-top-color: var(--warn); }
+  .hs-card .hs-p, .hs-card li { font-size: 21px; line-height: 1.48; color: var(--muted); }
   .hs-card strong { color: var(--ink); }
 
   .hs-quote {
     background: var(--tint);
     border-left: 4px solid var(--accent);
-    padding: 22px 28px;
+    padding: 18px 24px;
     font-family: var(--title-font);
-    font-size: 25px;
-    line-height: 1.48;
+    font-size: 23px;
+    line-height: 1.46;
     color: var(--ink);
   }
   .hs-quote-warn { border-left-color: var(--warn); }
 
-  .hs-stat-xl { font-size: 76px; font-weight: 900; color: var(--accent); line-height: 1.05; }
-  .hs-stat-lg { font-size: 46px; font-weight: 900; color: var(--accent); line-height: 1.1; }
+  .hs-stat-xl { font-size: 72px; font-weight: 900; color: var(--accent); line-height: 1.05; }
+  .hs-stat-lg { font-size: 44px; font-weight: 900; color: var(--accent); line-height: 1.1; }
 
   /* Tables */
   .hs-table { width: 100%; border-collapse: collapse; background: var(--card); border: 1px solid var(--line); }
   .hs-table th {
     text-align: left;
-    padding: 16px 20px;
+    padding: 14px 18px;
     font-family: var(--mono);
     font-size: 18px;
     border-bottom: 2px solid var(--ink);
     color: var(--accent);
   }
   .hs-table td {
-    padding: 14px 20px;
-    font-size: 21px;
+    padding: 12px 18px;
+    font-size: 20px;
     border-bottom: 1px solid var(--line);
     color: var(--ink);
   }
@@ -918,22 +1050,22 @@ export function compileEpisodeToHuashuHtml(epDir: string, meta: EpisodeMeta, sit
   /* Diagrams & Images */
   .hs-diagram { width: 100%; display: flex; justify-content: center; align-items: center; }
   .hs-excalidraw-svg { width: 100%; max-height: 680px; height: auto; display: block; }
-  .slide-body img { max-width: 100%; max-height: 640px; object-fit: contain; border: 1px solid var(--line); background: var(--card); }
+  .slide-body img { max-width: 100%; max-height: 620px; object-fit: contain; border: 1px solid var(--line); background: var(--card); }
 
-  /* Dense slide auto-compaction so text never overflows 1080px */
-  .is-dense .hs-h1 { font-size: 44px; margin-bottom: 4px; }
-  .is-dense .hs-h3 { font-size: 22px; margin-bottom: 4px; }
-  .is-dense .hs-p, .is-dense .hs-list li { font-size: 20px; line-height: 1.44; }
-  .is-dense .hs-card { padding: 18px 22px; gap: 6px; }
-  .is-dense .hs-card .hs-p, .is-dense .hs-card li { font-size: 19px; line-height: 1.42; }
-  .is-dense .hs-quote { padding: 16px 22px; font-size: 21px; }
+  /* Dense slide compaction */
+  .is-dense .hs-h1 { font-size: 42px; margin-bottom: 4px; }
+  .is-dense .hs-h3 { font-size: 21px; margin-bottom: 4px; }
+  .is-dense .hs-p, .is-dense .hs-list li, .is-dense .hs-ol li { font-size: 20px; line-height: 1.42; }
+  .is-dense .hs-card { padding: 16px 20px; gap: 6px; }
+  .is-dense .hs-card .hs-p, .is-dense .hs-card li { font-size: 19px; line-height: 1.4; }
+  .is-dense .hs-quote { padding: 14px 20px; font-size: 20px; }
   .is-dense .hs-grid { gap: 16px; }
   .is-dense .hs-stack { gap: 10px; }
 
   /* End slide */
   .slide-end { justify-content: center; align-items: center; text-align: center; }
   .end-inner { max-width: 1420px; display: flex; flex-direction: column; align-items: center; gap: 24px; }
-  .slide-end .hs-h1 { font-size: 68px; line-height: 1.2; }
+  .slide-end .hs-h1 { font-size: 66px; line-height: 1.2; }
   .end-rule { width: 80px; height: 3px; background: var(--accent); margin-top: 16px; }
 </style>
 </head>
@@ -943,6 +1075,7 @@ ${sections.join('\n')}
 </deck-stage>
 <script>
 ${DECK_STAGE_JS}
+${RUNTIME_GUARD_JS}
 </script>
 </body>
 </html>`
@@ -954,7 +1087,6 @@ export function buildHuashuEpisode(epDir: string, meta: EpisodeMeta, siteBase: s
   const distDir = join(epDir, 'dist')
   mkdirSync(distDir, { recursive: true })
 
-  // Copy public/ assets (for any episodes with custom ./art/*.png references)
   const pubDir = join(epDir, 'public')
   if (existsSync(pubDir)) {
     cpSync(pubDir, distDir, { recursive: true })
