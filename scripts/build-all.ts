@@ -7,11 +7,13 @@
 //
 // Usage: pnpm run build
 
+import { fileURLToPath } from 'node:url'
 import { resolve, join } from 'node:path'
-import { existsSync, mkdirSync, readdirSync, statSync, cpSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, cpSync, rmSync, writeFileSync } from 'node:fs'
 import { readYaml } from './lib/yaml-io.ts'
 import { run } from './lib/spawn.ts'
 import { log } from './lib/log.ts'
+import { buildHuashuEpisode } from './lib/huashu-deck.ts'
 import type { EpisodeMeta } from './lib/types.ts'
 
 const ROOT = process.cwd()
@@ -19,7 +21,39 @@ const EPISODES_DIR = resolve(ROOT, 'episodes')
 const LANDING_DIR = resolve(ROOT, 'landing')
 const DIST_DIR = resolve(ROOT, 'dist')
 
-async function buildEpisode(id: string, base: string): Promise<string | null> {
+const IGNORED_EPISODE_INPUT_DIRS = new Set(['dist', 'node_modules', '.slidev'])
+const IGNORED_EPISODE_INPUT_FILES = new Set(['index.html'])
+
+function latestInputMtimeMs(dir: string): number {
+  let latest = 0
+
+  for (const entry of readdirSync(dir, { withFileTypes: true })) {
+    if (IGNORED_EPISODE_INPUT_DIRS.has(entry.name)) continue
+    if (IGNORED_EPISODE_INPUT_FILES.has(entry.name)) continue
+
+    const path = join(dir, entry.name)
+    const stat = statSync(path)
+    if (entry.isDirectory()) {
+      latest = Math.max(latest, latestInputMtimeMs(path))
+      continue
+    }
+    if (entry.isFile()) {
+      latest = Math.max(latest, stat.mtimeMs)
+    }
+  }
+
+  return latest
+}
+
+export function shouldBuildEpisode(dir: string): boolean {
+  const indexPath = join(dir, 'dist', 'index.html')
+  if (!existsSync(indexPath)) return true
+
+  const distMtime = statSync(indexPath).mtimeMs
+  return latestInputMtimeMs(dir) > distMtime
+}
+
+async function buildEpisode(id: string, siteBase: string): Promise<string | null> {
   const dir = join(EPISODES_DIR, id)
   const metaPath = join(dir, 'meta.yml')
   if (!existsSync(metaPath)) {
@@ -32,21 +66,22 @@ async function buildEpisode(id: string, base: string): Promise<string | null> {
     return null
   }
 
-  log.info(`building ${id}`)
+  const distPath = join(dir, 'dist')
+  const indexPath = join(distPath, 'index.html')
+  const isAlreadyHuashu = existsSync(indexPath) && readFileSync(indexPath, 'utf-8').includes('<deck-stage')
+  if (isAlreadyHuashu && !shouldBuildEpisode(dir) && !process.env.FORCE_REBUILD) {
+    log.raw(`  skip ${id} (up to date)`)
+    return distPath
+  }
 
-  // slidev build needs the base path for correct asset URLs in final bundle
-  const { code, stderr } = await run('npx', [
-    'slidev', 'build',
-    '--base', base,
-    '--out', 'dist',
-  ], { cwd: dir, reject: false })
-
-  if (code !== 0) {
-    log.err(`  ${id} build failed: ${stderr.slice(0, 200)}`)
+  try {
+    buildHuashuEpisode(dir, meta, siteBase)
+    log.ok(`  ${id} built (huashu-design)`)
+    return distPath
+  } catch (e: any) {
+    log.err(`  ${id} build failed: ${e?.message || e}`)
     return null
   }
-  log.ok(`  ${id} built`)
-  return join(dir, 'dist')
 }
 
 async function buildLanding(): Promise<string> {
@@ -87,10 +122,10 @@ async function main() {
   mkdirSync(DIST_DIR, { recursive: true })
 
   // Build all episodes
-  log.step('Building episodes')
+  log.step('Building episodes (Huashu-Design unified-light single-file)')
   const episodeDists: { id: string; path: string }[] = []
   for (const ep of episodes) {
-    const distPath = await buildEpisode(ep.id, ep.base)
+    const distPath = await buildEpisode(ep.id, SITE_BASE)
     if (distPath) episodeDists.push({ id: ep.id, path: distPath })
   }
 
@@ -129,7 +164,9 @@ async function main() {
   log.info('serve locally with:  npx serve dist')
 }
 
-main().catch(e => {
-  log.err(e.stack || e.message)
-  process.exit(1)
-})
+if (resolve(process.argv[1] || '') === fileURLToPath(import.meta.url)) {
+  main().catch(e => {
+    log.err(e.stack || e.message)
+    process.exit(1)
+  })
+}

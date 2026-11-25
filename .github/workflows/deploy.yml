@@ -46,11 +46,8 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Install playwright-chromium browser binaries
-        run: pnpm exec playwright install --with-deps chromium
-
-      - name: Build all (slidev episodes + Astro landing)
-        run: pnpm run build
+      - name: Build all (Huashu-Design single-file decks + Astro landing)
+        run: FORCE_REBUILD=1 pnpm run build
 
       - name: Inject 404.html into root dist (SPA fallback)
         run: |
